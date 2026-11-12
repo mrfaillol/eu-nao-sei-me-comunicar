@@ -84,8 +84,11 @@ def _tags(resultado: dict) -> list[str]:
     return vistas
 
 
-def filtrar(resultados: list[dict], barrados: set[str]) -> list[dict]:
-    """Fica só o que pode entrar: CC0, do Freesound, de 2 a 20 s, com 3 tags ou mais e sem termo barrado."""
+def filtrar(resultados: list[dict], barrados: set[str], duracao_maxima_ms: int = DURACAO_MAXIMA_MS) -> list[dict]:
+    """Fica só o que pode entrar: CC0, do Freesound, de 2 a 20 s, com 3 tags ou mais e sem termo barrado.
+
+    O acervo conferido recorta o som em até 20 s. O ampliado toca o arquivo de origem inteiro e aceita até 30 s.
+    """
     padrao = re.compile(r"(?<![a-z])(" + "|".join(re.escape(b.lower()) for b in sorted(barrados)) + r")(?![a-z])") if barrados else None
     aceitos = []
     for r in resultados:
@@ -93,7 +96,7 @@ def filtrar(resultados: list[dict], barrados: set[str]) -> list[dict]:
         texto = " | ".join([(r.get("title") or "").lower().replace("_", " "), *tags])
         if r.get("license") != "cc0" or r.get("source") != "freesound" or r.get("mature"):
             continue
-        if not DURACAO_MINIMA_MS <= (r.get("duration") or 0) <= DURACAO_MAXIMA_MS or len(tags) < TAGS_MINIMAS:
+        if not DURACAO_MINIMA_MS <= (r.get("duration") or 0) <= duracao_maxima_ms or len(tags) < TAGS_MINIMAS:
             continue
         if padrao and padrao.search(texto):
             continue

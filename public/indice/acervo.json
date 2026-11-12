@@ -3364,6 +3364,2451 @@
    }
   },
   {
+   "id": "palavra:pt-BR:esperança",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "esperança",
+   "texto_humano": "hope",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "esperanca"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “esperança” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/esperan%C3%A7a"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Aguardamento de um bem que se deseja, e cuja realização se julga provável.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/esperan%C3%A7a"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:gratidão",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "gratidão",
+   "texto_humano": "gratitude, gratefulness",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "gratidao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “gratidão” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/gratid%C3%A3o"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Agradecimento; reconhecimento de um benefício que se recebe.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/gratid%C3%A3o"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:compaixão",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "compaixão",
+   "texto_humano": "compassion",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "compaixao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “compaixão” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/compaix%C3%A3o"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Pesar, dor, que em nós desperta o mal de outrem.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/compaix%C3%A3o"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:inveja",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "inveja",
+   "texto_humano": "envy",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "inveja"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “inveja” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/inveja"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Tristeza ou desgosto pela prosperidade ou fortuna alheia.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/inveja"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:ciúme",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "ciúme",
+   "texto_humano": "jealousy",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "inveja"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “ciúme” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/ci%C3%BAme"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Zelos amorosos.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/ci%C3%BAme"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:raiva",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "raiva",
+   "texto_humano": "anger (a strong feeling of displeasure, hostility or antagonism towards someone or something)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "raiva"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “raiva” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/raiva"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Fúria; grande irritação.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/raiva"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:ira",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "ira",
+   "texto_humano": "anger, rage (a strong feeling of displeasure, hostility or antagonism towards someone or something)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "raiva"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “ira” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/ira"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Raiva, cólera.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/ira"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:fúria",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "fúria",
+   "texto_humano": "rage",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "raiva"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “fúria” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/f%C3%BAria"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Furor, ira, raiva.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/f%C3%BAria"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:medo",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "medo",
+   "texto_humano": "fear (emotion caused by actual or perceived danger or threat)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “medo” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/medo"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "temor, apreensão, sensação de insegurança desesperadora quanto a qualquer momento futuro",
+    "classe": "s.",
+    "pronuncia": "",
+    "fonte": "wikcionario-pt",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://pt.wiktionary.org/wiki/medo"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:pavor",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "pavor",
+   "texto_humano": "intense fear, dread",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “pavor” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/pavor"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Grande susto; terror.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/pavor"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:temor",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "temor",
+   "texto_humano": "fear (emotion caused by actual or perceived danger or threat)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “temor” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/temor"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Medo, susto.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/temor"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:susto",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "susto",
+   "texto_humano": "fright, scare",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “susto” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/susto"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Medo repentino.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/susto"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:luto",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "luto",
+   "texto_humano": "mourning (sorrow over someone’s death)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "luto"
+   ],
+   "tema_sensivel": true,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “luto” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/luto"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Sentimento ou pesar pela morte de alguém.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/luto"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:nostalgia",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "nostalgia",
+   "texto_humano": "nostalgia (yearning for the past)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "nostalgia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “nostalgia” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/nostalgia"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Abatimento ou tristeza profunda, resultante das saudades da pátria.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/nostalgia"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:lembrança",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "lembrança",
+   "texto_humano": "memory (stored record in one’s memory)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "memoria_autobiografica"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “lembrança” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/lembran%C3%A7a"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Recordação: lembranças do passado.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/lembran%C3%A7a"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:recordação",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "recordação",
+   "texto_humano": "memory, recollection",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "memoria_autobiografica"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “recordação” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/recorda%C3%A7%C3%A3o"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Memória; lembrança.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/recorda%C3%A7%C3%A3o"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:solidão",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "solidão",
+   "texto_humano": "loneliness (quality of being lonely)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "solidao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “solidão” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/solid%C3%A3o"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Estado do que está só.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/solid%C3%A3o"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:desamparo",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "desamparo",
+   "texto_humano": "abandoning",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "solidao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “desamparo” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/desamparo"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Falta de amparo.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/desamparo"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:abandono",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "abandono",
+   "texto_humano": "the state of abandonment",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "solidao",
+    "ostracismo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “abandono” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/abandono"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Desamparo, desabrigo.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/abandono"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:recolhimento",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "recolhimento",
+   "texto_humano": "retraction; withdrawal (the act of pulling back inside)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "solitude"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “recolhimento” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/recolhimento"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Recato; vida concentrada; meditação.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/recolhimento"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:calma",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "calma",
+   "texto_humano": "calm",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "restauracao_da_atencao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “calma” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/calma"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Serenidade.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/calma"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:serenidade",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "serenidade",
+   "texto_humano": "serenity (state of being serene, calm)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "restauracao_da_atencao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “serenidade” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/serenidade"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Qualidade ou estado do que é sereno; tranquilidade; paz; suavidade.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/serenidade"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:tédio",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "tédio",
+   "texto_humano": "boredom; tedium (state of being bored)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "tedio"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “tédio” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/t%C3%A9dio"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Aborrecimento; enfado; desgosto.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/t%C3%A9dio"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:fastio",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "fastio",
+   "texto_humano": "tedium (boredom or tediousness; ennui)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "tedio"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “fastio” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/fastio"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Tédio; aborrecimento.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/fastio"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:rotina",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "rotina",
+   "texto_humano": "routine (all senses)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "habituacao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “rotina” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/rotina"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Prática constante, uso geral.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/rotina"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:costume",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "costume",
+   "texto_humano": "custom; habit (common or frequently repeated behavior)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "habituacao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “costume” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/costume"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Uso; prática geralmente observada.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/costume"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:assombro",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "assombro",
+   "texto_humano": "astonishment",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "assombro"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “assombro” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/assombro"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Admiração excessiva; espanto.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/assombro"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:maravilha",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "maravilha",
+   "texto_humano": "wonder; marvel (something that causes amazement or awe)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "assombro"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “maravilha” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/maravilha"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Acto ou coisa extraordinária, que produz admiração.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/maravilha"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:curiosidade",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "curiosidade",
+   "texto_humano": "curiosity; inquisitiveness (the tendency to want to investigate things)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "curiosidade"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “curiosidade” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/curiosidade"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "desejo de saber ou ver",
+    "classe": "s.",
+    "pronuncia": "",
+    "fonte": "wikcionario-pt",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://pt.wiktionary.org/wiki/curiosidade"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:acolhimento",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "acolhimento",
+   "texto_humano": "welcome",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "pertencimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “acolhimento” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/acolhimento"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Acto e efeito de acolher.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/acolhimento"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:fraternidade",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "fraternidade",
+   "texto_humano": "brotherhood",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "pertencimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “fraternidade” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/fraternidade"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "União ou convivência, como de irmãos.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/fraternidade"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:afeto",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "afeto",
+   "texto_humano": "affection, fondness",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “afeto” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/afeto"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "sentimento de amizade e ternura para com outrem; afeição; amor",
+    "classe": "s.",
+    "pronuncia": "",
+    "fonte": "wikcionario-pt",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://pt.wiktionary.org/wiki/afeto"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:apego",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "apego",
+   "texto_humano": "affection",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “apego” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/apego"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "ligação afetiva; estima, afeição",
+    "classe": "s.",
+    "pronuncia": "",
+    "fonte": "wikcionario-pt",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://pt.wiktionary.org/wiki/apego"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:amizade",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "amizade",
+   "texto_humano": "friendship",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "apego",
+    "pertencimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “amizade” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/amizade"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Sentimento de quem é amigo.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/amizade"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:empatia",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "empatia",
+   "texto_humano": "empathy (capacity to understand another person’s point of view or feelings)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "empatia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “empatia” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/empatia"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "comunhão positiva pela qual um sujeito se identifica com outro",
+    "classe": "s.",
+    "pronuncia": "",
+    "fonte": "wikcionario-pt",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://pt.wiktionary.org/wiki/empatia"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:piedade",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "piedade",
+   "texto_humano": "pity, compassion, mercy",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "compaixao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “piedade” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/piedade"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Compaixão; sentimento, despertado pelos sofrimentos alheios e que nos leva a mitigá-los ou a desejar remediá-los.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/piedade"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:misericórdia",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "misericórdia",
+   "texto_humano": "mercy (blessing)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "compaixao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “misericórdia” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/miseric%C3%B3rdia"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Compaixão, despertada pela miséria alheia.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/miseric%C3%B3rdia"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:vexame",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "vexame",
+   "texto_humano": "embarrassment; an instance of shame or vexation",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "constrangimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “vexame” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/vexame"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Aquilo que produz vexação; vergonha; afronta.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/vexame"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:embaraço",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "embaraço",
+   "texto_humano": "embarrassment",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "constrangimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “embaraço” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/embara%C3%A7o"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Perturbação de espírito.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/embara%C3%A7o"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:exílio",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "exílio",
+   "texto_humano": "exile",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "ostracismo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “exílio” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/ex%C3%ADlio"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Degredo, desterro.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/ex%C3%ADlio"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:desterro",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "desterro",
+   "texto_humano": "exile (the state of being banished from one's home or country)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "ostracismo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “desterro” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/desterro"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "pena de expulsão da terra",
+    "classe": "s.",
+    "pronuncia": "",
+    "fonte": "wikcionario-pt",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://pt.wiktionary.org/wiki/desterro"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:rejeição",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "rejeição",
+   "texto_humano": "rejection",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "ostracismo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “rejeição” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/rejei%C3%A7%C3%A3o"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Acto ou efeito de rejeitar.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/rejei%C3%A7%C3%A3o"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:alegria",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "alegria",
+   "texto_humano": "joy, happiness",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “alegria” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/alegria"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Contentamento; prazer moral.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/alegria"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:contentamento",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "contentamento",
+   "texto_humano": "contentment",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “contentamento” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/contentamento"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Alegria.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/contentamento"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:euforia",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "euforia",
+   "texto_humano": "euphoria (an excited state of joy)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “euforia” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/euforia"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Sensação de bem-estar.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/euforia"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:alvoroço",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "alvoroço",
+   "texto_humano": "agitation; turmoil; bustle; ruckus (frenetic, chaotic activity)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "sobrecarga_sensorial",
+    "contagio_emocional"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “alvoroço” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/alvoro%C3%A7o"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "agitação, sobressalto",
+    "classe": "s.",
+    "pronuncia": "",
+    "fonte": "wikcionario-pt",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://pt.wiktionary.org/wiki/alvoro%C3%A7o"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:tumulto",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "tumulto",
+   "texto_humano": "tumult",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "sobrecarga_sensorial"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “tumulto” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/tumulto"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Movimento desordenado.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/tumulto"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:algazarra",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "algazarra",
+   "texto_humano": "racket (loud noise)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "contagio_emocional"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “algazarra” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/algazarra"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Vozearia; assuada; clamor.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/algazarra"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:folia",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "folia",
+   "texto_humano": "merrymaking. merriment",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "contagio_emocional"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “folia” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/folia"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Dança rápida, ao som do pandeiro.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/folia"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:arrependimento",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "arrependimento",
+   "texto_humano": "regret",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "arrependimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “arrependimento” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/arrependimento"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Acto de arrepender-se.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/arrependimento"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:culpa",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "culpa",
+   "texto_humano": "guilt",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "arrependimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “culpa” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/culpa"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Consequência de se ter feito o que se não devia fazer.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/culpa"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:hesitação",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "hesitação",
+   "texto_humano": "hesitation (act of hesitating)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "ambivalencia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “hesitação” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/hesita%C3%A7%C3%A3o"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Estado de quem hesita; indecisão.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/hesita%C3%A7%C3%A3o"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:dúvida",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "dúvida",
+   "texto_humano": "doubt, uncertainty",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "ambivalencia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “dúvida” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/d%C3%BAvida"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Incerteza acerca da realidade de um facto ou da verdade de uma asserção; hesitação.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/d%C3%BAvida"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:vigília",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "vigília",
+   "texto_humano": "vigil (watch kept during the night)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "vigilancia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “vigília” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/vig%C3%ADlia"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Desvelo, cuidado.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/vig%C3%ADlia"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:cautela",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "cautela",
+   "texto_humano": "caution (careful attention, prudence)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "vigilancia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “cautela” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/cautela"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Cuidado, para evitar um mal; precaução.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/cautela"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:desconfiança",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "desconfiança",
+   "texto_humano": "mistrust, distrust, suspicion",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "vigilancia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “desconfiança” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/desconfian%C3%A7a"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Falta de confiança.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/desconfian%C3%A7a"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:fome",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "fome",
+   "texto_humano": "hunger (need or compelling desire for food)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "interocepcao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “fome” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/fome"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Grande apetite de comer.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/fome"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:cansaço",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "cansaço",
+   "texto_humano": "fatigue, tiredness, weariness",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "interocepcao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “cansaço” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/cansa%C3%A7o"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Fadiga, fraqueza, produzida por exercício demasiado ou doença.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/cansa%C3%A7o"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:fadiga",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "fadiga",
+   "texto_humano": "fatigue, weariness",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "interocepcao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “fadiga” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/fadiga"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Cansaço, resultante de trabalho excessivo.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/fadiga"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:tontura",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "tontura",
+   "texto_humano": "dizziness, vertigo",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "interocepcao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “tontura” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/tontura"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Perturbação de cabeça; vertigem; estonteamento.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/tontura"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:distração",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "distração",
+   "texto_humano": "distraction",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "divagacao_mental"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “distração” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/distra%C3%A7%C3%A3o"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "falta de atenção",
+    "classe": "s.",
+    "pronuncia": "",
+    "fonte": "wikcionario-pt",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://pt.wiktionary.org/wiki/distra%C3%A7%C3%A3o"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:fantasia",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "fantasia",
+   "texto_humano": "fantasy (imagining)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "divagacao_mental"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “fantasia” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/fantasia"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Imaginação.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/fantasia"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:estranheza",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "estranheza",
+   "texto_humano": "strangeness, weirdness",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "alienacao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “estranheza” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/estranheza"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Admiração, impressão, produzida pelo que é estranho.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/estranheza"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:desordem",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "desordem",
+   "texto_humano": "disorder",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "anomia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “desordem” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/desordem"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Falta de ordem.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/desordem"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:concentração",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "concentração",
+   "texto_humano": "concentration (all senses)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "fluxo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “concentração” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/concentra%C3%A7%C3%A3o"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Acto ou efeito de concentrar.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/concentra%C3%A7%C3%A3o"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:torrão",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "torrão",
+   "texto_humano": "homeland",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "apego_ao_lugar"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “torrão” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/torr%C3%A3o"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Território.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/torr%C3%A3o"
+   }
+  },
+  {
    "id": "palavra:en:wistful",
    "tipo": "palavra",
    "classe_semiotica": "simbolo",
@@ -4259,6 +6704,2081 @@
     "fonte": "wikcionario-en",
     "licenca": "CC-BY-SA-4.0",
     "url": "https://en.wiktionary.org/wiki/torn"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:gratitude",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "gratitude",
+   "texto_humano": "The state of being grateful.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "gratidao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": 0.7132,
+    "ativacao": 0.5536,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “gratitude” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/gratitude"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:compassion",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "compassion",
+   "texto_humano": "Deep awareness of the suffering of others that people have to the point of them being motivated to relieve such states.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "compaixao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “compassion” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/compassion"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:envy",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "envy",
+   "texto_humano": "Resentful desire of something possessed by another or others (but not limited to material possessions). .mw-parser-output .defdate{font-size:smaller}",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "inveja"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “envy” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/envy"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:jealousy",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "jealousy",
+   "texto_humano": "A state of being jealous; a jealous attitude.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "inveja"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.7,
+    "ativacao": 0.5661,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “jealousy” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/jealousy"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:anger",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "anger",
+   "texto_humano": "A strong and unpleasant feeling of displeasure, hostility, or antagonism, usually combined with an urge to yell, curse, damage or destroy things, or harm living beings, often stemming from perceived provocation, hurt, threat, insults, unfair or unjust treatment, or an undesired situation.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "raiva"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.6178,
+    "ativacao": 0.5795,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “anger” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/anger"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:rage",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "rage",
+   "texto_humano": "Violent uncontrolled anger.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "raiva"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.7358,
+    "ativacao": 0.6857,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “rage” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/rage"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:fury",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "fury",
+   "texto_humano": "Extreme anger.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "raiva"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.6428,
+    "ativacao": 0.5992,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “fury” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/fury"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:fear",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "fear",
+   "texto_humano": "A strong, unpleasant emotion or feeling caused by actual or perceived danger or threat.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.6102,
+    "ativacao": 0.5214,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “fear” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/fear"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:terror",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "terror",
+   "texto_humano": "Intense dread, fright, or fear.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.8307,
+    "ativacao": 0.5992,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “terror” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/terror"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:fright",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "fright",
+   "texto_humano": "A state of terror excited by the sudden appearance of danger; sudden and violent fear, usually of short duration; a sudden alarm.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.5155,
+    "ativacao": 0.6954,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “fright” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/fright"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:grief",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "grief",
+   "texto_humano": "Emotional pain, generally arising from misfortune, significant personal loss, bereavement, misconduct of oneself or others, etc.; sorrow; sadness.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "luto"
+   ],
+   "tema_sensivel": true,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.7648,
+    "ativacao": 0.4844,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “grief” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/grief"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:mourning",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "mourning",
+   "texto_humano": "Specifically, the act of expressing or feeling grief regarding a death or loss.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "luto"
+   ],
+   "tema_sensivel": true,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “mourning” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/mourning"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:sorrow",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "sorrow",
+   "texto_humano": "unhappiness, woe",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "luto"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.7348,
+    "ativacao": 0.3321,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “sorrow” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/sorrow"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:homesickness",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "homesickness",
+   "texto_humano": "The characteristic of being homesick; a strong, sad feeling of missing one's home (and often left-behind loved ones, such as family and friends) when physically away.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "nostalgia",
+    "apego_ao_lugar"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “homesickness” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/homesickness"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:remembrance",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "remembrance",
+   "texto_humano": "The act of remembering; a holding in mind, or bringing to mind; recollection.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "memoria_autobiografica"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “remembrance” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/remembrance"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:keepsake",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "keepsake",
+   "texto_humano": "An object given by a person and retained in memory of something or someone; something kept for sentimental or nostalgic reasons.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "memoria_autobiografica"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “keepsake” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/keepsake"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:loneliness",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "loneliness",
+   "texto_humano": "A feeling of depression resulting from being alone or from having no companions.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "solidao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “loneliness” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/loneliness"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:solitude",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "solitude",
+   "texto_humano": "Aloneness; the state of being alone, solitary, or by oneself.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "solitude"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “solitude” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/solitude"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:seclusion",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "seclusion",
+   "texto_humano": "The state of being secluded or shut out, as from company, society, the world, etc.; solitude.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "solitude"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “seclusion” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/seclusion"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:calm",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "calm",
+   "texto_humano": "Peaceful, quiet, especially free from anger and anxiety.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "restauracao_da_atencao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": 0.5857,
+    "ativacao": 0.3429,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “calm” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/calm"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:serenity",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "serenity",
+   "texto_humano": "The state of being serene; calmness; peacefulness.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "restauracao_da_atencao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “serenity” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/serenity"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:boredom",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "boredom",
+   "texto_humano": "An instance or period of being bored; a bored state.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "tedio"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.6428,
+    "ativacao": 0.1821,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “boredom” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/boredom"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:tedium",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "tedium",
+   "texto_humano": "Boredom or tediousness; ennui.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "tedio"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “tedium” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/tedium"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:routine",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "routine",
+   "texto_humano": "A course of action to be followed regularly; a standard procedure.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "habituacao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “routine” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/routine"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:habit",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "habit",
+   "texto_humano": "An action performed repeatedly and automatically, usually without awareness.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "habituacao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.072,
+    "ativacao": 0.3048,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “habit” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/habit"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:awe",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "awe",
+   "texto_humano": "A feeling of fear and reverence.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "assombro"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": 0.5857,
+    "ativacao": 0.7071,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “awe” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/awe"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:wonder",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "wonder",
+   "texto_humano": "A sense of awe, astonishment and curiosity, inspired by unexpected events, novel experiences and inexplicable circumstances, sometimes accompanied by surprise, shock or reverence.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "assombro"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": 0.5625,
+    "ativacao": 0.6895,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “wonder” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/wonder"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:marvel",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "marvel",
+   "texto_humano": "Wonder, astonishment.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "assombro"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": 0.5785,
+    "ativacao": 0.6434,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “marvel” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/marvel"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:curiosity",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "curiosity",
+   "texto_humano": "Inquisitiveness; the tendency to ask and learn about things by asking questions, investigating, or exploring. .mw-parser-output .defdate{font-size:smaller}",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "curiosidade"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “curiosity” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/curiosity"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:belonging",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "belonging",
+   "texto_humano": "The feeling that one belongs.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "pertencimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “belonging” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/belonging"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:kinship",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "kinship",
+   "texto_humano": "Relation or connection by blood, marriage or adoption.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "pertencimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “kinship” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/kinship"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:fellowship",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "fellowship",
+   "texto_humano": "A feeling of friendship, relatedness or connection between people.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "pertencimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “fellowship” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/fellowship"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:attachment",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "attachment",
+   "texto_humano": "A strong bonding with or fondness for someone or something.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “attachment” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/attachment"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:tenderness",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "tenderness",
+   "texto_humano": "A tendency to express warm, compassionate feelings.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “tenderness” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/tenderness"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:empathy",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "empathy",
+   "texto_humano": "Identification with or understanding of the thoughts, feelings, or emotional state of another person.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "empatia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": 0.5662,
+    "ativacao": 0.5477,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “empathy” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/empathy"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:sympathy",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "sympathy",
+   "texto_humano": "A feeling of pity or sorrow for the suffering or distress of another.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "compaixao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": 0.272,
+    "ativacao": 0.5367,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “sympathy” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/sympathy"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:pity",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "pity",
+   "texto_humano": "A feeling of sympathy at the misfortune or suffering of someone or something.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "compaixao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.4435,
+    "ativacao": 0.3144,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “pity” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/pity"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:mercy",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "mercy",
+   "texto_humano": "Forgiveness or compassion, especially toward those less fortunate.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "compaixao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": 0.3073,
+    "ativacao": 0.4964,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “mercy” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/mercy"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:embarrassment",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "embarrassment",
+   "texto_humano": "A state of discomfort arising from bashfulness or consciousness of having violated a social rule; humiliation.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "constrangimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.6855,
+    "ativacao": 0.4811,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “embarrassment” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/embarrassment"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:shame",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "shame",
+   "texto_humano": "An uncomfortable or painful feeling due to recognition or consciousness of one's own impropriety or dishonor, or something being exposed that should have been kept private.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "constrangimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.6765,
+    "ativacao": 0.3714,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “shame” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/shame"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:awkwardness",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "awkwardness",
+   "texto_humano": "The quality of an embarrassing situation.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "constrangimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “awkwardness” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/awkwardness"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:exile",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "exile",
+   "texto_humano": "The state of being banished from one's home or country.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "ostracismo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “exile” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/exile"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:rejection",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "rejection",
+   "texto_humano": "The state of being rejected.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "ostracismo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “rejection” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/rejection"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:outcast",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "outcast",
+   "texto_humano": "One that has been excluded from a society or a system, a pariah, a leper.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "ostracismo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.664,
+    "ativacao": 0.3594,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “outcast” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/outcast"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:joy",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "joy",
+   "texto_humano": "A feeling of extreme happiness or cheerfulness, especially related to the acquisition or expectation of something good.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": 0.7652,
+    "ativacao": 0.7426,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “joy” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/joy"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:delight",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "delight",
+   "texto_humano": "Joy; pleasure.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": 0.7647,
+    "ativacao": 0.7614,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “delight” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/delight"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:glee",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "glee",
+   "texto_humano": "Joy; happiness; great delight, especially from one's own good fortune or from another's misfortune.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": 0.6545,
+    "ativacao": 0.6552,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “glee” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/glee"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:elation",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "elation",
+   "texto_humano": "A feeling of joy and pride.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": 0.7348,
+    "ativacao": 0.6894,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “elation” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/elation"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:commotion",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "commotion",
+   "texto_humano": "An agitated disturbance or a hubbub.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "sobrecarga_sensorial"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “commotion” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/commotion"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:uproar",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "uproar",
+   "texto_humano": "Loud, confused noise, especially when coming from several sources.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "sobrecarga_sensorial"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “uproar” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/uproar"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:revelry",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "revelry",
+   "texto_humano": "Joyful or riotous merry-making.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "contagio_emocional"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “revelry” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/revelry"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:regret",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "regret",
+   "texto_humano": "Emotional pain on account of something done or experienced in the past, with a wish that it had been different; a looking back with dissatisfaction or with longing.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "arrependimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.65,
+    "ativacao": 0.3309,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “regret” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/regret"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:remorse",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "remorse",
+   "texto_humano": "A feeling of regret or sadness for doing wrong or sinning.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "arrependimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.3015,
+    "ativacao": 0.3182,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “remorse” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/remorse"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:guilt",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "guilt",
+   "texto_humano": "Regret for having done wrong.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "arrependimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.6765,
+    "ativacao": 0.4531,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “guilt” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/guilt"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:hesitation",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "hesitation",
+   "texto_humano": "Doubt; vacillation.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "ambivalencia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.4265,
+    "ativacao": 0.4062,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “hesitation” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/hesitation"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:vigilance",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "vigilance",
+   "texto_humano": "Alert watchfulness.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "vigilancia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": 0.2243,
+    "ativacao": 0.5625,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “vigilance” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/vigilance"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:caution",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "caution",
+   "texto_humano": "Prudence when faced with, or when expecting to face, danger; care taken in order to avoid risk or harm.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "vigilancia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.1927,
+    "ativacao": 0.55,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “caution” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/caution"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:wariness",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "wariness",
+   "texto_humano": "vigilance or the condition of being alert",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "vigilancia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “wariness” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/wariness"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:hunger",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "hunger",
+   "texto_humano": "A need or compelling desire for food.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "interocepcao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “hunger” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/hunger"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:fatigue",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "fatigue",
+   "texto_humano": "A weariness caused by exertion; exhaustion.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "interocepcao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.586,
+    "ativacao": 0.2226,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “fatigue” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/fatigue"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:weariness",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "weariness",
+   "texto_humano": "Exhaustion, fatigue or tiredness.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "interocepcao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “weariness” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/weariness"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:dizziness",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "dizziness",
+   "texto_humano": "The state of being dizzy; the sensation of instability.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "interocepcao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “dizziness” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/dizziness"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:daydream",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "daydream",
+   "texto_humano": "A spontaneous series of thoughts while awake not connected to immediate reality.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "divagacao_mental"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “daydream” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/daydream"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:reverie",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "reverie",
+   "texto_humano": "A state of dreaming while awake; a loose or irregular train of thought; musing or meditation; daydream. .mw-parser-output .defdate{font-size:smaller}",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "divagacao_mental"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “reverie” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/reverie"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:estrangement",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "estrangement",
+   "texto_humano": "The act of estranging; the act of alienating; alienation.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "alienacao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “estrangement” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/estrangement"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:disorder",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "disorder",
+   "texto_humano": "Absence of order; state of not being arranged in an orderly manner.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "anomia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “disorder” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/disorder"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:homeland",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "homeland",
+   "texto_humano": "The country that one regards as home.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "apego_ao_lugar"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “homeland” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/homeland"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:hometown",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "hometown",
+   "texto_humano": "An individual’s place of birth, childhood home, or place of main residence.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "apego_ao_lugar"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “hometown” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/hometown"
    },
    "revisao": {
     "humana": "pendente",
@@ -5377,6 +9897,2670 @@
     "fonte": "moedict",
     "licenca": "CC-BY-ND-3.0-TW",
     "url": "https://www.moedict.tw/%E5%93%80%E6%88%9A"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:高兴",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "高兴",
+   "texto_humano": "happy",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “高兴” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "歡喜、愉快。",
+    "classe": "",
+    "pronuncia": "gāo xìng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E9%AB%98%E8%88%88"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:欣喜",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "欣喜",
+   "texto_humano": "joyful",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “欣喜” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "快樂喜悅。《左傳．哀公二十年》：「諸夏之人，莫不欣喜。」《三國演義》第八回：「布欣喜無限，頻以目視貂蟬，貂蟬亦以秋波送情。」也作「欣忭」。",
+    "classe": "",
+    "pronuncia": "xīn xǐ",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%AC%A3%E5%96%9C"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:兴高采烈",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "兴高采烈",
+   "texto_humano": "elated",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “兴高采烈” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "本指文章旨趣高超，辭采峻切犀利。語本南朝梁．劉勰《文心雕龍．體性》：「叔夜俊俠，故興高而采烈。」後以興高采烈形容興致勃勃，情緒熱烈的樣子。《老殘遊記二編》第七回：「老殘以為他一定樂從，所以說得十分興高采烈。」《官場現形記》第一三回：「幸虧一個文七爺，興高采烈，一檯吃完，忙吩咐擺他那一檯。」",
+    "classe": "",
+    "pronuncia": "xìng gāo cǎi liè",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E8%88%88%E9%AB%98%E9%87%87%E7%83%88"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:愉悦",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "愉悦",
+   "texto_humano": "gladder",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “愉悦” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "快樂、喜悅。《文選．謝靈運．石壁精舍還湖中作詩》：「披拂趨南逕，愉悅偃東扉。」唐．儲光羲〈同房憲部應旋〉詩：「憲卿文昌歸，愉悅來晤語。」也作「愉樂」。",
+    "classe": "",
+    "pronuncia": "yú yuè",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%84%89%E6%82%85"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:欣慰",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "欣慰",
+   "texto_humano": "pleased",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “欣慰” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "既高興又安慰。",
+    "classe": "",
+    "pronuncia": "xīn wèi",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%AC%A3%E6%85%B0"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:开心",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "开心",
+   "texto_humano": "happy",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “开心” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "快樂、高興。",
+    "classe": "",
+    "pronuncia": "kāi xīn",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E9%96%8B%E5%BF%83"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:欢乐",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "欢乐",
+   "texto_humano": "joyous",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “欢乐” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "歡喜快樂。《莊子．漁父》：「飲酒則歡樂，處喪則悲哀。」《三國演義》第一一二回：「近來朝廷溺於酒色，信任中貴黃皓，不理國事，只圖歡樂。」也作「歡娛」。",
+    "classe": "",
+    "pronuncia": "huān lè",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%AD%A1%E6%A8%82"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:快乐",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "快乐",
+   "texto_humano": "gladsome",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “快乐” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "愉悅歡樂。",
+    "classe": "",
+    "pronuncia": "kuài lè",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%BF%AB%E6%A8%82"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:愤恨",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "愤恨",
+   "texto_humano": "indignantly resent",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "raiva"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “愤恨” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "憤慨痛恨。",
+    "classe": "",
+    "pronuncia": "fèn hèn",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%86%A4%E6%81%A8"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:盛怒",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "盛怒",
+   "texto_humano": "very rage",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "raiva"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “盛怒” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "大怒。",
+    "classe": "",
+    "pronuncia": "shèng nù",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E7%9B%9B%E6%80%92"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:愤慨",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "愤慨",
+   "texto_humano": "indignant",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "raiva"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “愤慨” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "憤怒而慨嘆。",
+    "classe": "",
+    "pronuncia": "fèn kǎi",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%86%A4%E6%85%A8"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:愤怒",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "愤怒",
+   "texto_humano": "wrathful",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "raiva"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “愤怒” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "生氣、發怒。",
+    "classe": "",
+    "pronuncia": "fèn nù",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%86%A4%E6%80%92"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:生气",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "生气",
+   "texto_humano": "get angry",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "raiva"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “生气” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "發怒。",
+    "classe": "",
+    "pronuncia": "shēng qì",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E7%94%9F%E6%B0%A3"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:怒火",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "怒火",
+   "texto_humano": "fury",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "raiva"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “怒火” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "如火焰般強烈的憤怒情緒。",
+    "classe": "",
+    "pronuncia": "nù huǒ",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%80%92%E7%81%AB"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:嫉妒",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "嫉妒",
+   "texto_humano": "be jealous of",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "inveja"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “嫉妒” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "因他人勝過自己而心生妒恨的心理狀態。",
+    "classe": "",
+    "pronuncia": "jí dù",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%AB%89%E5%A6%92"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:妒忌",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "妒忌",
+   "texto_humano": "envy",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "inveja"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “妒忌” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "憎恨他人勝過自己。《大宋宣和遺事．貞集》：「留汝宮中，外有父兄之讎，內有妒忌之意，一旦禍起，吾悔何及！」《老殘遊記》第一三回：「比我強的他瞧不起我，所以不能同他說話；那不如我的又要妒忌我，又不能同他說話。」也作「妒嫉」。",
+    "classe": "",
+    "pronuncia": "dù jì",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%A6%92%E5%BF%8C"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:羡慕",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "羡慕",
+   "texto_humano": "envy",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "inveja"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “羡慕” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "心中愛慕渴望。",
+    "classe": "",
+    "pronuncia": "xiàn mù",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E7%BE%A8%E6%85%95"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:哀痛",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "哀痛",
+   "texto_humano": "feel the anguish of sorrow",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "luto"
+   ],
+   "tema_sensivel": true,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “哀痛” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "哀傷悲痛。",
+    "classe": "",
+    "pronuncia": "āi tòng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%93%80%E7%97%9B"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:哀愁",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "哀愁",
+   "texto_humano": "sorrowful",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "luto"
+   ],
+   "tema_sensivel": true,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “哀愁” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "哀傷悲愁。",
+    "classe": "",
+    "pronuncia": "āi chóu",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%93%80%E6%84%81"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:沉痛",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "沉痛",
+   "texto_humano": "deep feeling of grief",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "luto"
+   ],
+   "tema_sensivel": true,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “沉痛” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "沉重悲痛。",
+    "classe": "",
+    "pronuncia": "chén tòng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%B2%89%E7%97%9B"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:悲叹",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "悲叹",
+   "texto_humano": "sigh mournfully",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "luto"
+   ],
+   "tema_sensivel": true,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “悲叹” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "悲傷嘆息。",
+    "classe": "",
+    "pronuncia": "bēi tàn",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%82%B2%E5%98%86"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:恐慌",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "恐慌",
+   "texto_humano": "panic",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “恐慌” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "憂懼而慌張。",
+    "classe": "",
+    "pronuncia": "kǒng huāng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%81%90%E6%85%8C"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:提心吊胆",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "提心吊胆",
+   "texto_humano": "be in fear of",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “提心吊胆” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "形容心理上、精神上擔憂恐懼，無法平靜下來。《二刻拍案驚奇》卷三一：「眾人又多有笑他忘了父仇的事，已漸冷徑，沒人提起了。怎知世名日夜提心吊膽，時刻不忘！」也作「提心弔膽」。",
+    "classe": "",
+    "pronuncia": "tí xīn diào dǎn",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%8F%90%E5%BF%83%E5%90%8A%E8%86%BD"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:恐惧",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "恐惧",
+   "texto_humano": "terrified",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “恐惧” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "畏懼。",
+    "classe": "",
+    "pronuncia": "kǒng jù",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%81%90%E6%87%BC"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:害怕",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "害怕",
+   "texto_humano": "fear",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “害怕” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "心中恐懼不安。《儒林外史》第一回：「他從來不曾見過官府的人，害怕不敢來了。」也作「駭怕」。",
+    "classe": "",
+    "pronuncia": "hài pà",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%AE%B3%E6%80%95"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:惊慌",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "惊慌",
+   "texto_humano": "terrified",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “惊慌” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "驚恐慌張。",
+    "classe": "",
+    "pronuncia": "jīng huāng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E9%A9%9A%E6%85%8C"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:惧怕",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "惧怕",
+   "texto_humano": "dread",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “惧怕” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "畏懼。",
+    "classe": "",
+    "pronuncia": "jù pà",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%87%BC%E6%80%95"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:悔恨",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "悔恨",
+   "texto_humano": "regret deeply",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "arrependimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “悔恨” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "反悔怨恨。",
+    "classe": "",
+    "pronuncia": "huǐ hèn",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%82%94%E6%81%A8"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:内疚",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "内疚",
+   "texto_humano": "guilty",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "arrependimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “内疚” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "內心自覺慚愧不安。",
+    "classe": "",
+    "pronuncia": "nèi jiù",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%85%A7%E7%96%9A"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:后悔",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "后悔",
+   "texto_humano": "regret",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "arrependimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “后悔” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "事後悔悟。",
+    "classe": "",
+    "pronuncia": "hòu huǐ",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%BE%8C%E6%82%94"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:负疚",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "负疚",
+   "texto_humano": "have a guilty conscience",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "arrependimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “负疚” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "感到良心不安，對不起他人。",
+    "classe": "",
+    "pronuncia": "fù jiù",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E8%B2%A0%E7%96%9A"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:羞愧",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "羞愧",
+   "texto_humano": "humiliating",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "constrangimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “羞愧” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "羞恥慚愧。",
+    "classe": "",
+    "pronuncia": "xiū kuì",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E7%BE%9E%E6%84%A7"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:害羞",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "害羞",
+   "texto_humano": "shy",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "constrangimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “害羞” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "不好意思，難為情。《儒林外史》第一一回：「小姐此時還害羞，不好問他。」也作「害臊」。",
+    "classe": "",
+    "pronuncia": "hài xiū",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%AE%B3%E7%BE%9E"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:尴尬",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "尴尬",
+   "texto_humano": "awkward",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "constrangimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “尴尬” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "處境困窘或事情棘手，難以應付。",
+    "classe": "",
+    "pronuncia": "gān gà",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%B0%B7%E5%B0%AC"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:羞涩",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "羞涩",
+   "texto_humano": "shy",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "constrangimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “羞涩” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "因害羞而舉止不自然。",
+    "classe": "",
+    "pronuncia": "xiū sè",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E7%BE%9E%E6%BE%80"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:不好意思",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "不好意思",
+   "texto_humano": "excuse me/ashamed of",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "constrangimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “不好意思” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "羞澀、害羞。",
+    "classe": "",
+    "pronuncia": "bù hǎo yì si",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E4%B8%8D%E5%A5%BD%E6%84%8F%E6%80%9D"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:怅惘",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "怅惘",
+   "texto_humano": "distracted",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "divagacao_mental"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “怅惘” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "惆悵失意。",
+    "classe": "",
+    "pronuncia": "chàng wǎng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%82%B5%E6%83%98"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:惊奇",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "惊奇",
+   "texto_humano": "amazed",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "assombro"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “惊奇” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "覺得十分罕見、異於尋常而吃驚。如：「透過空中攝影，呈現一幅幅令人驚奇的景色。」也作「驚怪」、「驚異」。",
+    "classe": "",
+    "pronuncia": "jīng qí",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E9%A9%9A%E5%A5%87"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:惊讶",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "惊讶",
+   "texto_humano": "astonish",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "assombro"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “惊讶” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "驚奇訝異。",
+    "classe": "",
+    "pronuncia": "jīng yà",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E9%A9%9A%E8%A8%9D"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:诧异",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "诧异",
+   "texto_humano": "be amazed",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "assombro"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “诧异” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "驚奇、訝異。",
+    "classe": "",
+    "pronuncia": "chà yì",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E8%A9%AB%E7%95%B0"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:眷恋",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "眷恋",
+   "texto_humano": "sentimentally  attached to",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “眷恋” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "思戀愛慕。",
+    "classe": "",
+    "pronuncia": "juàn liàn",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E7%9C%B7%E6%88%80"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:深情",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "深情",
+   "texto_humano": "affectionateness",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “深情” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "深厚的情誼。",
+    "classe": "",
+    "pronuncia": "shēn qíng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%B7%B1%E6%83%85"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:含情脉脉",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "含情脉脉",
+   "texto_humano": "exuding tenderness and love through eyes",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “含情脉脉” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "形容默默的用眼神表達內心的感情。",
+    "classe": "",
+    "pronuncia": "hán qíng mò mò",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%90%AB%E6%83%85%E8%84%88%E8%84%88"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:缠绵",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "缠绵",
+   "texto_humano": "Can't get rid of the affection",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “缠绵” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "糾結纏繞，無法擺脫。",
+    "classe": "",
+    "pronuncia": "chán mián",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E7%BA%8F%E7%B6%BF"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:喜爱",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "喜爱",
+   "texto_humano": "be fond of",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “喜爱” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "喜歡愛好。",
+    "classe": "",
+    "pronuncia": "xǐ ài",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%96%9C%E6%84%9B"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:轻松",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "轻松",
+   "texto_humano": "light, relaxed",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "restauracao_da_atencao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “轻松” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "輕快舒適。",
+    "classe": "",
+    "pronuncia": "qīng sōng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E8%BC%95%E9%AC%86"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:平静",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "平静",
+   "texto_humano": "calm",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "restauracao_da_atencao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “平静” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "安定詳和。",
+    "classe": "",
+    "pronuncia": "píng jìng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%B9%B3%E9%9D%9C"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:安宁",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "安宁",
+   "texto_humano": "peaceful",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "restauracao_da_atencao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “安宁” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "安定平靜。",
+    "classe": "",
+    "pronuncia": "ān níng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%AE%89%E5%AF%A7"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:宁静",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "宁静",
+   "texto_humano": "serene",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "restauracao_da_atencao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “宁静” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "安靜、平和。",
+    "classe": "",
+    "pronuncia": "níng jìng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%AF%A7%E9%9D%9C"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:恬静",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "恬静",
+   "texto_humano": "tranquil",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "restauracao_da_atencao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “恬静” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "恬然安靜。",
+    "classe": "",
+    "pronuncia": "tián jìng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%81%AC%E9%9D%9C"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:孤立",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "孤立",
+   "texto_humano": "isolated",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "ostracismo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “孤立” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "獨立無助。",
+    "classe": "",
+    "pronuncia": "gū lì",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%AD%A4%E7%AB%8B"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:感激不尽",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "感激不尽",
+   "texto_humano": "gratitude is not enough",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "gratidao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “感激不尽” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "感激至深。",
+    "classe": "",
+    "pronuncia": "gǎn jī bù jìn",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%84%9F%E6%BF%80%E4%B8%8D%E7%9B%A1"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:感谢",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "感谢",
+   "texto_humano": "thank, be grateful",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "gratidao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “感谢” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "因受惠而表示謝意。《水滸傳》第四一回：「感謝眾位豪傑，不避凶險，來虎穴龍潭，力救殘生。」。",
+    "classe": "",
+    "pronuncia": "gǎn xiè",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%84%9F%E8%AC%9D"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:怜恤",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "怜恤",
+   "texto_humano": "pity",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "compaixao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “怜恤” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "哀憐體恤。",
+    "classe": "",
+    "pronuncia": "lián xù",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%86%90%E6%81%A4"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:怜悯",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "怜悯",
+   "texto_humano": "take pity on",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "compaixao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “怜悯” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "哀憐同情。唐．韓愈〈論今年權停舉選狀〉：「陛下憐憫京師之人，慮其乏食。」也作「憐愍」。",
+    "classe": "",
+    "pronuncia": "lián mǐn",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%86%90%E6%86%AB"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:同情",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "同情",
+   "texto_humano": "show sympathy for",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "compaixao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “同情” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "一種情緒。指對於他人的遭遇，在情感上發生共鳴，或是對他人的行為表示理解。",
+    "classe": "",
+    "pronuncia": "tóng qíng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%90%8C%E6%83%85"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:悲天悯人",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "悲天悯人",
+   "texto_humano": "a sympathy for the suffering of the common people",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "compaixao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “悲天悯人” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "憂傷時局多變，哀憐百姓疾苦。",
+    "classe": "",
+    "pronuncia": "bēi tiān mǐn rén",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%82%B2%E5%A4%A9%E6%86%AB%E4%BA%BA"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:慈悲",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "慈悲",
+   "texto_humano": "merciful",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "compaixao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “慈悲” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "佛教用語。慈，指給予眾生安樂；悲，指拔除眾生痛苦。南朝梁．沈約〈懺悔文〉：「爰始成童，有心嗜慾，不識慈悲，莫辨罪報。」後泛指慈愛、悲憫。如：「慈悲為懷」。元．楊顯之《瀟湘雨》第三折：「哥哥，你只管裡將我來棍棒臨身，不住的拷打。難道你的肚腸能這般硬，再也沒那半點兒慈悲的。」《西遊記》第一回：「好！好！好！今日方知姓也。萬望師父慈悲！既然有姓，再乞賜個名字，卻好呼喚。」《紅樓夢》第一六回：「列位神差略發慈悲，讓我回去和這一個好朋友說一句話就來的。」",
+    "classe": "",
+    "pronuncia": "cí bēi",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%85%88%E6%82%B2"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:厌倦",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "厌倦",
+   "texto_humano": "be weary of",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "tedio"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “厌倦” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "厭惡倦怠。",
+    "classe": "",
+    "pronuncia": "yàn juàn",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%8E%AD%E5%80%A6"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:无聊",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "无聊",
+   "texto_humano": "bored",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "tedio"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “无聊” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "精神空虛、愁悶。",
+    "classe": "",
+    "pronuncia": "wú liáo",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E7%84%A1%E8%81%8A"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:盼望",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "盼望",
+   "texto_humano": "hope",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "esperanca"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “盼望” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "殷切的等候、期望。",
+    "classe": "",
+    "pronuncia": "pàn wàng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E7%9B%BC%E6%9C%9B"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:悲凉",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "悲凉",
+   "texto_humano": "desolate",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "solidao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “悲凉” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "悲哀淒涼。",
+    "classe": "",
+    "pronuncia": "bēi liáng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%82%B2%E6%B6%BC"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:孤寂",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "孤寂",
+   "texto_humano": "lonely",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "solidao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “孤寂” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "孤獨寂寞。",
+    "classe": "",
+    "pronuncia": "gū jí",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%AD%A4%E5%AF%82"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:彷徨",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "彷徨",
+   "texto_humano": "hesitate",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "ambivalencia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “彷徨” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "徘徊不前。《文選．古詩十九首．明月何皎皎》：「出戶獨彷徨，愁思當告誰。」也作「旁皇」、「傍偟」、「徬徨」。",
+    "classe": "",
+    "pronuncia": "páng huáng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%BD%B7%E5%BE%A8"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:疑惑",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "疑惑",
+   "texto_humano": "doubt",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "ambivalencia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “疑惑” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "懷疑、不明白。",
+    "classe": "",
+    "pronuncia": "yí huò",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E7%96%91%E6%83%91"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:迟疑",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "迟疑",
+   "texto_humano": "hesitating",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "ambivalencia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “迟疑” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "游移不定。",
+    "classe": "",
+    "pronuncia": "chí yí",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E9%81%B2%E7%96%91"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:疲倦",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "疲倦",
+   "texto_humano": "tired",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "interocepcao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “疲倦” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "勞累困倦。",
+    "classe": "",
+    "pronuncia": "pí juàn",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E7%96%B2%E5%80%A6"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:疲惫",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "疲惫",
+   "texto_humano": "tired out",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "interocepcao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “疲惫” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "極為疲勞困倦。",
+    "classe": "",
+    "pronuncia": "pí bèi",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E7%96%B2%E6%86%8A"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:疑心",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "疑心",
+   "texto_humano": "suspicion",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "vigilancia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “疑心” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "懷疑的感覺、念頭。",
+    "classe": "",
+    "pronuncia": "yí xīn",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E7%96%91%E5%BF%83"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:谨慎",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "谨慎",
+   "texto_humano": "cautious",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "vigilancia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “谨慎” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "小心仔細。",
+    "classe": "",
+    "pronuncia": "jǐn shèn",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E8%AC%B9%E6%85%8E"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:和谐",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "和谐",
+   "texto_humano": "harmonious",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "pertencimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “和谐” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "和睦諧順。《書經．無逸》「其惟不言，言乃雍，不敢荒寧」句下唐．孔穎達．正義：「鄭玄云：『其不言之時，時有所言，則群臣皆和諧。』」",
+    "classe": "",
+    "pronuncia": "hé xié",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%92%8C%E8%AB%A7"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:单独",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "单独",
+   "texto_humano": "alone",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "solitude"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “单独” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "獨自一人。",
+    "classe": "",
+    "pronuncia": "dān dú",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%96%AE%E7%8D%A8"
    }
   }
  ]

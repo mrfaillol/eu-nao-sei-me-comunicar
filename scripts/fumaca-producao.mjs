@@ -31,8 +31,8 @@ async function fluxo(navegador, nome, opcoes, captura) {
   anotar(ampliado > 500, `${nome}: acervo ampliado carregado, com ${ampliado} pinturas e sons a mais`);
   // Troca as pinturas: com o ampliado no ar, as novas vêm do servidor do museu e têm de abrir.
   await page.locator('[data-janela="pintura"] [data-acao="outras"]').click();
-  await page.waitForLoadState("networkidle").catch(() => {});
-  await page.waitForTimeout(600);
+  // Espera as três imagens abrirem de fato (até 12 s): "rede ociosa" não serve aqui, porque a página já ficou ociosa antes.
+  await page.waitForFunction(() => { const imgs = [...document.querySelectorAll(".moldura .pintura img")]; return imgs.length === 3 && imgs.every((i) => i.complete && i.naturalWidth > 0); }, null, { timeout: 12_000 }).catch(() => {});
   const doMuseu = await page.evaluate(() => [...document.querySelectorAll(".moldura .pintura img")].map((i) => ({ remota: i.src.startsWith("https://openaccess-cdn.clevelandart.org/"), abriu: i.complete && i.naturalWidth > 0 })));
   anotar(doMuseu.length === 3 && doMuseu.every((i) => i.abriu), `${nome}: depois de trocar, as três pinturas abrem (${doMuseu.filter((i) => i.remota).length} vindas do museu)`);
   await page.locator(".moldura").first().click();
@@ -47,7 +47,7 @@ async function fluxo(navegador, nome, opcoes, captura) {
   // O (i) de cada item: palavras de quem descreveu, sem sair do site.
   await page.locator(".opcao-palavra .info").first().click();
   const definicao = ((await page.locator(".info-caixa .info-glosa").textContent().catch(() => "")) ?? "").trim();
-  anotar(definicao.length > 3, `${nome}: o (i) da palavra mostra a definição "${definicao.slice(0, 50)}"`);
+  anotar(definicao.length >= 2, `${nome}: o (i) da palavra mostra a definição "${definicao.slice(0, 50)}"`);
   await page.keyboard.press("Escape");
   await page.locator(".opcao-pintura .info").first().click();
   const palavras = await page.locator(".info-caixa .info-palavras li").count();

@@ -92,3 +92,11 @@ def test_cena_de_flagelacao_fica_fora_do_acervo_ampliado():
     # Achado no vídeo de divulgação de 12/Nov: um díptico da Paixão entrou anotado como "divagação mental".
     texto = "Diptych with the Passion of Christ (left wing): Flagellation and Christ Before Pilate. A contemplative devotional image."
     assert classificar(texto, LEXICO)["excluir"] is True
+
+
+def test_nudez_dita_com_outras_palavras_tambem_exclui():
+    # Escapes medidos em 12/Nov/2026: "nakedness" numa Criação e "homoerotic" numa aquarela.
+    for texto in ("The pair is unaware of their nakedness, a sign of a sinless state.", "Demuth kept these homoerotic watercolors private.", "A bacchanal in a wooded glade."):
+        assert classificar(texto, LEXICO)["excluir"] is True, texto
+    # e palavra que só contém as letras não exclui
+    assert classificar("Sussex landscape with sextant and unsexed figures of saints.", LEXICO)["excluir"] is False

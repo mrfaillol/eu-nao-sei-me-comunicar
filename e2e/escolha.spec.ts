@@ -7,7 +7,8 @@ const TRAVA = 420;
 /** Escolhe um item pelo id, pedindo "outras três" até ele aparecer na janela. */
 async function escolherPorId(page: Page, janela: "pintura" | "som" | "palavra", id: string): Promise<void> {
   const alvo = page.locator(`[data-janela="${janela}"] [data-id="${id}"]`);
-  for (let n = 0; n < 15 && (await alvo.count()) === 0; n++) {
+  // Cada troca mostra três itens ainda não vistos: quarenta trocas cobrem uma janela de até 120 itens.
+  for (let n = 0; n < 40 && (await alvo.count()) === 0; n++) {
     await page.locator(`[data-janela="${janela}"] [data-acao="outras"]`).click();
   }
   await page.waitForTimeout(TRAVA);
