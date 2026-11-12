@@ -11,6 +11,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:100926": [
+  {
+   "construto": "gratidao",
+   "trecho": "donor",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:101039": [
   {
    "construto": "habituacao",
@@ -94,18 +101,6 @@
   {
    "construto": "fluxo",
    "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:101854": [
-  {
-   "construto": "divagacao_mental",
-   "trecho": "dreaming",
-   "pistas": 2
-  },
-  {
-   "construto": "pertencimento",
-   "trecho": "family",
    "pistas": 1
   }
  ],
@@ -308,23 +303,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:103297": [
-  {
-   "construto": "assombro",
-   "trecho": "spectacular",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "musicians",
-   "pistas": 1
-  },
-  {
-   "construto": "emocoes_positivas",
-   "trecho": "pleasure",
-   "pistas": 1
-  }
- ],
  "pintura:cma:103298": [
   {
    "construto": "assombro",
@@ -436,6 +414,34 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:103607": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "market",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:103608": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "market",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:103613": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "market",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:103617": [
+  {
+   "construto": "fluxo",
+   "trecho": "weaving",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:103623": [
   {
    "construto": "curiosidade",
@@ -445,6 +451,13 @@
   {
    "construto": "gratidao",
    "trecho": "dedicated",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:103850": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "market",
    "pistas": 1
   }
  ],
@@ -502,23 +515,6 @@
   {
    "construto": "curiosidade",
    "trecho": "experimenting",
-   "pistas": 1
-  }
- ],
- "pintura:cma:103961": [
-  {
-   "construto": "pertencimento",
-   "trecho": "procession",
-   "pistas": 1
-  },
-  {
-   "construto": "anomia",
-   "trecho": "chaotic",
-   "pistas": 1
-  },
-  {
-   "construto": "assombro",
-   "trecho": "grandeur",
    "pistas": 1
   }
  ],
@@ -791,18 +787,6 @@
   }
  ],
  "pintura:cma:104887": [
-  {
-   "construto": "curiosidade",
-   "trecho": "curiosities",
-   "pistas": 2
-  },
-  {
-   "construto": "arrependimento",
-   "trecho": "penance",
-   "pistas": 1
-  }
- ],
- "pintura:cma:104888": [
   {
    "construto": "curiosidade",
    "trecho": "curiosities",
@@ -1752,6 +1736,44 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:107858": [
+  {
+   "construto": "pertencimento",
+   "trecho": "community",
+   "pistas": 2
+  },
+  {
+   "construto": "assombro",
+   "trecho": "celestial",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "renewal",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:107865": [
+  {
+   "construto": "gratidao",
+   "trecho": "donor",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:107869": [
+  {
+   "construto": "fluxo",
+   "trecho": "weaving",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:107873": [
+  {
+   "construto": "assombro",
+   "trecho": "mountainous",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:107987": [
   {
    "construto": "pertencimento",
@@ -1939,10 +1961,31 @@
    "pistas": 1
   }
  ],
- "pintura:cma:108410": [
+ "pintura:cma:108415": [
   {
    "construto": "contagio_emocional",
-   "trecho": "Revelation",
+   "trecho": "dance",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:108422": [
+  {
+   "construto": "medo",
+   "trecho": "danger",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:108436": [
+  {
+   "construto": "constrangimento",
+   "trecho": "awkwardly",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:108437": [
+  {
+   "construto": "constrangimento",
+   "trecho": "awkwardly",
    "pistas": 1
   }
  ],
@@ -1960,10 +2003,24 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:108512": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "gentle",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:108526": [
   {
    "construto": "emocoes_positivas",
    "trecho": "playing",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:108533": [
+  {
+   "construto": "inveja",
+   "trecho": "coveted",
    "pistas": 1
   }
  ],
@@ -2077,6 +2134,13 @@
   {
    "construto": "medo",
    "trecho": "dangerous",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:108832": [
+  {
+   "construto": "fluxo",
+   "trecho": "weaving",
    "pistas": 1
   }
  ],
@@ -2592,6 +2656,23 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:110045": [
+  {
+   "construto": "pertencimento",
+   "trecho": "companions",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "gratidao",
+   "trecho": "dedicated",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:110050": [
   {
    "construto": "solitude",
@@ -2606,6 +2687,13 @@
   {
    "construto": "assombro",
    "trecho": "celestial",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:110055": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "festivals",
    "pistas": 1
   }
  ],
@@ -2898,6 +2986,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:111117": [
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "native",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:111369": [
   {
    "construto": "dissonancia_cognitiva",
@@ -2965,6 +3060,20 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:111410": [
+  {
+   "construto": "fluxo",
+   "trecho": "Artisans",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:111411": [
+  {
+   "construto": "apego",
+   "trecho": "bride",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:111435": [
   {
    "construto": "divagacao_mental",
@@ -3005,6 +3114,13 @@
   {
    "construto": "contagio_emocional",
    "trecho": "Feast",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:111569": [
+  {
+   "construto": "habituacao",
+   "trecho": "household",
    "pistas": 1
   }
  ],
@@ -3586,6 +3702,27 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:112485": [
+  {
+   "construto": "apego",
+   "trecho": "mother",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:112512": [
+  {
+   "construto": "apego",
+   "trecho": "mother",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:112513": [
+  {
+   "construto": "apego",
+   "trecho": "mother",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:112650": [
   {
    "construto": "anomia",
@@ -3617,6 +3754,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:112879": [
+  {
+   "construto": "compaixao",
+   "trecho": "Saint",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:112932": [
   {
    "construto": "curiosidade",
@@ -3626,6 +3770,27 @@
   {
    "construto": "fluxo",
    "trecho": "Working",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:112978": [
+  {
+   "construto": "apego",
+   "trecho": "mother",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:112979": [
+  {
+   "construto": "apego",
+   "trecho": "mother",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:112982": [
+  {
+   "construto": "apego",
+   "trecho": "mother",
    "pistas": 1
   }
  ],
@@ -3737,6 +3902,23 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:113117": [
+  {
+   "construto": "assombro",
+   "trecho": "Cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "musicians",
+   "pistas": 1
+  },
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "playing",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:113164": [
   {
    "construto": "apego",
@@ -3842,13 +4024,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:113945": [
-  {
-   "construto": "assombro",
-   "trecho": "Mountains",
-   "pistas": 1
-  }
- ],
  "pintura:cma:113948": [
   {
    "construto": "contagio_emocional",
@@ -3927,6 +4102,20 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:114247": [
+  {
+   "construto": "compaixao",
+   "trecho": "Compassionate",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:114248": [
+  {
+   "construto": "compaixao",
+   "trecho": "Compassionate",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:114642": [
   {
    "construto": "apego_ao_lugar",
@@ -3943,6 +4132,18 @@
   {
    "construto": "esperanca",
    "trecho": "prayer",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:114728": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "garden",
+   "pistas": 1
+  },
+  {
+   "construto": "curiosidade",
+   "trecho": "experimenting",
    "pistas": 1
   }
  ],
@@ -4293,6 +4494,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:116068": [
+  {
+   "construto": "apego",
+   "trecho": "marriage",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:116901": [
   {
    "construto": "emocoes_positivas",
@@ -4367,10 +4575,82 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:117034": [
+  {
+   "construto": "habituacao",
+   "trecho": "household",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "craftsman",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:117064": [
   {
    "construto": "curiosidade",
    "trecho": "fascinated",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:117128": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "meadows",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "remembered",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:117129": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "garden",
+   "pistas": 1
+  },
+  {
+   "construto": "vigilancia",
+   "trecho": "watching",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "at work",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:117130": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "restful",
+   "pistas": 2
+  },
+  {
+   "construto": "constrangimento",
+   "trecho": "modestly",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:117135": [
+  {
+   "construto": "habituacao",
+   "trecho": "domestic",
+   "pistas": 1
+  },
+  {
+   "construto": "tedio",
+   "trecho": "monotony",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:117347": [
+  {
+   "construto": "inveja",
+   "trecho": "coveted",
    "pistas": 1
   }
  ],
@@ -4452,6 +4732,30 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:118035": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "festive",
+   "pistas": 2
+  },
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "pastoral",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:118039": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "garden",
+   "pistas": 1
+  },
+  {
+   "construto": "compaixao",
+   "trecho": "Saint",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:118041": [
   {
    "construto": "sobrecarga_sensorial",
@@ -4483,6 +4787,27 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:118090": [
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "native",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:118091": [
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "native",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:118092": [
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "native",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:118172": [
   {
    "construto": "restauracao_da_atencao",
@@ -4500,6 +4825,41 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:118252": [
+  {
+   "construto": "habituacao",
+   "trecho": "household",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:118253": [
+  {
+   "construto": "habituacao",
+   "trecho": "household",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:118254": [
+  {
+   "construto": "habituacao",
+   "trecho": "household",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:118255": [
+  {
+   "construto": "habituacao",
+   "trecho": "household",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:118330": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "festivals",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:118411": [
   {
    "construto": "pertencimento",
@@ -4514,6 +4874,13 @@
   {
    "construto": "luto",
    "trecho": "Death of",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:118470": [
+  {
+   "construto": "fluxo",
+   "trecho": "artisans",
    "pistas": 1
   }
  ],
@@ -4724,6 +5091,23 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:119675": [
+  {
+   "construto": "assombro",
+   "trecho": "Mountains",
+   "pistas": 1
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "native",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "working",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:119697": [
   {
    "construto": "contagio_emocional",
@@ -4772,6 +5156,44 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:119769": [
+  {
+   "construto": "inveja",
+   "trecho": "coveted",
+   "pistas": 1
+  },
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "playing",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:119771": [
+  {
+   "construto": "pertencimento",
+   "trecho": "family",
+   "pistas": 1
+  },
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "garden",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:119784": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "revelation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:119786": [
+  {
+   "construto": "compaixao",
+   "trecho": "alms",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:119922": [
   {
    "construto": "nostalgia",
@@ -4815,13 +5237,6 @@
    "construto": "emocoes_positivas",
    "trecho": "pleasure",
    "pistas": 1
-  }
- ],
- "pintura:cma:120230": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "dancing",
-   "pistas": 2
   }
  ],
  "pintura:cma:120231": [
@@ -4884,6 +5299,13 @@
   {
    "construto": "emocoes_positivas",
    "trecho": "pleasures",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:120635": [
+  {
+   "construto": "fluxo",
+   "trecho": "weaving",
    "pistas": 1
   }
  ],
@@ -5115,6 +5537,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:121201": [
+  {
+   "construto": "fluxo",
+   "trecho": "weaving",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:121263": [
   {
    "construto": "ostracismo",
@@ -5216,6 +5645,89 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:121700": [
+  {
+   "construto": "gratidao",
+   "trecho": "dedications",
+   "pistas": 1
+  },
+  {
+   "construto": "arrependimento",
+   "trecho": "forgiveness",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:121701": [
+  {
+   "construto": "esperanca",
+   "trecho": "prayer",
+   "pistas": 1
+  },
+  {
+   "construto": "gratidao",
+   "trecho": "dedications",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:121702": [
+  {
+   "construto": "esperanca",
+   "trecho": "prayer",
+   "pistas": 1
+  },
+  {
+   "construto": "gratidao",
+   "trecho": "dedications",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:121708": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:121709": [
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:121710": [
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:121711": [
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:121712": [
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:121799": [
+  {
+   "construto": "ostracismo",
+   "trecho": "prisoner",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:121866": [
   {
    "construto": "fluxo",
@@ -5238,20 +5750,6 @@
   }
  ],
  "pintura:cma:121869": [
-  {
-   "construto": "fluxo",
-   "trecho": "craftsman",
-   "pistas": 1
-  }
- ],
- "pintura:cma:121870": [
-  {
-   "construto": "fluxo",
-   "trecho": "craftsman",
-   "pistas": 1
-  }
- ],
- "pintura:cma:121871": [
   {
    "construto": "fluxo",
    "trecho": "craftsman",
@@ -5411,10 +5909,36 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:122570": [
+  {
+   "construto": "pertencimento",
+   "trecho": "family",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:122571": [
+  {
+   "construto": "pertencimento",
+   "trecho": "family",
+   "pistas": 2
+  },
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "peaceful",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:122577": [
   {
    "construto": "curiosidade",
    "trecho": "experimentation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:122579": [
+  {
+   "construto": "assombro",
+   "trecho": "spectacular",
    "pistas": 1
   }
  ],
@@ -5800,6 +6324,13 @@
   {
    "construto": "restauracao_da_atencao",
    "trecho": "Lake",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:123539": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "festivities",
    "pistas": 1
   }
  ],
@@ -6279,6 +6810,37 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:124739": [
+  {
+   "construto": "gratidao",
+   "trecho": "offerings",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:124740": [
+  {
+   "construto": "alienacao",
+   "trecho": "commodities",
+   "pistas": 1
+  },
+  {
+   "construto": "luto",
+   "trecho": "burial",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:124763": [
+  {
+   "construto": "habituacao",
+   "trecho": "domestic",
+   "pistas": 1
+  },
+  {
+   "construto": "alienacao",
+   "trecho": "factory",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:124803": [
   {
    "construto": "pertencimento",
@@ -6336,6 +6898,13 @@
   {
    "construto": "raiva",
    "trecho": "fighting",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:124971": [
+  {
+   "construto": "ambivalencia",
+   "trecho": "uncertain",
    "pistas": 1
   }
  ],
@@ -6444,6 +7013,18 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:125230": [
+  {
+   "construto": "compaixao",
+   "trecho": "saint",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "absorbed",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:125236": [
   {
    "construto": "restauracao_da_atencao",
@@ -6453,6 +7034,13 @@
   {
    "construto": "habituacao",
    "trecho": "at home",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:125238": [
+  {
+   "construto": "solidao",
+   "trecho": "Isolated",
    "pistas": 1
   }
  ],
@@ -6803,6 +7391,34 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:126531": [
+  {
+   "construto": "medo",
+   "trecho": "demonstrate",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:126543": [
+  {
+   "construto": "medo",
+   "trecho": "demonstrate",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:126554": [
+  {
+   "construto": "medo",
+   "trecho": "demonstrate",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:126566": [
+  {
+   "construto": "medo",
+   "trecho": "demonstrate",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:126689": [
   {
    "construto": "memoria_autobiografica",
@@ -7033,6 +7649,30 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:127459": [
+  {
+   "construto": "luto",
+   "trecho": "mourned",
+   "pistas": 2
+  },
+  {
+   "construto": "apego",
+   "trecho": "cradles",
+   "pistas": 1
+  },
+  {
+   "construto": "compaixao",
+   "trecho": "Saint",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:127461": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "dancers",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:127472": [
   {
    "construto": "compaixao",
@@ -7071,6 +7711,20 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:127672": [
+  {
+   "construto": "fluxo",
+   "trecho": "weaving",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:127673": [
+  {
+   "construto": "alienacao",
+   "trecho": "factory",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:127732": [
   {
    "construto": "contagio_emocional",
@@ -7080,6 +7734,13 @@
   {
    "construto": "esperanca",
    "trecho": "prayer",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:127735": [
+  {
+   "construto": "compaixao",
+   "trecho": "Saint",
    "pistas": 1
   }
  ],
@@ -7229,6 +7890,27 @@
   {
    "construto": "vigilancia",
    "trecho": "soldier",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:127871": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "meadow",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:127888": [
+  {
+   "construto": "fluxo",
+   "trecho": "weaving",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:127913": [
+  {
+   "construto": "empatia",
+   "trecho": "dignity",
    "pistas": 1
   }
  ],
@@ -7423,10 +8105,101 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:128462": [
+  {
+   "construto": "assombro",
+   "trecho": "miracle",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:128484": [
   {
    "construto": "restauracao_da_atencao",
    "trecho": "gardens",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:128581": [
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "diary",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:128582": [
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "diary",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:128583": [
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "diary",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:128584": [
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "diary",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:128585": [
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "diary",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:128586": [
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "diary",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:128587": [
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "diary",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:128588": [
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "diary",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:128589": [
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "diary",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:128590": [
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "diary",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:128591": [
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "diary",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:128592": [
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "diary",
    "pistas": 1
   }
  ],
@@ -7739,6 +8512,20 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:129192": [
+  {
+   "construto": "luto",
+   "trecho": "tomb",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:129203": [
+  {
+   "construto": "fluxo",
+   "trecho": "sewing",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:129218": [
   {
    "construto": "apego",
@@ -7797,6 +8584,32 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:129250": [
+  {
+   "construto": "habituacao",
+   "trecho": "domestic",
+   "pistas": 1
+  },
+  {
+   "construto": "alienacao",
+   "trecho": "factory",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:129261": [
+  {
+   "construto": "esperanca",
+   "trecho": "Blessing",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:129346": [
+  {
+   "construto": "inveja",
+   "trecho": "coveted",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:129371": [
   {
    "construto": "fluxo",
@@ -7815,6 +8628,169 @@
   {
    "construto": "apego_ao_lugar",
    "trecho": "native",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:129492": [
+  {
+   "construto": "fluxo",
+   "trecho": "concentrated",
+   "pistas": 2
+  },
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:129493": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "concentrated",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:129494": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "concentrated",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:129495": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "concentrated",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:129496": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "concentrated",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:129497": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "concentrated",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:129498": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "concentrated",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:129499": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "concentrated",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:129500": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "concentrated",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:129501": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "concentrated",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:129502": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "concentrated",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:129503": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "concentrated",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:129504": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "concentrated",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:129536": [
+  {
+   "construto": "fluxo",
+   "trecho": "writing",
    "pistas": 1
   }
  ],
@@ -8266,6 +9242,47 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:130166": [
+  {
+   "construto": "apego",
+   "trecho": "couple",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "springtime",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:130168": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "dance",
+   "pistas": 1
+  },
+  {
+   "construto": "interocepcao",
+   "trecho": "sleep",
+   "pistas": 1
+  },
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "play",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:130169": [
+  {
+   "construto": "apego",
+   "trecho": "affectionate",
+   "pistas": 2
+  },
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "lake",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:130195": [
   {
    "construto": "apego",
@@ -8345,15 +9362,15 @@
    "pistas": 1
   }
  ],
- "pintura:cma:130361": [
+ "pintura:cma:130364": [
   {
-   "construto": "assombro",
-   "trecho": "Mountains",
+   "construto": "apego",
+   "trecho": "mother",
    "pistas": 1
   },
   {
-   "construto": "medo",
-   "trecho": "demonstrates",
+   "construto": "emocoes_positivas",
+   "trecho": "joyous",
    "pistas": 1
   }
  ],
@@ -8490,6 +9507,20 @@
   {
    "construto": "esperanca",
    "trecho": "pilgrims",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:130408": [
+  {
+   "construto": "fluxo",
+   "trecho": "musicians",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:130419": [
+  {
+   "construto": "fluxo",
+   "trecho": "weaving",
    "pistas": 1
   }
  ],
@@ -8649,207 +9680,20 @@
    "pistas": 1
   }
  ],
- "pintura:cma:130471": [
+ "pintura:cma:130483": [
   {
-   "construto": "contagio_emocional",
-   "trecho": "Revelation",
+   "construto": "apego",
+   "trecho": "marriage",
    "pistas": 1
   },
   {
-   "construto": "compaixao",
-   "trecho": "Saint",
-   "pistas": 1
-  }
- ],
- "pintura:cma:130472": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "Revelation",
+   "construto": "solidao",
+   "trecho": "isolated",
    "pistas": 1
   },
   {
-   "construto": "compaixao",
-   "trecho": "Saint",
-   "pistas": 1
-  }
- ],
- "pintura:cma:130473": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "Revelation",
-   "pistas": 1
-  },
-  {
-   "construto": "compaixao",
-   "trecho": "Saint",
-   "pistas": 1
-  }
- ],
- "pintura:cma:130474": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "Revelation",
-   "pistas": 1
-  },
-  {
-   "construto": "compaixao",
-   "trecho": "Saint",
-   "pistas": 1
-  }
- ],
- "pintura:cma:130475": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "Revelation",
-   "pistas": 1
-  },
-  {
-   "construto": "compaixao",
-   "trecho": "Saint",
-   "pistas": 1
-  }
- ],
- "pintura:cma:130476": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "Revelation",
-   "pistas": 1
-  },
-  {
-   "construto": "compaixao",
-   "trecho": "Saint",
-   "pistas": 1
-  }
- ],
- "pintura:cma:130477": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "Revelation",
-   "pistas": 1
-  },
-  {
-   "construto": "compaixao",
-   "trecho": "Saint",
-   "pistas": 1
-  }
- ],
- "pintura:cma:130478": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "Revelation",
-   "pistas": 1
-  },
-  {
-   "construto": "compaixao",
-   "trecho": "Saint",
-   "pistas": 1
-  }
- ],
- "pintura:cma:130479": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "Revelation",
-   "pistas": 1
-  },
-  {
-   "construto": "compaixao",
-   "trecho": "Saint",
-   "pistas": 1
-  }
- ],
- "pintura:cma:130480": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "Revelation",
-   "pistas": 1
-  },
-  {
-   "construto": "compaixao",
-   "trecho": "Saint",
-   "pistas": 1
-  }
- ],
- "pintura:cma:130481": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "Revelation",
-   "pistas": 1
-  },
-  {
-   "construto": "compaixao",
-   "trecho": "Saint",
-   "pistas": 1
-  }
- ],
- "pintura:cma:130482": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "Revelation",
-   "pistas": 1
-  },
-  {
-   "construto": "compaixao",
-   "trecho": "Saint",
-   "pistas": 1
-  }
- ],
- "pintura:cma:130484": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "Revelation",
-   "pistas": 1
-  },
-  {
-   "construto": "compaixao",
-   "trecho": "Saint",
-   "pistas": 1
-  }
- ],
- "pintura:cma:130485": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "Revelation",
-   "pistas": 1
-  },
-  {
-   "construto": "compaixao",
-   "trecho": "Saint",
-   "pistas": 1
-  }
- ],
- "pintura:cma:130486": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "Revelation",
-   "pistas": 1
-  },
-  {
-   "construto": "compaixao",
-   "trecho": "Saint",
-   "pistas": 1
-  }
- ],
- "pintura:cma:130487": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "Revelation",
-   "pistas": 1
-  },
-  {
-   "construto": "compaixao",
-   "trecho": "Saint",
-   "pistas": 1
-  }
- ],
- "pintura:cma:130488": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "Revelation",
-   "pistas": 1
-  },
-  {
-   "construto": "compaixao",
-   "trecho": "Saint",
+   "construto": "sobrecarga_sensorial",
+   "trecho": "crowded",
    "pistas": 1
   }
  ],
@@ -8867,13 +9711,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:130497": [
-  {
-   "construto": "pertencimento",
-   "trecho": "family",
-   "pistas": 1
-  }
- ],
  "pintura:cma:130528": [
   {
    "construto": "emocoes_positivas",
@@ -8888,6 +9725,23 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:130598": [
+  {
+   "construto": "pertencimento",
+   "trecho": "family",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "seclusion",
+   "pistas": 1
+  },
+  {
+   "construto": "medo",
+   "trecho": "demonstrating",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:130600": [
   {
    "construto": "ostracismo",
@@ -8897,6 +9751,18 @@
   {
    "construto": "pertencimento",
    "trecho": "family",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:130607": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "garden",
+   "pistas": 1
+  },
+  {
+   "construto": "curiosidade",
+   "trecho": "experimenting",
    "pistas": 1
   }
  ],
@@ -8928,13 +9794,6 @@
   {
    "construto": "medo",
    "trecho": "demon",
-   "pistas": 1
-  }
- ],
- "pintura:cma:130638": [
-  {
-   "construto": "constrangimento",
-   "trecho": "humiliation",
    "pistas": 1
   }
  ],
@@ -9152,18 +10011,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:131361": [
-  {
-   "construto": "pertencimento",
-   "trecho": "Guild",
-   "pistas": 1
-  },
-  {
-   "construto": "compaixao",
-   "trecho": "Saint",
-   "pistas": 1
-  }
- ],
  "pintura:cma:131362": [
   {
    "construto": "pertencimento",
@@ -9231,23 +10078,6 @@
    "pistas": 2
   }
  ],
- "pintura:cma:131583": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "Feast",
-   "pistas": 1
-  },
-  {
-   "construto": "compaixao",
-   "trecho": "Saint",
-   "pistas": 1
-  },
-  {
-   "construto": "medo",
-   "trecho": "horror",
-   "pistas": 1
-  }
- ],
  "pintura:cma:131584": [
   {
    "construto": "contagio_emocional",
@@ -9300,6 +10130,13 @@
   {
    "construto": "divagacao_mental",
    "trecho": "daydreams",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:131743": [
+  {
+   "construto": "pertencimento",
+   "trecho": "guild",
    "pistas": 1
   }
  ],
@@ -9357,23 +10194,6 @@
   {
    "construto": "fluxo",
    "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:131793": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "garden",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "playing the",
-   "pistas": 1
-  },
-  {
-   "construto": "emocoes_positivas",
-   "trecho": "playing",
    "pistas": 1
   }
  ],
@@ -9435,18 +10255,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:132014": [
-  {
-   "construto": "solidao",
-   "trecho": "exiled",
-   "pistas": 1
-  },
-  {
-   "construto": "ostracismo",
-   "trecho": "exiled",
-   "pistas": 1
-  }
- ],
  "pintura:cma:132015": [
   {
    "construto": "pertencimento",
@@ -9468,18 +10276,6 @@
   {
    "construto": "pertencimento",
    "trecho": "family",
-   "pistas": 1
-  }
- ],
- "pintura:cma:132017": [
-  {
-   "construto": "apego_ao_lugar",
-   "trecho": "native",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "absorbed",
    "pistas": 1
   }
  ],
@@ -9577,6 +10373,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:132138": [
+  {
+   "construto": "compaixao",
+   "trecho": "Saint",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:132257": [
   {
    "construto": "compaixao",
@@ -9589,22 +10392,10 @@
    "pistas": 1
   }
  ],
- "pintura:cma:132305": [
+ "pintura:cma:132296": [
   {
-   "construto": "esperanca",
-   "trecho": "pilgrimage",
-   "pistas": 1
-  }
- ],
- "pintura:cma:132308": [
-  {
-   "construto": "solitude",
-   "trecho": "Seclusion",
-   "pistas": 1
-  },
-  {
-   "construto": "gratidao",
-   "trecho": "Dedicated",
+   "construto": "luto",
+   "trecho": "funeral",
    "pistas": 1
   }
  ],
@@ -9923,58 +10714,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:133069": [
-  {
-   "construto": "esperanca",
-   "trecho": "pilgrim",
-   "pistas": 1
-  }
- ],
- "pintura:cma:133070": [
-  {
-   "construto": "solitude",
-   "trecho": "alone",
-   "pistas": 1
-  },
-  {
-   "construto": "esperanca",
-   "trecho": "pilgrim",
-   "pistas": 1
-  }
- ],
- "pintura:cma:133072": [
-  {
-   "construto": "esperanca",
-   "trecho": "pilgrim",
-   "pistas": 1
-  }
- ],
- "pintura:cma:133073": [
-  {
-   "construto": "assombro",
-   "trecho": "vision",
-   "pistas": 1
-  },
-  {
-   "construto": "esperanca",
-   "trecho": "pilgrim",
-   "pistas": 1
-  }
- ],
- "pintura:cma:133076": [
-  {
-   "construto": "apego_ao_lugar",
-   "trecho": "native",
-   "pistas": 1
-  }
- ],
- "pintura:cma:133088": [
-  {
-   "construto": "compaixao",
-   "trecho": "Compassion",
-   "pistas": 1
-  }
- ],
  "pintura:cma:133270": [
   {
    "construto": "sobrecarga_sensorial",
@@ -10089,6 +10828,42 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:133713": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:133714": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "garden",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "springtime",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:133715": [
+  {
+   "construto": "apego",
+   "trecho": "Mother",
+   "pistas": 1
+  },
+  {
+   "construto": "solidao",
+   "trecho": "alone in",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "alone",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:133763": [
   {
    "construto": "interocepcao",
@@ -10194,6 +10969,25 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:134384": [
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "native",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:134604": [
+  {
+   "construto": "pertencimento",
+   "trecho": "communities",
+   "pistas": 2
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "weaving",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:134695": [
   {
    "construto": "pertencimento",
@@ -10203,13 +10997,6 @@
   {
    "construto": "habituacao",
    "trecho": "domestic",
-   "pistas": 1
-  }
- ],
- "pintura:cma:134789": [
-  {
-   "construto": "gratidao",
-   "trecho": "tribute to",
    "pistas": 1
   }
  ],
@@ -10279,6 +11066,13 @@
   {
    "construto": "habituacao",
    "trecho": "household",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:135090": [
+  {
+   "construto": "vigilancia",
+   "trecho": "guard",
    "pistas": 1
   }
  ],
@@ -10625,6 +11419,27 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:135577": [
+  {
+   "construto": "fluxo",
+   "trecho": "weaving",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:135578": [
+  {
+   "construto": "vigilancia",
+   "trecho": "guardian",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:135579": [
+  {
+   "construto": "luto",
+   "trecho": "grave",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:135583": [
   {
    "construto": "restauracao_da_atencao",
@@ -10636,13 +11451,6 @@
   {
    "construto": "memoria_autobiografica",
    "trecho": "his own",
-   "pistas": 1
-  }
- ],
- "pintura:cma:135595": [
-  {
-   "construto": "medo",
-   "trecho": "demonstrates",
    "pistas": 1
   }
  ],
@@ -10844,13 +11652,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:135836": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "gentle",
-   "pistas": 1
-  }
- ],
  "pintura:cma:135875": [
   {
    "construto": "ostracismo",
@@ -10863,22 +11664,15 @@
    "pistas": 1
   }
  ],
- "pintura:cma:135953": [
+ "pintura:cma:135988": [
   {
-   "construto": "contagio_emocional",
-   "trecho": "festivities",
-   "pistas": 1
-  }
- ],
- "pintura:cma:135964": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "his own",
+   "construto": "alienacao",
+   "trecho": "factory",
    "pistas": 1
   },
   {
-   "construto": "arrependimento",
-   "trecho": "regret",
+   "construto": "esperanca",
+   "trecho": "Blessing",
    "pistas": 1
   }
  ],
@@ -11213,15 +12007,41 @@
    "pistas": 1
   }
  ],
- "pintura:cma:136296": [
+ "pintura:cma:136288": [
   {
-   "construto": "assombro",
-   "trecho": "mountains",
-   "pistas": 2
+   "construto": "apego",
+   "trecho": "mother",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:136289": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "playing",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:136290": [
+  {
+   "construto": "apego",
+   "trecho": "mother",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:136291": [
+  {
+   "construto": "apego",
+   "trecho": "mother",
+   "pistas": 1
   },
   {
-   "construto": "divagacao_mental",
-   "trecho": "dream",
+   "construto": "luto",
+   "trecho": "widowed",
+   "pistas": 1
+  },
+  {
+   "construto": "gratidao",
+   "trecho": "offering",
    "pistas": 1
   }
  ],
@@ -11306,6 +12126,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:136409": [
+  {
+   "construto": "apego",
+   "trecho": "marriage",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:136439": [
   {
    "construto": "raiva",
@@ -11324,13 +12151,6 @@
   {
    "construto": "memoria_autobiografica",
    "trecho": "autobiography",
-   "pistas": 1
-  }
- ],
- "pintura:cma:136463": [
-  {
-   "construto": "pertencimento",
-   "trecho": "gathering",
    "pistas": 1
   }
  ],
@@ -11475,18 +12295,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:136668": [
-  {
-   "construto": "pertencimento",
-   "trecho": "procession",
-   "pistas": 1
-  },
-  {
-   "construto": "medo",
-   "trecho": "demon",
-   "pistas": 1
-  }
- ],
  "pintura:cma:136680": [
   {
    "construto": "compaixao",
@@ -11619,6 +12427,13 @@
   }
  ],
  "pintura:cma:136950": [
+  {
+   "construto": "assombro",
+   "trecho": "mountain",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:136951": [
   {
    "construto": "assombro",
    "trecho": "mountain",
@@ -11789,6 +12604,18 @@
   {
    "construto": "pertencimento",
    "trecho": "Kinship",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:137341": [
+  {
+   "construto": "esperanca",
+   "trecho": "blessing",
+   "pistas": 1
+  },
+  {
+   "construto": "compaixao",
+   "trecho": "mercy",
    "pistas": 1
   }
  ],
@@ -13205,6 +14032,90 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:138023": [
+  {
+   "construto": "fluxo",
+   "trecho": "working",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:138024": [
+  {
+   "construto": "fluxo",
+   "trecho": "working",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:138025": [
+  {
+   "construto": "fluxo",
+   "trecho": "working",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:138026": [
+  {
+   "construto": "fluxo",
+   "trecho": "working",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:138027": [
+  {
+   "construto": "fluxo",
+   "trecho": "working",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:138028": [
+  {
+   "construto": "fluxo",
+   "trecho": "working",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:138029": [
+  {
+   "construto": "fluxo",
+   "trecho": "working",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:138030": [
+  {
+   "construto": "fluxo",
+   "trecho": "working",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:138031": [
+  {
+   "construto": "fluxo",
+   "trecho": "working",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:138032": [
+  {
+   "construto": "fluxo",
+   "trecho": "working",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:138033": [
+  {
+   "construto": "fluxo",
+   "trecho": "working",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:138034": [
+  {
+   "construto": "fluxo",
+   "trecho": "working",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:138356": [
   {
    "construto": "luto",
@@ -13364,18 +14275,6 @@
    "construto": "medo",
    "trecho": "menacing",
    "pistas": 2
-  }
- ],
- "pintura:cma:139746": [
-  {
-   "construto": "assombro",
-   "trecho": "mountains",
-   "pistas": 1
-  },
-  {
-   "construto": "constrangimento",
-   "trecho": "modesty",
-   "pistas": 1
   }
  ],
  "pintura:cma:139815": [
@@ -13763,20 +14662,108 @@
    "pistas": 1
   }
  ],
- "pintura:cma:140452": [
+ "pintura:cma:140495": [
   {
-   "construto": "pertencimento",
-   "trecho": "family",
+   "construto": "sobrecarga_sensorial",
+   "trecho": "market",
    "pistas": 1
-  },
+  }
+ ],
+ "pintura:cma:140497": [
   {
-   "construto": "assombro",
-   "trecho": "mountain",
+   "construto": "sobrecarga_sensorial",
+   "trecho": "market",
    "pistas": 1
-  },
+  }
+ ],
+ "pintura:cma:140498": [
   {
-   "construto": "apego_ao_lugar",
-   "trecho": "native",
+   "construto": "sobrecarga_sensorial",
+   "trecho": "market",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:140499": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "market",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:140500": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "market",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:140501": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "market",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:140502": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "market",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:140503": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "market",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:140504": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "market",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:140505": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "market",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:140506": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "market",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:140507": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "market",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:140517": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "market",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:140913": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "market",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:141110": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "market",
    "pistas": 1
   }
  ],
@@ -13830,23 +14817,6 @@
   {
    "construto": "fluxo",
    "trecho": "writing",
-   "pistas": 1
-  }
- ],
- "pintura:cma:141484": [
-  {
-   "construto": "medo",
-   "trecho": "fear",
-   "pistas": 2
-  },
-  {
-   "construto": "solidao",
-   "trecho": "deserted",
-   "pistas": 1
-  },
-  {
-   "construto": "empatia",
-   "trecho": "empathy",
    "pistas": 1
   }
  ],
@@ -13909,13 +14879,6 @@
   {
    "construto": "emocoes_positivas",
    "trecho": "play",
-   "pistas": 1
-  }
- ],
- "pintura:cma:141693": [
-  {
-   "construto": "assombro",
-   "trecho": "Mountains",
    "pistas": 1
   }
  ],
@@ -14038,6 +15001,13 @@
   {
    "construto": "interocepcao",
    "trecho": "illness",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:142301": [
+  {
+   "construto": "constrangimento",
+   "trecho": "modesty",
    "pistas": 1
   }
  ],
@@ -14166,30 +15136,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:142474": [
-  {
-   "construto": "habituacao",
-   "trecho": "domestic",
-   "pistas": 1
-  },
-  {
-   "construto": "compaixao",
-   "trecho": "Saint",
-   "pistas": 1
-  }
- ],
- "pintura:cma:142475": [
-  {
-   "construto": "habituacao",
-   "trecho": "domestic",
-   "pistas": 1
-  },
-  {
-   "construto": "compaixao",
-   "trecho": "Saint",
-   "pistas": 1
-  }
- ],
  "pintura:cma:142476": [
   {
    "construto": "compaixao",
@@ -14283,6 +15229,23 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:142643": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "banquet",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "Cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "luto",
+   "trecho": "tomb",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:142660": [
   {
    "construto": "compaixao",
@@ -14330,6 +15293,23 @@
   {
    "construto": "emocoes_positivas",
    "trecho": "delighted",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:142834": [
+  {
+   "construto": "esperanca",
+   "trecho": "prayer",
+   "pistas": 1
+  },
+  {
+   "construto": "compaixao",
+   "trecho": "compassion",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Contemplation",
    "pistas": 1
   }
  ],
@@ -14664,6 +15644,25 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:143826": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "inveja",
+   "trecho": "coveted",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:143841": [
+  {
+   "construto": "medo",
+   "trecho": "demonstrates",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:143845": [
   {
    "construto": "gratidao",
@@ -14774,6 +15773,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:144226": [
+  {
+   "construto": "vigilancia",
+   "trecho": "guard",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:144255": [
   {
    "construto": "apego",
@@ -14807,23 +15813,6 @@
   {
    "construto": "emocoes_positivas",
    "trecho": "play",
-   "pistas": 1
-  }
- ],
- "pintura:cma:144286": [
-  {
-   "construto": "assombro",
-   "trecho": "Towering",
-   "pistas": 1
-  },
-  {
-   "construto": "ambivalencia",
-   "trecho": "tension between",
-   "pistas": 1
-  },
-  {
-   "construto": "curiosidade",
-   "trecho": "observance",
    "pistas": 1
   }
  ],
@@ -14944,6 +15933,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:144696": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "pleasures",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:144705": [
   {
    "construto": "solitude",
@@ -15048,13 +16044,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:145123": [
-  {
-   "construto": "assombro",
-   "trecho": "mountains",
-   "pistas": 1
-  }
- ],
  "pintura:cma:145124": [
   {
    "construto": "fluxo",
@@ -15119,13 +16108,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:145409": [
-  {
-   "construto": "pertencimento",
-   "trecho": "congregation",
-   "pistas": 1
-  }
- ],
  "pintura:cma:145418": [
   {
    "construto": "solitude",
@@ -15186,10 +16168,87 @@
    "pistas": 1
   }
  ],
- "pintura:cma:145725": [
+ "pintura:cma:145665": [
   {
-   "construto": "gratidao",
-   "trecho": "donor",
+   "construto": "assombro",
+   "trecho": "Mountains",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:145666": [
+  {
+   "construto": "assombro",
+   "trecho": "Mountains",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:145667": [
+  {
+   "construto": "assombro",
+   "trecho": "Mountains",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:145668": [
+  {
+   "construto": "assombro",
+   "trecho": "Mountains",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:145669": [
+  {
+   "construto": "assombro",
+   "trecho": "Mountains",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:145670": [
+  {
+   "construto": "assombro",
+   "trecho": "Mountains",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:145671": [
+  {
+   "construto": "assombro",
+   "trecho": "Mountains",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:145672": [
+  {
+   "construto": "assombro",
+   "trecho": "Mountains",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:145673": [
+  {
+   "construto": "assombro",
+   "trecho": "Mountains",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:145674": [
+  {
+   "construto": "assombro",
+   "trecho": "Mountains",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:145675": [
+  {
+   "construto": "assombro",
+   "trecho": "Mountains",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:145676": [
+  {
+   "construto": "assombro",
+   "trecho": "Mountains",
    "pistas": 1
   }
  ],
@@ -15200,36 +16259,10 @@
    "pistas": 1
   }
  ],
- "pintura:cma:145815": [
-  {
-   "construto": "gratidao",
-   "trecho": "donors",
-   "pistas": 1
-  }
- ],
  "pintura:cma:145829": [
   {
    "construto": "gratidao",
    "trecho": "donors",
-   "pistas": 1
-  }
- ],
- "pintura:cma:145830": [
-  {
-   "construto": "esperanca",
-   "trecho": "prayer",
-   "pistas": 1
-  }
- ],
- "pintura:cma:145831": [
-  {
-   "construto": "pertencimento",
-   "trecho": "family",
-   "pistas": 1
-  },
-  {
-   "construto": "gratidao",
-   "trecho": "donor",
    "pistas": 1
   }
  ],
@@ -15242,18 +16275,6 @@
   {
    "construto": "interocepcao",
    "trecho": "pain",
-   "pistas": 1
-  }
- ],
- "pintura:cma:145953": [
-  {
-   "construto": "assombro",
-   "trecho": "miraculous",
-   "pistas": 1
-  },
-  {
-   "construto": "compaixao",
-   "trecho": "compassion",
    "pistas": 1
   }
  ],
@@ -15310,29 +16331,27 @@
    "pistas": 1
   }
  ],
- "pintura:cma:146035": [
-  {
-   "construto": "assombro",
-   "trecho": "mountains",
-   "pistas": 1
-  }
- ],
- "pintura:cma:146037": [
-  {
-   "construto": "pertencimento",
-   "trecho": "family",
-   "pistas": 1
-  },
-  {
-   "construto": "tedio",
-   "trecho": "Waiting",
-   "pistas": 1
-  }
- ],
  "pintura:cma:146038": [
   {
    "construto": "pertencimento",
    "trecho": "companions",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:146039": [
+  {
+   "construto": "apego",
+   "trecho": "embracing",
+   "pistas": 2
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "musicians",
+   "pistas": 1
+  },
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "play",
    "pistas": 1
   }
  ],
@@ -15563,6 +16582,37 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:146378": [
+  {
+   "construto": "pertencimento",
+   "trecho": "community",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:146379": [
+  {
+   "construto": "fluxo",
+   "trecho": "reading",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:146380": [
+  {
+   "construto": "pertencimento",
+   "trecho": "family",
+   "pistas": 1
+  },
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Lake",
+   "pistas": 1
+  },
+  {
+   "construto": "constrangimento",
+   "trecho": "modest",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:146384": [
   {
    "construto": "assombro",
@@ -15575,31 +16625,64 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:146386": [
+  {
+   "construto": "anomia",
+   "trecho": "rebellion",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:146395": [
+  {
+   "construto": "fluxo",
+   "trecho": "writing",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:146396": [
+  {
+   "construto": "assombro",
+   "trecho": "waterfall",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:146398": [
+  {
+   "construto": "pertencimento",
+   "trecho": "gathering",
+   "pistas": 2
+  }
+ ],
+ "pintura:cma:146401": [
+  {
+   "construto": "pertencimento",
+   "trecho": "gathering",
+   "pistas": 2
+  }
+ ],
+ "pintura:cma:146403": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "play",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:146404": [
+  {
+   "construto": "pertencimento",
+   "trecho": "family",
+   "pistas": 1
+  },
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Lake",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:146416": [
   {
    "construto": "curiosidade",
    "trecho": "study of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:146443": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "celebrations",
-   "pistas": 1
-  }
- ],
- "pintura:cma:146444": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "celebrations",
-   "pistas": 1
-  }
- ],
- "pintura:cma:146445": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "celebrations",
    "pistas": 1
   }
  ],
@@ -15702,6 +16785,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:147015": [
+  {
+   "construto": "fluxo",
+   "trecho": "sewing",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:147016": [
   {
    "construto": "apego",
@@ -15728,13 +16818,6 @@
   {
    "construto": "assombro",
    "trecho": "vision",
-   "pistas": 1
-  }
- ],
- "pintura:cma:147045": [
-  {
-   "construto": "solitude",
-   "trecho": "Solitary",
    "pistas": 1
   }
  ],
@@ -15933,6 +17016,18 @@
   {
    "construto": "esperanca",
    "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:147579": [
+  {
+   "construto": "esperanca",
+   "trecho": "redemption",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "contemplate",
    "pistas": 1
   }
  ],
@@ -16152,6 +17247,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:148006": [
+  {
+   "construto": "assombro",
+   "trecho": "mountain",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:148117": [
   {
    "construto": "constrangimento",
@@ -16333,6 +17435,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:148310": [
+  {
+   "construto": "luto",
+   "trecho": "tomb",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:148327": [
   {
    "construto": "curiosidade",
@@ -16363,18 +17472,6 @@
   {
    "construto": "medo",
    "trecho": "fear",
-   "pistas": 1
-  }
- ],
- "pintura:cma:148362": [
-  {
-   "construto": "assombro",
-   "trecho": "mountain",
-   "pistas": 2
-  },
-  {
-   "construto": "constrangimento",
-   "trecho": "awkwardness",
    "pistas": 1
   }
  ],
@@ -16440,18 +17537,6 @@
   {
    "construto": "restauracao_da_atencao",
    "trecho": "idyllic",
-   "pistas": 1
-  }
- ],
- "pintura:cma:148383": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "countryside",
-   "pistas": 1
-  },
-  {
-   "construto": "curiosidade",
-   "trecho": "observations",
    "pistas": 1
   }
  ],
@@ -16588,27 +17673,22 @@
    "pistas": 1
   }
  ],
- "pintura:cma:148395": [
-  {
-   "construto": "habituacao",
-   "trecho": "household",
-   "pistas": 1
-  },
-  {
-   "construto": "compaixao",
-   "trecho": "tending",
-   "pistas": 1
-  },
-  {
-   "construto": "emocoes_positivas",
-   "trecho": "playing",
-   "pistas": 1
-  }
- ],
  "pintura:cma:148397": [
   {
    "construto": "assombro",
    "trecho": "majestic",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:148522": [
+  {
+   "construto": "alienacao",
+   "trecho": "Factory",
+   "pistas": 2
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "concentrated",
    "pistas": 1
   }
  ],
@@ -17015,6 +18095,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:148984": [
+  {
+   "construto": "alienacao",
+   "trecho": "commodities",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:148990": [
   {
    "construto": "esperanca",
@@ -17031,6 +18118,13 @@
   {
    "construto": "apego",
    "trecho": "motherhood",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:149027": [
+  {
+   "construto": "luto",
+   "trecho": "tomb",
    "pistas": 1
   }
  ],
@@ -17182,18 +18276,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:149109": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "garden",
-   "pistas": 1
-  },
-  {
-   "construto": "emocoes_positivas",
-   "trecho": "joy",
-   "pistas": 1
-  }
- ],
  "pintura:cma:149115": [
   {
    "construto": "assombro",
@@ -17203,25 +18285,6 @@
   {
    "construto": "curiosidade",
    "trecho": "study of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:149116": [
-  {
-   "construto": "pertencimento",
-   "trecho": "gathering",
-   "pistas": 1
-  },
-  {
-   "construto": "vigilancia",
-   "trecho": "Watching",
-   "pistas": 1
-  }
- ],
- "pintura:cma:149119": [
-  {
-   "construto": "fluxo",
-   "trecho": "weaving",
    "pistas": 1
   }
  ],
@@ -17288,13 +18351,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:149391": [
-  {
-   "construto": "compaixao",
-   "trecho": "compassion",
-   "pistas": 1
-  }
- ],
  "pintura:cma:149397": [
   {
    "construto": "restauracao_da_atencao",
@@ -17311,23 +18367,6 @@
   {
    "construto": "apego_ao_lugar",
    "trecho": "native",
-   "pistas": 1
-  }
- ],
- "pintura:cma:149414": [
-  {
-   "construto": "solitude",
-   "trecho": "Solitary",
-   "pistas": 2
-  },
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "Garden",
-   "pistas": 1
-  },
-  {
-   "construto": "emocoes_positivas",
-   "trecho": "joy",
    "pistas": 1
   }
  ],
@@ -17379,6 +18418,27 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:149424": [
+  {
+   "construto": "fluxo",
+   "trecho": "reading",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:149425": [
+  {
+   "construto": "fluxo",
+   "trecho": "reading",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:149426": [
+  {
+   "construto": "fluxo",
+   "trecho": "reading",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:149429": [
   {
    "construto": "memoria_autobiografica",
@@ -17390,6 +18450,23 @@
   {
    "construto": "divagacao_mental",
    "trecho": "gazing",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:149465": [
+  {
+   "construto": "pertencimento",
+   "trecho": "kinship",
+   "pistas": 1
+  },
+  {
+   "construto": "apego",
+   "trecho": "mother",
+   "pistas": 1
+  },
+  {
+   "construto": "compaixao",
+   "trecho": "Saint",
    "pistas": 1
   }
  ],
@@ -17423,20 +18500,6 @@
   {
    "construto": "memoria_autobiografica",
    "trecho": "his own",
-   "pistas": 1
-  }
- ],
- "pintura:cma:149596": [
-  {
-   "construto": "medo",
-   "trecho": "demon",
-   "pistas": 1
-  }
- ],
- "pintura:cma:149598": [
-  {
-   "construto": "medo",
-   "trecho": "demon",
    "pistas": 1
   }
  ],
@@ -17826,18 +18889,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:149662": [
-  {
-   "construto": "luto",
-   "trecho": "commemorate",
-   "pistas": 1
-  },
-  {
-   "construto": "apego_ao_lugar",
-   "trecho": "hometown",
-   "pistas": 1
-  }
- ],
  "pintura:cma:149665": [
   {
    "construto": "nostalgia",
@@ -17855,6 +18906,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:149666": [
+  {
+   "construto": "fluxo",
+   "trecho": "weaving",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:149683": [
   {
    "construto": "compaixao",
@@ -17862,44 +18920,108 @@
    "pistas": 1
   }
  ],
- "pintura:cma:149684": [
+ "pintura:cma:149685": [
   {
-   "construto": "pertencimento",
-   "trecho": "gathering",
-   "pistas": 1
-  },
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "gardens",
-   "pistas": 1
-  },
-  {
-   "construto": "luto",
-   "trecho": "commemorates",
+   "construto": "assombro",
+   "trecho": "mountains",
    "pistas": 1
   }
  ],
- "pintura:cma:149762": [
+ "pintura:cma:149686": [
   {
-   "construto": "restauracao_da_atencao",
-   "trecho": "gentle",
-   "pistas": 1
-  },
-  {
-   "construto": "curiosidade",
-   "trecho": "experimented",
+   "construto": "assombro",
+   "trecho": "mountains",
    "pistas": 1
   }
  ],
- "pintura:cma:149768": [
+ "pintura:cma:149687": [
   {
-   "construto": "solidao",
-   "trecho": "isolated",
+   "construto": "assombro",
+   "trecho": "mountains",
    "pistas": 1
-  },
+  }
+ ],
+ "pintura:cma:149688": [
   {
-   "construto": "compaixao",
-   "trecho": "saint",
+   "construto": "assombro",
+   "trecho": "mountains",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:149689": [
+  {
+   "construto": "assombro",
+   "trecho": "mountains",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:149690": [
+  {
+   "construto": "assombro",
+   "trecho": "mountains",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:149691": [
+  {
+   "construto": "assombro",
+   "trecho": "mountains",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:149692": [
+  {
+   "construto": "assombro",
+   "trecho": "mountains",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:149693": [
+  {
+   "construto": "assombro",
+   "trecho": "mountains",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:149694": [
+  {
+   "construto": "assombro",
+   "trecho": "mountains",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:149695": [
+  {
+   "construto": "assombro",
+   "trecho": "mountains",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:149696": [
+  {
+   "construto": "assombro",
+   "trecho": "mountains",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:149697": [
+  {
+   "construto": "assombro",
+   "trecho": "mountains",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:149698": [
+  {
+   "construto": "assombro",
+   "trecho": "mountains",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:149753": [
+  {
+   "construto": "assombro",
+   "trecho": "mountains",
    "pistas": 1
   }
  ],
@@ -17986,13 +19108,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:149891": [
-  {
-   "construto": "raiva",
-   "trecho": "struggle",
-   "pistas": 1
-  }
- ],
  "pintura:cma:149897": [
   {
    "construto": "curiosidade",
@@ -18048,13 +19163,6 @@
   {
    "construto": "raiva",
    "trecho": "struggle",
-   "pistas": 1
-  }
- ],
- "pintura:cma:149956": [
-  {
-   "construto": "curiosidade",
-   "trecho": "observing",
    "pistas": 1
   }
  ],
@@ -18275,13 +19383,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:150074": [
-  {
-   "construto": "assombro",
-   "trecho": "mountain",
-   "pistas": 1
-  }
- ],
  "pintura:cma:150076": [
   {
    "construto": "habituacao",
@@ -18482,6 +19583,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:150439": [
+  {
+   "construto": "apego",
+   "trecho": "marriage",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:150455": [
   {
    "construto": "dissonancia_cognitiva",
@@ -18493,18 +19601,6 @@
   {
    "construto": "curiosidade",
    "trecho": "study of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:150475": [
-  {
-   "construto": "assombro",
-   "trecho": "waterfall",
-   "pistas": 1
-  },
-  {
-   "construto": "curiosidade",
-   "trecho": "observation",
    "pistas": 1
   }
  ],
@@ -18529,18 +19625,6 @@
   {
    "construto": "restauracao_da_atencao",
    "trecho": "pastoral",
-   "pistas": 1
-  }
- ],
- "pintura:cma:150533": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "repose",
-   "pistas": 1
-  },
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "his own",
    "pistas": 1
   }
  ],
@@ -18669,6 +19753,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:150833": [
+  {
+   "construto": "esperanca",
+   "trecho": "blessing",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:150839": [
   {
    "construto": "assombro",
@@ -18697,6 +19788,27 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:150874": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "dancers",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:150889": [
+  {
+   "construto": "arrependimento",
+   "trecho": "forgiveness",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:150895": [
+  {
+   "construto": "luto",
+   "trecho": "grave",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:150901": [
   {
    "construto": "memoria_autobiografica",
@@ -18715,6 +19827,13 @@
   {
    "construto": "solitude",
    "trecho": "hermit",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:150910": [
+  {
+   "construto": "fluxo",
+   "trecho": "sewing",
    "pistas": 1
   }
  ],
@@ -18770,6 +19889,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:151017": [
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "native",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:151019": [
   {
    "construto": "medo",
@@ -18815,10 +19941,15 @@
    "pistas": 2
   }
  ],
- "pintura:cma:151064": [
+ "pintura:cma:151053": [
   {
-   "construto": "pertencimento",
-   "trecho": "gathering",
+   "construto": "memoria_autobiografica",
+   "trecho": "his own",
+   "pistas": 1
+  },
+  {
+   "construto": "arrependimento",
+   "trecho": "penance",
    "pistas": 1
   }
  ],
@@ -18876,6 +20007,41 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:151258": [
+  {
+   "construto": "medo",
+   "trecho": "danger",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:151259": [
+  {
+   "construto": "medo",
+   "trecho": "danger",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:151260": [
+  {
+   "construto": "medo",
+   "trecho": "danger",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:151261": [
+  {
+   "construto": "medo",
+   "trecho": "danger",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:151277": [
+  {
+   "construto": "pertencimento",
+   "trecho": "congregation",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:151298": [
   {
    "construto": "restauracao_da_atencao",
@@ -18890,13 +20056,6 @@
   {
    "construto": "curiosidade",
    "trecho": "observed",
-   "pistas": 1
-  }
- ],
- "pintura:cma:151340": [
-  {
-   "construto": "apego",
-   "trecho": "marriage",
    "pistas": 1
   }
  ],
@@ -19109,18 +20268,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:151535": [
-  {
-   "construto": "constrangimento",
-   "trecho": "humiliations",
-   "pistas": 1
-  },
-  {
-   "construto": "medo",
-   "trecho": "terrified",
-   "pistas": 1
-  }
- ],
  "pintura:cma:151540": [
   {
    "construto": "memoria_autobiografica",
@@ -19135,6 +20282,13 @@
   {
    "construto": "emocoes_positivas",
    "trecho": "play",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:151621": [
+  {
+   "construto": "pertencimento",
+   "trecho": "Family",
    "pistas": 1
   }
  ],
@@ -19303,31 +20457,10 @@
    "pistas": 1
   }
  ],
- "pintura:cma:151987": [
+ "pintura:cma:151996": [
   {
-   "construto": "restauracao_da_atencao",
-   "trecho": "Garden",
-   "pistas": 1
-  }
- ],
- "pintura:cma:151988": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "Garden",
-   "pistas": 1
-  }
- ],
- "pintura:cma:151989": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "Garden",
-   "pistas": 1
-  }
- ],
- "pintura:cma:151990": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "Garden",
+   "construto": "fluxo",
+   "trecho": "weaving",
    "pistas": 1
   }
  ],
@@ -19579,18 +20712,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:152412": [
-  {
-   "construto": "pertencimento",
-   "trecho": "family",
-   "pistas": 2
-  },
-  {
-   "construto": "luto",
-   "trecho": "commemorating",
-   "pistas": 1
-  }
- ],
  "pintura:cma:152424": [
   {
    "construto": "emocoes_positivas",
@@ -19614,13 +20735,6 @@
   {
    "construto": "emocoes_positivas",
    "trecho": "playing",
-   "pistas": 1
-  }
- ],
- "pintura:cma:152437": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "Gentle",
    "pistas": 1
   }
  ],
@@ -19706,6 +20820,13 @@
   {
    "construto": "restauracao_da_atencao",
    "trecho": "tranquility",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:152498": [
+  {
+   "construto": "medo",
+   "trecho": "demonstrate",
    "pistas": 1
   }
  ],
@@ -19828,15 +20949,10 @@
    "pistas": 1
   }
  ],
- "pintura:cma:152555": [
+ "pintura:cma:152698": [
   {
-   "construto": "restauracao_da_atencao",
-   "trecho": "stillness",
-   "pistas": 1
-  },
-  {
-   "construto": "assombro",
-   "trecho": "mountains",
+   "construto": "fluxo",
+   "trecho": "weaving",
    "pistas": 1
   }
  ],
@@ -20193,27 +21309,22 @@
    "pistas": 1
   }
  ],
- "pintura:cma:153408": [
+ "pintura:cma:153407": [
   {
-   "construto": "compaixao",
-   "trecho": "the Poor",
-   "pistas": 1
-  }
- ],
- "pintura:cma:153412": [
-  {
-   "construto": "assombro",
-   "trecho": "thunder",
-   "pistas": 1
-  },
-  {
-   "construto": "ostracismo",
-   "trecho": "prison",
+   "construto": "medo",
+   "trecho": "demonstrates",
    "pistas": 1
   },
   {
    "construto": "raiva",
-   "trecho": "fight",
+   "trecho": "fighting",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:153408": [
+  {
+   "construto": "compaixao",
+   "trecho": "the Poor",
    "pistas": 1
   }
  ],
@@ -20233,6 +21344,13 @@
   {
    "construto": "constrangimento",
    "trecho": "modesty",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:153617": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "playing",
    "pistas": 1
   }
  ],
@@ -20280,23 +21398,6 @@
   {
    "construto": "fluxo",
    "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:153672": [
-  {
-   "construto": "pertencimento",
-   "trecho": "procession",
-   "pistas": 1
-  },
-  {
-   "construto": "apego",
-   "trecho": "wedding",
-   "pistas": 1
-  },
-  {
-   "construto": "medo",
-   "trecho": "monsters",
    "pistas": 1
   }
  ],
@@ -20601,6 +21702,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:154215": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "crowded",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:154244": [
   {
    "construto": "assombro",
@@ -20734,6 +21842,30 @@
   {
    "construto": "gratidao",
    "trecho": "donor",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:154391": [
+  {
+   "construto": "assombro",
+   "trecho": "thunder",
+   "pistas": 2
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "his own",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:154392": [
+  {
+   "construto": "assombro",
+   "trecho": "thunder",
+   "pistas": 2
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "his own",
    "pistas": 1
   }
  ],
@@ -20906,6 +22038,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:154940": [
+  {
+   "construto": "fluxo",
+   "trecho": "artisans",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:155006": [
   {
    "construto": "assombro",
@@ -21028,6 +22167,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:155476": [
+  {
+   "construto": "assombro",
+   "trecho": "majestic",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:155585": [
   {
    "construto": "solitude",
@@ -21112,6 +22258,13 @@
   {
    "construto": "empatia",
    "trecho": "humanity",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:155791": [
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "his own",
    "pistas": 1
   }
  ],
@@ -21252,6 +22405,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:156106": [
+  {
+   "construto": "divagacao_mental",
+   "trecho": "gazing",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:156107": [
   {
    "construto": "nostalgia",
@@ -21361,6 +22521,18 @@
   {
    "construto": "solidao",
    "trecho": "isolated",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:156305": [
+  {
+   "construto": "assombro",
+   "trecho": "mountain",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "writing",
    "pistas": 1
   }
  ],
@@ -21510,18 +22682,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:156792": [
-  {
-   "construto": "ambivalencia",
-   "trecho": "uneasy",
-   "pistas": 1
-  },
-  {
-   "construto": "interocepcao",
-   "trecho": "sleep",
-   "pistas": 1
-  }
- ],
  "pintura:cma:156808": [
   {
    "construto": "pertencimento",
@@ -21557,6 +22717,18 @@
   {
    "construto": "medo",
    "trecho": "monster",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:156857": [
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "his own",
+   "pistas": 1
+  },
+  {
+   "construto": "raiva",
+   "trecho": "furious",
    "pistas": 1
   }
  ],
@@ -21600,10 +22772,10 @@
    "pistas": 1
   }
  ],
- "pintura:cma:156976": [
+ "pintura:cma:156897": [
   {
-   "construto": "empatia",
-   "trecho": "empathy",
+   "construto": "alienacao",
+   "trecho": "detached",
    "pistas": 1
   }
  ],
@@ -21638,10 +22810,15 @@
    "pistas": 1
   }
  ],
- "pintura:cma:157007": [
+ "pintura:cma:157004": [
   {
    "construto": "pertencimento",
-   "trecho": "gathering",
+   "trecho": "family",
+   "pistas": 1
+  },
+  {
+   "construto": "luto",
+   "trecho": "tomb",
    "pistas": 1
   }
  ],
@@ -21939,6 +23116,18 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:157441": [
+  {
+   "construto": "curiosidade",
+   "trecho": "observed",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "weaving",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:157501": [
   {
    "construto": "curiosidade",
@@ -21969,6 +23158,27 @@
   {
    "construto": "alienacao",
    "trecho": "detachment",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:157588": [
+  {
+   "construto": "luto",
+   "trecho": "tomb",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:157589": [
+  {
+   "construto": "luto",
+   "trecho": "tomb",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:157590": [
+  {
+   "construto": "luto",
+   "trecho": "tomb",
    "pistas": 1
   }
  ],
@@ -22130,6 +23340,162 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:159239": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "dance",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:159240": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "dance",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:159241": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "dance",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:159242": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "dance",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:159243": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "dance",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:159244": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "dance",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:159245": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "dance",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:159246": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "dance",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:159247": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "dance",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:159248": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "dance",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:159249": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "dance",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:159250": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "dance",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:159251": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "dance",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:159270": [
   {
    "construto": "restauracao_da_atencao",
@@ -22141,6 +23507,13 @@
   {
    "construto": "solidao",
    "trecho": "isolating",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:159280": [
+  {
+   "construto": "medo",
+   "trecho": "demonstrates",
    "pistas": 1
   }
  ],
@@ -22194,6 +23567,18 @@
   {
    "construto": "fluxo",
    "trecho": "concentrating",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:159329": [
+  {
+   "construto": "assombro",
+   "trecho": "spectacular",
+   "pistas": 1
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "native",
    "pistas": 1
   }
  ],
@@ -22359,6 +23744,18 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:159534": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "festivals",
+   "pistas": 1
+  },
+  {
+   "construto": "ambivalencia",
+   "trecho": "doubt",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:159607": [
   {
    "construto": "apego",
@@ -22457,13 +23854,6 @@
    "construto": "anomia",
    "trecho": "corrupt",
    "pistas": 1
-  }
- ],
- "pintura:cma:159731": [
-  {
-   "construto": "solitude",
-   "trecho": "secluded",
-   "pistas": 2
   }
  ],
  "pintura:cma:159739": [
@@ -22573,23 +23963,6 @@
   {
    "construto": "emocoes_positivas",
    "trecho": "playful",
-   "pistas": 1
-  }
- ],
- "pintura:cma:159875": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "peacefully",
-   "pistas": 2
-  },
-  {
-   "construto": "interocepcao",
-   "trecho": "sleeps",
-   "pistas": 1
-  },
-  {
-   "construto": "divagacao_mental",
-   "trecho": "dreamlike",
    "pistas": 1
   }
  ],
@@ -22787,18 +24160,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:160134": [
-  {
-   "construto": "vigilancia",
-   "trecho": "guards",
-   "pistas": 1
-  },
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "his own",
-   "pistas": 1
-  }
- ],
  "pintura:cma:160135": [
   {
    "construto": "emocoes_positivas",
@@ -22820,23 +24181,6 @@
   {
    "construto": "gratidao",
    "trecho": "dedicated",
-   "pistas": 1
-  }
- ],
- "pintura:cma:160137": [
-  {
-   "construto": "solitude",
-   "trecho": "secluded",
-   "pistas": 1
-  },
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "idyllic",
-   "pistas": 1
-  },
-  {
-   "construto": "assombro",
-   "trecho": "mountain",
    "pistas": 1
   }
  ],
@@ -23097,74 +24441,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:160160": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  },
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "his own",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "writing",
-   "pistas": 1
-  }
- ],
- "pintura:cma:160161": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  },
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "his own",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "writing",
-   "pistas": 1
-  }
- ],
- "pintura:cma:160162": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  },
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "his own",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "writing",
-   "pistas": 1
-  }
- ],
- "pintura:cma:160163": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  },
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "his own",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "writing",
-   "pistas": 1
-  }
- ],
  "pintura:cma:160165": [
   {
    "construto": "esperanca",
@@ -23218,13 +24494,6 @@
   }
  ],
  "pintura:cma:160205": [
-  {
-   "construto": "vigilancia",
-   "trecho": "guards",
-   "pistas": 1
-  }
- ],
- "pintura:cma:160206": [
   {
    "construto": "vigilancia",
    "trecho": "guards",
@@ -23297,6 +24566,23 @@
   {
    "construto": "memoria_autobiografica",
    "trecho": "self-portrait",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:160343": [
+  {
+   "construto": "divagacao_mental",
+   "trecho": "dreaming",
+   "pistas": 2
+  },
+  {
+   "construto": "luto",
+   "trecho": "grave",
+   "pistas": 1
+  },
+  {
+   "construto": "dissonancia_cognitiva",
+   "trecho": "parody",
    "pistas": 1
   }
  ],
@@ -23452,6 +24738,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:160690": [
+  {
+   "construto": "fluxo",
+   "trecho": "working",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:160709": [
   {
    "construto": "apego",
@@ -23594,20 +24887,6 @@
   }
  ],
  "pintura:cma:160739": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "Lake",
-   "pistas": 1
-  }
- ],
- "pintura:cma:160740": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "Lake",
-   "pistas": 1
-  }
- ],
- "pintura:cma:160741": [
   {
    "construto": "restauracao_da_atencao",
    "trecho": "Lake",
@@ -23807,142 +25086,6 @@
   {
    "construto": "pertencimento",
    "trecho": "family",
-   "pistas": 1
-  }
- ],
- "pintura:cma:160886": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "idyllic",
-   "pistas": 2
-  },
-  {
-   "construto": "nostalgia",
-   "trecho": "of the past",
-   "pistas": 1
-  },
-  {
-   "construto": "emocoes_positivas",
-   "trecho": "Happiness",
-   "pistas": 1
-  }
- ],
- "pintura:cma:160887": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "idyllic",
-   "pistas": 2
-  },
-  {
-   "construto": "nostalgia",
-   "trecho": "of the past",
-   "pistas": 1
-  },
-  {
-   "construto": "emocoes_positivas",
-   "trecho": "Happiness",
-   "pistas": 1
-  }
- ],
- "pintura:cma:160888": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "idyllic",
-   "pistas": 2
-  },
-  {
-   "construto": "nostalgia",
-   "trecho": "of the past",
-   "pistas": 1
-  },
-  {
-   "construto": "emocoes_positivas",
-   "trecho": "Happiness",
-   "pistas": 1
-  }
- ],
- "pintura:cma:160889": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "idyllic",
-   "pistas": 2
-  },
-  {
-   "construto": "nostalgia",
-   "trecho": "of the past",
-   "pistas": 1
-  },
-  {
-   "construto": "emocoes_positivas",
-   "trecho": "Happiness",
-   "pistas": 1
-  }
- ],
- "pintura:cma:160890": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "idyllic",
-   "pistas": 2
-  },
-  {
-   "construto": "nostalgia",
-   "trecho": "of the past",
-   "pistas": 1
-  },
-  {
-   "construto": "emocoes_positivas",
-   "trecho": "Happiness",
-   "pistas": 1
-  }
- ],
- "pintura:cma:160891": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "idyllic",
-   "pistas": 2
-  },
-  {
-   "construto": "nostalgia",
-   "trecho": "of the past",
-   "pistas": 1
-  },
-  {
-   "construto": "emocoes_positivas",
-   "trecho": "Happiness",
-   "pistas": 1
-  }
- ],
- "pintura:cma:160892": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "idyllic",
-   "pistas": 2
-  },
-  {
-   "construto": "nostalgia",
-   "trecho": "of the past",
-   "pistas": 1
-  },
-  {
-   "construto": "emocoes_positivas",
-   "trecho": "Happiness",
-   "pistas": 1
-  }
- ],
- "pintura:cma:160913": [
-  {
-   "construto": "apego_ao_lugar",
-   "trecho": "native city",
-   "pistas": 2
-  },
-  {
-   "construto": "anomia",
-   "trecho": "rebellion",
-   "pistas": 1
-  },
-  {
-   "construto": "esperanca",
-   "trecho": "renewal",
    "pistas": 1
   }
  ],
@@ -24233,10 +25376,24 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:161650": [
+  {
+   "construto": "inveja",
+   "trecho": "coveted",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:161674": [
   {
    "construto": "empatia",
    "trecho": "sympathetically",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:161699": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "lake",
    "pistas": 1
   }
  ],
@@ -24386,6 +25543,13 @@
   {
    "construto": "curiosidade",
    "trecho": "observations",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:162091": [
+  {
+   "construto": "pertencimento",
+   "trecho": "family",
    "pistas": 1
   }
  ],
@@ -24731,6 +25895,18 @@
   {
    "construto": "solidao",
    "trecho": "abandoned",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:162398": [
+  {
+   "construto": "habituacao",
+   "trecho": "mundane",
+   "pistas": 1
+  },
+  {
+   "construto": "gratidao",
+   "trecho": "offering",
    "pistas": 1
   }
  ],
@@ -25294,6 +26470,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:163101": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "exuberant",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:163103": [
   {
    "construto": "habituacao",
@@ -25751,6 +26934,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:163708": [
+  {
+   "construto": "fluxo",
+   "trecho": "immersed",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:163791": [
   {
    "construto": "nostalgia",
@@ -26131,6 +27321,34 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:164664": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Dazzling",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:164666": [
+  {
+   "construto": "medo",
+   "trecho": "demonstrating",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:164720": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "celebration",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:164721": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "celebration",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:164752": [
   {
    "construto": "curiosidade",
@@ -26157,6 +27375,13 @@
   {
    "construto": "emocoes_positivas",
    "trecho": "pleasure",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:164834": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "dancing",
    "pistas": 1
   }
  ],
@@ -26265,27 +27490,168 @@
    "pistas": 2
   }
  ],
- "pintura:cma:165736": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "serenity",
-   "pistas": 2
-  },
-  {
-   "construto": "apego_ao_lugar",
-   "trecho": "native",
-   "pistas": 1
-  },
-  {
-   "construto": "gratidao",
-   "trecho": "dedicated",
-   "pistas": 1
-  }
- ],
  "pintura:cma:166357": [
   {
    "construto": "medo",
    "trecho": "fright",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:166364": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "compaixao",
+   "trecho": "Saint",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:166365": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "compaixao",
+   "trecho": "Saint",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:166367": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "compaixao",
+   "trecho": "Saint",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:166368": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "compaixao",
+   "trecho": "Saint",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:166369": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "compaixao",
+   "trecho": "Saint",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:166370": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "compaixao",
+   "trecho": "Saint",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:166371": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "compaixao",
+   "trecho": "Saint",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:166372": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "compaixao",
+   "trecho": "Saint",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:166373": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "compaixao",
+   "trecho": "Saint",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:166374": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "compaixao",
+   "trecho": "Saint",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:166376": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "compaixao",
+   "trecho": "Saint",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:166377": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 1
+  },
+  {
+   "construto": "compaixao",
+   "trecho": "Saint",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:166479": [
+  {
+   "construto": "solidao",
+   "trecho": "isolated",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:166488": [
+  {
+   "construto": "fluxo",
+   "trecho": "weaving",
    "pistas": 1
   }
  ],
@@ -26879,6 +28245,27 @@
   {
    "construto": "fluxo",
    "trecho": "working",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:167464": [
+  {
+   "construto": "assombro",
+   "trecho": "Cathedral",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:167480": [
+  {
+   "construto": "compaixao",
+   "trecho": "Saint",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:167481": [
+  {
+   "construto": "compaixao",
+   "trecho": "Saint",
    "pistas": 1
   }
  ],
@@ -27919,6 +29306,18 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:170802": [
+  {
+   "construto": "apego",
+   "trecho": "lovers",
+   "pistas": 1
+  },
+  {
+   "construto": "medo",
+   "trecho": "ominous",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:170803": [
   {
    "construto": "pertencimento",
@@ -28351,6 +29750,23 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:170879": [
+  {
+   "construto": "luto",
+   "trecho": "lament",
+   "pistas": 1
+  },
+  {
+   "construto": "vigilancia",
+   "trecho": "alert",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "her own",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:170880": [
   {
    "construto": "apego",
@@ -28359,6 +29775,13 @@
   }
  ],
  "pintura:cma:170881": [
+  {
+   "construto": "apego",
+   "trecho": "beloved",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:170882": [
   {
    "construto": "apego",
    "trecho": "beloved",
@@ -28455,6 +29878,13 @@
   {
    "construto": "restauracao_da_atencao",
    "trecho": "calm",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:171307": [
+  {
+   "construto": "pertencimento",
+   "trecho": "community",
    "pistas": 1
   }
  ],
@@ -28570,6 +30000,13 @@
   {
    "construto": "emocoes_positivas",
    "trecho": "delighted",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:171611": [
+  {
+   "construto": "fluxo",
+   "trecho": "weaving",
    "pistas": 1
   }
  ],
@@ -28740,13 +30177,6 @@
    "construto": "fluxo",
    "trecho": "working",
    "pistas": 1
-  }
- ],
- "pintura:cma:173020": [
-  {
-   "construto": "assombro",
-   "trecho": "towering",
-   "pistas": 3
   }
  ],
  "pintura:cma:173072": [
@@ -28970,6 +30400,18 @@
   {
    "construto": "curiosidade",
    "trecho": "experimenting",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:287526": [
+  {
+   "construto": "apego",
+   "trecho": "wedding",
+   "pistas": 1
+  },
+  {
+   "construto": "contagio_emocional",
+   "trecho": "festivities",
    "pistas": 1
   }
  ],
@@ -29475,20 +30917,6 @@
   {
    "construto": "contagio_emocional",
    "trecho": "celebrations",
-   "pistas": 1
-  }
- ],
- "pintura:cma:312454": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "Garden",
-   "pistas": 1
-  }
- ],
- "pintura:cma:312456": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "Garden",
    "pistas": 1
   }
  ],
@@ -30630,6 +32058,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:351227": [
+  {
+   "construto": "medo",
+   "trecho": "demonstrates",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:357163": [
   {
    "construto": "assombro",
@@ -30807,6 +32242,13 @@
   {
    "construto": "raiva",
    "trecho": "fight",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:375948": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "play",
    "pistas": 1
   }
  ],
@@ -31019,6 +32461,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:394840": [
+  {
+   "construto": "empatia",
+   "trecho": "humanity",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:396848": [
   {
    "construto": "habituacao",
@@ -31030,13 +32479,6 @@
   {
    "construto": "pertencimento",
    "trecho": "procession",
-   "pistas": 1
-  }
- ],
- "pintura:cma:398803": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "Lake",
    "pistas": 1
   }
  ],
@@ -31291,13 +32733,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:445582": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "Revelation",
-   "pistas": 1
-  }
- ],
  "pintura:cma:445583": [
   {
    "construto": "solitude",
@@ -31329,13 +32764,6 @@
    "pistas": 2
   }
  ],
- "pintura:cma:447779": [
-  {
-   "construto": "assombro",
-   "trecho": "mountain",
-   "pistas": 1
-  }
- ],
  "pintura:cma:447789": [
   {
    "construto": "pertencimento",
@@ -31343,15 +32771,10 @@
    "pistas": 1
   }
  ],
- "pintura:cma:447805": [
+ "pintura:cma:448809": [
   {
-   "construto": "habituacao",
-   "trecho": "Household",
-   "pistas": 1
-  },
-  {
-   "construto": "assombro",
-   "trecho": "Mountain",
+   "construto": "memoria_autobiografica",
+   "trecho": "his own",
    "pistas": 1
   }
  ],
@@ -31432,20 +32855,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:448821": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "his own",
-   "pistas": 1
-  }
- ],
- "pintura:cma:448822": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "his own",
-   "pistas": 1
-  }
- ],
  "pintura:cma:448838": [
   {
    "construto": "emocoes_positivas",
@@ -31514,6 +32923,13 @@
   {
    "construto": "luto",
    "trecho": "tomb",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:451796": [
+  {
+   "construto": "vigilancia",
+   "trecho": "soldiers",
    "pistas": 1
   }
  ],
@@ -31621,6 +33037,20 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:456947": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "festive",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:456948": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "festive",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:457341": [
   {
    "construto": "medo",
@@ -31668,6 +33098,20 @@
    "construto": "assombro",
    "trecho": "awe-inspiring",
    "pistas": 2
+  }
+ ],
+ "pintura:cma:457568": [
+  {
+   "construto": "esperanca",
+   "trecho": "prayer",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:457569": [
+  {
+   "construto": "esperanca",
+   "trecho": "prayer",
+   "pistas": 1
   }
  ],
  "pintura:cma:515375": [
@@ -31902,6 +33346,18 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:536424": [
+  {
+   "construto": "curiosidade",
+   "trecho": "experimentation",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "contemplation",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:536425": [
   {
    "construto": "curiosidade",
@@ -32034,54 +33490,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:536436": [
-  {
-   "construto": "curiosidade",
-   "trecho": "experimentation",
-   "pistas": 1
-  },
-  {
-   "construto": "divagacao_mental",
-   "trecho": "contemplation",
-   "pistas": 1
-  }
- ],
- "pintura:cma:536437": [
-  {
-   "construto": "curiosidade",
-   "trecho": "experimentation",
-   "pistas": 1
-  },
-  {
-   "construto": "divagacao_mental",
-   "trecho": "contemplation",
-   "pistas": 1
-  }
- ],
- "pintura:cma:536438": [
-  {
-   "construto": "curiosidade",
-   "trecho": "experimentation",
-   "pistas": 1
-  },
-  {
-   "construto": "divagacao_mental",
-   "trecho": "contemplation",
-   "pistas": 1
-  }
- ],
- "pintura:cma:536439": [
-  {
-   "construto": "curiosidade",
-   "trecho": "experimentation",
-   "pistas": 1
-  },
-  {
-   "construto": "divagacao_mental",
-   "trecho": "contemplation",
-   "pistas": 1
-  }
- ],
  "pintura:cma:536477": [
   {
    "construto": "fluxo",
@@ -32117,13 +33525,6 @@
   {
    "construto": "nostalgia",
    "trecho": "ruins",
-   "pistas": 1
-  }
- ],
- "pintura:cma:539021": [
-  {
-   "construto": "pertencimento",
-   "trecho": "families",
    "pistas": 1
   }
  ],
@@ -32409,282 +33810,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:543780": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:543781": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:543782": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:543783": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:543784": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:543785": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:543786": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:543787": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:543788": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:543789": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:543790": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:543791": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:543792": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:543793": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:543794": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:543795": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:543796": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:543797": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:543798": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:543799": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:543800": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:543801": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:543802": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
  "pintura:cma:543981": [
   {
    "construto": "pertencimento",
@@ -32807,6 +33932,426 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:663152": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663155": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663156": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663157": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663158": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663160": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663161": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663162": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663163": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663164": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663165": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663166": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663208": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663210": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663212": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663213": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663214": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663215": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663216": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663217": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663218": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663219": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663220": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663221": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663227": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663228": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663229": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663231": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663232": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663233": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663234": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663235": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663236": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663237": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:663238": [
+  {
+   "construto": "pertencimento",
+   "trecho": "procession",
+   "pistas": 1
+  },
+  {
+   "construto": "esperanca",
+   "trecho": "salvation",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:663276": [
   {
    "construto": "pertencimento",
@@ -32819,7 +34364,7 @@
    "pistas": 1
   }
  ],
- "pintura:cma:664260": [
+ "pintura:cma:665196": [
   {
    "construto": "memoria_autobiografica",
    "trecho": "souvenir",
@@ -32831,303 +34376,17 @@
    "pistas": 1
   }
  ],
- "pintura:cma:664261": [
+ "pintura:cma:667175": [
   {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
+   "construto": "curiosidade",
+   "trecho": "studies of",
    "pistas": 1
   }
  ],
- "pintura:cma:664301": [
+ "pintura:cma:667825": [
   {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664302": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664303": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664304": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664305": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664306": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664307": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664308": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664309": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664310": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664311": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664312": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664313": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664314": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664315": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664316": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664317": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664318": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664319": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664320": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664321": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664322": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664323": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
-   "pistas": 1
-  }
- ],
- "pintura:cma:664324": [
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "souvenir",
-   "pistas": 1
-  },
-  {
-   "construto": "fluxo",
-   "trecho": "working",
+   "construto": "vigilancia",
+   "trecho": "soldiers",
    "pistas": 1
   }
  ],
@@ -33202,314 +34461,6 @@
   }
  ],
  "pintura:cma:667898": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667899": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667900": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667901": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667902": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667903": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667906": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667907": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667908": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667909": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667910": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667911": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667913": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667916": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667917": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667918": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667919": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667920": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667921": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667922": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667928": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667929": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667930": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667931": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667932": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667933": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667934": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667936": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667937": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667938": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667950": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667951": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667952": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667953": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667954": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667955": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667956": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667957": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667958": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667959": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667960": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667961": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667962": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667963": [
-  {
-   "construto": "vigilancia",
-   "trecho": "soldiers",
-   "pistas": 1
-  }
- ],
- "pintura:cma:667964": [
   {
    "construto": "vigilancia",
    "trecho": "soldiers",
@@ -33696,69 +34647,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:668073": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668074": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668075": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668076": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668077": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668078": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668079": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668080": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668081": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
  "pintura:cma:668221": [
   {
    "construto": "solitude",
@@ -33768,118 +34656,6 @@
   {
    "construto": "luto",
    "trecho": "Tomb",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668283": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668284": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668285": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668286": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668287": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668288": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668289": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668290": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668291": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668292": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668293": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668294": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668295": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668296": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668297": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
-   "pistas": 1
-  }
- ],
- "pintura:cma:668298": [
-  {
-   "construto": "curiosidade",
-   "trecho": "studies of",
    "pistas": 1
   }
  ],
@@ -33937,6 +34713,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:671555": [
+  {
+   "construto": "habituacao",
+   "trecho": "household",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:674083": [
   {
    "construto": "ostracismo",
@@ -33946,6 +34729,18 @@
   {
    "construto": "esperanca",
    "trecho": "redemption",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:674612": [
+  {
+   "construto": "contagio_emocional",
+   "trecho": "dance",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "memory",
    "pistas": 1
   }
  ],
@@ -34202,244 +34997,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:680858": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680859": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680860": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680861": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680862": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680863": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680864": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680865": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680866": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680867": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680868": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680869": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680870": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680871": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680872": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680873": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680874": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680875": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680876": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680877": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680878": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680879": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680880": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680881": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680882": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680883": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680884": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680885": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680886": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680887": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680888": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680889": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680890": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
- "pintura:cma:680891": [
-  {
-   "construto": "assombro",
-   "trecho": "celestial",
-   "pistas": 1
-  }
- ],
  "pintura:cma:681923": [
   {
    "construto": "raiva",
@@ -34621,6 +35178,34 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:703450": [
+  {
+   "construto": "fluxo",
+   "trecho": "weaving",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:703460": [
+  {
+   "construto": "habituacao",
+   "trecho": "daily",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:705328": [
+  {
+   "construto": "habituacao",
+   "trecho": "daily",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:705329": [
+  {
+   "construto": "habituacao",
+   "trecho": "daily",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:707479": [
   {
    "construto": "compaixao",
@@ -34647,13 +35232,6 @@
   {
    "construto": "emocoes_positivas",
    "trecho": "playing",
-   "pistas": 1
-  }
- ],
- "pintura:cma:707620": [
-  {
-   "construto": "fluxo",
-   "trecho": "reading",
    "pistas": 1
   }
  ],
@@ -34929,13 +35507,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:79586": [
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "lake",
-   "pistas": 1
-  }
- ],
  "pintura:cma:79588": [
   {
    "construto": "assombro",
@@ -35201,13 +35772,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:86107": [
-  {
-   "construto": "assombro",
-   "trecho": "spectacular",
-   "pistas": 2
-  }
- ],
  "pintura:cma:86109": [
   {
    "construto": "tedio",
@@ -35380,18 +35944,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:90092": [
-  {
-   "construto": "apego",
-   "trecho": "mother",
-   "pistas": 1
-  },
-  {
-   "construto": "memoria_autobiografica",
-   "trecho": "his own",
-   "pistas": 1
-  }
- ],
  "pintura:cma:90136": [
   {
    "construto": "restauracao_da_atencao",
@@ -35468,27 +36020,22 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:94198": [
+  {
+   "construto": "habituacao",
+   "trecho": "daily",
+   "pistas": 1
+  },
+  {
+   "construto": "gratidao",
+   "trecho": "offerings",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:94605": [
   {
    "construto": "contagio_emocional",
    "trecho": "festival",
-   "pistas": 1
-  }
- ],
- "pintura:cma:94611": [
-  {
-   "construto": "pertencimento",
-   "trecho": "togetherness",
-   "pistas": 1
-  },
-  {
-   "construto": "restauracao_da_atencao",
-   "trecho": "garden",
-   "pistas": 1
-  },
-  {
-   "construto": "contagio_emocional",
-   "trecho": "festive",
    "pistas": 1
   }
  ],
@@ -35537,15 +36084,10 @@
    "pistas": 1
   }
  ],
- "pintura:cma:95097": [
-  {
-   "construto": "pertencimento",
-   "trecho": "gathering",
-   "pistas": 1
-  },
+ "pintura:cma:95152": [
   {
    "construto": "restauracao_da_atencao",
-   "trecho": "peaceful",
+   "trecho": "gardens",
    "pistas": 1
   }
  ],
@@ -35563,35 +36105,48 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:95187": [
+  {
+   "construto": "pertencimento",
+   "trecho": "companions",
+   "pistas": 1
+  },
+  {
+   "construto": "contagio_emocional",
+   "trecho": "banquet",
+   "pistas": 1
+  },
+  {
+   "construto": "gratidao",
+   "trecho": "in honor of",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:95190": [
+  {
+   "construto": "medo",
+   "trecho": "frightened",
+   "pistas": 2
+  },
+  {
+   "construto": "apego",
+   "trecho": "marriage",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:95193": [
+  {
+   "construto": "compaixao",
+   "trecho": "pity",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:95205": [
-  {
-   "construto": "pertencimento",
-   "trecho": "family",
-   "pistas": 1
-  }
- ],
- "pintura:cma:95206": [
-  {
-   "construto": "pertencimento",
-   "trecho": "family",
-   "pistas": 1
-  }
- ],
- "pintura:cma:95207": [
-  {
-   "construto": "pertencimento",
-   "trecho": "family",
-   "pistas": 1
-  }
- ],
- "pintura:cma:95208": [
-  {
-   "construto": "pertencimento",
-   "trecho": "family",
-   "pistas": 1
-  }
- ],
- "pintura:cma:95209": [
   {
    "construto": "pertencimento",
    "trecho": "family",
@@ -35754,13 +36309,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:95369": [
-  {
-   "construto": "contagio_emocional",
-   "trecho": "festival",
-   "pistas": 1
-  }
- ],
  "pintura:cma:95371": [
   {
    "construto": "pertencimento",
@@ -35822,6 +36370,162 @@
   {
    "construto": "assombro",
    "trecho": "storm",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:95500": [
+  {
+   "construto": "assombro",
+   "trecho": "vision",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:95510": [
+  {
+   "construto": "habituacao",
+   "trecho": "at home",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:95518": [
+  {
+   "construto": "habituacao",
+   "trecho": "everyday life",
+   "pistas": 3
+  }
+ ],
+ "pintura:cma:95553": [
+  {
+   "construto": "assombro",
+   "trecho": "spectacular",
+   "pistas": 1
+  },
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "exuberant",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:95565": [
+  {
+   "construto": "habituacao",
+   "trecho": "daily life",
+   "pistas": 2
+  }
+ ],
+ "pintura:cma:95575": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "gardenscape",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:95580": [
+  {
+   "construto": "solidao",
+   "trecho": "isolated",
+   "pistas": 1
+  },
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "exuberant",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:95591": [
+  {
+   "construto": "apego",
+   "trecho": "bride",
+   "pistas": 1
+  },
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "garden",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:95596": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "market",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:95599": [
+  {
+   "construto": "apego",
+   "trecho": "beloved",
+   "pistas": 1
+  },
+  {
+   "construto": "contagio_emocional",
+   "trecho": "dance",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "writing",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:95612": [
+  {
+   "construto": "medo",
+   "trecho": "demonstrate",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:95614": [
+  {
+   "construto": "medo",
+   "trecho": "demonstrate",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:95651": [
+  {
+   "construto": "apego",
+   "trecho": "marriage",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "artisans",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:95652": [
+  {
+   "construto": "apego",
+   "trecho": "marriage",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:95653": [
+  {
+   "construto": "apego",
+   "trecho": "marriage",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:95721": [
+  {
+   "construto": "assombro",
+   "trecho": "majestic",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:95744": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "dazzling",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:95795": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "market",
    "pistas": 1
   }
  ],
@@ -35946,18 +36650,6 @@
    "pistas": 1
   }
  ],
- "pintura:cma:97165": [
-  {
-   "construto": "apego",
-   "trecho": "marriage",
-   "pistas": 1
-  },
-  {
-   "construto": "contagio_emocional",
-   "trecho": "Feast",
-   "pistas": 1
-  }
- ],
  "pintura:cma:97166": [
   {
    "construto": "pertencimento",
@@ -36023,6 +36715,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:97266": [
+  {
+   "construto": "assombro",
+   "trecho": "spectacular",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:97336": [
   {
    "construto": "emocoes_positivas",
@@ -36073,6 +36772,13 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:97991": [
+  {
+   "construto": "fluxo",
+   "trecho": "weaving",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:98000": [
   {
    "construto": "emocoes_positivas",
@@ -36080,27 +36786,31 @@
    "pistas": 1
   }
  ],
+ "pintura:cma:98131": [
+  {
+   "construto": "fluxo",
+   "trecho": "weaving",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:98132": [
+  {
+   "construto": "fluxo",
+   "trecho": "weaving",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:98133": [
+  {
+   "construto": "fluxo",
+   "trecho": "weaving",
+   "pistas": 1
+  }
+ ],
  "pintura:cma:98252": [
   {
    "construto": "pertencimento",
    "trecho": "family",
-   "pistas": 1
-  }
- ],
- "pintura:cma:98261": [
-  {
-   "construto": "assombro",
-   "trecho": "mountains",
-   "pistas": 1
-  },
-  {
-   "construto": "apego_ao_lugar",
-   "trecho": "farmstead",
-   "pistas": 1
-  },
-  {
-   "construto": "raiva",
-   "trecho": "fury",
    "pistas": 1
   }
  ],
@@ -36118,6 +36828,13 @@
   {
    "construto": "vigilancia",
    "trecho": "soldiers",
+   "pistas": 1
+  }
+ ],
+ "pintura:cma:98458": [
+  {
+   "construto": "habituacao",
+   "trecho": "household",
    "pistas": 1
   }
  ],
@@ -36468,6 +37185,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:119523": [
+  {
+   "construto": "habituacao",
+   "trecho": "appliance",
+   "pistas": 2
+  },
+  {
+   "construto": "vigilancia",
+   "trecho": "alarm",
+   "pistas": 1
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "House",
+   "pistas": 1
+  }
+ ],
  "som:freesound:119537": [
   {
    "construto": "apego_ao_lugar",
@@ -36574,6 +37308,35 @@
    "pistas": 1
   }
  ],
+ "som:freesound:121258": [
+  {
+   "construto": "vigilancia",
+   "trecho": "ring",
+   "pistas": 2
+  },
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "noise",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "school",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:124437": [
+  {
+   "construto": "vigilancia",
+   "trecho": "bell",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "school",
+   "pistas": 1
+  }
+ ],
  "som:freesound:125298": [
   {
    "construto": "vigilancia",
@@ -36652,6 +37415,23 @@
   {
    "construto": "memoria_autobiografica",
    "trecho": "toy",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:128138": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Alarm",
+   "pistas": 1
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "Clock",
+   "pistas": 1
+  },
+  {
+   "construto": "tedio",
+   "trecho": "Loop",
    "pistas": 1
   }
  ],
@@ -36847,6 +37627,18 @@
    "pistas": 2
   }
  ],
+ "som:freesound:13613": [
+  {
+   "construto": "vigilancia",
+   "trecho": "alarm",
+   "pistas": 3
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "clock",
+   "pistas": 1
+  }
+ ],
  "som:freesound:136496": [
   {
    "construto": "habituacao",
@@ -36979,6 +37771,35 @@
   {
    "construto": "restauracao_da_atencao",
    "trecho": "water",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:14262": [
+  {
+   "construto": "vigilancia",
+   "trecho": "alarm",
+   "pistas": 3
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "clock",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:14263": [
+  {
+   "construto": "vigilancia",
+   "trecho": "alarm",
+   "pistas": 2
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "ticking",
+   "pistas": 2
+  },
+  {
+   "construto": "tedio",
+   "trecho": "ticking",
    "pistas": 1
   }
  ],
@@ -37166,6 +37987,23 @@
   {
    "construto": "assombro",
    "trecho": "Thunder",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:151929": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "fire",
+   "pistas": 1
+  },
+  {
+   "construto": "vigilancia",
+   "trecho": "bell",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "school",
    "pistas": 1
   }
  ],
@@ -38038,10 +38876,51 @@
    "pistas": 1
   }
  ],
+ "som:freesound:174382": [
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "neighborhood",
+   "pistas": 1
+  },
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "fireworks",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambient",
+   "pistas": 1
+  }
+ ],
  "som:freesound:174458": [
   {
    "construto": "solitude",
    "trecho": "wind",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:174493": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "fire",
+   "pistas": 1
+  },
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "celebration",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:174494": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "fire",
+   "pistas": 1
+  },
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "celebration",
    "pistas": 1
   }
  ],
@@ -38423,6 +39302,30 @@
    "pistas": 1
   }
  ],
+ "som:freesound:189332": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "noisy",
+   "pistas": 1
+  },
+  {
+   "construto": "vigilancia",
+   "trecho": "Alarm",
+   "pistas": 1
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "clock",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:189564": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "noise",
+   "pistas": 2
+  }
+ ],
  "som:freesound:189785": [
   {
    "construto": "vigilancia",
@@ -38709,6 +39612,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:200176": [
+  {
+   "construto": "divagacao_mental",
+   "trecho": "white-noise",
+   "pistas": 2
+  },
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "noise",
+   "pistas": 1
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "house",
+   "pistas": 1
+  }
+ ],
  "som:freesound:200289": [
   {
    "construto": "apego_ao_lugar",
@@ -38740,6 +39660,18 @@
   {
    "construto": "nostalgia",
    "trecho": "antique",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:200318": [
+  {
+   "construto": "vigilancia",
+   "trecho": "ringing",
+   "pistas": 2
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "school",
    "pistas": 1
   }
  ],
@@ -39119,6 +40051,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:209536": [
+  {
+   "construto": "vigilancia",
+   "trecho": "alarm",
+   "pistas": 2
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "clock",
+   "pistas": 1
+  }
+ ],
  "som:freesound:209582": [
   {
    "construto": "restauracao_da_atencao",
@@ -39136,6 +40080,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:209698": [
+  {
+   "construto": "tedio",
+   "trecho": "ticking",
+   "pistas": 3
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "ticking",
+   "pistas": 2
+  },
+  {
+   "construto": "vigilancia",
+   "trecho": "alarm",
+   "pistas": 1
+  }
+ ],
  "som:freesound:210585": [
   {
    "construto": "restauracao_da_atencao",
@@ -39150,6 +40111,23 @@
   {
    "construto": "medo",
    "trecho": "night",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:210612": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Alarm",
+   "pistas": 2
+  },
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "noise",
+   "pistas": 1
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "Clock",
    "pistas": 1
   }
  ],
@@ -39227,6 +40205,13 @@
   {
    "construto": "emocoes_positivas",
    "trecho": "frogs",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:213235": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "Fireworks",
    "pistas": 1
   }
  ],
@@ -39446,6 +40431,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:219244": [
+  {
+   "construto": "vigilancia",
+   "trecho": "alarm",
+   "pistas": 3
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "clock",
+   "pistas": 1
+  }
+ ],
  "som:freesound:219247": [
   {
    "construto": "habituacao",
@@ -39480,6 +40477,13 @@
    "pistas": 1
   }
  ],
+ "som:freesound:221088": [
+  {
+   "construto": "vigilancia",
+   "trecho": "alarm",
+   "pistas": 2
+  }
+ ],
  "som:freesound:222639": [
   {
    "construto": "restauracao_da_atencao",
@@ -39503,6 +40507,18 @@
   {
    "construto": "sobrecarga_sensorial",
    "trecho": "engine",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:223176": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Alarm",
+   "pistas": 1
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "Clock",
    "pistas": 1
   }
  ],
@@ -39674,6 +40690,18 @@
    "construto": "vigilancia",
    "trecho": "shatter",
    "pistas": 2
+  }
+ ],
+ "som:freesound:232285": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "fireworks",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "Distant",
+   "pistas": 1
   }
  ],
  "som:freesound:232686": [
@@ -39949,6 +40977,13 @@
    "pistas": 1
   }
  ],
+ "som:freesound:235401": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Noise",
+   "pistas": 1
+  }
+ ],
  "som:freesound:235431": [
   {
    "construto": "sobrecarga_sensorial",
@@ -40025,6 +41060,18 @@
   {
    "construto": "sobrecarga_sensorial",
    "trecho": "noise",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:236713": [
+  {
+   "construto": "vigilancia",
+   "trecho": "bell",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "school",
    "pistas": 1
   }
  ],
@@ -40145,6 +41192,18 @@
    "pistas": 2
   }
  ],
+ "som:freesound:238390": [
+  {
+   "construto": "vigilancia",
+   "trecho": "alarm",
+   "pistas": 3
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "clock",
+   "pistas": 1
+  }
+ ],
  "som:freesound:239040": [
   {
    "construto": "emocoes_positivas",
@@ -40161,6 +41220,18 @@
   {
    "construto": "restauracao_da_atencao",
    "trecho": "fire",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:240838": [
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "street",
+   "pistas": 1
+  },
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "Fireworks",
    "pistas": 1
   }
  ],
@@ -40291,6 +41362,18 @@
   {
    "construto": "sobrecarga_sensorial",
    "trecho": "city",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:243680": [
+  {
+   "construto": "vigilancia",
+   "trecho": "alarm",
+   "pistas": 2
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "clock",
    "pistas": 1
   }
  ],
@@ -40777,6 +41860,13 @@
    "pistas": 1
   }
  ],
+ "som:freesound:254834": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "fireworks",
+   "pistas": 1
+  }
+ ],
  "som:freesound:254878": [
   {
    "construto": "restauracao_da_atencao",
@@ -40944,6 +42034,18 @@
    "pistas": 2
   }
  ],
+ "som:freesound:257838": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "noise",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "white-noise",
+   "pistas": 1
+  }
+ ],
  "som:freesound:257879": [
   {
    "construto": "sobrecarga_sensorial",
@@ -41039,6 +42141,23 @@
   {
    "construto": "assombro",
    "trecho": "Thunder",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:259537": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Alarm",
+   "pistas": 2
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "clock",
+   "pistas": 1
+  },
+  {
+   "construto": "tedio",
+   "trecho": "loop",
    "pistas": 1
   }
  ],
@@ -42001,6 +43120,13 @@
    "pistas": 1
   }
  ],
+ "som:freesound:274107": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "Fireworks",
+   "pistas": 1
+  }
+ ],
  "som:freesound:274216": [
   {
    "construto": "restauracao_da_atencao",
@@ -42481,6 +43607,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:320789": [
+  {
+   "construto": "vigilancia",
+   "trecho": "alarm",
+   "pistas": 3
+  },
+  {
+   "construto": "solitude",
+   "trecho": "distant",
+   "pistas": 1
+  }
+ ],
  "som:freesound:321084": [
   {
    "construto": "habituacao",
@@ -42606,6 +43744,40 @@
    "pistas": 2
   }
  ],
+ "som:freesound:323238": [
+  {
+   "construto": "vigilancia",
+   "trecho": "alarm",
+   "pistas": 3
+  },
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "fire",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "school",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:323239": [
+  {
+   "construto": "vigilancia",
+   "trecho": "alarm",
+   "pistas": 3
+  },
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "fire",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "school",
+   "pistas": 1
+  }
+ ],
  "som:freesound:323396": [
   {
    "construto": "restauracao_da_atencao",
@@ -42712,6 +43884,18 @@
   {
    "construto": "interocepcao",
    "trecho": "pulse",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:325232": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Noise",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "white-noise",
    "pistas": 1
   }
  ],
@@ -43453,6 +44637,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:338287": [
+  {
+   "construto": "vigilancia",
+   "trecho": "door",
+   "pistas": 1
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "church",
+   "pistas": 1
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "old",
+   "pistas": 1
+  }
+ ],
  "som:freesound:338362": [
   {
    "construto": "sobrecarga_sensorial",
@@ -43526,6 +44727,40 @@
    "construto": "restauracao_da_atencao",
    "trecho": "bird",
    "pistas": 2
+  }
+ ],
+ "som:freesound:339544": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "noise",
+   "pistas": 1
+  },
+  {
+   "construto": "tedio",
+   "trecho": "loop",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "white-noise",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:339562": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "noise",
+   "pistas": 1
+  },
+  {
+   "construto": "tedio",
+   "trecho": "loop",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "white-noise",
+   "pistas": 1
   }
  ],
  "som:freesound:33986": [
@@ -43853,6 +45088,18 @@
   {
    "construto": "habituacao",
    "trecho": "typing",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:345994": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "motor",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "sawing",
    "pistas": 1
   }
  ],
@@ -44842,6 +46089,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:369879": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Alarm",
+   "pistas": 2
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "clock",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "distant",
+   "pistas": 1
+  }
+ ],
  "som:freesound:369964": [
   {
    "construto": "nostalgia",
@@ -45156,6 +46420,18 @@
   {
    "construto": "fluxo",
    "trecho": "hammering",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:378697": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "construction",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "sawing",
    "pistas": 1
   }
  ],
@@ -46331,6 +47607,18 @@
    "pistas": 2
   }
  ],
+ "som:freesound:394175": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "Fireworks",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambience",
+   "pistas": 1
+  }
+ ],
  "som:freesound:394239": [
   {
    "construto": "restauracao_da_atencao",
@@ -46364,6 +47652,40 @@
   {
    "construto": "assombro",
    "trecho": "storm",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:395681": [
+  {
+   "construto": "divagacao_mental",
+   "trecho": "white-noise",
+   "pistas": 3
+  },
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Noise",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "Wind",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:395684": [
+  {
+   "construto": "divagacao_mental",
+   "trecho": "white-noise",
+   "pistas": 3
+  },
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Noise",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "Wind",
    "pistas": 1
   }
  ],
@@ -46953,6 +48275,18 @@
    "pistas": 2
   }
  ],
+ "som:freesound:402557": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "construction",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "sawing",
+   "pistas": 1
+  }
+ ],
  "som:freesound:402629": [
   {
    "construto": "vigilancia",
@@ -46987,6 +48321,30 @@
    "pistas": 1
   }
  ],
+ "som:freesound:402818": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Noise",
+   "pistas": 1
+  },
+  {
+   "construto": "medo",
+   "trecho": "eerie",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "white-noise",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:402820": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Noise",
+   "pistas": 1
+  }
+ ],
  "som:freesound:402967": [
   {
    "construto": "divagacao_mental",
@@ -47013,6 +48371,18 @@
   {
    "construto": "habituacao",
    "trecho": "Clock",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:403459": [
+  {
+   "construto": "vigilancia",
+   "trecho": "ring",
+   "pistas": 2
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "School",
    "pistas": 1
   }
  ],
@@ -47364,6 +48734,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:408741": [
+  {
+   "construto": "tedio",
+   "trecho": "ticking",
+   "pistas": 4
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "ticking",
+   "pistas": 2
+  },
+  {
+   "construto": "vigilancia",
+   "trecho": "Alarm",
+   "pistas": 1
+  }
+ ],
  "som:freesound:408763": [
   {
    "construto": "habituacao",
@@ -47640,6 +49027,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:415298": [
+  {
+   "construto": "vigilancia",
+   "trecho": "ringing",
+   "pistas": 3
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "bicycle",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "school",
+   "pistas": 1
+  }
+ ],
  "som:freesound:415299": [
   {
    "construto": "sobrecarga_sensorial",
@@ -47881,6 +49285,18 @@
    "pistas": 2
   }
  ],
+ "som:freesound:418898": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Alarm",
+   "pistas": 1
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "Clock",
+   "pistas": 1
+  }
+ ],
  "som:freesound:419168": [
   {
    "construto": "vigilancia",
@@ -47897,6 +49313,13 @@
   {
    "construto": "habituacao",
    "trecho": "kettle",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:419689": [
+  {
+   "construto": "fluxo",
+   "trecho": "sawing",
    "pistas": 1
   }
  ],
@@ -48473,11 +49896,35 @@
    "pistas": 1
   }
  ],
+ "som:freesound:425536": [
+  {
+   "construto": "vigilancia",
+   "trecho": "beep",
+   "pistas": 3
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "school",
+   "pistas": 1
+  }
+ ],
  "som:freesound:425660": [
   {
    "construto": "vigilancia",
    "trecho": "ringing",
    "pistas": 2
+  }
+ ],
+ "som:freesound:425992": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "church",
+   "pistas": 1
   }
  ],
  "som:freesound:426306": [
@@ -48491,6 +49938,13 @@
   {
    "construto": "vigilancia",
    "trecho": "Knock",
+   "pistas": 2
+  }
+ ],
+ "som:freesound:426405": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "noise",
    "pistas": 2
   }
  ],
@@ -48875,6 +50329,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:432063": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Alarm",
+   "pistas": 3
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "clock",
+   "pistas": 1
+  }
+ ],
  "som:freesound:432106": [
   {
    "construto": "medo",
@@ -49058,6 +50524,30 @@
    "construto": "vigilancia",
    "trecho": "ringing",
    "pistas": 3
+  }
+ ],
+ "som:freesound:435726": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "fire",
+   "pistas": 1
+  },
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "FIREWORKS",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:435728": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "fire",
+   "pistas": 1
+  },
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "FIREWORKS",
+   "pistas": 1
   }
  ],
  "som:freesound:435753": [
@@ -49457,6 +50947,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:438203": [
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "bells",
+   "pistas": 2
+  },
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Fire",
+   "pistas": 1
+  },
+  {
+   "construto": "vigilancia",
+   "trecho": "Bell",
+   "pistas": 1
+  }
+ ],
  "som:freesound:438283": [
   {
    "construto": "nostalgia",
@@ -49815,6 +51322,13 @@
    "pistas": 2
   }
  ],
+ "som:freesound:441146": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Noise",
+   "pistas": 1
+  }
+ ],
  "som:freesound:441315": [
   {
    "construto": "vigilancia",
@@ -50142,6 +51656,13 @@
    "pistas": 1
   }
  ],
+ "som:freesound:445526": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "construction",
+   "pistas": 1
+  }
+ ],
  "som:freesound:446228": [
   {
    "construto": "vigilancia",
@@ -50283,6 +51804,18 @@
   {
    "construto": "apego_ao_lugar",
    "trecho": "church",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:451068": [
+  {
+   "construto": "vigilancia",
+   "trecho": "siren",
+   "pistas": 2
+  },
+  {
+   "construto": "solitude",
+   "trecho": "distant",
    "pistas": 1
   }
  ],
@@ -50584,6 +52117,41 @@
    "pistas": 1
   }
  ],
+ "som:freesound:453098": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "fireworks",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:453099": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "fireworks",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:453100": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "fireworks",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:453104": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "fireworks",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:453130": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "fireworks",
+   "pistas": 1
+  }
+ ],
  "som:freesound:453392": [
   {
    "construto": "nostalgia",
@@ -50658,6 +52226,18 @@
   {
    "construto": "sobrecarga_sensorial",
    "trecho": "engine",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:453778": [
+  {
+   "construto": "vigilancia",
+   "trecho": "alarm",
+   "pistas": 1
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "clock",
    "pistas": 1
   }
  ],
@@ -50892,6 +52472,20 @@
    "pistas": 2
   }
  ],
+ "som:freesound:455337": [
+  {
+   "construto": "fluxo",
+   "trecho": "workshop",
+   "pistas": 2
+  }
+ ],
+ "som:freesound:455460": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "Fireworks",
+   "pistas": 1
+  }
+ ],
  "som:freesound:455621": [
   {
    "construto": "restauracao_da_atencao",
@@ -51044,6 +52638,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:456978": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "fire",
+   "pistas": 1
+  },
+  {
+   "construto": "vigilancia",
+   "trecho": "siren",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "distant",
+   "pistas": 1
+  }
+ ],
  "som:freesound:456996": [
   {
    "construto": "habituacao",
@@ -51117,6 +52728,18 @@
    "construto": "vigilancia",
    "trecho": "knock",
    "pistas": 3
+  }
+ ],
+ "som:freesound:458146": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "church",
+   "pistas": 1
   }
  ],
  "som:freesound:458402": [
@@ -51386,6 +53009,25 @@
   {
    "construto": "divagacao_mental",
    "trecho": "train",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:461158": [
+  {
+   "construto": "vigilancia",
+   "trecho": "ringing",
+   "pistas": 2
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "School",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:461919": [
+  {
+   "construto": "fluxo",
+   "trecho": "sawing",
    "pistas": 1
   }
  ],
@@ -51772,6 +53414,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:468081": [
+  {
+   "construto": "vigilancia",
+   "trecho": "alarm",
+   "pistas": 4
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "Ticking",
+   "pistas": 2
+  },
+  {
+   "construto": "tedio",
+   "trecho": "Ticking",
+   "pistas": 2
+  }
+ ],
  "som:freesound:468096": [
   {
    "construto": "habituacao",
@@ -51781,6 +53440,13 @@
   {
    "construto": "fluxo",
    "trecho": "Typing",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:468198": [
+  {
+   "construto": "fluxo",
+   "trecho": "knitting",
    "pistas": 1
   }
  ],
@@ -52857,6 +54523,13 @@
    "pistas": 2
   }
  ],
+ "som:freesound:482137": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "noise",
+   "pistas": 1
+  }
+ ],
  "som:freesound:482191": [
   {
    "construto": "sobrecarga_sensorial",
@@ -53006,6 +54679,18 @@
   {
    "construto": "sobrecarga_sensorial",
    "trecho": "noise",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:484752": [
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "church",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "organ",
    "pistas": 1
   }
  ],
@@ -53324,6 +55009,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:493904": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Noise",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "white-noise",
+   "pistas": 1
+  }
+ ],
  "som:freesound:494367": [
   {
    "construto": "divagacao_mental",
@@ -53390,6 +55087,13 @@
    "trecho": "Hammer",
    "pistas": 1
   },
+  {
+   "construto": "fluxo",
+   "trecho": "workshop",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:496291": [
   {
    "construto": "fluxo",
    "trecho": "workshop",
@@ -53561,6 +55265,18 @@
    "construto": "restauracao_da_atencao",
    "trecho": "fire",
    "pistas": 3
+  }
+ ],
+ "som:freesound:501930": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Alarm",
+   "pistas": 2
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "Clock",
+   "pistas": 1
   }
  ],
  "som:freesound:502136": [
@@ -53789,6 +55505,13 @@
   {
    "construto": "nostalgia",
    "trecho": "Typewriter",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:506513": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Noise",
    "pistas": 1
   }
  ],
@@ -54291,6 +56014,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:509684": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Alarm",
+   "pistas": 1
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "Clock",
+   "pistas": 1
+  }
+ ],
  "som:freesound:509949": [
   {
    "construto": "emocoes_positivas",
@@ -54631,6 +56366,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:514384": [
+  {
+   "construto": "vigilancia",
+   "trecho": "alarm",
+   "pistas": 1
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "clock",
+   "pistas": 1
+  }
+ ],
  "som:freesound:514650": [
   {
    "construto": "assombro",
@@ -54749,6 +56496,13 @@
    "trecho": "Hammer",
    "pistas": 1
   },
+  {
+   "construto": "fluxo",
+   "trecho": "workshop",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:516610": [
   {
    "construto": "fluxo",
    "trecho": "workshop",
@@ -54982,6 +56736,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:519661": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "forest",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "Sawing",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "forest",
+   "pistas": 1
+  }
+ ],
  "som:freesound:520188": [
   {
    "construto": "nostalgia",
@@ -55095,6 +56866,23 @@
    "construto": "solitude",
    "trecho": "wind",
    "pistas": 2
+  }
+ ],
+ "som:freesound:523390": [
+  {
+   "construto": "solitude",
+   "trecho": "distant",
+   "pistas": 3
+  },
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Forest",
+   "pistas": 1
+  },
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "noise",
+   "pistas": 1
   }
  ],
  "som:freesound:523463": [
@@ -55817,6 +57605,13 @@
    "pistas": 1
   }
  ],
+ "som:freesound:532880": [
+  {
+   "construto": "fluxo",
+   "trecho": "Sawing",
+   "pistas": 1
+  }
+ ],
  "som:freesound:533075": [
   {
    "construto": "restauracao_da_atencao",
@@ -56047,6 +57842,23 @@
    "pistas": 2
   }
  ],
+ "som:freesound:535776": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "fire",
+   "pistas": 1
+  },
+  {
+   "construto": "vigilancia",
+   "trecho": "siren",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "Distant",
+   "pistas": 1
+  }
+ ],
  "som:freesound:536501": [
   {
    "construto": "apego_ao_lugar",
@@ -56145,6 +57957,20 @@
   {
    "construto": "apego_ao_lugar",
    "trecho": "kitchen",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:537284": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Noise",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:537302": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Noise",
    "pistas": 1
   }
  ],
@@ -56263,6 +58089,18 @@
   {
    "construto": "habituacao",
    "trecho": "boiling",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:540143": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "construction",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "sawing",
    "pistas": 1
   }
  ],
@@ -56394,6 +58232,13 @@
   {
    "construto": "medo",
    "trecho": "eerie",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:541000": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "noise",
    "pistas": 1
   }
  ],
@@ -56695,6 +58540,23 @@
   {
    "construto": "emocoes_positivas",
    "trecho": "Bicycle",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:546422": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Noise",
+   "pistas": 1
+  },
+  {
+   "construto": "vigilancia",
+   "trecho": "Warning",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "white-noise",
    "pistas": 1
   }
  ],
@@ -57095,6 +58957,13 @@
    "pistas": 1
   }
  ],
+ "som:freesound:554366": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "factory",
+   "pistas": 2
+  }
+ ],
  "som:freesound:554579": [
   {
    "construto": "restauracao_da_atencao",
@@ -57131,6 +59000,20 @@
    "pistas": 3
   }
  ],
+ "som:freesound:555865": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "noise",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:555866": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "noise",
+   "pistas": 1
+  }
+ ],
  "som:freesound:555962": [
   {
    "construto": "restauracao_da_atencao",
@@ -57145,6 +59028,13 @@
   {
    "construto": "habituacao",
    "trecho": "washing",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:555998": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "fireworks",
    "pistas": 1
   }
  ],
@@ -57231,6 +59121,30 @@
   {
    "construto": "memoria_autobiografica",
    "trecho": "toy",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:557616": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Alarm",
+   "pistas": 2
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "Clock",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:557753": [
+  {
+   "construto": "vigilancia",
+   "trecho": "bell",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "School",
    "pistas": 1
   }
  ],
@@ -57895,6 +59809,27 @@
    "pistas": 1
   }
  ],
+ "som:freesound:566037": [
+  {
+   "construto": "fluxo",
+   "trecho": "sawing",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:566038": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "construction",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:566040": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "construction",
+   "pistas": 1
+  }
+ ],
  "som:freesound:566046": [
   {
    "construto": "habituacao",
@@ -57909,6 +59844,20 @@
   {
    "construto": "fluxo",
    "trecho": "hammering",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:566050": [
+  {
+   "construto": "fluxo",
+   "trecho": "sawing",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:566051": [
+  {
+   "construto": "fluxo",
+   "trecho": "sawing",
    "pistas": 1
   }
  ],
@@ -58083,6 +60032,23 @@
   {
    "construto": "tedio",
    "trecho": "loop",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:569857": [
+  {
+   "construto": "tedio",
+   "trecho": "Loop",
+   "pistas": 1
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "church",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "organ",
    "pistas": 1
   }
  ],
@@ -58487,6 +60453,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:575201": [
+  {
+   "construto": "vigilancia",
+   "trecho": "alarm",
+   "pistas": 2
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "clock",
+   "pistas": 1
+  }
+ ],
  "som:freesound:575209": [
   {
    "construto": "vigilancia",
@@ -58610,6 +60588,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:577774": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "city",
+   "pistas": 1
+  },
+  {
+   "construto": "vigilancia",
+   "trecho": "siren",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "Distant",
+   "pistas": 1
+  }
+ ],
  "som:freesound:578235": [
   {
    "construto": "restauracao_da_atencao",
@@ -58651,6 +60646,13 @@
    "pistas": 1
   }
  ],
+ "som:freesound:579308": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "fireworks",
+   "pistas": 1
+  }
+ ],
  "som:freesound:579561": [
   {
    "construto": "restauracao_da_atencao",
@@ -58672,6 +60674,18 @@
   {
    "construto": "restauracao_da_atencao",
    "trecho": "water",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:580573": [
+  {
+   "construto": "vigilancia",
+   "trecho": "bell",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "School",
    "pistas": 1
   }
  ],
@@ -58723,6 +60737,18 @@
   {
    "construto": "emocoes_positivas",
    "trecho": "chime",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:582216": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "fireworks",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambience",
    "pistas": 1
   }
  ],
@@ -60024,6 +62050,40 @@
    "pistas": 2
   }
  ],
+ "som:freesound:592558": [
+  {
+   "construto": "vigilancia",
+   "trecho": "alarm",
+   "pistas": 6
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "School",
+   "pistas": 1
+  },
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "chime",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:592560": [
+  {
+   "construto": "vigilancia",
+   "trecho": "alarm",
+   "pistas": 6
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "School",
+   "pistas": 1
+  },
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "chime",
+   "pistas": 1
+  }
+ ],
  "som:freesound:592709": [
   {
    "construto": "restauracao_da_atencao",
@@ -60096,6 +62156,13 @@
   {
    "construto": "restauracao_da_atencao",
    "trecho": "leaves",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:593203": [
+  {
+   "construto": "fluxo",
+   "trecho": "sawing",
    "pistas": 1
   }
  ],
@@ -60690,6 +62757,13 @@
    "pistas": 1
   }
  ],
+ "som:freesound:614190": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "machine",
+   "pistas": 3
+  }
+ ],
  "som:freesound:614272": [
   {
    "construto": "restauracao_da_atencao",
@@ -60740,6 +62814,13 @@
   {
    "construto": "nostalgia",
    "trecho": "Vinyl",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:614636": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Noise",
    "pistas": 1
   }
  ],
@@ -60965,6 +63046,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:620392": [
+  {
+   "construto": "vigilancia",
+   "trecho": "ring",
+   "pistas": 2
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "School",
+   "pistas": 1
+  }
+ ],
  "som:freesound:620991": [
   {
    "construto": "vigilancia",
@@ -61149,6 +63242,23 @@
    "construto": "habituacao",
    "trecho": "hum",
    "pistas": 1
+  }
+ ],
+ "som:freesound:626169": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Alarm",
+   "pistas": 2
+  },
+  {
+   "construto": "tedio",
+   "trecho": "tick-tock",
+   "pistas": 2
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "old",
+   "pistas": 2
   }
  ],
  "som:freesound:626576": [
@@ -61657,6 +63767,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:644432": [
+  {
+   "construto": "divagacao_mental",
+   "trecho": "white-noise",
+   "pistas": 2
+  },
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Noise",
+   "pistas": 1
+  }
+ ],
  "som:freesound:645247": [
   {
    "construto": "vigilancia",
@@ -61707,10 +63829,29 @@
    "pistas": 2
   }
  ],
+ "som:freesound:646928": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "fireworks",
+   "pistas": 1
+  }
+ ],
  "som:freesound:646948": [
   {
    "construto": "restauracao_da_atencao",
    "trecho": "birdsong",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:647355": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Alarm",
+   "pistas": 1
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "clock",
    "pistas": 1
   }
  ],
@@ -61810,6 +63951,25 @@
   {
    "construto": "assombro",
    "trecho": "River",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:651330": [
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Ambience",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:651331": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "fire",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Ambience",
    "pistas": 1
   }
  ],
@@ -61948,6 +64108,13 @@
    "pistas": 1
   }
  ],
+ "som:freesound:655329": [
+  {
+   "construto": "fluxo",
+   "trecho": "sawing",
+   "pistas": 1
+  }
+ ],
  "som:freesound:655380": [
   {
    "construto": "restauracao_da_atencao",
@@ -61970,6 +64137,13 @@
    "construto": "emocoes_positivas",
    "trecho": "purring",
    "pistas": 2
+  }
+ ],
+ "som:freesound:655523": [
+  {
+   "construto": "fluxo",
+   "trecho": "Sawing",
+   "pistas": 1
   }
  ],
  "som:freesound:655704": [
@@ -62008,6 +64182,13 @@
    "pistas": 1
   }
  ],
+ "som:freesound:659238": [
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "church",
+   "pistas": 1
+  }
+ ],
  "som:freesound:659281": [
   {
    "construto": "habituacao",
@@ -62030,6 +64211,18 @@
    "construto": "vigilancia",
    "trecho": "Ring",
    "pistas": 3
+  }
+ ],
+ "som:freesound:661235": [
+  {
+   "construto": "habituacao",
+   "trecho": "clock",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "school",
+   "pistas": 1
   }
  ],
  "som:freesound:661733": [
@@ -62189,6 +64382,18 @@
    "pistas": 2
   }
  ],
+ "som:freesound:666868": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Alarm",
+   "pistas": 1
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "clock",
+   "pistas": 1
+  }
+ ],
  "som:freesound:667173": [
   {
    "construto": "restauracao_da_atencao",
@@ -62229,6 +64434,34 @@
   {
    "construto": "apego_ao_lugar",
    "trecho": "kitchen",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:669947": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "noise",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:669954": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "noise",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:669965": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "noise",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:669969": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "noise",
    "pistas": 1
   }
  ],
@@ -62395,6 +64628,23 @@
   {
    "construto": "divagacao_mental",
    "trecho": "ambience",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:675686": [
+  {
+   "construto": "vigilancia",
+   "trecho": "alarm",
+   "pistas": 2
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "clock",
+   "pistas": 1
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "vintage",
    "pistas": 1
   }
  ],
@@ -62761,6 +65011,13 @@
   {
    "construto": "apego_ao_lugar",
    "trecho": "keys",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:686324": [
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "church",
    "pistas": 1
   }
  ],
@@ -63201,6 +65458,13 @@
    "pistas": 2
   }
  ],
+ "som:freesound:707527": [
+  {
+   "construto": "fluxo",
+   "trecho": "sawing",
+   "pistas": 1
+  }
+ ],
  "som:freesound:707530": [
   {
    "construto": "sobrecarga_sensorial",
@@ -63247,6 +65511,13 @@
    "construto": "restauracao_da_atencao",
    "trecho": "water",
    "pistas": 1
+  }
+ ],
+ "som:freesound:708202": [
+  {
+   "construto": "fluxo",
+   "trecho": "workshop",
+   "pistas": 2
   }
  ],
  "som:freesound:709057": [
@@ -63326,6 +65597,18 @@
   {
    "construto": "medo",
    "trecho": "night",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:709944": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Alarm",
+   "pistas": 2
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "clock",
    "pistas": 1
   }
  ],
@@ -63430,6 +65713,13 @@
   {
    "construto": "fluxo",
    "trecho": "typing",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:712235": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "noise",
    "pistas": 1
   }
  ],
@@ -63575,6 +65865,13 @@
   {
    "construto": "tedio",
    "trecho": "fan",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:717304": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Noise",
    "pistas": 1
   }
  ],
@@ -63930,6 +66227,30 @@
   {
    "construto": "apego_ao_lugar",
    "trecho": "river",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:732687": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "city",
+   "pistas": 1
+  },
+  {
+   "construto": "vigilancia",
+   "trecho": "Door",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambience",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:733564": [
+  {
+   "construto": "assombro",
+   "trecho": "organ",
    "pistas": 1
   }
  ],
@@ -64502,6 +66823,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:84572": [
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambience",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "church",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "organ",
+   "pistas": 1
+  }
+ ],
  "som:freesound:84764": [
   {
    "construto": "sobrecarga_sensorial",
@@ -64813,6 +67151,18 @@
   {
    "construto": "sobrecarga_sensorial",
    "trecho": "static",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:96063": [
+  {
+   "construto": "vigilancia",
+   "trecho": "alarm",
+   "pistas": 2
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "clock",
    "pistas": 1
   }
  ],
