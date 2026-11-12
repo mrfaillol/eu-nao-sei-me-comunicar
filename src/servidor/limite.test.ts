@@ -44,3 +44,24 @@ describe("pausa do modelo", () => {
     expect(pausa.ativa()).toBe(false);
   });
 });
+
+describe("pausa por credencial", () => {
+  it("a recusa de uma credencial não pausa as outras: token falso não derruba o modelo de todos", async () => {
+    const { criarPausaPorChave } = await import("./limite");
+    let agora = 0;
+    const pausas = criarPausaPorChave({ ms: 600_000, maximo: 3, agora: () => agora });
+    pausas.acionar("token-forjado");
+    expect(pausas.ativa("token-forjado")).toBe(true);
+    expect(pausas.ativa("token-do-projeto")).toBe(false);
+    agora += 600_001;
+    expect(pausas.ativa("token-forjado")).toBe(false);
+  });
+
+  it("guarda um número limitado de credenciais recusadas", async () => {
+    const { criarPausaPorChave } = await import("./limite");
+    const pausas = criarPausaPorChave({ ms: 600_000, maximo: 3, agora: () => 0 });
+    for (let n = 0; n < 50; n++) pausas.acionar(`falso-${n}`);
+    expect(pausas.guardadas()).toBeLessThanOrEqual(3);
+    expect(pausas.ativa("falso-49")).toBe(true);
+  });
+});

@@ -1,12 +1,13 @@
 // A função "interpretar" na Vercel. O site continua estático; só este endereço roda em servidor, para
 // pedir a frase a um modelo de linguagem. Sem token do projeto (ou com o limite estourado, ou com o
 // modelo fora do ar), ele responde com a frase por regra, a mesma que o navegador comporia sozinho.
+import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
 import type { IncomingMessage, ServerResponse } from "node:http";
 import { indexarGlossario } from "../frase/glossario";
 import type { Acervo, Construto } from "../frase/tipos";
 import { criarInterpretar } from "./interpretar";
-import { criarLimite, criarPausa } from "./limite";
+import { criarLimite, criarPausaPorChave } from "./limite";
 import { escolherProvedor } from "./provedores/anthropic";
 
 // Os índices são copiados para a pasta da função no build (scripts/saida-vercel.mjs).
@@ -19,8 +20,9 @@ const LIMITE_DO_CORPO = 16 * 1024;
 // Uma pessoa pede uma frase a cada tanto; seis por minuto cobre quem está explorando. O teto por hora
 // segura o gasto se muita gente (ou um robô com vários endereços) chegar ao mesmo tempo.
 const limite = criarLimite({ porVisitantePorMinuto: 6, totalPorHora: 400 });
-// Conta sem acesso ao modelo: dez minutos pela regra antes de tentar de novo.
-const pausa = criarPausa({ ms: 10 * 60_000 });
+// Credencial recusada: dez minutos pela regra antes de tentar de novo. A pausa é por credencial, guardada
+// pelo resumo dela, para um token falso mandado por alguém não pausar o modelo de todo mundo.
+const pausas = criarPausaPorChave({ ms: 10 * 60_000, maximo: 32 });
 
 async function lerCorpo(req: IncomingMessage): Promise<string | null> {
   if (Number(req.headers["content-length"]) > LIMITE_DO_CORPO) return null;
@@ -51,6 +53,7 @@ export default async function interpretarNaVercel(req: IncomingMessage, res: Ser
     const anfitriao = um(req.headers.host);
     // O token que a Vercel entrega à função do próprio projeto. É ele que autentica no AI Gateway: não há chave guardada.
     const token = um(req.headers["x-vercel-oidc-token"]) || process.env.VERCEL_OIDC_TOKEN;
+    const credencial = createHash("sha256").update(token ?? process.env.AI_GATEWAY_API_KEY ?? process.env.ANTHROPIC_API_KEY ?? "").digest("hex");
     const visitante = um(req.headers["x-real-ip"]) || um(req.headers["x-forwarded-for"]).split(",")[0]!.trim() || "desconhecido";
 
     const interpretar = criarInterpretar({
@@ -58,10 +61,10 @@ export default async function interpretarNaVercel(req: IncomingMessage, res: Ser
       glossario,
       provedor: escolherProvedor(process.env, token),
       origens: [SITE, `https://${anfitriao}`, "capacitor://localhost", "https://localhost"],
-      podeChamarModelo: () => !pausa.ativa() && limite.permitir(visitante),
+      podeChamarModelo: () => !pausas.ativa(credencial) && limite.permitir(visitante),
       aoFalhar: (rotulo) => {
         console.warn(`[interpretar] caminho do modelo falhou: ${rotulo}`);
-        if (rotulo === "autenticacao") pausa.acionar();
+        if (rotulo === "autenticacao") pausas.acionar(credencial);
       },
     });
 

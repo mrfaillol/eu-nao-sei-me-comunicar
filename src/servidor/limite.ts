@@ -28,6 +28,26 @@ export function criarPausa(opcoes: { ms: number; agora?: () => number }): Pausa 
   return { acionar: () => void (ate = agora() + opcoes.ms), ativa: () => agora() < ate };
 }
 
+/**
+ * Uma pausa para cada credencial. A função recebe o token do projeto num cabeçalho do pedido; se a pausa
+ * fosse uma só, bastaria alguém mandar um token falso para o gateway recusá-lo e o modelo ficar pausado
+ * para todos. Assim, a recusa de um token só pausa aquele token.
+ */
+export function criarPausaPorChave(opcoes: { ms: number; maximo: number; agora?: () => number }): { acionar(chave: string): void; ativa(chave: string): boolean; guardadas(): number } {
+  const agora = opcoes.agora ?? Date.now;
+  const ate = new Map<string, number>();
+  return {
+    acionar(chave) {
+      ate.delete(chave);
+      ate.set(chave, agora() + opcoes.ms);
+      // O Map conserva a ordem de inserção: sai a mais antiga.
+      while (ate.size > opcoes.maximo) ate.delete(ate.keys().next().value as string);
+    },
+    ativa: (chave) => agora() < (ate.get(chave) ?? 0),
+    guardadas: () => ate.size,
+  };
+}
+
 const MINUTO = 60_000;
 const HORA = 3_600_000;
 
