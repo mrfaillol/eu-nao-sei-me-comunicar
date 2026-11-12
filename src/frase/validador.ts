@@ -60,7 +60,8 @@ const PESSOA_FORA_DO_ATO: PorIdioma<RegExp> = {
   en: /\byou['’](re|ve|ll|d)\b|\b(yourself|yours|whoever|someone who|anyone who|the person who|the one who|inside you|within you|in you)\b/i,
   "zh-CN": /心里|内心|整个人|此人|这个人|选择者|你自己|自己的心/u,
 };
-const DEPOIS_DE_NI = /^(把|选的|选择的|放在|的(这)?[三四五六七八九十百零一二两]+个选择|的选择|的信息|没有(用自己的话)?讲出来)/u;
+// 挑选 é "escolher" tanto quanto 选: a sonda de 12/Nov mostrou o modelo escrevendo 你挑选了 e 你挑选的.
+const DEPOIS_DE_NI = /^(把|选的|选了|选择的|选择了|挑选的|挑选了|挑的|放在|的(这)?[三四五六七八九十百零一二两]+个选择|的选择|的信息|没有(用自己的话)?讲出来)/u;
 
 const NOSOLOGIA: PorIdioma<RegExp> = {
   "pt-BR":

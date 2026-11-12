@@ -1,3 +1,4 @@
+import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import frases from "../../tests/fixtures/frases.json";
 import sonda from "../../tests/fixtures/sonda-modelo.json";
@@ -183,4 +184,29 @@ describe("o compositor contra o índice real", () => {
       expect(conferidas).toBeGreaterThan(3000);
     });
   }
+});
+
+describe("sonda de 12/Nov/2026 com o pré-prompt que pede a versão simples", () => {
+  const sonda = JSON.parse(readFileSync("tests/fixtures/sonda-modelo-v3.json", "utf-8")) as { casos: Array<{ n: number; idioma: Idioma; itens: string[]; frase: string; construtos_usados: string[]; simples: string }> };
+  const acervo = [...(JSON.parse(readFileSync("public/indice/acervo.json", "utf-8")) as { itens: Item[] }).itens, ...(JSON.parse(readFileSync("public/indice/ampliado.json", "utf-8")) as { itens: Item[] }).itens];
+  const porId = new Map(acervo.map((i) => [i.id, i]));
+  const real = indexarGlossario(JSON.parse(readFileSync("public/indice/construtos.json", "utf-8")) as Construto[]);
+  const codigos = (n: number) => {
+    const c = sonda.casos.find((x) => x.n === n)!;
+    return validarFrase(c.frase, c.construtos_usados, c.itens.map((id) => porId.get(id)!), c.idioma, real).codigos;
+  };
+
+  it("em mandarim, 你挑选了 e 你挑选的 são o ato de escolher, e não um estado atribuído à pessoa", () => {
+    // As três frases em mandarim foram reprovadas por V6 só por isso: o validador conhecia 你选的 e não 你挑选.
+    for (const n of [8, 9, 10]) expect(codigos(n), `caso ${n}`).not.toContain("V6");
+  });
+
+  it("frase sem verbo de mensagem continua reprovada: o modelo usou 'mostram' e 'stands against'", () => {
+    expect(codigos(4)).toContain("V9");
+    expect(codigos(7)).toContain("V9");
+  });
+
+  it("as cinco frases que tinham passado continuam passando", () => {
+    for (const n of [1, 2, 3, 5, 6]) expect(codigos(n), `caso ${n}`).toEqual([]);
+  });
 });
