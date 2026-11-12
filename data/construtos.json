@@ -22,6 +22,11 @@
       "en": "A bittersweet emotion directed at a fondly remembered personal past that cannot be recovered.",
       "zh-CN": "一种指向个人过去的苦乐参半的情绪，带着眷恋回想已无法重返的往昔。"
     },
+    "simples": {
+      "pt-BR": "saudade de um tempo que passou",
+      "en": "longing for a time that is gone",
+      "zh-CN": "对逝去时光的怀念"
+    },
     "referencia": {
       "doi": "10.1037/0022-3514.91.5.975",
       "citacao": "Wildschut, Sedikides, Arndt e Routledge (2006)",
@@ -56,6 +61,11 @@
       "en": "The need to form and maintain lasting, positive and significant interpersonal bonds.",
       "zh-CN": "建立并维持持久、积极而重要的人际联结的需要。"
     },
+    "simples": {
+      "pt-BR": "sentir que se faz parte de um grupo",
+      "en": "feeling part of a group",
+      "zh-CN": "觉得自己属于一个群体"
+    },
     "referencia": {
       "doi": "10.1037/0033-2909.117.3.497",
       "citacao": "Baumeister e Leary (1995)",
@@ -82,6 +92,11 @@
       "pt-BR": "Vínculo afetivo duradouro com uma figura específica, buscada como fonte de proximidade e de segurança.",
       "en": "An enduring affectional bond with a specific figure who is sought as a source of proximity and security.",
       "zh-CN": "与特定对象之间持久的情感纽带，个体从这一对象那里寻求亲近与安全。"
+    },
+    "simples": {
+      "pt-BR": "ligação forte com alguém",
+      "en": "a strong bond with someone",
+      "zh-CN": "和某个人之间很深的牵挂"
     },
     "referencia": {
       "doi": "10.1037/0022-3514.52.3.511",
@@ -112,6 +127,11 @@
       "en": "The aversive experience of perceiving one's social relationships as fewer or less satisfying than desired.",
       "zh-CN": "个体感到自己的社会关系在数量或质量上低于期望时产生的不愉快体验。"
     },
+    "simples": {
+      "pt-BR": "estar só sem querer",
+      "en": "being alone without wanting to be",
+      "zh-CN": "并不想要的孤单"
+    },
     "referencia": {
       "doi": "10.1037/0022-3514.39.3.472",
       "citacao": "Russell, Peplau e Cutrona (1980)",
@@ -138,6 +158,11 @@
       "pt-BR": "Estado de estar só, sem interação social, que pode ser escolhido e vivido como liberdade, criação ou intimidade consigo.",
       "en": "The state of being alone, without social interaction, which can be chosen and experienced as freedom, creativity or intimacy with oneself.",
       "zh-CN": "没有社会交往的独自状态，可以是主动选择的，并被体验为自由、创造或与自己相处。"
+    },
+    "simples": {
+      "pt-BR": "ficar só por escolha",
+      "en": "being alone by choice",
+      "zh-CN": "自己选择的独处"
     },
     "referencia": {
       "doi": "10.1111/1468-5914.00204",
@@ -170,6 +195,11 @@
       "en": "The recovery of directed attention, which fatigues with effort, through contact with environments that hold attention effortlessly.",
       "zh-CN": "因持续努力而疲劳的定向注意，在接触无需费力即可吸引注意的环境后得到恢复。"
     },
+    "simples": {
+      "pt-BR": "descanso da cabeça em lugares calmos",
+      "en": "a rested mind in calm places",
+      "zh-CN": "在安静的地方让头脑歇一歇"
+    },
     "referencia": {
       "doi": "10.1016/0272-4944(95)90001-2",
       "citacao": "Kaplan (1995)",
@@ -198,6 +228,11 @@
       "en": "A decrease in response to a stimulus after its repeated presentation.",
       "zh-CN": "刺激重复呈现后，对该刺激的反应逐渐减弱。"
     },
+    "simples": {
+      "pt-BR": "acostumar-se ao que se repete",
+      "en": "getting used to what repeats",
+      "zh-CN": "对反复出现的东西慢慢习惯"
+    },
     "referencia": {
       "doi": "10.1037/h0022681",
       "citacao": "Thompson e Spencer (1966)",
@@ -224,6 +259,11 @@
       "pt-BR": "Tendência a imitar e sincronizar expressões, posturas e vozes com as de outra pessoa e, com isso, convergir emocionalmente com ela.",
       "en": "The tendency to mimic and synchronize expressions, postures and voices with those of another person and so to converge emotionally.",
       "zh-CN": "自动模仿并同步他人的表情、姿态和声音，从而在情绪上与对方趋同的倾向。"
+    },
+    "simples": {
+      "pt-BR": "emoção que passa de uma pessoa para outra",
+      "en": "a feeling that passes from one person to another",
+      "zh-CN": "情绪从一个人传到另一个人"
     },
     "referencia": {
       "doi": "10.1111/1467-8721.ep10770953",
@@ -253,6 +293,11 @@
       "pt-BR": "Condição em que a pessoa se percebe sem poder sobre os resultados de sua ação, sem sentido no que faz, isolada ou estranha a si mesma.",
       "en": "A condition in which a person feels powerless over the outcomes of their actions, finds no meaning in them, and is isolated or estranged from themselves.",
       "zh-CN": "个体感到对自身行动的结果无能为力、行动失去意义，并与他人隔绝或与自我疏远的状态。"
+    },
+    "simples": {
+      "pt-BR": "distância do próprio trabalho e das outras pessoas",
+      "en": "distance from one's own work and from other people",
+      "zh-CN": "觉得和手上的事、身边的人都隔着一层"
     },
     "referencia": {
       "doi": "10.2307/2088565",
@@ -284,6 +329,11 @@
       "en": "The perception that social norms no longer guide conduct and that one's ties to the collective have dissolved.",
       "zh-CN": "个体感到社会规范不再能指引行为、自身与集体的联系已经瓦解。"
     },
+    "simples": {
+      "pt-BR": "regras que deixaram de valer",
+      "en": "rules that no longer hold",
+      "zh-CN": "规矩不再管用"
+    },
     "referencia": {
       "doi": "10.2307/2088422",
       "citacao": "Srole (1956)",
@@ -310,6 +360,11 @@
       "pt-BR": "Estado aversivo de querer, sem conseguir, engajar-se em uma atividade satisfatória.",
       "en": "The aversive state of wanting, but being unable, to engage in satisfying activity.",
       "zh-CN": "想要投入令人满足的活动却无法投入的不愉快状态。"
+    },
+    "simples": {
+      "pt-BR": "tédio, quando nada prende a atenção",
+      "en": "boredom, when nothing holds attention",
+      "zh-CN": "无聊，什么都提不起兴趣"
     },
     "referencia": {
       "doi": "10.1177/1745691612456044",
@@ -340,6 +395,11 @@
       "en": "The emotion felt before something perceived as vast, which exceeds existing mental structures and demands their accommodation.",
       "zh-CN": "面对被感知为浩大、超出已有认知框架的事物时产生的情绪，它要求原有框架作出调整。"
     },
+    "simples": {
+      "pt-BR": "espanto diante de algo grande demais",
+      "en": "wonder before something too big to take in",
+      "zh-CN": "面对太大的东西时的惊叹"
+    },
     "referencia": {
       "doi": "10.1080/02699930302297",
       "citacao": "Keltner e Haidt (2003)",
@@ -368,6 +428,11 @@
       "pt-BR": "Processo de enfrentamento da perda de alguém, no qual a pessoa oscila entre voltar-se para a perda e voltar-se para a reorganização da vida.",
       "en": "The process of coping with the loss of someone, in which a person oscillates between attending to the loss and attending to the restoration of life.",
       "zh-CN": "应对丧失亲近之人的过程，个体在面对丧失与重建生活之间来回摆动。"
+    },
+    "simples": {
+      "pt-BR": "a dor de perder alguém",
+      "en": "the pain of losing someone",
+      "zh-CN": "失去亲近的人的痛"
     },
     "referencia": {
       "doi": "10.1080/074811899201046",
@@ -399,6 +464,11 @@
       "en": "A state of sustained readiness to detect rare and unpredictable signals over a prolonged period.",
       "zh-CN": "在较长时间内保持准备状态，以觉察稀少而不可预测的信号。"
     },
+    "simples": {
+      "pt-BR": "ficar em alerta",
+      "en": "staying on alert",
+      "zh-CN": "一直提着心、留着神"
+    },
     "referencia": {
       "doi": "10.1080/17470214808416738",
       "citacao": "Mackworth (1948)",
@@ -427,6 +497,11 @@
       "pt-BR": "Situação em que a quantidade de estímulos do ambiente excede a capacidade da pessoa de processá-los, o que a leva a filtrar e a se retrair.",
       "en": "A situation in which environmental stimulation exceeds a person's capacity to process it, leading to filtering and withdrawal.",
       "zh-CN": "环境刺激的数量超出个体的加工能力，使个体筛选输入并减少投入的情形。"
+    },
+    "simples": {
+      "pt-BR": "barulho e estímulo demais ao mesmo tempo",
+      "en": "too much noise and too much going on at once",
+      "zh-CN": "声音和刺激一下子太多"
     },
     "referencia": {
       "doi": "10.1126/science.167.3924.1461",
@@ -462,6 +537,11 @@
       "en": "The simultaneous presence of positive and negative evaluations of the same object.",
       "zh-CN": "对同一对象同时存在积极评价与消极评价。"
     },
+    "simples": {
+      "pt-BR": "sentir duas coisas opostas pela mesma coisa",
+      "en": "two opposite feelings about the same thing",
+      "zh-CN": "对同一件事有两种相反的感觉"
+    },
     "referencia": {
       "doi": "10.1037/h0032590",
       "citacao": "Kaplan (1972)",
@@ -488,6 +568,11 @@
       "pt-BR": "Disposição cognitiva formada pela determinação de alcançar metas e pela percepção de caminhos para chegar a elas.",
       "en": "A cognitive set made up of the determination to reach goals and the perception of pathways to them.",
       "zh-CN": "由达成目标的决心和对实现路径的知觉共同构成的认知状态。"
+    },
+    "simples": {
+      "pt-BR": "esperar que algo bom venha",
+      "en": "expecting that something good will come",
+      "zh-CN": "盼着会有好事发生"
     },
     "referencia": {
       "doi": "10.1037/0022-3514.60.4.570",
@@ -518,6 +603,11 @@
       "en": "Memory for the events of one's own life, constructed at each recall in relation to the person's current goals and identity.",
       "zh-CN": "对个人生活事件的记忆，每次回忆时都结合个体当前的目标与自我认同而被建构。"
     },
+    "simples": {
+      "pt-BR": "lembranças da própria vida",
+      "en": "memories of one's own life",
+      "zh-CN": "关于自己一生的记忆"
+    },
     "referencia": {
       "doi": "10.1037/0033-295X.107.2.261",
       "citacao": "Conway e Pleydell-Pearce (2000)",
@@ -544,6 +634,11 @@
       "pt-BR": "Reatividade de uma pessoa às experiências observadas de outra, em componentes cognitivos e emocionais.",
       "en": "A person's reactivity to the observed experiences of another, in cognitive and emotional components.",
       "zh-CN": "个体对所观察到的他人经验作出的反应，包含认知与情绪两类成分。"
+    },
+    "simples": {
+      "pt-BR": "sentir junto com outra pessoa",
+      "en": "feeling along with another person",
+      "zh-CN": "跟着别人一起感受"
     },
     "referencia": {
       "doi": "10.1037/0022-3514.44.1.113",
@@ -572,6 +667,11 @@
       "en": "The sense of the physiological condition of one's own body.",
       "zh-CN": "对自身身体生理状况的感知。"
     },
+    "simples": {
+      "pt-BR": "perceber o que se passa dentro do corpo",
+      "en": "noticing what goes on inside the body",
+      "zh-CN": "察觉身体里面的动静"
+    },
     "referencia": {
       "doi": "10.1038/nrn894",
       "citacao": "Craig (2002)",
@@ -599,6 +699,11 @@
       "en": "The desire for information, aroused by the perception of a gap between what one knows and what one wants to know.",
       "zh-CN": "因觉察到已知与想知之间的差距而产生的求知欲望。"
     },
+    "simples": {
+      "pt-BR": "vontade de saber mais",
+      "en": "wanting to know more",
+      "zh-CN": "想知道得更多"
+    },
     "referencia": {
       "doi": "10.1037/0033-2909.116.1.75",
       "citacao": "Loewenstein (1994)",
@@ -625,6 +730,11 @@
       "pt-BR": "Vínculo entre pessoas e lugares significativos, com dimensões de pessoa, de processo psicológico e de lugar.",
       "en": "The bond between people and meaningful places, with person, psychological process and place dimensions.",
       "zh-CN": "人与有意义的地方之间的联结，包含人、心理过程和地方三个维度。"
+    },
+    "simples": {
+      "pt-BR": "ligação forte com um lugar",
+      "en": "a strong bond with a place",
+      "zh-CN": "和一个地方之间很深的牵挂"
     },
     "referencia": {
       "doi": "10.1016/j.jenvp.2009.09.006",
@@ -657,6 +767,11 @@
       "en": "A tendency to recognize and respond with appreciation to the role of other people's benevolence in one's positive experiences.",
       "zh-CN": "倾向于觉察他人的善意在自己积极经历中所起的作用，并以感激作出回应。"
     },
+    "simples": {
+      "pt-BR": "agradecimento",
+      "en": "thankfulness",
+      "zh-CN": "感谢"
+    },
     "referencia": {
       "doi": "10.1037/0022-3514.82.1.112",
       "citacao": "McCullough, Emmons e Tsang (2002)",
@@ -683,6 +798,11 @@
       "pt-BR": "Sentimento que surge ao testemunhar o sofrimento de outra pessoa e que motiva o desejo de ajudar.",
       "en": "The feeling that arises in witnessing another's suffering and that motivates a desire to help.",
       "zh-CN": "目睹他人受苦时产生的感受，并由此引发想要相助的愿望。"
+    },
+    "simples": {
+      "pt-BR": "querer aliviar a dor de alguém",
+      "en": "wanting to ease someone's pain",
+      "zh-CN": "想减轻别人的痛苦"
     },
     "referencia": {
       "doi": "10.1037/a0018807",
@@ -714,6 +834,11 @@
       "en": "A painful emotion, with feelings of inferiority, hostility and resentment, toward someone who has something one desires.",
       "zh-CN": "面对拥有自己所渴望之物的人时产生的痛苦情绪，带有自卑、敌意和怨恨。"
     },
+    "simples": {
+      "pt-BR": "querer o que é do outro",
+      "en": "wanting what belongs to someone else",
+      "zh-CN": "想要别人有的东西"
+    },
     "referencia": {
       "doi": "10.1037/0033-2909.133.1.46",
       "citacao": "Smith e Kim (2007)",
@@ -740,6 +865,11 @@
       "pt-BR": "Emoção que acompanha a transgressão de uma convenção social diante de outros e que sinaliza apaziguamento.",
       "en": "The emotion that follows a breach of social convention in front of others and that signals appeasement.",
       "zh-CN": "在他人面前违反社会惯例后出现的情绪，具有向他人示意和解的功能。"
+    },
+    "simples": {
+      "pt-BR": "vergonha diante dos outros",
+      "en": "shame in front of others",
+      "zh-CN": "在别人面前难为情"
     },
     "referencia": {
       "doi": "10.1037/0033-2909.122.3.250",
@@ -772,6 +902,11 @@
       "en": "A shift of attention away from the task at hand toward thoughts and feelings unrelated to it.",
       "zh-CN": "注意从当前任务转移到与任务无关的想法和感受上。"
     },
+    "simples": {
+      "pt-BR": "pensamento que se solta e vai longe",
+      "en": "thoughts that drift far away",
+      "zh-CN": "思绪飘到很远的地方"
+    },
     "referencia": {
       "doi": "10.1037/0033-2909.132.6.946",
       "citacao": "Smallwood e Schooler (2006)",
@@ -801,6 +936,11 @@
       "en": "The experience of being ignored and excluded by other people or by a group.",
       "zh-CN": "被他人或群体忽视和排除在外的经历。"
     },
+    "simples": {
+      "pt-BR": "ser deixado de fora",
+      "en": "being left out",
+      "zh-CN": "被排除在外"
+    },
     "referencia": {
       "doi": "10.1146/annurev.psych.58.110405.085641",
       "citacao": "Williams (2007)",
@@ -828,6 +968,11 @@
       "en": "The discomfort produced by holding contradictory cognitions at once, or by acting against what one believes.",
       "zh-CN": "同时持有相互矛盾的认知，或行动违背自己的信念时产生的不适。"
     },
+    "simples": {
+      "pt-BR": "desconforto de pensar uma coisa e fazer outra",
+      "en": "the discomfort of thinking one thing and doing another",
+      "zh-CN": "想的和做的不一样带来的别扭"
+    },
     "referencia": {
       "doi": "10.1037/h0041593",
       "citacao": "Festinger e Carlsmith (1959)",
@@ -854,6 +999,11 @@
       "pt-BR": "Estado de absorção plena em uma atividade cujo desafio está à altura da habilidade de quem a realiza.",
       "en": "A state of full absorption in an activity whose challenge matches the skill of the person doing it.",
       "zh-CN": "完全沉浸于一项活动之中的状态，此时活动的挑战与个体的技能相称。"
+    },
+    "simples": {
+      "pt-BR": "ficar tão absorvido numa tarefa que o tempo some",
+      "en": "being so absorbed in a task that time disappears",
+      "zh-CN": "投入到忘了时间"
     },
     "referencia": {
       "doi": "10.1037/0022-3514.56.5.815",
@@ -883,6 +1033,11 @@
       "en": "A defensive response to a stimulus perceived as a threat, with activation that prepares for escape or avoidance.",
       "zh-CN": "对被感知为威胁的刺激所作的防御反应，其唤醒状态为逃离或回避作准备。"
     },
+    "simples": {
+      "pt-BR": "medo",
+      "en": "fear",
+      "zh-CN": "害怕"
+    },
     "referencia": {
       "doi": "10.1037/0033-295X.108.3.483",
       "citacao": "Öhman e Mineka (2001)",
@@ -909,6 +1064,11 @@
       "pt-BR": "Emoção negativa ligada à frustração de um objetivo ou a uma ofensa percebida, com tendência a enfrentar a sua causa.",
       "en": "A negative emotion tied to a thwarted goal or a perceived offense, with a tendency to confront its cause.",
       "zh-CN": "与目标受阻或感到被冒犯相关的消极情绪，带有直面其起因的倾向。"
+    },
+    "simples": {
+      "pt-BR": "raiva",
+      "en": "anger",
+      "zh-CN": "愤怒"
     },
     "referencia": {
       "doi": "10.1037/1528-3542.4.2.107",
@@ -941,6 +1101,11 @@
       "en": "Emotions such as joy, interest and contentment, which broaden the momentary repertoire of thought and action and build lasting resources.",
       "zh-CN": "如喜悦、兴趣和满足等情绪，它们拓展个体当下的思维与行动范围，并建构持久的资源。"
     },
+    "simples": {
+      "pt-BR": "alegria e contentamento",
+      "en": "joy and contentment",
+      "zh-CN": "高兴和满足"
+    },
     "referencia": {
       "doi": "10.1037/0003-066X.56.3.218",
       "citacao": "Fredrickson (2001)",
@@ -967,6 +1132,11 @@
       "pt-BR": "Emoção aversiva que surge ao perceber que a situação presente seria melhor se a escolha feita tivesse sido outra.",
       "en": "The aversive emotion felt on realizing that the present situation would be better had one chosen differently.",
       "zh-CN": "意识到假如当初作出别的选择，现状会更好时产生的不愉快情绪。"
+    },
+    "simples": {
+      "pt-BR": "arrependimento pelo que se fez ou deixou de fazer",
+      "en": "regret over what was done or left undone",
+      "zh-CN": "为做过或没做的事后悔"
     },
     "referencia": {
       "doi": "10.1207/s15327663jcp1701_3",

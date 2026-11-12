@@ -362,6 +362,18 @@ dialog.janela .corpo {
   text-wrap: pretty;
 }
 
+/* A versão simples da frase: voz humana menor, logo abaixo da frase técnica */
+.simples {
+  margin: -6px 0 18px;
+  padding: 10px 12px;
+  background: var(--claro);
+  box-shadow: inset 1px 1px var(--sombra), inset -1px -1px var(--meio);
+  font: 400 clamp(1.05rem, 2.6vw, 1.25rem) / 1.4 var(--humana);
+}
+
+.simples strong { font: 700 13px/1.4 var(--maquina); }
+.simples-do-termo { font-weight: 700; }
+
 .nota {
   margin: 0 0 6px;
   font-size: 13px;

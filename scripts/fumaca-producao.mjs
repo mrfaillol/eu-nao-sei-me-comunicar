@@ -68,6 +68,8 @@ async function fluxo(navegador, nome, opcoes, captura) {
   const origemFrase = await dialogo.locator(".frase[data-origem]").getAttribute("data-origem");
   anotar(frase.length > 30, `${nome}: frase (${origemFrase}) "${frase}"`);
   anotar(/quatro|four|四/.test(frase), `${nome}: a frase conta as quatro escolhas`);
+  const simples = ((await dialogo.locator(".simples").textContent().catch(() => "")) ?? "").trim();
+  anotar(/você escolheu|you chose|你选的/.test(simples), `${nome}: versão simples "${simples.slice(0, 90)}"`);
   const dois = await dialogo.locator('.termos li a[href^="https://doi.org/10."]').count();
   anotar(dois >= 1, `${nome}: ${dois} termo(s) com DOI`);
   if (captura && saida) await page.screenshot({ path: `${saida}/producao-${captura}.png` });

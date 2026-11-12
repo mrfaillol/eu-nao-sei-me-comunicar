@@ -274,3 +274,26 @@ test("a frase abre dentro da tela mesmo com a página rolada", async ({ page }) 
   await expect(frase).toBeInViewport({ ratio: 1 });
   expect(await dialogo.evaluate((d) => getComputedStyle(d).position)).toBe("fixed");
 });
+
+test("a frase vem com uma versão em palavras simples, e cada termo também", async ({ page }, info) => {
+  for (const palavra of ["aconchego", "alívio", "júbilo"]) await escolherPorId(page, "palavra", `palavra:pt-BR:${palavra}`);
+  await verFrase(page);
+  const dialogo = page.locator('dialog[data-dialogo="resultado"]');
+  const simples = dialogo.locator(".simples");
+  await expect(simples).toContainText("Em palavras simples:");
+  await expect(simples).toContainText(/O que você escolheu|Tudo o que você escolheu/);
+  // a versão simples vem logo depois da frase e cabe na primeira tela da caixa
+  await expect(simples).toBeInViewport({ ratio: 1 });
+  // nenhum termo técnico da frase aparece na versão simples, a não ser quando a palavra do dia a dia é a mesma
+  const termos = await dialogo.locator(".termos li").count();
+  expect(termos).toBeGreaterThanOrEqual(1);
+  for (let n = 0; n < termos; n++) await expect(dialogo.locator(".termos li").nth(n).locator(".simples-do-termo")).not.toBeEmpty();
+  await page.screenshot({ path: `docs/capturas/resultado-simples-${info.project.name}.png` });
+
+  await page.keyboard.press("Escape");
+  await page.selectOption("#idioma", "en");
+  await verFrase(page);
+  await expect(simples).toContainText("In plain words:");
+  await expect(simples).toContainText(/What you chose|Everything you chose/);
+});
+
