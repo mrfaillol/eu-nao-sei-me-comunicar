@@ -3,7 +3,7 @@ import json
 import re
 
 from acervo.montar import montar
-from acervo.revisao import aplicar_decisoes, gerar_folha
+from acervo.revisao import aplicar_decisoes, gerar_folha, impressao
 from tests.test_montar import palavra, pintura
 
 
@@ -53,7 +53,7 @@ def test_folha_escapa_texto_de_terceiros(tmp_path):
 
 
 def test_aprovar_muda_o_estado():
-    itens, avisos = aplicar_decisoes([som(2)], {"som:freesound:2": {"humana": "aprovada", "por": "Victor", "em": "2026-11-12"}})
+    itens, avisos = aplicar_decisoes([som(2)], {"som:freesound:2": {"humana": "aprovada", "por": "Victor", "em": "2026-11-12", "impressao": impressao(som(2))}})
     assert itens[0]["revisao"] == {"humana": "aprovada", "por": "Victor", "em": "2026-11-12"}
     assert avisos == []
 
@@ -70,7 +70,7 @@ def test_decisao_sem_nome_ou_de_item_desconhecido_vira_aviso():
 def test_destaque_manual_troca_o_rosto():
     itens, _ = aplicar_decisoes(
         [pintura_com_rostos(1)],
-        {"pintura:cma:1": {"humana": "aprovada", "por": "Victor", "em": "2026-11-12", "destaque_manual": 1, "nudez": "parcial", "violencia": "nenhuma"}},
+        {"pintura:cma:1": {"humana": "aprovada", "por": "Victor", "em": "2026-11-12", "destaque_manual": 1, "nudez": "parcial", "violencia": "nenhuma", "impressao": impressao(pintura_com_rostos(1))}},
     )
     item = itens[0]
     assert item["rosto"] == {"x": 0.6, "y": 0.5, "w": 0.1, "h": 0.1}
@@ -81,7 +81,7 @@ def test_destaque_manual_troca_o_rosto():
 
 def test_destaque_manual_vazio_tira_o_zoom():
     itens, _ = aplicar_decisoes(
-        [pintura_com_rostos(1)], {"pintura:cma:1": {"humana": "aprovada", "por": "V", "em": "2026-11-12", "destaque_manual": "nenhum"}}
+        [pintura_com_rostos(1)], {"pintura:cma:1": {"humana": "aprovada", "por": "V", "em": "2026-11-12", "destaque_manual": "nenhum", "impressao": impressao(pintura_com_rostos(1))}}
     )
     assert itens[0]["rosto"] is None and itens[0]["nitido"] is None
 
@@ -93,9 +93,51 @@ def test_reprovado_fica_fora_ate_do_indice_de_demonstracao(tmp_path):
     (origem / "sons.json").write_text("[]", encoding="utf-8")
     (origem / "palavras.json").write_text(json.dumps([palavra(n, ["apego", "nostalgia"]) for n in range(3)]), encoding="utf-8")
     decisoes = {"palavra:pt-BR:p0": {"humana": "reprovada", "por": "Victor", "em": "2026-11-12"},
-                "palavra:pt-BR:p1": {"humana": "aprovada", "por": "Victor", "em": "2026-11-12"}}
+                "palavra:pt-BR:p1": {"humana": "aprovada", "por": "Victor", "em": "2026-11-12", "impressao": impressao(palavra(1, ["apego", "nostalgia"]))}}
     relatorio = montar(tmp_path / "indice", origem=origem, anotacoes={"pinturas": {}, "sons": {}}, decisoes=decisoes)
     acervo = json.loads((tmp_path / "indice" / "acervo.json").read_text(encoding="utf-8"))
     assert relatorio["erros"] == []
     assert [i["id"] for i in acervo["itens"]] == ["palavra:pt-BR:p1", "palavra:pt-BR:p2"]
     assert acervo["itens"][0]["revisao"]["humana"] == "aprovada"
+
+
+def test_aprovacao_so_vale_para_o_conteudo_que_foi_revisado():
+    revisado = som(2)
+    decisao = {"som:freesound:2": {"humana": "aprovada", "por": "Victor", "em": "2026-11-12", "impressao": impressao(revisado)}}
+    # o pipeline rodou de novo e o texto do item mudou depois da revisão
+    trocado = {**revisado, "texto_humano": "Outro texto | outra, coisa, diferente"}
+    itens, avisos = aplicar_decisoes([trocado], decisao)
+    assert itens[0]["revisao"]["humana"] == "pendente"
+    assert any("mudou depois da revisão" in a for a in avisos)
+
+
+def test_aprovacao_sem_impressao_nao_vale():
+    itens, avisos = aplicar_decisoes([som(2)], {"som:freesound:2": {"humana": "aprovada", "por": "Victor", "em": "2026-11-12"}})
+    assert itens[0]["revisao"]["humana"] == "pendente" and avisos
+
+
+def test_reprovacao_vale_mesmo_se_o_item_mudou():
+    # Reprovar é a decisão segura: um item reprovado não volta só porque o texto mudou.
+    itens, _ = aplicar_decisoes([{**som(2), "texto_humano": "mudou"}], {"som:freesound:2": {"humana": "reprovada", "por": "V", "em": "2026-11-12", "impressao": "velha"}})
+    assert itens[0]["revisao"]["humana"] == "reprovada"
+
+
+def test_impressao_muda_com_texto_construto_e_arquivo(tmp_path):
+    base = som(2)
+    assert impressao(base) == impressao(dict(base))
+    assert impressao(base) != impressao({**base, "rotulo": "outro"})
+    assert impressao(base) != impressao({**base, "construtos": ["luto"]})
+    (tmp_path / "midia" / "sons").mkdir(parents=True)
+    arquivo = tmp_path / "midia" / "sons" / "fs-2.mp3"
+    arquivo.write_bytes(b"primeiro")
+    antes = impressao(base, raiz_da_midia=tmp_path)
+    arquivo.write_bytes(b"segundo")
+    assert impressao(base, raiz_da_midia=tmp_path) != antes
+
+
+def test_folha_grava_a_impressao_de_cada_item(tmp_path):
+    item = som(2)
+    gerar_folha([item], tmp_path)
+    pagina = (tmp_path / "index.html").read_text(encoding="utf-8")
+    assert f'data-impressao="{impressao(item)}"' in pagina
+    assert "impressao: a.dataset.impressao" in pagina

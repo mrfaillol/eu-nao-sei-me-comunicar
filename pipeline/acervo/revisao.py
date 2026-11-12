@@ -7,13 +7,37 @@ e o índice publicável só leva item aprovado.
 """
 from __future__ import annotations
 
+import hashlib
 import html
 import json
 from pathlib import Path
 
+MIDIA = Path(__file__).resolve().parents[2] / "public"
+
 ESTADOS = {"aprovada", "reprovada"}
 NUDEZ = ("nenhuma", "parcial", "frontal")
 VIOLENCIA = ("nenhuma", "historica", "grafica")
+
+
+def impressao(item: dict, raiz_da_midia: Path = MIDIA) -> str:
+    """Impressão digital do que o revisor vê, ouve e lê num item.
+
+    A aprovação fica amarrada a ela: se o pipeline rodar de novo e trocar o texto, os construtos
+    ou o arquivo do item, a impressão muda e a aprovação antiga deixa de valer.
+    """
+    visto = {
+        "rotulo": item["rotulo"],
+        "texto_humano": item["texto_humano"],
+        "construtos": sorted(item["construtos"]),
+        "tema_sensivel": item["tema_sensivel"],
+        "credito": item["credito"],
+        "rostos": [[r["x"], r["y"], r["w"], r["h"]] for r in item.get("_rostos", [])],
+    }
+    resumo = hashlib.sha256(json.dumps(visto, ensure_ascii=False, sort_keys=True).encode("utf-8"))
+    arquivo = raiz_da_midia / item["midia"]["arquivo"] if item.get("midia") else None
+    if arquivo is not None and arquivo.is_file():
+        resumo.update(arquivo.read_bytes())
+    return resumo.hexdigest()[:32]
 
 
 def _e(texto) -> str:
@@ -50,7 +74,7 @@ def _campos_de_pintura(item: dict) -> str:
 
 def _cartao(item: dict) -> str:
     credito = item["credito"]
-    return f"""<article data-id="{_e(item["id"])}" data-tipo="{item["tipo"]}">
+    return f"""<article data-id="{_e(item["id"])}" data-tipo="{item["tipo"]}" data-impressao="{impressao(item)}">
   {_midia(item)}
   <h3>{_e(item["rotulo"])}</h3>
   <p class="texto">{_e(item["texto_humano"])}</p>
@@ -108,7 +132,7 @@ document.getElementById('baixar').addEventListener('click', () => {{
   document.querySelectorAll('article').forEach((a) => {{
     const r = a.querySelector('input[type=radio]:checked');
     if (!r) return;
-    const d = {{ humana: r.value, por, em: hoje }};
+    const d = {{ humana: r.value, por, em: hoje, impressao: a.dataset.impressao }};
     a.querySelectorAll('select').forEach((s) => {{ if (s.value !== '') d[s.name] = s.name === 'destaque_manual' && s.value !== 'nenhum' ? Number(s.value) : s.value; }});
     saida[a.dataset.id] = d;
   }});
@@ -149,6 +173,11 @@ def aplicar_decisoes(itens: list[dict], decisoes: dict) -> tuple[list[dict], lis
             continue
         if d.get("humana") not in ESTADOS or not str(d.get("por") or "").strip() or not d.get("em"):
             avisos.append(f"{item['id']}: decisão sem estado, nome ou data não vale")
+            saida.append(item)
+            continue
+        # Aprovação só vale para o conteúdo que foi revisado. Reprovação vale sempre: é a decisão segura.
+        if d["humana"] == "aprovada" and d.get("impressao") != impressao(item):
+            avisos.append(f"{item['id']}: o item mudou depois da revisão (ou a decisão não traz impressão); volta a pendente")
             saida.append(item)
             continue
         novo = {**item, "revisao": {"humana": d["humana"], "por": str(d["por"]).strip(), "em": d["em"]}}
