@@ -1,9 +1,16 @@
 {
   "_nota": "Catálogo fechado de fontes e licenças. Item que cita fonte ou licença fora daqui é reprovado pelo pipeline.",
   "licencas_por_tipo": {
-    "pintura": ["CC0-1.0"],
-    "som": ["CC0-1.0"],
-    "palavra": ["CC-BY-SA-4.0", "CC0-1.0"]
+    "pintura": [
+      "CC0-1.0"
+    ],
+    "som": [
+      "CC0-1.0"
+    ],
+    "palavra": [
+      "CC-BY-SA-4.0",
+      "CC0-1.0"
+    ]
   },
   "fontes": {
     "cma": {
@@ -28,7 +35,8 @@
       "nome": "Zheng et al. (2023), palavras de emoção em mandarim",
       "url": "https://doi.org/10.6084/m9.figshare.20209859",
       "licenca": "CC0-1.0",
-      "credito": "Glosas e normas de valência e ativação de Zheng et al. (2023), em CC0. Só as 264 linhas de questionário próprio."
+      "credito": "Glosas em inglês de Zheng et al. (2023), em CC0. Os números de valência e ativação desse conjunto não são usados.",
+      "nota": "Lido em 12/Nov/2026: nas 264 linhas de questionário próprio há valência incoerente com o sentido (恨意, ódio, +1,22; 国耻, vergonha nacional, +1,46; 狂喜, êxtase, -0,96; 盼望, esperança, -1,67). Por isso as palavras em mandarim ficam com afeto ausente. Escala do artigo, para referência: valência de -3 a +3, ativação de 0 a 4."
     },
     "glasgow-2019": {
       "nome": "The Glasgow Norms (Scott et al., 2019)",

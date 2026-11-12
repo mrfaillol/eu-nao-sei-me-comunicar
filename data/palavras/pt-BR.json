@@ -1,0 +1,249 @@
+[
+ {
+  "palavra": "saudade",
+  "sentido": 0,
+  "construtos": [
+   "nostalgia",
+   "apego"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "banzo",
+  "sentido": 0,
+  "construtos": [
+   "nostalgia"
+  ],
+  "tema_sensivel": true
+ },
+ {
+  "palavra": "desassossego",
+  "sentido": 0,
+  "construtos": [
+   "vigilancia"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "marasmo",
+  "sentido": 1,
+  "construtos": [
+   "tedio"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "dengo",
+  "sentido": 1,
+  "construtos": [
+   "apego"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "chamego",
+  "sentido": 0,
+  "construtos": [
+   "apego"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "aconchego",
+  "sentido": 0,
+  "construtos": [
+   "emocoes_positivas"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "sossego",
+  "sentido": 0,
+  "construtos": [
+   "emocoes_positivas",
+   "restauracao_da_atencao"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "enfado",
+  "sentido": 0,
+  "construtos": [
+   "tedio"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "inquietação",
+  "sentido": 0,
+  "construtos": [
+   "vigilancia"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "pasmo",
+  "sentido": 1,
+  "construtos": [
+   "assombro"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "alheamento",
+  "sentido": 0,
+  "construtos": [
+   "alienacao"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "devaneio",
+  "sentido": 0,
+  "construtos": [
+   "divagacao_mental"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "ternura",
+  "sentido": 0,
+  "construtos": [
+   "apego",
+   "compaixao"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "alívio",
+  "sentido": 1,
+  "construtos": [
+   "emocoes_positivas"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "alento",
+  "sentido": 0,
+  "construtos": [
+   "esperanca"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "mágoa",
+  "sentido": 1,
+  "construtos": [
+   "raiva"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "rancor",
+  "sentido": 0,
+  "construtos": [
+   "raiva"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "remorso",
+  "sentido": 0,
+  "construtos": [
+   "arrependimento"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "pudor",
+  "sentido": 0,
+  "construtos": [
+   "constrangimento"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "receio",
+  "sentido": 1,
+  "construtos": [
+   "medo",
+   "vigilancia"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "quietude",
+  "sentido": 0,
+  "construtos": [
+   "restauracao_da_atencao"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "júbilo",
+  "sentido": 0,
+  "construtos": [
+   "emocoes_positivas"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "espanto",
+  "sentido": 0,
+  "construtos": [
+   "assombro"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "encanto",
+  "sentido": 1,
+  "construtos": [
+   "emocoes_positivas",
+   "assombro"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "enlevo",
+  "sentido": 0,
+  "construtos": [
+   "assombro",
+   "fluxo"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "carinho",
+  "sentido": 0,
+  "construtos": [
+   "apego"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "apreensão",
+  "sentido": 1,
+  "construtos": [
+   "medo",
+   "vigilancia"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "arrepio",
+  "sentido": 0,
+  "construtos": [
+   "interocepcao"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "vergonha",
+  "sentido": 0,
+  "construtos": [
+   "constrangimento"
+  ],
+  "tema_sensivel": false
+ }
+]
