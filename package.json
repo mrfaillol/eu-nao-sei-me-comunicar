@@ -8,12 +8,14 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "e2e": "pnpm build && playwright test --trace off"
+    "e2e": "pnpm build && playwright test --trace off",
+    "build:vercel": "pnpm build && node scripts/saida-vercel.mjs"
   },
   "devDependencies": {
     "@capacitor/cli": "~8.6.0",
     "@playwright/test": "^1.65.0",
     "@types/node": "^26.6.6",
+    "esbuild": "^0.28.2",
     "typescript": "^7.0.2",
     "vite": "^8.3.8",
     "vite-plugin-pwa": "^2.0.0",

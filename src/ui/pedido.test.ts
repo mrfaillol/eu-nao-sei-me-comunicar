@@ -67,4 +67,12 @@ describe("pedirFrase", () => {
     expect(buscar).toHaveBeenCalledTimes(1);
     expect(a).toBe(b);
   });
+
+  it("a versão simples que o servidor mandar passa adiante; se não for texto, é ignorada", async () => {
+    const comSimples = await pedirFrase(ids, "pt-BR", { buscar: vi.fn(async () => resposta({ ...boa, simples: "O que você escolheu fala de saudade." })), base: "https://api.test", acervo, glossario });
+    expect(comSimples.simples).toBe("O que você escolheu fala de saudade.");
+    const semTexto = await pedirFrase([...ids].reverse(), "pt-BR", { buscar: vi.fn(async () => resposta({ ...boa, simples: { html: "<b>x</b>" } })), base: "https://api.test", acervo, glossario });
+    expect(semTexto.frase).toBe(boa.frase);
+    expect(semTexto).not.toHaveProperty("simples");
+  });
 });

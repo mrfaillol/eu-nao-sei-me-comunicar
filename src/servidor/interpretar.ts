@@ -24,6 +24,8 @@ export interface Resposta {
   construtos_usados: string[];
   ajuda_destacada: boolean;
   versao_prompt: string;
+  /** A mesma mensagem em palavras do dia a dia, quando o modelo a escreveu e ela passou na conferência. */
+  simples?: string;
 }
 
 export interface Dependencias {
@@ -40,6 +42,11 @@ export interface Dependencias {
    * Nunca recebe a mensagem do provedor, o IP nem os itens escolhidos.
    */
   aoFalhar?: (rotulo: string) => void;
+  /**
+   * Decide, pedido a pedido, se o modelo pode ser chamado (limite por visitante e por hora). Quando recusa,
+   * a pessoa recebe a frase por regra: quem passa do limite não fica sem resposta, só sem o modelo.
+   */
+  podeChamarModelo?: (pedido: Request) => boolean;
 }
 
 const registrarNoConsole = (rotulo: string) => console.warn(`[interpretar] caminho do modelo falhou: ${rotulo}`);
@@ -54,18 +61,33 @@ const MAXIMO_DE_ITENS_PARA_O_MODELO = 12;
 
 class Prazo extends Error {}
 
-function lerResposta(texto: string): { frase: string; construtos_usados: string[] } | null {
+function lerResposta(texto: string): { frase: string; construtos_usados: string[]; simples: unknown } | null {
   const limpo = texto.trim().replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/, "");
   try {
     const dado: unknown = JSON.parse(limpo);
     if (typeof dado !== "object" || dado === null) return null;
-    const { frase, construtos_usados } = dado as Record<string, unknown>;
+    const { frase, construtos_usados, simples } = dado as Record<string, unknown>;
     if (typeof frase !== "string" || !Array.isArray(construtos_usados)) return null;
     if (!construtos_usados.every((c): c is string => typeof c === "string")) return null;
-    return { frase: frase.trim(), construtos_usados };
+    return { frase: frase.trim(), construtos_usados, simples };
   } catch {
     return null;
   }
+}
+
+const TAMANHO_MAXIMO_DA_SIMPLES: Record<Idioma, number> = { "pt-BR": 320, en: 320, "zh-CN": 140 };
+// As regras da frase que também valem para a versão simples: não atribuir estado à pessoa (V6), não
+// aconselhar (V7), não citar autor ou obra (V8) e escrever no idioma pedido (V10). Tamanho e termos
+// técnicos são regras só da frase principal.
+const REGRAS_DA_SIMPLES: Codigo[] = ["V6", "V7", "V8", "V10"];
+
+/** A versão simples que o modelo escreveu, se ela serve; senão null, com o motivo. */
+function conferirSimples(simples: unknown, construtos: string[], itens: Item[], idioma: Idioma, glossario: Glossario): { texto: string | null; motivo: string } {
+  if (typeof simples !== "string" || simples.trim() === "") return { texto: null, motivo: "ausente" };
+  const texto = simples.trim().replace(/\s+/g, " ");
+  if (texto.length > TAMANHO_MAXIMO_DA_SIMPLES[idioma]) return { texto: null, motivo: "tamanho" };
+  const violadas = validarFrase(texto, construtos, itens, idioma, glossario).codigos.filter((c) => REGRAS_DA_SIMPLES.includes(c));
+  return violadas.length > 0 ? { texto: null, motivo: violadas.join(",") } : { texto, motivo: "" };
 }
 
 /** Espera o provedor só até o prazo, mesmo que ele ignore o sinal de aborto. */
@@ -128,8 +150,11 @@ export async function escreverFrase(
     }
     const validacao = validarFrase(lido.frase, lido.construtos_usados, itens, idioma, deps.glossario);
     if (validacao.ok) {
+      // A versão simples é um extra: se não servir, a frase vale do mesmo jeito e o aparelho compõe a simples por regra.
+      const simples = conferirSimples(lido.simples, validacao.presentes, itens, idioma, deps.glossario);
+      if (!simples.texto && simples.motivo !== "ausente") aoFalhar(`simples:${simples.motivo}`);
       // A procedência mostrada à pessoa são os termos que o servidor achou na frase, não a lista do modelo.
-      return { ...comum, origem: tentativa === 1 ? "modelo" : "modelo_2", frase: lido.frase, construtos_usados: validacao.presentes };
+      return { ...comum, origem: tentativa === 1 ? "modelo" : "modelo_2", frase: lido.frase, construtos_usados: validacao.presentes, ...(simples.texto ? { simples: simples.texto } : {}) };
     }
     violados = validacao.codigos;
     aoFalhar(`validacao:${validacao.codigos.join(",")}`);
@@ -228,6 +253,8 @@ export function criarInterpretar(deps: Dependencias): (pedido: Request) => Promi
     const lido = lerPedido(corpo, porId);
     if (!lido) return json({ erro: "pedido fora do contrato: envie { itens: [3 ou mais ids distintos do acervo], idioma }" }, 400);
 
-    return json(await escreverFrase(lido.itens, lido.idioma, deps), 200);
+    // Passou do limite de chamadas: a resposta sai pela regra, sem tocar no modelo.
+    const comModelo = deps.podeChamarModelo ? deps.podeChamarModelo(pedido) : true;
+    return json(await escreverFrase(lido.itens, lido.idioma, comModelo ? deps : { ...deps, provedor: null }), 200);
   };
 }
