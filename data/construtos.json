@@ -1,0 +1,314 @@
+[
+  {
+    "id": "nostalgia", "dimensao": false,
+    "termo": { "pt-BR": "nostalgia", "en": "nostalgia", "zh-CN": "怀旧" },
+    "variantes": { "pt-BR": ["nostálgica", "nostálgico"], "en": ["nostalgic"], "zh-CN": [] },
+    "definicao": {
+      "pt-BR": "Emoção agridoce voltada a um passado pessoal lembrado com afeto e com a consciência de que ele não volta.",
+      "en": "A bittersweet emotion directed at a fondly remembered personal past that cannot be recovered.",
+      "zh-CN": "一种指向个人过去的苦乐参半的情绪，带着眷恋回想已无法重返的往昔。"
+    },
+    "referencia": { "doi": "10.1037/0022-3514.91.5.975", "citacao": "Wildschut, Sedikides, Arndt e Routledge (2006)", "titulo_contem": "Nostalgia" },
+    "revisao": { "humana": "pendente" }
+  },
+  {
+    "id": "pertencimento", "dimensao": false,
+    "termo": { "pt-BR": "pertencimento", "en": "belonging", "zh-CN": "归属感" },
+    "variantes": { "pt-BR": ["pertencer"], "en": ["need to belong", "belongingness"], "zh-CN": ["归属需要"] },
+    "definicao": {
+      "pt-BR": "Necessidade de formar e manter vínculos interpessoais duradouros, positivos e significativos.",
+      "en": "The need to form and maintain lasting, positive and significant interpersonal bonds.",
+      "zh-CN": "建立并维持持久、积极而重要的人际联结的需要。"
+    },
+    "referencia": { "doi": "10.1037/0033-2909.117.3.497", "citacao": "Baumeister e Leary (1995)", "titulo_contem": "need to belong" },
+    "revisao": { "humana": "pendente" }
+  },
+  {
+    "id": "apego", "dimensao": false,
+    "termo": { "pt-BR": "apego", "en": "attachment", "zh-CN": "依恋" },
+    "variantes": { "pt-BR": [], "en": [], "zh-CN": [] },
+    "definicao": {
+      "pt-BR": "Vínculo afetivo duradouro com uma figura específica, buscada como fonte de proximidade e de segurança.",
+      "en": "An enduring affectional bond with a specific figure who is sought as a source of proximity and security.",
+      "zh-CN": "与特定对象之间持久的情感纽带，个体从这一对象那里寻求亲近与安全。"
+    },
+    "referencia": { "doi": "10.1037/0022-3514.52.3.511", "citacao": "Hazan e Shaver (1987)", "titulo_contem": "attachment" },
+    "revisao": { "humana": "pendente" }
+  },
+  {
+    "id": "solidao", "dimensao": false,
+    "termo": { "pt-BR": "solidão", "en": "loneliness", "zh-CN": "孤独感" },
+    "variantes": { "pt-BR": [], "en": [], "zh-CN": ["孤独"] },
+    "definicao": {
+      "pt-BR": "Experiência aversiva de perceber as próprias relações sociais como menores ou menos satisfatórias do que se deseja.",
+      "en": "The aversive experience of perceiving one's social relationships as fewer or less satisfying than desired.",
+      "zh-CN": "个体感到自己的社会关系在数量或质量上低于期望时产生的不愉快体验。"
+    },
+    "referencia": { "doi": "10.1037/0022-3514.39.3.472", "citacao": "Russell, Peplau e Cutrona (1980)", "titulo_contem": "Loneliness" },
+    "revisao": { "humana": "pendente" }
+  },
+  {
+    "id": "solitude", "dimensao": false,
+    "termo": { "pt-BR": "solitude", "en": "solitude", "zh-CN": "独处" },
+    "variantes": { "pt-BR": [], "en": [], "zh-CN": [] },
+    "definicao": {
+      "pt-BR": "Estado de estar só, sem interação social, que pode ser escolhido e vivido como liberdade, criação ou intimidade consigo.",
+      "en": "The state of being alone, without social interaction, which can be chosen and experienced as freedom, creativity or intimacy with oneself.",
+      "zh-CN": "没有社会交往的独自状态，可以是主动选择的，并被体验为自由、创造或与自己相处。"
+    },
+    "referencia": { "doi": "10.1111/1468-5914.00204", "citacao": "Long e Averill (2003)", "titulo_contem": "Solitude" },
+    "revisao": { "humana": "pendente" }
+  },
+  {
+    "id": "restauracao_da_atencao", "dimensao": false,
+    "termo": { "pt-BR": "restauração da atenção", "en": "attention restoration", "zh-CN": "注意恢复" },
+    "variantes": { "pt-BR": [], "en": ["restoration of attention"], "zh-CN": ["注意力恢复"] },
+    "definicao": {
+      "pt-BR": "Recuperação da capacidade de atenção dirigida, que se esgota com o esforço, pelo contato com ambientes que prendem a atenção sem exigir esforço.",
+      "en": "The recovery of directed attention, which fatigues with effort, through contact with environments that hold attention effortlessly.",
+      "zh-CN": "因持续努力而疲劳的定向注意，在接触无需费力即可吸引注意的环境后得到恢复。"
+    },
+    "referencia": { "doi": "10.1016/0272-4944(95)90001-2", "citacao": "Kaplan (1995)", "titulo_contem": "restorative" },
+    "revisao": { "humana": "pendente", "nota": "zh-CN: a pesquisa de 12/Nov apontou que 注意力恢复 diverge do uso conferido; adotado 注意恢复, com a outra forma como variante." }
+  },
+  {
+    "id": "habituacao", "dimensao": false,
+    "termo": { "pt-BR": "habituação", "en": "habituation", "zh-CN": "习惯化" },
+    "variantes": { "pt-BR": [], "en": [], "zh-CN": [] },
+    "definicao": {
+      "pt-BR": "Diminuição da resposta a um estímulo depois de sua apresentação repetida.",
+      "en": "A decrease in response to a stimulus after its repeated presentation.",
+      "zh-CN": "刺激重复呈现后，对该刺激的反应逐渐减弱。"
+    },
+    "referencia": { "doi": "10.1037/h0022681", "citacao": "Thompson e Spencer (1966)", "titulo_contem": "Habituation" },
+    "revisao": { "humana": "pendente" }
+  },
+  {
+    "id": "contagio_emocional", "dimensao": false,
+    "termo": { "pt-BR": "contágio emocional", "en": "emotional contagion", "zh-CN": "情绪感染" },
+    "variantes": { "pt-BR": [], "en": [], "zh-CN": [] },
+    "definicao": {
+      "pt-BR": "Tendência a imitar e sincronizar expressões, posturas e vozes com as de outra pessoa e, com isso, convergir emocionalmente com ela.",
+      "en": "The tendency to mimic and synchronize expressions, postures and voices with those of another person and so to converge emotionally.",
+      "zh-CN": "自动模仿并同步他人的表情、姿态和声音，从而在情绪上与对方趋同的倾向。"
+    },
+    "referencia": { "doi": "10.1111/1467-8721.ep10770953", "citacao": "Hatfield, Cacioppo e Rapson (1993)", "titulo_contem": "Emotional Contagion" },
+    "revisao": { "humana": "pendente" }
+  },
+  {
+    "id": "alienacao", "dimensao": false,
+    "termo": { "pt-BR": "alienação", "en": "alienation", "zh-CN": "异化" },
+    "variantes": { "pt-BR": [], "en": [], "zh-CN": ["疏离感"] },
+    "definicao": {
+      "pt-BR": "Condição em que a pessoa se percebe sem poder sobre os resultados de sua ação, sem sentido no que faz, isolada ou estranha a si mesma.",
+      "en": "A condition in which a person feels powerless over the outcomes of their actions, finds no meaning in them, and is isolated or estranged from themselves.",
+      "zh-CN": "个体感到对自身行动的结果无能为力、行动失去意义，并与他人隔绝或与自我疏远的状态。"
+    },
+    "referencia": { "doi": "10.2307/2088565", "citacao": "Seeman (1959)", "titulo_contem": "Alienation" },
+    "revisao": { "humana": "pendente", "nota": "zh-CN: 异化 é o termo da tradição marxista; 疏离感 é o usado em psicologia para a escala de Seeman. Falante nativo decide qual é o principal." }
+  },
+  {
+    "id": "anomia", "dimensao": false,
+    "termo": { "pt-BR": "anomia", "en": "anomie", "zh-CN": "失范" },
+    "variantes": { "pt-BR": [], "en": ["anomia"], "zh-CN": [] },
+    "definicao": {
+      "pt-BR": "Percepção de que as normas sociais deixaram de orientar a conduta e de que os vínculos com a coletividade se desfizeram.",
+      "en": "The perception that social norms no longer guide conduct and that one's ties to the collective have dissolved.",
+      "zh-CN": "个体感到社会规范不再能指引行为、自身与集体的联系已经瓦解。"
+    },
+    "referencia": { "doi": "10.2307/2088422", "citacao": "Srole (1956)", "titulo_contem": "Social Integration" },
+    "revisao": { "humana": "pendente" }
+  },
+  {
+    "id": "tedio", "dimensao": false,
+    "termo": { "pt-BR": "tédio", "en": "boredom", "zh-CN": "无聊感" },
+    "variantes": { "pt-BR": [], "en": [], "zh-CN": [] },
+    "definicao": {
+      "pt-BR": "Estado aversivo de querer, sem conseguir, engajar-se em uma atividade satisfatória.",
+      "en": "The aversive state of wanting, but being unable, to engage in satisfying activity.",
+      "zh-CN": "想要投入令人满足的活动却无法投入的不愉快状态。"
+    },
+    "referencia": { "doi": "10.1177/1745691612456044", "citacao": "Eastwood, Frischen, Fenske e Smilek (2012)", "titulo_contem": "Unengaged Mind" },
+    "revisao": { "humana": "pendente" }
+  },
+  {
+    "id": "assombro", "dimensao": false,
+    "termo": { "pt-BR": "assombro", "en": "awe", "zh-CN": "敬畏" },
+    "variantes": { "pt-BR": [], "en": [], "zh-CN": ["敬畏感"] },
+    "definicao": {
+      "pt-BR": "Emoção diante de algo percebido como vasto, que excede os esquemas disponíveis e pede que eles se acomodem.",
+      "en": "The emotion felt before something perceived as vast, which exceeds existing mental structures and demands their accommodation.",
+      "zh-CN": "面对被感知为浩大、超出已有认知框架的事物时产生的情绪，它要求原有框架作出调整。"
+    },
+    "referencia": { "doi": "10.1080/02699930302297", "citacao": "Keltner e Haidt (2003)", "titulo_contem": "awe" },
+    "revisao": { "humana": "pendente" }
+  },
+  {
+    "id": "luto", "dimensao": false,
+    "termo": { "pt-BR": "luto", "en": "grief", "zh-CN": "哀伤" },
+    "variantes": { "pt-BR": [], "en": ["bereavement"], "zh-CN": [] },
+    "definicao": {
+      "pt-BR": "Processo de enfrentamento da perda de alguém, no qual a pessoa oscila entre voltar-se para a perda e voltar-se para a reorganização da vida.",
+      "en": "The process of coping with the loss of someone, in which a person oscillates between attending to the loss and attending to the restoration of life.",
+      "zh-CN": "应对丧失亲近之人的过程，个体在面对丧失与重建生活之间来回摆动。"
+    },
+    "referencia": { "doi": "10.1080/074811899201046", "citacao": "Stroebe e Schut (1999)", "titulo_contem": "DUAL PROCESS" },
+    "revisao": { "humana": "pendente", "nota": "O Crossref lista só Schut como autor; a citação usual é Stroebe e Schut (1999). Conferir na página da editora." }
+  },
+  {
+    "id": "vigilancia", "dimensao": false,
+    "termo": { "pt-BR": "vigilância", "en": "vigilance", "zh-CN": "警觉" },
+    "variantes": { "pt-BR": [], "en": [], "zh-CN": ["警觉性"] },
+    "definicao": {
+      "pt-BR": "Estado de prontidão sustentada para detectar sinais raros e imprevisíveis ao longo de um período prolongado.",
+      "en": "A state of sustained readiness to detect rare and unpredictable signals over a prolonged period.",
+      "zh-CN": "在较长时间内保持准备状态，以觉察稀少而不可预测的信号。"
+    },
+    "referencia": { "doi": "10.1080/17470214808416738", "citacao": "Mackworth (1948)", "titulo_contem": "Vigilance" },
+    "revisao": { "humana": "pendente" }
+  },
+  {
+    "id": "sobrecarga_sensorial", "dimensao": false,
+    "termo": { "pt-BR": "sobrecarga sensorial", "en": "sensory overload", "zh-CN": "感觉超载" },
+    "variantes": { "pt-BR": [], "en": [], "zh-CN": ["感官超载"] },
+    "definicao": {
+      "pt-BR": "Situação em que a quantidade de estímulos do ambiente excede a capacidade da pessoa de processá-los, o que a leva a filtrar e a se retrair.",
+      "en": "A situation in which environmental stimulation exceeds a person's capacity to process it, leading to filtering and withdrawal.",
+      "zh-CN": "环境刺激的数量超出个体的加工能力，使个体筛选输入并减少投入的情形。"
+    },
+    "referencia": { "doi": "10.1126/science.167.3924.1461", "citacao": "Milgram (1970)", "titulo_contem": "Living in Cities" },
+    "revisao": { "humana": "pendente", "nota": "Milgram fala em sobrecarga (overload) de estímulos na vida urbana; 'sensorial' é a forma adotada aqui. zh-CN: 感官超载 diverge do uso conferido; adotado 感觉超载." }
+  },
+  {
+    "id": "ambivalencia", "dimensao": false,
+    "termo": { "pt-BR": "ambivalência", "en": "ambivalence", "zh-CN": "矛盾态度" },
+    "variantes": { "pt-BR": ["ambivalente"], "en": ["ambivalent"], "zh-CN": ["矛盾心理"] },
+    "definicao": {
+      "pt-BR": "Presença simultânea de avaliações positivas e negativas em relação a um mesmo objeto.",
+      "en": "The simultaneous presence of positive and negative evaluations of the same object.",
+      "zh-CN": "对同一对象同时存在积极评价与消极评价。"
+    },
+    "referencia": { "doi": "10.1037/h0032590", "citacao": "Kaplan (1972)", "titulo_contem": "ambivalence" },
+    "revisao": { "humana": "pendente" }
+  },
+  {
+    "id": "esperanca", "dimensao": false,
+    "termo": { "pt-BR": "esperança", "en": "hope", "zh-CN": "希望感" },
+    "variantes": { "pt-BR": [], "en": [], "zh-CN": [] },
+    "definicao": {
+      "pt-BR": "Disposição cognitiva formada pela determinação de alcançar metas e pela percepção de caminhos para chegar a elas.",
+      "en": "A cognitive set made up of the determination to reach goals and the perception of pathways to them.",
+      "zh-CN": "由达成目标的决心和对实现路径的知觉共同构成的认知状态。"
+    },
+    "referencia": { "doi": "10.1037/0022-3514.60.4.570", "citacao": "Snyder et al. (1991)", "titulo_contem": "will and the ways" },
+    "revisao": { "humana": "pendente" }
+  },
+  {
+    "id": "memoria_autobiografica", "dimensao": false,
+    "termo": { "pt-BR": "memória autobiográfica", "en": "autobiographical memory", "zh-CN": "自传体记忆" },
+    "variantes": { "pt-BR": [], "en": ["autobiographical memories"], "zh-CN": [] },
+    "definicao": {
+      "pt-BR": "Memória dos acontecimentos da própria vida, construída a cada lembrança em relação com as metas e a identidade atuais da pessoa.",
+      "en": "Memory for the events of one's own life, constructed at each recall in relation to the person's current goals and identity.",
+      "zh-CN": "对个人生活事件的记忆，每次回忆时都结合个体当前的目标与自我认同而被建构。"
+    },
+    "referencia": { "doi": "10.1037/0033-295X.107.2.261", "citacao": "Conway e Pleydell-Pearce (2000)", "titulo_contem": "autobiographical" },
+    "revisao": { "humana": "pendente" }
+  },
+  {
+    "id": "empatia", "dimensao": false,
+    "termo": { "pt-BR": "empatia", "en": "empathy", "zh-CN": "共情" },
+    "variantes": { "pt-BR": [], "en": [], "zh-CN": [] },
+    "definicao": {
+      "pt-BR": "Reatividade de uma pessoa às experiências observadas de outra, em componentes cognitivos e emocionais.",
+      "en": "A person's reactivity to the observed experiences of another, in cognitive and emotional components.",
+      "zh-CN": "个体对所观察到的他人经验作出的反应，包含认知与情绪两类成分。"
+    },
+    "referencia": { "doi": "10.1037/0022-3514.44.1.113", "citacao": "Davis (1983)", "titulo_contem": "empathy" },
+    "revisao": { "humana": "pendente" }
+  },
+  {
+    "id": "interocepcao", "dimensao": false,
+    "termo": { "pt-BR": "interocepção", "en": "interoception", "zh-CN": "内感受" },
+    "variantes": { "pt-BR": [], "en": [], "zh-CN": [] },
+    "definicao": {
+      "pt-BR": "Sentido da condição fisiológica do próprio corpo.",
+      "en": "The sense of the physiological condition of one's own body.",
+      "zh-CN": "对自身身体生理状况的感知。"
+    },
+    "referencia": { "doi": "10.1038/nrn894", "citacao": "Craig (2002)", "titulo_contem": "Interoception" },
+    "revisao": { "humana": "pendente" }
+  },
+  {
+    "id": "curiosidade", "dimensao": false,
+    "termo": { "pt-BR": "curiosidade", "en": "curiosity", "zh-CN": "好奇心" },
+    "variantes": { "pt-BR": [], "en": [], "zh-CN": [] },
+    "definicao": {
+      "pt-BR": "Desejo de obter informação, despertado pela percepção de uma lacuna entre o que se sabe e o que se quer saber.",
+      "en": "The desire for information, aroused by the perception of a gap between what one knows and what one wants to know.",
+      "zh-CN": "因觉察到已知与想知之间的差距而产生的求知欲望。"
+    },
+    "referencia": { "doi": "10.1037/0033-2909.116.1.75", "citacao": "Loewenstein (1994)", "titulo_contem": "curiosity" },
+    "revisao": { "humana": "pendente" }
+  },
+  {
+    "id": "apego_ao_lugar", "dimensao": false,
+    "termo": { "pt-BR": "apego ao lugar", "en": "place attachment", "zh-CN": "地方依恋" },
+    "variantes": { "pt-BR": [], "en": [], "zh-CN": [] },
+    "definicao": {
+      "pt-BR": "Vínculo entre pessoas e lugares significativos, com dimensões de pessoa, de processo psicológico e de lugar.",
+      "en": "The bond between people and meaningful places, with person, psychological process and place dimensions.",
+      "zh-CN": "人与有意义的地方之间的联结，包含人、心理过程和地方三个维度。"
+    },
+    "referencia": { "doi": "10.1016/j.jenvp.2009.09.006", "citacao": "Scannell e Gifford (2010)", "titulo_contem": "place attachment" },
+    "revisao": { "humana": "pendente" }
+  },
+  {
+    "id": "valencia_negativa", "dimensao": true,
+    "termo": { "pt-BR": "valência negativa", "en": "negative valence", "zh-CN": "负性效价" },
+    "variantes": { "pt-BR": [], "en": ["negatively valenced"], "zh-CN": [] },
+    "definicao": {
+      "pt-BR": "Polo de desprazer da dimensão de valência do afeto.",
+      "en": "The displeasure pole of the valence dimension of affect.",
+      "zh-CN": "情感效价维度上不愉快的一极。"
+    },
+    "referencia": { "doi": "10.1037/h0077714", "citacao": "Russell (1980)", "titulo_contem": "circumplex" },
+    "revisao": { "humana": "pendente" }
+  },
+  {
+    "id": "valencia_positiva", "dimensao": true,
+    "termo": { "pt-BR": "valência positiva", "en": "positive valence", "zh-CN": "正性效价" },
+    "variantes": { "pt-BR": [], "en": ["positively valenced"], "zh-CN": [] },
+    "definicao": {
+      "pt-BR": "Polo de prazer da dimensão de valência do afeto.",
+      "en": "The pleasure pole of the valence dimension of affect.",
+      "zh-CN": "情感效价维度上愉快的一极。"
+    },
+    "referencia": { "doi": "10.1037/h0077714", "citacao": "Russell (1980)", "titulo_contem": "circumplex" },
+    "revisao": { "humana": "pendente" }
+  },
+  {
+    "id": "alta_ativacao", "dimensao": true,
+    "termo": { "pt-BR": "alta ativação", "en": "high arousal", "zh-CN": "高唤醒" },
+    "variantes": { "pt-BR": [], "en": [], "zh-CN": [] },
+    "definicao": {
+      "pt-BR": "Polo de excitação da dimensão de ativação do afeto.",
+      "en": "The high-arousal pole of the arousal dimension of affect.",
+      "zh-CN": "情感唤醒维度上高唤醒的一极。"
+    },
+    "referencia": { "doi": "10.1037/h0077714", "citacao": "Russell (1980)", "titulo_contem": "circumplex" },
+    "revisao": { "humana": "pendente" }
+  },
+  {
+    "id": "baixa_ativacao", "dimensao": true,
+    "termo": { "pt-BR": "baixa ativação", "en": "low arousal", "zh-CN": "低唤醒" },
+    "variantes": { "pt-BR": [], "en": [], "zh-CN": [] },
+    "definicao": {
+      "pt-BR": "Polo de calma ou sonolência da dimensão de ativação do afeto.",
+      "en": "The low-arousal pole of the arousal dimension of affect.",
+      "zh-CN": "情感唤醒维度上低唤醒的一极。"
+    },
+    "referencia": { "doi": "10.1037/h0077714", "citacao": "Russell (1980)", "titulo_contem": "circumplex" },
+    "revisao": { "humana": "pendente" }
+  }
+]
