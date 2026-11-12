@@ -1,11 +1,12 @@
-// Estado da seleção: três opções por janela, até três escolhas livres. Funções puras, que devolvem
+// Estado da seleção: três opções por janela e escolhas livres, sem teto; com três já dá para pedir a frase. Funções puras, que devolvem
 // estado novo, para a tela ser sempre um desenho do estado e os testes não precisarem de navegador.
 import type { Idioma, Item } from "../frase/tipos";
 
 export type Janela = "pintura" | "som" | "palavra";
 export const JANELAS: readonly Janela[] = ["pintura", "som", "palavra"];
 const POR_MESA = 3;
-const MAXIMO = 3;
+/** Quantas escolhas a frase exige. Acima disso não há teto. */
+export const MINIMO = 3;
 
 export interface EstadoSelecao {
   idioma: Idioma;
@@ -60,7 +61,7 @@ export function redistribuir(e: EstadoSelecao, janela: Janela, acervo: Item[], s
 
 export function escolher(e: EstadoSelecao, id: string, acervo: Item[], sorteio: Sorteio): EstadoSelecao {
   const item = acervo.find((i) => i.id === id);
-  if (!item || e.escolhidos.length >= MAXIMO || e.escolhidos.includes(id)) return e;
+  if (!item || e.escolhidos.includes(id)) return e;
   const comEscolha = { ...e, escolhidos: [...e.escolhidos, id] };
   return distribuir(comEscolha, item.tipo, acervo, sorteio);
 }
@@ -87,6 +88,7 @@ export function podeEscolher(ultimaTroca: number | undefined, agora: number): bo
   return ultimaTroca === undefined || agora - ultimaTroca >= TRAVA_MS;
 }
 
-export function completa(e: EstadoSelecao): boolean {
-  return e.escolhidos.length === MAXIMO;
+/** A seleção já sustenta uma frase. */
+export function pronta(e: EstadoSelecao): boolean {
+  return e.escolhidos.length >= MINIMO;
 }

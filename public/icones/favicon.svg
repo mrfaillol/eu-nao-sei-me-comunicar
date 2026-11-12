@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" shape-rendering="crispEdges">
+  <rect width="64" height="64" fill="#000"/>
+  <!-- a janela: face cinza, luz em cima e à esquerda, sombra embaixo e à direita -->
+  <rect x="5" y="9" width="54" height="46" fill="#c0c0c0"/>
+  <path d="M5 9h54v2H7v42H5z" fill="#fff"/>
+  <path d="M59 9v46H5v-2h52V9z" fill="#3a3a3a"/>
+  <!-- barra de título -->
+  <rect x="9" y="13" width="46" height="11" fill="#000080"/>
+  <rect x="46" y="15" width="7" height="7" fill="#c0c0c0"/>
+  <path d="M48 17l3 3m0-3l-3 3" stroke="#000" stroke-width="1.4" fill="none" shape-rendering="geometricPrecision"/>
+  <!-- o poço, e nele as reticências: o que ainda não foi dito -->
+  <rect x="9" y="26" width="46" height="25" fill="#000"/>
+  <path d="M9 26h46v1H10v24H9z" fill="#808080"/>
+  <rect x="17" y="35" width="7" height="7" fill="#fff"/>
+  <rect x="28.5" y="35" width="7" height="7" fill="#fff"/>
+  <rect x="40" y="35" width="7" height="7" fill="#fff"/>
+</svg>

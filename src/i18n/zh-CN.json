@@ -11,7 +11,7 @@
   "som.pausar": "暂停",
   "som.escolher": "选择",
   "palavra.escolher": "选择这个词：{rotulo}",
-  "bandeja.vazia": "请选三样：画、声音或词语。",
+  "bandeja.vazia": "请选三样或更多：画、声音或词语。",
   "bandeja.conta": "{n} / 3",
   "bandeja.retirar": "移除 {rotulo}",
   "resultado.titulo": "你的选择传达了什么",
@@ -34,5 +34,18 @@
   "fechar": "关闭",
   "idioma.rotulo": "语言",
   "carregando": "正在载入藏品……",
-  "erro.acervo": "藏品未能载入，请刷新页面。"
+  "erro.acervo": "藏品未能载入，请刷新页面。",
+  "bandeja.conta_livre": "已选 {n} 样",
+  "bandeja.ver": "看这句话",
+  "janela.esgotada": "这个窗口里的都被你选完了。",
+  "resultado.continuar": "继续选择",
+  "resultado.demais": "你的选择中还有（{n}）",
+  "info.abrir": "关于{nome}的信息",
+  "info.pintura": "描述这幅画的人所用的词",
+  "info.som": "发布这个声音的人所用的词",
+  "info.palavra": "词典释义",
+  "info.original": "保留原文：英语。",
+  "autoria.rotulo": "作者 Víctor Vingren，打开 vingren.me",
+  "autoria.simbolo": "镰刀锤子",
+  "creditos.curto": "致谢"
 }

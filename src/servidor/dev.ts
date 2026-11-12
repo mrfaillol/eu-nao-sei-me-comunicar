@@ -11,7 +11,7 @@ import { escolherProvedor } from "./provedores/anthropic";
 
 const ORIGEM_LOCAL = /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/;
 
-const LIMITE_DO_CORPO = 1024;
+const LIMITE_DO_CORPO = 16 * 1024;
 
 /** Lê o corpo até o limite; devolve null e para de ler se ele passar. */
 async function lerCorpo(req: IncomingMessage): Promise<string | null> {

@@ -11,7 +11,7 @@
   "som.pausar": "Pausar",
   "som.escolher": "Escolher",
   "palavra.escolher": "Escolher a palavra {rotulo}",
-  "bandeja.vazia": "Escolha três: pinturas, sons ou palavras.",
+  "bandeja.vazia": "Escolha três ou mais: pinturas, sons ou palavras.",
   "bandeja.conta": "{n} de 3",
   "bandeja.retirar": "Retirar {rotulo}",
   "resultado.titulo": "O que a sua seleção comunica",
@@ -34,5 +34,18 @@
   "fechar": "Fechar",
   "idioma.rotulo": "Idioma",
   "carregando": "Carregando o acervo…",
-  "erro.acervo": "Não foi possível carregar o acervo. Recarregue a página."
+  "erro.acervo": "Não foi possível carregar o acervo. Recarregue a página.",
+  "bandeja.conta_livre": "{n} escolhas",
+  "bandeja.ver": "Ver a frase",
+  "janela.esgotada": "Você escolheu tudo o que havia nesta janela.",
+  "resultado.continuar": "Escolher mais",
+  "resultado.demais": "Também presentes na sua seleção ({n})",
+  "info.abrir": "Informações sobre {nome}",
+  "info.pintura": "Palavras de quem descreveu esta pintura",
+  "info.som": "Palavras de quem publicou este som",
+  "info.palavra": "No dicionário",
+  "info.original": "No idioma em que foram escritas: inglês.",
+  "autoria.rotulo": "Víctor Vingren, autor. Abre vingren.me",
+  "autoria.simbolo": "foice e martelo",
+  "creditos.curto": "Créditos"
 }

@@ -4,17 +4,19 @@ import { indexarGlossario } from "../frase/glossario";
 import { IDIOMAS, type Acervo, type Construto, type Glossario, type Idioma, type Item } from "../frase/tipos";
 import { desenharAjuda, type Ajuda } from "./ajuda";
 import { criarTocador } from "./audio";
+import { criarAutoria } from "./autoria";
 import { desenharBandeja } from "./bandeja";
 import { desenharCreditos, desenharPinturaInteira } from "./creditos";
 import { el } from "./dom";
 import { idiomaInicial, t } from "./i18n";
+import { criarInfo } from "./info";
 import { criarDialogo, criarJanela, definirTitulo } from "./janela";
 import { desenharPalavras } from "./janela-palavras";
 import { desenharPinturas } from "./janela-pinturas";
 import { desenharSons, marcarSomTocando } from "./janela-sons";
 import { pedirFrase } from "./pedido";
 import { desenharEspera, desenharResultado } from "./resultado";
-import { completa, criarEstado, escolher, podeEscolher, redistribuir, retirar, trocarIdioma, type EstadoSelecao, type Janela } from "./selecao";
+import { criarEstado, escolher, podeEscolher, pronta, redistribuir, retirar, trocarIdioma, type EstadoSelecao, type Janela } from "./selecao";
 
 const BASE = import.meta.env.BASE_URL;
 const API = (import.meta.env.VITE_API_BASE as string | undefined) || null;
@@ -44,6 +46,8 @@ function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda:
   const porId = new Map(acervo.itens.map((i) => [i.id, i]));
   const itensDe = (ids: string[]) => ids.flatMap((id) => porId.get(id) ?? []);
   const tocador = criarTocador();
+  const info = criarInfo();
+  const autoria = criarAutoria();
 
   // Esqueleto fixo: as janelas não são recriadas, para não perderem a posição ao serem arrastadas.
   const titulo = el("h1");
@@ -66,11 +70,12 @@ function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda:
 
   const conta = el("div", { class: "conta", role: "status", "aria-live": "polite" });
   const lista = el("ul", { class: "escolhas" });
+  const botaoVer = el("button", { class: "botao ver-frase", type: "button", "data-acao": "ver-frase" });
   const seletor = el("select", { id: "idioma" }, ...IDIOMAS.map((i) => el("option", { value: i }, NOMES_DE_IDIOMA[i])));
   const rotuloDoSeletor = el("label", { for: "idioma", class: "so-largo" });
-  const botaoCreditos = el("button", { class: "botao so-largo", type: "button", "data-acao": "creditos" });
+  const botaoCreditos = el("button", { class: "botao", type: "button", "data-acao": "creditos" });
   const botaoAjuda = el("button", { class: "botao ajuda", type: "button", "data-acao": "ajuda" });
-  const tarefas = el("footer", { class: "tarefas" }, conta, lista, el("div", { class: "sistema" }, botaoAjuda, botaoCreditos, rotuloDoSeletor, seletor));
+  const tarefas = el("footer", { class: "tarefas" }, conta, lista, botaoVer, el("div", { class: "sistema" }, botaoAjuda, botaoCreditos, rotuloDoSeletor, seletor, autoria.no));
 
   const resultado = criarDialogo("resultado", "");
   const inteira = criarDialogo("inteira", "");
@@ -85,22 +90,35 @@ function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda:
     inteira.dialogo,
     creditos.dialogo,
     folhaDeAjuda.dialogo,
+    info.caixa,
   );
 
   function desenharMesa(janela: Janela): void {
+    info.fechar(); // os botões (i) desta janela vão ser trocados
     const itens = itensDe(estado.mesas[janela]);
-    if (janela === "pintura") {
-      desenharPinturas(pocos.pintura, itens, { idioma, midia, aoEscolher: escolherItem, aoVer: verInteira });
+    outras[janela].disabled = itens.length === 0;
+    if (itens.length === 0) {
+      // Sem teto de escolhas, dá para esvaziar uma janela inteira.
+      pocos[janela].replaceChildren(el("p", { class: "esgotada" }, t("janela.esgotada", idioma)));
+    } else if (janela === "pintura") {
+      desenharPinturas(pocos.pintura, itens, { idioma, midia, info, aoEscolher: escolherItem, aoVer: verInteira });
     } else if (janela === "som") {
-      desenharSons(pocos.som, itens, { idioma, midia, tocador, aoEscolher: escolherItem });
+      desenharSons(pocos.som, itens, { idioma, midia, tocador, info, aoEscolher: escolherItem });
     } else {
-      desenharPalavras(pocos.palavra, itens, idioma, escolherItem);
+      desenharPalavras(pocos.palavra, itens, idioma, info, escolherItem);
     }
   }
 
   function desenharBarra(): void {
-    desenharBandeja(conta, lista, itensDe(estado.escolhidos), idioma, (id) => {
+    desenharBandeja({ conta, lista, ver: botaoVer }, itensDe(estado.escolhidos), idioma, (id) => {
       estado = retirar(estado, id);
+      ajudaDestacada = false; // a seleção mudou: o destaque era da frase anterior
+      // O item retirado volta a poder aparecer; a janela dele só é refeita se estava vazia.
+      const tipo = porId.get(id)?.tipo;
+      if (tipo && estado.mesas[tipo].length === 0) {
+        estado = redistribuir(estado, tipo, acervo.itens, Math.random);
+        desenharMesa(tipo);
+      }
       desenharBarra();
     });
     botaoAjuda.classList.toggle("destacada", ajudaDestacada);
@@ -117,11 +135,14 @@ function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda:
     }
     rotuloDoSeletor.textContent = t("idioma.rotulo", idioma);
     seletor.value = idioma;
-    botaoCreditos.textContent = t("creditos.abrir", idioma);
+    // No celular a barra é estreita: o botão mostra o rótulo curto, e o nome inteiro segue no aria-label.
+    botaoCreditos.replaceChildren(el("span", { class: "so-largo" }, t("creditos.abrir", idioma)), el("span", { class: "so-estreito" }, t("creditos.curto", idioma)));
+    botaoCreditos.setAttribute("aria-label", t("creditos.abrir", idioma));
     botaoAjuda.textContent = ajuda.idiomas[idioma].link;
     resultado.titular(t("resultado.titulo", idioma));
     creditos.titular(t("creditos.titulo", idioma));
     folhaDeAjuda.titular(ajuda.idiomas[idioma].titulo);
+    autoria.traduzir(idioma);
     desenharBarra();
   }
 
@@ -131,17 +152,20 @@ function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda:
     if (tipo && !podeEscolher(ultimaTroca[tipo], performance.now())) return;
     const antes = estado;
     estado = escolher(estado, id, acervo.itens, Math.random);
-    if (estado === antes) return; // quarta escolha ou toque repetido
+    if (estado === antes) return; // toque repetido no mesmo item
     if (tipo) ultimaTroca[tipo] = performance.now(); // a escolha troca as opções desta janela no mesmo lugar
     tocador.parar();
-    // O destaque da ajuda dura até a próxima seleção começar.
-    if (estado.escolhidos.length === 1) ajudaDestacada = false;
+    // O destaque da ajuda vale para a frase que foi lida: qualquer escolha nova muda a seleção e o apaga.
+    ajudaDestacada = false;
     if (tipo) desenharMesa(tipo);
     desenharBarra();
-    if (completa(estado)) void mostrarFrase();
+    // A frase não abre sozinha: não há teto de escolhas, e quem decide que terminou é a pessoa, no botão da barra.
   }
 
   async function mostrarFrase(): Promise<void> {
+    if (!pronta(estado)) return;
+    info.fechar();
+    tocador.parar();
     const ids = [...estado.escolhidos];
     const noPedido = idioma;
     desenharEspera(resultado.corpo, idioma);
@@ -150,7 +174,11 @@ function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda:
     // A pessoa pode ter recomeçado ou trocado de idioma enquanto a frase vinha.
     if (ids.join("|") !== estado.escolhidos.join("|") || noPedido !== idioma) return;
     ajudaDestacada = resposta.ajuda_destacada;
-    desenharResultado(resultado.corpo, resposta, itensDe(ids), glossario, idioma, recomecar, { texto: ajuda.idiomas[idioma].link, aoAbrir: abrirAjuda });
+    desenharResultado(resultado.corpo, resposta, itensDe(ids), glossario, idioma, {
+      aoRecomecar: recomecar,
+      aoContinuar: () => resultado.dialogo.close(),
+      ajuda: { texto: ajuda.idiomas[idioma].link, aoAbrir: abrirAjuda },
+    });
     desenharBarra();
   }
 
@@ -173,10 +201,8 @@ function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda:
     inteira.dialogo.showModal();
   }
 
-  // Fechar a frase com Esc equivale a recomeçar: uma seleção completa sem frase à vista seria um beco.
-  resultado.dialogo.addEventListener("close", () => {
-    if (completa(estado)) recomecar();
-  });
+  // Fechar a frase (Esc, × ou "Escolher mais") mantém a seleção: dá para acrescentar, retirar e pedir a frase de novo.
+  botaoVer.addEventListener("click", () => void mostrarFrase());
   tocador.aoMudar((id) => marcarSomTocando(pocos.som, id, idioma));
   seletor.addEventListener("change", () => {
     idioma = seletor.value as Idioma;
@@ -188,7 +214,7 @@ function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda:
     tocador.parar();
     estado = trocarIdioma(estado, idioma, acervo.itens, Math.random);
     desenharTextos();
-    if (completa(estado)) void mostrarFrase();
+    if (resultado.dialogo.open) void mostrarFrase();
   });
   botaoCreditos.addEventListener("click", () => {
     desenharCreditos(creditos.corpo, acervo, idioma, () => creditos.dialogo.close());

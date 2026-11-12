@@ -38,6 +38,7 @@ test("depois da primeira visita, o site funciona inteiro sem rede", async ({ pag
   await expect(page.locator(".opcao-som .tocar").first()).toHaveAttribute("aria-pressed", "true"); // o som começou, sem rede
   await page.locator(".opcao-som .escolher").first().click();
   await page.locator("button.palavra").first().click();
+  await page.locator('[data-acao="ver-frase"]').click();
   await expect(page.locator('dialog[data-dialogo="resultado"] .frase[data-origem="regra"]')).toBeVisible();
 });
 

@@ -123,3 +123,14 @@ Ferramentas nesta máquina (medido): Node 22, uv com Python 3.12, ffmpeg, Xcode 
 ## 9. Fatos de base
 
 `docs/pesquisa/dossie.md`: acervos, licenças, referências, regras de loja, pré-prompt e zoom, cada afirmação com procedência e veredito de conferência.
+
+## Adendo de 12/Nov/2026: mudanças pedidas pelo dono depois da primeira publicação
+
+Estas decisões substituem o que o texto acima diz sobre "três escolhas" e "frase na terceira":
+
+1. **Mínimo de três, sem máximo.** A pessoa escolhe quantos itens quiser. A frase não abre sozinha: um botão na barra de tarefas a pede, a partir da terceira escolha. Fechar a frase conserva a seleção.
+2. **A frase para N itens.** Conta os itens por extenso (o validador não aceita dígito), nomeia o construto mais repetido e até três ao fundo, no máximo quatro termos. Com três itens a frase é idêntica à de antes. Os construtos que a frase não nomeia aparecem na caixa do resultado.
+3. **(i) em cada item.** Palavras do texto humano do item (curadoria ou tags) e, nas palavras, a definição do dicionário. Nada é gerado: só extraído.
+4. **Assinatura do autor** no canto direito da barra, com link para o site dele e o caractere ☭.
+5. **Acervo sem teto para imagens e sons**, com adaptação para o sistema de frases atual: pedido registrado, a fazer no pipeline (anotação automática que cita o trecho do texto humano).
+

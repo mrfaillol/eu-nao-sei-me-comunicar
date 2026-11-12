@@ -13,6 +13,11 @@ async function escolherPorId(page: Page, janela: "pintura" | "som" | "palavra", 
   await alvo.click();
 }
 
+/** A frase não abre sozinha: quem decide que terminou é a pessoa, no botão da barra de tarefas. */
+async function verFrase(page: Page): Promise<void> {
+  await page.locator('[data-acao="ver-frase"]').click();
+}
+
 test.beforeEach(async ({ page }) => {
   await page.goto("/");
   await expect(page.locator(".moldura")).toHaveCount(3);
@@ -32,9 +37,13 @@ test("três escolhas livres levam à frase, com a procedência de cada termo", a
   await expect(page.locator(".tarefas .conta")).toHaveText("2 de 3");
   await expect(page.locator('.opcao-som .tocar[aria-pressed="true"]')).toHaveCount(0); // escolher parou o som
   await page.screenshot({ path: `docs/capturas/escolha-${info.project.name}.png`, fullPage: true });
+  await expect(page.locator('[data-acao="ver-frase"]')).toBeDisabled(); // com duas escolhas ainda não há frase
   await page.locator("button.palavra").first().click();
+  await expect(page.locator(".tarefas .conta")).toHaveText("3 escolhas");
 
   const dialogo = page.locator('dialog[data-dialogo="resultado"]');
+  await expect(dialogo).toBeHidden(); // a terceira escolha libera a frase, mas não a abre
+  await verFrase(page);
   await expect(dialogo).toBeVisible();
   const frase = dialogo.locator(".frase[data-origem]");
   await expect(frase).toBeVisible();
@@ -57,18 +66,53 @@ test("três escolhas livres levam à frase, com a procedência de cada termo", a
   expect(externas, "o site não chama ninguém de fora em uso").toEqual([]);
 });
 
-test("três escolhas na mesma janela também valem, e a quarta não entra", async ({ page }) => {
+test("três escolhas na mesma janela também valem", async ({ page }) => {
   for (let n = 0; n < 3; n++) {
     await page.locator("button.palavra").first().click();
-    await expect(page.locator(".tarefas .conta")).toHaveText(`${n + 1} de 3`);
     await page.waitForTimeout(TRAVA);
   }
-  await expect(page.locator('dialog[data-dialogo="resultado"] .frase[data-origem]')).toBeVisible();
-  await expect(page.locator(".tarefas .escolhas li[data-escolhido]")).toHaveCount(3);
-  // a quarta não entra: com a caixa da frase aberta o resto da página fica inerte, e o estado segue com três
-  await page.evaluate(() => document.querySelector<HTMLElement>("button.palavra")?.click());
-  await expect(page.locator(".tarefas .escolhas li[data-escolhido]")).toHaveCount(3);
+  await verFrase(page);
   await expect(page.locator('dialog[data-dialogo="resultado"] .frase')).toContainText("As três palavras que você reuniu");
+});
+
+test("não há teto de escolhas: a frase conta quantas foram e dá para continuar escolhendo", async ({ page }) => {
+  for (const seletor of [".moldura", ".moldura", ".opcao-som .escolher", "button.palavra", "button.palavra"]) {
+    await page.locator(seletor).first().click();
+    await page.waitForTimeout(TRAVA);
+  }
+  await expect(page.locator(".tarefas .conta")).toHaveText("5 escolhas");
+  await expect(page.locator(".tarefas .escolhas li[data-escolhido]")).toHaveCount(5);
+  await verFrase(page);
+  const dialogo = page.locator('dialog[data-dialogo="resultado"]');
+  await expect(dialogo.locator(".frase[data-origem]")).toContainText("cinco signos que você reuniu");
+  const nomeados = await dialogo.locator(".termos li").count();
+  expect(nomeados).toBeGreaterThanOrEqual(1);
+  expect(nomeados).toBeLessThanOrEqual(4);
+
+  // "Escolher mais" fecha a caixa e conserva a seleção
+  await dialogo.locator('[data-acao="continuar"]').click();
+  await expect(dialogo).toBeHidden();
+  await expect(page.locator(".tarefas .escolhas li[data-escolhido]")).toHaveCount(5);
+  await page.locator(".opcao-som .escolher").first().click();
+  await expect(page.locator(".tarefas .conta")).toHaveText("6 escolhas");
+  await verFrase(page);
+  await expect(dialogo.locator(".frase[data-origem]")).toContainText("seis signos que você reuniu");
+
+  // fechar com Esc também conserva
+  await page.keyboard.press("Escape");
+  await expect(dialogo).toBeHidden();
+  await expect(page.locator(".tarefas .escolhas li[data-escolhido]")).toHaveCount(6);
+});
+
+test("retirar uma escolha abaixo de três apaga o botão da frase", async ({ page }) => {
+  for (let n = 0; n < 3; n++) {
+    await page.locator("button.palavra").first().click();
+    await page.waitForTimeout(TRAVA);
+  }
+  await expect(page.locator('[data-acao="ver-frase"]')).toBeEnabled();
+  await page.locator(".tarefas .escolhas li[data-escolhido] button").first().click();
+  await expect(page.locator('[data-acao="ver-frase"]')).toBeDisabled();
+  await expect(page.locator(".tarefas .conta")).toHaveText("2 de 3");
 });
 
 test("outras três troca as opções e mantém as escolhas", async ({ page }) => {
@@ -109,6 +153,7 @@ test("a frase sai no idioma escolhido, em inglês e em mandarim", async ({ page 
       await page.locator(".moldura").first().click();
       await page.waitForTimeout(TRAVA);
     }
+    await verFrase(page);
     const frase = page.locator('dialog[data-dialogo="resultado"] .frase[data-origem]');
     await expect(frase).toContainText(trecho);
     await expect(frase).toHaveAttribute("lang", idioma);
@@ -188,6 +233,7 @@ test.describe("achados da revisão final", () => {
     await escolherPorId(page, "pintura", "pintura:cma:145925");
     await escolherPorId(page, "pintura", "pintura:cma:125249");
     await page.locator("button.palavra").first().click();
+    await verFrase(page);
     const dialogo = page.locator('dialog[data-dialogo="resultado"]');
     await expect(dialogo.locator(".frase[data-origem]")).toBeVisible();
     const ajuda = dialogo.locator('[data-acao="ajuda-no-resultado"]');
@@ -205,6 +251,7 @@ test.describe("achados da revisão final", () => {
 
   test("sem tema sensível, a ajuda está na caixa da frase sem destaque", async ({ page }) => {
     for (const palavra of ["aconchego", "alívio", "júbilo"]) await escolherPorId(page, "palavra", `palavra:pt-BR:${palavra}`);
+    await verFrase(page);
     const ajuda = page.locator('dialog[data-dialogo="resultado"] [data-acao="ajuda-no-resultado"]');
     await expect(ajuda).toBeVisible();
     await expect(ajuda).not.toHaveClass(/destacada/);
@@ -217,6 +264,7 @@ test("a frase abre dentro da tela mesmo com a página rolada", async ({ page }) 
   await page.locator(".moldura").first().click();
   await page.locator(".opcao-som .escolher").first().click();
   await page.locator("button.palavra").first().click();
+  await verFrase(page);
   const dialogo = page.locator('dialog[data-dialogo="resultado"]');
   const frase = dialogo.locator(".frase[data-origem]");
   await expect(frase).toBeVisible();

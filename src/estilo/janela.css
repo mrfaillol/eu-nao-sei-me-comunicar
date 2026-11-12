@@ -425,3 +425,165 @@ details summary {
   padding: 8px 0;
   font-weight: 700;
 }
+
+/* O (i) de cada item e a caixa que ele abre: a dica amarela do sistema de janelas dos anos 90 */
+.info {
+  justify-self: end;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--claro);
+  color: var(--barra);
+  font: italic 700 19px/30px Georgia, "Times New Roman", serif;
+  cursor: help;
+  box-shadow: inset 0 0 0 2px var(--barra);
+}
+
+.info[aria-expanded="true"] {
+  background: var(--barra);
+  color: var(--claro);
+  box-shadow: inset 0 0 0 2px var(--claro);
+}
+
+.info:focus-visible {
+  outline: 2px dotted var(--claro);
+  outline-offset: 2px;
+}
+
+.opcao-som .info { justify-self: center; }
+
+.opcao-palavra {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 6px;
+  padding-right: 6px;
+}
+
+.info-caixa {
+  position: fixed;
+  z-index: 1100; /* acima das janelas (até 900) e da barra de tarefas (1000) */
+  width: max-content;
+  max-width: min(320px, calc(100vw - 16px));
+  padding: 10px 12px;
+  border: 1px solid var(--tinta);
+  background: #ffffe1;
+  color: var(--tinta);
+  font-size: 13px;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.6);
+  pointer-events: none; /* não há o que clicar dentro, e assim ela não rouba o mouse do botão */
+}
+
+.info-caixa p { margin: 0; }
+.info-titulo { font-weight: 700; }
+
+.info-palavras {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 8px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.info-palavras li {
+  padding: 1px 6px;
+  border: 1px solid var(--sombra);
+  background: var(--claro);
+}
+
+.info-glosa {
+  margin: 8px 0 !important;
+  font: 400 17px/1.3 var(--humana);
+}
+
+.info-nota,
+.info-fonte {
+  font-size: 11px;
+  color: #404040;
+}
+
+.info-fonte { margin-top: 6px !important; overflow-wrap: anywhere; }
+
+.esgotada {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 22px 8px;
+  color: var(--face);
+  text-align: center;
+}
+
+/* O botão que pede a frase: apagado até a terceira escolha, depois vira o botão padrão da barra */
+.tarefas .ver-frase {
+  flex: none;
+  font-weight: 700;
+}
+
+.tarefas .ver-frase:not(:disabled) {
+  box-shadow: 0 0 0 1px var(--tinta), inset -1px -1px var(--tinta), inset 1px 1px var(--claro), inset -2px -2px var(--sombra), inset 2px 2px var(--meio);
+}
+
+.botao:disabled {
+  color: var(--sombra);
+  text-shadow: 1px 1px var(--claro);
+  cursor: default;
+}
+
+/* A assinatura do autor, na bandeja do canto direito */
+.autoria {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: none;
+  min-height: 38px;
+  margin-left: auto;
+  padding: 2px 8px;
+  box-shadow: inset 1px 1px var(--sombra), inset -1px -1px var(--claro);
+}
+
+.autoria .assinatura {
+  display: block;
+  color: var(--tinta);
+  line-height: 0;
+}
+
+.autoria .assinatura svg {
+  display: block;
+  height: 34px;
+  width: auto;
+  fill: currentColor;
+}
+
+.autoria .assinatura:hover { color: var(--barra); }
+.autoria .assinatura:focus-visible { outline: 2px dotted var(--tinta); outline-offset: 2px; }
+
+.autoria .simbolo {
+  font: 400 27px/1 "Apple Symbols", "Segoe UI Symbol", "Noto Sans Symbols 2", "Noto Sans Symbols", "DejaVu Sans", sans-serif;
+  color: var(--tinta);
+}
+
+.demais summary {
+  margin: 14px 0 8px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.so-estreito { display: none; }
+
+@media (max-width: 700px) {
+  .so-largo { display: none; }
+  .so-estreito { display: inline; }
+  /* Primeira linha da barra no celular: contagem, escolhas (rolam de lado) e o botão da frase. */
+  .tarefas .escolhas li { flex: 0 0 auto; max-width: 150px; }
+  .tarefas .ver-frase { padding-inline: 10px; font-size: 14px; }
+  /* Segunda linha: ajuda, créditos, idioma e assinatura têm de caber em 374 px. */
+  .tarefas .sistema { gap: 4px; }
+  .tarefas .sistema .botao { font-size: 13px; line-height: 1.2; }
+  .tarefas .sistema .ajuda { flex: 1 1 0; min-width: 0; }
+  .tarefas select { max-width: 98px; }
+  .autoria { padding-inline: 5px; gap: 3px; }
+  .autoria .assinatura svg { height: 24px; }
+  .autoria .simbolo { font-size: 22px; }
+}

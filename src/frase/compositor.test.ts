@@ -148,3 +148,78 @@ describe("contra o efeito Forer", () => {
     }
   });
 });
+
+describe("comporFrase com mais de três escolhas", () => {
+  const NUMERO = { "pt-BR": "cinco", en: "five", "zh-CN": "五" } as const;
+
+  it("a frase diz quantos itens foram reunidos, por extenso", () => {
+    const itens = [item(1, "pintura", ["nostalgia"]), item(2, "som", ["tedio"]), item(3, "palavra", ["vigilancia"]), item(4, "pintura", ["apego"]), item(5, "som", ["luto"])];
+    for (const idioma of IDIOMAS) {
+      const { frase } = comporFrase(itens, idioma, glossario);
+      expect(frase).toContain(NUMERO[idioma]);
+      expect(frase).not.toMatch(/três|three|三/);
+    }
+  });
+
+  it("concorda o número com o tipo em português", () => {
+    const pinturas = Array.from({ length: 21 }, (_, n) => item(n, "pintura", ["nostalgia", "apego"]));
+    const sons = Array.from({ length: 22 }, (_, n) => item(n, "som", ["nostalgia", "apego"]));
+    expect(comporFrase(pinturas, "pt-BR", glossario).frase).toContain("As vinte e uma pinturas");
+    expect(comporFrase(sons, "pt-BR", glossario).frase).toContain("Os vinte e dois sons");
+  });
+
+  it("no tom convergente, o construto mais repetido vem primeiro e o fundo cresce com a seleção, até três", () => {
+    const itens = [
+      item(1, "pintura", ["nostalgia", "apego"]),
+      item(2, "som", ["nostalgia", "tedio"]),
+      item(3, "palavra", ["nostalgia", "vigilancia"]),
+      item(4, "pintura", ["pertencimento", "apego"]),
+      item(5, "som", ["luto"]),
+      item(6, "palavra", ["solidao"]),
+    ];
+    const { construtos_usados } = comporFrase(itens, "pt-BR", glossario);
+    expect(construtos_usados[0]).toBe("nostalgia"); // três itens
+    expect(construtos_usados[1]).toBe("apego"); // dois itens
+    expect(construtos_usados).toHaveLength(4); // um repetido e três ao fundo: o validador aceita até quatro termos
+  });
+
+  it("com três itens o fundo continua sendo um termo só", () => {
+    const itens = [item(1, "pintura", ["nostalgia", "apego", "tedio"]), item(2, "som", ["nostalgia"]), item(3, "palavra", ["pertencimento"])];
+    expect(comporFrase(itens, "pt-BR", glossario).construtos_usados).toHaveLength(2);
+  });
+
+  it("no tom divergente com muitos itens, a frase nomeia no máximo quatro termos", () => {
+    const ids = ["nostalgia", "tedio", "vigilancia", "apego", "luto", "solidao", "pertencimento"];
+    const itens = ids.map((c, n) => item(n, "pintura", [c]));
+    const { construtos_usados } = comporFrase(itens, "en", glossario);
+    expect(construtos_usados).toHaveLength(4);
+  });
+
+  it("toda seleção de 3 a 40 itens dá frase que o validador aceita, nos três idiomas", () => {
+    const construtos = Object.values(glossario).filter((c) => !c.dimensao).map((c) => c.id);
+    const tipos: Tipo[] = ["pintura", "som", "palavra"];
+    let semente = 20261112;
+    const sorteio = () => {
+      semente = (Math.imul(semente, 1664525) + 1013904223) >>> 0;
+      return semente / 2 ** 32;
+    };
+    const reprovadas: string[] = [];
+    for (let rodada = 0; rodada < 400; rodada++) {
+      const quantos = 3 + Math.floor(sorteio() * 38);
+      const misto = sorteio() < 0.7;
+      const tipoUnico = tipos[Math.floor(sorteio() * 3)]!;
+      const itens = Array.from({ length: quantos }, (_, n) => {
+        const tipo = misto ? tipos[Math.floor(sorteio() * 3)]! : tipoUnico;
+        const quantosConstrutos = 1 + Math.floor(sorteio() * 3);
+        const meus = [...new Set(Array.from({ length: quantosConstrutos }, () => construtos[Math.floor(sorteio() * construtos.length)]!))];
+        return item(n, tipo, meus, sorteio() < 0.1);
+      });
+      for (const idioma of IDIOMAS) {
+        const { frase, construtos_usados } = comporFrase(itens, idioma, glossario);
+        const v = validarFrase(frase, construtos_usados, itens, idioma, glossario);
+        if (!v.ok) reprovadas.push(`${idioma} n=${quantos} ${v.codigos.join(",")}: ${frase}`);
+      }
+    }
+    expect(reprovadas.slice(0, 5)).toEqual([]);
+  });
+});

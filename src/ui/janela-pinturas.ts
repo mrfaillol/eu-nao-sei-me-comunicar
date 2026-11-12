@@ -1,11 +1,13 @@
 import type { Idioma, Item } from "../frase/tipos";
 import { el } from "./dom";
+import type { Info } from "./info";
 import { t } from "./i18n";
 import { aproximar } from "./zoom";
 
 export interface AcoesDePintura {
   idioma: Idioma;
   midia: (caminho: string) => string;
+  info: Info;
   aoEscolher: (id: string) => void;
   aoVer: (item: Item) => void;
 }
@@ -32,7 +34,7 @@ export function desenharPinturas(poco: HTMLElement, itens: Item[], acoes: AcoesD
       }
       const ver = el("button", { class: "ver", type: "button" }, t("pintura.ver", acoes.idioma));
       ver.addEventListener("click", () => acoes.aoVer(item));
-      return el("div", { class: "opcao-pintura" }, moldura, ver);
+      return el("div", { class: "opcao-pintura" }, acoes.info.botao(item, item.rotulo, acoes.idioma), moldura, ver);
     }),
   );
 }

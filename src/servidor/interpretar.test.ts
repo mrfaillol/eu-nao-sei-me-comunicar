@@ -126,6 +126,37 @@ describe("interpretar sem modelo", () => {
   });
 });
 
+describe("interpretar com mais de três itens", () => {
+  const distintos = [...new Set(acervo.map((i) => i.id))];
+
+  it("o acervo dos testes tem itens para uma seleção grande", () => {
+    expect(distintos.length).toBeGreaterThanOrEqual(13);
+  });
+
+  it("cinco itens distintos dão frase por regra que conta cinco", async () => {
+    const { status, corpo } = await chamar(null, { itens: distintos.slice(0, 5), idioma: "pt-BR" });
+    expect(status).toBe(200);
+    expect(corpo.origem).toBe("regra");
+    expect(corpo.frase).toContain("cinco");
+  });
+
+  it("até doze itens o modelo é chamado, e o pedido leva todos", async () => {
+    const p = provedorFalso([ruim, ruim]);
+    const { status } = await chamar(p, { itens: distintos.slice(0, 12), idioma: "pt-BR" });
+    expect(status).toBe(200);
+    expect(p.chamadas.length).toBeGreaterThanOrEqual(1);
+    expect((JSON.parse(p.chamadas[0]!.usuario) as { itens: unknown[] }).itens).toHaveLength(12);
+  });
+
+  it("acima de doze itens a frase vem da regra sem gastar chamada ao modelo", async () => {
+    const p = provedorFalso([boa]);
+    const { status, corpo } = await chamar(p, { itens: distintos.slice(0, 13), idioma: "pt-BR" });
+    expect(status).toBe(200);
+    expect(corpo.origem).toBe("regra");
+    expect(p.chamadas).toHaveLength(0);
+  });
+});
+
 describe("interpretar recusa o que foge do contrato", () => {
   const ids = selecao.itens;
   const invalidos: Array<[string, unknown]> = [
@@ -153,21 +184,21 @@ describe("interpretar recusa o que foge do contrato", () => {
 });
 
 describe("interpretar protege a chave do modelo", () => {
-  const corpoGrande = JSON.stringify({ itens: selecao.itens, idioma: "pt-BR", texto: "x".repeat(2000) });
+  const corpoGrande = JSON.stringify({ itens: selecao.itens, idioma: "pt-BR", texto: "x".repeat(20000) });
 
-  it("corpo acima de 1 KB devolve 413 sem chamar o modelo", async () => {
+  it("corpo acima de 16 KB devolve 413 sem chamar o modelo", async () => {
     const p = provedorFalso([boa]);
     const interpretar = criarInterpretar({ acervo, glossario, provedor: p, origens: ORIGENS });
     expect((await interpretar(pedido(corpoGrande))).status).toBe(413);
     expect(p.chamadas).toHaveLength(0);
   });
 
-  it("corta um corpo sem fim assim que ele passa de 1 KB, sem esperar o resto", async () => {
+  it("corta um corpo sem fim assim que ele passa de 16 KB, sem esperar o resto", async () => {
     let enviados = 0;
     const semFim = new ReadableStream<Uint8Array>({
       pull(controle) {
         enviados++;
-        controle.enqueue(new Uint8Array(512).fill(120));
+        controle.enqueue(new Uint8Array(4096).fill(120));
       },
     });
     const interpretar = criarInterpretar({ acervo, glossario, provedor: null, origens: ORIGENS });

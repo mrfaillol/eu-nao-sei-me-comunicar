@@ -1,11 +1,11 @@
-// A função "interpretar": recebe três ids e um idioma, devolve a frase.
+// A função "interpretar": recebe três ou mais ids e um idioma, devolve a frase.
 //
 // O cliente nunca envia texto. Os itens são lidos do acervo aqui no servidor, então ninguém
 // consegue usar este endereço como um modelo genérico nem injetar instrução pelo pedido.
 //
 // Cada pedido aceito pode custar uma chamada paga ao modelo, então a função recusa cedo:
 // origem de navegador fora da lista (403), tipo de conteúdo que dispensa preflight (415) e corpo
-// acima de 1 KB, medido enquanto chega (413). Isso não substitui limite de pedidos por cliente:
+// acima de 16 KB, medido enquanto chega (413). Isso não substitui limite de pedidos por cliente:
 // quem chama sem navegador não manda origem, e só a hospedagem consegue contar pedidos por IP.
 // O que o modelo escreve só chega à tela se passar no validador; caso contrário há uma segunda
 // tentativa e, por fim, a frase composta por regra.
@@ -45,7 +45,12 @@ export interface Dependencias {
 const registrarNoConsole = (rotulo: string) => console.warn(`[interpretar] caminho do modelo falhou: ${rotulo}`);
 
 const PRAZO_PADRAO_MS = 7000;
-const TAMANHO_MAXIMO_DO_CORPO = 1024;
+// A seleção não tem teto, e cada id ocupa cerca de 25 bytes: 16 KB cabem umas seiscentas escolhas.
+const TAMANHO_MAXIMO_DO_CORPO = 16 * 1024;
+const MINIMO_DE_ITENS = 3;
+// O pedido ao modelo leva o texto humano de cada item. Acima deste número o custo cresce sem a frase
+// ganhar com isso (ela nomeia no máximo quatro termos), e a regra responde sozinha.
+const MAXIMO_DE_ITENS_PARA_O_MODELO = 12;
 
 class Prazo extends Error {}
 
@@ -94,6 +99,7 @@ export async function escreverFrase(
   // Com menos de dois termos permitidos nenhuma frase do modelo passaria no validador (ele pede de 2 a 4):
   // a chamada seria gasta à toa. Menos de 0,2% dos trios do acervo caem aqui.
   if (termosPermitidos(itens, idioma, deps.glossario).length < 2) return porRegra();
+  if (itens.length > MAXIMO_DE_ITENS_PARA_O_MODELO) return porRegra();
 
   const { sistema, usuario } = montarMensagens(itens, idioma, deps.glossario);
   const fim = Date.now() + (deps.prazoMs ?? PRAZO_PADRAO_MS);
@@ -175,7 +181,7 @@ function lerPedido(texto: string, porId: Map<string, Item>): { itens: Item[]; id
 
   const { idioma, itens } = dado as { idioma: unknown; itens: unknown };
   if (!IDIOMAS.includes(idioma as Idioma)) return null;
-  if (!Array.isArray(itens) || itens.length !== 3 || new Set(itens).size !== 3) return null;
+  if (!Array.isArray(itens) || itens.length < MINIMO_DE_ITENS || new Set(itens).size !== itens.length) return null;
 
   const achados = itens.map((id) => (typeof id === "string" ? porId.get(id) : undefined));
   if (achados.some((i) => i === undefined)) return null;
@@ -217,10 +223,10 @@ export function criarInterpretar(deps: Dependencias): (pedido: Request) => Promi
     if (tipo !== "application/json") return json({ erro: "use content-type application/json" }, 415);
 
     const corpo = await lerCorpoLimitado(pedido, TAMANHO_MAXIMO_DO_CORPO);
-    if (corpo === null) return json({ erro: "corpo acima de 1 KB" }, 413);
+    if (corpo === null) return json({ erro: "corpo acima de 16 KB" }, 413);
 
     const lido = lerPedido(corpo, porId);
-    if (!lido) return json({ erro: "pedido fora do contrato: envie { itens: [3 ids distintos do acervo], idioma }" }, 400);
+    if (!lido) return json({ erro: "pedido fora do contrato: envie { itens: [3 ou mais ids distintos do acervo], idioma }" }, 400);
 
     return json(await escreverFrase(lido.itens, lido.idioma, deps), 200);
   };

@@ -12,7 +12,7 @@ export default defineConfig({
       manifest: {
         name: "Eu Não Sei Me Comunicar",
         short_name: "Não Sei Dizer",
-        description: "Três escolhas entre pinturas, sons e palavras, e uma frase que descreve o que a seleção comunica.",
+        description: "Três ou mais escolhas entre pinturas, sons e palavras, e uma frase que descreve o que a seleção comunica.",
         lang: "pt-BR",
         start_url: ".",
         scope: ".",
@@ -26,7 +26,7 @@ export default defineConfig({
       },
       workbox: {
         // O acervo inteiro fica no aparelho: depois da primeira visita o site não depende de rede.
-        globPatterns: ["**/*.{js,css,html,json,webp,jpg,mp3,png,webmanifest}"],
+        globPatterns: ["**/*.{js,css,html,json,webp,jpg,mp3,png,svg,webmanifest}"],
         maximumFileSizeToCacheInBytes: 3 * 1024 * 1024,
       },
     }),

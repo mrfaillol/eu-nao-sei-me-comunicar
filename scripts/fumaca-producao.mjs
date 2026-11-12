@@ -34,11 +34,30 @@ async function fluxo(navegador, nome, opcoes, captura) {
   await page.locator(".opcao-som .escolher").first().click();
   await page.locator("button.palavra").first().click();
 
+  // O (i) de cada item: palavras de quem descreveu, sem sair do site.
+  await page.locator(".opcao-palavra .info").first().click();
+  const definicao = ((await page.locator(".info-caixa .info-glosa").textContent().catch(() => "")) ?? "").trim();
+  anotar(definicao.length > 3, `${nome}: o (i) da palavra mostra a definição "${definicao.slice(0, 50)}"`);
+  await page.keyboard.press("Escape");
+  await page.locator(".opcao-pintura .info").first().click();
+  const palavras = await page.locator(".info-caixa .info-palavras li").count();
+  anotar(palavras >= 3, `${nome}: o (i) da pintura mostra ${palavras} palavras da curadoria`);
+  await page.keyboard.press("Escape");
+
+  // Sem teto: uma quarta escolha, e a frase só abre no botão da barra.
+  await page.waitForTimeout(450);
+  await page.locator("button.palavra").first().click();
+  anotar(await page.locator('dialog[data-dialogo="resultado"]').isHidden(), `${nome}: a frase não abre sozinha`);
+  const assinatura = await page.locator('.tarefas .autoria a[href="https://vingren.me"] svg path').count();
+  anotar(assinatura === 3, `${nome}: assinatura do autor na barra, com link para vingren.me`);
+  await page.locator('[data-acao="ver-frase"]').click();
+
   const dialogo = page.locator('dialog[data-dialogo="resultado"]');
   await dialogo.waitFor({ state: "visible", timeout: 10_000 });
   const frase = ((await dialogo.locator(".frase[data-origem]").textContent()) ?? "").trim();
   const origemFrase = await dialogo.locator(".frase[data-origem]").getAttribute("data-origem");
   anotar(frase.length > 30, `${nome}: frase (${origemFrase}) "${frase}"`);
+  anotar(/quatro|four|四/.test(frase), `${nome}: a frase conta as quatro escolhas`);
   const dois = await dialogo.locator('.termos li a[href^="https://doi.org/10."]').count();
   anotar(dois >= 1, `${nome}: ${dois} termo(s) com DOI`);
   if (captura && saida) await page.screenshot({ path: `${saida}/producao-${captura}.png` });
@@ -68,6 +87,7 @@ try {
   const semRede = await mesa.page.evaluate(() => [...document.querySelectorAll(".moldura img")].map((i) => i.complete && i.naturalWidth > 0));
   anotar(semRede.length >= 3 && semRede.every(Boolean), `sem rede: página recarrega e mostra as pinturas (${semRede.filter(Boolean).length} de ${semRede.length} imagens)`);
   for (let n = 0; n < 3; n++) { await mesa.page.locator("button.palavra").first().click(); await mesa.page.waitForTimeout(450); }
+  await mesa.page.locator('[data-acao="ver-frase"]').click();
   const fraseSemRede = await mesa.page.locator('dialog[data-dialogo="resultado"] .frase[data-origem]').textContent({ timeout: 8000 }).catch(() => "");
   anotar((fraseSemRede ?? "").trim().length > 30, `sem rede: frase composta no aparelho "${(fraseSemRede ?? "").trim().slice(0, 70)}…"`);
   await mesa.contexto.close();

@@ -31,17 +31,28 @@ export function desenharEspera(corpo: HTMLElement, idioma: Idioma): void {
   corpo.replaceChildren(el("p", { class: "frase", role: "status" }, t("resultado.aguarde", idioma)));
 }
 
-export function desenharResultado(
-  corpo: HTMLElement,
-  resposta: Resposta,
-  escolhidos: Item[],
-  glossario: Glossario,
-  idioma: Idioma,
-  aoRecomecar: () => void,
-  ajuda: { texto: string; aoAbrir: () => void },
-): void {
+export interface AcoesDoResultado {
+  aoRecomecar: () => void;
+  /** Fecha a caixa e mantém a seleção, para a pessoa acrescentar ou retirar escolhas. */
+  aoContinuar: () => void;
+  ajuda: { texto: string; aoAbrir: () => void };
+}
+
+/** Os construtos da seleção que a frase não nomeou, dos mais repetidos para os menos. */
+function construtosDeFora(escolhidos: Item[], usados: string[]): string[] {
+  const contagem = new Map<string, number>();
+  for (const item of escolhidos) for (const id of item.construtos) if (!usados.includes(id)) contagem.set(id, (contagem.get(id) ?? 0) + 1);
+  return [...contagem.entries()].sort(([a, na], [b, nb]) => nb - na || a.localeCompare(b)).map(([id]) => id);
+}
+
+export function desenharResultado(corpo: HTMLElement, resposta: Resposta, escolhidos: Item[], glossario: Glossario, idioma: Idioma, acoes: AcoesDoResultado): void {
+  const { ajuda } = acoes;
   const recomecar = el("button", { class: "botao", type: "button", "data-acao": "recomecar" }, t("resultado.recomecar", idioma));
-  recomecar.addEventListener("click", aoRecomecar);
+  recomecar.addEventListener("click", acoes.aoRecomecar);
+  const continuar = el("button", { class: "botao", type: "button", "data-acao": "continuar" }, t("resultado.continuar", idioma));
+  continuar.addEventListener("click", acoes.aoContinuar);
+  // A frase nomeia até quatro termos. Numa seleção grande, os outros não somem: ficam listados aqui, com a mesma procedência.
+  const demais = construtosDeFora(escolhidos, resposta.construtos_usados).map((id) => linhaDeTermo(id, escolhidos, glossario, idioma)).filter((x): x is HTMLElement => x !== null);
   // A barra de tarefas fica inerte atrás da caixa da frase: o link de ajuda precisa estar aqui dentro,
   // que é onde a pessoa está quando o destaque importa.
   const botaoAjuda = el("button", { class: `botao ajuda${resposta.ajuda_destacada ? " destacada" : ""}`, type: "button", "data-acao": "ajuda-no-resultado" }, ajuda.texto);
@@ -54,8 +65,9 @@ export function desenharResultado(
     el("p", { class: "nota" }, t(resposta.origem === "regra" ? "resultado.regra" : "resultado.modelo", idioma)),
     el("h3", {}, t("resultado.termos", idioma)),
     el("ul", { class: "lista termos" }, ...termos),
+    ...(demais.length > 0 ? [el("details", { class: "demais" }, el("summary", {}, t("resultado.demais", idioma, { n: demais.length })), el("ul", { class: "lista termos-demais" }, ...demais))] : []),
     el("h3", {}, t("resultado.creditos", idioma)),
     el("ul", { class: "lista" }, ...escolhidos.map(linhaDeCredito)),
-    el("div", { class: "acoes" }, botaoAjuda, recomecar),
+    el("div", { class: "acoes" }, botaoAjuda, recomecar, continuar),
   );
 }

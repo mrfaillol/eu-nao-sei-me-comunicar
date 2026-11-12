@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { Item, Tipo } from "../frase/tipos";
-import { completa, criarEstado, escolher, podeEscolher, redistribuir, retirar, trocarIdioma } from "./selecao";
+import { criarEstado, escolher, podeEscolher, pronta, redistribuir, retirar, trocarIdioma } from "./selecao";
 
 function item(tipo: Tipo, n: number, idioma: Item["idioma"] = null): Item {
   return {
@@ -49,15 +49,29 @@ describe("seleção", () => {
     expect(e0.escolhidos).toEqual([]); // função pura: o estado anterior não muda
   });
 
-  it("a quarta escolha não entra, e escolher o mesmo item duas vezes também não", () => {
+  it("não há teto: a quarta escolha entra, e só escolher o mesmo item duas vezes não entra", () => {
     let e = criarEstado(a, "pt-BR", sorteio());
     e = escolher(e, e.mesas.pintura[0]!, a, sorteio(2));
     expect(escolher(e, e.escolhidos[0]!, a, sorteio(3))).toBe(e);
+    expect(pronta(e)).toBe(false);
     e = escolher(e, e.mesas.som[0]!, a, sorteio(3));
+    expect(pronta(e)).toBe(false);
     e = escolher(e, e.mesas.palavra[0]!, a, sorteio(4));
-    expect(completa(e)).toBe(true);
-    expect(escolher(e, e.mesas.pintura[0]!, a, sorteio(5))).toBe(e);
-    expect(e.escolhidos).toHaveLength(3);
+    expect(pronta(e)).toBe(true); // três é o mínimo para pedir a frase
+    e = escolher(e, e.mesas.pintura[0]!, a, sorteio(5));
+    e = escolher(e, e.mesas.pintura[0]!, a, sorteio(6));
+    expect(e.escolhidos).toHaveLength(5);
+    expect(new Set(e.escolhidos).size).toBe(5);
+    expect(pronta(e)).toBe(true);
+  });
+
+  it("dá para escolher uma janela inteira: ela esvazia sem travar e sem repetir item", () => {
+    const pequeno = [item("pintura", 0), item("pintura", 1), item("pintura", 2), item("pintura", 3), item("som", 0), item("palavra", 0, "pt-BR")];
+    let e = criarEstado(pequeno, "pt-BR", sorteio());
+    for (let n = 0; n < 4; n++) e = escolher(e, e.mesas.pintura[0]!, pequeno, sorteio(n + 2));
+    expect(e.escolhidos).toHaveLength(4);
+    expect(e.mesas.pintura).toEqual([]);
+    expect(redistribuir(e, "pintura", pequeno, sorteio(9)).mesas.pintura).toEqual([]);
   });
 
   it("item escolhido nunca fica na mesa", () => {
@@ -66,12 +80,12 @@ describe("seleção", () => {
     expect(e.mesas.pintura.some((id) => e.escolhidos.includes(id))).toBe(false);
   });
 
-  it("retirar tira o item e a seleção deixa de estar completa", () => {
+  it("retirar tira o item e a seleção deixa de estar pronta", () => {
     let e = criarEstado(a, "pt-BR", sorteio());
     for (const janela of ["pintura", "som", "palavra"] as const) e = escolher(e, e.mesas[janela][0]!, a, sorteio(7));
     const e2 = retirar(e, e.escolhidos[1]!);
     expect(e2.escolhidos).toHaveLength(2);
-    expect(completa(e2)).toBe(false);
+    expect(pronta(e2)).toBe(false);
     expect(retirar(e2, "nao-existe")).toBe(e2);
   });
 

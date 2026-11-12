@@ -11,7 +11,7 @@
   "som.pausar": "Pause",
   "som.escolher": "Choose",
   "palavra.escolher": "Choose the word {rotulo}",
-  "bandeja.vazia": "Choose three: paintings, sounds or words.",
+  "bandeja.vazia": "Choose three or more: paintings, sounds or words.",
   "bandeja.conta": "{n} of 3",
   "bandeja.retirar": "Remove {rotulo}",
   "resultado.titulo": "What your selection communicates",
@@ -34,5 +34,18 @@
   "fechar": "Close",
   "idioma.rotulo": "Language",
   "carregando": "Loading the collection…",
-  "erro.acervo": "The collection could not be loaded. Reload the page."
+  "erro.acervo": "The collection could not be loaded. Reload the page.",
+  "bandeja.conta_livre": "{n} chosen",
+  "bandeja.ver": "See the sentence",
+  "janela.esgotada": "You chose everything this window had.",
+  "resultado.continuar": "Choose more",
+  "resultado.demais": "Also present in your selection ({n})",
+  "info.abrir": "Information about {nome}",
+  "info.pintura": "Words from the person who described this painting",
+  "info.som": "Words from the person who published this sound",
+  "info.palavra": "In the dictionary",
+  "info.original": "In the language they were written in: English.",
+  "autoria.rotulo": "Víctor Vingren, author. Opens vingren.me",
+  "autoria.simbolo": "hammer and sickle",
+  "creditos.curto": "Credits"
 }

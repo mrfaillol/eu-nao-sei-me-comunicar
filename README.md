@@ -1,6 +1,6 @@
 # Eu Não Sei Me Comunicar
 
-Obra interativa em fundo preto. A pessoa faz três escolhas entre pinturas, sons e palavras e recebe uma frase, em segunda pessoa, que descreve o que a seleção comunica. Idiomas: pt-BR, en, zh-CN.
+Obra interativa em fundo preto. A pessoa faz três ou mais escolhas entre pinturas, sons e palavras, sem teto, e pede uma frase, em segunda pessoa, que descreve o que a seleção comunica. Idiomas: pt-BR, en, zh-CN.
 
 A frase afirma o que a **seleção** comunica. Ela não diagnostica, não aconselha e não é avaliação de saúde.
 
@@ -36,6 +36,15 @@ Sem chave de modelo e sem rede o site funciona inteiro: a frase é composta por 
 Depois de publicar, `node scripts/fumaca-producao.mjs` faz o fluxo inteiro contra a URL de produção (celular, tela larga, três idiomas e sem rede) e sai com erro se algo falhar.
 
 O acervo publicado é o de demonstração: os 150 itens estão com revisão humana pendente e o site diz isso nos créditos.
+
+## Como a pessoa usa
+
+- Cada janela mostra três opções e um botão para trocar por outras três. Escolher não tem teto; com três escolhas o botão **Ver a frase** acende na barra de tarefas. A frase não abre sozinha.
+- A frase conta quantos itens foram reunidos, nomeia o tema que mais se repete e até três ao fundo. Os demais termos da seleção ficam listados na caixa, com definição e DOI.
+- Fechar a caixa (Esc ou **Escolher mais**) conserva a seleção. **Recomeçar** apaga.
+- O **(i)** acima de cada item abre uma caixa: nas pinturas, palavras tiradas do texto de curadoria do museu; nos sons, as tags de quem publicou; nas palavras, a definição do dicionário. Nenhuma palavra é escrita pelo site: `src/ui/descritores.ts` só separa, tira palavras vazias e amostra o texto humano do item. As palavras ficam no idioma em que foram escritas (inglês).
+- Limitação conhecida: a definição das palavras em português e em mandarim está em inglês, porque vem do Wiktionary em inglês e de Zheng et al. (2023).
+- No canto direito da barra ficam a assinatura do autor, com link para https://vingren.me, e a foice e o martelo.
 
 ## Como as partes se encaixam
 
@@ -88,14 +97,14 @@ A aprovação vale só para o conteúdo revisado: se o pipeline rodar de novo e 
 | `FRASE_PROVEDOR=nenhum` | Desliga o modelo mesmo com chave |
 | `VITE_API_BASE` | No site: endereço da função. Vazio: modo de demonstração, tudo no aparelho |
 
-A função recebe só três identificadores e o idioma. Ela recusa origem de navegador fora da lista (403), tipo de conteúdo sem preflight (415) e corpo acima de 1 KB (413). **Antes de publicar com chave**, ponha limite de pedidos por cliente na hospedagem: quem chama sem navegador não manda origem, e contar pedidos por IP é trabalho da hospedagem.
+A função recebe só os identificadores das escolhas (três ou mais) e o idioma. Ela recusa origem de navegador fora da lista (403), tipo de conteúdo sem preflight (415) e corpo acima de 16 KB (413). Com mais de doze itens ela responde pela regra, sem chamar o modelo: o pedido levaria o texto de todos os itens e a frase nomeia no máximo quatro termos. **Antes de publicar com chave**, ponha limite de pedidos por cliente na hospedagem: quem chama sem navegador não manda origem, e contar pedidos por IP é trabalho da hospedagem.
 
 O servidor de produção ainda não tem adaptador: `criarInterpretar` recebe um `Request` e devolve um `Response`, e o adaptador da hospedagem escolhida é um arquivo de poucas linhas.
 
 ## Estado, medido em 12/Nov/2026
 
 - Acervo: 30 pinturas (20 com rosto de destaque), 30 sons, 90 palavras. 150 itens com revisão pendente. Glossário com 34 construtos e 4 termos de dimensão.
-- Testes: 92 em Python, 269 de unidade em TypeScript, 46 de navegador (celular e tela larga, só em Chromium).
+- Testes: 92 em Python, 293 de unidade em TypeScript, 64 de navegador (celular e tela larga, só em Chromium).
 - Validador: rejeita 33 de 33 frases defeituosas do conjunto de regressão e aceita 18 de 18 de referência. **É uma barreira, não uma prova.** A revisão final fez passar 13 frases que atribuíam estado à pessoa ou aconselhavam ("o medo que te consome", "you're anxious"); hoje elas são rejeitadas e viraram teste, mas a regra continua sendo lista, com furos por natureza.
 - O compositor por regra não gera frase reprovada: conferido pelo revisor em 352.440 frases (todos os trios do índice, nos três idiomas) e, no repositório, por um teste sobre uma amostra fixa.
 - Sonda do pré-prompt com modelo real: 17 de 18 respostas aprovadas na primeira tentativa. A reprovada, em mandarim, não tinha verbo de mensagem. Uma tentativa de injeção plantada nas tags de um som foi tratada como dado nos três idiomas.
@@ -106,7 +115,8 @@ O servidor de produção ainda não tem adaptador: `criarInterpretar` recebe um 
 
 1. Medir a taxa de escape do validador com saída real do provedor escolhido, nos três idiomas, e ler uma amostra das frases aprovadas.
 2. Pôr limite de pedidos por cliente na hospedagem.
-3. Confirmar na primeira chamada que o pedido é aceito. Que `claude-opus-5-5` rejeita `temperature` foi lido na documentação do SDK, não medido. Falha do provedor aparece no registro do servidor como `[interpretar] caminho do modelo falhou: <tipo>`.
+3. Sondar o pré-prompt de novo: a versão `2026-11-12.2` passou a dizer "três ou mais itens", e a sonda de 17 em 18 foi feita com a versão anterior, sempre com três.
+4. Confirmar na primeira chamada que o pedido é aceito. Que `claude-opus-5-5` rejeita `temperature` foi lido na documentação do SDK, não medido. Falha do provedor aparece no registro do servidor como `[interpretar] caminho do modelo falhou: <tipo>`.
 
 ### NÃO PROVADO
 
