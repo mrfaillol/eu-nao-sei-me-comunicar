@@ -1,0 +1,25 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>ciclo</title>
+<link rel="stylesheet" href="zoom.css"><style>body{margin:12px;background:#000;color:#ddd}.sonda{position:absolute}</style></head><body>
+<div class="moldura" id="m" style="--prop: 712 / 893">
+  <div class="pintura"><img src="img/121946.jpg" alt=""><div class="sonda" style="left:43.89%;top:18.38%;width:12.72%;height:14.77%"></div></div>
+  <img class="nitido" src="img/121946_nitido.jpg" alt="">
+</div>
+<pre id="saida">aguardando</pre>
+<script src="zoom.js"></script>
+<script>
+const m = document.getElementById('m'), n = m.querySelector('.nitido'), sonda = m.querySelector('.sonda'), caixa = {x:0.4389,y:0.1838,w:0.1272,h:0.1477};
+const estado = r => ({ r, t: Math.round(performance.now() - t0), rosto: +(sonda.getBoundingClientRect().width / m.getBoundingClientRect().width).toFixed(3), nitido: getComputedStyle(n).opacity, pronto: n.classList.contains('pronto') });
+const log = []; let t0 = 0; const em = (ms, f) => setTimeout(f, ms);
+requestAnimationFrame(() => requestAnimationFrame(() => {
+  t0 = performance.now();
+  aproximar(m, caixa);                                   // 1ª aproximação
+  em(300, () => log.push(estado('1a: meio do caminho')));
+  em(1000, () => { afastar(m); log.push(estado('afastou no meio')); });
+  em(1500, () => aproximar(m, caixa));                   // 2ª aproximação antes do temporizador da 1ª (1800)
+  em(2000, () => log.push(estado('2a: após temporizador antigo')));
+  em(3500, () => log.push(estado('2a: fim')));
+  em(3600, () => { afastar(m); });
+  em(3650, () => log.push(estado('afastou: 50 ms depois')));
+  em(5400, () => { log.push(estado('repouso')); document.getElementById('saida').textContent = JSON.stringify({ reduzido: matchMedia('(prefers-reduced-motion: reduce)').matches, log }); });
+}));
+</script></body></html>

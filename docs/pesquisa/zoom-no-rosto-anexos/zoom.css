@@ -1,0 +1,8 @@
+.moldura { position: relative; overflow: hidden; background: #000; width: min(420px, 100%); aspect-ratio: var(--prop); }
+.pintura { position: absolute; inset: 0; transform-origin: 0 0;
+  transform: translate(var(--tx, 0%), var(--ty, 0%)) scale(var(--s, 1));
+  transition: transform var(--dur, 1400ms) cubic-bezier(.22, 1, .36, 1); }
+.pintura > img { display: block; width: 100%; height: 100%; }
+.nitido { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; }
+.nitido.pronto { opacity: 1; transition: opacity 300ms ease-out; }
+@media (prefers-reduced-motion: reduce) { .pintura { transition: none; } }
