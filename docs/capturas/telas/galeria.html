@@ -1,0 +1,168 @@
+<title>Telas de Eu Não Sei Me Comunicar</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+  /* Um só visual, o do próprio site: preto absoluto e as janelas cinza do sistema dos anos 90. As capturas mandam; a página só as emoldura. */
+  :root {
+    color-scheme: dark;
+    --vazio: #000000;
+    --face: #c0c0c0;
+    --claro: #ffffff;
+    --sombra: #808080;
+    --tinta: #000000;
+    --barra: #000080;
+    --apagado: #a8a8a8;
+    --humana: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", "Songti SC", Georgia, serif;
+    --maquina: Tahoma, "Segoe UI", Verdana, system-ui, "PingFang SC", sans-serif;
+  }
+  body {
+    background: var(--vazio);
+    color: var(--face);
+    font: 15px/1.5 var(--maquina);
+    padding-block: 28px 64px;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  .pagina { max-width: 1500px; margin: 0 auto; display: grid; gap: 40px; }
+  h1 { margin: 0; font: 400 clamp(2.2rem, 6vw, 4.4rem)/1 var(--humana); color: var(--claro); letter-spacing: -0.02em; text-wrap: balance; }
+  .abre { display: grid; gap: 14px; }
+  .abre p { margin: 0; max-width: 68ch; color: var(--apagado); }
+  .abre a { color: var(--claro); }
+  nav { display: flex; flex-wrap: wrap; gap: 8px; }
+  nav a {
+    padding: 8px 14px; background: var(--face); color: var(--tinta); text-decoration: none; font-weight: 700;
+    box-shadow: inset -1px -1px var(--tinta), inset 1px 1px var(--claro), inset -2px -2px var(--sombra), inset 2px 2px #dfdfdf;
+  }
+  nav a:focus-visible, figure a:focus-visible { outline: 2px dotted var(--claro); outline-offset: 3px; }
+  section { display: grid; gap: 16px; scroll-margin-top: 16px; }
+  h2 { margin: 0; font: 400 clamp(1.6rem, 3.4vw, 2.4rem)/1.1 var(--humana); color: var(--claro); }
+  .fila { display: grid; gap: 16px; align-items: start; }
+  .retratos { grid-template-columns: 390fr 390fr 820fr; }
+  .paisagens { grid-template-columns: 1fr 1fr; }
+  .janela {
+    margin: 0; min-width: 0; padding: 3px; background: var(--face);
+    box-shadow: inset -1px -1px var(--tinta), inset 1px 1px #dfdfdf, inset -2px -2px var(--sombra), inset 2px 2px var(--claro);
+  }
+  figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; padding: 5px 8px; background: var(--barra); color: var(--claro); font-size: 13px; }
+  .nome { font-weight: 700; font-variant-numeric: tabular-nums; }
+  .momento { opacity: 0.85; }
+  .janela a { display: block; line-height: 0; }
+  .janela img { display: block; width: 100%; height: auto; }
+  @media (max-width: 760px) {
+    .retratos, .paisagens { grid-template-columns: 1fr; }
+    .estreita { max-width: 420px; }
+  }
+</style>
+
+<div class="pagina">
+  <header class="abre">
+    <h1>Eu Não Sei Me Comunicar, tela por tela</h1>
+    <p>Dezoito capturas do site publicado em <a href="https://eunaoseimecomunicar.vercel.app" target="_blank" rel="noopener">eunaoseimecomunicar.vercel.app</a>, tiradas em 12 de novembro de 2026: quatro tamanhos de tela em cada um dos três idiomas, e a caixa da frase em celular e em notebook. O sorteio das opções é o mesmo em todas, então só a tela e a língua mudam. Toque numa captura para abrir em tamanho cheio.</p>
+    <nav aria-label="Idiomas">
+      <a href="#pt">🇧🇷 Português</a>
+      <a href="#en">🇬🇧 English</a>
+      <a href="#zh">🇨🇳 中文</a>
+    </nav>
+  </header>
+
+  <section id="pt" lang="pt-BR">
+    <h2><span aria-hidden="true">🇧🇷</span> Português</h2>
+    <div class="fila retratos">
+      <figure class="janela estreita">
+        <figcaption><span class="nome">Celular, 390 × 844</span><span class="momento">tela de entrada</span></figcaption>
+        <a href="pt-BR-celular-entrada.jpg" target="_blank" rel="noopener"><img src="pt-BR-celular-entrada.jpg" alt="Celular em pt-BR, tela de entrada" loading="lazy" /></a>
+      </figure>
+      <figure class="janela estreita">
+        <figcaption><span class="nome">Celular, 390 × 844</span><span class="momento">a frase</span></figcaption>
+        <a href="pt-BR-celular-frase.jpg" target="_blank" rel="noopener"><img src="pt-BR-celular-frase.jpg" alt="Celular em pt-BR, a frase" loading="lazy" /></a>
+      </figure>
+      <figure class="janela media">
+        <figcaption><span class="nome">Tablet, 820 × 1180</span><span class="momento">tela de entrada</span></figcaption>
+        <a href="pt-BR-tablet-entrada.jpg" target="_blank" rel="noopener"><img src="pt-BR-tablet-entrada.jpg" alt="Tablet em pt-BR, tela de entrada" loading="lazy" /></a>
+      </figure>
+    </div>
+    <div class="fila paisagens">
+      <figure class="janela larga">
+        <figcaption><span class="nome">Notebook, 1440 × 900</span><span class="momento">tela de entrada</span></figcaption>
+        <a href="pt-BR-notebook-entrada.jpg" target="_blank" rel="noopener"><img src="pt-BR-notebook-entrada.jpg" alt="Notebook em pt-BR, tela de entrada" loading="lazy" /></a>
+      </figure>
+      <figure class="janela larga">
+        <figcaption><span class="nome">Notebook, 1440 × 900</span><span class="momento">a frase</span></figcaption>
+        <a href="pt-BR-notebook-frase.jpg" target="_blank" rel="noopener"><img src="pt-BR-notebook-frase.jpg" alt="Notebook em pt-BR, a frase" loading="lazy" /></a>
+      </figure>
+    </div>
+    <div class="fila">
+      <figure class="janela inteira">
+        <figcaption><span class="nome">Monitor, 1920 × 1080</span><span class="momento">tela de entrada</span></figcaption>
+        <a href="pt-BR-monitor-entrada.jpg" target="_blank" rel="noopener"><img src="pt-BR-monitor-entrada.jpg" alt="Monitor em pt-BR, tela de entrada" loading="lazy" /></a>
+      </figure>
+    </div>
+  </section>
+
+  <section id="en" lang="en">
+    <h2><span aria-hidden="true">🇬🇧</span> English</h2>
+    <div class="fila retratos">
+      <figure class="janela estreita">
+        <figcaption><span class="nome">Celular, 390 × 844</span><span class="momento">tela de entrada</span></figcaption>
+        <a href="en-celular-entrada.jpg" target="_blank" rel="noopener"><img src="en-celular-entrada.jpg" alt="Celular em en, tela de entrada" loading="lazy" /></a>
+      </figure>
+      <figure class="janela estreita">
+        <figcaption><span class="nome">Celular, 390 × 844</span><span class="momento">a frase</span></figcaption>
+        <a href="en-celular-frase.jpg" target="_blank" rel="noopener"><img src="en-celular-frase.jpg" alt="Celular em en, a frase" loading="lazy" /></a>
+      </figure>
+      <figure class="janela media">
+        <figcaption><span class="nome">Tablet, 820 × 1180</span><span class="momento">tela de entrada</span></figcaption>
+        <a href="en-tablet-entrada.jpg" target="_blank" rel="noopener"><img src="en-tablet-entrada.jpg" alt="Tablet em en, tela de entrada" loading="lazy" /></a>
+      </figure>
+    </div>
+    <div class="fila paisagens">
+      <figure class="janela larga">
+        <figcaption><span class="nome">Notebook, 1440 × 900</span><span class="momento">tela de entrada</span></figcaption>
+        <a href="en-notebook-entrada.jpg" target="_blank" rel="noopener"><img src="en-notebook-entrada.jpg" alt="Notebook em en, tela de entrada" loading="lazy" /></a>
+      </figure>
+      <figure class="janela larga">
+        <figcaption><span class="nome">Notebook, 1440 × 900</span><span class="momento">a frase</span></figcaption>
+        <a href="en-notebook-frase.jpg" target="_blank" rel="noopener"><img src="en-notebook-frase.jpg" alt="Notebook em en, a frase" loading="lazy" /></a>
+      </figure>
+    </div>
+    <div class="fila">
+      <figure class="janela inteira">
+        <figcaption><span class="nome">Monitor, 1920 × 1080</span><span class="momento">tela de entrada</span></figcaption>
+        <a href="en-monitor-entrada.jpg" target="_blank" rel="noopener"><img src="en-monitor-entrada.jpg" alt="Monitor em en, tela de entrada" loading="lazy" /></a>
+      </figure>
+    </div>
+  </section>
+
+  <section id="zh" lang="zh-CN">
+    <h2><span aria-hidden="true">🇨🇳</span> 中文</h2>
+    <div class="fila retratos">
+      <figure class="janela estreita">
+        <figcaption><span class="nome">Celular, 390 × 844</span><span class="momento">tela de entrada</span></figcaption>
+        <a href="zh-CN-celular-entrada.jpg" target="_blank" rel="noopener"><img src="zh-CN-celular-entrada.jpg" alt="Celular em zh-CN, tela de entrada" loading="lazy" /></a>
+      </figure>
+      <figure class="janela estreita">
+        <figcaption><span class="nome">Celular, 390 × 844</span><span class="momento">a frase</span></figcaption>
+        <a href="zh-CN-celular-frase.jpg" target="_blank" rel="noopener"><img src="zh-CN-celular-frase.jpg" alt="Celular em zh-CN, a frase" loading="lazy" /></a>
+      </figure>
+      <figure class="janela media">
+        <figcaption><span class="nome">Tablet, 820 × 1180</span><span class="momento">tela de entrada</span></figcaption>
+        <a href="zh-CN-tablet-entrada.jpg" target="_blank" rel="noopener"><img src="zh-CN-tablet-entrada.jpg" alt="Tablet em zh-CN, tela de entrada" loading="lazy" /></a>
+      </figure>
+    </div>
+    <div class="fila paisagens">
+      <figure class="janela larga">
+        <figcaption><span class="nome">Notebook, 1440 × 900</span><span class="momento">tela de entrada</span></figcaption>
+        <a href="zh-CN-notebook-entrada.jpg" target="_blank" rel="noopener"><img src="zh-CN-notebook-entrada.jpg" alt="Notebook em zh-CN, tela de entrada" loading="lazy" /></a>
+      </figure>
+      <figure class="janela larga">
+        <figcaption><span class="nome">Notebook, 1440 × 900</span><span class="momento">a frase</span></figcaption>
+        <a href="zh-CN-notebook-frase.jpg" target="_blank" rel="noopener"><img src="zh-CN-notebook-frase.jpg" alt="Notebook em zh-CN, a frase" loading="lazy" /></a>
+      </figure>
+    </div>
+    <div class="fila">
+      <figure class="janela inteira">
+        <figcaption><span class="nome">Monitor, 1920 × 1080</span><span class="momento">tela de entrada</span></figcaption>
+        <a href="zh-CN-monitor-entrada.jpg" target="_blank" rel="noopener"><img src="zh-CN-monitor-entrada.jpg" alt="Monitor em zh-CN, tela de entrada" loading="lazy" /></a>
+      </figure>
+    </div>
+  </section>
+</div>
