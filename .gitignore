@@ -7,3 +7,11 @@ __pycache__/
 .DS_Store
 .env
 .env.*
+.superpowers/
+revisao/index.html
+test-results/
+playwright-report/
+
+# Vínculo local com o projeto da Vercel
+.vercel
+.env*

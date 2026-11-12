@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "acervo.schema.json",
+  "title": "Acervo de Eu Não Sei Me Comunicar",
+  "type": "object",
+  "required": ["versao", "demonstracao", "itens"],
+  "additionalProperties": false,
+  "properties": {
+    "versao": { "type": "string", "minLength": 1 },
+    "demonstracao": { "type": "boolean" },
+    "itens": { "type": "array", "items": { "$ref": "#/$defs/item" } }
+  },
+  "$defs": {
+    "idioma": { "enum": ["pt-BR", "en", "zh-CN"] },
+    "caixa": {
+      "type": "object",
+      "required": ["x", "y", "w", "h"],
+      "additionalProperties": false,
+      "properties": {
+        "x": { "type": "number", "minimum": 0, "maximum": 1 },
+        "y": { "type": "number", "minimum": 0, "maximum": 1 },
+        "w": { "type": "number", "exclusiveMinimum": 0, "maximum": 1 },
+        "h": { "type": "number", "exclusiveMinimum": 0, "maximum": 1 }
+      }
+    },
+    "afeto": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": ["metodo"],
+          "additionalProperties": false,
+          "properties": { "metodo": { "const": "ausente" } }
+        },
+        {
+          "type": "object",
+          "required": ["metodo", "valencia", "ativacao", "fonte"],
+          "additionalProperties": false,
+          "properties": {
+            "metodo": { "const": "norma_direta" },
+            "valencia": { "type": "number", "minimum": -1, "maximum": 1 },
+            "ativacao": { "type": "number", "minimum": 0, "maximum": 1 },
+            "fonte": { "type": "string", "minLength": 1 }
+          }
+        }
+      ]
+    },
+    "credito": {
+      "type": "object",
+      "required": ["autor", "linha", "fonte", "licenca", "url"],
+      "additionalProperties": false,
+      "properties": {
+        "autor": { "type": "string" },
+        "linha": { "type": "string", "minLength": 1 },
+        "fonte": { "type": "string", "minLength": 1 },
+        "licenca": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "pattern": "^https://" }
+      }
+    },
+    "revisao": {
+      "type": "object",
+      "required": ["humana", "por", "em"],
+      "additionalProperties": false,
+      "properties": {
+        "humana": { "enum": ["pendente", "aprovada", "reprovada"] },
+        "por": { "type": ["string", "null"] },
+        "em": { "type": ["string", "null"] }
+      }
+    },
+    "item": {
+      "type": "object",
+      "required": [
+        "id", "tipo", "classe_semiotica", "idioma", "rotulo", "texto_humano", "origem_do_texto",
+        "construtos", "tema_sensivel", "afeto", "credito", "revisao", "midia"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^(pintura:cma:|som:freesound:|palavra:(pt-BR|en|zh-CN):).+" },
+        "tipo": { "enum": ["pintura", "som", "palavra"] },
+        "classe_semiotica": { "enum": ["icone", "indice", "simbolo"] },
+        "idioma": { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/idioma" }] },
+        "rotulo": { "type": "string", "minLength": 1, "maxLength": 120 },
+        "texto_humano": { "type": "string", "minLength": 1, "maxLength": 600 },
+        "origem_do_texto": { "enum": ["curadoria", "titulo_e_tags", "glosa"] },
+        "construtos": { "type": "array", "minItems": 1, "maxItems": 4, "uniqueItems": true, "items": { "type": "string" } },
+        "tema_sensivel": { "type": "boolean" },
+        "afeto": { "$ref": "#/$defs/afeto" },
+        "credito": { "$ref": "#/$defs/credito" },
+        "revisao": { "$ref": "#/$defs/revisao" },
+        "midia": {
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "required": ["arquivo", "largura", "altura"],
+              "additionalProperties": false,
+              "properties": {
+                "arquivo": { "type": "string", "pattern": "^midia/pinturas/" },
+                "largura": { "type": "integer", "minimum": 1 },
+                "altura": { "type": "integer", "minimum": 1 }
+              }
+            },
+            {
+              "type": "object",
+              "required": ["arquivo", "duracao_ms"],
+              "additionalProperties": false,
+              "properties": {
+                "arquivo": { "type": "string", "pattern": "^midia/sons/" },
+                "duracao_ms": { "type": "integer", "minimum": 2000, "maximum": 20000 }
+              }
+            }
+          ]
+        },
+        "rosto": { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/caixa" }] },
+        "nitido": { "type": ["string", "null"] },
+        "sensivel": {
+          "type": "object",
+          "required": ["nudez", "violencia"],
+          "additionalProperties": false,
+          "properties": {
+            "nudez": { "enum": ["nenhuma", "parcial", "frontal"] },
+            "violencia": { "enum": ["nenhuma", "historica", "grafica"] }
+          }
+        }
+      }
+    }
+  }
+}

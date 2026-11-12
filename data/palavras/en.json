@@ -1,0 +1,246 @@
+[
+ {
+  "palavra": "wistful",
+  "sentido": 0,
+  "construtos": [
+   "nostalgia"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "forlorn",
+  "sentido": 1,
+  "construtos": [
+   "solidao"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "listless",
+  "sentido": 0,
+  "construtos": [
+   "tedio"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "restless",
+  "sentido": 1,
+  "construtos": [
+   "vigilancia"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "sonder",
+  "sentido": 0,
+  "construtos": [
+   "empatia",
+   "assombro"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "ennui",
+  "sentido": 0,
+  "construtos": [
+   "tedio"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "yearning",
+  "sentido": 0,
+  "construtos": [
+   "apego"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "homesick",
+  "sentido": 0,
+  "construtos": [
+   "nostalgia",
+   "apego_ao_lugar"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "jaded",
+  "sentido": 0,
+  "construtos": [
+   "habituacao",
+   "tedio"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "aloof",
+  "sentido": 2,
+  "construtos": [
+   "alienacao"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "awestruck",
+  "sentido": 0,
+  "construtos": [
+   "assombro"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "elated",
+  "sentido": 0,
+  "construtos": [
+   "emocoes_positivas"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "serene",
+  "sentido": 0,
+  "construtos": [
+   "emocoes_positivas"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "pensive",
+  "sentido": 1,
+  "construtos": [
+   "divagacao_mental"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "wary",
+  "sentido": 1,
+  "construtos": [
+   "vigilancia"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "overwhelmed",
+  "sentido": 0,
+  "construtos": [
+   "sobrecarga_sensorial"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "sheepish",
+  "sentido": 1,
+  "construtos": [
+   "constrangimento"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "smitten",
+  "sentido": 2,
+  "construtos": [
+   "apego"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "thankful",
+  "sentido": 0,
+  "construtos": [
+   "gratidao"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "hopeful",
+  "sentido": 0,
+  "construtos": [
+   "esperanca"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "dread",
+  "sentido": 1,
+  "construtos": [
+   "medo"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "bittersweet",
+  "sentido": 1,
+  "construtos": [
+   "ambivalencia"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "lonesome",
+  "sentido": 0,
+  "construtos": [
+   "solidao"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "spellbound",
+  "sentido": 1,
+  "construtos": [
+   "fluxo",
+   "assombro"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "rueful",
+  "sentido": 0,
+  "construtos": [
+   "arrependimento"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "envious",
+  "sentido": 0,
+  "construtos": [
+   "inveja"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "resentful",
+  "sentido": 0,
+  "construtos": [
+   "raiva"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "engrossed",
+  "sentido": 1,
+  "construtos": [
+   "fluxo"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "inquisitive",
+  "sentido": 0,
+  "construtos": [
+   "curiosidade"
+  ],
+  "tema_sensivel": false
+ },
+ {
+  "palavra": "torn",
+  "sentido": 2,
+  "construtos": [
+   "ambivalencia"
+  ],
+  "tema_sensivel": false
+ }
+]

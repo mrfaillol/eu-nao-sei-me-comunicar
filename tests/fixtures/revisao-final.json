@@ -1,0 +1,20 @@
+{
+  "_origem": "Frases que o revisor final (12/Nov/2026) fez passar pelo validador com o glossário real e os termos medo e raiva permitidos. Todas precisam ser rejeitadas.",
+  "clinicas": [
+    { "idioma": "pt-BR", "frase": "Você escolheu três signos porque está deprimida e doente, e essa soma comunica medo e raiva sem atenuar nada do que nomeia." },
+    { "idioma": "pt-BR", "frase": "Os três signos que você reuniu comunicam o medo que te consome e a raiva que te adoece há muito tempo sem trégua." },
+    { "idioma": "pt-BR", "frase": "O medo crônico e a raiva adoecida que moram em você comunica aquilo que os três signos reunidos nomeiam sem rodeio algum." },
+    { "idioma": "pt-BR", "frase": "Você reuniu três signos e vive ansiosa, com crises e compulsão, e essa soma comunica medo e raiva sem atenuar nada." },
+    { "idioma": "en", "frase": "The three signs you gathered communicate fear and anger, and they state plainly that you're anxious, unwell and mentally ill." },
+    { "idioma": "en", "frase": "The three signs you gathered communicate your own fear and your own anger, which the selection states with no softening at all." },
+    { "idioma": "en", "frase": "The three signs you gathered communicate fear and anger, and whoever gathered them is manic, paranoid and addicted to being alone." },
+    { "idioma": "zh-CN", "frase": "你选的三个符号合在一起传达的是恐惧与愤怒，这表明心里已经有病，整个人处在崩溃和躁狂的边缘。" }
+  ],
+  "conselhos": [
+    { "idioma": "pt-BR", "frase": "Os três signos que você reuniu comunicam medo e raiva, e é hora de procurar um psiquiatra e desabafar com alguém de confiança." },
+    { "idioma": "pt-BR", "frase": "Os três signos que você reuniu comunicam medo e raiva, e convém iniciar tratamento com remédio e telefonar ao centro de valorização da vida." },
+    { "idioma": "en", "frase": "The three signs you gathered communicate fear and anger, and it is time to see a doctor or ring a helpline tonight." },
+    { "idioma": "en", "frase": "The three signs you gathered communicate fear and anger, and they state that harming yourself is close and getting support matters now." },
+    { "idioma": "zh-CN", "frase": "你选的三个符号合在一起传达的是恐惧与愤怒，这表明必须尽快去看心理医生并接受治疗，不要独自承受。" }
+  ]
+}

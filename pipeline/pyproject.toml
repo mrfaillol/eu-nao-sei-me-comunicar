@@ -1,0 +1,23 @@
+[project]
+name = "acervo"
+version = "0.1.0"
+description = "Pipeline que monta o índice curado de Eu Não Sei Me Comunicar"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "opencv-python-headless>=5.0",
+  "numpy",
+  "pillow",
+  "jsonschema",
+]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = ["rede: usa rede; roda só com -m rede"]
+addopts = "-m 'not rede'"

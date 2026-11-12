@@ -1,0 +1,637 @@
+﻿Item,Translation,POS,PRO,PRO-SD,VAL,VAL-SD,ARO,ARO-SD,EMO,VAL_ARO_SOURCE
+悲痛,painfully sad,adj,4.76,0.44,-1.96,0.79,2.73 ,0.94 ,1.96,Questionnaires
+高兴,happy,adj,4.71,0.64,2.39,1.02,3.24,1.06,2.39,Xu et al. 2022
+悲怆,pathetic,adj,4.67,0.66,-1.92,0.91,2.40 ,1.25 ,1.92,Questionnaires
+仇视,regard as an enemy,v,4.67,0.66,-2.08,0.93,2.96,0.55,2.08,Xu et al. 2022
+愤恨,indignantly resent,v,4.67,0.58,-1.44,0.92,2.93 ,0.94 ,1.44,Questionnaires
+欣喜,joyful,adj,4.67,0.80,1.80,1.00,2.70 ,1.15 ,1.80,Questionnaires
+忌恨,envy and hate,v,4.62,0.50,-1.70,1.17,2.05 ,1.29 ,1.70,Questionnaires
+哀痛,feel the anguish of sorrow,adj,4.60,0.81,-1.75,1.26,2.55,1.29,1.75,Xu et al. 2022
+喜悦,charmed,adj,4.60,0.56,1.96,0.74,2.27 ,1.31 ,1.96,Questionnaires
+兴高采烈,elated,adj,4.60,0.77,2.11,0.79,2.27 ,1.25 ,2.11,Questionnaires
+义愤填膺,be filled with indignation,adj,4.60,0.67,0.36,1.47,3.3,0.91,0.36,Xu et al. 2022
+悲愁,grieve over sb.'s death,adj,4.57,0.75,-1.48,0.85,2.14 ,1.13 ,1.48,Questionnaires
+暴怒,violently rage,v,4.57,0.66,-1.78,0.97,3.09 ,1.15 ,1.78,Questionnaires
+盛怒,very rage,v,4.55,0.83,-1.75,0.85,3.21,0.88,1.75,Xu et al. 2022
+忿恨,very resent,v,4.55,1.00,-1.68,0.85,2.83 ,0.95 ,1.68,Questionnaires
+愤慨,indignant,adj,4.53,0.63,-0.83,0.93,3.08,1.31,0.83,Xu et al. 2022
+哀愁,sorrowful,adj,4.52,0.75,-1.59,0.97,2.18 ,1.10 ,1.59,Questionnaires
+惭愧,compunctious,adj,4.52,0.60,-0.96,1.27,2,1.15,0.96,Xu et al. 2022
+骄傲,proud,adj,4.52,0.75,-0.08,0.98,2.96,1.36,0.08,Xu et al. 2022
+恼恨,irritat,v,4.52,0.93,-1.56,0.8,1.96,1.31,1.56,Xu et al. 2022
+怨恨,have a grudge against sb.,v,4.52,0.81,-1.81,0.9,2.69,1.09,1.81,Xu et al. 2022
+愤懑,depressed and discontented,adj,4.52,0.59,-1.11,1.34,2.41 ,1.18 ,1.11,Questionnaires
+激愤,wrathful,adj,4.52,0.73,1.48,0.96,3.13 ,0.94 ,1.48,Questionnaires
+狂喜,overjoyed,adj,4.52,0.73,-0.96,1.14,3.37 ,0.81 ,0.96,Questionnaires
+恼羞成怒,irritated,adj,4.52,0.59,-2.09,1.06,3,0.83,2.09,Xu et al. 2022
+悲愤,sad and angered,adj,4.50,0.68,-1.08,0.93,3.04,1.02,1.08,Xu et al. 2022
+绝望,despair,v,4.50,0.73,-2.31,0.81,3.32,1.2,2.31,Xu et al. 2022
+妒嫉,be jealous of,v,4.48,0.73,-1.64,0.99,2.53 ,1.04 ,1.64,Questionnaires
+狂热,mad,adj,4.48,0.85,-0.32,0.94,3.58,1.03,0.32,Xu et al. 2022
+欢欣,elevated (mood),adj,4.48,0.60,1.96,1.06,2.47 ,0.97 ,1.96,Questionnaires
+恐慌,panic,adj,4.48,0.68,-1.92,1.05,3.3,1.38,1.92,Xu et al. 2022
+提心吊胆,be in fear of,adj,4.48,0.81,-1.19,1.17,3.12,0.95,1.19,Xu et al. 2022
+震惊,shock,adj,4.48,1.03,-0.22,0.82,3.2,1.2,0.22,Xu et al. 2022
+愁,worry,v,4.47,0.68,-1.59,0.89,1.82 ,1.14 ,1.59,Questionnaires
+悔恨,regret deeply,v,4.47,0.63,-1.4,0.69,2.64,1.04,1.40,Xu et al. 2022
+愉悦,gladder,adj,4.47,0.73,2.14,0.85,1.69 ,1.26 ,2.14,Questionnaires
+委屈,aggrieved,adj,4.45,1.00,-1.86,0.89,2.23 ,1.24 ,1.86,Questionnaires
+恐惧,terrified,adj,4.45,0.74,-1.92,0.76,2.93,0.72,1.92,Xu et al. 2022
+愧疚,be ashamed and uneasy,adj,4.43,0.95,-0.57,1.46,2.17,0.64,0.57,Xu et al. 2022
+伤感,sad,adj,4.43,0.73,-1.36,0.86,2.42,1.21,1.36,Xu et al. 2022
+伤心,heartrending,adj,4.43,1.07,-1.69,0.68,2.5,1.36,1.69,Xu et al. 2022
+痛恨,hate bitterly,v,4.41,0.82,-2.12,0.67,2.73 ,1.14 ,2.12,Questionnaires
+反感,antipathy,n,4.40,0.72,-1.67,0.92,2.9,1.04,1.67,Xu et al. 2022
+畏惧,fear,v,4.40,0.94,-1.74,0.86,2.56,1.19,1.74,Xu et al. 2022
+厌恶,disgust,v,4.40,0.93,-1.84,0.80,0.80 ,1.19 ,1.84,Questionnaires
+欲绝,want to die (because of sadness),v,4.40,1.05,-1.67,1.13,2.12 ,1.31 ,1.67,Questionnaires
+羞愧,humiliating,adj,4.39,0.78,-1.08,0.72,2.65,1.16,1.08,Xu et al. 2022
+哀怨,plaintive,adj,4.38,1.02,-1.63,0.84,1.95 ,1.17 ,1.63,Questionnaires
+懊恼,annoyed,adj,4.38,0.86,-1.32,0.8,2.27,1.34,1.32,Xu et al. 2022
+怅惘,distracted,adj,4.38,0.86,-1.67,0.88,1.95 ,1.21 ,1.67,Questionnaires
+仇恨,hatred,v,4.38,0.97,-2.33,0.56,2.35,1.29,2.33,Xu et al. 2022
+欢悦,pleased,adj,4.38,0.86,1.86,0.93,1.91 ,1.31 ,1.86,Questionnaires
+惊诧,astonished,adj,4.38,0.97,1.07,1.18,2.60 ,1.07 ,1.07,Questionnaires
+难过,sad,adj,4.38,1.02,-1.5,0.65,2.54,1.04,1.50,Xu et al. 2022
+痛心,harrowing,adj,4.38,0.92,-1.12,1.27,2.7,1.26,1.12,Xu et al. 2022
+喜欢, love,v,4.38,0.92,1.44,0.82,2.88,0.95,1.44,Xu et al. 2022
+厌烦,be sick of,v,4.38,0.92,-1.78,1.09,2.08,1.19,1.78,Xu et al. 2022
+欢愉,delighted,adj,4.37,0.81,1.15,1.10,2.00 ,1.23 ,1.15,Questionnaires
+惊骇,horrified,adj,4.35,0.88,-0.86,0.93,2.54 ,1.17 ,0.86,Questionnaires
+愤怒,wrathful,adj,4.34,0.81,-1.75,1.3,3.74,0.88,1.75,Xu et al. 2022
+憎恶,abhor,v,4.34,0.94,-1.52,1.16,2.18 ,1.26 ,1.52,Questionnaires
+憎恨,detest,v,4.34,1.08,-1.96,0.85,2.31,1.35,1.96,Xu et al. 2022
+不安,intranquil,adj,4.33,0.80,-1.4,0.5,2.75,1.11,1.40,Xu et al. 2022
+不喜欢,dislike,v,4.33,1.15,-1.22,0.93,1.91 ,1.27 ,1.22,Questionnaires
+担忧,worry,v,4.33,0.73,-1.08,0.93,2.2,0.81,1.08,Xu et al. 2022
+烦, annoyed,adj,4.33,1.09,-1.46,0.79,2.58 ,1.39 ,1.46,Questionnaires
+烦心,troubling,adj,4.33,0.80,-1.48,0.77,2.43 ,1.04 ,1.48,Questionnaires
+忿怒,ire,v,4.33,0.97,-1.25,0.94,2.63 ,1.16 ,1.25,Questionnaires
+敬仰,admire,v,4.33,0.91,1.37,1.15,1.58 ,1.17 ,1.37,Questionnaires
+内疚,guilty,adj,4.33,0.97,-0.35,1.01,1.95,1.37,0.35,Xu et al. 2022
+怕,be afraid of,v,4.33,1.24,-1.44,1.05,2.18 ,1.10 ,1.44,Questionnaires
+热切,be passionately in love,v,4.33,0.91,1.32,0.90,2.70 ,0.88 ,1.32,Questionnaires
+痛苦,pained ,adj,4.33,0.99,-1.89,1.1,3,1.22,1.89,Xu et al. 2022
+欣慰,pleased,adj,4.33,0.80,1.59,0.8,2.56,1.05,1.59,Xu et al. 2022
+又惊又喜,surprised and delighted,adj,4.33,1.02,1.21,0.78,2.96,0.58,1.21,Xu et al. 2022
+郁闷,morose,adj,4.33,1.11,-1.64,0.76,1.62,1.2,1.64,Xu et al. 2022
+自豪,proud,adj,4.33,0.86,2,0.94,2.73,1.08,2.00,Xu et al. 2022
+悲伤,woeful,adj,4.31,0.93,-1.68,0.86,2.24,1.39,1.68,Xu et al. 2022
+开心,happy,adj,4.31,0.93,2.32,0.9,3.16,0.95,2.32,Xu et al. 2022
+气愤,chagrin,adj,4.31,0.81,-1.39,1.17,3.28,1.02,1.39,Xu et al. 2022
+悲恸,grief-stricken,adj,4.30,1.02,-2.04,0.98,2.50 ,1.25 ,2.04,Questionnaires
+欢快,happy and bright,adj,4.30,1.02,1.76,1.01,1.88 ,1.28 ,1.76,Questionnaires
+激动,athrill,adj,4.30,0.88,0.65,1.54,3.44,1.03,0.65,Xu et al. 2022
+烦闷,be unhappy,adj,4.30,0.95,-1.68,0.82,2.23 ,1.31 ,1.68,Questionnaires
+暴躁,like a bear with a sore head,adj,4.29,0.94,-1.88,0.9,2.69,1.32,1.88,Xu et al. 2022
+惊愕,stunned,adj,4.29,1.10,-0.52,0.87,2.50 ,1.21 ,0.52,Questionnaires
+沮丧,depressed,adj,4.29,0.90,-1.88,0.59,1.64,0.97,1.88,Xu et al. 2022
+快慰,comfortable,adj,4.28,0.75,-1.92,1.00,1.50 ,1.06 ,1.92,Questionnaires
+悲切,anguished,adj,4.28,0.96,-1.79,0.74,2.19 ,1.06 ,1.79,Questionnaires
+抑郁,gloomy,adj,4.28,1.00,-2.07,0.81,2.08,1.44,2.07,Xu et al. 2022
+烦忧,disturbing,adj,4.27,0.94,-1.56,0.8,2.2,1.19,1.56,Xu et al. 2022
+发狂,frenzy,v,4.26,1.01,-2.22,0.67,3.42,0.72,2.22,Xu et al. 2022
+激怒,enrage,v,4.26,1.10,-1.20,1.19,3.10 ,0.96 ,1.20,Questionnaires
+恼火,displeased,adj,4.26,0.86,-1.25,0.58,3.21,1.14,1.25,Xu et al. 2022
+怒骂,curse in rage,v,4.26,1.29,-1.85,1.33,3.18,0.94,1.85,Xu et al. 2022
+嫉恨,be jealous of,v,4.24,0.95,-0.85,1.10,2.53 ,1.04 ,0.85,Questionnaires
+焦虑,dysphoric,adj,4.24,0.91,-1.54,0.65,2.86,0.94,1.54,Xu et al. 2022
+失望,disappoint,v,4.24,0.83,-1.93,0.77,2.23 ,1.34 ,1.93,Questionnaires
+发慌,get flustered,v,4.24,1.09,-0.84,1.03,2.44,0.97,0.84,Xu et al. 2022
+欢乐,joyous,adj,4.24,1.09,2.2,0.71,3.33,0.69,2.20,Xu et al. 2022
+急切,urgent,adj,4.24,1.00,-0.47,0.99,3.26,0.91,0.47,Xu et al. 2022
+心焦,nervous,adj,4.24,0.94,-1.75,0.79,2.57 ,0.90 ,1.75,Questionnaires
+愁闷,morose,adj,4.23,1.04,-1.64,1.10,2.12 ,1.28 ,1.64,Questionnaires
+惧怕,dread,v,4.23,0.97,-1.71,0.85,2.48,1.11,1.71,Xu et al. 2022
+烦燥,fretful,adj,4.22,1.00,-1.85,0.91,2.14 ,1.08 ,1.85,Questionnaires
+凄惨,miserable,adj,4.22,0.95,-2.00,0.88,2.27 ,1.03 ,2.00,Questionnaires
+愠怒,sulk,v,4.21,0.92,-1.31,0.62,2.76,0.97,1.31,Xu et al. 2022
+哀戚,mournful,adj,4.21,0.94,-1.60,1.08,2.13 ,1.33 ,1.60,Questionnaires
+可恨,hateful,adj,4.21,0.94,-2.18,0.75,2.96,0.93,2.18,Xu et al. 2022
+快乐,gladsome,adj,4.21,1.15,2.43,1.26,3.12,0.75,2.43,Xu et al. 2022
+气急败坏,anger and frustration,adj,4.21,1.05,-1.56,0.87,3,1.02,1.56,Xu et al. 2022
+焦急,vexed,adj,4.19,1.08,-1.52,0.78,2.86,1.24,1.52,Xu et al. 2022
+惊喜,surprised,adj,4.19,1.08,1.92,0.93,3.36,0.82,1.92,Xu et al. 2022
+敬佩,admire,v,4.19,0.93,2.08,0.68,2.88,0.9,2.08,Xu et al. 2022
+心满意足,rest satisfied with,adj,4.19,1.17,2.11,0.80,1.95 ,1.29 ,2.11,Questionnaires
+抱愧,ashamed,adj,4.19,0.79,-1.42,0.90,1.43 ,1.08 ,1.42,Questionnaires
+惊慌,terrified,adj,4.18,0.82,-1.52,0.87,2.87,1.21,1.52,Xu et al. 2022
+鄙夷,disdain,v,4.17,0.89,-1.37,1.08,2.09 ,1.06 ,1.37,Questionnaires
+痴迷,infatuate,v,4.17,0.89,0.32,1.39,1.88 ,1.34 ,0.32,Questionnaires
+害怕,fear,v,4.17,0.98,-1.29,0.9,2.84,0.99,1.29,Xu et al. 2022
+惊讶,astonish,v,4.17,1.11,0.16,1.18,2.82,0.61,0.16,Xu et al. 2022
+忧愁,worried,adj,4.17,0.98,-1.5,0.8,1.68,0.98,1.50,Xu et al. 2022
+忧郁,melancholy,adj,4.17,1.15,-1.30,0.95,1.91 ,1.41 ,1.30,Questionnaires
+讨厌,dislike,v ,4.17,1.10,-1.91,0.97,2.36,1.19,1.91,Xu et al. 2022
+窝火,annoy,v,4.17,1.00,-1.52,1.19,2.68 ,1.21 ,1.52,Questionnaires
+懊悔,regret,v,4.17,0.91,-1.72,0.84,2.50 ,1.01 ,1.72,Questionnaires
+感动,touching,adj,4.17,0.91,1.92,0.8,2.96,0.59,1.92,Xu et al. 2022
+苦恼,afflictive,adj,4.17,1.02,-1.38,0.9,2.54,1.16,1.38,Xu et al. 2022
+担心,worry,v,4.14,0.85,-0.56,0.97,2.78,1.25,0.56,Xu et al. 2022
+惦念,keep thinking about,v,4.14,1.01,0.39,0.89,2,1.04,0.39,Xu et al. 2022
+惊恐,horror-struck,adj,4.14,0.93,-1.54,1.04,2.93 ,1.20 ,1.54,Questionnaires
+惊吓,scare,v,4.14,1.11,-1.83,0.70,2.32 ,1.17 ,1.83,Questionnaires
+眷恋,sentimentally  attached to,v,4.14,0.85,1.04,0.71,2.61,1.19,1.04,Xu et al. 2022
+苦闷,agonising,adj,4.14,0.96,-1.67,0.92,2.23 ,1.14 ,1.67,Questionnaires
+满意,please oneself,v,4.14,1.01,2.11,0.84,2.96,1.06,2.11,Xu et al. 2022
+藐视,despise,v,4.14,1.06,-1.7,0.97,2.07,1.04,1.70,Xu et al. 2022
+深情,affectionateness,n,4.14,1.15,1.44,1.22,2.23 ,1.31 ,1.44,Questionnaires
+着急,feel anxious,adj,4.14,1.06,-0.5,0.86,2.96,1.12,0.50,Xu et al. 2022
+哀伤,distressed,adj,4.14,1.06,-1.85,1.03,2.3,1.1,1.85,Xu et al. 2022
+闷闷不乐,downhearted,adj,4.14,0.92,-1.48,0.72,1.96,1.48,1.48,Xu et al. 2022
+兴奋,exalted,adj,4.14,1.09,1.75,1,3.2,0.96,1.75,Xu et al. 2022
+糟心,very bad,adj,4.14,0.95,-1.52,1.01,2.27 ,1.08 ,1.52,Questionnaires
+妒忌,envy,v,4.13,0.97,-1.92,0.64,2.62,1.13,1.92,Xu et al. 2022
+怒吼,roar,v,4.13,0.86,-1.52,0.86,3.31,1.05,1.52,Xu et al. 2022
+悲惨,miserable,adj,4.13,1.14,-1.63,0.79,1.86 ,1.17 ,1.63,Questionnaires
+得意,complacent,adj,4.13,1.01,0.68,1.25,1.92 ,1.32 ,0.68,Questionnaires
+感激不尽,gratitude is not enough,v,4.10,0.94,2.08,0.72,3.15,0.98,2.08,Xu et al. 2022
+欢喜,joyful,adj,4.10,1.11,1.71,0.81,2.57 ,0.82 ,1.71,Questionnaires
+惊惧,frightened and fear,adj,4.10,1.14,-1.37,0.88,2.58 ,1.27 ,1.37,Questionnaires
+生气,get angry,v,4.10,1.05,-1.59,1.01,2.55 ,1.06 ,1.59,Questionnaires
+公愤,public indignation,n,4.10,1.09,-1.64,0.79,3.3,0.88,1.64,Xu et al. 2022
+恨意,hatred,n,4.10,1.06,1.22,1.22,2.32 ,1.17 ,1.22,Questionnaires
+惶恐,terrified,adj,4.10,1.12,-1.58,0.64,3.16,1.14,1.58,Xu et al. 2022
+嫉妒,be jealous of,v,4.10,1.09,-1.78,0.66,2.74,0.86,1.78,Xu et al. 2022
+悲壮,solemn and stirring,adj,4.10,1.00,-1.07,1.30,2.14 ,1.25 ,1.07,Questionnaires
+不满,dissatisfied,adj,4.10,1.18,-1.5,1.02,2.57,1.04,1.50,Xu et al. 2022
+揪心,worried,adj,4.10,1.04,-1.44,0.82,2.60 ,0.81 ,1.44,Questionnaires
+烦躁,fidgety,adj,4.09,1.08,-1.71,0.62,2.75,0.93,1.71,Xu et al. 2022
+惊疑,surprised and uncertain,adj,4.09,0.95,-1.37,1.01,2.60 ,1.00 ,1.37,Questionnaires
+唾弃,spurn,v,4.09,1.20,-1.75,1.22,1.85,1.38,1.75,Xu et al. 2022
+遗憾,regret,n,4.09,0.79,-1.80,0.96,2.13 ,1.01 ,1.80,Questionnaires
+后悔,regret,v,4.07,1.09,-1.32,0.92,2.63,1.21,1.32,Xu et al. 2022
+怒火,fury,n,4.07,1.25,-1.9,0.87,2.94,1.01,1.90,Xu et al. 2022
+紧张,intense,adj,4.07,1.17,-0.89,0.94,2.96,1.18,0.89,Xu et al. 2022
+疯狂,mad,adj,4.05,1.20,-0.54,1.40,2.73 ,1.22 ,0.54,Questionnaires
+感伤,sentimental,adj,4.05,1.16,-1.25,0.78,1.96,0.77,1.25,Xu et al. 2022
+含情脉脉,exuding tenderness and love through eyes,adj,4.05,1.32,1.21,1.01,2.61,1.02,1.21,Xu et al. 2022
+怀念,cherish the memory of,v,4.05,1.02,1.04,0.8,2.8,1.08,1.04,Xu et al. 2022
+埋怨,complain,v,4.05,1.20,-1.61,0.63,2.58,0.79,1.61,Xu et al. 2022
+冒火,get angry,v,4.05,1.07,-1.27,0.58,2.45,1.1,1.27,Xu et al. 2022
+热爱,ardently love,v,4.05,1.16,2.15,0.86,2.50 ,1.41 ,2.15,Questionnaires
+亢奋,excited,adj,4.04,1.19,0.74,0.61,3.32,0.8,0.74,Xu et al. 2022
+心寒,disappointed,adj,4.04,1.19,-1.72,0.79,3,1.02,1.72,Xu et al. 2022
+冤,injustice,n,4.04,1.07,-2.08,0.86,2.53 ,1.17 ,2.08,Questionnaires
+沉痛,deep feeling of grief,adj,4.04,1.23,-1.81,1.21,2.48,1.19,1.81,Xu et al. 2022
+不快,unhappy,adj,4.03,1.02,-1.13,0.74,2.07,1.04,1.13,Xu et al. 2022
+低落,turndown (mood),v,4.03,1.09,-1.48,0.70,1.64 ,1.00 ,1.48,Questionnaires
+愉快,merry,adj,4.03,1.05,2.12,0.6,2.65,1.06,2.12,Xu et al. 2022
+可恶,abhorrent,adj,4.03,1.00,-1.84,1.02,3,1.23,1.84,Xu et al. 2022
+懊丧,dejected,adj,4.00,1.16,-1.52,0.70,1.95 ,1.20 ,1.52,Questionnaires
+悲哀,melancholy,adj,4.00,1.24,-1.92,0.72,2,1.23,1.92,Xu et al. 2022
+憧憬,look forward to,v,4.00,1.22,1.82,1.02,1.92 ,1.20 ,1.82,Questionnaires
+发愁,"be anxious,",v,4.00,1.00,-1.32,0.8,2.44,1.01,1.32,Xu et al. 2022
+高亢,loud and sonorous,adj,4.00,1.12,0.92,1.04,2.97 ,1.22 ,0.92,Questionnaires
+孤独,solitary,adj,4.00,1.10,-1.23,1.29,2.4,0.72,1.23,Xu et al. 2022
+骇异,be astonished,adj,4.00,1.21,-1.11,1.02,2.17 ,1.04 ,1.11,Questionnaires
+忌妒,be jealous of,v,4.00,1.13,-1.88,0.88,2.45 ,1.18 ,1.88,Questionnaires
+乐,cheerful,adj,4.00,1.13,1.00,1.19,2.27 ,1.14 ,1.00,Questionnaires
+怜恤,pity,v,4.00,1.12,0.09,1.08,1.7,0.99,0.09,Xu et al. 2022
+腻烦,bored,adj,4.00,1.14,-1.96,0.94,1.80 ,1.27 ,1.96,Questionnaires
+期待,anticipate,v,4.00,0.95,1.68,0.94,1.85 ,1.12 ,1.68,Questionnaires
+丧气,damp,v,4.00,0.85,-1.92,0.70,1.87 ,1.07 ,1.92,Questionnaires
+怜悯,take pity on,v,3.97,0.93,-0.04,1.17,2.3,1.17,0.04,Xu et al. 2022
+振奋,heart-stirring,adj,3.97,1.10,1.64,0.97,3,0.96,1.64,Xu et al. 2022
+悲凄,heartrending,adj,3.97,1.15,-1.85,0.82,2.09 ,1.19 ,1.85,Questionnaires
+鄙视,despise,v,3.97,1.02,-1.92,0.81,2.81,0.98,1.92,Xu et al. 2022
+犯愁,be anxious,v,3.97,0.94,-1.18,0.82,2.12 ,1.03 ,1.18,Questionnaires
+感激,appreciate,v,3.97,1.09,1.93,0.83,2.18 ,1.40 ,1.93,Questionnaires
+羞怯,timid,adj,3.97,1.12,-0.43,1.26,1.85 ,1.22 ,0.43,Questionnaires
+喜爱,be fond of,v,3.96,0.96,1.75,0.76,2.79,1.13,1.75,Xu et al. 2022
+发憷,scare,v,3.96,1.27,-1.14,1.08,2.10 ,1.08 ,1.14,Questionnaires
+不悦,displeased,adj,3.96,1.07,-1.43,0.74,2.00 ,1.10 ,1.43,Questionnaires
+欢呼,happily hail,v,3.96,0.98,2.2,0.84,3.37,1.12,2.20,Xu et al. 2022
+解恨,vent one's anger  ,v,3.96,1.22,-1.21,0.88,2.27 ,1.34 ,1.21,Questionnaires
+发火,get angry,v,3.95,1.24,-1.63,0.63,2.85,1.29,1.63,Xu et al. 2022
+浮躁,restless,adj,3.95,1.12,-1.35,0.84,2.46,0.95,1.35,Xu et al. 2022
+慌乱,rattled,adj,3.95,1.16,1.70,0.82,2.09 ,1.11 ,1.70,Questionnaires
+蔑视,despise,v,3.95,1.32,-1.76,0.63,2.12,1,1.76,Xu et al. 2022
+烦乱,irritated,adj,3.93,1.16,-1.82,0.86,2.46 ,1.21 ,1.82,Questionnaires
+羞耻,shamefaced,adj,3.93,1.03,-1.65,0.94,2.92,0.98,1.65,Xu et al. 2022
+崇敬,honour,v,3.91,1.04,1.83,0.7,2.96,0.96,1.83,Xu et al. 2022
+颓丧,dispirited,adj,3.91,1.04,-1.84,0.99,1.77 ,1.10 ,1.84,Questionnaires
+心酸,be grieved,adj,3.91,1.16,-1.52,0.89,2.18 ,1.22 ,1.52,Questionnaires
+辛酸,poignant,adj,3.91,1.12,-1.17,0.78,2.5,1.14,1.17,Xu et al. 2022
+害羞,shy,adj,3.90,1.18,0.11,0.94,2.19,1.18,0.11,Xu et al. 2022
+骄慢,haughty,adj,3.90,1.09,-0.46,1.22,2.15 ,1.20 ,0.46,Questionnaires
+敬慕,worship,v,3.90,1.34,1.30,1.59,2.05 ,1.40 ,1.30,Questionnaires
+惶惑,perplexed and alarmed,adj,3.90,1.17,-1.63,0.88,2.17 ,1.07 ,1.63,Questionnaires
+激昂,excited,adj,3.90,1.09,-0.19,1.00,3.17 ,0.87 ,0.19,Questionnaires
+窝心,heartwarming,adj,3.90,1.07,-0.41,1.62,2.26,0.9,0.41,Xu et al. 2022
+沉重,oppressive,adj,3.90,0.82,-1.36,0.81,2.17,1.37,1.36,Xu et al. 2022
+心切,impatient,adj,3.89,0.99,0.23,1.03,1.59 ,1.37 ,0.23,Questionnaires
+骇怪,be shocked,adj,3.88,1.26,-2.24,1.27,1.95 ,1.40 ,2.24,Questionnaires
+爱慕,adore,v,3.87,1.14,1.71,1.01,2.42 ,1.30 ,1.71,Questionnaires
+诧异,be amazed,adj,3.87,1.22,-0.77,1.07,2.04,1,0.77,Xu et al. 2022
+惆怅,be in a despondent mood,adj,3.87,1.36,-1.19,1.17,1.7,1.13,1.19,Xu et al. 2022
+愁苦,anxious,adj,3.87,1.39,-1.35,1.13,1.69,1.26,1.35,Xu et al. 2022
+烦扰,bother,v,3.87,1.14,-1.56,0.80,2.09 ,0.87 ,1.56,Questionnaires
+急躁,edgy,adj,3.87,1.29,-1.46,0.8,3.04,0.73,1.46,Xu et al. 2022
+焦躁,fretted,adj,3.87,1.14,-0.85,0.88,2.90 ,0.96 ,0.85,Questionnaires
+同情,show sympathy for,v,3.87,1.06,0.65,1.2,2.19,1.08,0.65,Xu et al. 2022
+烦人,nettlesome,adj,3.87,1.07,-1.57,0.79,2.35 ,1.26 ,1.57,Questionnaires
+尴尬,awkward,adj,3.87,0.97,-0.96,0.83,2.28,1.06,0.96,Xu et al. 2022
+惊惶,frightened,adj,3.87,1.20,-1.29,1.01,2.32 ,1.25 ,1.29,Questionnaires
+难受,afflictive,adj,3.87,1.31,-1.54,0.55,2.79,1.08,1.54,Xu et al. 2022
+钟爱,treasure,v,3.86,1.13,1.65,1.3,2.77,1.11,1.65,Xu et al. 2022
+欢畅,glad,adj,3.86,1.11,1.48,0.87,2.43 ,1.17 ,1.48,Questionnaires
+羞涩,shy,adj,3.86,1.11,0.4,1.04,2.15,1.05,0.40,Xu et al. 2022
+自信,believe in oneself,v,3.86,1.01,2.12,0.69,2.91,0.79,2.12,Xu et al. 2022
+憋闷,be depressed,adj,3.85,1.31,-1.62,0.90,2.23 ,1.02 ,1.62,Questionnaires
+阴郁,somber,adj,3.83,1.32,-1.80,0.96,1.93 ,1.23 ,1.80,Questionnaires
+耻辱,humiliation,n,3.83,1.07,-2.42,0.84,2.57,1.26,2.42,Xu et al. 2022
+屈辱,humiliation,n,3.83,1.23,-1.65,1.16,2.8,1.04,1.65,Xu et al. 2022
+忘恩负义,ingrate,v,3.83,1.40,-2.22,0.67,2.73,1.08,2.22,Xu et al. 2022
+恐怖,horrible,adj,3.81,1.40,-1.88,0.68,3.09,0.84,1.88,Xu et al. 2022
+狂暴,blustering,adj,3.81,1.29,-1.63,0.57,2.95,0.78,1.63,Xu et al. 2022
+舒畅,pleasant,adj,3.81,1.08,1.88,0.86,2.32,1.13,1.88,Xu et al. 2022
+珍视,treasure,v,3.81,1.12,1.74,0.57,2.48,1.1,1.74,Xu et al. 2022
+吃惊,shock,v,3.80,1.24,0.08,0.72,3.16,0.75,0.08,Xu et al. 2022
+焦炙,anxious,adj,3.80,0.77,-1.96,1.10,2.17 ,1.19 ,1.96,Questionnaires
+烦恼,distraught,adj,3.79,1.11,-1.44,0.77,2.7,1.23,1.44,Xu et al. 2022
+无奈,cannot help but,v,3.79,1.21,-1.28,0.98,1.20 ,0.66 ,1.28,Questionnaires
+喜乐,joy,adj,3.79,1.08,1.35,0.89,2.24,1.3,1.35,Xu et al. 2022
+羞惭,ashamed,adj,3.79,1.11,-1.22,0.80,2.33 ,1.24 ,1.22,Questionnaires
+厌倦,be weary of,v,3.79,1.11,-1.6,0.82,1.92,1.19,1.60,Xu et al. 2022
+负疚,have a guilty conscience,v,3.79,1.08,-1.63,0.79,2.08 ,1.19 ,1.63,Questionnaires
+轻蔑,despise,v,3.79,1.20,-1.72,0.94,2.39,1.08,1.72,Xu et al. 2022
+恶心,sick,adj,3.78,1.28,-1.75,0.84,2.69 ,1.23 ,1.75,Questionnaires
+国耻,national shame,n,3.78,1.62,1.46,1.17,3.23 ,0.94 ,1.46,Questionnaires
+寂寞,lonesome,adj,3.78,1.28,-1.08,0.8,2.52,0.86,1.08,Xu et al. 2022
+迷惘,be perplexed,adj,3.78,1.17,-1.17,0.8,2,1,1.17,Xu et al. 2022
+忧虑,apprehensive,v,3.78,1.31,-1,0.98,2.32,0.99,1.00,Xu et al. 2022
+抱歉,apologetic,adj,3.77,0.90,-0.15,1.19,2.19,0.94,0.15,Xu et al. 2022
+欢,happy,adj,3.77,1.10,-0.81,0.74,2.27 ,1.14 ,0.81,Questionnaires
+渴望,aspire,v,3.77,1.04,0.75,0.67,3.08,1.04,0.75,Xu et al. 2022
+快活,alacritous,adj,3.77,1.28,1.27,0.77,2.94,0.98,1.27,Xu et al. 2022
+难堪,make a fool,v,3.77,1.36,1.92,1.35,2.36 ,1.33 ,1.92,Questionnaires
+消沉,depressed,adj,3.77,0.97,-1.93,1.36,1.48,0.91,1.93,Xu et al. 2022
+哀号,wail,v,3.76,1.61,-1.84,0.85,2.42,1.21,1.84,Xu et al. 2022
+称心,gratifying,adj,3.76,1.14,1.76,0.97,2.12,1.13,1.76,Xu et al. 2022
+炫耀,flaunt,v,3.76,1.26,-1.08,1.15,2.54,1.14,1.08,Xu et al. 2022
+珍惜,treasure,v,3.76,1.14,1.79,1.09,2.26,1.04,1.79,Xu et al. 2022
+惨痛,painful,adj,3.76,1.12,-2.18,0.77,2.69 ,1.16 ,2.18,Questionnaires
+干着急,be anxious but unable to do anything,v,3.76,1.18,-0.88,0.68,3,1.14,0.88,Xu et al. 2022
+抱委屈,feel wronged,v,3.75,1.07,-1.54,1.22,1.83 ,1.29 ,1.54,Questionnaires
+悲天悯人,a sympathy for the suffering of the common people,adj,3.74,1.14,-1.38,1.13,1.8,1.26,1.38,Xu et al. 2022
+动心,one's mind disturbed,v,3.74,1.39,1.52,1.05,2.80 ,0.89 ,1.52,Questionnaires
+慌张,muddleheaded,adj,3.74,1.29,-1.52,0.95,2.84,1.08,1.52,Xu et al. 2022
+窘,embarrassed,adj,3.74,1.05,1.61,0.92,2.27 ,1.00 ,1.61,Questionnaires
+凄凉,dismal,adj,3.74,1.25,-1.29,1,2.25,1.24,1.29,Xu et al. 2022
+沉郁,gloomy,adj,3.73,1.26,-1.61,1.07,1.69 ,1.23 ,1.61,Questionnaires
+崇拜,adore,v,3.73,1.08,1.92,1,3.09,0.73,1.92,Xu et al. 2022
+怜惜,feel tender and protective toward,v,3.73,1.01,1.52,0.89,1.73 ,1.16 ,1.52,Questionnaires
+郁悒,depressed,adj,3.73,1.10,-1.50,0.80,2.00 ,1.11 ,1.50,Questionnaires
+悲叹, sigh mournfully,v,3.72,1.10,-1.54,0.98,1.5,1.3,1.54,Xu et al. 2022
+热情洋溢,enthusiasm,v,3.72,1.13,1.71,0.91,3.04,1.02,1.71,Xu et al. 2022
+熬心,anxious,adj,3.72,1.23,-1.22,1.00,2.00 ,1.00 ,1.22,Questionnaires
+安心,set one's mind at rest,adj,3.71,1.06,1.5,0.51,1.58,0.93,1.50,Xu et al. 2022
+鄙薄,scorn,v,3.71,1.10,-1.52,0.96,1.72 ,1.25 ,1.52,Questionnaires
+苦痛,pungent,adj,3.71,1.52,-1.50,0.79,2.67 ,1.12 ,1.50,Questionnaires
+烦杂,muddled,adj,3.70,1.53,-1.46,1.00,2.12 ,1.24 ,1.46,Questionnaires
+害臊,feel ashamed,adj,3.70,1.18,-1.09,0.90,2.54 ,1.24 ,1.09,Questionnaires
+牵挂,be concerned,v,3.70,1.29,0.89,1.50,1.88 ,1.21 ,0.89,Questionnaires
+幸福,happiness,n,3.70,1.36,2.29,0.62,3,0.83,2.29,Xu et al. 2022
+惊奇,amazed,adj,3.69,1.17,0.5,1.08,3.08,1.06,0.50,Xu et al. 2022
+气馁,disheartened,adj,3.69,1.07,-1.33,0.76,1.46,1.07,1.33,Xu et al. 2022
+心慌,flustered,adj,3.69,1.14,-1.59,0.80,2.55 ,1.18 ,1.59,Questionnaires
+松快,relieved,adj,3.69,1.08,1.58,0.93,1.37 ,1.26 ,1.58,Questionnaires
+对不起,sorry,v,3.67,1.03,0.72,1.17,2.2,1,0.72,Xu et al. 2022
+高昂,hold high one's head,v,3.67,1.24,1.18,1.19,2.31 ,1.32 ,1.18,Questionnaires
+盼望,hope,v,3.67,1.15,-1.67,1.11,2.10 ,1.18 ,1.67,Questionnaires
+无忧无虑,carefree,adj,3.67,1.20,2.11,0.88,1.58 ,1.60 ,2.11,Questionnaires
+悲凉,desolate,adj,3.66,1.14,-1.70,0.99,2.09 ,1.11 ,1.70,Questionnaires
+羡慕,envy,v,3.66,1.17,0.61,1.03,2.37,1.01,0.61,Xu et al. 2022
+看不惯,cannot bear the sight of,v,3.65,1.34,-1.72,0.89,2.36 ,1.22 ,1.72,Questionnaires
+无畏,fearless,adj,3.65,1.31,1.63,1.15,1.54 ,1.24 ,1.63,Questionnaires
+背悔,repentant,adj,3.65,1.27,-1.68,0.95,2.00 ,1.27 ,1.68,Questionnaires
+炽烈,flaming,adj,3.64,1.26,1.37,0.93,2.23 ,1.41 ,1.37,Questionnaires
+满足,content,v,3.63,1.25,1.74,0.69,2.54,0.91,1.74,Xu et al. 2022
+灰心,discouraged,adj,3.62,1.01,-1.46,0.88,1.56,0.88,1.46,Xu et al. 2022
+彷徨,hesitate,v,3.62,1.21,-0.92,1.27,1.85,1.04,0.92,Xu et al. 2022
+凄厉,sad and shrill,adj,3.62,1.21,-1.92,0.83,1.96,1.37,1.92,Xu et al. 2022
+疑惑,doubt,v,3.62,1.18,-0.48,0.75,1.89,0.92,0.48,Xu et al. 2022
+不安全感,insecurity,n,3.62,1.56,-2.07,0.77,2.31 ,1.23 ,2.07,Questionnaires
+狂乱,frantic,adj,3.62,1.40,-0.50,1.62,2.57 ,1.07 ,0.50,Questionnaires
+热情,enthusiasm,n,3.61,1.41,1.93,0.68,2.88,0.71,1.93,Xu et al. 2022
+顺心,satisfactory,adj,3.61,1.16,1.54,1.14,1.23 ,1.18 ,1.54,Questionnaires
+眼红,be jealous,adj,3.61,1.31,-1.04,1.14,0.50 ,0.86 ,1.04,Questionnaires
+挂虑,have sth on one's mind,v,3.59,1.02,-0.84,0.99,2.00 ,0.79 ,0.84,Questionnaires
+激情,passion,n,3.59,1.27,1.44,1.16,3.35,0.64,1.44,Xu et al. 2022
+可惜,regrettable,adj,3.59,0.98,-0.7,0.75,2.39,0.81,0.70,Xu et al. 2022
+瞧不起,bridle at,v,3.59,1.12,-1.82,0.90,2.15 ,1.22 ,1.82,Questionnaires
+钦佩,admire,v,3.59,1.21,1.48,0.85,1.54 ,1.21 ,1.48,Questionnaires
+无助,cannot help,v,3.59,1.05,-1.79,0.92,1.96 ,1.25 ,1.79,Questionnaires
+舒心,comfortable,adj,3.57,1.12,1.70,0.87,1.59 ,1.40 ,1.70,Questionnaires
+赞赏,appreciate,v,3.57,1.25,1.86,0.89,1.54 ,1.10 ,1.86,Questionnaires
+耿耿于怀,take sth. to heart,adj,3.57,1.10,-1.57,1.42,2.63,1.13,1.57,Xu et al. 2022
+乐观,optimistic,adj,3.57,1.17,2.24,0.67,2.85,0.93,2.24,Xu et al. 2022
+酸辛,poignant,adj,3.57,1.28,-1.68,0.69,1.97 ,1.02 ,1.68,Questionnaires
+仓惶,panic,adj,3.57,1.41,-1.48,0.96,2.33,1.13,1.48,Xu et al. 2022
+敌视,be hostile to,v,3.57,1.12,-1.35,0.89,3.13,0.63,1.35,Xu et al. 2022
+看不起,turn up one's nose at,v,3.57,1.31,-1.26,0.94,2.41 ,1.10 ,1.26,Questionnaires
+疲倦,tired,adj,3.57,1.34,-1.07,0.66,1.68,1.22,1.07,Xu et al. 2022
+可耻,shameful,adj,3.55,1.27,-1.72,1.16,2.65,0.69,1.72,Xu et al. 2022
+自傲,proud,adj,3.54,1.20,-1.08,0.95,2.23 ,0.97 ,1.08,Questionnaires
+高涨,(Spirits) high,v,3.53,1.20,0.88,1.27,2.77 ,1.17 ,0.88,Questionnaires
+孤单,lonely,adj,3.53,1.33,-1.76,1.13,1.73 ,1.23 ,1.76,Questionnaires
+急,impatient,adj,3.53,1.31,-1.40,0.82,2.45 ,1.41 ,1.40,Questionnaires
+一见钟情,love at first sight,v,3.53,1.36,1.26,0.86,3.39,0.58,1.26,Xu et al. 2022
+沉闷,depressing,adj,3.52,1.25,-1.60,0.76,1.20 ,1.10 ,1.60,Questionnaires
+感谢,"thank, be grateful",v,3.52,1.33,1.59,0.80,2.05 ,1.46 ,1.59,Questionnaires
+惊险,breathtaking,adj,3.52,1.33,-0.74,1,3.47,0.7,0.74,Xu et al. 2022
+惹怒,displease,v,3.52,1.50,-1.39,0.88,2.69 ,0.97 ,1.39,Questionnaires
+欣赏,appreciate,v,3.52,1.21,1.53,0.61,2.36,1.16,1.53,Xu et al. 2022
+爱,love,v,3.52,1.50,2.30,1.17,2.55 ,1.50 ,2.30,Questionnaires
+冲动,impulsive,adj,3.52,1.27,-1.32,0.99,3.12,0.82,1.32,Xu et al. 2022
+乏味,unattractive,adj,3.52,1.38,-1.19,0.78,1.32,1.06,1.19,Xu et al. 2022
+畅快,lightsome,adj,3.52,1.21,1.8,0.71,2.65,1.03,1.80,Xu et al. 2022
+燃眉之急,an extremely urgency,adj,3.52,1.15,0.12,1.31,3.27,0.72,0.12,Xu et al. 2022
+愕然,astounded,adj,3.50,1.37,-0.86,0.80,2.15 ,1.16 ,0.86,Questionnaires
+困惑,confused,adj,3.50,1.36,-1.04,0.6,2.22,1.42,1.04,Xu et al. 2022
+爽心,refreshing,adj,3.50,1.18,1.17,0.87,2.00 ,1.34 ,1.17,Questionnaires
+肃然起敬,be filled with deep esteem,v,3.50,1.25,1.76,0.88,2.76,0.88,1.76,Xu et al. 2022
+痛快,straightforward,adj,3.50,1.25,1.3,0.88,3.04,0.72,1.30,Xu et al. 2022
+渴求,be eager for,v,3.48,1.15,0.63,0.89,2.50 ,1.04 ,0.63,Questionnaires
+舒坦,comfortable,adj,3.48,1.02,1.93,0.81,1.12 ,1.24 ,1.93,Questionnaires
+享受,enjoy,v,3.48,1.15,1,1,2.27,1.19,1.00,Xu et al. 2022
+为难,vexatious,adj,3.48,1.20,-0.81,0.82,2.09,1.12,0.81,Xu et al. 2022
+畏怯,fear and coward,v,3.48,1.34,-1.39,0.88,2.00 ,1.23 ,1.39,Questionnaires
+阴沉,sullen,adj,3.48,1.38,-1.52,1.29,1.43,1.12,1.52,Xu et al. 2022
+自卑, self-abasement,adj,3.48,1.27,-1.56,0.75,2.33,1.14,1.56,Xu et al. 2022
+炽热,fervor,adj,3.48,1.54,1.22,0.95,3.04,1.08,1.22,Xu et al. 2022
+慈悲,merciful,adj,3.48,1.44,1.59,1.22,1.92,1.08,1.59,Xu et al. 2022
+轻松,"light, relaxed",adj,3.48,1.29,1.71,0.71,2.2,1.22,1.71,Xu et al. 2022
+尊敬,respect,v,3.48,1.33,1.88,0.88,2.58,1.1,1.88,Xu et al. 2022
+不过意,feel sorry,v,3.47,1.06,-0.64,0.85,1.25 ,1.03 ,0.64,Questionnaires
+颤栗,shudder,v,3.47,1.33,-1.22,1.09,2.96,0.94,1.22,Xu et al. 2022
+困窘,in straitened circumstances,adj,3.47,1.28,1.64,1.38,2.17 ,0.99 ,1.64,Questionnaires
+颓唐,dejected,adj,3.46,1.26,-1.56,1.01,1.69 ,1.26 ,1.56,Questionnaires
+轻视,disdain,v,3.45,1.15,-1.29,0.71,2.08,1.19,1.29,Xu et al. 2022
+骄矜,self-important,adj,3.44,1.34,0.26,1.35,2.26 ,0.99 ,0.26,Questionnaires
+不平,inequitable,adj,3.43,1.31,-1.28,0.94,1.97 ,1.13 ,1.28,Questionnaires
+欢送,happy to say goodbye,v,3.43,1.44,1.84,0.76,2.88,0.73,1.84,Xu et al. 2022
+乐意,be willing to,v,3.43,1.12,1.79,0.82,2.68,1.01,1.79,Xu et al. 2022
+鲁莽,reckless,adj,3.43,1.41,-1.57,0.63,2.43,1.06,1.57,Xu et al. 2022
+敌意,hostility,n,3.43,1.19,-1.24,0.83,2.95,1.05,1.24,Xu et al. 2022
+孤寂,lonely,adj,3.43,1.17,-1.17,0.82,2.39,0.96,1.17,Xu et al. 2022
+可怕,fearful,adj,3.43,1.14,-1.74,0.77,3.29,1.11,1.74,Xu et al. 2022
+心急,impatient,adj,3.43,1.36,-1,0.69,2.17,1.31,1.00,Xu et al. 2022
+鼓励,encourage,v,3.43,1.21,1.64,0.87,1.88 ,1.07 ,1.64,Questionnaires
+歧视,discriminate,v,3.43,1.33,-2.13,0.85,2.61,1.04,2.13,Xu et al. 2022
+疑心,suspicion,n,3.43,1.08,-1.08,0.8,2.43,0.87,1.08,Xu et al. 2022
+意气风发,high-spirited and vigorous,adj,3.43,1.29,1.76,0.93,2.76,0.95,1.76,Xu et al. 2022
+自负,be responsible for one's own action,v,3.43,1.33,-1.8,0.82,1.88,1.07,1.80,Xu et al. 2022
+操心,bother,v,3.41,1.32,-0.78,0.9,2.54,0.81,0.78,Xu et al. 2022
+惊动,startle,v,3.41,1.50,-0.33,0.99,2.75,1.13,0.33,Xu et al. 2022
+吓人,dreadful,adj,3.40,1.19,-1.42,0.5,3.04,1.04,1.42,Xu et al. 2022
+自满,complacent,adj,3.40,1.16,-0.91,1.23,2.12,1.18,0.91,Xu et al. 2022
+尊崇,worship,v,3.40,1.13,1.56,0.71,2.41,0.85,1.56,Xu et al. 2022
+焦渴,terribly thirsty,adj,3.39,1.23,-1.28,0.89,2.14 ,1.08 ,1.28,Questionnaires
+忍气吞声,submit to humiliation,v,3.39,1.37,-1.58,0.76,1.79,1.11,1.58,Xu et al. 2022
+关怀,be deeply concerned,v,3.38,1.24,2.04,1.06,2.42,1.02,2.04,Xu et al. 2022
+热心,warm heart,adj,3.38,1.47,1.71,0.71,1.81 ,1.02 ,1.71,Questionnaires
+信赖,trust,v,3.38,1.43,1.93,0.78,2.88,0.99,1.93,Xu et al. 2022
+敬重,esteem,v,3.38,1.27,2.48,0.97,2.63,0.71,2.48,Xu et al. 2022
+窘促,embarrassed,adj,3.37,1.26,-1.54,1.00,2.07 ,0.94 ,1.54,Questionnaires
+喜庆,jubilant,adj,3.37,1.40,1.96,1.06,3.11,0.85,1.96,Xu et al. 2022
+在乎,care about,v,3.37,1.13,1,0.96,2.48,0.82,1.00,Xu et al. 2022
+称意,satisfied/enjoyable,adj,3.36,1.13,1.73,0.87,1.55 ,1.34 ,1.73,Questionnaires
+恐吓,intimidate,v,3.35,1.40,-2.24,0.93,3.27,1.33,2.24,Xu et al. 2022
+希望,wish,n,3.35,1.23,2,0.9,3.17,0.87,2.00,Xu et al. 2022
+信任,accredit,v,3.35,1.64,2.17,0.76,2.52,1,2.17,Xu et al. 2022
+虚惊,false alarm,n,3.34,1.14,-0.26,1.01,2.42,1.03,0.26,Xu et al. 2022
+对不住,feel sorry for,v,3.33,1.39,-1.04,0.96,1.81 ,1.20 ,1.04,Questionnaires
+好笑,funny,adj,3.33,1.30,1.56,0.97,2.05 ,1.17 ,1.56,Questionnaires
+怀疑,distrust,v,3.33,1.20,-1.08,0.82,2.48,0.65,1.08,Xu et al. 2022
+疲惫,tired out,adj,3.33,1.11,-1.61,0.79,1.77 ,1.11 ,1.61,Questionnaires
+忍让,forbear,v,3.33,1.39,-0.18,1.09,1.73,1.12,0.18,Xu et al. 2022
+舒服,feel good,adj,3.33,1.35,1.62,0.75,1.91,1.19,1.62,Xu et al. 2022
+侥幸,luckily,adj,3.33,1.28,-0.5,0.95,2.36,1.01,0.50,Xu et al. 2022
+珍爱,cherish,v,3.33,1.24,1.89,0.96,1.38 ,1.17 ,1.89,Questionnaires
+尊重,esteem,v,3.33,1.43,1.8,1.12,2.61,1.12,1.80,Xu et al. 2022
+挂心,care,v,3.32,1.12,0.67,0.86,2.35,0.99,0.67,Xu et al. 2022
+疲乏,weary,adj,3.32,1.43,-1,0.87,1.96,1.28,1.00,Xu et al. 2022
+挂念,be concerned about,v,3.31,1.20,1.42,0.88,2.54,0.76,1.42,Xu et al. 2022
+关心,show solicitude for,v,3.31,1.17,2.04,0.68,2.89,0.95,2.04,Xu et al. 2022
+欢娱,entertaining,adj,3.31,1.11,1.88,0.93,1.67 ,1.28 ,1.88,Questionnaires
+苦,bitter,adj,3.31,1.28,0.36,0.99,1.86 ,1.13 ,0.36,Questionnaires
+怕羞,bashful,adj,3.31,1.04,-0.48,0.78,2.07,0.96,0.48,Xu et al. 2022
+带劲,energetic,adj,3.30,1.43,1.43,0.96,2.16 ,1.14 ,1.43,Questionnaires
+恶意,malice,n,3.30,1.18,-1.89,0.93,2.23 ,1.27 ,1.89,Questionnaires
+津津有味,with relish,adj,3.30,1.55,1.29,1.34,2.7,1.08,1.29,Xu et al. 2022
+景仰,revere,v,3.30,1.26,1.91,1.22,2.54,1.18,1.91,Xu et al. 2022
+受挫,frustrate,v,3.30,1.22,-1.68,0.90,2.19 ,1.17 ,1.68,Questionnaires
+温暖,warm ,adj,3.30,1.18,2.11,0.85,2.00 ,1.48 ,2.11,Questionnaires
+喜怒无常,moody,adj,3.30,1.40,-1.36,0.81,2.43 ,1.17 ,1.36,Questionnaires
+哀求,beg piteously,v,3.30,1.32,-1.69,0.79,2.11,1.37,1.69,Xu et al. 2022
+来劲,in high spirits,adj,3.30,1.15,-1.60,0.76,2.73 ,1.05 ,1.60,Questionnaires
+可怜,pitiful,adj,3.29,1.45,1.58,1.02,1.97 ,1.30 ,1.58,Questionnaires
+有希望,have a hope,v,3.29,1.52,1.76,1.09,2.53 ,1.20 ,1.76,Questionnaires
+可心,satisfying,adj,3.27,1.12,-1.12,0.78,1.52 ,1.22 ,1.12,Questionnaires
+刮目相看,respect,v,3.27,1.08,1.79,0.8,2.96,1.14,1.79,Xu et al. 2022
+纳闷,feel puzzled,adj,3.27,1.17,-0.67,0.6,2,1.1,0.67,Xu et al. 2022
+情愿,of one's own accord,v,3.27,1.01,0.60,1.29,1.80 ,1.03 ,0.60,Questionnaires
+伤人,hurt people,v,3.26,1.21,-1.52,1.01,2.09 ,1.11 ,1.52,Questionnaires
+心虚,guilty,adj,3.26,1.21,-1.26,1.02,2.23 ,1.19 ,1.26,Questionnaires
+优哉游哉,leisurely,adj,3.26,1.48,0.59,1.05,1.65,1.06,0.59,Xu et al. 2022
+景慕,revere,v,3.25,1.21,-1.04,0.95,1.13 ,1.25 ,1.04,Questionnaires
+赏识,appreciate,v,3.23,1.07,1.40,1.32,2.07 ,1.08 ,1.40,Questionnaires
+夙怨,long-standing grievance,n,3.23,1.38,-1.54,1.07,1.96,1.02,1.54,Xu et al. 2022
+息怒,calm one's anger,v,3.22,1.28,-0.46,1.14,2.33,1.03,0.46,Xu et al. 2022
+不幸,unluky,adj,3.21,1.29,-1.92,1.09,2.43,1.33,1.92,Xu et al. 2022
+崇尚,advocate,v,3.21,1.08,1.43,1.07,1.54 ,1.21 ,1.43,Questionnaires
+佩服,admire,v,3.21,1.11,1.43,0.79,2.67,1,1.43,Xu et al. 2022
+热恋,love,v,3.20,1.42,1.44,1.45,2.97 ,1.35 ,1.44,Questionnaires
+冤枉,undeserved,adj,3.20,1.21,-1.64,1.15,3.04,1.3,1.64,Xu et al. 2022
+沉静,calm,adj,3.19,1.47,0.68,0.90,0.69 ,1.05 ,0.68,Questionnaires
+乐天,be in optimism,v,3.18,1.22,1.2,0.86,2.47,0.81,1.20,Xu et al. 2022
+感恩,thankful,adj,3.17,1.34,1.68,0.98,1.54 ,1.07 ,1.68,Questionnaires
+吝惜,grudge,v,3.17,1.15,0.19,1.18,1.52 ,0.95 ,0.19,Questionnaires
+犹豫,faltering,adj,3.17,1.34,-0.92,0.57,2.21,1.06,0.92,Xu et al. 2022
+忠孝,loyalty and filial piety,n,3.17,1.37,2.12,1.2,2.33,0.76,2.12,Xu et al. 2022
+自大,conceited,adj,3.17,1.27,-1.33,1.14,2.00 ,1.07 ,1.33,Questionnaires
+闲适,leisurely and comfortable,adj,3.17,1.17,1.64,0.73,1.12 ,1.34 ,1.64,Questionnaires
+狠毒,venomous,adj,3.17,1.42,-2.35,1.25,3.05,1.23,2.35,Xu et al. 2022
+心浮,impatient,adj,3.16,1.21,-0.96,0.88,1.75 ,1.07 ,0.96,Questionnaires
+器重,regard highly,v,3.14,1.39,1.43,1.00,1.58 ,1.14 ,1.43,Questionnaires
+疼痛,aching,adj,3.14,1.53,-1.13,0.68,3.33,0.64,1.13,Xu et al. 2022
+惊人,striking,adj,3.14,1.25,0.69,0.59,3.4,1,0.69,Xu et al. 2022
+爽快,invigorating,adj,3.14,1.16,1.61,0.92,1.85 ,1.35 ,1.61,Questionnaires
+慌忙,hurried and flustered,adj,3.13,1.31,-0.88,0.69,2.52,0.86,0.88,Xu et al. 2022
+愿意,be willing,v,3.13,1.22,1.36,0.81,2.67,1.07,1.36,Xu et al. 2022
+窝囊,hopeless stupid,adj,3.13,1.39,-1.81,0.8,2.42,1.21,1.81,Xu et al. 2022
+反对,oppose,v,3.10,1.18,-1.04,0.89,2.92,0.74,1.04,Xu et al. 2022
+困扰,persecute,v,3.10,1.32,-1.12,0.62,2.3,1.04,1.12,Xu et al. 2022
+骄横,overbearing,adj,3.10,1.09,-1.93,1.32,2.23,1.02,1.93,Xu et al. 2022
+抖擞精神,brace one's energies,adj,3.10,1.48,1.5,0.86,2.83,0.87,1.50,Xu et al. 2022
+疯癫,go  berserk,v,3.10,1.64,-1.91,0.95,3,0.45,1.91,Xu et al. 2022
+挂牵,miss sb.or sth.  ,v,3.10,1.51,0.13,1.45,1.80 ,0.81 ,0.13,Questionnaires
+和善,peace and goodness,adj,3.10,1.55,1.96,0.83,2.15,0.8,1.96,Xu et al. 2022
+迷惑,puzzled,adj,3.09,1.24,-1,0.71,2.05,1.34,1.00,Xu et al. 2022
+偏爱,prefer,v,3.09,1.47,1.30,1.51,2.14 ,1.21 ,1.30,Questionnaires
+有喜,have happy thing found,v,3.09,1.35,1.96,0.82,2.64,0.85,1.96,Xu et al. 2022
+不好意思,excuse me/ashamed of,adj,3.07,1.28,-0.25,0.59,1.81 ,1.17 ,0.25,Questionnaires
+冒犯,give offence,v,3.07,1.03,-1.42,0.76,2.4,0.88,1.42,Xu et al. 2022
+神往,be rapt,v,3.07,1.13,1.58,1.02,1.80 ,1.16 ,1.58,Questionnaires
+狠心,make up one's mind,v,3.07,1.39,-1.74,0.69,2.46,1.07,1.74,Xu et al. 2022
+狂,crazy,adj,3.07,1.51,1.30,0.99,2.58 ,1.10 ,1.30,Questionnaires
+安神,soothe the nerves,v,3.05,1.28,1.07,0.98,0.54 ,0.71 ,1.07,Questionnaires
+急促,hurried,adj,3.05,1.66,-0.61,0.87,3,0.78,0.61,Xu et al. 2022
+可疑,dubious,adj,3.05,1.36,0.89,1.10,1.91 ,0.97 ,0.89,Questionnaires
+温馨,warm,adj,3.05,1.32,1.94,0.69,2.39,1.27,1.94,Xu et al. 2022
+有趣,funny,adj,3.05,1.53,1.38,0.7,2.64,0.95,1.38,Xu et al. 2022
+乐于,take pleasure in,v,3.04,1.36,1.52,0.92,1.27 ,1.16 ,1.52,Questionnaires
+敏感,sensitive,adj,3.04,1.26,-0.5,0.88,2.85,1.01,0.50,Xu et al. 2022
+忠义,loyal,adj,3.04,1.22,2.12,0.8,2.67,1.02,2.12,Xu et al. 2022
+得志,achieve one's ambition,v,3.03,1.12,0.70,1.30,2.05 ,1.29 ,0.70,Questionnaires
+赞同,agree,v,3.03,1.12,1.65,0.8,2.76,0.99,1.65,Xu et al. 2022
+瞧得起,have high regard for,v,3.03,0.85,0.21,1.34,1.69 ,1.29 ,0.21,Questionnaires
+忍受,bear,v,3.03,1.16,-1,0.96,2.43,1.16,1.00,Xu et al. 2022
+想,think,v,3.03,1.35,0.64,1.10,1.15 ,1.22 ,0.64,Questionnaires
+不好过,feel not good,adj,3.00,1.24,-1.60,0.91,2.10 ,1.16 ,1.60,Questionnaires
+颤抖,shake,v,3.00,1.45,-0.88,0.74,2.78,0.93,0.88,Xu et al. 2022
+崇奉,worship,v,3.00,1.17,0.40,1.35,1.62 ,1.20 ,0.40,Questionnaires
+康乐,well-being,adj,3.00,1.41,-1.81,1.00,1.07 ,1.18 ,1.81,Questionnaires
+溺爱,spoil,v,3.00,1.49,-1.48,0.79,2.81,0.72,1.48,Xu et al. 2022
+轻快,brisk,adj,3.00,1.14,1.60,1.12,1.83 ,1.15 ,1.60,Questionnaires
+无忧的,untroubled,adj,3.00,1.29,1.61,0.69,1.12 ,1.28 ,1.61,Questionnaires
+怡和,delightful harmony,adj,3.00,1.06,1.13,0.92,0.72 ,0.98 ,1.13,Questionnaires
+拥护,support,v,3.00,1.17,1.00,1.08,1.80 ,1.16 ,1.00,Questionnaires
+忠心,loyalty,n,3.00,1.44,2.08,0.78,2.95,1.13,2.08,Xu et al. 2022
+自在,comfortable,adj,3.00,1.16,1.71,0.85,1.46 ,1.39 ,1.71,Questionnaires
+如意,as one wishes,v,2.97,1.25,1.73,1.16,2.07,1.05,1.73,Xu et al. 2022
+无聊,bored,adj,2.97,1.38,-0.96,0.51,1.6,1.29,0.96,Xu et al. 2022
+多情,passionate,adj,2.97,1.18,0,0.89,2.21,1.02,0.00,Xu et al. 2022
+关切,concern,v,2.97,1.18,0.27,1.28,1.50 ,1.07 ,0.27,Questionnaires
+感慨,sigh with emotion,v,2.96,1.20,0.59,1.12,1.68 ,1.25 ,0.59,Questionnaires
+平静,calm,adj,2.96,1.58,0.86,1.18,0.73 ,1.08 ,0.86,Questionnaires
+悠闲,carefree,adj,2.96,1.30,0.93,1.17,1.83,1.29,0.93,Xu et al. 2022
+果敢,courageous and resolute,adj,2.95,1.32,1.72,1.02,2.71,1.14,1.72,Xu et al. 2022
+推崇,canonize,v,2.95,1.32,0.96,0.84,2.74,1.06,0.96,Xu et al. 2022
+可意,gratifying,adj,2.94,1.30,-1.00,0.73,0.86 ,0.77 ,1.00,Questionnaires
+取悦,please sb,v,2.93,1.17,0.13,1.33,2.69,1.16,0.13,Xu et al. 2022
+信服,be convinced,v,2.93,1.23,1.07,0.90,1.54 ,1.30 ,1.07,Questionnaires
+勇敢,brave,adj,2.93,1.26,1.54,0.96,1.81 ,1.20 ,1.54,Questionnaires
+受难,afflict,v,2.93,1.53,-1.31,1.19,2.82,1.1,1.31,Xu et al. 2022
+乐趣,pleasure,n,2.91,1.44,1.96,0.66,2.93,1.05,1.96,Xu et al. 2022
+懦弱,coward,adj,2.91,1.59,-1.52,1.19,2.00 ,1.23 ,1.52,Questionnaires
+夙愿,long-cherished wish,n,2.91,1.27,-0.20,1.41,1.41 ,1.30 ,0.20,Questionnaires
+不解,puzzle,v,2.90,1.45,-0.67,0.78,1.50 ,1.19 ,0.67,Questionnaires
+爽朗,bright and clear,adj,2.90,1.26,1.56,1.04,2.10 ,1.09 ,1.56,Questionnaires
+谨慎,cautious,adj,2.87,1.22,1.13,0.79,2.15,1.14,1.13,Xu et al. 2022
+自由的,unrestricted,adj,2.87,1.69,2.00,0.90,1.54 ,1.50 ,2.00,Questionnaires
+苍凉,bleak,adj,2.87,1.36,-1.25,1.24,1.54 ,1.10 ,1.25,Questionnaires
+迟疑,hesitating,adj,2.87,1.33,-0.93,0.62,1.93,0.92,0.93,Xu et al. 2022
+信誓旦旦,vow solemnly,adj,2.87,1.14,0.6,1.12,2.43,1.23,0.60,Xu et al. 2022
+欲望,desire,n,2.86,1.33,-1,0.98,2.76,0.99,1.00,Xu et al. 2022
+高枕无忧,have nothing worry about,adj,2.86,1.49,0.87,0.69,2.19,0.72,0.87,Xu et al. 2022
+腼腆,undemonstrative,adj,2.86,1.46,0.09,1.15,1.57,1.25,0.09,Xu et al. 2022
+无辜,harmless,adj,2.86,1.06,-0.76,1.13,1.30 ,1.12 ,0.76,Questionnaires
+孝敬,filial respect,v,2.86,1.42,2.48,0.65,2.91,1,2.48,Xu et al. 2022
+幸运,lucky,adj,2.86,1.39,1.8,1.03,2.89,0.96,1.80,Xu et al. 2022
+安宁,peaceful,adj,2.83,1.26,1.44,1.36,0.80 ,1.03 ,1.44,Questionnaires
+惨叫,scream,v,2.83,1.34,-2.35,0.81,3.21,1.32,2.35,Xu et al. 2022
+放心,disburden,v,2.83,1.17,1.69,0.79,2.28,0.98,1.69,Xu et al. 2022
+疲劳,(After working) feel tried,adj,2.83,1.31,-1.08,0.56,1.81,1.3,1.08,Xu et al. 2022
+投入,get into the swing of (one's work),v,2.83,1.37,0.97,0.84,1.72,1.13,0.97,Xu et al. 2022
+消魂,enchanted,v,2.82,1.22,-0.26,1.36,1.72 ,1.16 ,0.26,Questionnaires
+放松,relax,v,2.80,1.21,1.79,0.93,1.96,1.16,1.79,Xu et al. 2022
+宽心,feel relieved,v,2.80,1.16,1.35,1.03,1.09 ,1.15 ,1.35,Questionnaires
+浪漫,romantic,adj,2.79,1.21,1.88,0.91,2.46,1.24,1.88,Xu et al. 2022
+母爱,mother love,n,2.79,1.40,-0.92,0.95,2.20 ,1.32 ,0.92,Questionnaires
+娇宠,coddle,v,2.78,1.44,-1.89,0.89,1.95 ,1.17 ,1.89,Questionnaires
+谢谢,thank you,v,2.78,1.35,1.82,0.66,2.74,0.98,1.82,Xu et al. 2022
+柔情,heartthrob,n,2.77,1.14,1.68,1.22,1.00 ,1.30 ,1.68,Questionnaires
+肃穆,a state of respect,adj,2.77,1.33,0.61,1.17,1.83,1.42,0.61,Xu et al. 2022
+信心,confidence,n,2.77,1.33,2.04,0.76,2.85,0.92,2.04,Xu et al. 2022
+呆板,stiff,adj,2.76,1.14,-1.12,0.77,1.48,1.12,1.12,Xu et al. 2022
+孤立,isolated,adj,2.76,1.30,-1.41,0.82,2.23,1.08,1.41,Xu et al. 2022
+亲情,family affaction ,n,2.76,1.61,1.79,0.98,3,1.09,1.79,Xu et al. 2022
+体谅,1. show understanding and sympathy for,v,2.76,1.06,0.67,1.49,1.55 ,0.96 ,0.67,Questionnaires
+自爱,self-love,v,2.76,1.27,1.00,1.24,1.86 ,1.32 ,1.00,Questionnaires
+头疼,headache,adj,2.75,1.45,-1.64,0.91,2.33 ,1.12 ,1.64,Questionnaires
+缠绵,Can't get rid of the affection,adj,2.74,1.36,0.21,1.25,2.32,1.12,0.21,Xu et al. 2022
+叛逆,revolt,v,2.73,1.28,-1.19,0.87,2.57,1.11,1.19,Xu et al. 2022
+受伤,injure,v,2.73,1.31,-1.29,0.86,2.54,0.95,1.29,Xu et al. 2022
+耐心,patient,adj,2.72,1.13,1.81,1.13,2.09,0.86,1.81,Xu et al. 2022
+幽默,humour,adj,2.71,1.62,1.52,0.82,2.68,0.99,1.52,Xu et al. 2022
+愿望,wish,n,2.71,1.55,1.32,1.07,1.73 ,1.28 ,1.32,Questionnaires
+昂首,raise one's head,v,2.70,1.34,1.44,0.77,2.56,1.01,1.44,Xu et al. 2022
+宁静,serene,adj,2.70,1.34,1.29,1.05,1.35,0.88,1.29,Xu et al. 2022
+相信,trust,v,2.70,1.15,1.63,1.1,2.79,0.79,1.63,Xu et al. 2022
+厄运,adversity,n,2.70,1.43,-2.08,0.98,2.65,1.37,2.08,Xu et al. 2022
+负担,burden,v,2.70,1.33,-1.19,1.06,2.94,1.1,1.19,Xu et al. 2022
+喜好,be keen on,v,2.70,1.46,1.12,0.73,2.85,0.92,1.12,Xu et al. 2022
+破裂,break,v,2.69,1.42,-1.52,0.98,2.36 ,1.09 ,1.52,Questionnaires
+逍遥,free,adj,2.69,1.00,0.56,0.72,2.9,1.08,0.56,Xu et al. 2022
+孝顺,filial respect,v,2.69,1.44,2.36,0.73,2.32,1.16,2.36,Xu et al. 2022
+关注,pay attention to,v,2.67,1.35,0.77,0.65,2.82,0.7,0.77,Xu et al. 2022
+恍惚,faraway,adj,2.67,1.52,-0.92,1.24,1.33,1.11,0.92,Xu et al. 2022
+伤害,impair,v,2.67,1.30,-1.68,0.67,2.86,1.04,1.68,Xu et al. 2022
+受苦,suffer,v,2.67,1.20,-1.08,1.04,2.54,1.24,1.08,Xu et al. 2022
+倚重,rely heavily on sb.'s service,v,2.67,1.39,1,0.86,1.92,1.09,1.00,Xu et al. 2022
+情欲,lust,n,2.66,1.42,0.28,1.28,2.70 ,1.15 ,0.28,Questionnaires
+肃静,solemn and silent,adj,2.66,1.42,0.85,1.32,2.35,1.06,0.85,Xu et al. 2022
+萧瑟,bleak,adj,2.66,1.32,-0.8,0.96,1.58,1.06,0.80,Xu et al. 2022
+理解,understand,v,2.65,1.43,1.21,0.88,1.6,0.93,1.21,Xu et al. 2022
+怠慢,slight,v,2.62,1.21,-1.46,0.58,1.33,1.09,1.46,Xu et al. 2022
+感性,sensitive,adj,2.62,1.37,0.5,1.04,2.42,0.92,0.50,Xu et al. 2022
+好玩,amused,adj,2.62,1.24,-1.00,0.98,1.77 ,1.45 ,1.00,Questionnaires
+和谐,harmonious,adj,2.62,1.36,2.14,0.64,2.35,0.77,2.14,Xu et al. 2022
+恬静,tranquil,adj,2.61,1.34,1.5,0.71,1.33,1.32,1.50,Xu et al. 2022
+奇怪,strange,adj,2.60,1.25,-0.28,0.84,2.24,1.05,0.28,Xu et al. 2022
+自私自利,egoistic,adj,2.60,1.16,-2,0.91,2.96,0.87,2.00,Xu et al. 2022
+自以为是,self-righteous,adj,2.60,1.30,-1.48,1.23,2.16,1.07,1.48,Xu et al. 2022
+安详,serene,adj,2.59,1.21,0.57,1.20,0.73 ,1.08 ,0.57,Questionnaires
+动摇,shake (confidence),adj,2.59,1.09,-0.89,0.99,1.42 ,1.10 ,0.89,Questionnaires
+低沉,overcast,adj,2.57,1.50,-1.14,0.89,1.25,1.22,1.14,Xu et al. 2022
+闲雅,elegant,adj,2.57,1.12,1.46,1.32,0.66 ,0.72 ,1.46,Questionnaires
+充实,substantial,adj,2.57,1.14,1.76,1.09,2.07 ,1.31 ,1.76,Questionnaires
+体贴,show consideration for,v,2.57,1.28,1.73,1,2.36,1.08,1.73,Xu et al. 2022
+恋爱,in relationship,v,2.57,1.44,1.07,0.96,3.06,1.11,1.07,Xu et al. 2022
+爱好,hobby,n,2.52,1.44,1.24,0.93,2.35,1.13,1.24,Xu et al. 2022
+发愣,be in a daze,v,2.52,1.33,-0.59,0.67,1.52,0.89,0.59,Xu et al. 2022
+糊涂,infuscated,adj,2.50,1.22,-1.74,0.98,1.68 ,1.17 ,1.74,Questionnaires
+爱情,affection,n,2.48,1.53,1.38,1.06,3.24,0.83,1.38,Xu et al. 2022
+友情,friendship,n,2.48,1.62,1.69,0.88,2.23,1.03,1.69,Xu et al. 2022
+苦难,misery,n,2.43,1.36,-1.42,0.72,2.43,1,1.42,Xu et al. 2022
+俏皮,witty,adj,2.43,1.36,1.22,0.9,2.19,1.08,1.22,Xu et al. 2022
+恍如,flash,v,2.40,1.73,-0.08,0.74,1.04,0.91,0.08,Xu et al. 2022
+勇气,courage,n,2.37,1.10,2.04,0.64,2.82,1.01,2.04,Xu et al. 2022
+晓畅,Understand the smooth,v,2.36,1.05,1.57,0.93,0.83 ,1.15 ,1.57,Questionnaires
+憋气,choke with resentment,adj,2.34,1.42,-1.28,1.14,1.87 ,1.28 ,1.28,Questionnaires
+懒惰,lazy,adj,2.34,0.94,-1.55,1.2,1.77,1.06,1.55,Xu et al. 2022
+内向,endocentric,adj,2.33,1.56,-0.81,1.02,1.39,0.79,0.81,Xu et al. 2022
+善良,kind,adj,2.30,1.18,2.23,0.71,2.38,1.24,2.23,Xu et al. 2022
+火,fire,n,2.28,1.19,-1.52,0.82,2.24 ,1.37 ,1.52,Questionnaires
+安全,"security,safe",adj,2.23,1.41,2,0.94,2.73,1.12,2.00,Xu et al. 2022
+七情六欲,a chinese idiom: human feelings and desires,n,2.22,1.41,0.07,0.78,2.05 ,1.21 ,0.07,Questionnaires
+胆小,coward,adj,2.20,1.16,-1.14,0.56,1.89,1.34,1.14,Xu et al. 2022
+困乏,sleepy,adj,2.20,1.06,-1.04,1.27,1.5,1.01,1.04,Xu et al. 2022
+僻静,quiet,adj,2.17,1.15,0.22,0.74,0.79,0.98,0.22,Xu et al. 2022
+平安,safe,adj,2.17,1.17,2.15,0.66,2.52,1.31,2.15,Xu et al. 2022
+启发,inspired,v,2.14,1.46,1.41,0.67,2.18,1.18,1.41,Xu et al. 2022
+情绪,mood,n,2.14,1.49,0.07,0.83,2.52,1.05,0.07,Xu et al. 2022
+精神,Spirit,n,2.14,1.09,1,1.14,2.32,0.8,1.00,Xu et al. 2022
+痒痒,itchy,adj,2.14,1.46,-0.32,1.31,1.54 ,1.27 ,0.32,Questionnaires
+仓促,hasty,adj,2.13,1.17,-0.86,0.64,1.85,1.01,0.86,Xu et al. 2022
+感情,affection,n,2.10,1.47,0.91,0.84,3.04,1.02,0.91,Xu et al. 2022
+自主,independent,adj,2.10,1.32,1.12,0.77,2.16,1.07,1.12,Xu et al. 2022
+木讷,wooden,adj,2.10,1.03,-1.24,0.66,1.42,0.73,1.24,Xu et al. 2022
+捣乱,make trouble,v,2.10,1.26,-1.27,0.83,2.84,0.94,1.27,Xu et al. 2022
+呆滞,dull,adj,2.07,1.00,-1.38,1.1,1.71,0.95,1.38,Xu et al. 2022
+平息,appease,v,2.07,1.19,0.54,0.88,0.65 ,0.89 ,0.54,Questionnaires
+留神,look out,v,2.05,1.43,0.57,1.04,2.28,1.04,0.57,Xu et al. 2022
+情感,emotion,n,2.04,1.36,0.63,0.84,2.84,1.21,0.63,Xu et al. 2022
+心情,mood,n,2.00,1.41,0.4,0.87,2.3,1.02,0.40,Xu et al. 2022
+单独,alone,adj,1.96,1.36,0,0.98,1.78,1.15,0.00,Xu et al. 2022
+过敏,be allergic,v,1.91,1.31,-1.13,0.98,2.23,0.85,1.13,Xu et al. 2022
+感受,sense,v,1.90,1.37,0.18,0.55,0.77 ,0.91 ,0.18,Questionnaires
+安然无恙,safe and sound,adj,1.90,0.92,1.6,0.87,1.69,1.01,1.60,Xu et al. 2022
+文静,gentle and quiet,adj,1.86,1.33,1.07,0.6,1.8,1.04,1.07,Xu et al. 2022
+启示, inspiration,n,1.76,1.15,1.04,0.93,1.03 ,1.00 ,1.04,Questionnaires
+了解,realize,v,1.73,0.83,0.73,0.63,1.68,0.69,0.73,Xu et al. 2022
+童叟无欺,be honest,v,1.72,1.00,1.54,0.78,2.28,1.21,1.54,Xu et al. 2022
+打败,defeat,v,1.70,0.75,1.12,1.33,2.67,0.87,1.12,Xu et al. 2022

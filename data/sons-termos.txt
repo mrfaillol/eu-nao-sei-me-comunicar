@@ -1,0 +1,28 @@
+# Termos de busca de sons, um por linha. Famílias: ambiente, objeto, natureza.
+# Fora por decisão da primeira versão: voz humana e sons de corpo (o CC0 não cobre direitos da pessoa gravada).
+room tone
+distant traffic
+hospital
+church bells
+elevator
+electric hum
+radio static
+clock ticking
+door slam
+door creak
+keys
+glass breaking
+phone ringing
+typing
+kettle
+music box
+thunder
+wind howling
+ocean waves
+fire crackling
+birdsong
+crickets
+stream
+water dripping
+rain on window
+leaves rustling
