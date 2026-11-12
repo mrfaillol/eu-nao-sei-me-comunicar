@@ -47,7 +47,7 @@ O acervo publicado é o de demonstração: os 150 itens estão com revisão huma
 - Fechar a caixa (Esc ou **Escolher mais**) conserva a seleção. **Recomeçar** apaga.
 - O **(i)** acima de cada item abre uma caixa: nas pinturas, palavras tiradas do texto de curadoria do museu; nos sons, as tags de quem publicou; nas palavras, a definição do dicionário. Nenhuma palavra é escrita pelo site: `src/ui/descritores.ts` só separa, tira palavras vazias e amostra o texto humano do item. As palavras ficam no idioma em que foram escritas (inglês).
 - Cada língua tem o seu dicionário. Em português, o Dicionário Aberto (Cândido de Figueiredo, 1913), com classe gramatical e a definição seca de dicionário antigo, e o Wikcionário para duas palavras que ele não tem. Em mandarim, o 重編國語辭典修訂本 do Ministério da Educação de Taiwan, com pinyin e, muitas vezes, uma citação clássica; o texto fica em caracteres tradicionais, como foi publicado (a licença é CC BY-ND). Em inglês, o Wiktionary. A definição é copiada; a escolha do verbete e do sentido de cada palavra está em `data/definicoes.json`.
-- No canto direito da barra ficam a assinatura do autor, com link para https://vingren.me, e a foice e o martelo.
+- No canto direito da barra ficam a assinatura do autor, com link para https://vingren.me, e a foice e o martelo, que levam ao repositório no GitHub.
 
 ## Como as partes se encaixam
 
@@ -116,37 +116,50 @@ A aprovação vale só para o conteúdo revisado: se o pipeline rodar de novo e 
 
 ## A função da frase
 
+O site publicado chama `/api/interpretar`, uma função na Vercel (`src/servidor/vercel.ts`, empacotada por `scripts/saida-vercel.mjs`). Ela pede a um modelo de linguagem a frase e a versão em palavras simples, confere as duas e, se qualquer coisa falhar, devolve a frase por regra.
+
+**Estado em 12/Nov/2026: a função está no ar e o modelo está desligado pela conta.** O AI Gateway da Vercel aceitou o token do projeto e respondeu `403 customer_verification_required`: falta um cartão cadastrado na conta para liberar os créditos gratuitos. Enquanto isso, toda resposta sai pela regra. Para ligar, uma das duas:
+
+1. Cadastrar um cartão em Vercel → AI Gateway. Nada mais muda: a função se autentica com o token que a Vercel dá ao próprio projeto, sem chave guardada.
+2. Ou gravar uma chave da Anthropic no projeto, você mesmo, sem colar em chat: `pnpm dlx vercel@latest env add ANTHROPIC_API_KEY production`.
+
 | Variável | Efeito |
 |---|---|
-| `ANTHROPIC_API_KEY` | Liga o modelo. Sem ela, a função responde só pela regra |
-| `FRASE_MODELO` | Troca o modelo. Padrão: `claude-opus-5-5`, o mais caro da família; a escolha do modelo é do dono e o plano original previa um menor |
-| `FRASE_PROVEDOR=nenhum` | Desliga o modelo mesmo com chave |
-| `VITE_API_BASE` | No site: endereço da função. Vazio: modo de demonstração, tudo no aparelho |
+| (nenhuma) | Usa o AI Gateway com o token do projeto e o modelo `anthropic/claude-haiku-5.5` |
+| `ANTHROPIC_API_KEY` | Vai direto à Anthropic, com `claude-opus-5-5` por padrão |
+| `FRASE_MODELO` | Troca o modelo de qualquer um dos dois caminhos |
+| `FRASE_PROVEDOR=nenhum` | Desliga o modelo |
+| `VITE_API_BASE` | No build do site: endereço da função. O `vercel.json` põe `.`; sem ela (testes, Capacitor), tudo fica no aparelho |
 
-A função recebe só os identificadores das escolhas (três ou mais) e o idioma. Ela recusa origem de navegador fora da lista (403), tipo de conteúdo sem preflight (415) e corpo acima de 16 KB (413). Com mais de doze itens ela responde pela regra, sem chamar o modelo: o pedido levaria o texto de todos os itens e a frase nomeia no máximo quatro termos. **Antes de publicar com chave**, ponha limite de pedidos por cliente na hospedagem: quem chama sem navegador não manda origem, e contar pedidos por IP é trabalho da hospedagem.
+Custo de referência no gateway: o `claude-haiku-5.5` sai a US$ 0,10 por milhão de tokens de entrada e US$ 0,50 de saída; um pedido tem cerca de 1.500 tokens de entrada e 150 de saída, perto de US$ 0,0002.
 
-O servidor de produção ainda não tem adaptador: `criarInterpretar` recebe um `Request` e devolve um `Response`, e o adaptador da hospedagem escolhida é um arquivo de poucas linhas.
+O que protege o gasto e a pessoa:
+
+- A função recebe só os identificadores das escolhas (três ou mais) e o idioma. Recusa origem de navegador fora da lista (403), tipo de conteúdo sem preflight (415) e corpo acima de 16 KB (413).
+- Limite dentro da função: 6 chamadas ao modelo por visitante por minuto e 400 por hora no total, por instância. Quem passa do limite recebe a frase por regra. É uma contenção, não uma barreira perfeita: cada instância conta a sua.
+- Com mais de doze itens, a resposta sai pela regra: o pedido levaria o texto de todos e a frase nomeia no máximo quatro termos.
+- A frase do modelo passa pelo validador inteiro; a versão simples, pelas regras que valem para ela (não atribuir estado à pessoa, não aconselhar, não citar autor, idioma certo) e por um teto de tamanho. Versão simples reprovada é descartada, e o aparelho compõe a dele por regra.
+- Se a conta recusar a credencial, a função pausa o modelo por dez minutos em vez de insistir a cada pedido.
 
 ## Estado, medido em 12/Nov/2026
 
 - Acervo conferido: 30 pinturas (20 com rosto de destaque), 30 sons, 90 palavras, 60 delas com definição no dicionário da própria língua. Acervo ampliado: 615 pinturas (293 com rosto) e 873 sons, com os 34 construtos representados. Tudo com revisão humana pendente. Glossário com 34 construtos e 4 termos de dimensão.
-- Testes: 113 em Python, 307 de unidade em TypeScript, 84 de navegador (celular e tela larga, só em Chromium).
+- Testes: 113 em Python, 324 de unidade em TypeScript, 84 de navegador (celular e tela larga, só em Chromium).
 - Validador: rejeita 33 de 33 frases defeituosas do conjunto de regressão e aceita 18 de 18 de referência. **É uma barreira, não uma prova.** A revisão final fez passar 13 frases que atribuíam estado à pessoa ou aconselhavam ("o medo que te consome", "you're anxious"); hoje elas são rejeitadas e viraram teste, mas a regra continua sendo lista, com furos por natureza.
 - O compositor por regra não gera frase reprovada: conferido pelo revisor em 352.440 frases (todos os trios do índice, nos três idiomas) e, no repositório, por um teste sobre uma amostra fixa.
 - Sonda do pré-prompt com modelo real: 17 de 18 respostas aprovadas na primeira tentativa. A reprovada, em mandarim, não tinha verbo de mensagem. Uma tentativa de injeção plantada nas tags de um som foi tratada como dado nos três idiomas.
 - Pareamento cego: um juiz que só viu o texto humano dos itens ligou 6 de 6 frases por regra à seleção certa.
 - Sem rede: depois da primeira visita, o site funciona inteiro (teste de navegador corta a rede e refaz o fluxo).
 
-### Antes de ligar o modelo
+### Quando o modelo ligar
 
-1. Medir a taxa de escape do validador com saída real do provedor escolhido, nos três idiomas, e ler uma amostra das frases aprovadas.
-2. Pôr limite de pedidos por cliente na hospedagem.
-3. Sondar o pré-prompt de novo: a versão `2026-11-12.2` passou a dizer "três ou mais itens", e a sonda de 17 em 18 foi feita com a versão anterior, sempre com três.
-4. Confirmar na primeira chamada que o pedido é aceito. Que `claude-opus-5-5` rejeita `temperature` foi lido na documentação do SDK, não medido. Falha do provedor aparece no registro do servidor como `[interpretar] caminho do modelo falhou: <tipo>`.
+1. Medir o validador com saída real, nos três idiomas, e ler uma amostra das frases e das versões simples aprovadas. Até aqui nenhuma resposta de modelo real passou por ele em produção.
+2. O pré-prompt está na versão `2026-11-12.3`, que pede também a versão simples. A sonda de 17 em 18 foi feita com a primeira versão, sempre com três itens.
+3. Olhar o registro da função: falha do modelo aparece como `[interpretar] caminho do modelo falhou: <tipo>`.
 
 ### NÃO PROVADO
 
-- Nenhuma chamada à API de um provedor. A sonda e o pareamento usaram subagentes da sessão de desenvolvimento, dentro de outro arnês.
+- Nenhuma frase escrita por modelo chegou a uma pessoa. A única chamada real a um provedor foi a do AI Gateway em 12/Nov, recusada por falta de cartão na conta. A sonda e o pareamento usaram subagentes da sessão de desenvolvimento.
 - Em aparelho há uma prova só: uma captura do dono num iPhone, em 12/Nov, com a tela, a barra e o (i) desenhados certo. Fora isso, nada foi medido em aparelho. Som em iPhone real, instalação da PWA e o app do Capacitor em uso ficam por testar. Hipótese a testar primeiro: o service worker entrega os `.mp3` sem tratar pedidos com `Range`, e o Safari costuma recusar isso; se valer, os sons não tocam na PWA instalada no iPhone (dentro do app Capacitor não há service worker e a hipótese não se aplica).
 - O pareamento cego usou modelo como juiz, não gente.
 

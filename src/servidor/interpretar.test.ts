@@ -157,6 +157,55 @@ describe("interpretar com mais de três itens", () => {
   });
 });
 
+describe("interpretar com a versão simples escrita pelo modelo", () => {
+  const com = (simples: unknown) => JSON.stringify({ frase: c1.frase["pt-BR"], construtos_usados: c1.construtos_usados, simples });
+
+  it("versão simples que fala da escolha vai junto com a frase", async () => {
+    const texto = "O que você escolheu volta a um mesmo assunto, e os três itens falam dele de jeitos diferentes.";
+    const { corpo } = await chamar(provedorFalso([com(texto)]));
+    expect(corpo.origem).toBe("modelo");
+    expect(corpo.simples).toBe(texto);
+  });
+
+  it("versão simples que diz o que a pessoa sente é descartada, e a frase fica", async () => {
+    const { corpo, falhas } = await chamar(provedorFalso([com("Você está triste e precisa descansar.")]));
+    expect(corpo.origem).toBe("modelo");
+    expect(corpo).not.toHaveProperty("simples");
+    expect(falhas.some((f) => f.startsWith("simples:"))).toBe(true);
+  });
+
+  it("versão simples comprida demais, vazia ou que não é texto é descartada", async () => {
+    for (const ruim of ["x ".repeat(400), "   ", 42, null]) {
+      const { corpo } = await chamar(provedorFalso([com(ruim)]));
+      expect(corpo.origem).toBe("modelo");
+      expect(corpo).not.toHaveProperty("simples");
+    }
+  });
+
+  it("a frase por regra nunca leva versão simples do servidor: quem compõe é o aparelho", async () => {
+    const { corpo } = await chamar(null);
+    expect(corpo).not.toHaveProperty("simples");
+  });
+});
+
+describe("interpretar poupa o modelo", () => {
+  it("quando o limite de chamadas recusa, responde pela regra sem chamar o modelo e sem erro", async () => {
+    const p = provedorFalso([boa]);
+    const interpretar = criarInterpretar({ acervo, glossario, provedor: p, origens: ORIGENS, podeChamarModelo: () => false });
+    const resposta = await interpretar(pedido(selecao));
+    expect(resposta.status).toBe(200);
+    expect(((await resposta.json()) as Resposta).origem).toBe("regra");
+    expect(p.chamadas).toHaveLength(0);
+  });
+
+  it("o limite recebe o pedido, para identificar o visitante pelo cabeçalho", async () => {
+    const vistos: string[] = [];
+    const interpretar = criarInterpretar({ acervo, glossario, provedor: provedorFalso([boa]), origens: ORIGENS, podeChamarModelo: (p) => (vistos.push(p.headers.get("x-forwarded-for") ?? ""), true) });
+    await interpretar(new Request("https://api.exemplo.test/api/interpretar", { method: "POST", headers: { "content-type": "application/json", origin: SITE, "x-forwarded-for": "203.0.113.9" }, body: JSON.stringify(selecao) }));
+    expect(vistos).toEqual(["203.0.113.9"]);
+  });
+});
+
 describe("interpretar recusa o que foge do contrato", () => {
   const ids = selecao.itens;
   const invalidos: Array<[string, unknown]> = [

@@ -580,9 +580,13 @@ details summary {
 .autoria .assinatura:hover { color: var(--barra); }
 .autoria .assinatura:focus-visible { outline: 2px dotted var(--tinta); outline-offset: 2px; }
 
+.autoria .simbolo:hover { color: var(--barra); }
+.autoria .simbolo:focus-visible { outline: 2px dotted var(--tinta); outline-offset: 2px; }
+
 .autoria .simbolo {
   font: 400 27px/1 "Apple Symbols", "Segoe UI Symbol", "Noto Sans Symbols 2", "Noto Sans Symbols", "DejaVu Sans", sans-serif;
   color: var(--tinta);
+  text-decoration: none;
 }
 
 .demais summary {

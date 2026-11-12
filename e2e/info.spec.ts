@@ -139,7 +139,12 @@ test("a assinatura do autor fica no canto inferior direito da barra, com o link 
   await expect(link).toHaveAttribute("href", "https://vingren.me");
   await expect(link).toHaveAttribute("rel", /noopener/);
   await expect(link.locator("svg path")).toHaveCount(3);
-  await expect(page.locator(".tarefas .autoria .simbolo")).toHaveText(/☭/);
+  const simbolo = page.locator(".tarefas .autoria a.simbolo");
+  await expect(simbolo).toHaveText(/☭/);
+  // a foice e o martelo levam ao código-fonte
+  await expect(simbolo).toHaveAttribute("href", "https://github.com/mrfaillol/eu-nao-sei-me-comunicar");
+  await expect(simbolo).toHaveAttribute("rel", /noopener/);
+  await expect(simbolo).toHaveAccessibleName(/GitHub/);
   // As medidas não dependem da fonte do sistema: a assinatura está na mesma linha do seletor de idioma,
   // encostada na direita, dentro da barra que fica presa ao chão da tela.
   const lugar = await page.evaluate(() => {

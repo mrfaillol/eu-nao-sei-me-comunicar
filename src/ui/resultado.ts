@@ -65,7 +65,8 @@ export function desenharResultado(corpo: HTMLElement, resposta: Resposta, escolh
     // A frase é anunciada a quem usa leitor de tela assim que chega.
     el("p", { class: "frase", lang: resposta.idioma, role: "status", "data-origem": resposta.origem }, resposta.frase),
     // A mesma mensagem sem termo técnico, para quem não lê artigo científico.
-    el("p", { class: "simples", lang: resposta.idioma }, el("strong", {}, `${t("resultado.simples", idioma)}${resposta.idioma === "zh-CN" ? "：" : ": "}`), comporSimples(resposta.construtos_usados, escolhidos, resposta.idioma, glossario)),
+    el("p", { class: "simples", lang: resposta.idioma }, el("strong", {}, `${t("resultado.simples", idioma)}${resposta.idioma === "zh-CN" ? "：" : ": "}`), // Quando o modelo escreveu a versão simples e ela passou na conferência do servidor, vale a dele; senão, a composta por regra.
+      resposta.simples ?? comporSimples(resposta.construtos_usados, escolhidos, resposta.idioma, glossario)),
     el("p", { class: "nota" }, t("resultado.aviso", idioma)),
     el("p", { class: "nota" }, t(resposta.origem === "regra" ? "resultado.regra" : "resultado.modelo", idioma)),
     el("h3", {}, t("resultado.termos", idioma)),

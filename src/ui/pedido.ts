@@ -52,7 +52,10 @@ async function daFuncao(ids: string[], idioma: Idioma, deps: DependenciasDoPedid
     });
     if (!resposta.ok) return null;
     const dado: unknown = await resposta.json();
-    return ehResposta(dado) ? { ...dado, idioma, ajuda_destacada: Boolean(dado.ajuda_destacada) } : null;
+    if (!ehResposta(dado)) return null;
+    // A versão simples é opcional e entra na tela como texto: qualquer outra coisa é ignorada.
+    const { simples, ...resto } = dado as Resposta & { simples?: unknown };
+    return { ...resto, idioma, ajuda_destacada: Boolean(dado.ajuda_destacada), ...(typeof simples === "string" && simples.trim() !== "" ? { simples: simples.trim() } : {}) };
   } catch {
     return null; // sem rede, prazo estourado, corpo que não é JSON
   } finally {

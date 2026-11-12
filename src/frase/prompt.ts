@@ -5,7 +5,7 @@ import { termosPermitidos } from "./termos";
 import type { Glossario, Idioma, Item } from "./tipos";
 import type { Codigo } from "./validador";
 
-export const VERSAO_PROMPT = "2026-11-12.2";
+export const VERSAO_PROMPT = "2026-11-12.3";
 
 const MESTRE = `Você escreve uma frase para o aplicativo "Eu Não Sei Me Comunicar". A pessoa não escreveu nada. Ela escolheu três ou mais itens entre pinturas, sons e palavras, e a sua frase diz a ela, em segunda pessoa, o que essa seleção comunica.
 
@@ -33,8 +33,14 @@ PROIBIDO
 ESCOLHAS DE SOFRIMENTO INTENSO
 O registro é o mesmo. Descreva com precisão o que a seleção comunica, sem atenuar, sem dramatizar e sem mencionar ajuda. O aplicativo mostra o recurso de ajuda por conta própria.
 
+VERSÃO SIMPLES
+Além da frase, escreva "simples": a mesma mensagem para quem nunca leu um artigo científico, no idioma de saída.
+- Uma ou duas frases curtas, com palavras do dia a dia. Nenhum termo de termos_permitidos e nenhum outro termo técnico: diga o que o termo quer dizer.
+- Comece pelo que foi escolhido ("O que você escolheu", "What you chose", "你选的东西") e fale do que essas escolhas dizem juntas. Pode citar um detalhe concreto dos itens (a chuva, o sino, o rosto).
+- Valem as mesmas proibições da frase: não diga o que a pessoa sente, é ou tem, não aconselhe, não console, não cite artista, título, autor ou ano.
+
 RESPOSTA
-Só este JSON, sem texto antes ou depois: {"frase": "...", "construtos_usados": ["id"]}
+Só este JSON, sem texto antes ou depois e sem cerca de código: {"frase": "...", "construtos_usados": ["id"], "simples": "..."}
 construtos_usados lista os ids de termos_permitidos cujos termos estão na frase.`;
 
 const BLOCO_DE_IDIOMA: Record<Idioma, string> = {

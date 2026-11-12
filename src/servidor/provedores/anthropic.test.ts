@@ -1,6 +1,6 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { describe, expect, it } from "vitest";
-import { criarProvedorAnthropic, escolherProvedor, FalhaDoProvedor, MODELO_PADRAO } from "./anthropic";
+import { criarProvedorAnthropic, criarProvedorDoGateway, escolherProvedor, FalhaDoProvedor, MODELO_DO_GATEWAY, MODELO_PADRAO } from "./anthropic";
 
 /** Cliente falso: registra o pedido e devolve a resposta dada, sem rede. */
 function clienteFalso(resposta: unknown) {
@@ -81,3 +81,63 @@ describe("escolherProvedor", () => {
     expect(escolherProvedor({ ANTHROPIC_API_KEY: "chave-de-teste", FRASE_PROVEDOR: "nenhum" })).toBeNull();
   });
 });
+
+describe("provedor pelo AI Gateway da Vercel", () => {
+  function clienteDoGateway(resposta: unknown) {
+    const pedidos: Array<{ corpo: Record<string, unknown>; opcoes: Record<string, unknown> }> = [];
+    const cliente = {
+      messages: {
+        create: async (corpo: Record<string, unknown>, opcoes: Record<string, unknown>) => {
+          pedidos.push({ corpo, opcoes });
+          if (resposta instanceof Error) throw resposta;
+          return resposta;
+        },
+      },
+    } as unknown as Anthropic;
+    return { cliente, pedidos };
+  }
+
+  it("usa a API de mensagens estável, sem recurso beta, com teto curto de saída", async () => {
+    const { cliente, pedidos } = clienteDoGateway({ stop_reason: "end_turn", content: [{ type: "text", text: '{"frase":"x"}' }] });
+    const texto = await criarProvedorDoGateway("anthropic/claude-haiku-5.5", cliente).gerar("SISTEMA", "USUARIO", 1, sinal);
+    expect(texto).toBe('{"frase":"x"}');
+    const { corpo, opcoes } = pedidos[0]!;
+    expect(corpo.model).toBe("anthropic/claude-haiku-5.5");
+    expect(corpo.system).toBe("SISTEMA");
+    expect(corpo.messages).toEqual([{ role: "user", content: "USUARIO" }]);
+    expect(corpo.max_tokens).toBeLessThanOrEqual(1024);
+    for (const campo of ["betas", "fallbacks", "output_config", "temperature", "thinking"]) expect(corpo).not.toHaveProperty(campo);
+    expect(opcoes.signal).toBe(sinal);
+    expect(opcoes.maxRetries).toBe(0);
+  });
+
+  it("recusa e erro de limite viram falhas classificadas, como no provedor direto", async () => {
+    const recusa = clienteDoGateway({ stop_reason: "refusal", content: [] });
+    await expect(criarProvedorDoGateway("m", recusa.cliente).gerar("s", "u", 1, sinal)).rejects.toMatchObject({ tipo: "recusa" });
+    const limite = clienteDoGateway(new Anthropic.RateLimitError(429, undefined, "limite", new Headers()));
+    await expect(criarProvedorDoGateway("m", limite.cliente).gerar("s", "u", 1, sinal)).rejects.toMatchObject({ tipo: "limite" });
+  });
+
+  it("conta sem acesso ao gateway (403) vira falha de autenticação, não erro genérico", async () => {
+    // Medido em 12/Nov/2026: sem cartão cadastrado na Vercel, o gateway devolve 403 customer_verification_required.
+    const semAcesso = clienteDoGateway(new Anthropic.PermissionDeniedError(403, undefined, "customer_verification_required", new Headers()));
+    await expect(criarProvedorDoGateway("m", semAcesso.cliente).gerar("s", "u", 1, sinal)).rejects.toMatchObject({ tipo: "autenticacao" });
+  });
+
+  it("sem chave da Anthropic, o token do projeto liga o gateway com o modelo barato", () => {
+    const p = escolherProvedor({}, "token-do-projeto");
+    expect(p?.nome).toBe(`gateway:${MODELO_DO_GATEWAY}`);
+    expect(MODELO_DO_GATEWAY).toBe("anthropic/claude-haiku-5.5");
+  });
+
+  it("FRASE_MODELO troca o modelo do gateway, e FRASE_PROVEDOR=nenhum desliga", () => {
+    expect(escolherProvedor({ FRASE_MODELO: "anthropic/claude-sonnet-5.5" }, "t")?.nome).toBe("gateway:anthropic/claude-sonnet-5.5");
+    expect(escolherProvedor({ FRASE_PROVEDOR: "nenhum" }, "t")).toBeNull();
+  });
+
+  it("sem token e sem chave não há modelo", () => {
+    expect(escolherProvedor({}, undefined)).toBeNull();
+    expect(escolherProvedor({}, "")).toBeNull();
+  });
+});
+
