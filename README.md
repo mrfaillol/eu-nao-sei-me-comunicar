@@ -29,9 +29,9 @@ Sem chave de modelo e sem rede o site funciona inteiro: a frase é composta por 
 
 - **CI** (`.github/workflows/ci.yml`): roda em todo pull request e em todo push na `main`. Dois trabalhos: `site` (testes de unidade, build e testes de navegador em Chromium) e `acervo` (testes do pipeline em Python, com `ffmpeg` instalado no runner).
 - **Publicação**: o projeto `eunaoseimecomunicar` na Vercel está ligado a este repositório. Push na `main` publica em produção, em https://eunaoseimecomunicar.vercel.app. Push em qualquer outro ramo gera uma prévia, protegida por login da Vercel.
-- O que vai para a Vercel é só o site estático (`dist/`), configurado em `vercel.json`. A função `interpretar` não é publicada: sem chave de modelo ela só repetiria a frase por regra, que o navegador já compõe sozinho.
+- Vão para a Vercel o site estático e a função `interpretar`, montados por `pnpm build:vercel` (`scripts/saida-vercel.mjs`) e configurados em `vercel.json`. O estado da função está em "A função da frase", mais abaixo.
 - A Vercel não espera o CI: ela publica o que chegar na `main`. Quem segura código quebrado é a revisão do pull request, com o CI verde antes de mesclar.
-- No plano gratuito da Vercel, commit de repositório privado só é publicado quando o autor é reconhecido pelo GitHub. Por isso o `git config user.email` deste repositório usa o e-mail `noreply` da conta.
+- O repositório é público desde 12/Nov/2026. O `git config user.email` daqui usa o e-mail `noreply` da conta do GitHub: a Vercel reconhece o autor e nenhum e-mail pessoal entra no histórico. Os 23 primeiros commits são anteriores a essa configuração e levam o nome da máquina em que foram feitos.
 
 `node scripts/gravar-demo.mjs [url] [saida.mp4] [semente]` grava o vídeo de divulgação em `divulgacao/`: uma passada pelo site, muda, com zooms. A semente fixa o sorteio das opções; a tomada guardada é a de semente 58, gravada em 12/Nov depois do acervo maior e da versão simples.
 
