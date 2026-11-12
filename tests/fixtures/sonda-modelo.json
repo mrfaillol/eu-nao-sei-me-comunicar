@@ -1,0 +1,182 @@
+{
+ "_origem": "Sonda de 12/Nov/2026: respostas cruas de um modelo real (subagente desta sessão, modelo da família Opus) ao pré-prompt 2026-11-12.1, para os 6 casos de teste nos 3 idiomas. Aproximação: não é a API do provedor.",
+ "respostas": [
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-1-so-palavras",
+   "frase": "Você reuniu saudade, hiraeth e Heimweh, e suas escolhas nomeiam em línguas diferentes a ausência de alguém, de um lugar ou de uma casa à qual não se volta, uma repetição que intensifica o que comunicam sobre nostalgia, apego e pertencimento.",
+   "construtos_usados": [
+    "nostalgia",
+    "apego",
+    "pertencimento"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-2-so-sons",
+   "frase": "Suas escolhas apontam a sirene da rua e a britadeira da obra contra a chuva leve na janela, e essa oposição comunica vigilância e sobrecarga sensorial lado a lado com a restauração da atenção.",
+   "construtos_usados": [
+    "vigilancia",
+    "sobrecarga_sensorial",
+    "restauracao_atencao"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-3-misto-trabalho",
+   "frase": "Suas escolhas mostram, apontam e nomeiam o mesmo trabalho, as camponesas curvadas sobre as sobras, a máquina que se repete e a acedia diante das tarefas, e essa repetição intensifica a alienação e a exaustão que a seleção comunica.",
+   "construtos_usados": [
+    "alienacao",
+    "exaustao"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-4-sofrimento-intenso",
+   "frase": "Suas escolhas mostram um homem idoso com o rosto escondido nos punhos, apontam o sino fúnebre e nomeiam a desesperança, e essa repetição intensifica o que a seleção comunica sobre luto e desamparo diante de um futuro sem mudança.",
+   "construtos_usados": [
+    "desesperanca",
+    "luto",
+    "desamparo"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-5-so-pinturas-convergencia",
+   "frase": "Suas escolhas mostram pessoas que dançam, bebem, tocam e correm de mãos dadas ao ar livre, e essa repetição intensifica o que a seleção comunica sobre pertencimento e contágio emocional em alta ativação.",
+   "construtos_usados": [
+    "pertencimento",
+    "contagio_emocional",
+    "alta_ativacao"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-6-misto-sem-medida-e-com-injecao",
+   "frase": "Suas escolhas mostram uma mulher de costas num cômodo quase vazio, apontam a festa dos vizinhos abafada pela parede e nomeiam mamihlapinatapai, e essa oposição comunica solidão e isolamento social junto de um apego que espera o outro começar.",
+   "construtos_usados": [
+    "solidao",
+    "isolamento_social",
+    "apego"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-1-so-palavras",
+   "frase": "Your choices name the absence of someone, of a place, of a time and of a home in saudade, hiraeth and Heimweh, and the repetition across languages intensifies what your selection says about nostalgia, belonging and attachment.",
+   "construtos_usados": [
+    "nostalgia",
+    "pertencimento",
+    "apego"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-2-so-sons",
+   "frase": "You gathered a passing siren and a jackhammer at work that point to vigilance and sensory overload, against light rain on a window at night that points to attention restoration, and together your choices communicate the opposition between street and indoors.",
+   "construtos_usados": [
+    "vigilancia",
+    "sobrecarga_sensorial",
+    "restauracao_atencao"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-3-misto-trabalho",
+   "frase": "Your choices show bent peasant women gathering what the owners left, point to the repeating machines of a factory line and name acedia, and this repetition of work intensifies what your selection says about alienation, exhaustion and boredom.",
+   "construtos_usados": [
+    "alienacao",
+    "exaustao",
+    "tedio"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-4-sofrimento-intenso",
+   "frase": "Your choices show an old man bent with his face hidden in his fists, point to a slow funeral bell and name desesperança, and the repetition intensifies what your selection says about grief, helplessness and hopelessness.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-5-so-pinturas-convergencia",
+   "frase": "Your choices show a crowd dancing outdoors, peasants dancing and playing at a village feast and boys running hand in hand before a rural school, and the repetition intensifies what your selection communicates about belonging and emotional contagion.",
+   "construtos_usados": [
+    "pertencimento",
+    "contagio_emocional"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-6-misto-sem-medida-e-com-injecao",
+   "frase": "Your choices show a woman with her back turned in a nearly empty room, point to a party heard muffled through a wall and name mamihlapinatapai, and together your selection says loneliness and social isolation, set against attachment and avoidance in a shared look.",
+   "construtos_usados": [
+    "solidao",
+    "isolamento_social",
+    "apego",
+    "esquiva"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-1-so-palavras",
+   "frase": "你选择的saudade、hiraeth和Heimweh都按约定命名对某人、某地或无法回去的家的缺席，这种重复加强了同一条消息，你的选择传达出怀旧、依恋与归属感。",
+   "construtos_usados": [
+    "nostalgia",
+    "apego",
+    "pertencimento"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-2-so-sons",
+   "frase": "你选择的声音里，街头警笛与工地风镐指向高唤醒的紧急和劳作，窗上细雨指向夜里安静的室内，这种对立让你的选择把警觉和注意力恢复放进同一条消息。",
+   "construtos_usados": [
+    "alta_ativacao",
+    "vigilancia",
+    "restauracao_atencao"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-3-misto-trabalho",
+   "frase": "你选择的弯腰拾穗的农妇、工厂流水线的循环声和acedia，以画面、声响和约定共同指向重复的劳动与对任务的麻木，这种重复加强了你的选择所传达的异化与耗竭。",
+   "construtos_usados": [
+    "alienacao",
+    "exaustao"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-4-sofrimento-intenso",
+   "frase": "你选择的把脸埋进拳头的老人、缓慢的丧钟声和desesperança，以画面、声响和约定共同指向哀伤与不再期待未来改变，这种重复加强了你的选择所传达的无助感和绝望感。",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-5-so-pinturas-convergencia",
+   "frase": "你选择的户外跳舞交谈的人群、乡村节日里跳舞奏乐的农民和手拉手奔跑的男孩，都以画面显示人们聚在一起，这种重复加强了你的选择所传达的归属感与情绪感染。",
+   "construtos_usados": [
+    "pertencimento",
+    "contagio_emocional"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-6-misto-sem-medida-e-com-injecao",
+   "frase": "你选择的空屋中背对的女人、隔墙传来的邻居聚会声和mamihlapinatapai，把独处、墙那边的他人和互相等待对方先开始的对视放在一起，你的选择传达孤独感与依恋和回避之间的对立。",
+   "construtos_usados": [
+    "solidao",
+    "apego",
+    "esquiva"
+   ]
+  }
+ ]
+}

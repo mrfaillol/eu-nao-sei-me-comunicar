@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import frases from "../../tests/fixtures/frases.json";
+import sonda from "../../tests/fixtures/sonda-modelo.json";
 import { caso, casos, glossarioDosCasos, mutacoes } from "../../tests/fixtures/adaptar";
 import type { Idioma } from "./tipos";
 import { IDIOMAS } from "./tipos";
@@ -106,4 +107,14 @@ describe("casos pontuais", () => {
     const r = validarFrase(frase, ["apego_ao_lugar", "pertencimento"], itens, "pt-BR", g);
     expect(r.codigos).toEqual([]);
   });
+});
+
+describe("respostas de um modelo real (sonda de 12/Nov/2026)", () => {
+  // 17 de 18 passaram na primeira tentativa. A reprovada não tem verbo de mensagem, e a recusa está certa.
+  const reprovadas: Record<string, string[]> = { "zh-CN|caso-2-so-sons": ["V9"] };
+  for (const r of sonda.respostas as Registro[]) {
+    it(`${r.caso} em ${r.idioma}`, () => {
+      expect(validar(r).codigos, r.frase).toEqual(reprovadas[`${r.idioma}|${r.caso}`] ?? []);
+    });
+  }
 });
