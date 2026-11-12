@@ -1,0 +1,932 @@
+[
+ {
+  "id": "som:freesound:186024",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Birdsong Singleshot Denoised Wakeup Alarm",
+  "texto_humano": "Birdsong Singleshot Denoised Wakeup Alarm | alarm, bird, birdsong, calm, chaffinch, denoised, high-pitch, nature, singleshot, wakeup",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "unfa",
+   "linha": "Birdsong Singleshot Denoised Wakeup Alarm, por unfa, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/unfa/sounds/186024"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-186024.mp3",
+   "duracao_ms": 2725
+  },
+  "_termo": "birdsong"
+ },
+ {
+  "id": "som:freesound:509104",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Church Bells",
+  "texto_humano": "Church Bells | bell, bells, church, recorder",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "tripjazz",
+   "linha": "Church Bells, por tripjazz, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/tripjazz/sounds/509104"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-509104.mp3",
+   "duracao_ms": 10492
+  },
+  "_termo": "church bells"
+ },
+ {
+  "id": "som:freesound:130388",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Clock ticking",
+  "texto_humano": "Clock ticking | clock, tic, ticking, toc",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "olver",
+   "linha": "Clock ticking, por olver, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/olver/sounds/130388"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-130388.mp3",
+   "duracao_ms": 5915
+  },
+  "_termo": "clock ticking"
+ },
+ {
+  "id": "som:freesound:129678",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "crickets",
+  "texto_humano": "crickets | chirping, crickets, night",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "FreethinkerAnon",
+   "linha": "crickets, por FreethinkerAnon, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/FreethinkerAnon/sounds/129678"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-129678.mp3",
+   "duracao_ms": 15577
+  },
+  "_termo": "crickets"
+ },
+ {
+  "id": "som:freesound:553149",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Car Horn Honk 02 - Single, Distant - EXT Day Brooklyn Street corner ambience",
+  "texto_humano": "Car Horn Honk 02 - Single, Distant - EXT Day Brooklyn Street corner ambience | ambiance, ambience, ambient, atmos, atmospheric, brooklyn, car, city-rumble, field-recording, honk, horn, new-york-city, nyc, traffic",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Brett+Butter",
+   "linha": "Car Horn Honk 02 - Single, Distant - EXT Day Brooklyn Street corner ambience, por Brett+Butter, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/Brett+Butter/sounds/553149"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-553149.mp3",
+   "duracao_ms": 11267
+  },
+  "_termo": "distant traffic"
+ },
+ {
+  "id": "som:freesound:704612",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "The Door Creaks: You're Not Alone",
+  "texto_humano": "The Door Creaks: You're Not Alone | creak, creaking, door, open, opening, wooden",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "MATRIXXX_",
+   "linha": "The Door Creaks: You're Not Alone, por MATRIXXX_, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/MATRIXXX_/sounds/704612"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-704612.mp3",
+   "duracao_ms": 8500
+  },
+  "_termo": "door creak"
+ },
+ {
+  "id": "som:freesound:174643",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Door Slammed",
+  "texto_humano": "Door Slammed | closed, door, hard, slam, slammed",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "altfuture",
+   "linha": "Door Slammed, por altfuture, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/altfuture/sounds/174643"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-174643.mp3",
+   "duracao_ms": 11437
+  },
+  "_termo": "door slam"
+ },
+ {
+  "id": "som:freesound:349696",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "electric humming heavy",
+  "texto_humano": "electric humming heavy | buzz, deep, electric, electrical, electricity, heavy, hum, humming, zap",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Mikes-MultiMedia",
+   "linha": "electric humming heavy, por Mikes-MultiMedia, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/Mikes-MultiMedia/sounds/349696"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-349696.mp3",
+   "duracao_ms": 14791
+  },
+  "_termo": "electric hum"
+ },
+ {
+  "id": "som:freesound:119448",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Elevator Ding",
+  "texto_humano": "Elevator Ding | ding, elevator, ping",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "lmbubec",
+   "linha": "Elevator Ding, por lmbubec, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/lmbubec/sounds/119448"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-119448.mp3",
+   "duracao_ms": 4233
+  },
+  "_termo": "elevator"
+ },
+ {
+  "id": "som:freesound:188038",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Fire Crackling",
+  "texto_humano": "Fire Crackling | crackle, crackling, fire, flame, flames, heat, hot, pop, popping",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "AntumDeluge",
+   "linha": "Fire Crackling, por AntumDeluge, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/AntumDeluge/sounds/188038"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-188038.mp3",
+   "duracao_ms": 2871
+  },
+  "_termo": "fire crackling"
+ },
+ {
+  "id": "som:freesound:378568",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Glass Breaking",
+  "texto_humano": "Glass Breaking | breaking, glass, shatter",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "ToxicFilmzSRsounds",
+   "linha": "Glass Breaking, por ToxicFilmzSRsounds, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/ToxicFilmzSRsounds/sounds/378568"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-378568.mp3",
+   "duracao_ms": 2247
+  },
+  "_termo": "glass breaking"
+ },
+ {
+  "id": "som:freesound:125297",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "hospital-door-latch",
+  "texto_humano": "hospital-door-latch | click, door, hospital, latch",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "alienistcog",
+   "linha": "hospital-door-latch, por alienistcog, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/alienistcog/sounds/125297"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-125297.mp3",
+   "duracao_ms": 14546
+  },
+  "_termo": "hospital"
+ },
+ {
+  "id": "som:freesound:201841",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Tea Kettle Mono 44.1 Khz",
+  "texto_humano": "Tea Kettle Mono 44.1 Khz | kettle, kitchen, tea, tea-kettle, whistle",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "odditonic",
+   "linha": "Tea Kettle Mono 44.1 Khz, por odditonic, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/odditonic/sounds/201841"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-201841.mp3",
+   "duracao_ms": 18418
+  },
+  "_termo": "kettle"
+ },
+ {
+  "id": "som:freesound:267711",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Picking Up Keys",
+  "texto_humano": "Picking Up Keys | keys, clank, jingle, keyring, metal-on-metal, pick, picking, table, up",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "WeeJee_vdH",
+   "linha": "Picking Up Keys, por WeeJee_vdH, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/WeeJee_vdH/sounds/267711"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-267711.mp3",
+   "duracao_ms": 2174
+  },
+  "_termo": "keys"
+ },
+ {
+  "id": "som:freesound:449528",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Leaves Rustling Mastered",
+  "texto_humano": "Leaves Rustling Mastered | leaves, outside, rustling",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "12062703",
+   "linha": "Leaves Rustling Mastered, por 12062703, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/12062703/sounds/449528"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-449528.mp3",
+   "duracao_ms": 3279
+  },
+  "_termo": "leaves rustling"
+ },
+ {
+  "id": "som:freesound:248236",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Match - Strike and Light 02",
+  "texto_humano": "Match - Strike and Light 02 | match, fire, flame, light, matchbox, strike",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "JarredGibb",
+   "linha": "Match - Strike and Light 02, por JarredGibb, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/JarredGibb/sounds/248236"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-248236.mp3",
+   "duracao_ms": 6105
+  },
+  "_termo": "match strike"
+ },
+ {
+  "id": "som:freesound:338986",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Music Box Melody 1",
+  "texto_humano": "Music Box Melody 1 | ambiance, antique, box, chime, dsk, flstudio, loop, melody, music, music-box, recording, ring, slow, sound, atmosphere, old, retro",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "DRFX",
+   "linha": "Music Box Melody 1, por DRFX, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/DRFX/sounds/338986"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-338986.mp3",
+   "duracao_ms": 16053
+  },
+  "_termo": "music box"
+ },
+ {
+  "id": "som:freesound:534911",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Ocean Waves 02",
+  "texto_humano": "Ocean Waves 02 | baltic, beach, coast, field-recordng, meer, nordsee, ocean, oceanside, ostsee, ozean, sea, seaside, shore, splash, water, waves, wellen, wind",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Lucas_Schacht",
+   "linha": "Ocean Waves 02, por Lucas_Schacht, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/Lucas_Schacht/sounds/534911"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-534911.mp3",
+   "duracao_ms": 18040
+  },
+  "_termo": "ocean waves"
+ },
+ {
+  "id": "som:freesound:528111",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Phone Ringing Sound",
+  "texto_humano": "Phone Ringing Sound | calling, cell, mobile, phone, ring, telephone",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "fspera",
+   "linha": "Phone Ringing Sound, por fspera, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/fspera/sounds/528111"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-528111.mp3",
+   "duracao_ms": 3750
+  },
+  "_termo": "phone ringing"
+ },
+ {
+  "id": "som:freesound:347039",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "FM Radio Static",
+  "texto_humano": "FM Radio Static | fm-radio, radio, radio-stations, static",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "caculo",
+   "linha": "FM Radio Static, por caculo, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/caculo/sounds/347039"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-347039.mp3",
+   "duracao_ms": 6751
+  },
+  "_termo": "radio static"
+ },
+ {
+  "id": "som:freesound:624759",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Rain on Window Loop (03.12.22)",
+  "texto_humano": "Rain on Window Loop (03.12.22) | raindrops, window, rain, raining",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "chris5s",
+   "linha": "Rain on Window Loop (03.12.22), por chris5s, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/chris5s/sounds/624759"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-624759.mp3",
+   "duracao_ms": 6755
+  },
+  "_termo": "rain on window"
+ },
+ {
+  "id": "som:freesound:454166",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "room tone medium quiet Pablo's condo",
+  "texto_humano": "room tone medium quiet Pablo's condo | condo, medium, quiet, room, tone",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "kyles",
+   "linha": "room tone medium quiet Pablo's condo, por kyles, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/kyles/sounds/454166"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-454166.mp3",
+   "duracao_ms": 18176
+  },
+  "_termo": "room tone"
+ },
+ {
+  "id": "som:freesound:385799",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "stream 2",
+  "texto_humano": "stream 2 | ambient, birds, cordoba, naturaleza, nature, outdoors, pajaros, rio, river, stream",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Calvi19",
+   "linha": "stream 2, por Calvi19, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/Calvi19/sounds/385799"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-385799.mp3",
+   "duracao_ms": 10124
+  },
+  "_termo": "stream"
+ },
+ {
+  "id": "som:freesound:613973",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Thunder Storm",
+  "texto_humano": "Thunder Storm | thunder, heavy, rain, storm, thunder-storm, thunderstorm, weather",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "beanogreen",
+   "linha": "Thunder Storm, por beanogreen, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/beanogreen/sounds/613973"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-613973.mp3",
+   "duracao_ms": 17455
+  },
+  "_termo": "thunder"
+ },
+ {
+  "id": "som:freesound:713395",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "train station",
+  "texto_humano": "train station | platform, railway, station, train",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "migweis",
+   "linha": "train station, por migweis, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/migweis/sounds/713395"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-713395.mp3",
+   "duracao_ms": 5717
+  },
+  "_termo": "train station"
+ },
+ {
+  "id": "som:freesound:365543",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Typing on an iPhone",
+  "texto_humano": "Typing on an iPhone | beep, button, buttons, cell, electronic, iphone, mobile, phone, telephone, tone, type, typing",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Caitlin_100",
+   "linha": "Typing on an iPhone, por Caitlin_100, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/Caitlin_100/sounds/365543"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-365543.mp3",
+   "duracao_ms": 6231
+  },
+  "_termo": "typing"
+ },
+ {
+  "id": "som:freesound:512411",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Water Dripping - KV",
+  "texto_humano": "Water Dripping - KV | drip, dripping, flowing, pipe, tap, water",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Kievinay",
+   "linha": "Water Dripping - KV, por Kievinay, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/Kievinay/sounds/512411"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-512411.mp3",
+   "duracao_ms": 10588
+  },
+  "_termo": "water dripping"
+ },
+ {
+  "id": "som:freesound:543809",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Wind Howl 4 inch Pipe",
+  "texto_humano": "Wind Howl 4 inch Pipe | blowing, howl, wind",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Takkyi",
+   "linha": "Wind Howl 4 inch Pipe, por Takkyi, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/Takkyi/sounds/543809"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-543809.mp3",
+   "duracao_ms": 7677
+  },
+  "_termo": "wind howling"
+ },
+ {
+  "id": "som:freesound:245704",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Birdsong 01 (Carmarthen)",
+  "texto_humano": "Birdsong 01 (Carmarthen) | birds, birdsong, environment, field-recording, nature, outdoor, park, peaceful, tweeting",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "TicAshfield",
+   "linha": "Birdsong 01 (Carmarthen), por TicAshfield, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/TicAshfield/sounds/245704"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-245704.mp3",
+   "duracao_ms": 8910
+  },
+  "_termo": "birdsong"
+ },
+ {
+  "id": "som:freesound:266499",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Church bell in Belmonte, Portugal",
+  "texto_humano": "Church bell in Belmonte, Portugal | bell, belmonte, church, fieldrecording, churchbells, portugal",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Refrain",
+   "linha": "Church bell in Belmonte, Portugal, por Refrain, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/Refrain/sounds/266499"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-266499.mp3",
+   "duracao_ms": 15320
+  },
+  "_termo": "church bells"
+ }
+]

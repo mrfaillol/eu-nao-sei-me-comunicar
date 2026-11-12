@@ -41,6 +41,111 @@ def cmd_palavras(args) -> None:
         print("sem texto humano, fora:", ", ".join(descartadas))
 
 
+def cmd_pinturas(args) -> None:
+    import csv
+
+    from acervo import pinturas as P
+
+    with open(RAIZ / "pipeline" / "dados" / "candidatas-cma.csv", encoding="utf-8", newline="") as arquivo:
+        candidatas = list(csv.DictReader(arquivo))
+
+    fichas: dict[str, dict] = {}
+    recusadas: list[str] = []
+
+    def aceita(candidata: dict) -> bool:
+        ficha = P.buscar_ficha(candidata["id_cma"])
+        if P.ficha_serve(ficha):
+            fichas[candidata["id_cma"]] = ficha
+            return True
+        recusadas.append(candidata["id_cma"])
+        return False
+
+    escolhidas = P.selecionar(candidatas, args.total, aceita)
+    destino = RAIZ / "public" / "midia" / "pinturas"
+    itens = []
+    for n, candidata in enumerate(escolhidas, 1):
+        ficha = fichas[candidata["id_cma"]]
+        midia = P.gerar_copia(P.baixar_print(ficha), destino / f"cma-{ficha['id']}.webp")
+        item = P.para_item_pintura(ficha, midia)
+        # Chaves com sublinhado são do pipeline e não vão para o índice público.
+        item["_curadoria"] = {k: candidata[k] for k in ("epoca", "regiao", "generos_por_palavra")}
+        itens.append(item)
+        print(f"{n:2d}/{len(escolhidas)} {ficha['id']} {ficha['title'][:60]}", flush=True)
+    gravar("pinturas.json", itens)
+    total = sum((RAIZ / "public" / i["midia"]["arquivo"]).stat().st_size for i in itens)
+    print(f"pinturas: {len(itens)} | recusadas pela ficha: {len(recusadas)} | cópias: {total / 1e6:.1f} MB")
+
+
+def cmd_rostos(args) -> None:
+    import cv2
+
+    from acervo import rostos as R
+
+    arquivo = SAIDA / "pinturas.json"
+    itens = json.loads(arquivo.read_text(encoding="utf-8"))
+    com_rosto = 0
+    for item in itens:
+        ident = item["id"].rsplit(":", 1)[-1]
+        print_ = RAIZ / "pipeline" / "cache" / "prints" / f"{ident}.jpg"
+        imagem = cv2.imread(str(print_))
+        # Os sinais são medidos numa cópia de até 1.600 px; a detecção reduz por conta própria.
+        altura, largura = imagem.shape[:2]
+        fator = min(1.0, 1600 / max(altura, largura))
+        if fator < 1.0:
+            imagem = cv2.resize(imagem, (round(largura * fator), round(altura * fator)), interpolation=cv2.INTER_AREA)
+        rostos = [{**caixa, "sinais": R.sinais(imagem, caixa)} for caixa in R.detectar(imagem)]
+        destaque = R.escolher_destaque([r["sinais"] for r in rostos], manual=item.get("_destaque_manual"))
+        # Todas as caixas ficam no intermediário, para a folha de revisão; o índice público leva só a escolhida.
+        item["_rostos"], item["_destaque"] = rostos, destaque
+        if destaque is None:
+            item["rosto"], item["nitido"] = None, None
+        else:
+            item["rosto"] = {k: rostos[destaque][k] for k in ("x", "y", "w", "h")}
+            destino = RAIZ / "public" / "midia" / "rostos" / f"cma-{ident}.jpg"
+            R.recortar_nitido(print_, item["rosto"], destino)
+            item["nitido"] = f"midia/rostos/{destino.name}"
+            com_rosto += 1
+        print(f"{ident}: {len(rostos)} caixa(s), destaque {destaque}", flush=True)
+    gravar("pinturas.json", itens)
+    print(f"pinturas com rosto de destaque: {com_rosto} de {len(itens)}")
+
+
+def _linhas(caminho: Path) -> list[str]:
+    return [l.strip() for l in caminho.read_text(encoding="utf-8").splitlines() if l.strip() and not l.startswith("#")]
+
+
+def cmd_sons(args) -> None:
+    import time
+
+    from acervo import sons as S
+
+    termos = _linhas(RAIZ / "data" / "sons-termos.txt")
+    barrados = set(_linhas(RAIZ / "data" / "sons-barrados.txt"))
+    fonte = S.FonteOpenverse(RAIZ / "pipeline" / "cache" / "openverse")
+    por_termo = {termo: S.filtrar(fonte.buscar(termo), barrados) for termo in termos}
+    vazios = [t for t, sons in por_termo.items() if not sons]
+    itens = []
+    for n, r in enumerate(S.escolher_sons(por_termo, args.total), 1):
+        destino = RAIZ / "public" / "midia" / "sons" / f"fs-{S.numero_no_freesound(r)}.mp3"
+        if destino.exists():  # recorte de uma rodada anterior: não baixa de novo
+            midia = S.medir_recorte(destino)
+        else:
+            midia = S.gerar_recorte(r["url"], destino)
+            time.sleep(1)
+        item = S.para_item_som(r, midia)
+        item["_termo"] = r["_termo"]
+        itens.append(item)
+        print(f"{n:2d} [{r['_termo']}] {item['rotulo'][:50]} ({item['midia']['duracao_ms']} ms)", flush=True)
+    gravar("sons.json", itens)
+    # Recorte que saiu da seleção não fica no site.
+    usados = {Path(i["midia"]["arquivo"]).name for i in itens}
+    for sobra in (RAIZ / "public" / "midia" / "sons").glob("fs-*.mp3"):
+        if sobra.name not in usados:
+            sobra.unlink()
+    total = sum((RAIZ / "public" / i["midia"]["arquivo"]).stat().st_size for i in itens)
+    print(f"sons: {len(itens)} | termos sem som aceito: {vazios or 'nenhum'} | recortes: {total / 1e6:.1f} MB")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(prog="acervo")
     sub = parser.add_subparsers(dest="comando", required=True)
@@ -53,6 +158,17 @@ def main() -> None:
     p = sub.add_parser("palavras", help="monta pipeline/saida/palavras.json")
     p.add_argument("--por-idioma", type=int, default=30)
     p.set_defaults(func=cmd_palavras)
+
+    p = sub.add_parser("pinturas", help="seleciona, baixa e converte as pinturas do CMA")
+    p.add_argument("--total", type=int, default=30)
+    p.set_defaults(func=cmd_pinturas)
+
+    p = sub.add_parser("rostos", help="detecta o rosto de destaque e corta a camada nítida")
+    p.set_defaults(func=cmd_rostos)
+
+    p = sub.add_parser("sons", help="busca, filtra, baixa e normaliza os sons")
+    p.add_argument("--total", type=int, default=30)
+    p.set_defaults(func=cmd_sons)
 
     args = parser.parse_args()
     args.func(args)
