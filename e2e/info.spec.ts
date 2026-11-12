@@ -113,14 +113,27 @@ test("a assinatura do autor fica no canto inferior direito da barra, com o link 
   await expect(link).toHaveAttribute("rel", /noopener/);
   await expect(link.locator("svg path")).toHaveCount(3);
   await expect(page.locator(".tarefas .autoria .simbolo")).toHaveText(/☭/);
+  // As medidas não dependem da fonte do sistema: a assinatura está na mesma linha do seletor de idioma,
+  // encostada na direita, dentro da barra que fica presa ao chão da tela.
   const lugar = await page.evaluate(() => {
-    const a = document.querySelector(".autoria")!.getBoundingClientRect();
-    const assinatura = document.querySelector(".autoria a")!.getBoundingClientRect();
-    const simbolo = document.querySelector(".autoria .simbolo")!.getBoundingClientRect();
-    return { daDireita: innerWidth - a.right, doChao: innerHeight - a.bottom, simboloDepois: simbolo.left >= assinatura.right - 1, largura: assinatura.width };
+    const caixa = (seletor: string) => document.querySelector(seletor)!.getBoundingClientRect();
+    const [barra, autoria, assinatura, simbolo, idioma] = [".tarefas", ".autoria", ".autoria a", ".autoria .simbolo", "#idioma"].map(caixa) as [DOMRect, DOMRect, DOMRect, DOMRect, DOMRect];
+    const meio = (r: DOMRect) => r.top + r.height / 2;
+    return {
+      daDireita: innerWidth - autoria.right,
+      barraNoChao: Math.abs(innerHeight - barra.bottom),
+      dentroDaBarra: autoria.top >= barra.top && autoria.bottom <= barra.bottom,
+      desnivelDoIdioma: Math.abs(meio(autoria) - meio(idioma)),
+      depoisDoIdioma: autoria.left >= idioma.right - 1,
+      simboloDepois: simbolo.left >= assinatura.right - 1,
+      largura: assinatura.width,
+    };
   });
   expect(lugar.daDireita).toBeLessThanOrEqual(12);
-  expect(lugar.doChao).toBeLessThanOrEqual(16);
+  expect(lugar.barraNoChao).toBeLessThanOrEqual(1);
+  expect(lugar.dentroDaBarra).toBe(true);
+  expect(lugar.desnivelDoIdioma).toBeLessThanOrEqual(4);
+  expect(lugar.depoisDoIdioma).toBe(true);
   expect(lugar.simboloDepois).toBe(true);
   expect(lugar.largura).toBeGreaterThan(50);
   await page.locator(".tarefas").screenshot({ path: `docs/capturas/barra-${info.project.name}.png` });
