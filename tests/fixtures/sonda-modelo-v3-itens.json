@@ -1,0 +1,1619 @@
+{
+ "_nota": "Os itens das seleções da sonda de 12/Nov/2026, como estavam no acervo naquele dia. A sonda é um registro: ela não muda quando o acervo ganha ou perde itens.",
+ "itens": [
+  {
+   "id": "palavra:en:envious",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "envious",
+   "texto_humano": "Feeling or exhibiting envy; jealously desiring the excellence or good fortune of another; maliciously grudging.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "inveja"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “envious” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/envious"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:forlorn",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "forlorn",
+   "texto_humano": "Pitifully sad, wretched, miserable; lonely, especially from feeling abandoned, deserted, forsaken.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "solidao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “forlorn” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/forlorn"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:wistful",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "wistful",
+   "texto_humano": "Full of longing or yearning.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "nostalgia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": 0.1,
+    "ativacao": 0.4545,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “wistful” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/wistful"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:alheamento",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "alheamento",
+   "texto_humano": "alienation (the act of alienating)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "alienacao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “alheamento” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/alheamento"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Estado de quem está alheado.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/alheamento"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:alívio",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "alívio",
+   "texto_humano": "relief (removal of stress or discomfort)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “alívio” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/al%C3%ADvio"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Consolação.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/al%C3%ADvio"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:devaneio",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "devaneio",
+   "texto_humano": "reverie; dreaminess",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "divagacao_mental"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “devaneio” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/devaneio"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Acto de devanear.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/devaneio"
+   }
+  },
+  {
+   "id": "palavra:pt-BR:pasmo",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "pasmo",
+   "texto_humano": "astonishment; shock; awe (extreme surprise)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "assombro"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “pasmo” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/pasmo"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "Assombro, espanto.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/pasmo"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:安详",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "安详",
+   "texto_humano": "serene",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “安详” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "平靜。",
+    "classe": "",
+    "pronuncia": "ān xiáng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%AE%89%E8%A9%B3"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:悲恸",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "悲恸",
+   "texto_humano": "grief-stricken",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "luto"
+   ],
+   "tema_sensivel": true,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “悲恸” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "悲傷哀慟。《後漢書．卷四二．光武十王列傳．東海恭王彊》： 「天子覽書悲慟 ，從太后出幸津門亭發哀。」《紅樓夢 》第 六 七 回 ：「尤三姐自盡之後，尤老娘和二姐兒、賈珍、賈璉等俱不勝悲慟。」",
+    "classe": "",
+    "pronuncia": "bēi tòng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%82%B2%E6%85%9F"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:母爱",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "母爱",
+   "texto_humano": "mother love",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “母爱” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "母親對兒女的愛。",
+    "classe": "",
+    "pronuncia": "mǔ ài",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%AF%8D%E6%84%9B"
+   }
+  },
+  {
+   "id": "palavra:zh-CN:畏怯",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "畏怯",
+   "texto_humano": "fear and coward",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “畏怯” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null,
+   "definicao": {
+    "texto": "畏懼怯懦。",
+    "classe": "",
+    "pronuncia": "wèi què",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E7%95%8F%E6%80%AF"
+   }
+  },
+  {
+   "id": "pintura:cma:124080",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Portrait of Mary Wise",
+   "texto_humano": "Mary’s modest and contemplative demeanor is a counterpoint to a rather elaborate ensemble consisting of a gown embroidered with gold flower sprigs, trimmed with lace and pearls, and tied with a gold sash, as well as a gold-striped veil and a bracelet with eight gold bands. Gainsborough’s compact oval format and the sitter’s informal pose lend this portrait an air of intimacy. The portrait shows Mary in her twenties, with her hair powdered fashionably grey.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "constrangimento",
+    "divagacao_mental"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Thomas Gainsborough",
+    "linha": "Portrait of Mary Wise, c. 1774. Thomas Gainsborough (British, 1727–1788). Oil on canvas; unframed: 76.2 x 63.6 cm (30 x 25 1/16 in.). The Cleveland Museum of Art, The Elisabeth Severance Prentiss Collection, 1944.82",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1944.82"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://openaccess-cdn.clevelandart.org/1944.82/1944.82_web.jpg",
+    "largura": 739,
+    "altura": 893
+   },
+   "rosto": {
+    "x": 0.3747,
+    "y": 0.2101,
+    "w": 0.205,
+    "h": 0.2239
+   },
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:135953",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Greeting the Spring",
+   "texto_humano": "This masterfully composed landscape in light colors and delicate brushwork is an image of the water-rich Jiangnan region in southeast China, where Wu Bin was active as an artist. Embedded in rolling hills along lakesides and streams nestle cityscapes hosting numerous spring festivities. Lantern displays and street performances in the villages salute the New Year, and are interwoven with scenes of farming, fishing, and silk making.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "contagio_emocional"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Wu Bin",
+    "linha": "Greeting the Spring (迎春圖), 1600. Wu Bin (Chinese, active c. 1591–1626). Handscroll; ink and light color on paper; image: 34.3 x 252.8 cm (13 1/2 x 99 1/2 in.); overall: 35 x 1022.2 cm (13 3/4 x 402 7/16 in.). The Cleveland Museum of Art, Purchase from the J. H. Wade Fund, 1959.45",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1959.45"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://openaccess-cdn.clevelandart.org/1959.45/1959.45_web.jpg",
+    "largura": 1263,
+    "altura": 307
+   },
+   "rosto": null,
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:137843",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Khusrau, the King of Kings, pays homage to the pious daughter of Khassa, from a Tuti-nama (Tales of a Parrot):",
+   "texto_humano": "After being abandoned in the desert by her cruel husband, Khassa’s daughter is discovered by Khusrau, who is instantly captivated by her religious devotion. He proposes marriage and aptly punishes those who were cruel to her. The brick well that sustained her for many days in the desert is depicted in the foreground. The woman kneels on a rug and holds prayer beads, signaling her Islamic faith.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "apego",
+    "solidao",
+    "esperanca"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "",
+    "linha": "Khusrau, the King of Kings, pays homage to the pious daughter of Khassa, from a Tuti-nama (Tales of a Parrot): Fifty-first Night, c. 1560. Mughal India, court of Akbar (reigned 1556–1605). Gum tempera, ink, and gold on paper; overall: 20.3 x 14 cm (8 x 5 1/2 in.); painting only: 9.9 x 9.9 cm (3 7/8 x 3 7/8 in.). The Cleveland Museum of Art, Gift of Mrs. A. Dean Perry, 1962.279.329.b",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1962.279.329.b"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://openaccess-cdn.clevelandart.org/1962.279.329.b/1962.279.329.b_web.jpg",
+    "largura": 585,
+    "altura": 900
+   },
+   "rosto": {
+    "x": 0.4963,
+    "y": 0.4241,
+    "w": 0.0531,
+    "h": 0.04
+   },
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:142293",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "The Virgin and Child Appearing to Saint Francis of Assisi",
+   "texto_humano": "This work represents the High Baroque tradition of illustrating the visions and ecstasies of holy figures. St. Francis stands to the right of the apparition of the Virgin and Child, while motioning to a mother with three young infants, a symbolic representation of Charity. A popular Italian saint, St. Francis of Assisi (1181?- 1226) was famed for his many holy visions and was reported to have received the stigmata, bodily punctures that echoed the crucifixion wounds of Christ. Close observation of the painting reveals that Giordano originally painted St.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "compaixao",
+    "apego",
+    "curiosidade"
+   ],
+   "tema_sensivel": true,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Luca Giordano",
+    "linha": "The Virgin and Child Appearing to Saint Francis of Assisi, 1680s. Luca Giordano (Italian, 1634–1705). Oil on canvas; framed: 273 x 229 x 10 cm (107 1/2 x 90 3/16 x 3 15/16 in.); unframed: 239.4 x 195.7 cm (94 1/4 x 77 1/16 in.). The Cleveland Museum of Art, Mr. and Mrs. William H. Marlatt Fund, 1966.125",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1966.125"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://openaccess-cdn.clevelandart.org/1966.125/1966.125_web.jpg",
+    "largura": 730,
+    "altura": 893
+   },
+   "rosto": {
+    "x": 0.7112,
+    "y": 0.2147,
+    "w": 0.0724,
+    "h": 0.0821
+   },
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "historica"
+   }
+  },
+  {
+   "id": "pintura:cma:144278",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Mount Hua",
+   "texto_humano": "In this work, Tang Yin accumulates towering mountain summits in the manner of the Sung master, Li Tang, to capture the monumental presence of his subject. Tang Yin’s angular brushstrokes and ink washes of varied intensity give texture to the rocky surface and accent the play of light. Mount Hua is situated in southern Shaanxi province in North China.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "assombro",
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Tang Yin",
+    "linha": "Mount Hua (華山), 1506. Tang Yin (Chinese, 1470–1523). Hanging scroll; ink and light color on paper; painting: 116.4 x 41.4 cm (45 13/16 x 16 5/16 in.); overall with knobs: 213.5 x 66.7 cm (84 1/16 x 26 1/4 in.). The Cleveland Museum of Art, John L. Severance Fund, 1969.116",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1969.116"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://openaccess-cdn.clevelandart.org/1969.116/1969.116_web.jpg",
+    "largura": 379,
+    "altura": 893
+   },
+   "rosto": null,
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:145429",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Eleven-Headed Kannon (Jūichimen Kannon)",
+   "texto_humano": "The Eleven-Headed Kannon, a deity of mercy and compassion in the Buddhist pantheon, was introduced into Japan in the 600s. By the 700s it had gained in popularity among an increasing number of believers, a condition it enjoyed until the end of the Kamakura period. The modest size and high quality of the materials apparent in this work indicate its use as a private devotional image. An earlier restoration of this painting included the use of an entire silk backing layer rather than silk patches with a paper backing.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "compaixao",
+    "constrangimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "",
+    "linha": "Eleven-Headed Kannon (Jūichimen Kannon) (十一面観音菩薩像), 1200s. Japan, Kamakura period (1185–1333). Hanging scroll; color and cut gold (kirikane) on silk; overall: 106.7 x 39.7 cm (42 x 15 5/8 in.). The Cleveland Museum of Art, John L. Severance Fund, 1970.79",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1970.79"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://openaccess-cdn.clevelandart.org/1970.79/1970.79_web.jpg",
+    "largura": 425,
+    "altura": 900
+   },
+   "rosto": null,
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:147927",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Portrait of Priest Dazhi (1048–1116), Master of Law",
+   "texto_humano": "Monk Yuanzhao, with the honorific title Dazhi Lüshi, Great Wisdom Master of Vinaya, is depicted here as an itinerant monk, holding his alms bowl in the left and staff in the right. In 1142, Emperor Gaozong had bestowed Yuanzhao with a posthumous title, mentioned in the inscription, which suggests that the portrait was made after the master’s death. A master of the Lü sect of Buddhism, with a calm benevolent smile on his face, Yuanzhao was active on Mount Tiantai and in Hangzhou. Later, Liu Tao, a southerner from Changxing, added the inscription.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "restauracao_da_atencao",
+    "compaixao",
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": true,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Liu Tao",
+    "linha": "Portrait of Priest Dazhi (1048–1116), Master of Law (大智律師元照像), 1100s. Inscribed by Liu Tao (Chinese, late 1000s–early 1100s). Hanging scroll; ink and light color on silk; image: 92.4 x 40.5 cm (36 3/8 x 15 15/16 in.); overall: 171.9 x 55.1 cm (67 11/16 x 21 11/16 in.); with knobs: 171.9 x 60.5 cm (67 11/16 x 23 13/16 in.). The Cleveland Museum of Art, Purchase from the J. H. Wade Fund, 1974.29",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1974.29"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://openaccess-cdn.clevelandart.org/1974.29/1974.29_web.jpg",
+    "largura": 384,
+    "altura": 900
+   },
+   "rosto": {
+    "x": 0.4483,
+    "y": 0.4848,
+    "w": 0.0959,
+    "h": 0.0506
+   },
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "historica"
+   }
+  },
+  {
+   "id": "pintura:cma:149624",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Paintings after Ancient Masters: Scholar with Staff and Brush",
+   "texto_humano": "The twenty paintings in this double album by Chen Hongshou include landscapes, figures, and flowers. It also has one leaf featuring a woman, an often-used subject not found in the other albums from the latter part of his career. His late works are wonderful summations of Chen's peculiar and quirky art—archaistic, hyper-refined—but without accompanying shallowness or sentimentality.His figures and landscapes in the late albums are miniaturized, not unlike the small Chinese gardens, or the carefully selected small table rocks or old roots used for contemplation to see the world in miniature.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "restauracao_da_atencao",
+    "divagacao_mental"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Chen Hongshou",
+    "linha": "Paintings after Ancient Masters: Scholar with Staff and Brush, 1598–1652. Chen Hongshou (Chinese, 1598/99–1652). Album leaf; ink and color on silk; overall: 30.2 x 26.7 cm (11 7/8 x 10 1/2 in.). The Cleveland Museum of Art, John L. Severance Fund, 1979.27.2.19",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1979.27.2.19"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://openaccess-cdn.clevelandart.org/1979.27.2.19/1979.27.2.19_web.jpg",
+    "largura": 887,
+    "altura": 893
+   },
+   "rosto": {
+    "x": 0.4562,
+    "y": 0.3875,
+    "w": 0.066,
+    "h": 0.0969
+   },
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:151446",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Tiger Family",
+   "texto_humano": "By the time this self-taught painter reached his thirties, his paintings were keenly sought after by Kyoto’s sophisticated patrons, including members of the imperial family. Judging from the surviving works, his supporters delighted in the colorful, auspicious imagery of Chinese historical figures, blossoming plum trees, cranes, peacocks, roosters, and especially tigers. Kishi Ganku was originally from the coastal town of Kanazawa, but relocated to Kyoto to work for the Arisugawa family.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "pertencimento",
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Kishi Ganku",
+    "linha": "Tiger Family, early 1800s. Kishi Ganku (Japanese, 1749/56–1838). Pair of six-panel folding screens; ink and color on paper; overall: 179.4 x 384.8 cm (70 5/8 x 151 1/2 in.). The Cleveland Museum of Art, Leonard C. Hanna Jr. Fund, 1983.3",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1983.3"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://openaccess-cdn.clevelandart.org/1983.3/1983.3_web.jpg",
+    "largura": 900,
+    "altura": 875
+   },
+   "rosto": {
+    "x": 0.2235,
+    "y": 0.5746,
+    "w": 0.0873,
+    "h": 0.1141
+   },
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:160135",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Fishermen-Hermits in Stream and Mountain",
+   "texto_humano": "In this typical southern two shores divided by a river composition, two fishermen, each seated in the stern of his covered houseboat, troll their hooks in the swirling water, holding short rods fitted with spooling reels. Zhao Yong was a son of the southern calligrapher and statesman Zhao Mengfu, who, like his father was a scholar-official in the Mongol-Yuan government. As public servants of the Yuan state and administration, scholar-artists like the Zhaos delighted in paintings that pictured them in nature as fishermen amid vistas of Jiangnan, which they considered their home.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zhao Yong",
+    "linha": "Fishermen-Hermits in Stream and Mountain (溪山漁隱圖), 1300s. Zhao Yong (Chinese, c. 1289-c. 1362). Hanging scroll; ink and color on silk; painting: 85.5 x 42.5 cm (33 11/16 x 16 3/4 in.); overall with knobs: 229 x 70 cm (90 3/16 x 27 9/16 in.). The Cleveland Museum of Art, Bequest of Mrs. A. Dean Perry, 1997.93",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1997.93"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://openaccess-cdn.clevelandart.org/1997.93/1997.93_web.jpg",
+    "largura": 436,
+    "altura": 893
+   },
+   "rosto": null,
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:160890",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "On Happiness, Calligraphy in Seal Script Style (zhuanshu)",
+   "texto_humano": "Yang Yisun transcribed this ancient text on six narrow scrolls, starting at the top right and ending at the bottom left. Yang emphasizes the text’s historic nature by using the seal script style found on stone steles and bronze vessels. On Happiness features reflections of a scholar on a leisurely life in the countryside, composed by Han dynasty official Zhongchang Tong, who died the year the Han dynasty collapsed (AD 220). The idyllic life described in the text may bean evocation of the past in a time of national crisis.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "restauracao_da_atencao",
+    "nostalgia",
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Yang Yisun",
+    "linha": "On Happiness, Calligraphy in Seal Script Style (zhuanshu) (樂志論), 1871. Yang Yisun (Chinese, 1813–1881). Hanging scroll; ink on paper; overall: 132.7 x 32.3 cm (52 1/4 x 12 11/16 in.). The Cleveland Museum of Art, John L. Severance Fund, 1999.174.4",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1999.174.4"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://openaccess-cdn.clevelandart.org/1999.174.4/1999.174.4_web.jpg",
+    "largura": 223,
+    "altura": 900
+   },
+   "rosto": null,
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:162478",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Krishna Stroking Radha's Feet (verso), from a Kalighat album",
+   "texto_humano": "Appeased by Krishna’s flattery, Radha sits in a chair coyly holding the cloth covering her head. According to popular stories about the couple, Radha often experiences longing for him while they are separated and jealousy for his love affairs with other cowgirls (gopis). Here Krishna is imploring her to forgive him for his transgressions.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "apego",
+    "inveja"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "",
+    "linha": "Krishna Stroking Radha's Feet (verso), from a Kalighat album, c. 1890. Eastern India, Bengal, Kolkata, Kalighat. Gum tempera, graphite, and ink on paper; secondary support: 47.6 x 29.2 cm (18 3/4 x 11 1/2 in.); painting only: 45.4 x 27.9 cm (17 7/8 x 11 in.). The Cleveland Museum of Art, Gift of William E. Ward in memory of his wife, Evelyn Svec Ward, 2003.133.b",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/2003.133.b"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://openaccess-cdn.clevelandart.org/2003.133.b/2003.133.b_web.jpg",
+    "largura": 571,
+    "altura": 900
+   },
+   "rosto": {
+    "x": 0.7542,
+    "y": 0.1065,
+    "w": 0.1235,
+    "h": 0.0928
+   },
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:168322",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Icon of the Mother of God and Infant Christ (Virgin Eleousa)",
+   "texto_humano": "This large icon of a tender embrace between the Virgin Mary and Christ likely hung on a Greek Orthodox church’s iconostasis, a screen separating the congregation from the altar-containing sanctuary, which only clergy could enter. A skilled painter of faces and draperies, Angelos Akotantos was among Crete’s most sought-after artists. Based in Byzantium’s artistic center in his hometown of Candia, he painted for imperial clients and beyond. Despite theological differences, Cretan icons of Mary were popular in Ethiopia.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "apego",
+    "pertencimento",
+    "apego_ao_lugar"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Angelos Akotantos",
+    "linha": "Icon of the Mother of God and Infant Christ (Virgin Eleousa), c. 1425–50. Attributed to Angelos Akotantos (Cretan, died 1450). Tempera and gold on wood; unframed: 96 x 70 cm (37 13/16 x 27 9/16 in.). The Cleveland Museum of Art, Leonard C. Hanna Jr. Fund, 2010.154",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/2010.154"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://openaccess-cdn.clevelandart.org/2010.154/2010.154_web.jpg",
+    "largura": 659,
+    "altura": 900
+   },
+   "rosto": {
+    "x": 0.4873,
+    "y": 0.1836,
+    "w": 0.2712,
+    "h": 0.2459
+   },
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:170800",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Lovers parting, page from a book of fables",
+   "texto_humano": "The lovers have met in a remote wilderness location, away from the city shown in the distance. However, their affair has run its course, and they decide to part ways, each walking in opposite directions through an ominous landscape, where strange rock formations and an oversized serpent-slain by foxes gnawing on its innards-lend a sense of foreboding. As Mughal court painting developed into the last decades of the 16th century, artists began using increasingly muted colors and gentler shading techniques than they did in the more robust Adventures of Hamza at the left.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "apego",
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "",
+    "linha": "Lovers parting, page from a book of fables, c. 1590–95. Northern India, Mughal court, 16th century. Gum tempera, ink, and gold on paper; page: 36.1 x 24.8 cm (14 3/16 x 9 3/4 in.); painting: 24 x 12 cm (9 7/16 x 4 3/4 in.). The Cleveland Museum of Art, Gift in honor of Madeline Neves Clapp; Gift of Mrs. Henry White Cannon by exchange; Bequest of Louise T. Cooper; Leonard C. Hanna Jr.",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/2013.303"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://openaccess-cdn.clevelandart.org/2013.303/2013.303_web.jpg",
+    "largura": 900,
+    "altura": 706
+   },
+   "rosto": {
+    "x": 0.3447,
+    "y": 0.1328,
+    "w": 0.033,
+    "h": 0.0555
+   },
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:170817",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Folios A and B from the \"Five Treasures\" (Panj Ganj) of Jami",
+   "texto_humano": "The recto of this album leaf illustrates two episodes from the story of Joseph and Zulaykha. In the first, Zulaykha awaits Joseph in the house she has built for them. She has painted the walls with romantic scenes and dressed herself alluringly with the intention of seducing him. The artist has discreetly inserted his name and the painting’s date in a brick of the house at the upper left. The virtuous Joseph, with flaming halo and eternally youthful features, rejects the married woman’s advances, but many years later, when Zulaykha is an elderly widow, they are reunited.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "luto"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Mushfiq",
+    "linha": "Folios A and B from the \"Five Treasures\" (Panj Ganj) of Jami, 1520–1607. Mushfiq (Indian, active early 1600s), and others (Indian). Gum tempera, ink, and gold on paper; page: 30.2 x 18.1 cm (11 7/8 x 7 1/8 in.). The Cleveland Museum of Art, Gift in honor of Madeline Neves Clapp; Gift of Mrs. Henry White Cannon by exchange; Bequest of Louise T. Cooper; Leonard C. Hanna Jr.",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/2013.315"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://openaccess-cdn.clevelandart.org/2013.315/2013.315_web.jpg",
+    "largura": 520,
+    "altura": 900
+   },
+   "rosto": null,
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:314227",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Goddess standing on a mountaintop",
+   "texto_humano": "The four-armed goddess, whose name remains unknown, presides over a scene of carnage. Two dark-skinned women offer halved heads full of blood. A buffalo that stands for her devotees’ enemies has been sacrificed. Jackals and birds of prey cheerfully take away shares of flesh. An important aspect of religious practice in the northwest Himalayas, the worship of fierce goddesses was thought to aid their devotees in conquering enemies, psychological and otherwise. She wears the enemies as corpses in her ears and as a garland around her neck. The Goddess is wearing a garland of corpses.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": true,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Master of the court of Mandi",
+    "linha": "Goddess standing on a mountaintop, c. 1720. Northern India, Pahari kingdoms. Gum tempera and gold on paper; page: 28.1 x 18.4 cm (11 1/16 x 7 1/4 in.); image: 24.9 x 15.3 cm (9 13/16 x 6 in.). The Cleveland Museum of Art, Purchase and partial gift from the Catherine and Ralph Benkaim Collection; Severance and Greta Millikin Purchase Fund, 2018.98",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/2018.98"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://openaccess-cdn.clevelandart.org/2018.98/2018.98_web.jpg",
+    "largura": 601,
+    "altura": 900
+   },
+   "rosto": null,
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "historica"
+   }
+  },
+  {
+   "id": "pintura:cma:399966",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Peonies",
+   "texto_humano": "By the late nineteenth century, peony paintings with bold designs and striking graphic stylization were increasingly produced and consumed by middle-class members because of its symbolic meaning: prosperity and wealth. This early 20th-century folding screen of peonies may have used for festive occasions such as weddings. This early 20th-century folding screen has both sides painted with the image of bloomed peonies.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "contagio_emocional"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "",
+    "linha": "Peonies, early 1900s. Korea, Joseon dynasty (1392−1910) or Japanese colonial period (1910−1945). Eight-panel folding screen; ink and color on silk; painting: 105.8 x 32.6 cm (41 5/8 x 12 13/16 in.); overall framed: 180.2 x 368.4 cm (70 15/16 x 145 1/16 in.). The Cleveland Museum of Art, Gift of The Honorable Joseph P. Carroll, KM, and Roberta Carroll, M.D., 2022.59",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/2022.59"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://openaccess-cdn.clevelandart.org/2022.59/2022.59_web.jpg",
+    "largura": 900,
+    "altura": 446
+   },
+   "rosto": null,
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "som:freesound:113173",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "wind howling 01",
+   "texto_humano": "wind howling 01 | abandoned, building, howling, indoor, wind, windy",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "medo",
+    "solitude"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Fasolt",
+    "linha": "wind howling 01, por Fasolt, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/Fasolt/sounds/113173"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://cdn.freesound.org/previews/113/113173_1493935-hq.mp3",
+    "duracao_ms": 11218
+   }
+  },
+  {
+   "id": "som:freesound:173949",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "rain fall coins pennies pour",
+   "texto_humano": "rain fall coins pennies pour | coins, fall, pennies, pour, rain",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "restauracao_da_atencao",
+    "habituacao",
+    "nostalgia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "JohnsonBrandEditing",
+    "linha": "rain fall coins pennies pour, por JohnsonBrandEditing, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/JohnsonBrandEditing/sounds/173949"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://cdn.freesound.org/previews/173/173949_3229685-hq.mp3",
+    "duracao_ms": 17989
+   }
+  },
+  {
+   "id": "som:freesound:237407",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Match Sizzle 02",
+   "texto_humano": "Match Sizzle 02 | burn, burning, cigarette, crackle, extinguished, fire, flame, fuse, match, sizzle, spark, sparks",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "restauracao_da_atencao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "squareal",
+    "linha": "Match Sizzle 02, por squareal, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/squareal/sounds/237407"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://cdn.freesound.org/previews/237/237407_1502374-hq.mp3",
+    "duracao_ms": 2272
+   }
+  },
+  {
+   "id": "som:freesound:399246",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "plant - quince tree - shaking a small quince tree 01",
+   "texto_humano": "plant - quince tree - shaking a small quince tree 01 | branches, leaves, limbs, plant, rustling, shake, shaken, shaking, shaking-tree, shook, tree, tree-trunk, trunk, wood, woody",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "restauracao_da_atencao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Anthousai",
+    "linha": "plant - quince tree - shaking a small quince tree 01, por Anthousai, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/Anthousai/sounds/399246"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://cdn.freesound.org/previews/399/399246_5923045-hq.mp3",
+    "duracao_ms": 10681
+   }
+  },
+  {
+   "id": "som:freesound:406628",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Bathroom door slam open with handle harder hit",
+   "texto_humano": "Bathroom door slam open with handle harder hit | bathroom, door, handle, open, slam",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "vigilancia",
+    "raiva"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "tlcolbe",
+    "linha": "Bathroom door slam open with handle harder hit, por tlcolbe, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/tlcolbe/sounds/406628"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://cdn.freesound.org/previews/406/406628_6660506-hq.mp3",
+    "duracao_ms": 2166
+   }
+  },
+  {
+   "id": "som:freesound:424250",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Wind Chimes Loop",
+   "texto_humano": "Wind Chimes Loop | chimes, sparkle, sparkly",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "tedio",
+    "emocoes_positivas",
+    "solitude"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "mogalini",
+    "linha": "Wind Chimes Loop, por mogalini, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/mogalini/sounds/424250"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://cdn.freesound.org/previews/424/424250_8286669-hq.mp3",
+    "duracao_ms": 3764
+   }
+  },
+  {
+   "id": "som:freesound:426595",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "chimes",
+   "texto_humano": "chimes | chimes, wind, wind-chimes",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "emocoes_positivas",
+    "restauracao_da_atencao",
+    "solitude"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "MootMcnoodles",
+    "linha": "chimes, por MootMcnoodles, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/MootMcnoodles/sounds/426595"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://cdn.freesound.org/previews/426/426595_7231443-hq.mp3",
+    "duracao_ms": 10612
+   }
+  },
+  {
+   "id": "som:freesound:440998",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "water dripping drop / gotas agua",
+   "texto_humano": "water dripping drop / gotas agua | drip, drop, liquid, splash, water",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "habituacao",
+    "restauracao_da_atencao",
+    "tedio"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "AdrianoAnjos",
+    "linha": "water dripping drop / gotas agua, por AdrianoAnjos, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/AdrianoAnjos/sounds/440998"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://cdn.freesound.org/previews/440/440998_6801313-hq.mp3",
+    "duracao_ms": 11779
+   }
+  },
+  {
+   "id": "som:freesound:444254",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Waterfall 05 Sec",
+   "texto_humano": "Waterfall 05 Sec | ambiance, ambience, ambient, atmosphere, background, brown, brownian, brownian-noise, damped, film, game, rain, rainfall, soft, soothing, water, waterfall, wind, windy",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "restauracao_da_atencao",
+    "divagacao_mental",
+    "assombro"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "MATRIXXX_",
+    "linha": "Waterfall 05 Sec, por MATRIXXX_, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/MATRIXXX_/sounds/444254"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://cdn.freesound.org/previews/444/444254_6142149-hq.mp3",
+    "duracao_ms": 5000
+   }
+  },
+  {
+   "id": "som:freesound:510762",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "fire crackling 2",
+   "texto_humano": "fire crackling 2 | background, crackling, fire, mobile, noise, stove",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "restauracao_da_atencao",
+    "sobrecarga_sensorial"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Keleti",
+    "linha": "fire crackling 2, por Keleti, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/Keleti/sounds/510762"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://cdn.freesound.org/previews/510/510762_9295713-hq.mp3",
+    "duracao_ms": 18084
+   }
+  },
+  {
+   "id": "som:freesound:51148",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Fast Wet Footsteps in Small Shower Cabin",
+   "texto_humano": "Fast Wet Footsteps in Small Shower Cabin | bare, bath, fast, feet, foot, footsteps, mud, muddy, outback, outside, outskirts, rain, rainy, run, running, shower, steps, swamp, swampy, walk, walking, wet",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "vigilancia",
+    "restauracao_da_atencao",
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "RutgerMuller",
+    "linha": "Fast Wet Footsteps in Small Shower Cabin, por RutgerMuller, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/RutgerMuller/sounds/51148"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://cdn.freesound.org/previews/51/51148_179538-hq.mp3",
+    "duracao_ms": 15269
+   }
+  },
+  {
+   "id": "som:freesound:558781",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Electrical hum stereo",
+   "texto_humano": "Electrical hum stereo | buzz, electrical, hum, noise",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "sobrecarga_sensorial",
+    "habituacao",
+    "tedio"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "itinerantmonk108",
+    "linha": "Electrical hum stereo, por itinerantmonk108, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/itinerantmonk108/sounds/558781"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://cdn.freesound.org/previews/558/558781_2397507-hq.mp3",
+    "duracao_ms": 15564
+   }
+  },
+  {
+   "id": "som:freesound:714777",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "FIREBurn Сampfire In The Suburbs 02 KVV FREE",
+   "texto_humano": "FIREBurn Сampfire In The Suburbs 02 KVV FREE | ambience, burning, campfire, field-recording, fire, sparks, stereo",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "restauracao_da_atencao",
+    "divagacao_mental",
+    "apego_ao_lugar"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "KVV_Audio",
+    "linha": "FIREBurn Сampfire In The Suburbs 02 KVV FREE, por KVV_Audio, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/KVV_Audio/sounds/714777"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://cdn.freesound.org/previews/714/714777_12846320-hq.mp3",
+    "duracao_ms": 8677
+   }
+  },
+  {
+   "id": "som:freesound:718591",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Fire starter lighter or match",
+   "texto_humano": "Fire starter lighter or match | burning, campfire, camping, candle, cigarette, cooking, fire, flame, lighter, lighting, match, matchbox",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "restauracao_da_atencao",
+    "apego_ao_lugar",
+    "divagacao_mental"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "JoMungus",
+    "linha": "Fire starter lighter or match, por JoMungus, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/JoMungus/sounds/718591"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://cdn.freesound.org/previews/718/718591_11865776-hq.mp3",
+    "duracao_ms": 6056
+   }
+  },
+  {
+   "id": "som:freesound:801418",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "pencil writing sound",
+   "texto_humano": "pencil writing sound | pencil, school, writing",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "habituacao",
+    "fluxo",
+    "nostalgia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Kookie_Child773",
+    "linha": "pencil writing sound, por Kookie_Child773, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/Kookie_Child773/sounds/801418"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "https://cdn.freesound.org/previews/801/801418_17077128-hq.mp3",
+    "duracao_ms": 12669
+   }
+  }
+ ]
+}
