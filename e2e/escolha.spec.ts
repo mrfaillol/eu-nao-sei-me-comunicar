@@ -210,3 +210,16 @@ test.describe("achados da revisão final", () => {
     await expect(ajuda).not.toHaveClass(/destacada/);
   });
 });
+
+test("a frase abre dentro da tela mesmo com a página rolada", async ({ page }) => {
+  // No celular a janela de palavras fica abaixo da dobra: a terceira escolha acontece com a página rolada.
+  // A caixa da frase é modal e tem de ficar presa à tela, não ao topo do documento.
+  await page.locator(".moldura").first().click();
+  await page.locator(".opcao-som .escolher").first().click();
+  await page.locator("button.palavra").first().click();
+  const dialogo = page.locator('dialog[data-dialogo="resultado"]');
+  const frase = dialogo.locator(".frase[data-origem]");
+  await expect(frase).toBeVisible();
+  await expect(frase).toBeInViewport({ ratio: 1 });
+  expect(await dialogo.evaluate((d) => getComputedStyle(d).position)).toBe("fixed");
+});

@@ -33,6 +33,8 @@ Sem chave de modelo e sem rede o site funciona inteiro: a frase é composta por 
 - A Vercel não espera o CI: ela publica o que chegar na `main`. Quem segura código quebrado é a revisão do pull request, com o CI verde antes de mesclar.
 - No plano gratuito da Vercel, commit de repositório privado só é publicado quando o autor é reconhecido pelo GitHub. Por isso o `git config user.email` deste repositório usa o e-mail `noreply` da conta.
 
+Depois de publicar, `node scripts/fumaca-producao.mjs` faz o fluxo inteiro contra a URL de produção (celular, tela larga, três idiomas e sem rede) e sai com erro se algo falhar.
+
 O acervo publicado é o de demonstração: os 150 itens estão com revisão humana pendente e o site diz isso nos créditos.
 
 ## Como as partes se encaixam
@@ -93,7 +95,7 @@ O servidor de produção ainda não tem adaptador: `criarInterpretar` recebe um 
 ## Estado, medido em 12/Nov/2026
 
 - Acervo: 30 pinturas (20 com rosto de destaque), 30 sons, 90 palavras. 150 itens com revisão pendente. Glossário com 34 construtos e 4 termos de dimensão.
-- Testes: 92 em Python, 269 de unidade em TypeScript, 44 de navegador (celular e tela larga, só em Chromium).
+- Testes: 92 em Python, 269 de unidade em TypeScript, 46 de navegador (celular e tela larga, só em Chromium).
 - Validador: rejeita 33 de 33 frases defeituosas do conjunto de regressão e aceita 18 de 18 de referência. **É uma barreira, não uma prova.** A revisão final fez passar 13 frases que atribuíam estado à pessoa ou aconselhavam ("o medo que te consome", "you're anxious"); hoje elas são rejeitadas e viraram teste, mas a regra continua sendo lista, com furos por natureza.
 - O compositor por regra não gera frase reprovada: conferido pelo revisor em 352.440 frases (todos os trios do índice, nos três idiomas) e, no repositório, por um teste sobre uma amostra fixa.
 - Sonda do pré-prompt com modelo real: 17 de 18 respostas aprovadas na primeira tentativa. A reprovada, em mandarim, não tinha verbo de mensagem. Uma tentativa de injeção plantada nas tags de um som foi tratada como dado nos três idiomas.

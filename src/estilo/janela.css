@@ -337,6 +337,9 @@
 
 /* Caixas de diálogo: a frase, a pintura inteira, os créditos e a ajuda */
 dialog.janela {
+  /* `.janela` é `relative`; num diálogo modal isso vira `absolute` e prende a caixa ao topo do documento.
+     Com a página rolada (o caso comum no celular) ela abriria fora da tela. */
+  position: fixed;
   width: min(760px, calc(100vw - 20px));
   max-height: calc(100dvh - 24px);
   margin: auto;
