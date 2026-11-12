@@ -25,6 +25,16 @@ uv run pytest -m rede    # os que usam rede (DOIs no Crossref)
 
 Sem chave de modelo e sem rede o site funciona inteiro: a frase é composta por regra, no aparelho.
 
+## CI e publicação
+
+- **CI** (`.github/workflows/ci.yml`): roda em todo pull request e em todo push na `main`. Dois trabalhos: `site` (testes de unidade, build e testes de navegador em Chromium) e `acervo` (testes do pipeline em Python, com `ffmpeg` instalado no runner).
+- **Publicação**: o projeto `eunaoseimecomunicar` na Vercel está ligado a este repositório. Push na `main` publica em produção, em https://eunaoseimecomunicar.vercel.app. Push em qualquer outro ramo gera uma prévia, protegida por login da Vercel.
+- O que vai para a Vercel é só o site estático (`dist/`), configurado em `vercel.json`. A função `interpretar` não é publicada: sem chave de modelo ela só repetiria a frase por regra, que o navegador já compõe sozinho.
+- A Vercel não espera o CI: ela publica o que chegar na `main`. Quem segura código quebrado é a revisão do pull request, com o CI verde antes de mesclar.
+- No plano gratuito da Vercel, commit de repositório privado só é publicado quando o autor é reconhecido pelo GitHub. Por isso o `git config user.email` deste repositório usa o e-mail `noreply` da conta.
+
+O acervo publicado é o de demonstração: os 150 itens estão com revisão humana pendente e o site diz isso nos créditos.
+
 ## Como as partes se encaixam
 
 | Pasta | O que faz |
@@ -110,7 +120,7 @@ Os moldes da frase em inglês e em mandarim (`src/frase/moldes/`), os termos em 
 
 | Plataforma | Estado |
 |---|---|
-| Web | Pronta. PWA instalável, com manifesto, ícones e service worker |
+| Web | Publicada em https://eunaoseimecomunicar.vercel.app. PWA instalável, com manifesto, ícones e service worker |
 | iOS | Projeto gerado em `ios/`. Compila com o Xcode 27.1 já instalado, sem sudo e sem assinatura: `** BUILD SUCCEEDED **`, app de 14 MB com o acervo dentro. Falta assinar e rodar em aparelho ou simulador |
 | Android | Projeto gerado em `android/`. Não compilado: falta o SDK (plataforma 36 e build-tools). O JDK 21 que o Capacitor pede está em `/opt/homebrew/opt/openjdk@21` |
 
