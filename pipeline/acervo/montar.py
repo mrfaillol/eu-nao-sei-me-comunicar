@@ -80,15 +80,11 @@ def validar_acervo(itens: list[dict]) -> list[str]:
     return erros
 
 
-def montar(destino: Path, apenas_aprovados: bool = False, origem: Path = SAIDA, anotacoes: dict | None = None) -> dict:
-    """Grava acervo.json, construtos.json e ajuda.json em `destino`. Com erro, não grava nada."""
-    glossario = _ler(RAIZ / "data" / "construtos.json")
-    fontes = _ler(RAIZ / "data" / "fontes.json")
-    construtos = {c["id"] for c in glossario}
-    dimensoes = {c["id"] for c in glossario if c["dimensao"]}
-    if anotacoes is None:
-        anotacoes = {"pinturas": _ler(ANOTACOES / "pinturas.json"), "sons": _ler(ANOTACOES / "sons.json")}
+DECISOES = RAIZ / "pipeline" / "revisao" / "decisoes.json"
 
+
+def juntar_intermediarios(origem: Path, anotacoes: dict, construtos: set[str], dimensoes: set[str]) -> tuple[list[dict], list[str]]:
+    """Itens anotados, ainda com as chaves de trabalho do pipeline, e os erros de anotação."""
     itens, erros = [], []
     for nome in ("pinturas", "sons"):
         usadas = set()
@@ -96,9 +92,35 @@ def montar(destino: Path, apenas_aprovados: bool = False, origem: Path = SAIDA, 
             anotado, falhas = aplicar_anotacao(item, anotacoes[nome].get(item["id"]), construtos, dimensoes)
             usadas.add(item["id"])
             erros += falhas
-            itens.append(publico(anotado))
+            itens.append(anotado)
         erros += [f"{ident}: anotação de item que não está em {nome}.json" for ident in anotacoes[nome] if ident not in usadas]
-    itens += [publico(p) for p in _ler(origem / "palavras.json")]
+    return itens + _ler(origem / "palavras.json"), erros
+
+
+def montar(
+    destino: Path,
+    apenas_aprovados: bool = False,
+    origem: Path = SAIDA,
+    anotacoes: dict | None = None,
+    decisoes: dict | None = None,
+) -> dict:
+    """Grava acervo.json, construtos.json e ajuda.json em `destino`. Com erro, não grava nada."""
+    from acervo.revisao import aplicar_decisoes
+
+    glossario = _ler(RAIZ / "data" / "construtos.json")
+    fontes = _ler(RAIZ / "data" / "fontes.json")
+    construtos = {c["id"] for c in glossario}
+    dimensoes = {c["id"] for c in glossario if c["dimensao"]}
+    if anotacoes is None:
+        anotacoes = {"pinturas": _ler(ANOTACOES / "pinturas.json"), "sons": _ler(ANOTACOES / "sons.json")}
+
+    if decisoes is None:
+        decisoes = _ler(DECISOES) if origem == SAIDA and DECISOES.exists() else {}
+
+    brutos, erros = juntar_intermediarios(origem, anotacoes, construtos, dimensoes)
+    revistos, avisos = aplicar_decisoes(brutos, decisoes)
+    # Item reprovado pelo dono não vai para o site em nenhuma versão do índice.
+    itens = [publico(i) for i in revistos if i["revisao"]["humana"] != "reprovada"]
 
     if apenas_aprovados:
         itens = [i for i in itens if i["revisao"]["humana"] == "aprovada"]
@@ -111,6 +133,7 @@ def montar(destino: Path, apenas_aprovados: bool = False, origem: Path = SAIDA, 
         "por_tipo": {t: sum(i["tipo"] == t for i in itens) for t in ("pintura", "som", "palavra")},
         "pendentes": pendentes,
         "erros": erros,
+        "avisos": avisos,
     }
     if erros:
         return relatorio

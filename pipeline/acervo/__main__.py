@@ -98,6 +98,9 @@ def cmd_rostos(args) -> None:
 
     arquivo = SAIDA / "pinturas.json"
     itens = json.loads(arquivo.read_text(encoding="utf-8"))
+    # A escolha de quem revisou a folha vence a pontuação automática.
+    arquivo_de_decisoes = RAIZ / "pipeline" / "revisao" / "decisoes.json"
+    decisoes = json.loads(arquivo_de_decisoes.read_text(encoding="utf-8")) if arquivo_de_decisoes.exists() else {}
     com_rosto = 0
     for item in itens:
         ident = item["id"].rsplit(":", 1)[-1]
@@ -109,7 +112,11 @@ def cmd_rostos(args) -> None:
         if fator < 1.0:
             imagem = cv2.resize(imagem, (round(largura * fator), round(altura * fator)), interpolation=cv2.INTER_AREA)
         rostos = [{**caixa, "sinais": R.sinais(imagem, caixa)} for caixa in R.detectar(imagem)]
-        destaque = R.escolher_destaque([r["sinais"] for r in rostos], manual=item.get("_destaque_manual"))
+        manual = decisoes.get(item["id"], {}).get("destaque_manual")
+        if manual == "nenhum":
+            destaque = None
+        else:
+            destaque = R.escolher_destaque([r["sinais"] for r in rostos], manual=manual if isinstance(manual, int) else None)
         # Todas as caixas ficam no intermediário, para a folha de revisão; o índice público leva só a escolhida.
         item["_rostos"], item["_destaque"] = rostos, destaque
         if destaque is None:
@@ -172,12 +179,28 @@ def cmd_montar(args) -> None:
     print(f"pintura {t['pintura']} | som {t['som']} | palavra {t['palavra']} | pendentes {r['pendentes']} | erros {len(r['erros'])}")
     for erro in r["erros"]:
         print(" -", erro)
+    for aviso in r.get("avisos", []):
+        print(" ! aviso:", aviso)
     if r["erros"]:
         sys.exit(1)
     itens = json.loads((destino / "acervo.json").read_text(encoding="utf-8"))["itens"]
     for idioma in IDIOMAS:
         sessao = [i for i in itens if i["idioma"] in (None, idioma)]
         print(f"{idioma}: {len(sessao)} itens na sessão, {fracao_de_trios_de_um_construto(sessao):.3%} dos trios com um só construto")
+
+
+def cmd_revisao(args) -> None:
+    from acervo import montar as M
+    from acervo.revisao import gerar_folha
+
+    glossario = M._ler(RAIZ / "data" / "construtos.json")
+    anotacoes = {"pinturas": M._ler(M.ANOTACOES / "pinturas.json"), "sons": M._ler(M.ANOTACOES / "sons.json")}
+    itens, erros = M.juntar_intermediarios(SAIDA, anotacoes, {c["id"] for c in glossario}, {c["id"] for c in glossario if c["dimensao"]})
+    for erro in erros:
+        print(" -", erro)
+    decisoes = M._ler(M.DECISOES) if M.DECISOES.exists() else {}
+    pagina = gerar_folha(itens, RAIZ / "revisao", decisoes)
+    print(f"folha de revisão: {pagina} | itens: {len(itens)} | decisões já gravadas: {len(decisoes)}")
 
 
 def main() -> None:
@@ -207,6 +230,9 @@ def main() -> None:
     p = sub.add_parser("montar", help="monta public/indice a partir dos intermediários e das anotações")
     p.add_argument("--publicavel", action="store_true", help="só itens aprovados na revisão humana")
     p.set_defaults(func=cmd_montar)
+
+    p = sub.add_parser("revisao", help="gera a folha de revisão humana em revisao/index.html")
+    p.set_defaults(func=cmd_revisao)
 
     args = parser.parse_args()
     args.func(args)
