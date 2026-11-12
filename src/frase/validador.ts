@@ -16,6 +16,8 @@ export type Codigo = "V2" | "V3" | "V4" | "V5" | "V6" | "V7" | "V8" | "V9" | "V1
 export interface Validacao {
   ok: boolean;
   codigos: Codigo[];
+  /** Ids dos termos permitidos que o validador achou na frase. É daqui que sai a procedência mostrada à pessoa. */
+  presentes: string[];
 }
 
 type PorIdioma<T> = Record<Idioma, T>;
@@ -42,23 +44,38 @@ const SEGUNDA_PESSOA: PorIdioma<RegExp> = {
 const ATO_PT = new Set(["reuniu", "escolheu", "pôs", "colocou", "juntou", "selecionou", "comunica"]);
 const NOME_PT = /^(escolhas?|seleção|mensagem|palavras)$/i;
 const ATO_EN = new Set(["gathered", "chose", "placed", "picked", "selected", "put", "set", "communicate"]);
-const NOME_EN = /^(choices?|selection|message|own)$/i;
+const NOME_EN = /^(choices?|selection|message)$/i;
+// "in words of your own" é a única forma aceita de "your own": fala das palavras, não de um estado da pessoa.
+const SUAS_PROPRIAS_PALAVRAS_EN = /\bof your own(?=\s*[.,]|\s*$)/gi;
+
+// A revisão final de 12/Nov/2026 mostrou que olhar só a palavra depois de "você" não basta: a atribuição
+// também chega por pronome oblíquo ("o medo que te consome"), por sujeito oculto ("porque está deprimida"),
+// por contração ("you're anxious") e pela pessoa em terceira pessoa ("whoever gathered them is manic").
+// Toda segunda pessoa fora do sujeito do ato de escolher é violação, e o mesmo vale para verbo de estado
+// e para referência à pessoa por fora do pronome. É uma barreira a mais, não uma prova: antes de ligar o
+// modelo em produção, a taxa de escape precisa ser medida com saída real e conferida por gente.
+const PESSOA_FORA_DO_ATO: PorIdioma<RegExp> = {
+  "pt-BR":
+    /(?<![\p{L}\p{M}])(te|ti|tu|contigo|lhe|teus?|tuas?|si|consigo|está|estás|estava|vive|anda|sente|sentes|sofre|padece|carrega|quem reuniu|quem escolheu|a pessoa que|alguém que|por dentro)(?![\p{L}\p{M}])|(?<![\p{L}\p{M}])(em|de|para|por|com|sobre|entre|contra|sem) você(?![\p{L}\p{M}])/iu,
+  en: /\byou['’](re|ve|ll|d)\b|\b(yourself|yours|whoever|someone who|anyone who|the person who|the one who|inside you|within you|in you)\b/i,
+  "zh-CN": /心里|内心|整个人|此人|这个人|选择者|你自己|自己的心/u,
+};
 const DEPOIS_DE_NI = /^(把|选的|选择的|放在|的(这)?三个选择|的选择|的信息|没有(用自己的话)?讲出来)/u;
 
 const NOSOLOGIA: PorIdioma<RegExp> = {
   "pt-BR":
-    /transtorno|depress|bipolar|esquizo|síndrome|sintoma|diagnóst|patolog|doença|distúrbio|psicose|neurose|tdah|autis|borderline|pânico|fobia|suicid|clínic|paciente|anedonia|ansiedade|hipervigil|estresse pós|trauma|insônia|dissocia|burnout|humor/iu,
-  en: /disorder|depress|bipolar|schizo|syndrome|symptom|diagnos|patholog|illness|psychosis|neurosis|adhd|autis|borderline|panic|phobia|suicid|clinical|patient|anhedonia|anxiety|hypervigil|trauma|insomnia|dissociat|burnout|chronic|\bmood\b/i,
+    /transtorno|depress|deprimid|bipolar|esquizo|síndrome|sintoma|diagnóst|patolog|doença|doente|adoec|distúrbio|psicose|neurose|tdah|autis|borderline|pânico|fobia|suicid|clínic|paciente|anedonia|ansiedade|ansios|hipervigil|estresse pós|trauma|insônia|dissocia|burnout|humor|compuls|crônic|viciad|(?<![\p{L}\p{M}])(crises?|surtos?|mania|vício|consome|consomem)(?![\p{L}\p{M}])/iu,
+  en: /disorder|depress|bipolar|schizo|syndrome|symptom|diagnos|patholog|illness|psychosis|neurosis|adhd|autis|borderline|panic|phobia|suicid|clinical|patient|anhedonia|anxiety|anxious|hypervigil|trauma|insomnia|dissociat|burnout|chronic|unwell|mentally|manic|paranoi|addict|compuls|breakdown|\b(mood|ill|sick)\b/i,
   "zh-CN":
-    /障碍|抑郁|双相|精神分裂|综合征|症状|诊断|病理|疾病|精神病|神经症|多动症|自闭|恐慌|恐惧症|自杀|临床|患者|焦虑|失眠|快感缺失|创伤|应激|情绪状态/u,
+    /障碍|抑郁|双相|精神分裂|综合征|症状|诊断|病理|疾病|精神病|神经症|多动症|自闭|恐慌|恐惧症|自杀|临床|患者|焦虑|失眠|快感缺失|创伤|应激|情绪状态|有病|生病|病态|崩溃|躁狂|发疯|成瘾/u,
 };
 
 // V7: conselho, consolo dirigido e qualquer menção de ajuda. O link de ajuda é do app, nunca da frase.
 const CONSELHO: PorIdioma<RegExp> = {
   "pt-BR":
-    /(?<![\p{L}\p{M}])(procure|busque|tente|deveria|deve|precisa|recomendo|considere|permita-se|cuide|respire|fale|converse|conversar|ligue|ajuda|apoio|profissional|terapia|terapeuta|psicólog[oa]|médic[oa])(?![\p{L}\p{M}])|vai passar|é importante|vale a pena/iu,
-  en: /\b(should|try to|consider|seek|you need to|must|recommend|take care|remember to|will pass|reach out|talk to|talking to|counselor|therapist|therapy|help|please|call)\b/i,
-  "zh-CN": /应该|建议|你需要|试着|不妨|最好|寻求|记得|会过去|求助|帮助|热线|请|聊一聊|谈谈|可以找|打电话|咨询/u,
+    /(?<![\p{L}\p{M}])(procure|procurar|busque|buscar|tente|deveria|deve|precisa|recomendo|considere|permita-se|cuide|respire|fale|converse|conversar|desabafe|desabafar|ligue|ligar|telefone|telefonar|ajuda|apoio|profissional|terapia|terapeuta|tratamento|remédio|remédios|psiquiatra|convém|psicólog[oa]|médic[oa])(?![\p{L}\p{M}])|vai passar|é importante|vale a pena|é hora de|está na hora/iu,
+  en: /\b(should|ought to|try to|consider|seek|you need to|must|recommend|take care|remember to|will pass|reach out|talk to|talking to|counselor|counsellor|therapist|therapy|doctor|helpline|hotline|support|treatment|medication|medicine|help|please|call|time to)\b/i,
+  "zh-CN": /应该|必须|建议|你需要|试着|不妨|最好|尽快|不要|寻求|记得|会过去|求助|帮助|热线|请|聊一聊|谈谈|可以找|打电话|咨询|医生|治疗|就医|吃药/u,
 };
 
 const AUTOR_E_TEORIA: PorIdioma<RegExp> = {
@@ -140,7 +157,9 @@ function termosNaFrase(frase: string, idioma: Idioma, glossario: Glossario): str
   return [...new Set(achados.flatMap((o) => (o.id === null ? [] : [o.id])))];
 }
 
-function segundaPessoaSoDoAto(frase: string, idioma: Idioma): boolean {
+function segundaPessoaSoDoAto(texto: string, idioma: Idioma): boolean {
+  if (PESSOA_FORA_DO_ATO[idioma].test(texto)) return false;
+  const frase = idioma === "en" ? texto.replace(SUAS_PROPRIAS_PALAVRAS_EN, "") : texto;
   if (idioma === "zh-CN") {
     for (const m of frase.matchAll(/你/gu)) {
       if (!DEPOIS_DE_NI.test(frase.slice(m.index + 1, m.index + 14))) return false;
@@ -237,5 +256,5 @@ export function validarFrase(
   if (!VERBO_DE_MENSAGEM[idioma].test(texto)) codigos.push("V9");
   if (!idiomaCerto(texto, itens, idioma)) codigos.push("V10");
 
-  return { ok: codigos.length === 0, codigos };
+  return { ok: codigos.length === 0, codigos, presentes: presentes.sort() };
 }

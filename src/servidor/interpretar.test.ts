@@ -46,9 +46,10 @@ function pedido(corpo: unknown, origem = SITE, metodo = "POST"): Request {
 const selecao = { itens: c1.itens.map((i) => i.id), idioma: "pt-BR" };
 
 async function chamar(provedor: Provedor | null, corpo: unknown = selecao, prazoMs = 200) {
-  const interpretar = criarInterpretar({ acervo, glossario, provedor, origens: ORIGENS, prazoMs });
+  const falhas: string[] = [];
+  const interpretar = criarInterpretar({ acervo, glossario, provedor, origens: ORIGENS, prazoMs, aoFalhar: (tipo) => falhas.push(tipo) });
   const resposta = await interpretar(pedido(corpo));
-  return { status: resposta.status, corpo: (await resposta.json()) as Resposta & Record<string, unknown> };
+  return { falhas, status: resposta.status, corpo: (await resposta.json()) as Resposta & Record<string, unknown> };
 }
 
 describe("interpretar com modelo", () => {
@@ -299,5 +300,32 @@ describe("seleção de um só termo", () => {
     expect(corpo.origem).toBe("regra");
     expect(corpo.construtos_usados).toEqual(["nostalgia"]);
     expect(p.chamadas).toHaveLength(0);
+  });
+});
+
+describe("o que o revisor final apontou no servidor", () => {
+  it("a procedência vem dos termos que o servidor achou na frase, não da lista que o modelo declara", async () => {
+    const semLista = JSON.stringify({ frase: c1.frase["pt-BR"], construtos_usados: [] });
+    const { corpo } = await chamar(provedorFalso([semLista]));
+    expect(corpo.origem).toBe("modelo");
+    expect([...corpo.construtos_usados].sort()).toEqual(["apego", "nostalgia", "pertencimento"]);
+  });
+
+  it("falha do provedor é registrada com o tipo, sem a mensagem dele", async () => {
+    const { FalhaDoProvedor } = await import("./provedores/tipos");
+    const { corpo, falhas } = await chamar(provedorFalso([new FalhaDoProvedor("autenticacao", "chave sk-ant-secreta recusada")]));
+    expect(corpo.origem).toBe("regra");
+    expect(falhas).toEqual(["autenticacao"]);
+  });
+
+  it("prazo estourado e erro desconhecido também são registrados", async () => {
+    expect((await chamar(provedorFalso(["nunca"]), selecao, 50)).falhas).toEqual(["prazo"]);
+    expect((await chamar(provedorFalso([new Error("x")]))).falhas).toEqual(["desconhecida"]);
+  });
+
+  it("resposta reprovada duas vezes registra os códigos violados", async () => {
+    const { falhas } = await chamar(provedorFalso([ruim, ruim]));
+    expect(falhas.every((f) => f.startsWith("validacao:"))).toBe(true);
+    expect(falhas).toHaveLength(2);
   });
 });

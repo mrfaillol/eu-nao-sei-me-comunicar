@@ -76,6 +76,17 @@ export function trocarIdioma(e: EstadoSelecao, idioma: Idioma, acervo: Item[], s
   return distribuir(noNovo, "palavra", acervo, sorteio);
 }
 
+/** Tempo em que um toque na mesma janela é ignorado depois de as opções trocarem. */
+export const TRAVA_MS = 350;
+
+/**
+ * Escolher troca as três opções no mesmo lugar. Sem esta trava, o segundo clique de um toque duplo cairia
+ * no item novo e a pessoa escolheria uma pintura que não viu ou um som que não ouviu.
+ */
+export function podeEscolher(ultimaTroca: number | undefined, agora: number): boolean {
+  return ultimaTroca === undefined || agora - ultimaTroca >= TRAVA_MS;
+}
+
 export function completa(e: EstadoSelecao): boolean {
   return e.escolhidos.length === MAXIMO;
 }

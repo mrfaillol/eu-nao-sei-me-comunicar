@@ -102,6 +102,7 @@ PAGINA = """<!doctype html>
   .caixa {{ position:absolute; border:2px solid #e55; }} .caixa.destaque {{ border-color:#3c8; }}
   .caixa b {{ position:absolute; top:-1.4em; left:0; background:#000; padding:0 4px; font-size:12px; }}
   audio {{ width:100%; }} .palavra {{ font-size:28px; margin:8px 0; }}
+  .mudou {{ background:#e55; color:#000; padding:6px 8px; margin:0 0 8px; font-weight:700; }}
   .texto {{ color:#ccc; }} .meta {{ color:#999; font-size:13px; }} .meta a {{ color:#9cf; }}
   fieldset {{ border:0; padding:0; display:flex; gap:12px; flex-wrap:wrap; }} h2 {{ grid-column:1/-1; margin:16px 0 0; }}
 </style></head><body>
@@ -121,7 +122,11 @@ function conta() {{
 }}
 document.querySelectorAll('article').forEach((a) => {{
   const d = anteriores[a.dataset.id];
-  if (d && d.humana) {{ const r = a.querySelector('input[value="' + d.humana + '"]'); if (r) {{ r.checked = true; a.classList.add(d.humana); }} }}
+  // Aprovação antiga só volta marcada se o item ainda é o mesmo que foi revisto. Senão, a folha exportaria
+  // a aprovação com a impressão do conteúdo novo, que ninguém viu.
+  const vale = d && d.humana && (d.humana === 'reprovada' || d.impressao === a.dataset.impressao);
+  if (vale) {{ const r = a.querySelector('input[value="' + d.humana + '"]'); if (r) {{ r.checked = true; a.classList.add(d.humana); }} }}
+  else if (d && d.humana) {{ const aviso = document.createElement('p'); aviso.className = 'mudou'; aviso.textContent = 'Este item mudou desde a sua revisão. Veja de novo antes de decidir.'; a.prepend(aviso); }}
   a.addEventListener('change', (e) => {{ if (e.target.type === 'radio') {{ a.classList.remove('aprovada', 'reprovada'); a.classList.add(e.target.value); conta(); }} }});
 }});
 conta();

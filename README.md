@@ -13,7 +13,7 @@ A frase afirma o que a **seleção** comunica. Ela não diagnostica, não aconse
 
 ```bash
 pnpm install
-pnpm dev                 # site em http://localhost:5173, com a função em /api/interpretar
+pnpm dev                 # site em http://localhost:5173; a função fica em /api/interpretar, e o site só a usa com VITE_API_BASE
 pnpm build               # site de produção em dist/ (cerca de 15 MB, com o acervo dentro)
 pnpm test                # testes de unidade (frase, servidor, interface)
 pnpm e2e                 # constrói e roda os testes de navegador, em celular e em tela larga
@@ -53,7 +53,8 @@ Regras que o pipeline faz valer:
 - Nenhum item entra sem texto escrito por gente: descrição da curadoria (pintura), título e tags do autor (som), glosa de dicionário (palavra).
 - Cada anotação de pintura e de som cita o trecho literal do texto humano que a sustenta. Item cujo texto não sustenta nenhum construto sai do acervo (`data/pinturas-excluidas.txt`, `data/sons-excluidos.txt`).
 - Todo construto do glossário tem referência com DOI que resolve no Crossref.
-- Só CC0 para pintura e som. Sem voz humana nos sons.
+- Só CC0 para pintura e som.
+- Os sons vêm de termos de busca sem voz e passam por uma lista de termos barrados em título e tags. Isso reduz, mas não garante, a ausência de voz ou de conteúdo impróprio: quem garante é a escuta humana, na folha de revisão.
 
 ### Revisão humana
 
@@ -71,7 +72,7 @@ A aprovação vale só para o conteúdo revisado: se o pipeline rodar de novo e 
 | Variável | Efeito |
 |---|---|
 | `ANTHROPIC_API_KEY` | Liga o modelo. Sem ela, a função responde só pela regra |
-| `FRASE_MODELO` | Troca o modelo. Padrão: `claude-opus-5-5` |
+| `FRASE_MODELO` | Troca o modelo. Padrão: `claude-opus-5-5`, o mais caro da família; a escolha do modelo é do dono e o plano original previa um menor |
 | `FRASE_PROVEDOR=nenhum` | Desliga o modelo mesmo com chave |
 | `VITE_API_BASE` | No site: endereço da função. Vazio: modo de demonstração, tudo no aparelho |
 
@@ -82,16 +83,23 @@ O servidor de produção ainda não tem adaptador: `criarInterpretar` recebe um 
 ## Estado, medido em 12/Nov/2026
 
 - Acervo: 30 pinturas (20 com rosto de destaque), 30 sons, 90 palavras. 150 itens com revisão pendente. Glossário com 34 construtos e 4 termos de dimensão.
-- Testes: 91 em Python, 248 de unidade em TypeScript, 34 de navegador.
-- Validador: rejeita 33 de 33 frases defeituosas do conjunto de regressão e aceita 18 de 18 de referência.
+- Testes: 92 em Python, 269 de unidade em TypeScript, 44 de navegador (celular e tela larga, só em Chromium).
+- Validador: rejeita 33 de 33 frases defeituosas do conjunto de regressão e aceita 18 de 18 de referência. **É uma barreira, não uma prova.** A revisão final fez passar 13 frases que atribuíam estado à pessoa ou aconselhavam ("o medo que te consome", "you're anxious"); hoje elas são rejeitadas e viraram teste, mas a regra continua sendo lista, com furos por natureza.
+- O compositor por regra não gera frase reprovada: conferido pelo revisor em 352.440 frases (todos os trios do índice, nos três idiomas) e, no repositório, por um teste sobre uma amostra fixa.
 - Sonda do pré-prompt com modelo real: 17 de 18 respostas aprovadas na primeira tentativa. A reprovada, em mandarim, não tinha verbo de mensagem. Uma tentativa de injeção plantada nas tags de um som foi tratada como dado nos três idiomas.
 - Pareamento cego: um juiz que só viu o texto humano dos itens ligou 6 de 6 frases por regra à seleção certa.
 - Sem rede: depois da primeira visita, o site funciona inteiro (teste de navegador corta a rede e refaz o fluxo).
 
+### Antes de ligar o modelo
+
+1. Medir a taxa de escape do validador com saída real do provedor escolhido, nos três idiomas, e ler uma amostra das frases aprovadas.
+2. Pôr limite de pedidos por cliente na hospedagem.
+3. Confirmar na primeira chamada que o pedido é aceito. Que `claude-opus-5-5` rejeita `temperature` foi lido na documentação do SDK, não medido. Falha do provedor aparece no registro do servidor como `[interpretar] caminho do modelo falhou: <tipo>`.
+
 ### NÃO PROVADO
 
 - Nenhuma chamada à API de um provedor. A sonda e o pareamento usaram subagentes da sessão de desenvolvimento, dentro de outro arnês.
-- Nada rodou em aparelho. Som em iPhone real, instalação da PWA e o app do Capacitor em uso ficam por testar.
+- Nada rodou em aparelho. Som em iPhone real, instalação da PWA e o app do Capacitor em uso ficam por testar. Hipótese a testar primeiro: o service worker entrega os `.mp3` sem tratar pedidos com `Range`, e o Safari costuma recusar isso; se valer, os sons não tocam na PWA instalada no iPhone (dentro do app Capacitor não há service worker e a hipótese não se aplica).
 - O pareamento cego usou modelo como juiz, não gente.
 
 ### Revisão nativa pendente
@@ -124,3 +132,4 @@ DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer xcodebuild \
 - Identificador definitivo do app (`capacitor.config.ts` traz um provisório), contas de loja, política de privacidade publicada.
 - Instalar o SDK do Android, ativar o Xcode (`xcode-select` pede sudo) e testar em aparelho.
 - As 37 decisões listadas na seção 5 de `docs/pesquisa/dossie.md`.
+- Os 17 achados menores da revisão final, em `docs/revisao-final-2026-11-12.md`.

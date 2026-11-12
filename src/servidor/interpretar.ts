@@ -15,7 +15,7 @@ import { montarCorrecao, montarMensagens, VERSAO_PROMPT } from "../frase/prompt"
 import { termosPermitidos } from "../frase/termos";
 import { IDIOMAS, type Glossario, type Idioma, type Item } from "../frase/tipos";
 import { validarFrase, type Codigo } from "../frase/validador";
-import type { Provedor } from "./provedores/tipos";
+import { FalhaDoProvedor, type Provedor } from "./provedores/tipos";
 
 export interface Resposta {
   frase: string;
@@ -34,7 +34,15 @@ export interface Dependencias {
   origens: string[];
   /** Tempo total para as duas tentativas do modelo. O cliente espera 8.000 ms; aqui sobra folga para a rede. */
   prazoMs?: number;
+  /**
+   * Chamado a cada falha do caminho do modelo, com um rótulo curto: o tipo da falha do provedor, "prazo",
+   * "desconhecida" ou "validacao:V5,V6". Sem isso, uma chave errada faria tudo cair na regra em silêncio.
+   * Nunca recebe a mensagem do provedor, o IP nem os itens escolhidos.
+   */
+  aoFalhar?: (rotulo: string) => void;
 }
+
+const registrarNoConsole = (rotulo: string) => console.warn(`[interpretar] caminho do modelo falhou: ${rotulo}`);
 
 const PRAZO_PADRAO_MS = 7000;
 const TAMANHO_MAXIMO_DO_CORPO = 1024;
@@ -75,8 +83,9 @@ async function comPrazo(chamada: (sinal: AbortSignal) => Promise<string>, ms: nu
 export async function escreverFrase(
   itens: Item[],
   idioma: Idioma,
-  deps: Pick<Dependencias, "glossario" | "provedor" | "prazoMs">,
+  deps: Pick<Dependencias, "glossario" | "provedor" | "prazoMs" | "aoFalhar">,
 ): Promise<Resposta> {
+  const aoFalhar = deps.aoFalhar ?? registrarNoConsole;
   const comum = { idioma, ajuda_destacada: ajudaDestacada(itens), versao_prompt: VERSAO_PROMPT };
   const porRegra = (): Resposta => ({ ...comum, origem: "regra", ...comporFrase(itens, idioma, deps.glossario) });
 
@@ -98,19 +107,26 @@ export async function escreverFrase(
     let texto: string;
     try {
       texto = await comPrazo((sinal) => provedor.gerar(sistema, mensagem, tentativa, sinal), restante);
-    } catch {
-      // Prazo, recusa, limite de uso, falha de rede: em todos os casos a pessoa recebe a frase por regra.
+    } catch (erro) {
+      // Prazo, recusa, limite de uso, falha de rede: em todos os casos a pessoa recebe a frase por regra,
+      // e o tipo da falha fica registrado para o dono saber que o modelo não está respondendo.
+      aoFalhar(erro instanceof FalhaDoProvedor ? erro.tipo : erro instanceof Prazo ? "prazo" : "desconhecida");
       break;
     }
 
     const lido = lerResposta(texto);
     if (!lido) {
       violados = ["V1"];
+      aoFalhar("validacao:V1");
       continue;
     }
     const validacao = validarFrase(lido.frase, lido.construtos_usados, itens, idioma, deps.glossario);
-    if (validacao.ok) return { ...comum, origem: tentativa === 1 ? "modelo" : "modelo_2", ...lido };
+    if (validacao.ok) {
+      // A procedência mostrada à pessoa são os termos que o servidor achou na frase, não a lista do modelo.
+      return { ...comum, origem: tentativa === 1 ? "modelo" : "modelo_2", frase: lido.frase, construtos_usados: validacao.presentes };
+    }
     violados = validacao.codigos;
+    aoFalhar(`validacao:${validacao.codigos.join(",")}`);
   }
   return porRegra();
 }

@@ -14,7 +14,7 @@ import { desenharPinturas } from "./janela-pinturas";
 import { desenharSons, marcarSomTocando } from "./janela-sons";
 import { pedirFrase } from "./pedido";
 import { desenharEspera, desenharResultado } from "./resultado";
-import { completa, criarEstado, escolher, redistribuir, retirar, trocarIdioma, type EstadoSelecao, type Janela } from "./selecao";
+import { completa, criarEstado, escolher, podeEscolher, redistribuir, retirar, trocarIdioma, type EstadoSelecao, type Janela } from "./selecao";
 
 const BASE = import.meta.env.BASE_URL;
 const API = (import.meta.env.VITE_API_BASE as string | undefined) || null;
@@ -40,6 +40,7 @@ function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda:
   let idioma: Idioma = idiomaGuardado() ?? idiomaInicial(navigator.languages ?? [navigator.language]);
   let estado: EstadoSelecao = criarEstado(acervo.itens, idioma, Math.random);
   let ajudaDestacada = false;
+  const ultimaTroca: Partial<Record<Janela, number>> = {};
   const porId = new Map(acervo.itens.map((i) => [i.id, i]));
   const itensDe = (ids: string[]) => ids.flatMap((id) => porId.get(id) ?? []);
   const tocador = criarTocador();
@@ -125,11 +126,16 @@ function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda:
   }
 
   function escolherItem(id: string): void {
+    const tipo = porId.get(id)?.tipo;
+    // Segundo clique de um toque duplo: as opções acabaram de trocar e este toque não foi numa coisa vista.
+    if (tipo && !podeEscolher(ultimaTroca[tipo], performance.now())) return;
     const antes = estado;
     estado = escolher(estado, id, acervo.itens, Math.random);
     if (estado === antes) return; // quarta escolha ou toque repetido
+    if (tipo) ultimaTroca[tipo] = performance.now(); // a escolha troca as opções desta janela no mesmo lugar
     tocador.parar();
-    const tipo = porId.get(id)?.tipo;
+    // O destaque da ajuda dura até a próxima seleção começar.
+    if (estado.escolhidos.length === 1) ajudaDestacada = false;
     if (tipo) desenharMesa(tipo);
     desenharBarra();
     if (completa(estado)) void mostrarFrase();
@@ -144,16 +150,21 @@ function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda:
     // A pessoa pode ter recomeçado ou trocado de idioma enquanto a frase vinha.
     if (ids.join("|") !== estado.escolhidos.join("|") || noPedido !== idioma) return;
     ajudaDestacada = resposta.ajuda_destacada;
-    desenharResultado(resultado.corpo, resposta, itensDe(ids), glossario, idioma, recomecar);
+    desenharResultado(resultado.corpo, resposta, itensDe(ids), glossario, idioma, recomecar, { texto: ajuda.idiomas[idioma].link, aoAbrir: abrirAjuda });
     desenharBarra();
   }
 
   function recomecar(): void {
     tocador.parar();
-    ajudaDestacada = false;
+    for (const janela of ["pintura", "som", "palavra"] as const) delete ultimaTroca[janela]; // recomeçar é um gesto novo: a trava de toque duplo zera
     estado = criarEstado(acervo.itens, idioma, Math.random);
     if (resultado.dialogo.open) resultado.dialogo.close();
     desenharTextos();
+  }
+
+  function abrirAjuda(): void {
+    desenharAjuda(folhaDeAjuda.corpo, ajuda, idioma, () => folhaDeAjuda.dialogo.close());
+    folhaDeAjuda.dialogo.showModal();
   }
 
   function verInteira(item: Item): void {
@@ -183,10 +194,7 @@ function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda:
     desenharCreditos(creditos.corpo, acervo, idioma, () => creditos.dialogo.close());
     creditos.dialogo.showModal();
   });
-  botaoAjuda.addEventListener("click", () => {
-    desenharAjuda(folhaDeAjuda.corpo, ajuda, idioma, () => folhaDeAjuda.dialogo.close());
-    folhaDeAjuda.dialogo.showModal();
-  });
+  botaoAjuda.addEventListener("click", abrirAjuda);
 
   desenharTextos();
 }

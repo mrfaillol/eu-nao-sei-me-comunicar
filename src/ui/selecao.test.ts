@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { Item, Tipo } from "../frase/tipos";
-import { completa, criarEstado, escolher, redistribuir, retirar, trocarIdioma } from "./selecao";
+import { completa, criarEstado, escolher, podeEscolher, redistribuir, retirar, trocarIdioma } from "./selecao";
 
 function item(tipo: Tipo, n: number, idioma: Item["idioma"] = null): Item {
   return {
@@ -111,5 +111,14 @@ describe("seleção", () => {
     expect(e2.escolhidos).toEqual([palavra]); // a palavra em português continua escolhida
     expect(e2.mesas.palavra.every((id) => id.startsWith("palavra:en:"))).toBe(true);
     expect(e2.mesas.pintura).toEqual(e.mesas.pintura);
+  });
+});
+
+describe("trava contra toque duplo", () => {
+  it("logo depois de as opções trocarem, um toque no mesmo lugar não escolhe", () => {
+    expect(podeEscolher(1000, 1100)).toBe(false); // 100 ms depois da troca: é o segundo clique do toque duplo
+    expect(podeEscolher(1000, 1349)).toBe(false);
+    expect(podeEscolher(1000, 1350)).toBe(true);
+    expect(podeEscolher(undefined, 5)).toBe(true); // janela que ainda não trocou de opções
   });
 });

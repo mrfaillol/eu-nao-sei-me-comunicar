@@ -7,7 +7,9 @@
 // - `fallbacks: "default"` deixa a API reexecutar em outro modelo se o classificador de segurança
 //   declinar. Se ainda assim vier recusa, a função cai na frase por regra.
 import Anthropic from "@anthropic-ai/sdk";
-import type { Provedor } from "./tipos";
+import { FalhaDoProvedor, type Provedor } from "./tipos";
+
+export { FalhaDoProvedor };
 
 export const MODELO_PADRAO = "claude-opus-5-5";
 
@@ -23,19 +25,6 @@ const FORMATO_DA_RESPOSTA = {
     additionalProperties: false,
   },
 };
-
-export type TipoDeFalha = "recusa" | "limite" | "autenticacao" | "pedido" | "conexao" | "api";
-
-export class FalhaDoProvedor extends Error {
-  constructor(
-    readonly tipo: TipoDeFalha,
-    mensagem: string,
-    opcoes?: ErrorOptions,
-  ) {
-    super(mensagem, opcoes);
-    this.name = "FalhaDoProvedor";
-  }
-}
 
 function classificar(erro: unknown): FalhaDoProvedor {
   if (erro instanceof FalhaDoProvedor) return erro;

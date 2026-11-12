@@ -25,7 +25,7 @@ export function criarJanela(opcoes: OpcoesDeJanela): HTMLElement {
     corpo,
   );
   // Tocar em qualquer ponto traz a janela para a frente, como numa área de trabalho.
-  janela.addEventListener("pointerdown", () => (janela.style.zIndex = String(++topo)));
+  janela.addEventListener("pointerdown", () => trazerParaFrente(janela));
   tornarArrastavel(janela);
   return janela;
 }
@@ -35,7 +35,21 @@ export function definirTitulo(janela: HTMLElement, titulo: string): void {
   if (h2) h2.textContent = titulo;
 }
 
-let topo = 10;
+const CAMADA_INICIAL = 10;
+const CAMADA_MAXIMA = 900; // a barra de tarefas fica em 1000 e nunca pode ser coberta
+let topo = CAMADA_INICIAL;
+
+function trazerParaFrente(janela: HTMLElement): void {
+  if (topo >= CAMADA_MAXIMA) {
+    // Renumera as janelas na ordem em que estão, a partir da camada inicial.
+    const todas = [...document.querySelectorAll<HTMLElement>(".janela[data-janela]")].sort(
+      (a, b) => (Number(a.style.zIndex) || 0) - (Number(b.style.zIndex) || 0),
+    );
+    topo = CAMADA_INICIAL;
+    for (const j of todas) j.style.zIndex = String(++topo);
+  }
+  janela.style.zIndex = String(++topo);
+}
 
 function tornarArrastavel(janela: HTMLElement): void {
   const pega = janela.querySelector<HTMLElement>(".barra");
@@ -45,7 +59,7 @@ function tornarArrastavel(janela: HTMLElement): void {
   pega.addEventListener("pointerdown", (e) => {
     if (!window.matchMedia(ARRASTAVEL).matches || e.button !== 0) return;
     origem = { x: e.clientX, y: e.clientY, dx: parseFloat(janela.style.getPropertyValue("--dx")) || 0, dy: parseFloat(janela.style.getPropertyValue("--dy")) || 0 };
-    janela.style.zIndex = String(++topo);
+    trazerParaFrente(janela);
     janela.classList.add("arrastando");
     pega.setPointerCapture(e.pointerId);
   });

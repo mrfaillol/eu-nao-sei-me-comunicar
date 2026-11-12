@@ -234,7 +234,7 @@
 .tarefas {
   position: fixed;
   inset: auto 0 0 0;
-  z-index: 20;
+  z-index: 1000; /* sempre acima das janelas, que sobem de camada a cada toque (até 900) */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -289,6 +289,7 @@
   width: 34px;
   border: 0;
   background: none;
+  color: var(--tinta); /* sem isto o esquema escuro pinta o × de branco sobre o cinza-claro */
   font: inherit;
   font-weight: 700;
   cursor: pointer;
@@ -387,8 +388,17 @@ dialog h3 {
 .lista p { margin: 2px 0 0; }
 .lista a, dialog a { color: var(--barra); overflow-wrap: anywhere; }
 
+.acoes .ajuda { margin-right: auto; }
+.botao.ajuda.destacada {
+  background: var(--barra);
+  color: var(--claro);
+  font-weight: 700;
+}
+.botao.ajuda.destacada:focus-visible { outline-color: var(--claro); }
+
 .acoes {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
   gap: 8px;
   margin-top: 18px;

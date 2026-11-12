@@ -1,4 +1,17 @@
-import { expect, test } from "@playwright/test";
+import { expect, test, type Page } from "@playwright/test";
+
+// Depois de uma escolha, a mesma janela ignora toques por 350 ms (trava contra toque duplo).
+const TRAVA = 420;
+
+/** Escolhe um item pelo id, pedindo "outras três" até ele aparecer na janela. */
+async function escolherPorId(page: Page, janela: "pintura" | "som" | "palavra", id: string): Promise<void> {
+  const alvo = page.locator(`[data-janela="${janela}"] [data-id="${id}"]`);
+  for (let n = 0; n < 15 && (await alvo.count()) === 0; n++) {
+    await page.locator(`[data-janela="${janela}"] [data-acao="outras"]`).click();
+  }
+  await page.waitForTimeout(TRAVA);
+  await alvo.click();
+}
 
 test.beforeEach(async ({ page }) => {
   await page.goto("/");
@@ -47,8 +60,13 @@ test("três escolhas livres levam à frase, com a procedência de cada termo", a
 test("três escolhas na mesma janela também valem, e a quarta não entra", async ({ page }) => {
   for (let n = 0; n < 3; n++) {
     await page.locator("button.palavra").first().click();
+    await expect(page.locator(".tarefas .conta")).toHaveText(`${n + 1} de 3`);
+    await page.waitForTimeout(TRAVA);
   }
   await expect(page.locator('dialog[data-dialogo="resultado"] .frase[data-origem]')).toBeVisible();
+  await expect(page.locator(".tarefas .escolhas li[data-escolhido]")).toHaveCount(3);
+  // a quarta não entra: com a caixa da frase aberta o resto da página fica inerte, e o estado segue com três
+  await page.evaluate(() => document.querySelector<HTMLElement>("button.palavra")?.click());
   await expect(page.locator(".tarefas .escolhas li[data-escolhido]")).toHaveCount(3);
   await expect(page.locator('dialog[data-dialogo="resultado"] .frase')).toContainText("As três palavras que você reuniu");
 });
@@ -87,7 +105,10 @@ test("ver inteira mostra a pintura com o crédito do museu", async ({ page }) =>
 test("a frase sai no idioma escolhido, em inglês e em mandarim", async ({ page }, info) => {
   for (const [idioma, trecho] of [["en", "you gathered"], ["zh-CN", "你选的"]] as const) {
     await page.selectOption("#idioma", idioma);
-    for (let n = 0; n < 3; n++) await page.locator(".moldura").first().click();
+    for (let n = 0; n < 3; n++) {
+      await page.locator(".moldura").first().click();
+      await page.waitForTimeout(TRAVA);
+    }
     const frase = page.locator('dialog[data-dialogo="resultado"] .frase[data-origem]');
     await expect(frase).toContainText(trecho);
     await expect(frase).toHaveAttribute("lang", idioma);
@@ -139,4 +160,53 @@ test("as escolhas feitas aparecem na barra de tarefas com o nome", async ({ page
     const largura = await nomes.nth(n).evaluate((no) => no.getBoundingClientRect().width);
     expect(largura).toBeGreaterThan(30);
   }
+});
+
+test.describe("achados da revisão final", () => {
+  test("toque duplo numa pintura escolhe uma só", async ({ page }) => {
+    await page.locator(".moldura").first().dblclick();
+    await page.waitForTimeout(200);
+    await expect(page.locator(".tarefas .conta")).toHaveText("1 de 3");
+    await expect(page.locator(".tarefas .escolhas li[data-escolhido]")).toHaveCount(1);
+  });
+
+  test("o × de retirar é escuro sobre o fundo claro da escolha", async ({ page }) => {
+    await page.locator("button.palavra").first().click();
+    await expect(page.locator(".tarefas .escolhas li[data-escolhido] button")).toHaveCSS("color", "rgb(0, 0, 0)");
+  });
+
+  test("depois de muitos toques nas janelas, a barra de tarefas continua por cima delas", async ({ page }) => {
+    for (let n = 0; n < 15; n++) await page.locator('[data-janela="som"] .opcao-som .tocar').first().click();
+    const camadas = await page.evaluate(() => ({
+      barra: Number(getComputedStyle(document.querySelector(".tarefas")!).zIndex),
+      janelas: [...document.querySelectorAll<HTMLElement>(".janela[data-janela]")].map((j) => Number(getComputedStyle(j).zIndex) || 0),
+    }));
+    for (const z of camadas.janelas) expect(z).toBeLessThan(camadas.barra);
+  });
+
+  test("com duas escolhas de tema sensível, a ajuda aparece destacada dentro da caixa da frase e funciona ali", async ({ page }) => {
+    await escolherPorId(page, "pintura", "pintura:cma:145925");
+    await escolherPorId(page, "pintura", "pintura:cma:125249");
+    await page.locator("button.palavra").first().click();
+    const dialogo = page.locator('dialog[data-dialogo="resultado"]');
+    await expect(dialogo.locator(".frase[data-origem]")).toBeVisible();
+    const ajuda = dialogo.locator('[data-acao="ajuda-no-resultado"]');
+    await expect(ajuda).toBeVisible();
+    await expect(ajuda).toHaveClass(/destacada/);
+    await ajuda.click();
+    await expect(page.locator('dialog[data-dialogo="ajuda"] .telefone')).toHaveText("188");
+    await page.locator('dialog[data-dialogo="ajuda"] .botao').click();
+    // fechar a frase não apaga o destaque: ele dura até a próxima seleção começar
+    await dialogo.locator('[data-acao="recomecar"]').click();
+    await expect(page.locator('.tarefas [data-acao="ajuda"]')).toHaveClass(/destacada/);
+    await page.locator("button.palavra").first().click();
+    await expect(page.locator('.tarefas [data-acao="ajuda"]')).not.toHaveClass(/destacada/);
+  });
+
+  test("sem tema sensível, a ajuda está na caixa da frase sem destaque", async ({ page }) => {
+    for (const palavra of ["aconchego", "alívio", "júbilo"]) await escolherPorId(page, "palavra", `palavra:pt-BR:${palavra}`);
+    const ajuda = page.locator('dialog[data-dialogo="resultado"] [data-acao="ajuda-no-resultado"]');
+    await expect(ajuda).toBeVisible();
+    await expect(ajuda).not.toHaveClass(/destacada/);
+  });
 });

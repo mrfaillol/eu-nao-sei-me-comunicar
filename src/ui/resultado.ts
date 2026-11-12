@@ -38,9 +38,14 @@ export function desenharResultado(
   glossario: Glossario,
   idioma: Idioma,
   aoRecomecar: () => void,
+  ajuda: { texto: string; aoAbrir: () => void },
 ): void {
   const recomecar = el("button", { class: "botao", type: "button", "data-acao": "recomecar" }, t("resultado.recomecar", idioma));
   recomecar.addEventListener("click", aoRecomecar);
+  // A barra de tarefas fica inerte atrás da caixa da frase: o link de ajuda precisa estar aqui dentro,
+  // que é onde a pessoa está quando o destaque importa.
+  const botaoAjuda = el("button", { class: `botao ajuda${resposta.ajuda_destacada ? " destacada" : ""}`, type: "button", "data-acao": "ajuda-no-resultado" }, ajuda.texto);
+  botaoAjuda.addEventListener("click", ajuda.aoAbrir);
   const termos = resposta.construtos_usados.map((id) => linhaDeTermo(id, escolhidos, glossario, idioma)).filter((x): x is HTMLElement => x !== null);
   corpo.replaceChildren(
     // A frase é anunciada a quem usa leitor de tela assim que chega.
@@ -51,6 +56,6 @@ export function desenharResultado(
     el("ul", { class: "lista termos" }, ...termos),
     el("h3", {}, t("resultado.creditos", idioma)),
     el("ul", { class: "lista" }, ...escolhidos.map(linhaDeCredito)),
-    el("div", { class: "acoes" }, recomecar),
+    el("div", { class: "acoes" }, botaoAjuda, recomecar),
   );
 }

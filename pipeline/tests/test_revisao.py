@@ -141,3 +141,13 @@ def test_folha_grava_a_impressao_de_cada_item(tmp_path):
     pagina = (tmp_path / "index.html").read_text(encoding="utf-8")
     assert f'data-impressao="{impressao(item)}"' in pagina
     assert "impressao: a.dataset.impressao" in pagina
+
+
+def test_folha_nao_remarca_aprovacao_de_item_que_mudou(tmp_path):
+    item = som(2)
+    antiga = {"som:freesound:2": {"humana": "aprovada", "por": "Victor", "em": "2026-11-12", "impressao": "impressao-do-conteudo-antigo"}}
+    gerar_folha([item], tmp_path, antiga)
+    pagina = (tmp_path / "index.html").read_text(encoding="utf-8")
+    # a regra está no script da página: só pré-marca quando a impressão guardada é a do item de agora
+    assert "d.impressao === a.dataset.impressao" in pagina
+    assert "Este item mudou desde a sua revisão" in pagina
