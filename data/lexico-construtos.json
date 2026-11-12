@@ -56,5 +56,5 @@
     "luto": ["toll", "tolling", "funeral"]
   },
   "grave": ["death", "dead", "dying", "funeral*", "mourn*", "war", "battle*", "martyr*", "crucifi*", "execution*", "plague", "suicide", "murder*", "kill*", "wound*", "blood*", "slave*", "famine", "massacre*", "corpse*"],
-  "excluir": ["nude", "nudes", "nudity", "naked", "bather", "bathers", "odalisque", "erotic*", "behead*", "decapitat*", "tortur*", "flay*", "rape", "raped", "lynch*", "disembowel*", "slaughter*", "hell"]
+  "excluir": ["nude", "nudes", "nudity", "naked", "bather", "bathers", "odalisque", "erotic*", "behead*", "decapitat*", "tortur*", "flay*", "rape", "raped", "lynch*", "disembowel*", "slaughter*", "hell", "flagellat*", "scourg*", "mocking of christ", "man of sorrows"]
 }

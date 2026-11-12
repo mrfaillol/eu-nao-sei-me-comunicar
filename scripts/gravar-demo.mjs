@@ -136,7 +136,10 @@ await marcar("dicionário", ".info-caixa", 2.8);
 await clicar("button.palavra", 0, 800);
 
 // Outras três pinturas, mais uma escolha, mais uma palavra: não há teto.
-await clicar('[data-janela="pintura"] [data-acao="outras"]', 0, 1700);
+await clicar('[data-janela="pintura"] [data-acao="outras"]', 0, 200);
+// As pinturas novas vêm do servidor do museu: espera abrirem antes de seguir.
+await page.waitForFunction(() => [...document.querySelectorAll(".moldura .pintura img")].every((i) => i.complete && i.naturalWidth > 0), null, { timeout: 10_000 }).catch(() => {});
+await dormir(1700);
 await clicar(".opcao-pintura .moldura", 0, 800);
 await clicar("button.palavra", 1, 700);
 await irAte('[data-acao="ver-frase"]');
@@ -211,11 +214,13 @@ const filtro = [
   "fps=30",
   `zoompan=z='${z}':x='(${curva("cx")})*iw-iw/zoom/2':y='(${curva("cy")})*ih-ih/zoom/2':d=1:s=1920x1080:fps=30`,
   `fade=t=out:st=${(fim - 0.5).toFixed(2)}:d=0.5`,
+  // Os quadros são JPEG, de faixa cheia. Redes sociais esperam a faixa de vídeo: sem isto o preto sai lavado em alguns tocadores.
+  "scale=in_range=pc:out_range=tv",
   "format=yuv420p",
 ].join(",");
 
 mkdirSync(dirname(saida), { recursive: true });
-execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", concat, "-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100", "-vf", filtro, "-t", fim.toFixed(2), "-c:v", "libx264", "-crf", "17", "-preset", "slow", "-c:a", "aac", "-b:a", "64k", "-movflags", "+faststart", saida], { stdio: "inherit" });
+execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", concat, "-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100", "-vf", filtro, "-t", fim.toFixed(2), "-c:v", "libx264", "-crf", "17", "-preset", "slow", "-color_range", "tv", "-c:a", "aac", "-b:a", "64k", "-movflags", "+faststart", saida], { stdio: "inherit" });
 rmSync(pasta, { recursive: true, force: true });
 
 console.log(JSON.stringify({ saida, segundos: Number(fim.toFixed(1)), quadros: quadros.length, qps: Number((quadros.length / fim).toFixed(1)), marcas: marcas.map((m) => `${m.nome} @${m.t.toFixed(1)}s`), frase: fraseFinal }, null, 1));
