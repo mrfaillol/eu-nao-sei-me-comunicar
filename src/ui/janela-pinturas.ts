@@ -10,6 +10,8 @@ export interface AcoesDePintura {
   info: Info;
   aoEscolher: (id: string) => void;
   aoVer: (item: Item) => void;
+  /** A imagem não abriu: a janela troca a opção em vez de mostrar um quadro vazio. */
+  aoFalhar: (id: string) => void;
 }
 
 const ATRASO_POR_POSICAO_MS = 300;
@@ -26,6 +28,7 @@ export function desenharPinturas(poco: HTMLElement, itens: Item[], acoes: AcoesD
         item.rosto && item.nitido ? el("img", { class: "nitido", src: acoes.midia(item.nitido), alt: "", loading: "lazy" }) : null,
       );
       moldura.addEventListener("click", () => acoes.aoEscolher(item.id));
+      moldura.querySelector("img")?.addEventListener("error", () => acoes.aoFalhar(item.id), { once: true });
       // Com rosto, a miniatura se aproxima dele quando a distribuição aparece. Sem rosto, fica parada:
       // zoom dirigido sem rosto acertou o assunto em metade dos casos medidos.
       if (item.rosto) {

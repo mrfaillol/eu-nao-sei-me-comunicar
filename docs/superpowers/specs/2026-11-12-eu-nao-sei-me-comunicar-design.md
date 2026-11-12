@@ -132,5 +132,6 @@ Estas decisões substituem o que o texto acima diz sobre "três escolhas" e "fra
 2. **A frase para N itens.** Conta os itens por extenso (o validador não aceita dígito), nomeia o construto mais repetido e até três ao fundo, no máximo quatro termos. Com três itens a frase é idêntica à de antes. Os construtos que a frase não nomeia aparecem na caixa do resultado.
 3. **(i) em cada item.** Palavras do texto humano do item (curadoria ou tags) e, nas palavras, a definição do dicionário. Nada é gerado: só extraído.
 4. **Assinatura do autor** no canto direito da barra, com link para o site dele e o caractere ☭.
-5. **Acervo sem teto para imagens e sons**, com adaptação para o sistema de frases atual: pedido registrado, a fazer no pipeline (anotação automática que cita o trecho do texto humano).
+5. **Acervo sem teto para imagens e sons**, com adaptação para o sistema de frases atual. Feito como um segundo índice (`ampliado.json`), montado pelo pipeline: mídia nos servidores de origem, anotação automática por léxico presa a um trecho literal do texto humano. O site não consulta API de terceiros em uso; só busca a imagem e o som. Alternativa descartada: buscar itens ao vivo na API do museu e do Openverse, que daria acervo de fato infinito, mas sem filtro prévio de conteúdo, sem rosto detectado e com a frase dependendo de serviço de terceiro no ar.
+6. **Dicionário de cada língua** no (i) das palavras: Dicionário Aberto em português, 重編國語辭典修訂本 em mandarim, Wiktionary em inglês.
 

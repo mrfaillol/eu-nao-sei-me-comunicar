@@ -1,6 +1,8 @@
+import { soNucleo } from "./apoio";
 import { expect, test } from "@playwright/test";
 
 test.beforeEach(async ({ page }) => {
+  await soNucleo(page);
   await page.goto("/");
   await expect(page.locator(".janela[data-janela]")).toHaveCount(3);
 });

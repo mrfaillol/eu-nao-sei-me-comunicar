@@ -2,7 +2,7 @@ import type { Acervo, Idioma, Item } from "../frase/tipos";
 import { el } from "./dom";
 import { t } from "./i18n";
 
-export function desenharCreditos(corpo: HTMLElement, acervo: Acervo, idioma: Idioma, aoFechar: () => void): void {
+export function desenharCreditos(corpo: HTMLElement, acervo: Acervo, ampliado: number, idioma: Idioma, aoFechar: () => void): void {
   const fechar = el("button", { class: "botao", type: "button" }, t("fechar", idioma));
   fechar.addEventListener("click", aoFechar);
   const linha = (item: Item) =>
@@ -13,7 +13,9 @@ export function desenharCreditos(corpo: HTMLElement, acervo: Acervo, idioma: Idi
     el("p", {}, t("creditos.pinturas", idioma)),
     el("p", {}, t("creditos.sons", idioma)),
     el("p", {}, t("creditos.palavras", idioma)),
+    el("p", {}, t("creditos.dicionarios", idioma)),
     el("p", {}, t("creditos.normas", idioma)),
+    ...(ampliado > 0 ? [el("p", { "data-aviso": "ampliado" }, t("creditos.ampliado", idioma, { n: ampliado }))] : []),
     el("details", {}, el("summary", {}, `${t("creditos.itens", idioma)} (${acervo.itens.length})`), el("ul", { class: "lista" }, ...acervo.itens.map(linha))),
     el("div", { class: "acoes" }, fechar),
   );

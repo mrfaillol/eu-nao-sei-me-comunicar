@@ -2274,7 +2274,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Lembrança triste e suave de pessoas ou coisas distantes ou extintas, acompanhada do desejo de as tornar a possuir ou ver presentes.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/saudade"
+   }
   },
   {
    "id": "palavra:pt-BR:banzo",
@@ -2303,7 +2311,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Nostalgia dos negros africanos.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/banzo"
+   }
   },
   {
    "id": "palavra:pt-BR:desassossego",
@@ -2332,7 +2348,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Falta de sossego.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/desassoss%C3%AAgo"
+   }
   },
   {
    "id": "palavra:pt-BR:marasmo",
@@ -2361,7 +2385,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Indiferença, apatia moral.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/marasmo"
+   }
   },
   {
    "id": "palavra:pt-BR:dengo",
@@ -2390,7 +2422,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "denguice, carinho, carícia",
+    "classe": "s.",
+    "pronuncia": "",
+    "fonte": "wikcionario-pt",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://pt.wiktionary.org/wiki/dengo"
+   }
   },
   {
    "id": "palavra:pt-BR:chamego",
@@ -2419,7 +2459,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Amizade muito estreita.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/chamego"
+   }
   },
   {
    "id": "palavra:pt-BR:aconchego",
@@ -2448,7 +2496,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "agasalho, abrigo",
+    "classe": "s.",
+    "pronuncia": "",
+    "fonte": "wikcionario-pt",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://pt.wiktionary.org/wiki/aconchego"
+   }
   },
   {
    "id": "palavra:pt-BR:sossego",
@@ -2478,7 +2534,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Acto ou efeito de sossegar.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/soss%C3%AAgo"
+   }
   },
   {
    "id": "palavra:pt-BR:enfado",
@@ -2507,7 +2571,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Acto ou efeito de enfadar.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/enfado"
+   }
   },
   {
    "id": "palavra:pt-BR:inquietação",
@@ -2536,7 +2608,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Estado de inquieto; falta de quietação.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/inquieta%C3%A7%C3%A3o"
+   }
   },
   {
    "id": "palavra:pt-BR:pasmo",
@@ -2565,7 +2645,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Assombro, espanto.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/pasmo"
+   }
   },
   {
    "id": "palavra:pt-BR:alheamento",
@@ -2594,7 +2682,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Estado de quem está alheado.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/alheamento"
+   }
   },
   {
    "id": "palavra:pt-BR:devaneio",
@@ -2623,7 +2719,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Acto de devanear.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/devaneio"
+   }
   },
   {
    "id": "palavra:pt-BR:ternura",
@@ -2653,7 +2757,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Afeto brando ou sem grandes transportes.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/ternura"
+   }
   },
   {
    "id": "palavra:pt-BR:alívio",
@@ -2682,7 +2794,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Consolação.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/al%C3%ADvio"
+   }
   },
   {
    "id": "palavra:pt-BR:alento",
@@ -2711,7 +2831,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Ânimo; esforço.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/alento"
+   }
   },
   {
    "id": "palavra:pt-BR:mágoa",
@@ -2740,7 +2868,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Desgosto; tristeza.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/m%C3%A1goa"
+   }
   },
   {
    "id": "palavra:pt-BR:rancor",
@@ -2769,7 +2905,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Ódio profundo; grande aversão, não manifestada.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/rancor"
+   }
   },
   {
    "id": "palavra:pt-BR:remorso",
@@ -2798,7 +2942,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Desgosto pungente ou sentimento doloroso, resultante do conhecimento de se haver cometido culpa ou crime.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/remorso"
+   }
   },
   {
    "id": "palavra:pt-BR:pudor",
@@ -2827,7 +2979,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Sentimento de timidez ou vergonha, produzido pelo que pode ferir a decência, a honestidade ou a modéstia.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/pudor"
+   }
   },
   {
    "id": "palavra:pt-BR:receio",
@@ -2857,7 +3017,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Hesitação ou incerteza, acompanhada de temor; temor.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/receio"
+   }
   },
   {
    "id": "palavra:pt-BR:quietude",
@@ -2886,7 +3054,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Sossego; paz; tranquilidade suave.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/quietude"
+   }
   },
   {
    "id": "palavra:pt-BR:júbilo",
@@ -2915,7 +3091,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Grande contentamento.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/j%C3%BAbilo"
+   }
   },
   {
    "id": "palavra:pt-BR:espanto",
@@ -2944,7 +3128,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Assombro, admiração.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/espanto"
+   }
   },
   {
    "id": "palavra:pt-BR:encanto",
@@ -2974,7 +3166,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Qualidade da pessoa ou coisa, que agrada em extremo.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/encanto"
+   }
   },
   {
    "id": "palavra:pt-BR:enlevo",
@@ -3004,7 +3204,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Encanto; êxtase.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/enl%C3%AAvo"
+   }
   },
   {
    "id": "palavra:pt-BR:carinho",
@@ -3033,7 +3241,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Carícia, afago.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/carinho"
+   }
   },
   {
    "id": "palavra:pt-BR:apreensão",
@@ -3063,7 +3279,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Receio.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/apreens%C3%A3o"
+   }
   },
   {
    "id": "palavra:pt-BR:arrepio",
@@ -3092,7 +3316,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Calefrio.",
+    "classe": "s. m.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/arrepio"
+   }
   },
   {
    "id": "palavra:pt-BR:vergonha",
@@ -3121,7 +3353,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "Pudor; pejo.",
+    "classe": "s. f.",
+    "pronuncia": "",
+    "fonte": "dicionario-aberto",
+    "licenca": "CC-BY-SA-2.5-PT",
+    "url": "https://dicionario-aberto.net/search/vergonha"
+   }
   },
   {
    "id": "palavra:en:wistful",
@@ -4054,7 +4294,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "單獨無依。",
+    "classe": "",
+    "pronuncia": "gū dān",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%AD%A4%E5%96%AE"
+   }
   },
   {
    "id": "palavra:zh-CN:腻烦",
@@ -4083,7 +4331,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "生厭、厭煩。",
+    "classe": "",
+    "pronuncia": "nì fán",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E8%86%A9%E7%85%A9"
+   }
   },
   {
    "id": "palavra:zh-CN:惊恐",
@@ -4112,7 +4368,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "驚懼害怕。",
+    "classe": "",
+    "pronuncia": "jīng kǒng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E9%A9%9A%E6%81%90"
+   }
   },
   {
    "id": "palavra:zh-CN:畏怯",
@@ -4141,7 +4405,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "畏懼怯懦。",
+    "classe": "",
+    "pronuncia": "wèi què",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E7%95%8F%E6%80%AF"
+   }
   },
   {
    "id": "palavra:zh-CN:窘促",
@@ -4170,7 +4442,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "困窘急迫。如：「最近手頭窘促，不能亂買東西。」也作「窘迫」、「窘急」。",
+    "classe": "",
+    "pronuncia": "jiǒng cù",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E7%AA%98%E4%BF%83"
+   }
   },
   {
    "id": "palavra:zh-CN:害臊",
@@ -4199,7 +4479,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "怕羞。《紅樓夢》第三二回：「你還記得十年前，咱們在西邊暖閣住著，晚上你同我說的話兒。那會子不害臊，這會子怎麼又害臊了？」也作「害羞」。",
+    "classe": "",
+    "pronuncia": "hài sào",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%AE%B3%E8%87%8A"
+   }
   },
   {
    "id": "palavra:zh-CN:眼红",
@@ -4228,7 +4516,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "看見別人有名有利時而心生嫉妒。",
+    "classe": "",
+    "pronuncia": "yǎn hóng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E7%9C%BC%E7%B4%85"
+   }
   },
   {
    "id": "palavra:zh-CN:忌妒",
@@ -4257,7 +4553,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "對才能或境遇比自己好的人心懷不平與怨恨。",
+    "classe": "",
+    "pronuncia": "jì dù",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%BF%8C%E5%A6%92"
+   }
   },
   {
    "id": "palavra:zh-CN:暴怒",
@@ -4286,7 +4590,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "大怒。",
+    "classe": "",
+    "pronuncia": "bào nù",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%9A%B4%E6%80%92"
+   }
   },
   {
    "id": "palavra:zh-CN:憋气",
@@ -4315,7 +4627,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "心中受委屈或有煩惱無法解決宣洩。",
+    "classe": "",
+    "pronuncia": "biē qì",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%86%8B%E6%B0%A3"
+   }
   },
   {
    "id": "palavra:zh-CN:懊悔",
@@ -4344,7 +4664,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "悔恨。",
+    "classe": "",
+    "pronuncia": "ào huǐ",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%87%8A%E6%82%94"
+   }
   },
   {
    "id": "palavra:zh-CN:遗憾",
@@ -4373,7 +4701,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "遺恨、悔恨。",
+    "classe": "",
+    "pronuncia": "yí hàn",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E9%81%BA%E6%86%BE"
+   }
   },
   {
    "id": "palavra:zh-CN:惊愕",
@@ -4402,7 +4738,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "非常驚訝害怕。",
+    "classe": "",
+    "pronuncia": "jīng è",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E9%A9%9A%E6%84%95"
+   }
   },
   {
    "id": "palavra:zh-CN:景慕",
@@ -4431,7 +4775,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "景仰、仰慕。",
+    "classe": "",
+    "pronuncia": "jǐng mù",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%99%AF%E6%85%95"
+   }
   },
   {
    "id": "palavra:zh-CN:不解",
@@ -4460,7 +4812,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "不明瞭、不清楚。",
+    "classe": "",
+    "pronuncia": "bù jiě",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E4%B8%8D%E8%A7%A3"
+   }
   },
   {
    "id": "palavra:zh-CN:惊疑",
@@ -4490,7 +4850,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "驚恐疑惑。",
+    "classe": "",
+    "pronuncia": "jīng yí",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E9%A9%9A%E7%96%91"
+   }
   },
   {
    "id": "palavra:zh-CN:喜怒无常",
@@ -4519,7 +4887,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "情緒變化不定，令人難以捉摸。",
+    "classe": "",
+    "pronuncia": "xǐ nù wú cháng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%96%9C%E6%80%92%E7%84%A1%E5%B8%B8"
+   }
   },
   {
    "id": "palavra:zh-CN:动摇",
@@ -4548,7 +4924,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "不穩固、不堅定。",
+    "classe": "",
+    "pronuncia": "dòng yáo",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%8B%95%E6%90%96"
+   }
   },
   {
    "id": "palavra:zh-CN:挂牵",
@@ -4577,7 +4961,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "牽掛、懸念。",
+    "classe": "",
+    "pronuncia": "guà qiān",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%8E%9B%E7%89%BD"
+   }
   },
   {
    "id": "palavra:zh-CN:母爱",
@@ -4606,7 +4998,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "母親對兒女的愛。",
+    "classe": "",
+    "pronuncia": "mǔ ài",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%AF%8D%E6%84%9B"
+   }
   },
   {
    "id": "palavra:zh-CN:憧憬",
@@ -4635,7 +5035,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "嚮往。",
+    "classe": "",
+    "pronuncia": "chōng jǐng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%86%A7%E6%86%AC"
+   }
   },
   {
    "id": "palavra:zh-CN:夙愿",
@@ -4664,7 +5072,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "長久以來的心願。唐．杜甫〈遣興〉詩三首之三：「良覿違夙願，含淒尚寥廓。」也作「宿願」。",
+    "classe": "",
+    "pronuncia": "sù yuàn",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%A4%99%E9%A1%98"
+   }
   },
   {
    "id": "palavra:zh-CN:感恩",
@@ -4693,7 +5109,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "感激恩惠。",
+    "classe": "",
+    "pronuncia": "gǎn ēn",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%84%9F%E6%81%A9"
+   }
   },
   {
    "id": "palavra:zh-CN:感激",
@@ -4722,7 +5146,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "真心感謝。",
+    "classe": "",
+    "pronuncia": "gǎn jī",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%84%9F%E6%BF%80"
+   }
   },
   {
    "id": "palavra:zh-CN:怜惜",
@@ -4751,7 +5183,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "同情惋惜。《儒林外史》第八回：「自你表兄去後，我心裡更加憐惜他，已替他捐了個監生。」《紅樓夢》第六九回：「不然，你則白白的喪命，且無人憐惜。」也作「憐愛」。",
+    "classe": "",
+    "pronuncia": "lián xí",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%86%90%E6%83%9C"
+   }
   },
   {
    "id": "palavra:zh-CN:体谅",
@@ -4781,7 +5221,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "設身處地為人著想，給以諒解。",
+    "classe": "",
+    "pronuncia": "tǐ liang",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E9%AB%94%E8%AB%92"
+   }
   },
   {
    "id": "palavra:zh-CN:安详",
@@ -4810,7 +5258,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "平靜。",
+    "classe": "",
+    "pronuncia": "ān xiáng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%AE%89%E8%A9%B3"
+   }
   },
   {
    "id": "palavra:zh-CN:无忧无虑",
@@ -4839,7 +5295,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "毫無憂慮。形容心情怡然自得。《孤本元明雜劇．群仙朝聖．第三折》：「俺出家兒無憂無慮樂醄醄，到處隨緣任逍遙。」也作「無慮無憂」。",
+    "classe": "",
+    "pronuncia": "wú yōu wú lǜ",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E7%84%A1%E6%86%82%E7%84%A1%E6%85%AE"
+   }
   },
   {
    "id": "palavra:zh-CN:悲恸",
@@ -4868,7 +5332,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "悲傷哀慟。《後漢書．卷四二．光武十王列傳．東海恭王彊》： 「天子覽書悲慟 ，從太后出幸津門亭發哀。」《紅樓夢 》第 六 七 回 ：「尤三姐自盡之後，尤老娘和二姐兒、賈珍、賈璉等俱不勝悲慟。」",
+    "classe": "",
+    "pronuncia": "bēi tòng",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E6%82%B2%E6%85%9F"
+   }
   },
   {
    "id": "palavra:zh-CN:哀戚",
@@ -4897,7 +5369,15 @@
     "por": null,
     "em": null
    },
-   "midia": null
+   "midia": null,
+   "definicao": {
+    "texto": "悲傷、哀痛。",
+    "classe": "",
+    "pronuncia": "āi qī",
+    "fonte": "moedict",
+    "licenca": "CC-BY-ND-3.0-TW",
+    "url": "https://www.moedict.tw/%E5%93%80%E6%88%9A"
+   }
   }
  ]
 }

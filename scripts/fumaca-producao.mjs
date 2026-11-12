@@ -15,7 +15,9 @@ async function fluxo(navegador, nome, opcoes, captura) {
   const page = await contexto.newPage();
   const ruins = [], externas = [], erros = [];
   page.on("response", (r) => { if (r.status() >= 400) ruins.push(`${r.status()} ${r.url()}`); });
-  page.on("request", (r) => { if (!r.url().startsWith(origem) && !r.url().startsWith("data:") && !r.url().startsWith("blob:")) externas.push(r.url()); });
+  // O acervo ampliado busca imagem e som nos servidores de origem. Qualquer outro endereço de fora é defeito.
+  const ORIGENS_DA_MIDIA = ["https://openaccess-cdn.clevelandart.org/", "https://cdn.freesound.org/"];
+  page.on("request", (r) => { const u = r.url(); if (!u.startsWith(origem) && !u.startsWith("data:") && !u.startsWith("blob:") && !ORIGENS_DA_MIDIA.some((o) => u.startsWith(o))) externas.push(u); });
   page.on("console", (m) => { if (m.type() === "error") erros.push(m.text()); });
   page.on("pageerror", (e) => erros.push(String(e)));
 
@@ -25,6 +27,14 @@ async function fluxo(navegador, nome, opcoes, captura) {
   const imagens = await page.evaluate(() => [...document.querySelectorAll(".moldura img")].map((i) => i.complete && i.naturalWidth > 0));
   anotar(imagens.length >= 3 && imagens.every(Boolean), `${nome}: todas as imagens das molduras carregaram (${imagens.filter(Boolean).length} de ${imagens.length})`);
 
+  const ampliado = Number(await page.locator("#app").getAttribute("data-ampliado").catch(() => "0")) || 0;
+  anotar(ampliado > 500, `${nome}: acervo ampliado carregado, com ${ampliado} pinturas e sons a mais`);
+  // Troca as pinturas: com o ampliado no ar, as novas vêm do servidor do museu e têm de abrir.
+  await page.locator('[data-janela="pintura"] [data-acao="outras"]').click();
+  await page.waitForLoadState("networkidle").catch(() => {});
+  await page.waitForTimeout(600);
+  const doMuseu = await page.evaluate(() => [...document.querySelectorAll(".moldura .pintura img")].map((i) => ({ remota: i.src.startsWith("https://openaccess-cdn.clevelandart.org/"), abriu: i.complete && i.naturalWidth > 0 })));
+  anotar(doMuseu.length === 3 && doMuseu.every((i) => i.abriu), `${nome}: depois de trocar, as três pinturas abrem (${doMuseu.filter((i) => i.remota).length} vindas do museu)`);
   await page.locator(".moldura").first().click();
   await page.locator(".opcao-som .tocar").first().click();
   await page.waitForTimeout(900);
@@ -63,7 +73,7 @@ async function fluxo(navegador, nome, opcoes, captura) {
   if (captura && saida) await page.screenshot({ path: `${saida}/producao-${captura}.png` });
 
   anotar(ruins.length === 0, `${nome}: nenhuma resposta 4xx/5xx${ruins.length ? " -> " + ruins.slice(0, 3).join(" | ") : ""}`);
-  anotar(externas.length === 0, `${nome}: nenhuma chamada para fora do domínio${externas.length ? " -> " + externas.slice(0, 3).join(" | ") : ""}`);
+  anotar(externas.length === 0, `${nome}: fora do site, só o museu e o Freesound${externas.length ? " -> " + externas.slice(0, 3).join(" | ") : ""}`);
   anotar(erros.length === 0, `${nome}: console sem erro${erros.length ? " -> " + erros.slice(0, 2).join(" | ") : ""}`);
   return { contexto, page };
 }

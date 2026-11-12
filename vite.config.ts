@@ -28,6 +28,8 @@ export default defineConfig({
         // O acervo inteiro fica no aparelho: depois da primeira visita o site não depende de rede.
         globPatterns: ["**/*.{js,css,html,json,webp,jpg,mp3,png,svg,webmanifest}"],
         maximumFileSizeToCacheInBytes: 3 * 1024 * 1024,
+        // O índice ampliado só serve com rede (a mídia dele é remota): não entra na instalação para uso sem rede.
+        globIgnores: ["**/indice/ampliado.json"],
       },
     }),
   ],

@@ -94,7 +94,7 @@
               "required": ["arquivo", "largura", "altura"],
               "additionalProperties": false,
               "properties": {
-                "arquivo": { "type": "string", "pattern": "^midia/pinturas/" },
+                "arquivo": { "type": "string", "pattern": "^(midia/pinturas/|https://openaccess-cdn\\.clevelandart\\.org/)" },
                 "largura": { "type": "integer", "minimum": 1 },
                 "altura": { "type": "integer", "minimum": 1 }
               }
@@ -104,11 +104,24 @@
               "required": ["arquivo", "duracao_ms"],
               "additionalProperties": false,
               "properties": {
-                "arquivo": { "type": "string", "pattern": "^midia/sons/" },
+                "arquivo": { "type": "string", "pattern": "^(midia/sons/|https://cdn\\.freesound\\.org/previews/)" },
                 "duracao_ms": { "type": "integer", "minimum": 2000, "maximum": 20000 }
               }
             }
           ]
+        },
+        "definicao": {
+          "type": "object",
+          "required": ["texto", "classe", "pronuncia", "fonte", "licenca", "url"],
+          "additionalProperties": false,
+          "properties": {
+            "texto": { "type": "string", "minLength": 1, "maxLength": 400 },
+            "classe": { "type": "string", "maxLength": 40 },
+            "pronuncia": { "type": "string", "maxLength": 60 },
+            "fonte": { "enum": ["dicionario-aberto", "wikcionario-pt", "moedict"] },
+            "licenca": { "type": "string", "minLength": 1 },
+            "url": { "type": "string", "pattern": "^https://" }
+          }
         },
         "rosto": { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/caixa" }] },
         "nitido": { "type": ["string", "null"] },

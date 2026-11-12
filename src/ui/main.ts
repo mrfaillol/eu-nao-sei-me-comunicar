@@ -2,6 +2,7 @@ import "../estilo/base.css";
 import "../estilo/janela.css";
 import { indexarGlossario } from "../frase/glossario";
 import { IDIOMAS, type Acervo, type Construto, type Glossario, type Idioma, type Item } from "../frase/tipos";
+import { criarAcervoVivo } from "./acervo-vivo";
 import { desenharAjuda, type Ajuda } from "./ajuda";
 import { criarTocador } from "./audio";
 import { criarAutoria } from "./autoria";
@@ -21,7 +22,8 @@ import { criarEstado, escolher, podeEscolher, pronta, redistribuir, retirar, tro
 const BASE = import.meta.env.BASE_URL;
 const API = (import.meta.env.VITE_API_BASE as string | undefined) || null;
 const NOMES_DE_IDIOMA: Record<Idioma, string> = { "pt-BR": "Português", en: "English", "zh-CN": "中文" };
-const midia = (caminho: string) => `${BASE}${caminho}`;
+// A mídia do acervo conferido mora no site; a do ampliado, nos servidores de origem, com endereço completo.
+const midia = (caminho: string) => (/^https:\/\//.test(caminho) ? caminho : `${BASE}${caminho}`);
 
 async function carregar<T>(arquivo: string): Promise<T> {
   const resposta = await fetch(`${BASE}indice/${arquivo}`);
@@ -40,11 +42,12 @@ function idiomaGuardado(): Idioma | null {
 
 function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda: Ajuda): void {
   let idioma: Idioma = idiomaGuardado() ?? idiomaInicial(navigator.languages ?? [navigator.language]);
-  let estado: EstadoSelecao = criarEstado(acervo.itens, idioma, Math.random);
+  const vivo = criarAcervoVivo(acervo.itens, () => navigator.onLine);
+  let estado: EstadoSelecao = criarEstado(vivo.disponiveis(), idioma, Math.random);
   let ajudaDestacada = false;
   const ultimaTroca: Partial<Record<Janela, number>> = {};
-  const porId = new Map(acervo.itens.map((i) => [i.id, i]));
-  const itensDe = (ids: string[]) => ids.flatMap((id) => porId.get(id) ?? []);
+  const porId = { get: (id: string) => vivo.item(id) };
+  const itensDe = (ids: string[]) => ids.flatMap((id) => vivo.item(id) ?? []);
   const tocador = criarTocador();
   const info = criarInfo();
   const autoria = criarAutoria();
@@ -62,7 +65,7 @@ function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda:
     outras[janela] = el("button", { class: "botao", type: "button", "data-acao": "outras" });
     outras[janela].addEventListener("click", () => {
       if (janela === "som") tocador.parar();
-      estado = redistribuir(estado, janela, acervo.itens, Math.random);
+      estado = redistribuir(estado, janela, vivo.disponiveis(), Math.random);
       desenharMesa(janela);
     });
     janelas[janela] = criarJanela({ id: janela, titulo: "", conteudo: pocos[janela], rodape: outras[janela] });
@@ -101,7 +104,7 @@ function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda:
       // Sem teto de escolhas, dá para esvaziar uma janela inteira.
       pocos[janela].replaceChildren(el("p", { class: "esgotada" }, t("janela.esgotada", idioma)));
     } else if (janela === "pintura") {
-      desenharPinturas(pocos.pintura, itens, { idioma, midia, info, aoEscolher: escolherItem, aoVer: verInteira });
+      desenharPinturas(pocos.pintura, itens, { idioma, midia, info, aoEscolher: escolherItem, aoVer: verInteira, aoFalhar: (id) => midiaFalhou(id, "pintura") });
     } else if (janela === "som") {
       desenharSons(pocos.som, itens, { idioma, midia, tocador, info, aoEscolher: escolherItem });
     } else {
@@ -116,7 +119,7 @@ function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda:
       // O item retirado volta a poder aparecer; a janela dele só é refeita se estava vazia.
       const tipo = porId.get(id)?.tipo;
       if (tipo && estado.mesas[tipo].length === 0) {
-        estado = redistribuir(estado, tipo, acervo.itens, Math.random);
+        estado = redistribuir(estado, tipo, vivo.disponiveis(), Math.random);
         desenharMesa(tipo);
       }
       desenharBarra();
@@ -151,7 +154,7 @@ function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda:
     // Segundo clique de um toque duplo: as opções acabaram de trocar e este toque não foi numa coisa vista.
     if (tipo && !podeEscolher(ultimaTroca[tipo], performance.now())) return;
     const antes = estado;
-    estado = escolher(estado, id, acervo.itens, Math.random);
+    estado = escolher(estado, id, vivo.disponiveis(), Math.random);
     if (estado === antes) return; // toque repetido no mesmo item
     if (tipo) ultimaTroca[tipo] = performance.now(); // a escolha troca as opções desta janela no mesmo lugar
     tocador.parar();
@@ -170,7 +173,7 @@ function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda:
     const noPedido = idioma;
     desenharEspera(resultado.corpo, idioma);
     if (!resultado.dialogo.open) resultado.dialogo.showModal();
-    const resposta = await pedirFrase(ids, noPedido, { buscar: fetch.bind(window), base: API, acervo: acervo.itens, glossario });
+    const resposta = await pedirFrase(ids, noPedido, { buscar: fetch.bind(window), base: API, acervo: itensDe(ids), glossario });
     // A pessoa pode ter recomeçado ou trocado de idioma enquanto a frase vinha.
     if (ids.join("|") !== estado.escolhidos.join("|") || noPedido !== idioma) return;
     ajudaDestacada = resposta.ajuda_destacada;
@@ -185,9 +188,18 @@ function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda:
   function recomecar(): void {
     tocador.parar();
     for (const janela of ["pintura", "som", "palavra"] as const) delete ultimaTroca[janela]; // recomeçar é um gesto novo: a trava de toque duplo zera
-    estado = criarEstado(acervo.itens, idioma, Math.random);
+    estado = criarEstado(vivo.disponiveis(), idioma, Math.random);
     if (resultado.dialogo.open) resultado.dialogo.close();
     desenharTextos();
+  }
+
+  /** A mídia de um item do acervo ampliado não abriu: ele sai de oferta e a janela troca as opções. */
+  function midiaFalhou(id: string, janela: Janela): void {
+    vivo.falhou(id);
+    if (!estado.mesas[janela].includes(id)) return;
+    if (janela === "som") tocador.parar();
+    estado = redistribuir(estado, janela, vivo.disponiveis(), Math.random);
+    desenharMesa(janela);
   }
 
   function abrirAjuda(): void {
@@ -204,6 +216,7 @@ function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda:
   // Fechar a frase (Esc, × ou "Escolher mais") mantém a seleção: dá para acrescentar, retirar e pedir a frase de novo.
   botaoVer.addEventListener("click", () => void mostrarFrase());
   tocador.aoMudar((id) => marcarSomTocando(pocos.som, id, idioma));
+  tocador.aoFalhar((id) => midiaFalhou(id, "som"));
   seletor.addEventListener("change", () => {
     idioma = seletor.value as Idioma;
     try {
@@ -212,17 +225,28 @@ function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda:
       /* sem armazenamento: o idioma vale só nesta visita */
     }
     tocador.parar();
-    estado = trocarIdioma(estado, idioma, acervo.itens, Math.random);
+    estado = trocarIdioma(estado, idioma, vivo.disponiveis(), Math.random);
     desenharTextos();
     if (resultado.dialogo.open) void mostrarFrase();
   });
   botaoCreditos.addEventListener("click", () => {
-    desenharCreditos(creditos.corpo, acervo, idioma, () => creditos.dialogo.close());
+    desenharCreditos(creditos.corpo, acervo, vivo.tamanho().ampliado, idioma, () => creditos.dialogo.close());
     creditos.dialogo.showModal();
   });
   botaoAjuda.addEventListener("click", abrirAjuda);
 
   desenharTextos();
+
+  // O acervo ampliado chega depois da primeira tela e não troca o que já está à vista: as pinturas e os
+  // sons a mais passam a aparecer nas próximas trocas. Sem ele (sem rede, arquivo ausente), o núcleo basta.
+  carregar<Acervo>("ampliado.json")
+    .then((mais) => {
+      vivo.ampliar(mais.itens);
+      raiz.dataset.ampliado = String(vivo.tamanho().ampliado);
+    })
+    .catch(() => {
+      raiz.dataset.ampliado = "0";
+    });
 }
 
 async function principal(): Promise<void> {

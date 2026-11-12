@@ -1,8 +1,10 @@
+import { soNucleo } from "./apoio";
 import { expect, test, type Page } from "@playwright/test";
 
 interface ItemDoAcervo {
   id: string;
   texto_humano: string;
+  definicao?: { texto: string; classe: string; pronuncia: string; fonte: string };
 }
 
 async function acervo(page: Page): Promise<Map<string, ItemDoAcervo>> {
@@ -21,6 +23,7 @@ async function abrirInfo(page: Page, seletor: string, comMouse: boolean): Promis
 }
 
 test.beforeEach(async ({ page }) => {
+  await soNucleo(page);
   await page.goto("/");
   await expect(page.locator(".moldura")).toHaveCount(3);
 });
@@ -63,16 +66,40 @@ test("o (i) do som mostra as tags de quem publicou, sem escolher o som", async (
   await expect(page.locator(".tarefas .conta")).toHaveText("0 de 3");
 });
 
-test("o (i) da palavra mostra a definição do dicionário, com a fonte", async ({ page }) => {
+test("o (i) da palavra em português mostra a definição de um dicionário em português", async ({ page }) => {
   const itens = await acervo(page);
   const botao = page.locator(".opcao-palavra .info").first();
   await botao.click();
-  const id = (await botao.getAttribute("data-info"))!;
+  const item = itens.get((await botao.getAttribute("data-info"))!)!;
   const caixa = page.locator(".info-caixa");
   await expect(caixa.locator(".info-titulo")).toHaveText("No dicionário");
-  await expect(caixa.locator(".info-glosa")).toHaveText(itens.get(id)!.texto_humano);
-  await expect(caixa.locator(".info-fonte")).toContainText("Wiktionary");
+  await expect(caixa.locator(".info-glosa")).toHaveText(item.definicao!.texto);
+  expect(item.definicao!.texto).not.toBe(item.texto_humano); // a glosa em inglês não é mais o que a pessoa lê
+  await expect(caixa.locator(".info-fonte")).toContainText(/Dicionário Aberto|Wikcionário/);
   await expect(page.locator(".tarefas .conta")).toHaveText("0 de 3"); // ler a definição não escolhe a palavra
+});
+
+test("cada língua tem o seu dicionário: chinês com pinyin, inglês com o Wiktionary", async ({ page }, info) => {
+  const itens = await acervo(page);
+  await page.selectOption("#idioma", "zh-CN");
+  let botao = page.locator(".opcao-palavra .info").first();
+  await botao.click();
+  let item = itens.get((await botao.getAttribute("data-info"))!)!;
+  const caixa = page.locator(".info-caixa");
+  await expect(caixa.locator(".info-pronuncia")).toHaveText(item.definicao!.pronuncia);
+  expect(item.definicao!.pronuncia).toMatch(/[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]/);
+  await expect(caixa.locator(".info-glosa")).toHaveText(item.definicao!.texto);
+  await expect(caixa.locator(".info-glosa")).toHaveAttribute("lang", "zh-Hant");
+  await expect(caixa.locator(".info-fonte")).toContainText("重編國語辭典");
+  await page.screenshot({ path: `docs/capturas/info-palavra-zh-${info.project.name}.png` });
+  await page.keyboard.press("Escape");
+
+  await page.selectOption("#idioma", "en");
+  botao = page.locator(".opcao-palavra .info").first();
+  await botao.click();
+  item = itens.get((await botao.getAttribute("data-info"))!)!;
+  await expect(caixa.locator(".info-glosa")).toHaveText(item.texto_humano);
+  await expect(caixa.locator(".info-fonte")).toContainText("Wiktionary");
 });
 
 test("a caixa do (i) cabe inteira na tela, acima da barra de tarefas", async ({ page }) => {

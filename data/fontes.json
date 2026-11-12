@@ -43,6 +43,24 @@
       "url": "https://doi.org/10.3758/s13428-018-1099-3",
       "licenca": "CC-BY-4.0",
       "credito": "Normas de valência e ativação de Scott, Keitel, Becirspahic, Yao e Sereno (2019), The Glasgow Norms, sob CC BY 4.0. Valores normalizados por este projeto."
+    },
+    "dicionario-aberto": {
+      "nome": "Dicionário Aberto",
+      "url": "https://dicionario-aberto.net",
+      "licenca": "CC-BY-SA-2.5-PT",
+      "credito": "Definições em português copiadas do Dicionário Aberto, que parte do Novo Diccionário da Língua Portuguesa de Cândido de Figueiredo (1913), sob CC BY-SA 2.5 Portugal."
+    },
+    "wikcionario-pt": {
+      "nome": "Wikcionário",
+      "url": "https://pt.wiktionary.org",
+      "licenca": "CC-BY-SA-4.0",
+      "credito": "Definições em português copiadas do Wikcionário, sob CC BY-SA 4.0."
+    },
+    "moedict": {
+      "nome": "教育部《重編國語辭典修訂本》",
+      "url": "https://www.moedict.tw",
+      "licenca": "CC-BY-ND-3.0-TW",
+      "credito": "Definições em chinês copiadas sem alteração do 重編國語辭典修訂本, do Ministério da Educação de Taiwan, consultado pelo moedict, sob CC BY-ND 3.0 Taiwan. O texto fica em caracteres tradicionais, como foi publicado."
     }
   }
 }

@@ -1,3 +1,4 @@
+import { soNucleo } from "./apoio";
 import { expect, test } from "@playwright/test";
 
 // Roda contra o site construído (vite preview), porque o service worker só existe na versão de produção.
@@ -5,6 +6,7 @@ test.use({ baseURL: "http://localhost:5189" });
 
 test("depois da primeira visita, o site funciona inteiro sem rede", async ({ page, context }, info) => {
   test.skip(info.project.name !== "mesa", "um projeto basta: o comportamento sem rede não depende do tamanho da tela");
+  await soNucleo(context);
   await page.goto("/");
   await expect(page.locator(".moldura")).toHaveCount(3);
   // espera o service worker assumir a página e terminar de guardar o acervo

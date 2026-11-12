@@ -1,3 +1,4 @@
+import { soNucleo } from "./apoio";
 import { expect, test, type Page } from "@playwright/test";
 
 // Depois de uma escolha, a mesma janela ignora toques por 350 ms (trava contra toque duplo).
@@ -19,6 +20,7 @@ async function verFrase(page: Page): Promise<void> {
 }
 
 test.beforeEach(async ({ page }) => {
+  await soNucleo(page);
   await page.goto("/");
   await expect(page.locator(".moldura")).toHaveCount(3);
 });
@@ -165,6 +167,7 @@ test("a frase sai no idioma escolhido, em inglês e em mandarim", async ({ page 
 test("com movimento reduzido, a pintura não anima", async ({ browser }) => {
   const contexto = await browser.newContext({ reducedMotion: "reduce" });
   const page = await contexto.newPage();
+  await soNucleo(page);
   await page.goto("/");
   await expect(page.locator(".moldura")).toHaveCount(3);
   await expect(page.locator(".pintura").first()).toHaveCSS("transition-duration", "0s");
