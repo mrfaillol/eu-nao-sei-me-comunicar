@@ -11,7 +11,7 @@
   --humana: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", "Songti SC", "Noto Serif CJK SC",
     "Source Han Serif SC", STSong, Georgia, serif;
   --maquina: Tahoma, "MS Sans Serif", "Segoe UI", Verdana, system-ui, "PingFang SC", "Microsoft YaHei", sans-serif;
-  --barra-de-tarefas: 116px; /* no celular a barra tem duas linhas: escolhas em cima, sistema embaixo */
+  --barra-de-tarefas: 116px; /* valor de partida; a tela mede a barra de verdade e corrige (main.ts) */
 }
 
 * {
