@@ -33,7 +33,7 @@ Sem chave de modelo e sem rede o site funciona inteiro: a frase é composta por 
 - A Vercel não espera o CI: ela publica o que chegar na `main`. Quem segura código quebrado é a revisão do pull request, com o CI verde antes de mesclar.
 - No plano gratuito da Vercel, commit de repositório privado só é publicado quando o autor é reconhecido pelo GitHub. Por isso o `git config user.email` deste repositório usa o e-mail `noreply` da conta.
 
-`node scripts/gravar-demo.mjs` grava o vídeo de divulgação (uma passada pelo site, muda, com zooms) em `divulgacao/`.
+`node scripts/gravar-demo.mjs [url] [saida.mp4] [semente]` grava o vídeo de divulgação em `divulgacao/`: uma passada pelo site, muda, com zooms. A semente fixa o sorteio das opções; a tomada guardada é a de semente 21.
 
 Depois de publicar, `node scripts/fumaca-producao.mjs` faz o fluxo inteiro contra a URL de produção (celular, tela larga, três idiomas e sem rede) e sai com erro se algo falhar.
 
@@ -87,10 +87,10 @@ O site carrega dois índices.
 
 | | Conferido (`acervo.json`) | Ampliado (`ampliado.json`) |
 |---|---|---|
-| Tamanho | 30 pinturas, 30 sons, 90 palavras | 618 pinturas e 855 sons |
+| Tamanho | 30 pinturas, 30 sons, 90 palavras | 615 pinturas e 873 sons |
 | Mídia | no próprio site; funciona sem rede | nos servidores de origem: CDN aberto do museu e CDN do Freesound |
 | Anotação | lida item a item, com trecho citado | automática, por léxico (`data/lexico-construtos.json`), com trecho citado |
-| Rosto | detectado na imagem grande, com recorte nítido | detectado na imagem web; 296 pinturas têm rosto de destaque |
+| Rosto | detectado na imagem grande, com recorte nítido | detectado na imagem web; 293 pinturas têm rosto de destaque |
 | Quando entra | na primeira tela | depois dela, nas próximas trocas; só com rede |
 
 A regra do ampliado: um construto só entra quando uma pista dele está escrita, por uma pessoa, no texto do item (curadoria do museu, ou título e tags de quem publicou o som). O trecho que casou fica em `pipeline/saida/ampliado-evidencias.json`, e o comando recusa gravar se algum trecho não estiver no texto do item. Texto sem pista deixa o item de fora; texto com nudez ou violência gráfica também.
@@ -98,7 +98,7 @@ A regra do ampliado: um construto só entra quando uma pista dele está escrita,
 O que isso custa, dito às claras:
 
 - **Léxico não é leitura.** "Retro video game sfx - Ocean wave" recebe o mesmo construto de uma gravação de mar. O léxico foi escrito com apoio de modelo e não passou por revisão humana.
-- **Ninguém ouviu os 855 sons nem olhou as 618 pinturas.** Os filtros (CC0, sem voz nos termos de busca, lista de termos barrados, marcação de conteúdo adulto da fonte, exclusão por palavra no texto) reduzem o risco e não o eliminam.
+- **Ninguém ouviu os 873 sons nem olhou as 615 pinturas.** Os filtros (CC0, sem voz nos termos de busca, lista de termos barrados, marcação de conteúdo adulto da fonte, exclusão por palavra no texto) reduzem o risco e não o eliminam.
 - **O navegador de quem visita passa a falar com o museu e com o Freesound**, que recebem o pedido da imagem e do som. O site diz isso nos créditos. Fora esses dois, nenhum endereço de fora é chamado, e um teste confere.
 - Se o servidor de origem falhar, o item sai de oferta; com três falhas seguidas a janela volta a oferecer só o acervo conferido.
 
@@ -128,8 +128,8 @@ O servidor de produção ainda não tem adaptador: `criarInterpretar` recebe um 
 
 ## Estado, medido em 12/Nov/2026
 
-- Acervo conferido: 30 pinturas (20 com rosto de destaque), 30 sons, 90 palavras, 60 delas com definição no dicionário da própria língua. Acervo ampliado: 618 pinturas (296 com rosto) e 855 sons, com os 34 construtos representados. Tudo com revisão humana pendente. Glossário com 34 construtos e 4 termos de dimensão.
-- Testes: 112 em Python, 299 de unidade em TypeScript, 78 de navegador (celular e tela larga, só em Chromium).
+- Acervo conferido: 30 pinturas (20 com rosto de destaque), 30 sons, 90 palavras, 60 delas com definição no dicionário da própria língua. Acervo ampliado: 615 pinturas (293 com rosto) e 873 sons, com os 34 construtos representados. Tudo com revisão humana pendente. Glossário com 34 construtos e 4 termos de dimensão.
+- Testes: 113 em Python, 299 de unidade em TypeScript, 78 de navegador (celular e tela larga, só em Chromium).
 - Validador: rejeita 33 de 33 frases defeituosas do conjunto de regressão e aceita 18 de 18 de referência. **É uma barreira, não uma prova.** A revisão final fez passar 13 frases que atribuíam estado à pessoa ou aconselhavam ("o medo que te consome", "you're anxious"); hoje elas são rejeitadas e viraram teste, mas a regra continua sendo lista, com furos por natureza.
 - O compositor por regra não gera frase reprovada: conferido pelo revisor em 352.440 frases (todos os trios do índice, nos três idiomas) e, no repositório, por um teste sobre uma amostra fixa.
 - Sonda do pré-prompt com modelo real: 17 de 18 respostas aprovadas na primeira tentativa. A reprovada, em mandarim, não tinha verbo de mensagem. Uma tentativa de injeção plantada nas tags de um som foi tratada como dado nos três idiomas.

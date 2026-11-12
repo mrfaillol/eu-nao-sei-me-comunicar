@@ -86,3 +86,9 @@ def test_ficha_sem_medida_de_imagem_sem_pista_ou_com_nudez_nao_entra():
     assert item_de_pintura(_ficha(description="Oil on canvas, signed and dated lower left by the painter. " * 5), LEXICO) is None
     assert item_de_pintura(_ficha(description="A serene nude reclines by a peaceful window in calm light. " * 5), LEXICO) is None
     assert item_de_pintura(_ficha(images={"web": {"url": "https://exemplo.test/x.jpg", "width": "9", "height": "9"}}), LEXICO) is None
+
+
+def test_cena_de_flagelacao_fica_fora_do_acervo_ampliado():
+    # Achado no vídeo de divulgação de 12/Nov: um díptico da Paixão entrou anotado como "divagação mental".
+    texto = "Diptych with the Passion of Christ (left wing): Flagellation and Christ Before Pilate. A contemplative devotional image."
+    assert classificar(texto, LEXICO)["excluir"] is True
