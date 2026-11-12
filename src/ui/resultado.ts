@@ -1,3 +1,4 @@
+import { comporSimples, emPalavrasSimples } from "../frase/simples";
 import type { Glossario, Idioma, Item } from "../frase/tipos";
 import type { Resposta } from "../servidor/interpretar";
 import { el } from "./dom";
@@ -21,6 +22,8 @@ function linhaDeTermo(id: string, escolhidos: Item[], glossario: Glossario, idio
     "li",
     {},
     el("strong", {}, construto.termo[idioma]),
+    // Primeiro em palavras do dia a dia; depois a definição do artigo.
+    construto.simples && el("p", { class: "simples-do-termo" }, emPalavrasSimples(id, idioma, glossario)),
     el("p", {}, construto.definicao[idioma]),
     el("p", {}, `${construto.referencia.citacao}. `, el("a", { href: `https://doi.org/${construto.referencia.doi}`, rel: "noopener noreferrer", target: "_blank" }, `doi.org/${construto.referencia.doi}`)),
     portadores.length > 0 && el("p", {}, t("resultado.nos_itens", idioma, { itens: portadores.join("; ") })),
@@ -61,6 +64,8 @@ export function desenharResultado(corpo: HTMLElement, resposta: Resposta, escolh
   corpo.replaceChildren(
     // A frase é anunciada a quem usa leitor de tela assim que chega.
     el("p", { class: "frase", lang: resposta.idioma, role: "status", "data-origem": resposta.origem }, resposta.frase),
+    // A mesma mensagem sem termo técnico, para quem não lê artigo científico.
+    el("p", { class: "simples", lang: resposta.idioma }, el("strong", {}, `${t("resultado.simples", idioma)}${resposta.idioma === "zh-CN" ? "：" : ": "}`), comporSimples(resposta.construtos_usados, escolhidos, resposta.idioma, glossario)),
     el("p", { class: "nota" }, t("resultado.aviso", idioma)),
     el("p", { class: "nota" }, t(resposta.origem === "regra" ? "resultado.regra" : "resultado.modelo", idioma)),
     el("h3", {}, t("resultado.termos", idioma)),

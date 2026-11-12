@@ -73,6 +73,8 @@ export interface Construto {
   termo: Record<Idioma, string>;
   variantes: Record<Idioma, string[]>;
   definicao: Record<Idioma, string>;
+  /** O mesmo construto em palavras do dia a dia, escrito para este site. Termo de dimensão não tem. */
+  simples?: Record<Idioma, string>;
   referencia: { doi: string; citacao: string; titulo_contem: string };
 }
 
