@@ -1,0 +1,4903 @@
+{
+ "versao": "2026-11-12.1",
+ "demonstracao": true,
+ "itens": [
+  {
+   "id": "pintura:cma:102578",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Portrait of Dora Wheeler",
+   "texto_humano": "Dora Wheeler became Chase's first student when he returned from overseas study in Munich and set up a teaching studio in New York. At the time, few American artists accepted women as private pupils. After her course of study, Wheeler joined her mother in launching a successful decorating firm, one of the first businesses in the country to be operated entirely by women. For the firm, she designed luxurious textiles, and the embroidered silk tapestry that fills the background in her portrait references her occupational interest.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "ostracismo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "William Merritt Chase",
+    "linha": "Portrait of Dora Wheeler, 1882–83. William Merritt Chase (American, 1849–1916). Oil on canvas; framed: 180.6 x 188.6 x 11 cm (71 1/8 x 74 1/4 x 4 5/16 in.); unframed: 159.8 x 166.4 cm (62 15/16 x 65 1/2 in.). The Cleveland Museum of Art, Gift of Mrs. Boudinot Keith in memory of  Mr. and Mrs. J. H. Wade, 1921.1239",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1921.1239"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-102578.webp",
+    "largura": 1600,
+    "altura": 1531
+   },
+   "rosto": {
+    "x": 0.6621,
+    "y": 0.1799,
+    "w": 0.0738,
+    "h": 0.0983
+   },
+   "nitido": "midia/rostos/cma-102578.jpg",
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:109245",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Elizabeth Shewell West and Her Son, Raphael",
+   "texto_humano": "West was the first American artist to study in Italy, where he spent three years before permanently settling in London. He so admired the artistic ideals of the Italian Renaissance master Raphael that he named his eldest son after him, and he imitated Raphael’s celebrated Madonna of the Chair when composing this tender double portrait of his wife and child.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Benjamin West",
+    "linha": "Elizabeth Shewell West and Her Son, Raphael, c. 1770. Benjamin West (American, born The Thirteen Colonies, 1738–1820). Oil on canvas; framed: 88 x 87.5 x 9 cm (34 5/8 x 34 7/16 x 3 9/16 in.); unframed: 66.5 x 66.3 cm (26 3/16 x 26 1/8 in.). The Cleveland Museum of Art, The Charles W. Harkness Gift, 1927.393",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1927.393"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-109245.webp",
+    "largura": 1594,
+    "altura": 1600
+   },
+   "rosto": {
+    "x": 0.3689,
+    "y": 0.1852,
+    "w": 0.198,
+    "h": 0.2647
+   },
+   "nitido": "midia/rostos/cma-109245.jpg",
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:121188",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Romaine Lacaux",
+   "texto_humano": "This painting may be Renoir's earliest signed canvas. Its sensitive display of color and light communicates an ideal of delicate, youthful beauty. The luminous tones of the background drapery and of the child's white blouse result from the artist's careful observation of reflected light and color on translucent materials. The delicate nuances of color, particularly in the young girl's face, reveal Renoir's previous training as a decorator of porcelain.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Pierre-Auguste Renoir",
+    "linha": "Romaine Lacaux, 1864. Pierre-Auguste Renoir (French, 1841–1919). Oil on fabric; framed: 106.7 x 89.2 x 8.9 cm (42 x 35 1/8 x 3 1/2 in.); unframed: 81.3 x 65 cm (32 x 25 9/16 in.). The Cleveland Museum of Art, Gift of the Hanna Fund, 1942.1065",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1942.1065"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-121188.webp",
+    "largura": 1273,
+    "altura": 1600
+   },
+   "rosto": {
+    "x": 0.418,
+    "y": 0.1923,
+    "w": 0.1846,
+    "h": 0.1881
+   },
+   "nitido": "midia/rostos/cma-121188.jpg",
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:125247",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Portrait of Isabella Brant",
+   "texto_humano": "Isabella Brant was Rubens’s first wife. He painted her many times in many different ways before she died at the age of 35 (she is a model for a nymph in the other work by Rubens in this room). This intimate portrait, painted at least five years before her death, suggests the close relationship between the painter and sitter through the warm palette, the luscious brushstrokes, and her lively expression.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Peter Paul Rubens",
+    "linha": "Portrait of Isabella Brant, c. 1620–25. Peter Paul Rubens (Flemish, 1577–1640). Oil on wood; framed: 83 x 73.5 x 9 cm (32 11/16 x 28 15/16 x 3 9/16 in.); unframed: 53 x 46 cm (20 7/8 x 18 1/8 in.). The Cleveland Museum of Art, Mr. and Mrs. William H. Marlatt Fund, 1947.207",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1947.207"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-125247.webp",
+    "largura": 1354,
+    "altura": 1600
+   },
+   "rosto": {
+    "x": 0.3658,
+    "y": 0.1879,
+    "w": 0.2766,
+    "h": 0.3103
+   },
+   "nitido": "midia/rostos/cma-125247.jpg",
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:127571",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Portrait of a Man, Possibly Girolamo Rosati",
+   "texto_humano": "The gesture of the elegantly dressed man is a mystery. Is he rising from his chair to address someone or is he pointing to something outside the frame? His right hand rests on a piece of paper (a letter?), while on the table are clover—a symbol of abundance, good fortune, and happy marriage—and jasmine, associated with purity and love, further emphasized by the roses on the trellis. There may have been a companion portrait of the sitter’s bride, to whom he acknowledges his devotion.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "curiosidade",
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Lorenzo Lotto",
+    "linha": "Portrait of a Man, Possibly Girolamo Rosati, 1533–34. Lorenzo Lotto (Italian, 1480–1556). Oil on canvas; framed: 135.9 x 128 x 8.6 cm (53 1/2 x 50 3/8 x 3 3/8 in.); unframed: 108.2 x 100.5 cm (42 5/8 x 39 9/16 in.). The Cleveland Museum of Art, Gift of the Hanna Fund, 1950.250",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1950.250"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-127571.webp",
+    "largura": 1477,
+    "altura": 1600
+   },
+   "rosto": {
+    "x": 0.2926,
+    "y": 0.1142,
+    "w": 0.1184,
+    "h": 0.1471
+   },
+   "nitido": "midia/rostos/cma-127571.jpg",
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:136682",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Portrait of Catherine Grey, Lady Manners",
+   "texto_humano": "The Irish poet Lady Manners rejected as “unflattering” this portrait representing her as the goddess Juno, symbolized here by the peacock. Thomas Lawrence exhibited the painting at the Royal Academy in 1794 with the label “to be disposed of [sold],” but it was still in the artist’s collection when he died. Though it offended Lady Manners, the painting displays all the hallmarks of Lawrence’s flamboyant style:dazzling, fluid brushwork and an innovative use of unconventional colors that helped secure his role as the most fashionable portrait painter in turn-of-the-century Britain.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "raiva"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Thomas Lawrence",
+    "linha": "Portrait of Catherine Grey, Lady Manners, 1794. Thomas Lawrence (British, 1769–1830). Oil on canvas; framed: 280.5 x 185 x 9 cm (110 7/16 x 72 13/16 x 3 9/16 in.); unframed: 255.3 x 158 cm (100 1/2 x 62 3/16 in.). The Cleveland Museum of Art, Bequest of John D. Rockefeller Jr., 1961.220",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1961.220"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-136682.webp",
+    "largura": 987,
+    "altura": 1600
+   },
+   "rosto": {
+    "x": 0.4157,
+    "y": 0.1698,
+    "w": 0.0825,
+    "h": 0.0625
+   },
+   "nitido": "midia/rostos/cma-136682.jpg",
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:141549",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Portrait of the Jester Calabazas",
+   "texto_humano": "Calabazas, a jester in the court of King Philip IV of Spain, had physical and mental disabilities, a state that the artist emphasizes, rather than tries to hide. While the Spanish court prized and doted upon people with disabilities such as Calabazas, Velázquez transformed their depiction in portraiture. This startling work uses the format of the formal, full-length court portrait to present a type of person who was generally perceived as marginal at this point in history and profoundly humanizes him.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "empatia",
+    "ostracismo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Diego Velázquez",
+    "linha": "Portrait of the Jester Calabazas, c. 1631–32. Diego Velázquez (Spanish, 1599–1660). Oil on canvas; framed: 199.3 x 133.1 x 12.7 cm (78 7/16 x 52 3/8 x 5 in.); unframed: 175 x 106 cm (68 7/8 x 41 3/4 in.). The Cleveland Museum of Art, Leonard C. Hanna Jr. Fund, 1965.15",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1965.15"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-141549.webp",
+    "largura": 983,
+    "altura": 1600
+   },
+   "rosto": {
+    "x": 0.5087,
+    "y": 0.1537,
+    "w": 0.1016,
+    "h": 0.08
+   },
+   "nitido": "midia/rostos/cma-141549.jpg",
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:145925",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Funerary Portrait of a Young Girl",
+   "texto_humano": "Transforming the spirit—not beautifying the mortal body—may have been the purpose of adding golden lips and jewelry to this painting. Egyptian-style burial customs and arts persisted throughout Greek, Roman, and Byzantine rule over Egypt (305 BCE–641 CE). The woman depicted in this panel lived between cultures. Her or her family’s choice of mummification reflected historical Egyptian practices of creating a physical “duplicate” for the deceased’s soul to rest in, and their decision to color her lips gold here may symbolize how death transformed her into an akh (effective spirit).",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "luto"
+   ],
+   "tema_sensivel": true,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "",
+    "linha": "Funerary Portrait of a Young Girl, c. 25–37 CE. Egypt, Roman Empire, late Tiberian. Encaustic on linden wood; overall: 39.4 x 17.4 cm (15 1/2 x 6 7/8 in.). The Cleveland Museum of Art, John L. Severance Fund, 1971.137",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1971.137"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-145925.webp",
+    "largura": 833,
+    "altura": 1600
+   },
+   "rosto": {
+    "x": 0.2181,
+    "y": 0.145,
+    "w": 0.4537,
+    "h": 0.304
+   },
+   "nitido": "midia/rostos/cma-145925.jpg",
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:149943",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Portrait of Ōzora Buzaemon",
+   "texto_humano": "Over seven feet tall, Ōzora Buzaemon became a tabloid sensation when he arrived in Edo (Tokyo) in 1827 . His handprints were cherished souvenirs, and his image was sold on woodblock prints. As inscriptions on the scroll detail, Watanabe Kazan met Buzaemon at the residence of a noted Confucian scholar. Using a camera obscura–type device—a tool that uses light to project an image onto a surface—he made this preliminary drawing for a painting. The portrayal depicts Buzaemon’s discomfort in being stared at.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "constrangimento",
+    "curiosidade"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Watanabe Kazan",
+    "linha": "Portrait of Ōzora Buzaemon (大空武左衛門像), 1827. Watanabe Kazan (Japanese, 1793–1841). Hanging scroll; ink and color on paper; image: 221.8 x 117.8 cm (87 5/16 x 46 3/8 in.); overall: 256.8 x 131 cm (101 1/8 x 51 9/16 in.); with knobs: 256.8 x 140.5 cm (101 1/8 x 55 5/16 in.). The Cleveland Museum of Art, Leonard C. Hanna Jr. Fund, 1980.177",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1980.177"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-149943.webp",
+    "largura": 877,
+    "altura": 1600
+   },
+   "rosto": {
+    "x": 0.3978,
+    "y": 0.0508,
+    "w": 0.1263,
+    "h": 0.0891
+   },
+   "nitido": "midia/rostos/cma-149943.jpg",
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:160885",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Portrait of Tieleman Roosterman",
+   "texto_humano": "An extremely wealthy linen and silk merchant in Haarlem, Tieleman Roosterman was 36 years old when Frans Hals painted his portrait. Unlike many Dutch painters of the period, Hals favored strong, visible brushstrokes that convey the vitality of his sitters. Roosterman strikes a confident pose, his costume sober but luxurious: his sleeves are decorated with braid and buttons, and ribbon rosettes encircle the waist of his doublet. The rich black of his suit is offset by the broad linen collar and lace-edged cuffs—fashionable details befitting a successful cloth merchant.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Frans Hals",
+    "linha": "Portrait of Tieleman Roosterman, 1634. Frans Hals (Dutch, c. 1581–1666). Oil on canvas; framed: 139 x 109 x 5.5 cm (54 3/4 x 42 15/16 x 2 3/16 in.); unframed: 117 x 87 cm (46 1/16 x 34 1/4 in.). The Cleveland Museum of Art, Leonard C. Hanna Jr. Fund, 1999.173",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1999.173"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-160885.webp",
+    "largura": 1190,
+    "altura": 1600
+   },
+   "rosto": {
+    "x": 0.395,
+    "y": 0.0724,
+    "w": 0.155,
+    "h": 0.1534
+   },
+   "nitido": "midia/rostos/cma-160885.jpg",
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:79581",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Bodhidharma",
+   "texto_humano": "Chan (Japanese: Zen) Buddhism was introduced to China in the early 500s by Indian monk Bodhidharma (Japanese: Bodai Daruma; died before 534). It is said that upon his arrival in China, Bodhidharma was permitted to meet with Emperor Wu (reigned 502–49) of the Liang dynasty. Realizing the emperor did not understand his religious goals, the monk left and crossed the Yangzi River on a reed, settling in Henan Province’s Shaolin Monastery. This portrait of Bodhidharma is accompanied by an inscription that also refers to his encounter with Emperor Wu.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "solitude"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Unkei Eii",
+    "linha": "Bodhidharma (菩提達磨図), early to mid-1500s. Attributed to Unkei Eii (Japanese, active c. 1504–1555). Hanging scroll; ink on paper; painting: 56.6 x 25.9 cm (22 5/16 x 10 3/16 in.); mounted: 127.5 x 27.7 cm (50 3/16 x 10 7/8 in.). The Cleveland Museum of Art, Gift from the Collection of George Gund III, 2015.472",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/2015.472"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-79581.webp",
+    "largura": 805,
+    "altura": 1600
+   },
+   "rosto": {
+    "x": 0.4019,
+    "y": 0.5586,
+    "w": 0.2609,
+    "h": 0.1698
+   },
+   "nitido": "midia/rostos/cma-79581.jpg",
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:79600",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Portrait of Sugawara Michizane",
+   "texto_humano": "Sugawara Michizane (845–903) was a Kyoto aristocrat who died in exile in Dazaifu in Japan’s southern island of Kyushu, having been slandered at court. His vengeful spirit was later pacified by the construction of shrines in his name. His image was incorporated into the repertoire of Zen Buddhist figure painting, which included bodhisattvas, Daoist immortals, and other enlightened beings. Eminent monk Sakugen Shūryō (1501–1579) inscribed this work, which was painted by monk-painter Yōgetsu of Kyushu, who traveled east to study either in Kyoto or Kamakura.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "ostracismo",
+    "raiva"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Yōgetsu",
+    "linha": "Portrait of Sugawara Michizane, late 1400s–early 1500s. Yōgetsu (Japanese, active late 1400s to early 1500s). Hanging scroll; ink and color on paper; painting: 100.8 x 50.2 cm (39 11/16 x 19 3/4 in.); mounted: 189.2 x 65.2 cm (74 1/2 x 25 11/16 in.). The Cleveland Museum of Art, Gift from the Collection of George Gund III, 2015.491",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/2015.491"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-79600.webp",
+    "largura": 859,
+    "altura": 1600
+   },
+   "rosto": {
+    "x": 0.3906,
+    "y": 0.4586,
+    "w": 0.1261,
+    "h": 0.0925
+   },
+   "nitido": "midia/rostos/cma-79600.jpg",
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:90249",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Mountain Market, Clear with Rising Mist",
+   "texto_humano": "This painting depicts several vignettes of the scholar-hermit’s various activities. In the lower left corner, the scholar-hermit is portrayed welcoming his guest in the courtyard. In the middle section on the lower bottom, the scholar and his guest are shown encountering another traveler on the bridge and exchanging their greetings. After crossing the bridge, the scholar visits a friend who lives in a compound of multiple buildings. The two friends decide to take a short walk.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "pertencimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "",
+    "linha": "Mountain Market, Clear with Rising Mist (산시청람도 [山市晴嵐圖]), early 1500s. Korea, Joseon dynasty (1392–1910). Hanging scroll; ink on silk; painting: 115.3 x 60 cm (45 3/8 x 23 5/8 in.); overall: 179 x 70.7 cm (70 1/2 x 27 13/16 in.); overall with knobs and cord: 181.8 x 77 cm (71 9/16 x 30 5/16 in.). The Cleveland Museum of Art, Gift from the Collection of George Gund III, 2015.517",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/2015.517"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-90249.webp",
+    "largura": 845,
+    "altura": 1600
+   },
+   "rosto": null,
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:92937",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Stag at Sharkey's",
+   "texto_humano": "Bellows was no stranger to Sharkey’s Athletic Club, a raucous saloon with a backroom boxing ring, located near his studio. Founded by Tom “Sailor” Sharkey, an ex-fighter who had also served in the US Navy, the club attracted men seeking to watch or participate in matches. Because public boxing was illegal in New York at the time, a private event had to be arranged in order for a bout to take place.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "contagio_emocional"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "George Bellows",
+    "linha": "Stag at Sharkey's, 1909. George Bellows (American, 1882–1925). Oil on canvas; framed: 110 x 140.5 x 8.5 cm (43 5/16 x 55 5/16 x 3 3/8 in.); unframed: 92 x 122.6 cm (36 1/4 x 48 1/4 in.). The Cleveland Museum of Art, Hinman B. Hurlbut Collection, 1922.1133",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1922.1133"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-92937.webp",
+    "largura": 1600,
+    "altura": 1196
+   },
+   "rosto": {
+    "x": 0.5917,
+    "y": 0.208,
+    "w": 0.0505,
+    "h": 0.092
+   },
+   "nitido": "midia/rostos/cma-92937.jpg",
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:113202",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "The Holy Family with Saint John the Baptist and Saint Margaret",
+   "texto_humano": "This monumental tondo, among Filippino’s most significant works, was commissioned by Neapolitan cardinal Oliviero Carafa, a leading political and ecclesiastical figure. The painter’s ingenious composition harmoniously overlaps five brilliantly colored divine figures within the challenging circular format. Behind a low wall adorned with sacred and domestic objects, Joseph observes the intertwined group of Mary holding Christ, who embraces his cousin John the Baptist, supported by Saint Margaret.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Filippino Lippi",
+    "linha": "The Holy Family with Saint John the Baptist and Saint Margaret, c. 1488–93. Filippino Lippi (Italian, c. 1457–1504). Tempera and oil on wood; framed: 184 x 186 x 9.5 cm (72 7/16 x 73 1/4 x 3 3/4 in.); diameter: 153 cm (60 1/4 in.). The Cleveland Museum of Art, The Delia E. Holden Fund and a fund donated as a memorial to Mrs. Holden by her children: Guerdon S. Holden, Delia Holden White, Roberta Holden Bole, Emery Holden Greenough, Gertrude Holden McGinley, 1932.227",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1932.227"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-113202.webp",
+    "largura": 1600,
+    "altura": 1600
+   },
+   "rosto": {
+    "x": 0.5272,
+    "y": 0.3248,
+    "w": 0.0621,
+    "h": 0.0711
+   },
+   "nitido": "midia/rostos/cma-113202.jpg",
+   "sensivel": {
+    "nudez": "parcial",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:114776",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Horse Stable",
+   "texto_humano": "Prized horses in stables may be the main theme of this pair of screens, but a lot of action is happening on the verandas. Falconry is the focus of one of the screens, while in the other, people challenge one another at two different boardgames, go and shōgi. A lively atmosphere develops in the interplay of the dynamic horses, the birds of prey, and the strategic games.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "contagio_emocional"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "",
+    "linha": "Horse Stable (厩図屏風), early 1500s. Japan, Muromachi period (1392–1573). Pair of six-panel folding screens; ink, color, and gold on paper; painting: 146 x 349.6 cm (57 1/2 x 137 5/8 in.). The Cleveland Museum of Art, Edward L. Whittemore Fund, 1934.373",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1934.373"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-114776.webp",
+    "largura": 1600,
+    "altura": 1459
+   },
+   "rosto": null,
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:117808",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Medicine Master Buddha and the Twelve Divine Generals",
+   "texto_humano": "From the 700s, people in Japan began praying to the Medicine Master Buddha (Yakushi Nyorai) for longevity. Yakushi is at the center of this image, flanked by the bodhisattvas of the sun and moon, Nikkō and Gakkō. The Twelve Divine Generals, a group of protective deities, surround him. Yakushi sits in a meditative pose with his right hand in a gesture bestowing fearlessness while his left hand holds a medicine jar.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "esperanca"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "",
+    "linha": "Medicine Master Buddha and the Twelve Divine Generals (薬師如来及び十二神将像), 1200s. Japan, Kamakura period (1185–1333). Hanging scroll painting; ink, color, gold, and silver on silk; image: 151.2 x 84.1 cm (59 1/2 x 33 1/8 in.); overall: 261 x 106.6 cm (102 3/4 x 41 15/16 in.); with knobs: 261 x 113.3 cm (102 3/4 x 44 5/8 in.). The Cleveland Museum of Art, Edward L. Whittemore Fund, 1938.422",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1938.422"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-117808.webp",
+    "largura": 912,
+    "altura": 1600
+   },
+   "rosto": {
+    "x": 0.4558,
+    "y": 0.2149,
+    "w": 0.0781,
+    "h": 0.0538
+   },
+   "nitido": "midia/rostos/cma-117808.jpg",
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:122351",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "The Burning of the Houses of Lords and Commons, 16 October 1834",
+   "texto_humano": "Fire consumed London’s famous Houses of Parliament on the night of October 16, 1834, and people gathered along the banks of the river Thames to gaze in awe at the horrifying spectacle. Initially, a low tide made it difficult to pump water to land and hampered steamers towing firefighting equipment along the river. The blaze burned uncontrollably for hours.J. M. W. Turner records the struggle as the boats in the lower-right corner head toward the flames.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "assombro",
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Joseph Mallord William Turner",
+    "linha": "The Burning of the Houses of Lords and Commons, 16 October 1834, 1835. Joseph Mallord William Turner (British, 1775–1851). Oil on canvas; framed: 123.5 x 153.5 x 12 cm (48 5/8 x 60 7/16 x 4 3/4 in.); unframed: 92 x 123.2 cm (36 1/4 x 48 1/2 in.). The Cleveland Museum of Art, Bequest of John L. Severance, 1942.647",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1942.647"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-122351.webp",
+    "largura": 1600,
+    "altura": 1188
+   },
+   "rosto": null,
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:125249",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "The Large Plane Trees (Road Menders at Saint-Rémy)",
+   "texto_humano": "Like Two Poplars in the Alpilles near Saint-Rémy (on view nearby), Vincent van Gogh painted this autumnal landscape while living in a psychiatric hospital near Saint-Rémy in southern France where he was treated for severe depression. Understanding that painting from nature eased his symptoms, Van Gogh’s physician permitted the artist to paint landscapes outside. Van Gogh described this painting in a letter to his brother Theo: “The last study I did is a view of the village, where they were at work under some enormous plane trees—repairing the pavements. . . .",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "restauracao_da_atencao"
+   ],
+   "tema_sensivel": true,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Vincent van Gogh",
+    "linha": "The Large Plane Trees (Road Menders at Saint-Rémy), 1889. Vincent van Gogh (Dutch, 1853–1890). Oil on fabric; framed: 104.5 x 124.5 x 7.6 cm (41 1/8 x 49 x 3 in.); unframed: 73.4 x 91.8 cm (28 7/8 x 36 1/8 in.). The Cleveland Museum of Art, Gift of the Hanna Fund, 1947.209",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1947.209"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-125249.webp",
+    "largura": 1600,
+    "altura": 1277
+   },
+   "rosto": null,
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:125884",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Birds and Flowers",
+   "texto_humano": "The landscape depicted in this pair of screens follows a seasonal progression from right to left, starting with the blossoming plum of early spring and ending with late autumn peonies. A variety of smaller birds are positioned throughout the scene, and a trio of swimming ducks is bracketed by early summer irises and early autumn bellflowers at the center. While some raptors (birds of prey) terrorize a pheasant and an egret (a waterfowl) to the right, a peacock and peahen converse to the left. Hawks are associated with military prowess, while the peafowl suggest cultural prestige.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Kano Mitsunobu",
+    "linha": "Birds and Flowers (花鳥図屏風), late 1500s. Kano Mitsunobu (Japanese, 1565–1608), and Kano Shōei (Japanese, 1519–1592). Pair of six-panel folding screens; ink, color, and gold on paper; image: 155.5 x 340 cm (61 1/4 x 133 7/8 in.). The Cleveland Museum of Art, Gift of William G. Mather, 1948.128",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1948.128"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-125884.webp",
+    "largura": 1600,
+    "altura": 1557
+   },
+   "rosto": null,
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:128842",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Saint Peter Repentant",
+   "texto_humano": "During Jesus’s arrest on the night of the Last Supper, the apostle Peter denied knowing him. Although Christ forgave his betrayal, Peter was consumed by guilt. Georges de La Tour represents Peter as an old man, reflecting on his past actions in a state of perpetual repentance. The apostle’s red-rimmed eyes and the uncertain light of the lantern suggest anxious sleepless nights; muted colors and simple forms give visual expression to Peter’s somber emotions.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "arrependimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Georges de La Tour",
+    "linha": "Saint Peter Repentant, 1645. Georges de La Tour (French, 1593–1652). Oil on canvas; framed: 140.3 x 119.1 x 7 cm (55 1/4 x 46 7/8 x 2 3/4 in.); unframed: 114 x 95 cm (44 7/8 x 37 3/8 in.). The Cleveland Museum of Art, Gift of the Hanna Fund, 1951.454",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1951.454"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-128842.webp",
+    "largura": 1303,
+    "altura": 1600
+   },
+   "rosto": {
+    "x": 0.5633,
+    "y": 0.0353,
+    "w": 0.1438,
+    "h": 0.1717
+   },
+   "nitido": "midia/rostos/cma-128842.jpg",
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:135185",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Mount Sainte-Victoire",
+   "texto_humano": "During the last 20 years of his life, Cezanne repeatedly painted Mount Sainte-Victoire near his home in Aix-en-Provence in southern France. Cezanne painted this view from life at one of his favorite sites, a small road that led from Aix eastward toward Mount Sainte-Victoire. He set up his easel at the edge of the road where he could see two umbrella pines and the mountain towering over the scene. A branch of one of the pines extends from the left of the canvas across the sky, echoing the slope of the mountain, linking the near and the far.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "apego_ao_lugar"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Paul Cezanne",
+    "linha": "Mount Sainte-Victoire, c. 1904. Paul Cezanne (French, 1839–1906). Oil on fabric; framed: 87.5 x 106.5 x 7 cm (34 7/16 x 41 15/16 x 2 3/4 in.); unframed: 72.2 x 92.4 cm (28 7/16 x 36 3/8 in.). The Cleveland Museum of Art, Bequest of Leonard C. Hanna Jr., 1958.21",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1958.21"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-135185.webp",
+    "largura": 1600,
+    "altura": 1269
+   },
+   "rosto": null,
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:135382",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "The Red Kerchief",
+   "texto_humano": "This painting depicts Monet's first wife, Camille, outside on a snowy day passing by the French doors of their home at Argenteuil. Her face is rendered in a radically bold Impressionist technique of mere daubs of paint quickly applied, just as the snow and trees are defined by broad, broken strokes of pure white and green.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Claude Monet",
+    "linha": "The Red Kerchief (Femme à la capeline rouge), c. 1868–73. Claude Monet (French, 1840–1926). Oil on fabric; framed: 128.3 x 105.7 x 14.6 cm (50 1/2 x 41 5/8 x 5 3/4 in.); unframed: 99 x 79.8 cm (39 x 31 7/16 in.). The Cleveland Museum of Art, Bequest of Leonard C. Hanna Jr., 1958.39",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1958.39"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-135382.webp",
+    "largura": 1286,
+    "altura": 1600
+   },
+   "rosto": {
+    "x": 0.5746,
+    "y": 0.3016,
+    "w": 0.0511,
+    "h": 0.0504
+   },
+   "nitido": "midia/rostos/cma-135382.jpg",
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:142792",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Wrestlers in a Circus",
+   "texto_humano": "Locked in a dangerous embrace, beefy wrestlers writhe on a brightly colored mat. Famous for his scenes of urban life, Kirchner uses loose brushstrokes to capture the blur of bodies in motion. Imagine watching this intense match, surrounded by screaming spectators.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "sobrecarga_sensorial",
+    "contagio_emocional"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Ernst Ludwig Kirchner",
+    "linha": "Wrestlers in a Circus, 1909. Ernst Ludwig Kirchner (German, 1880–1938). Oil on canvas; framed: 107.5 x 121 x 7 cm (42 5/16 x 47 5/8 x 2 3/4 in.); unframed: 80.5 x 94 cm (31 11/16 x 37 in.). The Cleveland Museum of Art, Contemporary Collection of The Cleveland Museum of Art and Bequest of William R. Valentiner, 1966.49",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1966.49"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-142792.webp",
+    "largura": 1600,
+    "altura": 1366
+   },
+   "rosto": {
+    "x": 0.2098,
+    "y": 0.489,
+    "w": 0.0536,
+    "h": 0.0849
+   },
+   "nitido": "midia/rostos/cma-142792.jpg",
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:144961",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Green Tara",
+   "texto_humano": "For Tibetans, Green Tara is one of the preeminent figures of their Buddhist faith, a radiant savioress who embodies the female form of the perfect, enlightened mind. The Green Tara in the Cleveland thangka—a Tibetan devotional painting on cloth—specifically dispels fear and provides protection, just like her mantra inscribed on the back side of the painting. Her green color and fear-not gesture link her to the cosmic Buddha of the North, enshrined above her head. Most scholars agree that this work was painted by the celebrated Nepalese artist known as Aniko.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "esperanca"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Aniko",
+    "linha": "Green Tara, c. 1260s, mounted 2020. Attributed to Aniko (Nepalese, active in Tibet mid- to late 1200s). Thangka; gum tempera, ink, and gold on sized cotton; mount: silk; painting: 52.4 x 43.2 cm (20 5/8 x 17 in.); overall: 107 x 65 cm (42 1/8 x 25 9/16 in.). The Cleveland Museum of Art, Purchase from the J. H. Wade Fund by exchange, 1970.156",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1970.156"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-144961.webp",
+    "largura": 1354,
+    "altura": 1600
+   },
+   "rosto": {
+    "x": 0.4643,
+    "y": 0.3337,
+    "w": 0.0828,
+    "h": 0.0907
+   },
+   "nitido": "midia/rostos/cma-144961.jpg",
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:79932",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Landscape with Fishermen",
+   "texto_humano": "Clad in a straw rain poncho and wide-brimmed hat, a fisherman is seated in a small boat. Reeds sparkle on the far shoreline among dark, black rock forms that appear to float above the water. On the near shoreline are a pair of pines, a grove of bamboo or water reeds, and two withered deciduous trees from which moss hangs. This landscape painting, which emphasizes an intimate solitary moment through evoking various atmospheric elements—rain, evening light, and frosty air—was one of the main subjects of mid- and late 16th-century landscape paintings.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "solitude"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Yi Bul-hae",
+    "linha": "Landscape with Fishermen (조어산수도 [釣漁山水圖]), 1600s. Attributed to Yi Bul-hae (Korean, active 1500s). Hanging scroll; ink and slight color on silk; overall: 122.2 x 42.9 cm (48 1/8 x 16 7/8 in.). The Cleveland Museum of Art, Gift from the Collection of George Gund III, 2015.516",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/2015.516"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-79932.webp",
+    "largura": 1079,
+    "altura": 1600
+   },
+   "rosto": null,
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:94983",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Ramblers over a Winding Stream",
+   "texto_humano": "This album leaf is one of few surviving paintings by Luo Zichuan. During the Yuan dynasty, the Luo family of painters in Jiangxi province, in Southern China, had a network of patrons extending their reputation all the way to the capital city of Beijing. The small, rounded figures crossing the bridge on the right are gentlemen enjoying a ramble, rather than ascetics or travelers. The composition is dominated in the center foreground by “crab-claw” trees with knotty trunks and twisting branches. Their robust forms show Luo’s connection to the earlier master, Guo Xi (about 1020–about 1090).",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "restauracao_da_atencao",
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Luo Zhichuan",
+    "linha": "Ramblers over a Winding Stream (溪橋策杖圖), before 1330. Luo Zhichuan (Chinese, active 1280s–1320s). Album leaf; ink on silk; painting only: 24.5 x 25.2 cm (9 5/8 x 9 15/16 in.). The Cleveland Museum of Art, Gift of the John Huntington Art and Polytechnic Trust, 1915.536",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1915.536"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-94983.webp",
+    "largura": 1600,
+    "altura": 1588
+   },
+   "rosto": null,
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:98215",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Tradition",
+   "texto_humano": "In this composition, artist Kenyon Cox presents a figure symbolizing Tradition in the center of his canvas. She guards the lighted lamp of knowledge, transporting it from a representative of the past seated on the left, to latter-day personifications of poetry and painting standing on the right.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "curiosidade"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Kenyon Cox",
+    "linha": "Tradition, 1916. Kenyon Cox (American, 1856–1919). Oil on canvas; unframed: 106 x 165.5 cm (41 3/4 x 65 3/16 in.). The Cleveland Museum of Art, Gift of J. D. Cox, 1917.9",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1917.9"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-98215.webp",
+    "largura": 1600,
+    "altura": 1009
+   },
+   "rosto": {
+    "x": 0.8052,
+    "y": 0.1807,
+    "w": 0.0378,
+    "h": 0.0824
+   },
+   "nitido": "midia/rostos/cma-98215.jpg",
+   "sensivel": {
+    "nudez": "parcial",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:106088",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "Early Morning After a Storm at Sea",
+   "texto_humano": "The powerful Atlantic surf pounding against the desolate coast of Prouts Neck, Maine, provided primary subject matter for the dramatic paintings that Homer created during his final decades. This example, which the artist proclaimed as \"the best picture of the sea that I have painted,\" was initially conceived as a watercolor. Undertaking the composition in oil after a lapse of nearly two decades, Homer patiently waited for the appropriate atmospheric conditions, executing the work in four different sessions spread over two years.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "assombro"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Winslow Homer",
+    "linha": "Early Morning After a Storm at Sea, 1900–1903. Winslow Homer (American, 1836–1910). Oil on canvas; framed: 111 x 160 x 12 cm (43 11/16 x 63 x 4 3/4 in.); unframed: 76.8 x 127 cm (30 1/4 x 50 in.). The Cleveland Museum of Art, Gift of J. H. Wade, 1924.195",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1924.195"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-106088.webp",
+    "largura": 1600,
+    "altura": 965
+   },
+   "rosto": null,
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "pintura:cma:108999",
+   "tipo": "pintura",
+   "classe_semiotica": "icone",
+   "idioma": null,
+   "rotulo": "The Building of the Dam",
+   "texto_humano": "Julian Alden Weir's painting shows the construction of the Scotland Dam, built between 1907 and 1909 on the Shetucket River near his summer home in Windham, Connecticut. The artist had a vested interest in the subject, as the dam ensured an energy supply to the area's inhabitants that included his family.",
+   "origem_do_texto": "curadoria",
+   "construtos": [
+    "apego_ao_lugar"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Julian Alden Weir",
+    "linha": "The Building of the Dam, 1908. Julian Alden Weir (American, 1852–1919). Oil on canvas; framed: 93.5 x 118.5 x 7.5 cm (36 13/16 x 46 5/8 x 2 15/16 in.); unframed: 76 x 101.6 cm (29 15/16 x 40 in.). The Cleveland Museum of Art, Purchase from the J. H. Wade Fund, 1927.171",
+    "fonte": "cma",
+    "licenca": "CC0-1.0",
+    "url": "https://clevelandart.org/art/1927.171"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/pinturas/cma-108999.webp",
+    "largura": 1600,
+    "altura": 1188
+   },
+   "rosto": null,
+   "nitido": null,
+   "sensivel": {
+    "nudez": "nenhuma",
+    "violencia": "nenhuma"
+   }
+  },
+  {
+   "id": "som:freesound:186024",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Birdsong Singleshot Denoised Wakeup Alarm",
+   "texto_humano": "Birdsong Singleshot Denoised Wakeup Alarm | alarm, bird, birdsong, calm, chaffinch, denoised, high-pitch, nature, singleshot, wakeup",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "restauracao_da_atencao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "unfa",
+    "linha": "Birdsong Singleshot Denoised Wakeup Alarm, por unfa, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/unfa/sounds/186024"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-186024.mp3",
+    "duracao_ms": 2725
+   }
+  },
+  {
+   "id": "som:freesound:266499",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Church bell in Belmonte, Portugal",
+   "texto_humano": "Church bell in Belmonte, Portugal | bell, belmonte, church, fieldrecording, churchbells, portugal",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "apego_ao_lugar"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Refrain",
+    "linha": "Church bell in Belmonte, Portugal, por Refrain, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/Refrain/sounds/266499"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-266499.mp3",
+    "duracao_ms": 15320
+   }
+  },
+  {
+   "id": "som:freesound:130388",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Clock ticking",
+   "texto_humano": "Clock ticking | clock, tic, ticking, toc",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "tedio",
+    "habituacao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "olver",
+    "linha": "Clock ticking, por olver, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/olver/sounds/130388"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-130388.mp3",
+    "duracao_ms": 5915
+   }
+  },
+  {
+   "id": "som:freesound:129678",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "crickets",
+   "texto_humano": "crickets | chirping, crickets, night",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "restauracao_da_atencao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "FreethinkerAnon",
+    "linha": "crickets, por FreethinkerAnon, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/FreethinkerAnon/sounds/129678"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-129678.mp3",
+    "duracao_ms": 15577
+   }
+  },
+  {
+   "id": "som:freesound:553149",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Car Horn Honk 02 - Single, Distant - EXT Day Brooklyn Street corner ambience",
+   "texto_humano": "Car Horn Honk 02 - Single, Distant - EXT Day Brooklyn Street corner ambience | ambiance, ambience, ambient, atmos, atmospheric, brooklyn, car, city-rumble, field-recording, honk, horn, new-york-city, nyc, traffic",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "sobrecarga_sensorial"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Brett+Butter",
+    "linha": "Car Horn Honk 02 - Single, Distant - EXT Day Brooklyn Street corner ambience, por Brett+Butter, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/Brett+Butter/sounds/553149"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-553149.mp3",
+    "duracao_ms": 11267
+   }
+  },
+  {
+   "id": "som:freesound:704612",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "The Door Creaks: You're Not Alone",
+   "texto_humano": "The Door Creaks: You're Not Alone | creak, creaking, door, open, opening, wooden",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "vigilancia",
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "MATRIXXX_",
+    "linha": "The Door Creaks: You're Not Alone, por MATRIXXX_, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/MATRIXXX_/sounds/704612"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-704612.mp3",
+    "duracao_ms": 8500
+   }
+  },
+  {
+   "id": "som:freesound:174643",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Door Slammed",
+   "texto_humano": "Door Slammed | closed, door, hard, slam, slammed",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "raiva"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "altfuture",
+    "linha": "Door Slammed, por altfuture, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/altfuture/sounds/174643"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-174643.mp3",
+    "duracao_ms": 11437
+   }
+  },
+  {
+   "id": "som:freesound:349696",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "electric humming heavy",
+   "texto_humano": "electric humming heavy | buzz, deep, electric, electrical, electricity, heavy, hum, humming, zap",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "habituacao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Mikes-MultiMedia",
+    "linha": "electric humming heavy, por Mikes-MultiMedia, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/Mikes-MultiMedia/sounds/349696"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-349696.mp3",
+    "duracao_ms": 14791
+   }
+  },
+  {
+   "id": "som:freesound:119448",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Elevator Ding",
+   "texto_humano": "Elevator Ding | ding, elevator, ping",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "vigilancia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "lmbubec",
+    "linha": "Elevator Ding, por lmbubec, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/lmbubec/sounds/119448"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-119448.mp3",
+    "duracao_ms": 4233
+   }
+  },
+  {
+   "id": "som:freesound:188038",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Fire Crackling",
+   "texto_humano": "Fire Crackling | crackle, crackling, fire, flame, flames, heat, hot, pop, popping",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "restauracao_da_atencao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "AntumDeluge",
+    "linha": "Fire Crackling, por AntumDeluge, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/AntumDeluge/sounds/188038"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-188038.mp3",
+    "duracao_ms": 2871
+   }
+  },
+  {
+   "id": "som:freesound:378568",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Glass Breaking",
+   "texto_humano": "Glass Breaking | breaking, glass, shatter",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "vigilancia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "ToxicFilmzSRsounds",
+    "linha": "Glass Breaking, por ToxicFilmzSRsounds, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/ToxicFilmzSRsounds/sounds/378568"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-378568.mp3",
+    "duracao_ms": 2247
+   }
+  },
+  {
+   "id": "som:freesound:125297",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "hospital-door-latch",
+   "texto_humano": "hospital-door-latch | click, door, hospital, latch",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "vigilancia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "alienistcog",
+    "linha": "hospital-door-latch, por alienistcog, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/alienistcog/sounds/125297"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-125297.mp3",
+    "duracao_ms": 14546
+   }
+  },
+  {
+   "id": "som:freesound:201841",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Tea Kettle Mono 44.1 Khz",
+   "texto_humano": "Tea Kettle Mono 44.1 Khz | kettle, kitchen, tea, tea-kettle, whistle",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "apego_ao_lugar"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "odditonic",
+    "linha": "Tea Kettle Mono 44.1 Khz, por odditonic, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/odditonic/sounds/201841"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-201841.mp3",
+    "duracao_ms": 18418
+   }
+  },
+  {
+   "id": "som:freesound:267711",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Picking Up Keys",
+   "texto_humano": "Picking Up Keys | keys, clank, jingle, keyring, metal-on-metal, pick, picking, table, up",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "apego_ao_lugar"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "WeeJee_vdH",
+    "linha": "Picking Up Keys, por WeeJee_vdH, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/WeeJee_vdH/sounds/267711"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-267711.mp3",
+    "duracao_ms": 2174
+   }
+  },
+  {
+   "id": "som:freesound:449528",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Leaves Rustling Mastered",
+   "texto_humano": "Leaves Rustling Mastered | leaves, outside, rustling",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "restauracao_da_atencao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "12062703",
+    "linha": "Leaves Rustling Mastered, por 12062703, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/12062703/sounds/449528"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-449528.mp3",
+    "duracao_ms": 3279
+   }
+  },
+  {
+   "id": "som:freesound:338986",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Music Box Melody 1",
+   "texto_humano": "Music Box Melody 1 | ambiance, antique, box, chime, dsk, flstudio, loop, melody, music, music-box, recording, ring, slow, sound, atmosphere, old, retro",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "nostalgia",
+    "memoria_autobiografica"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "DRFX",
+    "linha": "Music Box Melody 1, por DRFX, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/DRFX/sounds/338986"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-338986.mp3",
+    "duracao_ms": 16053
+   }
+  },
+  {
+   "id": "som:freesound:534911",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Ocean Waves 02",
+   "texto_humano": "Ocean Waves 02 | baltic, beach, coast, field-recordng, meer, nordsee, ocean, oceanside, ostsee, ozean, sea, seaside, shore, splash, water, waves, wellen, wind",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "restauracao_da_atencao",
+    "assombro"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Lucas_Schacht",
+    "linha": "Ocean Waves 02, por Lucas_Schacht, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/Lucas_Schacht/sounds/534911"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-534911.mp3",
+    "duracao_ms": 18040
+   }
+  },
+  {
+   "id": "som:freesound:528111",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Phone Ringing Sound",
+   "texto_humano": "Phone Ringing Sound | calling, cell, mobile, phone, ring, telephone",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "vigilancia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "fspera",
+    "linha": "Phone Ringing Sound, por fspera, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/fspera/sounds/528111"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-528111.mp3",
+    "duracao_ms": 3750
+   }
+  },
+  {
+   "id": "som:freesound:347039",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "FM Radio Static",
+   "texto_humano": "FM Radio Static | fm-radio, radio, radio-stations, static",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "sobrecarga_sensorial"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "caculo",
+    "linha": "FM Radio Static, por caculo, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/caculo/sounds/347039"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-347039.mp3",
+    "duracao_ms": 6751
+   }
+  },
+  {
+   "id": "som:freesound:624759",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Rain on Window Loop (03.12.22)",
+   "texto_humano": "Rain on Window Loop (03.12.22) | raindrops, window, rain, raining",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "restauracao_da_atencao",
+    "solitude"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "chris5s",
+    "linha": "Rain on Window Loop (03.12.22), por chris5s, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/chris5s/sounds/624759"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-624759.mp3",
+    "duracao_ms": 6755
+   }
+  },
+  {
+   "id": "som:freesound:454166",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "room tone medium quiet Pablo's condo",
+   "texto_humano": "room tone medium quiet Pablo's condo | condo, medium, quiet, room, tone",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "solitude"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "kyles",
+    "linha": "room tone medium quiet Pablo's condo, por kyles, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/kyles/sounds/454166"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-454166.mp3",
+    "duracao_ms": 18176
+   }
+  },
+  {
+   "id": "som:freesound:385799",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "stream 2",
+   "texto_humano": "stream 2 | ambient, birds, cordoba, naturaleza, nature, outdoors, pajaros, rio, river, stream",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "restauracao_da_atencao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Calvi19",
+    "linha": "stream 2, por Calvi19, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/Calvi19/sounds/385799"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-385799.mp3",
+    "duracao_ms": 10124
+   }
+  },
+  {
+   "id": "som:freesound:613973",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Thunder Storm",
+   "texto_humano": "Thunder Storm | thunder, heavy, rain, storm, thunder-storm, thunderstorm, weather",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "assombro",
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "beanogreen",
+    "linha": "Thunder Storm, por beanogreen, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/beanogreen/sounds/613973"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-613973.mp3",
+    "duracao_ms": 17455
+   }
+  },
+  {
+   "id": "som:freesound:365543",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Typing on an iPhone",
+   "texto_humano": "Typing on an iPhone | beep, button, buttons, cell, electronic, iphone, mobile, phone, telephone, tone, type, typing",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "habituacao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Caitlin_100",
+    "linha": "Typing on an iPhone, por Caitlin_100, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/Caitlin_100/sounds/365543"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-365543.mp3",
+    "duracao_ms": 6231
+   }
+  },
+  {
+   "id": "som:freesound:512411",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Water Dripping - KV",
+   "texto_humano": "Water Dripping - KV | drip, dripping, flowing, pipe, tap, water",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "habituacao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Kievinay",
+    "linha": "Water Dripping - KV, por Kievinay, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/Kievinay/sounds/512411"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-512411.mp3",
+    "duracao_ms": 10588
+   }
+  },
+  {
+   "id": "som:freesound:543809",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Wind Howl 4 inch Pipe",
+   "texto_humano": "Wind Howl 4 inch Pipe | blowing, howl, wind",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "vigilancia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Takkyi",
+    "linha": "Wind Howl 4 inch Pipe, por Takkyi, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/Takkyi/sounds/543809"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-543809.mp3",
+    "duracao_ms": 7677
+   }
+  },
+  {
+   "id": "som:freesound:245704",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Birdsong 01 (Carmarthen)",
+   "texto_humano": "Birdsong 01 (Carmarthen) | birds, birdsong, environment, field-recording, nature, outdoor, park, peaceful, tweeting",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "restauracao_da_atencao",
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "TicAshfield",
+    "linha": "Birdsong 01 (Carmarthen), por TicAshfield, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/TicAshfield/sounds/245704"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-245704.mp3",
+    "duracao_ms": 8910
+   }
+  },
+  {
+   "id": "som:freesound:484031",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Countryside Church Bells Ambience 1 1",
+   "texto_humano": "Countryside Church Bells Ambience 1 1 | ambience, bells, church, countryside, design, field, foley, recording, sound",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "apego_ao_lugar"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Joao_Janz",
+    "linha": "Countryside Church Bells Ambience 1 1, por Joao_Janz, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/Joao_Janz/sounds/484031"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-484031.mp3",
+    "duracao_ms": 17392
+   }
+  },
+  {
+   "id": "som:freesound:398275",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Clock Tick",
+   "texto_humano": "Clock Tick | cartoon, clock, clockwork, old, tick-tock, ticking, ticks, time",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "tedio"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "FlashTrauma",
+    "linha": "Clock Tick, por FlashTrauma, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/FlashTrauma/sounds/398275"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-398275.mp3",
+    "duracao_ms": 6626
+   }
+  },
+  {
+   "id": "som:freesound:543965",
+   "tipo": "som",
+   "classe_semiotica": "indice",
+   "idioma": null,
+   "rotulo": "Cricket - Grillo",
+   "texto_humano": "Cricket - Grillo | cricket, grillo, night, noche",
+   "origem_do_texto": "titulo_e_tags",
+   "construtos": [
+    "restauracao_da_atencao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Lunevix",
+    "linha": "Cricket - Grillo, por Lunevix, no Freesound (CC0)",
+    "fonte": "freesound-via-openverse",
+    "licenca": "CC0-1.0",
+    "url": "https://freesound.org/people/Lunevix/sounds/543965"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": {
+    "arquivo": "midia/sons/fs-543965.mp3",
+    "duracao_ms": 2122
+   }
+  },
+  {
+   "id": "palavra:pt-BR:saudade",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "saudade",
+   "texto_humano": "wistfulness; melancholy; nostalgia; yearning; longing (the feeling of missing something or someone)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "nostalgia",
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “saudade” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/saudade"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:banzo",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "banzo",
+   "texto_humano": "deep depression, intense nostalgia",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "nostalgia"
+   ],
+   "tema_sensivel": true,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “banzo” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/banzo"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:desassossego",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "desassossego",
+   "texto_humano": "unrest, uneasiness",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "vigilancia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “desassossego” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/desassossego"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:marasmo",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "marasmo",
+   "texto_humano": "apathy (lack of emotion or motivation)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "tedio"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “marasmo” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/marasmo"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:dengo",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "dengo",
+   "texto_humano": "a display of sadness or loneliness in order to receive affection",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “dengo” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/dengo"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:chamego",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "chamego",
+   "texto_humano": "passion, affection",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “chamego” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/chamego"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:aconchego",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "aconchego",
+   "texto_humano": "cosiness (state or quality of being cosy)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “aconchego” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/aconchego"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:sossego",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "sossego",
+   "texto_humano": "quiet, peace, calm",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas",
+    "restauracao_da_atencao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “sossego” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/sossego"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:enfado",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "enfado",
+   "texto_humano": "tedium; boredom; tediousness; ennui",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "tedio"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “enfado” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/enfado"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:inquietação",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "inquietação",
+   "texto_humano": "restlessness (state or condition of being restless)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "vigilancia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “inquietação” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/inquieta%C3%A7%C3%A3o"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:pasmo",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "pasmo",
+   "texto_humano": "astonishment; shock; awe (extreme surprise)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "assombro"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “pasmo” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/pasmo"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:alheamento",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "alheamento",
+   "texto_humano": "alienation (the act of alienating)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "alienacao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “alheamento” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/alheamento"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:devaneio",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "devaneio",
+   "texto_humano": "reverie; dreaminess",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "divagacao_mental"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “devaneio” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/devaneio"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:ternura",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "ternura",
+   "texto_humano": "tenderness, affection",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "apego",
+    "compaixao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “ternura” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/ternura"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:alívio",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "alívio",
+   "texto_humano": "relief (removal of stress or discomfort)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “alívio” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/al%C3%ADvio"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:alento",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "alento",
+   "texto_humano": "courage, will",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "esperanca"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “alento” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/alento"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:mágoa",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "mágoa",
+   "texto_humano": "resentment",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "raiva"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “mágoa” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/m%C3%A1goa"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:rancor",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "rancor",
+   "texto_humano": "rancor; grudge (deep seated animosity)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "raiva"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “rancor” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/rancor"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:remorso",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "remorso",
+   "texto_humano": "remorse",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "arrependimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “remorso” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/remorso"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:pudor",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "pudor",
+   "texto_humano": "pudor (appropriate sense of modesty or shame)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "constrangimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “pudor” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/pudor"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:receio",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "receio",
+   "texto_humano": "concern, apprehension, trepidation",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "medo",
+    "vigilancia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “receio” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/receio"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:quietude",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "quietude",
+   "texto_humano": "quiet (absence of movement or sound)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "restauracao_da_atencao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “quietude” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/quietude"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:júbilo",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "júbilo",
+   "texto_humano": "bliss (perfect happiness)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “júbilo” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/j%C3%BAbilo"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:espanto",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "espanto",
+   "texto_humano": "astonishment, amazement",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "assombro"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “espanto” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/espanto"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:encanto",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "encanto",
+   "texto_humano": "a feeling of joy when coming across something pleasant or charming; delight; pleasantness",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas",
+    "assombro"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “encanto” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/encanto"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:enlevo",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "enlevo",
+   "texto_humano": "rapture, ecstasy",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "assombro",
+    "fluxo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “enlevo” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/enlevo"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:carinho",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "carinho",
+   "texto_humano": "fondness, affection",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “carinho” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/carinho"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:apreensão",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "apreensão",
+   "texto_humano": "apprehension",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "medo",
+    "vigilancia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “apreensão” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/apreens%C3%A3o"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:arrepio",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "arrepio",
+   "texto_humano": "shiver",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "interocepcao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “arrepio” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/arrepio"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:pt-BR:vergonha",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "pt-BR",
+   "rotulo": "vergonha",
+   "texto_humano": "shame",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "constrangimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “vergonha” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/vergonha"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:wistful",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "wistful",
+   "texto_humano": "Full of longing or yearning.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "nostalgia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": 0.1,
+    "ativacao": 0.4545,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “wistful” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/wistful"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:forlorn",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "forlorn",
+   "texto_humano": "Pitifully sad, wretched, miserable; lonely, especially from feeling abandoned, deserted, forsaken.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "solidao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “forlorn” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/forlorn"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:listless",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "listless",
+   "texto_humano": "Lacking energy, enthusiasm, or liveliness.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "tedio"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.2343,
+    "ativacao": 0.2774,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “listless” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/listless"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:restless",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "restless",
+   "texto_humano": "Without rest; unable to be still or quiet; uneasy; continually moving.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "vigilancia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “restless” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/restless"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:sonder",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "sonder",
+   "texto_humano": "The profound feeling of realizing that everyone, including strangers passing in the street, has a life as complex as one's own, which they are constantly living despite one's personal lack of awareness of it.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "empatia",
+    "assombro"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “sonder” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/sonder"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:ennui",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "ennui",
+   "texto_humano": "A gripping listlessness or melancholia caused by boredom; depression.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "tedio"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “ennui” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/ennui"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:yearning",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "yearning",
+   "texto_humano": "A wistful or melancholy longing.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “yearning” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/yearning"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:homesick",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "homesick",
+   "texto_humano": "(often with for) Missing one's home and family very much when away; nostalgic.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "nostalgia",
+    "apego_ao_lugar"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “homesick” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/homesick"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:jaded",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "jaded",
+   "texto_humano": "Bored or lacking enthusiasm, typically after having been overexposed to, or having consumed too much of something.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "habituacao",
+    "tedio"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “jaded” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/jaded"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:aloof",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "aloof",
+   "texto_humano": "Either physically or emotionally remote: distant, standoffish.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "alienacao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.2,
+    "ativacao": 0.425,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “aloof” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/aloof"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:awestruck",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "awestruck",
+   "texto_humano": "Filled or overcome with awe or wonder.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "assombro"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “awestruck” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/awestruck"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:elated",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "elated",
+   "texto_humano": "Extremely happy and excited; delighted; pleased, euphoric.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": 0.7345,
+    "ativacao": 0.6875,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “elated” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/elated"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:serene",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "serene",
+   "texto_humano": "Calm, peaceful, unruffled.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": 0.491,
+    "ativacao": 0.4879,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “serene” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/serene"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:pensive",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "pensive",
+   "texto_humano": "Having the appearance of deep, often melancholic, thinking.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "divagacao_mental"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.0402,
+    "ativacao": 0.3306,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “pensive” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/pensive"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:wary",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "wary",
+   "texto_humano": "Characterized by caution; guarded; careful; on one's guard",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "vigilancia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “wary” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/wary"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:overwhelmed",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "overwhelmed",
+   "texto_humano": "Emotionally overpowered.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "sobrecarga_sensorial"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “overwhelmed” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/overwhelmed"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:sheepish",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "sheepish",
+   "texto_humano": "Shy, meek, ashamed or embarrassed.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "constrangimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “sheepish” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/sheepish"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:smitten",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "smitten",
+   "texto_humano": "In love.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “smitten” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/smitten"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:thankful",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "thankful",
+   "texto_humano": "Showing appreciation or gratitude.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "gratidao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": 0.65,
+    "ativacao": 0.5786,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “thankful” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/thankful"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:hopeful",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "hopeful",
+   "texto_humano": "Feeling hope",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "esperanca"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": 0.6322,
+    "ativacao": 0.6429,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “hopeful” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/hopeful"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:dread",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "dread",
+   "texto_humano": "To anticipate with fear.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.7338,
+    "ativacao": 0.5685,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “dread” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/dread"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:bittersweet",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "bittersweet",
+   "texto_humano": "Expressing contrasting emotions of pain and pleasure.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "ambivalencia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “bittersweet” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/bittersweet"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:lonesome",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "lonesome",
+   "texto_humano": "Unhappy due to being alone; lonely.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "solidao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “lonesome” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/lonesome"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:spellbound",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "spellbound",
+   "texto_humano": "Fascinated by something; entranced as if by a spell; captivated.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "fluxo",
+    "assombro"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “spellbound” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/spellbound"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:rueful",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "rueful",
+   "texto_humano": "Causing, feeling, or expressing regret or sorrow, especially in a wry or humorous way.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "arrependimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “rueful” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/rueful"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:envious",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "envious",
+   "texto_humano": "Feeling or exhibiting envy; jealously desiring the excellence or good fortune of another; maliciously grudging.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "inveja"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “envious” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/envious"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:resentful",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "resentful",
+   "texto_humano": "Inclined to resent, who tends to harbor resentment, when wronged.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "raiva"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "norma_direta",
+    "valencia": -0.7575,
+    "ativacao": 0.4633,
+    "fonte": "glasgow-2019"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “resentful” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/resentful"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:engrossed",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "engrossed",
+   "texto_humano": "Preoccupied with something to the exclusion of everything else.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "fluxo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “engrossed” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/engrossed"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:inquisitive",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "inquisitive",
+   "texto_humano": "Eager to acquire knowledge; acquisitive.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "curiosidade"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “inquisitive” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/inquisitive"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:en:torn",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "en",
+   "rotulo": "torn",
+   "texto_humano": "Unable to decide between multiple options.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "ambivalencia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Colaboradores do Wiktionary",
+    "linha": "Definição de “torn” no Wiktionary em inglês, copiada sem alteração (CC BY-SA 4.0)",
+    "fonte": "wikcionario-en",
+    "licenca": "CC-BY-SA-4.0",
+    "url": "https://en.wiktionary.org/wiki/torn"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:孤单",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "孤单",
+   "texto_humano": "lonely",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "solidao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “孤单” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:腻烦",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "腻烦",
+   "texto_humano": "bored",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "tedio"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “腻烦” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:惊恐",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "惊恐",
+   "texto_humano": "horror-struck",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “惊恐” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:畏怯",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "畏怯",
+   "texto_humano": "fear and coward",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "medo"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “畏怯” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:窘促",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "窘促",
+   "texto_humano": "embarrassed",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "constrangimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “窘促” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:害臊",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "害臊",
+   "texto_humano": "feel ashamed",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "constrangimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “害臊” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:眼红",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "眼红",
+   "texto_humano": "be jealous",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "inveja"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “眼红” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:忌妒",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "忌妒",
+   "texto_humano": "be jealous of",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "inveja"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “忌妒” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:暴怒",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "暴怒",
+   "texto_humano": "violently rage",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "raiva"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “暴怒” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:憋气",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "憋气",
+   "texto_humano": "choke with resentment",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "raiva"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “憋气” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:懊悔",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "懊悔",
+   "texto_humano": "regret",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "arrependimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “懊悔” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:遗憾",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "遗憾",
+   "texto_humano": "regret",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "arrependimento"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “遗憾” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:惊愕",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "惊愕",
+   "texto_humano": "stunned",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "assombro"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “惊愕” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:景慕",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "景慕",
+   "texto_humano": "revere",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "assombro"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “景慕” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:不解",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "不解",
+   "texto_humano": "puzzle",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "curiosidade"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “不解” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:惊疑",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "惊疑",
+   "texto_humano": "surprised and uncertain",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "ambivalencia",
+    "curiosidade"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “惊疑” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:喜怒无常",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "喜怒无常",
+   "texto_humano": "moody",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "ambivalencia"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “喜怒无常” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:动摇",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "动摇",
+   "texto_humano": "shake (confidence)",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "dissonancia_cognitiva"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “动摇” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:挂牵",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "挂牵",
+   "texto_humano": "miss sb.or sth.",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “挂牵” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:母爱",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "母爱",
+   "texto_humano": "mother love",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "apego"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “母爱” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:憧憬",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "憧憬",
+   "texto_humano": "look forward to",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "esperanca"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “憧憬” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:夙愿",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "夙愿",
+   "texto_humano": "long-cherished wish",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "esperanca"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “夙愿” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:感恩",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "感恩",
+   "texto_humano": "thankful",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "gratidao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “感恩” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:感激",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "感激",
+   "texto_humano": "appreciate",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "gratidao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “感激” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:怜惜",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "怜惜",
+   "texto_humano": "feel tender and protective toward",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "compaixao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “怜惜” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:体谅",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "体谅",
+   "texto_humano": "1. show understanding and sympathy for",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "empatia",
+    "compaixao"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “体谅” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:安详",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "安详",
+   "texto_humano": "serene",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “安详” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:无忧无虑",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "无忧无虑",
+   "texto_humano": "carefree",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "emocoes_positivas"
+   ],
+   "tema_sensivel": false,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “无忧无虑” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:悲恸",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "悲恸",
+   "texto_humano": "grief-stricken",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "luto"
+   ],
+   "tema_sensivel": true,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “悲恸” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  },
+  {
+   "id": "palavra:zh-CN:哀戚",
+   "tipo": "palavra",
+   "classe_semiotica": "simbolo",
+   "idioma": "zh-CN",
+   "rotulo": "哀戚",
+   "texto_humano": "mournful",
+   "origem_do_texto": "glosa",
+   "construtos": [
+    "luto"
+   ],
+   "tema_sensivel": true,
+   "afeto": {
+    "metodo": "ausente"
+   },
+   "credito": {
+    "autor": "Zheng et al. (2023)",
+    "linha": "Glosa em inglês de “哀戚” em Zheng et al. (2023), copiada sem alteração (CC0)",
+    "fonte": "zheng-2023",
+    "licenca": "CC0-1.0",
+    "url": "https://doi.org/10.6084/m9.figshare.20209859"
+   },
+   "revisao": {
+    "humana": "pendente",
+    "por": null,
+    "em": null
+   },
+   "midia": null
+  }
+ ]
+}

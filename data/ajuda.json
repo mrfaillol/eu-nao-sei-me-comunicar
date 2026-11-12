@@ -1,0 +1,39 @@
+{
+  "_nota": "Textos fixos do recurso de ajuda. O modelo nunca escreve sobre ajuda. Canais conferidos em fonte oficial na data abaixo e a reconferir a cada versão publicada. Redação escrita com apoio de modelo: revisão humana pendente.",
+  "conferido_em": "2026-11-12",
+  "idiomas": {
+    "pt-BR": {
+      "link": "Precisa falar com alguém?",
+      "titulo": "Se você precisa falar com alguém agora",
+      "linha": {
+        "nome": "CVV",
+        "contato": "188",
+        "detalhe": "No Brasil. Telefone 188, 24 horas por dia, sem custo de ligação. Também por chat e e-mail.",
+        "url": "https://cvv.org.br/"
+      },
+      "diretorio": { "texto": "Linhas de apoio em outros países", "url": "https://findahelpline.com/pt-BR" }
+    },
+    "en": {
+      "link": "Need to talk to someone?",
+      "titulo": "If you need to talk to someone now",
+      "linha": {
+        "nome": "988 Suicide & Crisis Lifeline",
+        "contato": "988",
+        "detalhe": "In the United States. Call, text or chat, 24 hours a day, free and confidential.",
+        "url": "https://988lifeline.org/"
+      },
+      "diretorio": { "texto": "Helplines in other countries", "url": "https://findahelpline.com" }
+    },
+    "zh-CN": {
+      "link": "想找人说说话吗？",
+      "titulo": "如果你现在想找人说说话",
+      "linha": {
+        "nome": "全国统一心理援助热线",
+        "contato": "12356",
+        "detalhe": "中国大陆。每日提供不少于18小时的心理援助服务。",
+        "url": "https://www.gov.cn/zhengce/zhengceku/202412/content_6994470.htm"
+      },
+      "diretorio": { "texto": "其他国家和地区的求助热线", "url": "https://findahelpline.com/zh-CN" }
+    }
+  }
+}

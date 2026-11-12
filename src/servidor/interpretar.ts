@@ -12,6 +12,7 @@
 import { ajudaDestacada } from "../frase/ajuda";
 import { comporFrase } from "../frase/compositor";
 import { montarCorrecao, montarMensagens, VERSAO_PROMPT } from "../frase/prompt";
+import { termosPermitidos } from "../frase/termos";
 import { IDIOMAS, type Glossario, type Idioma, type Item } from "../frase/tipos";
 import { validarFrase, type Codigo } from "../frase/validador";
 import type { Provedor } from "./provedores/tipos";
@@ -81,6 +82,9 @@ export async function escreverFrase(
 
   const provedor = deps.provedor;
   if (!provedor) return porRegra();
+  // Com menos de dois termos permitidos nenhuma frase do modelo passaria no validador (ele pede de 2 a 4):
+  // a chamada seria gasta à toa. Menos de 0,2% dos trios do acervo caem aqui.
+  if (termosPermitidos(itens, idioma, deps.glossario).length < 2) return porRegra();
 
   const { sistema, usuario } = montarMensagens(itens, idioma, deps.glossario);
   const fim = Date.now() + (deps.prazoMs ?? PRAZO_PADRAO_MS);

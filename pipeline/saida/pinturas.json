@@ -2287,85 +2287,6 @@
   "_destaque": 0
  },
  {
-  "id": "pintura:cma:310353",
-  "tipo": "pintura",
-  "classe_semiotica": "icone",
-  "idioma": null,
-  "rotulo": "The Fourth King of Hell",
-  "texto_humano": "Originally part of a set of ten, this hanging scroll depicts the Fourth King of Hell. Accompanied by his secretary, the king with bulging eyes is seated at the center, overseeing how well his verdict is being conducted. On the bottom, sinners are suffering in a giant cauldron filled with boiling water, constantly pierced by a guard’s burning spears. Ready-made Buddhist paintings from China, created in professional workshops in the port city of Ningbo, are believed to be one of the important inspirations for this hell scene.",
-  "origem_do_texto": "curadoria",
-  "construtos": [],
-  "tema_sensivel": false,
-  "afeto": {
-   "metodo": "ausente"
-  },
-  "credito": {
-   "autor": "",
-   "linha": "The Fourth King of Hell (제4 오관왕), late 1300s. Korea, Goryeo dynasty (918–1392). Hanging scroll; ink, color, and gold ink on silk; image: 63 x 45.3 cm (24 13/16 x 17 13/16 in.); overall: 136.2 x 58.9 cm (53 5/8 x 23 3/16 in.). The Cleveland Museum of Art, Leonard C. Hanna Jr. Fund and museum purchase from various donors by exchange and Partial Gift of The Honorable Joseph P. Carroll and Roberta Carroll, M.D., 2019.224",
-   "fonte": "cma",
-   "licenca": "CC0-1.0",
-   "url": "https://clevelandart.org/art/2019.224"
-  },
-  "revisao": {
-   "humana": "pendente",
-   "por": null,
-   "em": null
-  },
-  "midia": {
-   "arquivo": "midia/pinturas/cma-310353.webp",
-   "largura": 1164,
-   "altura": 1600
-  },
-  "rosto": {
-   "x": 0.4834,
-   "y": 0.2085,
-   "w": 0.0967,
-   "h": 0.0809
-  },
-  "nitido": "midia/rostos/cma-310353.jpg",
-  "sensivel": {
-   "nudez": "nenhuma",
-   "violencia": "nenhuma"
-  },
-  "_curadoria": {
-   "epoca": "antes de 1400",
-   "regiao": "Coreia",
-   "generos_por_palavra": "sem gênero detectado"
-  },
-  "_rostos": [
-   {
-    "x": 0.4834,
-    "y": 0.2085,
-    "w": 0.0967,
-    "h": 0.0809,
-    "conf": 0.7246,
-    "pontos": [
-     0.5073,
-     0.2356,
-     0.5496,
-     0.2379,
-     0.5203,
-     0.2513,
-     0.501,
-     0.2636,
-     0.534,
-     0.2672
-    ],
-    "sinais": {
-     "area": 0.00782,
-     "larg_rel": 0.0967,
-     "dist_centro": 0.408,
-     "conf": 0.7246,
-     "nitidez_96": 229.4,
-     "contraste_rms": 0.07,
-     "figura_fundo": -0.038,
-     "frontal": 0.19
-    }
-   }
-  ],
-  "_destaque": 0
- },
- {
   "id": "pintura:cma:79932",
   "tipo": "pintura",
   "classe_semiotica": "icone",
@@ -2405,6 +2326,50 @@
    "epoca": "1600-1799",
    "regiao": "Coreia",
    "generos_por_palavra": "paisagem|animais/flores"
+  },
+  "_rostos": [],
+  "_destaque": null
+ },
+ {
+  "id": "pintura:cma:94983",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Ramblers over a Winding Stream",
+  "texto_humano": "This album leaf is one of few surviving paintings by Luo Zichuan. During the Yuan dynasty, the Luo family of painters in Jiangxi province, in Southern China, had a network of patrons extending their reputation all the way to the capital city of Beijing. The small, rounded figures crossing the bridge on the right are gentlemen enjoying a ramble, rather than ascetics or travelers. The composition is dominated in the center foreground by “crab-claw” trees with knotty trunks and twisting branches. Their robust forms show Luo’s connection to the earlier master, Guo Xi (about 1020–about 1090).",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Luo Zhichuan",
+   "linha": "Ramblers over a Winding Stream (溪橋策杖圖), before 1330. Luo Zhichuan (Chinese, active 1280s–1320s). Album leaf; ink on silk; painting only: 24.5 x 25.2 cm (9 5/8 x 9 15/16 in.). The Cleveland Museum of Art, Gift of the John Huntington Art and Polytechnic Trust, 1915.536",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1915.536"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-94983.webp",
+   "largura": 1600,
+   "altura": 1588
+  },
+  "rosto": null,
+  "nitido": null,
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "antes de 1400",
+   "regiao": "China",
+   "generos_por_palavra": "sem gênero detectado"
   },
   "_rostos": [],
   "_destaque": null

@@ -286,3 +286,18 @@ describe("montarMensagens", () => {
     expect(en.startsWith(pt.slice(0, 200))).toBe(true);
   });
 });
+
+describe("seleção de um só termo", () => {
+  // Três itens com o mesmo e único construto: nenhuma frase do modelo cumpriria "de 2 a 4 termos".
+  const unico = caso("caso-1").itens.map((i, n) => ({ ...i, id: `${i.id}:u${n}`, construtos: ["nostalgia"], afeto: { metodo: "ausente" as const } }));
+
+  it("vai direto para a frase por regra, sem gastar chamada ao modelo", async () => {
+    const p = provedorFalso([boa, boa]);
+    const interpretar = criarInterpretar({ acervo: unico, glossario, provedor: p, origens: ORIGENS });
+    const r = await interpretar(pedido({ itens: unico.map((i) => i.id), idioma: "pt-BR" }));
+    const corpo = (await r.json()) as Resposta;
+    expect(corpo.origem).toBe("regra");
+    expect(corpo.construtos_usados).toEqual(["nostalgia"]);
+    expect(p.chamadas).toHaveLength(0);
+  });
+});

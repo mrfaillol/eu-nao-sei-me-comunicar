@@ -161,6 +161,25 @@ def cmd_sons(args) -> None:
     print(f"sons: {len(itens)} | termos sem som aceito: {vazios or 'nenhum'} | recortes: {total / 1e6:.1f} MB")
 
 
+def cmd_montar(args) -> None:
+    import sys
+
+    from acervo.montar import IDIOMAS, fracao_de_trios_de_um_construto, montar
+
+    destino = RAIZ / "public" / "indice"
+    r = montar(destino, apenas_aprovados=args.publicavel)
+    t = r["por_tipo"]
+    print(f"pintura {t['pintura']} | som {t['som']} | palavra {t['palavra']} | pendentes {r['pendentes']} | erros {len(r['erros'])}")
+    for erro in r["erros"]:
+        print(" -", erro)
+    if r["erros"]:
+        sys.exit(1)
+    itens = json.loads((destino / "acervo.json").read_text(encoding="utf-8"))["itens"]
+    for idioma in IDIOMAS:
+        sessao = [i for i in itens if i["idioma"] in (None, idioma)]
+        print(f"{idioma}: {len(sessao)} itens na sessão, {fracao_de_trios_de_um_construto(sessao):.3%} dos trios com um só construto")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(prog="acervo")
     sub = parser.add_subparsers(dest="comando", required=True)
@@ -184,6 +203,10 @@ def main() -> None:
     p = sub.add_parser("sons", help="busca, filtra, baixa e normaliza os sons")
     p.add_argument("--total", type=int, default=30)
     p.set_defaults(func=cmd_sons)
+
+    p = sub.add_parser("montar", help="monta public/indice a partir dos intermediários e das anotações")
+    p.add_argument("--publicavel", action="store_true", help="só itens aprovados na revisão humana")
+    p.set_defaults(func=cmd_montar)
 
     args = parser.parse_args()
     args.func(args)
