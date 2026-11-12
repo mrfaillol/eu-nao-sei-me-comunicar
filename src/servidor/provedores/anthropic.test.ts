@@ -34,6 +34,7 @@ describe("provedor Anthropic", () => {
     expect(corpo.fallbacks).toBe("default");
     expect((corpo.output_config as { effort: string }).effort).toBe("low");
     expect((corpo.output_config as { format: { type: string } }).format.type).toBe("json_schema");
+    expect(corpo.max_tokens).toBeLessThanOrEqual(4096);
     expect(corpo).not.toHaveProperty("temperature");
     expect(corpo).not.toHaveProperty("thinking");
     expect(opcoes.signal).toBe(sinal);

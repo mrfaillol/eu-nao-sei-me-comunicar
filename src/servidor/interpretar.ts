@@ -2,6 +2,11 @@
 //
 // O cliente nunca envia texto. Os itens são lidos do acervo aqui no servidor, então ninguém
 // consegue usar este endereço como um modelo genérico nem injetar instrução pelo pedido.
+//
+// Cada pedido aceito pode custar uma chamada paga ao modelo, então a função recusa cedo:
+// origem de navegador fora da lista (403), tipo de conteúdo que dispensa preflight (415) e corpo
+// acima de 1 KB, medido enquanto chega (413). Isso não substitui limite de pedidos por cliente:
+// quem chama sem navegador não manda origem, e só a hospedagem consegue contar pedidos por IP.
 // O que o modelo escreve só chega à tela se passar no validador; caso contrário há uma segunda
 // tentativa e, por fim, a frase composta por regra.
 import { ajudaDestacada } from "../frase/ajuda";
@@ -106,8 +111,38 @@ export async function escreverFrase(
   return porRegra();
 }
 
+/**
+ * Lê o corpo até o limite e para. Devolve null se o corpo passar do limite, sem esperar o resto:
+ * medir depois de `pedido.text()` deixaria um corpo enorme, ou sem fim, ocupar a memória primeiro.
+ */
+export async function lerCorpoLimitado(pedido: Request, limite: number): Promise<string | null> {
+  const declarado = Number(pedido.headers.get("content-length"));
+  if (Number.isFinite(declarado) && declarado > limite) return null;
+  if (!pedido.body) return "";
+
+  const leitor = pedido.body.getReader();
+  const partes: Uint8Array[] = [];
+  let total = 0;
+  for (;;) {
+    const { done, value } = await leitor.read();
+    if (done) break;
+    total += value.byteLength;
+    if (total > limite) {
+      await leitor.cancel();
+      return null;
+    }
+    partes.push(value);
+  }
+  const tudo = new Uint8Array(total);
+  let posicao = 0;
+  for (const parte of partes) {
+    tudo.set(parte, posicao);
+    posicao += parte.byteLength;
+  }
+  return new TextDecoder().decode(tudo);
+}
+
 function lerPedido(texto: string, porId: Map<string, Item>): { itens: Item[]; idioma: Idioma } | null {
-  if (new TextEncoder().encode(texto).length > TAMANHO_MAXIMO_DO_CORPO) return null;
   let dado: unknown;
   try {
     dado = JSON.parse(texto);
@@ -134,7 +169,15 @@ export function criarInterpretar(deps: Dependencias): (pedido: Request) => Promi
   return async (pedido) => {
     const origem = pedido.headers.get("origin");
     const cors: Record<string, string> = { vary: "Origin" };
-    if (origem && origens.has(origem)) {
+    // Navegador sempre manda Origin em pedido entre sites. Origem presente e fora da lista é barrada
+    // aqui, antes de qualquer trabalho: só deixar de enviar o cabeçalho CORS não impede o gasto.
+    if (origem && !origens.has(origem)) {
+      return new Response(JSON.stringify({ erro: "origem não autorizada" }), {
+        status: 403,
+        headers: { vary: "Origin", "content-type": "application/json; charset=utf-8" },
+      });
+    }
+    if (origem) {
       cors["access-control-allow-origin"] = origem;
       cors["access-control-allow-methods"] = "POST, OPTIONS";
       cors["access-control-allow-headers"] = "content-type";
@@ -149,7 +192,14 @@ export function criarInterpretar(deps: Dependencias): (pedido: Request) => Promi
     if (pedido.method === "OPTIONS") return new Response(null, { status: 204, headers: cors });
     if (pedido.method !== "POST") return json({ erro: "use POST" }, 405);
 
-    const lido = lerPedido(await pedido.text(), porId);
+    // application/json obriga o navegador a fazer preflight; text/plain passaria sem ele.
+    const tipo = (pedido.headers.get("content-type") ?? "").split(";")[0]!.trim().toLowerCase();
+    if (tipo !== "application/json") return json({ erro: "use content-type application/json" }, 415);
+
+    const corpo = await lerCorpoLimitado(pedido, TAMANHO_MAXIMO_DO_CORPO);
+    if (corpo === null) return json({ erro: "corpo acima de 1 KB" }, 413);
+
+    const lido = lerPedido(corpo, porId);
     if (!lido) return json({ erro: "pedido fora do contrato: envie { itens: [3 ids distintos do acervo], idioma }" }, 400);
 
     return json(await escreverFrase(lido.itens, lido.idioma, deps), 200);

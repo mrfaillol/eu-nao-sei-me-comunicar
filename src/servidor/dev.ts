@@ -11,9 +11,21 @@ import { escolherProvedor } from "./provedores/anthropic";
 
 const ORIGEM_LOCAL = /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/;
 
-async function lerCorpo(req: IncomingMessage): Promise<string> {
+const LIMITE_DO_CORPO = 1024;
+
+/** Lê o corpo até o limite; devolve null e para de ler se ele passar. */
+async function lerCorpo(req: IncomingMessage): Promise<string | null> {
+  if (Number(req.headers["content-length"]) > LIMITE_DO_CORPO) return null;
   const partes: Buffer[] = [];
-  for await (const parte of req) partes.push(parte as Buffer);
+  let total = 0;
+  for await (const parte of req) {
+    total += (parte as Buffer).byteLength;
+    if (total > LIMITE_DO_CORPO) {
+      req.destroy();
+      return null;
+    }
+    partes.push(parte as Buffer);
+  }
   return Buffer.concat(partes).toString("utf8");
 }
 
@@ -50,6 +62,12 @@ export function interpretarEmDesenvolvimento(): Plugin {
           });
 
           const metodo = req.method ?? "GET";
+          const corpo = metodo === "POST" ? await lerCorpo(req) : undefined;
+          if (corpo === null) {
+            res.statusCode = 413;
+            res.end();
+            return;
+          }
           const cabecalhos = new Headers();
           for (const [nome, valor] of Object.entries(req.headers)) {
             if (typeof valor === "string") cabecalhos.set(nome, valor);
@@ -58,7 +76,7 @@ export function interpretarEmDesenvolvimento(): Plugin {
             new Request("http://localhost/api/interpretar", {
               method: metodo,
               headers: cabecalhos,
-              body: metodo === "POST" ? await lerCorpo(req) : undefined,
+              body: corpo,
             }),
           );
 

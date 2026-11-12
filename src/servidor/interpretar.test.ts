@@ -135,7 +135,6 @@ describe("interpretar recusa o que foge do contrato", () => {
     ["idioma fora da lista", { itens: ids, idioma: "fr" }],
     ["itens que não são texto", { itens: [1, 2, 3], idioma: "pt-BR" }],
     ["corpo que não é JSON", "isto não é json"],
-    ["corpo acima de 1 KB", { itens: ids, idioma: "pt-BR", texto: "x".repeat(2000) }],
   ];
   for (const [nome, corpo] of invalidos) {
     it(`${nome} devolve 400 sem chamar o modelo`, async () => {
@@ -152,6 +151,85 @@ describe("interpretar recusa o que foge do contrato", () => {
   });
 });
 
+describe("interpretar protege a chave do modelo", () => {
+  const corpoGrande = JSON.stringify({ itens: selecao.itens, idioma: "pt-BR", texto: "x".repeat(2000) });
+
+  it("corpo acima de 1 KB devolve 413 sem chamar o modelo", async () => {
+    const p = provedorFalso([boa]);
+    const interpretar = criarInterpretar({ acervo, glossario, provedor: p, origens: ORIGENS });
+    expect((await interpretar(pedido(corpoGrande))).status).toBe(413);
+    expect(p.chamadas).toHaveLength(0);
+  });
+
+  it("corta um corpo sem fim assim que ele passa de 1 KB, sem esperar o resto", async () => {
+    let enviados = 0;
+    const semFim = new ReadableStream<Uint8Array>({
+      pull(controle) {
+        enviados++;
+        controle.enqueue(new Uint8Array(512).fill(120));
+      },
+    });
+    const interpretar = criarInterpretar({ acervo, glossario, provedor: null, origens: ORIGENS });
+    const r = await interpretar(
+      new Request("https://api.exemplo.test/api/interpretar", {
+        method: "POST",
+        headers: { "content-type": "application/json", origin: SITE },
+        body: semFim,
+        // @ts-expect-error duplex é exigido pelo Node para corpo em fluxo e ainda não está nos tipos do DOM
+        duplex: "half",
+      }),
+    );
+    expect(r.status).toBe(413);
+    expect(enviados).toBeLessThan(10);
+  });
+
+  it("Content-Length acima do limite é recusado sem ler o corpo", async () => {
+    const interpretar = criarInterpretar({ acervo, glossario, provedor: null, origens: ORIGENS });
+    const r = await interpretar(
+      new Request("https://api.exemplo.test/api/interpretar", {
+        method: "POST",
+        headers: { "content-type": "application/json", origin: SITE, "content-length": "999999" },
+        body: JSON.stringify(selecao),
+      }),
+    );
+    expect(r.status).toBe(413);
+  });
+
+  it("origem presente e fora da lista devolve 403 sem chamar o modelo", async () => {
+    const p = provedorFalso([boa]);
+    const interpretar = criarInterpretar({ acervo, glossario, provedor: p, origens: ORIGENS });
+    const r = await interpretar(pedido(selecao, "https://outro.test"));
+    expect(r.status).toBe(403);
+    expect(p.chamadas).toHaveLength(0);
+  });
+
+  it("tipo de conteúdo que dispensa preflight devolve 415 sem chamar o modelo", async () => {
+    const p = provedorFalso([boa]);
+    const interpretar = criarInterpretar({ acervo, glossario, provedor: p, origens: ORIGENS });
+    const r = await interpretar(
+      new Request("https://api.exemplo.test/api/interpretar", {
+        method: "POST",
+        headers: { "content-type": "text/plain", origin: SITE },
+        body: JSON.stringify(selecao),
+      }),
+    );
+    expect(r.status).toBe(415);
+    expect(p.chamadas).toHaveLength(0);
+  });
+
+  it("pedido sem cabeçalho de origem (fora de navegador) continua aceito", async () => {
+    const interpretar = criarInterpretar({ acervo, glossario, provedor: null, origens: ORIGENS });
+    const r = await interpretar(
+      new Request("https://api.exemplo.test/api/interpretar", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify(selecao),
+      }),
+    );
+    expect(r.status).toBe(200);
+  });
+});
+
 describe("origens", () => {
   const interpretar = criarInterpretar({ acervo, glossario, provedor: null, origens: ORIGENS });
 
@@ -162,9 +240,12 @@ describe("origens", () => {
     expect(r.headers.get("access-control-allow-methods")).toContain("POST");
   });
 
-  it("origem fora da lista não recebe o cabeçalho", async () => {
+  it("origem fora da lista não recebe o cabeçalho, nem no preflight", async () => {
     const r = await interpretar(pedido(selecao, "https://outro.test"));
     expect(r.headers.get("access-control-allow-origin")).toBeNull();
+    const preflight = await interpretar(pedido(null, "https://outro.test", "OPTIONS"));
+    expect(preflight.status).toBe(403);
+    expect(preflight.headers.get("access-control-allow-origin")).toBeNull();
   });
 
   it("POST de origem liberada recebe o cabeçalho", async () => {

@@ -28,5 +28,6 @@ Em construção. Esta seção é atualizada a cada parte entregue.
   - 33 de 33 frases defeituosas do conjunto de regressão são rejeitadas pelo validador; 18 de 18 frases de referência são aceitas.
   - 18 de 18 frases compostas por regra com o glossário real passam no validador (6 seleções, 3 idiomas).
   - Sonda do pré-prompt com modelo real: 17 de 18 respostas aprovadas na primeira tentativa; a reprovada (zh-CN, só sons) não tinha verbo de mensagem. A tentativa de injeção plantada nas tags de um som foi tratada como dado nos três idiomas.
+- Antes de publicar com chave: pôr limite de pedidos por cliente na hospedagem. A função recusa origem de navegador fora da lista (403), tipo de conteúdo sem preflight (415) e corpo acima de 1 KB (413), mas quem chama sem navegador não manda origem, e contar pedidos por IP é trabalho da hospedagem.
 - NÃO PROVADO: nenhuma chamada à API de um provedor. A sonda usou um subagente da sessão de desenvolvimento, dentro de outro arnês. A taxa de violação em produção só se mede com chave.
 - Revisão nativa pendente: os moldes em inglês e em mandarim (`src/frase/moldes/`) e os termos em mandarim do glossário.

@@ -56,7 +56,9 @@ export function criarProvedorAnthropic(modelo: string, cliente: Anthropic): Prov
         const resposta = await cliente.beta.messages.create(
           {
             model: modelo,
-            max_tokens: 16000,
+            // Teto de custo: o endereço é público e a resposta é uma frase em JSON. 4096 cobre o
+            // raciocínio em esforço baixo mais a frase; um teto maior só aumentaria o gasto por abuso.
+            max_tokens: 4096,
             betas: ["server-side-fallback-2026-07-01"],
             fallbacks: "default",
             output_config: { effort: "low", format: FORMATO_DA_RESPOSTA },
