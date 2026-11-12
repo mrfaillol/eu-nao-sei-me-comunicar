@@ -1,0 +1,6 @@
+# O esbuild empacota a função da Vercel (scripts/saida-vercel.mjs). O pnpm só roda o script de instalação
+# de pacotes autorizados aqui; sem isto, a instalação falha no CI.
+packages:
+  - "."
+allowBuilds:
+  esbuild: true
