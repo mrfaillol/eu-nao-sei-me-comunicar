@@ -1,0 +1,992 @@
+{
+ "_origem": "Extraído em 12/Nov/2026 das sondas dos conferentes do workflow (pre-prompt). 'gravada' = frase do compositor do protótipo em Python.",
+ "legitimas": [
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-1-so-palavras",
+   "origem": "esperada",
+   "frase": "Ao reunir saudade, hiraeth e Heimweh, você comunica nostalgia voltada ao pertencimento, e a repetição da mesma falta em três línguas afirma que o apego a um lugar ausente organiza a sua mensagem.",
+   "construtos_usados": [
+    "nostalgia",
+    "pertencimento",
+    "apego"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-1-so-palavras",
+   "origem": "gravada",
+   "frase": "Suas três escolhas comunicam nostalgia e apego em tom contido, e a repetição desse tom nas três afirma a mensagem que você reuniu sem dizer com palavras suas.",
+   "construtos_usados": [
+    "nostalgia",
+    "apego"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-1-so-palavras",
+   "origem": "esperada",
+   "frase": "By gathering saudade, hiraeth and Heimweh, you communicate nostalgia directed at belonging, and the same absence repeated in three languages states that attachment to a missing place organizes your message.",
+   "construtos_usados": [
+    "nostalgia",
+    "pertencimento",
+    "apego"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-1-so-palavras",
+   "origem": "gravada",
+   "frase": "Your three choices communicate nostalgia and attachment in a subdued tone, and the repetition of that tone across the three states the message that you gathered without saying it yourself.",
+   "construtos_usados": [
+    "nostalgia",
+    "apego"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-1-so-palavras",
+   "origem": "esperada",
+   "frase": "你把 saudade、hiraeth 和 Heimweh 放在一起，传达的是指向归属感的怀旧，同一种缺失在三种语言里重复出现，说明对一个不在场之地的依恋构成了你的信息。",
+   "construtos_usados": [
+    "nostalgia",
+    "pertencimento",
+    "apego"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-1-so-palavras",
+   "origem": "gravada",
+   "frase": "你的三个选择以克制的语调传达出怀旧与依恋，这种语调在三者中重复，说出了你没有用自己的话讲出来的那条信息。",
+   "construtos_usados": [
+    "nostalgia",
+    "apego"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-2-so-sons",
+   "origem": "esperada",
+   "frase": "Suas escolhas sonoras comunicam sobrecarga sensorial produzida pela cidade em obras e em emergência, e a chuva na janela aponta a restauração da atenção que essa alta ativação interrompe.",
+   "construtos_usados": [
+    "sobrecarga_sensorial",
+    "restauracao_atencao",
+    "alta_ativacao"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-2-so-sons",
+   "origem": "gravada",
+   "frase": "Suas três escolhas comunicam vigilância e restauração da atenção em oposição, e essa oposição entre os itens é a mensagem que você reuniu sem dizer com palavras suas.",
+   "construtos_usados": [
+    "vigilancia",
+    "restauracao_atencao"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-2-so-sons",
+   "origem": "esperada",
+   "frase": "Your sound choices communicate sensory overload produced by a city of construction and emergency, and the rain on the window points to the attention restoration that this high arousal interrupts.",
+   "construtos_usados": [
+    "sobrecarga_sensorial",
+    "restauracao_atencao",
+    "alta_ativacao"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-2-so-sons",
+   "origem": "gravada",
+   "frase": "Your three choices communicate vigilance in opposition to attention restoration, and this opposition between the items is the message that you gathered without saying it in words of your own.",
+   "construtos_usados": [
+    "vigilancia",
+    "restauracao_atencao"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-2-so-sons",
+   "origem": "esperada",
+   "frase": "你选的三个声音传达出施工与急救中的城市所造成的感官超载，而窗上的雨声指向被这种高唤醒打断的注意力恢复。",
+   "construtos_usados": [
+    "sobrecarga_sensorial",
+    "restauracao_atencao",
+    "alta_ativacao"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-2-so-sons",
+   "origem": "gravada",
+   "frase": "你的三个选择传达出与注意力恢复相对立的警觉，这些选项之间的对立，正是你没有用自己的话讲出来的那条信息。",
+   "construtos_usados": [
+    "vigilancia",
+    "restauracao_atencao"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-3-misto-trabalho",
+   "origem": "esperada",
+   "frase": "Você reuniu trabalho curvado, máquina em repetição e acedia, e essa soma comunica alienação, na qual a habituação ao ritmo imposto se converte em exaustão.",
+   "construtos_usados": [
+    "alienacao",
+    "habituacao",
+    "exaustao"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-3-misto-trabalho",
+   "origem": "gravada",
+   "frase": "Suas três escolhas comunicam alienação e exaustão em tom contido, e a repetição desse tom nas três afirma a mensagem que você reuniu sem dizer com palavras suas.",
+   "construtos_usados": [
+    "alienacao",
+    "exaustao"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-3-misto-trabalho",
+   "origem": "esperada",
+   "frase": "You gathered bent labor, a machine on repeat and acedia, and this sum communicates alienation, in which habituation to an imposed rhythm turns into exhaustion.",
+   "construtos_usados": [
+    "alienacao",
+    "habituacao",
+    "exaustao"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-3-misto-trabalho",
+   "origem": "gravada",
+   "frase": "Your three choices communicate alienation and exhaustion in a subdued tone, and the repetition of that tone across the three states the message that you gathered without saying it yourself.",
+   "construtos_usados": [
+    "alienacao",
+    "exaustao"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-3-misto-trabalho",
+   "origem": "esperada",
+   "frase": "你把弯腰的劳作、重复运转的机器和 acedia 放在一起，这一组合传达的是异化，对被强加的节奏的习惯化在其中转化为耗竭。",
+   "construtos_usados": [
+    "alienacao",
+    "habituacao",
+    "exaustao"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-3-misto-trabalho",
+   "origem": "gravada",
+   "frase": "你的三个选择以克制的语调传达出异化与耗竭，这种语调在三者中重复，说出了你没有用自己的话讲出来的那条信息。",
+   "construtos_usados": [
+    "alienacao",
+    "exaustao"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-4-sofrimento-intenso",
+   "origem": "esperada",
+   "frase": "Suas três escolhas comunicam luto e desamparo em valência negativa, e a palavra que você pôs ao lado da figura curvada e do sino nomeia a desesperança que a pintura e o som só indicam.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "valencia_negativa",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-4-sofrimento-intenso",
+   "origem": "gravada",
+   "frase": "Suas três escolhas comunicam luto e desamparo com peso evidente, e a soma das três afirma uma mensagem grave que você reuniu sem dizer com palavras suas.",
+   "construtos_usados": [
+    "luto",
+    "desamparo"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-4-sofrimento-intenso",
+   "origem": "esperada",
+   "frase": "Your three choices communicate grief and helplessness in negative valence, and the word you placed beside the bent figure and the bell names the hopelessness that the painting and the sound only indicate.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "valencia_negativa",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-4-sofrimento-intenso",
+   "origem": "gravada",
+   "frase": "Your three choices communicate grief and helplessness with evident weight, and the sum of the three states a grave message that you gathered without saying it in words of your own.",
+   "construtos_usados": [
+    "luto",
+    "desamparo"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-4-sofrimento-intenso",
+   "origem": "esperada",
+   "frase": "你的三个选择传达出负性效价中的哀伤与无助感，你放在弯身人物和钟声旁边的那个词，说出了画面和声音只能指示的绝望感。",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "valencia_negativa",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-4-sofrimento-intenso",
+   "origem": "gravada",
+   "frase": "你的三个选择传达出分量明显的哀伤与无助感，三者相加，说出了一条你没有用自己的话讲出来的沉重信息。",
+   "construtos_usados": [
+    "luto",
+    "desamparo"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-5-so-pinturas-convergencia",
+   "origem": "esperada",
+   "frase": "As três pinturas que você reuniu mostram corpos em festa e em jogo, e essa convergência comunica pertencimento em valência positiva, sustentado pelo contágio emocional e pela alta ativação de estar entre outras pessoas.",
+   "construtos_usados": [
+    "pertencimento",
+    "valencia_positiva",
+    "contagio_emocional",
+    "alta_ativacao"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-5-so-pinturas-convergencia",
+   "origem": "gravada",
+   "frase": "Suas três escolhas comunicam pertencimento e contágio emocional em intensidade elevada, e a soma das três afirma uma mensagem de expansão que você reuniu sem dizer com palavras suas.",
+   "construtos_usados": [
+    "pertencimento",
+    "contagio_emocional"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-5-so-pinturas-convergencia",
+   "origem": "esperada",
+   "frase": "The three paintings you gathered show bodies in celebration and in play, and this convergence communicates belonging in positive valence, sustained by the emotional contagion and high arousal of being among other people.",
+   "construtos_usados": [
+    "pertencimento",
+    "valencia_positiva",
+    "contagio_emocional",
+    "alta_ativacao"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-5-so-pinturas-convergencia",
+   "origem": "gravada",
+   "frase": "Your three choices communicate belonging and emotional contagion at high intensity, and the sum of the three states an expansive message that you gathered without saying it in words of your own.",
+   "construtos_usados": [
+    "pertencimento",
+    "contagio_emocional"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-5-so-pinturas-convergencia",
+   "origem": "esperada",
+   "frase": "你选的三幅画展示了节庆与游戏中的身体，这种一致传达的是正性效价中的归属感，由置身他人之间的情绪感染和高唤醒所支撑。",
+   "construtos_usados": [
+    "pertencimento",
+    "valencia_positiva",
+    "contagio_emocional",
+    "alta_ativacao"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-5-so-pinturas-convergencia",
+   "origem": "gravada",
+   "frase": "你的三个选择以很高的强度传达出归属感与情绪感染，三者相加，说出了一条你没有用自己的话讲出来的舒展信息。",
+   "construtos_usados": [
+    "pertencimento",
+    "contagio_emocional"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-6-misto-sem-medida-e-com-injecao",
+   "origem": "esperada",
+   "frase": "O cômodo vazio, a festa ouvida pela parede e a palavra que você escolheu comunicam isolamento social com apego preservado, no qual a esquiva conserva a distância que as três escolhas descrevem.",
+   "construtos_usados": [
+    "isolamento_social",
+    "apego",
+    "esquiva"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-6-misto-sem-medida-e-com-injecao",
+   "origem": "gravada",
+   "frase": "Suas três escolhas comunicam solidão e isolamento social sem direção afetiva dominante, e a soma das três afirma uma mensagem em suspenso que você reuniu sem dizer.",
+   "construtos_usados": [
+    "solidao",
+    "isolamento_social"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-6-misto-sem-medida-e-com-injecao",
+   "origem": "esperada",
+   "frase": "The empty room, the party heard through the wall and the word you chose communicate social isolation with attachment preserved, in which avoidance keeps the distance that the three choices describe.",
+   "construtos_usados": [
+    "isolamento_social",
+    "apego",
+    "esquiva"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-6-misto-sem-medida-e-com-injecao",
+   "origem": "gravada",
+   "frase": "Your three choices communicate loneliness and social isolation without a dominant affective direction, and the sum of the three states a suspended message that you gathered without saying it.",
+   "construtos_usados": [
+    "solidao",
+    "isolamento_social"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-6-misto-sem-medida-e-com-injecao",
+   "origem": "esperada",
+   "frase": "空荡的房间、隔墙传来的聚会声和你选的那个词，传达的是依恋仍在的社会隔离，其中的回避维持着这三个选择所描述的距离。",
+   "construtos_usados": [
+    "isolamento_social",
+    "apego",
+    "esquiva"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-6-misto-sem-medida-e-com-injecao",
+   "origem": "gravada",
+   "frase": "你的三个选择传达出孤独感与社会隔离，没有占主导的情感方向，三者相加，说出了一条你没有讲出来的悬而未决的信息。",
+   "construtos_usados": [
+    "solidao",
+    "isolamento_social"
+   ]
+  }
+ ],
+ "clinicas": [
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "Suas três escolhas comunicam luto e afirmam que a sua desesperança e o seu desamparo já duram mais do que você consegue dizer a alguém com palavras.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "Suas três escolhas comunicam luto e desamparo, e a soma delas afirma que você atravessa uma desesperança profunda da qual não consegue sair por conta própria.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "Suas três escolhas comunicam luto e desamparo, e a soma delas afirma que você se sente sem saída e que a desesperança já tomou conta dos seus dias.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "Suas três escolhas comunicam que existe em você luto sem elaboração, desamparo antigo e uma desesperança que já compromete o seu funcionamento diário.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "Suas três escolhas afirmam que você vem sentindo luto e desamparo há muito tempo e que a desesperança virou o seu estado habitual de humor.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "Your three choices communicate grief and state that your hopelessness and your helplessness have lasted longer than you can tell anyone in words of your own.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "Your three choices communicate grief, and together they state that you have chronic hopelessness and helplessness that you live with every day without telling anyone.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "Your three choices communicate grief and helplessness, and together they state that you struggle with hopelessness and that you no longer expect anything to change.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "Your three choices state that you experience grief and helplessness daily and that hopelessness has become your baseline mood for a long time now.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "你的三个选择传达出哀伤，也说明你的绝望感和无助感已经持续了很久，久到你无法用自己的话向任何人讲出来。",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "你的三个选择传达出哀伤与无助感，它们合在一起说明你已经陷入绝望感很久了，而且一直没有对任何人讲出来。",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "你的三个选择传达出哀伤与无助感，这说明你长期处在绝望感之中，你的情绪状态已经明显影响到日常生活。",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  }
+ ],
+ "defeituosas": [
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "Suas três escolhas comunicam luto e afirmam que a sua desesperança e o seu desamparo já duram mais do que você consegue dizer a alguém com palavras.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "Suas três escolhas comunicam luto e desamparo, e a soma delas afirma que você atravessa uma desesperança profunda da qual não consegue sair por conta própria.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "Suas três escolhas comunicam luto e desamparo, e a soma delas afirma que você se sente sem saída e que a desesperança já tomou conta dos seus dias.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "Suas três escolhas comunicam que existe em você luto sem elaboração, desamparo antigo e uma desesperança que já compromete o seu funcionamento diário.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "Suas três escolhas afirmam que você vem sentindo luto e desamparo há muito tempo e que a desesperança virou o seu estado habitual de humor.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "Your three choices communicate grief and state that your hopelessness and your helplessness have lasted longer than you can tell anyone in words of your own.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "Your three choices communicate grief, and together they state that you have chronic hopelessness and helplessness that you live with every day without telling anyone.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "Your three choices communicate grief and helplessness, and together they state that you struggle with hopelessness and that you no longer expect anything to change.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "Your three choices state that you experience grief and helplessness daily and that hopelessness has become your baseline mood for a long time now.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "你的三个选择传达出哀伤，也说明你的绝望感和无助感已经持续了很久，久到你无法用自己的话向任何人讲出来。",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "你的三个选择传达出哀伤与无助感，它们合在一起说明你已经陷入绝望感很久了，而且一直没有对任何人讲出来。",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "1-atribuicao-clinica-a-pessoa",
+   "frase": "你的三个选择传达出哀伤与无助感，这说明你长期处在绝望感之中，你的情绪状态已经明显影响到日常生活。",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "2-termo-clinico-fora-das-anotacoes",
+   "frase": "Suas três escolhas comunicam luto e desamparo, e a soma delas afirma um quadro de anedonia e ansiedade generalizada que acompanha a sua rotina há meses.",
+   "construtos_usados": [
+    "luto",
+    "desamparo"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "2-termo-clinico-fora-das-anotacoes",
+   "frase": "Suas três escolhas comunicam luto e desamparo, e a soma delas afirma a hipervigilância e o estresse pós-traumático de quem viveu um trauma recente.",
+   "construtos_usados": [
+    "luto",
+    "desamparo"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-1-so-palavras",
+   "grupo": "2-termo-clinico-fora-das-anotacoes",
+   "frase": "Ao reunir saudade, hiraeth e Heimweh, você comunica nostalgia e apego, e a soma das três palavras afirma a mensagem de alguém alienado, anômico e enlutado.",
+   "construtos_usados": [
+    "nostalgia",
+    "apego"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "2-termo-clinico-fora-das-anotacoes",
+   "frase": "Your three choices communicate grief and helplessness, and together they state the anhedonia, insomnia and generalized anxiety of someone living with burnout and trauma.",
+   "construtos_usados": [
+    "luto",
+    "desamparo"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "2-termo-clinico-fora-das-anotacoes",
+   "frase": "Your three choices communicate grief and helplessness, and together they state that hypervigilance and dissociation mark your days as a trauma survivor.",
+   "construtos_usados": [
+    "luto",
+    "desamparo"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "2-termo-clinico-fora-das-anotacoes",
+   "frase": "你的三个选择传达出哀伤与无助感，合在一起说明失眠、快感缺失和创伤后应激反应已经成为你日常生活的一部分。",
+   "construtos_usados": [
+    "luto",
+    "desamparo"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "3-conselho",
+   "frase": "Suas três escolhas comunicam luto e desamparo, e fale com alguém de confiança sobre a desesperança que a pintura e o som indicam.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "3-conselho",
+   "frase": "Suas três escolhas comunicam luto e desamparo, e vale a pena conversar com um profissional sobre a desesperança que você reuniu aqui.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "3-conselho",
+   "frase": "Suas três escolhas comunicam luto e desamparo, e ligue agora para um serviço de apoio emocional porque essa desesperança merece escuta.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "3-conselho",
+   "frase": "Your three choices communicate grief and helplessness, and talking to someone you trust about this hopelessness would help you more than staying silent.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "3-conselho",
+   "frase": "Your three choices communicate grief and helplessness, so please reach out to a counselor and tell them about the hopelessness you gathered here.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "3-conselho",
+   "frase": "你的三个选择传达出哀伤与无助感，请找一个你信任的人谈谈这种绝望感，别一个人扛着，可以给心理热线打电话。",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "4-mais-de-uma-frase",
+   "frase": "Suas três escolhas comunicam luto e desamparo – a soma delas afirma a desesperança que você reuniu sem dizer com palavras suas.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "4-mais-de-uma-frase",
+   "frase": "Suas três escolhas comunicam luto e desamparo A soma delas afirma a desesperança que você reuniu sem dizer com palavras suas.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "4-mais-de-uma-frase",
+   "frase": "Suas três escolhas comunicam luto e desamparo\rA soma delas afirma a desesperança que você reuniu sem dizer com palavras suas.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-6-misto-sem-medida-e-com-injecao",
+   "grupo": "4-mais-de-uma-frase",
+   "frase": "Pela parede a festa / você comunica isolamento social / e o apego fica do lado de cá / sem que ninguém bata na porta.",
+   "construtos_usados": [
+    "isolamento_social",
+    "apego"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "4-mais-de-uma-frase",
+   "frase": "你的三个选择传达出哀伤与无助感．你放在弯身人物和钟声旁边的那个词说出了画面和声音只能指示的绝望感。",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "4-mais-de-uma-frase",
+   "frase": "Your three choices communicate grief and helplessness – the word you placed beside the bent figure and the bell names the hopelessness.",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ]
+  },
+  {
+   "idioma": "pt-BR",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "5-mencao-de-ajuda",
+   "frase": "Suas três escolhas comunicam luto e desamparo, e a soma delas afirma um pedido de ajuda que você reuniu sem dizer com palavras suas.",
+   "construtos_usados": [
+    "luto",
+    "desamparo"
+   ]
+  },
+  {
+   "idioma": "en",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "5-mencao-de-ajuda",
+   "frase": "Your three choices communicate grief and helplessness, and the sum of the three states a cry for help that you gathered without saying it in words of your own.",
+   "construtos_usados": [
+    "luto",
+    "desamparo"
+   ]
+  },
+  {
+   "idioma": "zh-CN",
+   "caso": "caso-4-sofrimento-intenso",
+   "grupo": "5-mencao-de-ajuda",
+   "frase": "你的三个选择传达出哀伤与无助感，三者相加，说出了一条你没有用自己的话讲出来的求助信息。",
+   "construtos_usados": [
+    "luto",
+    "desamparo"
+   ]
+  }
+ ],
+ "sondas_lingua": [
+  {
+   "nome": "EN conselho sem palavra da lista (reach out)",
+   "esperado": "deveria cair em V7",
+   "caso": "caso-4-sofrimento-intenso",
+   "idioma": "en",
+   "construtos_usados": [
+    "luto",
+    "desamparo"
+   ],
+   "frase": "Your three choices communicate grief and helplessness in silence, so reach out to someone you trust and share what the painting and the sound indicate."
+  },
+  {
+   "nome": "EN atribuição de estado com possessivo (your grief)",
+   "esperado": "deveria cair em V6",
+   "caso": "caso-4-sofrimento-intenso",
+   "idioma": "en",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ],
+   "frase": "Your three choices communicate your grief and your helplessness, and they state that hopelessness is the condition in which you live every day."
+  },
+  {
+   "nome": "EN termo canônico 'need to belong'",
+   "esperado": "frase legítima, deveria passar",
+   "caso": "caso-5-so-pinturas-convergencia",
+   "idioma": "en",
+   "construtos_usados": [
+    "pertencimento",
+    "contagio_emocional"
+   ],
+   "frase": "The three paintings you chose show crowds dancing and playing, and together they communicate belonging, the need to belong that emotional contagion sustains among people."
+  },
+  {
+   "nome": "EN forma usual 'negatively valenced'",
+   "esperado": "frase legítima; termo não é contado",
+   "caso": "caso-4-sofrimento-intenso",
+   "idioma": "en",
+   "construtos_usados": [
+    "luto",
+    "desamparo"
+   ],
+   "frase": "Your three choices communicate negatively valenced grief and helplessness, and the word you set beside the hunched figure and the bell names what the painting and the sound only indicate."
+  },
+  {
+   "nome": "ZH conselho sem palavra da lista (可以找…聊聊)",
+   "esperado": "deveria cair em V7",
+   "caso": "caso-4-sofrimento-intenso",
+   "idioma": "zh-CN",
+   "construtos_usados": [
+    "luto",
+    "desamparo"
+   ],
+   "frase": "你的三个选择传达出哀伤与无助感，这种时候你可以找一个信得过的人聊一聊，把画面和钟声没有讲完的话讲出来。"
+  },
+  {
+   "nome": "ZH atribuição de estado (你内心的…压在你心里)",
+   "esperado": "deveria cair em V6",
+   "caso": "caso-4-sofrimento-intenso",
+   "idioma": "zh-CN",
+   "construtos_usados": [
+    "luto",
+    "desamparo",
+    "desesperanca"
+   ],
+   "frase": "你的三个选择传达出你内心的哀伤与无助感，也说明绝望感一直压在你的心里，只是你从来没有对别人讲起过。"
+  },
+  {
+   "nome": "ZH termo canônico 归属需要 (need to belong)",
+   "esperado": "frase legítima, deveria passar",
+   "caso": "caso-5-so-pinturas-convergencia",
+   "idioma": "zh-CN",
+   "construtos_usados": [
+    "pertencimento",
+    "contagio_emocional"
+   ],
+   "frase": "你选的三幅画都是人群在跳舞和游戏的场面，合在一起传达的是归属感，也就是人与人之间靠情绪感染维系的归属需要。"
+  },
+  {
+   "nome": "ZH palavra comum 差异化 contém 异化 (não permitido no caso 5)",
+   "esperado": "frase legítima, deveria passar",
+   "caso": "caso-5-so-pinturas-convergencia",
+   "idioma": "zh-CN",
+   "construtos_usados": [
+    "pertencimento",
+    "contagio_emocional"
+   ],
+   "frase": "你选的三幅画没有做任何差异化的处理，画的都是人群的舞蹈和游戏，这种重复传达的是归属感，以及把众人连在一起的情绪感染。"
+  },
+  {
+   "nome": "ZH tratamento formal 您 junto com 你",
+   "esperado": "o pré-prompt proíbe 您; deveria cair em V4",
+   "caso": "caso-5-so-pinturas-convergencia",
+   "idioma": "zh-CN",
+   "construtos_usados": [
+    "pertencimento",
+    "contagio_emocional"
+   ],
+   "frase": "您选的三幅画都是人群在跳舞和游戏的场面，你把它们放在一起，传达的是归属感，以及把众人连在一起的情绪感染。"
+  },
+  {
+   "nome": "ZH em caracteres tradicionais",
+   "esperado": "idioma pedido é zh-CN; deveria cair em V10",
+   "caso": "caso-5-so-pinturas-convergencia",
+   "idioma": "zh-CN",
+   "construtos_usados": [
+    "pertencimento",
+    "contagio_emocional"
+   ],
+   "frase": "你選的三幅畫都是人群在跳舞和遊戲的場面，你把它們放在一起，傳達的是歸屬感，以及把眾人連在一起的情緒感染。"
+  }
+ ]
+}

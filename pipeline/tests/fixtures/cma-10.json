@@ -1,0 +1,346 @@
+{
+  "info": {
+    "total": 3907,
+    "parameters": {
+      "skip": 0,
+      "limit": 1000,
+      "type": "Painting",
+      "cc0": "1",
+      "has_image": "1",
+      "select": "accession_number,accession_number_sortable,cover_accession_number,department,department,collection,classification_type,gallery",
+      "classification_type": "Painting"
+    }
+  },
+  "data": [
+    {
+      "id": 94979,
+      "accession_number": "1915.534",
+      "title": "Nathaniel Hurd",
+      "creation_date_earliest": 1760,
+      "did_you_know": "The artist Copley’s in-laws were consignees for the cargo dumped during the Boston Tea Party.",
+      "description": "Hurd was a prominent silversmith and engraver in Boston, and the warm gaze and unforced smile in his portrait by Copley suggest the friendship between the two artists. Hurd's open-collared shirt, as well as the rakishly tilted turban that covers his shaved head in place of a ceremonial powdered wig, create an air of informality that is unusual for a portrait of this time.",
+      "images": {
+        "annotation": "",
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1915.534/1915.534_web.jpg",
+          "width": "748",
+          "height": "893",
+          "filesize": "402404",
+          "filename": "1915.534_web.jpg"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1915.534/1915.534_print.jpg",
+          "width": "2849",
+          "height": "3400",
+          "filesize": "5904910",
+          "filename": "1915.534_print.jpg"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1915.534/1915.534_full.tif",
+          "width": "4609",
+          "height": "5500",
+          "filesize": "76080612",
+          "filename": "1915.534_full.tif"
+        }
+      },
+      "has_conservation_images": false
+    },
+    {
+      "id": 102578,
+      "accession_number": "1921.1239",
+      "title": "Portrait of Dora Wheeler",
+      "creation_date_earliest": 1882,
+      "did_you_know": "Chase and Wheeler worked together to raise money for constructing the Statue of Liberty's pedestal.",
+      "description": "Dora Wheeler became Chase's first student when he returned from overseas study in Munich and set up a teaching studio in New York. At the time, few American artists accepted women as private pupils. After her course of study, Wheeler joined her mother in launching a successful decorating firm, one of the first businesses in the country to be operated entirely by women. For the firm, she designed luxurious textiles, and the embroidered silk tapestry that fills the background in her portrait references her occupational interest. Chase's portrait was awarded a gold medal at an international exhibition of contemporary art in Munich in 1883, and later that year was also shown in Paris. At some later point, the painting was acquired by the sitter, who subsequently donated it to the museum.",
+      "images": {
+        "annotation": null,
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1921.1239/1921.1239_web.jpg",
+          "width": "939",
+          "height": "893",
+          "filesize": "175673",
+          "filename": "1921.1239_web.jpg"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1921.1239/1921.1239_print.jpg",
+          "width": "3400",
+          "height": "3254",
+          "filesize": "8163185",
+          "filename": "1921.1239_print.jpg"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1921.1239/1921.1239_full.tif",
+          "width": "5000",
+          "height": "4786",
+          "filesize": "71824808",
+          "filename": "1921.1239_full.tif"
+        }
+      },
+      "has_conservation_images": false
+    },
+    {
+      "id": 92937,
+      "accession_number": "1922.1133",
+      "title": "Stag at Sharkey's",
+      "creation_date_earliest": 1909,
+      "did_you_know": "George Bellows was raised in Columbus, Ohio, and attended Ohio State University where he played baseball and basketball.",
+      "description": "Bellows was no stranger to Sharkey’s Athletic Club, a raucous saloon with a backroom boxing ring, located near his studio. Founded by Tom “Sailor” Sharkey, an ex-fighter who had also served in the US Navy, the club attracted men seeking to watch or participate in matches. Because public boxing was illegal in New York at the time, a private event had to be arranged in order for a bout to take place. Participation was usually limited to members of a particular club, but whenever an outsider competed, he was given temporary membership and known as a “stag.” Although boxing had its share of detractors who considered it uncouth at best or barbaric at worst, its proponents—among them President Theodore Roosevelt—regarded it a healthy manifestation of manliness. Around the time Bellows painted <em>Stag at Sharkey’s, </em>boxing was moving from a predominantly working-class enterprise to one with greater genteel appeal. For some contemporaries, boxing was a powerful analogy for the notion that only the strongest and fittest would flourish in modern society.",
+      "images": {
+        "annotation": null,
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1922.1133/1922.1133_web.jpg",
+          "width": "1194",
+          "height": "893",
+          "filesize": "152341",
+          "filename": "1922.1133_web.jpg"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1922.1133/1922.1133_print.jpg",
+          "width": "3400",
+          "height": "2542",
+          "filesize": "1240178",
+          "filename": "1922.1133_print.jpg"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1922.1133/1922.1133_full.tif",
+          "width": "10552",
+          "height": "7890",
+          "filesize": "249794924",
+          "filename": "1922.1133_full.tif"
+        }
+      },
+      "has_conservation_images": false
+    },
+    {
+      "id": 151904,
+      "accession_number": "1927.1984",
+      "title": "The Biglin Brothers Turning the Stake",
+      "creation_date_earliest": 1873,
+      "did_you_know": "Rowing was among the most popular spectator sports in the U.S. during the 1870s.",
+      "description": "Eakins's painting celebrates athletic teamwork while commemorating an actual event, a famous rowing race that took place on the Schuylkill River in Philadelphia during May 1872. Throngs of spectators line the riverbank and watch as Barney and John Biglin negotiate the tricky turn around a stake marking the halfway point in the contest. Their competitors, seen in the middle distance at the right, lag behind. The Biglin brothers won the race, cementing their status as the most celebrated oarsmen of the era. Trained in the United States and France, Eakins spent almost his entire artistic career in his hometown of Philadelphia. He is renowned for the unsentimental realism in his paintings, whose compositions he developed through painstakingly prepared figure and perspective drawings.",
+      "images": {
+        "annotation": "",
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1927.1984/1927.1984_web.jpg",
+          "width": "1263",
+          "height": "835",
+          "filesize": "780656",
+          "filename": "1927.1984_web.jpg"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1927.1984/1927.1984_print.jpg",
+          "width": "3400",
+          "height": "2247",
+          "filesize": "5271592",
+          "filename": "1927.1984_print.jpg"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1927.1984/1927.1984_full.tif",
+          "width": "7164",
+          "height": "4735",
+          "filesize": "101799424",
+          "filename": "1927.1984_full.tif"
+        }
+      },
+      "has_conservation_images": false
+    },
+    {
+      "id": 110180,
+      "accession_number": "1928.8",
+      "title": "The Race Track (Death on a Pale Horse)",
+      "creation_date_earliest": 1896,
+      "did_you_know": "Counterclockwise horse racing in the United States was not standardized until the 1920s.",
+      "description": "Ryder’s subject was inspired by a horse race that took place in New York during 1888. One of the artist’s friends wagered $500 on the race and then died by suicide after the horse lost. Medieval symbolism infuses the composition: death appears as a skeleton on horseback holding a scythe with which it cuts down the living, while a snake—a sign of temptation and evil—slithers in the foreground. An intense man, Ryder worked on the painting for several years and was deeply reluctant to part with it.",
+      "images": {
+        "annotation": null,
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1928.8/1928.8_web.jpg",
+          "width": "900",
+          "height": "711",
+          "filesize": "190928",
+          "filename": "1928.8_web.jpg"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1928.8/1928.8_print.jpg",
+          "width": "3400",
+          "height": "2685",
+          "filesize": "3014421",
+          "filename": "1928.8_print.jpg"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1928.8/1928.8_full.tif",
+          "width": "14577",
+          "height": "11511",
+          "filesize": "503415724",
+          "filename": "1928.8_full.tif"
+        }
+      },
+      "has_conservation_images": false
+    },
+    {
+      "id": 141639,
+      "accession_number": "1965.233",
+      "title": "Twilight in the Wilderness",
+      "creation_date_earliest": 1860,
+      "did_you_know": "An image of this painting has a cameo in the Harrison Ford film <em>Clear and Present Danger</em>.",
+      "description": "In his New York studio, Church painted this spectacular view of a blazing sunset over wilderness near Mount Katahdin in Maine, which he had sketched during a visit nearly two years earlier. Although Church often extolled the grandeur of American landscape in his work, this painting appears to have additional overtones. Created on the eve of the Civil War, the painting's subject can be interpreted as symbolically evoking the coming conflagration. Church's considerable technical skills and clever showmanship contributed to his fame as the premier artist of his generation. Rather than debut this painting in an annual exhibition with works by other artists as was the custom, Church instead exhibited it by itself at a prestigious art gallery. Coaxed by advance publicity and highly favorable press reviews, several hundred spectators flocked to admire it during its seven-week run.",
+      "images": {
+        "annotation": "",
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1965.233/1965.233_web.jpg",
+          "width": "900",
+          "height": "562",
+          "filesize": "254485",
+          "filename": "1965.233_web.jpg"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1965.233/1965.233_print.jpg",
+          "width": "3400",
+          "height": "2123",
+          "filesize": "1604230",
+          "filename": "1965.233_print.jpg"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1965.233/1965.233_full.tif",
+          "width": "7673",
+          "height": "4791",
+          "filesize": "110309980",
+          "filename": "1965.233_full.tif"
+        }
+      },
+      "has_conservation_images": false
+    },
+    {
+      "id": 135299,
+      "accession_number": "1958.31",
+      "title": "Adeline Ravoux",
+      "creation_date_earliest": 1890,
+      "did_you_know": "Adeline Ravoux, at age 13, was not pleased with her portrait and did not think the image resembled her. Today, a photograph exists of Adeline in her late seventies and the resemblance is truly remarkable.",
+      "description": "In May 1890, Vincent van Gogh arrived in Auvers, a small town north of Paris, where he rented a room at the inn of Arthur Ravoux. This portrait, completed during the last months of the artist’s life, depicts Ravoux’s 13-year-old daughter, Adeline. Van Gogh wrote that rather than photographic resemblance, he wanted his portraits to convey the “impassioned aspects” of contemporary life through the “modern taste for color.”",
+      "images": {
+        "annotation": null,
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.31/1958.31_web.jpg",
+          "width": "900",
+          "height": "897",
+          "filesize": "451143",
+          "filename": "1958.31_web.jpg"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.31/1958.31_print.jpg",
+          "width": "3400",
+          "height": "3389",
+          "filesize": "6008242",
+          "filename": "1958.31_print.jpg"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.31/1958.31_full.tif",
+          "width": "11512",
+          "height": "11476",
+          "filesize": "396370084",
+          "filename": "1958.31_full.tif"
+        }
+      },
+      "has_conservation_images": false
+    },
+    {
+      "id": 93014,
+      "accession_number": "1917.1335",
+      "title": "View of Schroon Mountain, Essex County, New York, After a Storm",
+      "creation_date_earliest": 1838,
+      "did_you_know": "Nicknamed \"Schroon Mountain\" by the artist, the peak's official name is Hoffman Mountain.",
+      "description": "Championing the American wilderness, Cole declared, \"We are still in Eden,\" in his <em>Essay on American Scenery, </em>published two years before he painted this view of the Adirondacks. The artist sketched the scene in early summer, but when he created the painting in his studio, he rendered it in a dramatic blaze of fall colors. Such a choice likely had nationalistic overtones; he once proclaimed that autumn was \"one season where the American forest surpasses all the world in gorgeousness.\" <br><br>Cole included two Indigenous men in the painting’s right foreground foliage. At this time, the Adirondacks remained home to many Native Americans long after most had been forcibly removed from land east of the Mississippi River. While continuing to live, hunt, and fish in the area, these Algonquian and Iroquoian peoples were compelled to significantly adapt their existence amid increasing White settlement and its attendant lumber, mining, and tourist industries.",
+      "images": {
+        "annotation": null,
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1917.1335/1917.1335_web.jpg",
+          "width": "1263",
+          "height": "775",
+          "filesize": "716717",
+          "filename": "1917.1335_web.jpg"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1917.1335/1917.1335_print.jpg",
+          "width": "3400",
+          "height": "2086",
+          "filesize": "5582485",
+          "filename": "1917.1335_print.jpg"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1917.1335/1917.1335_full.tif",
+          "width": "6280",
+          "height": "3853",
+          "filesize": "72628688",
+          "filename": "1917.1335_full.tif"
+        }
+      },
+      "has_conservation_images": false
+    },
+    {
+      "id": 135382,
+      "accession_number": "1958.39",
+      "title": "The Red Kerchief",
+      "creation_date_earliest": 1868,
+      "did_you_know": "Madame Monet’s red cape draws the viewer’s attention beyond the glass of the French doors capturing her glance, a brief moment frozen in time. This painting was very special to Monet and he kept it with him for his entire life.",
+      "description": "This painting depicts Monet's first wife, Camille, outside on a snowy day passing by the French doors of their home at Argenteuil. Her face is rendered in a radically bold Impressionist technique of mere daubs of paint quickly applied, just as the snow and trees are defined by broad, broken strokes of pure white and green.",
+      "images": {
+        "annotation": null,
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.39/1958.39_web.jpg",
+          "width": "723",
+          "height": "900",
+          "filesize": "242663",
+          "filename": "1958.39_web.jpg"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.39/1958.39_print.jpg",
+          "width": "2732",
+          "height": "3400",
+          "filesize": "3767988",
+          "filename": "1958.39_print.jpg"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1958.39/1958.39_full.tif",
+          "width": "11652",
+          "height": "14500",
+          "filesize": "506893484",
+          "filename": "1958.39_full.tif"
+        }
+      },
+      "has_conservation_images": false
+    },
+    {
+      "id": 128391,
+      "accession_number": "1951.355",
+      "title": "Portrait of a Family Playing Music",
+      "creation_date_earliest": 1663,
+      "did_you_know": "During this period, the Dutch Republic was the richest, most urbanized nation.",
+      "description": "The identity of the sitters remains unknown, although the marble floor and mantelpiece, the Transylvanian prayer rug on the table, and the silk clothes all point to the family’s considerable wealth. Furthermore, the richly carved chest at the right supports Chinese vases and Japanese lacquered boxes, a reference to the flourishing Dutch trade with Asia. Music making often took place at home, and its appearance here also signifies the harmoniousness of the family.",
+      "images": {
+        "annotation": null,
+        "web": {
+          "url": "https://openaccess-cdn.clevelandart.org/1951.355/1951.355_web.jpg",
+          "width": "900",
+          "height": "759",
+          "filesize": "188537",
+          "filename": "1951.355_web.jpg"
+        },
+        "print": {
+          "url": "https://openaccess-cdn.clevelandart.org/1951.355/1951.355_print.jpg",
+          "width": "3400",
+          "height": "2867",
+          "filesize": "2369926",
+          "filename": "1951.355_print.jpg"
+        },
+        "full": {
+          "url": "https://openaccess-cdn.clevelandart.org/1951.355/1951.355_full.tif",
+          "width": "13750",
+          "height": "11594",
+          "filesize": "478282288",
+          "filename": "1951.355_full.tif"
+        }
+      },
+      "has_conservation_images": false
+    }
+  ]
+}

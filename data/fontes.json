@@ -1,0 +1,40 @@
+{
+  "_nota": "Catálogo fechado de fontes e licenças. Item que cita fonte ou licença fora daqui é reprovado pelo pipeline.",
+  "licencas_por_tipo": {
+    "pintura": ["CC0-1.0"],
+    "som": ["CC0-1.0"],
+    "palavra": ["CC-BY-SA-4.0", "CC0-1.0"]
+  },
+  "fontes": {
+    "cma": {
+      "nome": "Cleveland Museum of Art, Open Access",
+      "url": "https://www.clevelandart.org/open-access",
+      "licenca": "CC0-1.0",
+      "credito": "Imagem e texto de curadoria do Cleveland Museum of Art, em domínio público (CC0). Este projeto não é do museu nem endossado por ele."
+    },
+    "freesound-via-openverse": {
+      "nome": "Freesound, localizado pelo Openverse",
+      "url": "https://openverse.org",
+      "licenca": "CC0-1.0",
+      "credito": "Sons em domínio público (CC0) publicados no Freesound e localizados com o Openverse. Este projeto não é do Openverse nem endossado por ele."
+    },
+    "wikcionario-en": {
+      "nome": "Wiktionary em inglês",
+      "url": "https://en.wiktionary.org",
+      "licenca": "CC-BY-SA-4.0",
+      "credito": "Glosas copiadas sem alteração do Wiktionary, sob CC BY-SA 4.0."
+    },
+    "zheng-2023": {
+      "nome": "Zheng et al. (2023), palavras de emoção em mandarim",
+      "url": "https://doi.org/10.6084/m9.figshare.20209859",
+      "licenca": "CC0-1.0",
+      "credito": "Glosas e normas de valência e ativação de Zheng et al. (2023), em CC0. Só as 264 linhas de questionário próprio."
+    },
+    "glasgow-2019": {
+      "nome": "The Glasgow Norms (Scott et al., 2019)",
+      "url": "https://doi.org/10.3758/s13428-018-1099-3",
+      "licenca": "CC-BY-4.0",
+      "credito": "Normas de valência e ativação de Scott, Keitel, Becirspahic, Yao e Sereno (2019), The Glasgow Norms, sob CC BY 4.0. Valores normalizados por este projeto."
+    }
+  }
+}

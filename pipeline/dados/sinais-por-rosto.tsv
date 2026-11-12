@@ -1,0 +1,89 @@
+grupo	id	titulo	n	x	y	w	h	area_rel	larg_rel	dist_centro	conf	lap_nat	lap_96	contraste_rms	contraste_fig_fundo	desvio_nariz	rotulo	destaque_humano	nota
+retratos	102578	Portrait of Dora Wheeler	1	0.6655	0.1854	0.0736	0.0961	0.00707	0.0736	0.473	0.931	589	258	0.199	+0.072	0.12	rosto	sim	
+retratos	109507	Portrait of Agostino Barbarigo	1	0.3445	0.2194	0.1560	0.2161	0.03372	0.1560	0.268	0.915	307	216	0.151	+0.192	0.41	rosto	sim	
+retratos	121946	Portrait of Mrs. Leneve	1	0.4389	0.1838	0.1272	0.1477	0.01879	0.1272	0.343	0.916	200	156	0.159	+0.200	0.30	rosto	sim	
+retratos	122344	Portrait of Mary Anne Jolliffe	1	0.4434	0.3217	0.1091	0.1358	0.01481	0.1091	0.156	0.921	144	96	0.140	+0.197	0.09	rosto	sim	
+retratos	122346	Portrait of Charlotte and Sarah Carteret-Hardy	1	0.2310	0.2551	0.1236	0.1224	0.01513	0.1236	0.392	0.918	119	69	0.150	+0.148	0.11	rosto	empate	
+retratos	122346	Portrait of Charlotte and Sarah Carteret-Hardy	2	0.5788	0.2066	0.1199	0.1249	0.01497	0.1199	0.381	0.906	90	54	0.187	+0.195	0.37	rosto	empate	
+retratos	122347	Portrait of a Woman as Diana	1	0.4428	0.2335	0.1418	0.1550	0.02197	0.1418	0.268	0.940	93	68	0.134	+0.111	0.00	rosto	sim	
+retratos	122349	Portrait of the Ladies Amabel and Mary Jemima Yorke	1	0.2676	0.2479	0.0738	0.0798	0.00589	0.0738	0.408	0.929	336	94	0.191	+0.086	0.18	rosto	nao	
+retratos	122349	Portrait of the Ladies Amabel and Mary Jemima Yorke	2	0.5026	0.4058	0.0656	0.0740	0.00486	0.0656	0.095	0.921	296	57	0.169	+0.150	0.01	rosto	provavel	
+retratos	124080	Portrait of Mary Wise	1	0.3789	0.2051	0.2021	0.2329	0.04708	0.2021	0.254	0.923	95	123	0.171	+0.224	0.09	rosto	sim	
+retratos	124089	Portrait of a Woman	1	0.3962	0.2617	0.1923	0.2232	0.04293	0.1923	0.179	0.928	161	254	0.189	+0.163	0.11	rosto	sim	
+retratos	124092	Portrait of a Woman	1	0.4428	0.1189	0.0763	0.0893	0.00681	0.0763	0.477	0.929	581	166	0.170	+0.203	0.14	rosto	sim	
+retratos	125247	Portrait of Isabella Brant	1	0.3672	0.1874	0.2720	0.3124	0.08497	0.2720	0.221	0.941	89	205	0.169	+0.218	0.24	rosto	sim	
+retratos	125951	Portrait of a Woman	1	0.4121	0.2112	0.1906	0.1974	0.03764	0.1906	0.269	0.934	89	103	0.183	+0.173	0.06	rosto	sim	
+retratos	127571	Portrait of a Man, Possibly Girolamo Rosati	1	0.2919	0.1146	0.1196	0.1474	0.01763	0.1196	0.488	0.934	219	139	0.198	+0.110	0.27	rosto	sim	
+retratos	128391	Portrait of a Family Playing Music	1	0.3501	0.5477	0.0347	0.0526	0.00182	0.0347	0.215	0.917	427	13	0.094	+0.057	0.04	rosto	sim	
+retratos	128391	Portrait of a Family Playing Music	2	0.2568	0.5575	0.0277	0.0421	0.00117	0.0277	0.343	0.909	394	6	0.092	+0.077	0.12	rosto	nao	
+retratos	128391	Portrait of a Family Playing Music	3	0.4252	0.4322	0.0271	0.0416	0.00113	0.0271	0.109	0.860	354	6	0.091	+0.115	0.19	rosto	nao	
+retratos	128391	Portrait of a Family Playing Music	4	0.4767	0.4884	0.0263	0.0378	0.00099	0.0263	0.018	0.810	406	5	0.050	+0.076	0.05	falso_positivo	nao	violino
+retratos	128391	Portrait of a Family Playing Music	5	0.2702	0.6264	0.0263	0.0359	0.00094	0.0263	0.368	0.674	846	9	0.099	-0.014	0.06	falso_positivo	nao	mão no instrumento
+retratos	128391	Portrait of a Family Playing Music	6	0.1195	0.5630	0.0201	0.0313	0.00063	0.0201	0.536	0.800	215	3	0.057	+0.074	0.17	rosto	nao	
+retratos	128391	Portrait of a Family Playing Music	7	0.6578	0.5832	0.0135	0.0188	0.00025	0.0135	0.267	0.801	579	2	0.064	+0.005	0.00	rosto	nao	
+retratos	128391	Portrait of a Family Playing Music	8	0.6681	0.4947	0.0092	0.0138	0.00013	0.0092	0.244	0.661	1349	2	0.079	+0.107	0.04	rosto	nao	
+retratos	128394	Portrait of a Woman	1	0.2666	0.1264	0.2450	0.2951	0.07231	0.2450	0.356	0.903	449	581	0.156	+0.227	0.06	rosto	sim	
+retratos	135875	Portrait of King Charles II of England	1	0.4993	0.1580	0.1304	0.1467	0.01913	0.1304	0.391	0.933	279	229	0.221	+0.197	0.23	rosto	sim	
+retratos	136682	Portrait of Catherine Grey, Lady Manners	1	0.4131	0.1703	0.0828	0.0620	0.00513	0.0828	0.427	0.922	614	70	0.141	+0.078	0.12	rosto	sim	
+retratos	141476	Portrait of Jean-Gabriel du Theil at the Signing of the Treaty of Vien	1	0.5516	0.1723	0.1511	0.1609	0.02431	0.1511	0.393	0.934	172	176	0.094	+0.185	0.18	rosto	sim	
+retratos	141549	Portrait of the Jester Calabazas	1	0.5087	0.1539	0.1016	0.0797	0.00810	0.1016	0.441	0.930	437	107	0.149	+0.167	0.01	rosto	sim	
+retratos	143206	Portrait of Cardinal Guillaume Dubois	1	0.3955	0.2283	0.1053	0.1266	0.01333	0.1053	0.304	0.922	306	180	0.239	+0.146	0.06	rosto	sim	
+retratos	144689	Portraits of the Qianlong Emperor and His Twelve Consorts	1	0.3756	0.2889	0.1560	0.3061	0.04776	0.1560	0.105	0.928	71	228	0.149	+0.222	0.01	rosto	sim	
+retratos	145925	Funerary Portrait of a Young Girl	1	0.2077	0.1355	0.4686	0.3167	0.14842	0.4686	0.303	0.922	960	1214	0.130	-0.106	0.04	rosto	sim	
+retratos	145999	Portrait of George Pitt, First Baron Rivers	1	0.4217	0.1356	0.0962	0.0939	0.00904	0.0962	0.451	0.925	359	142	0.176	+0.116	0.11	rosto	sim	
+retratos	146469	Portrait of a Woman	1	0.2975	0.1599	0.2839	0.2941	0.08350	0.2839	0.286	0.925	66	157	0.143	+0.058	0.26	rosto	sim	
+retratos	150083	Seaside (July: Specimen of a Portrait)	1	0.2958	0.2678	0.1110	0.0962	0.01068	0.1110	0.335	0.916	177	82	0.126	-0.133	0.05	rosto	sim	
+retratos	150083	Seaside (July: Specimen of a Portrait)	2	0.0955	0.7952	0.0500	0.0414	0.00207	0.0500	0.698	0.609	21	2	0.016	+0.019	0.01	falso_positivo	nao	estampa do sofá
+retratos	150083	Seaside (July: Specimen of a Portrait)	3	0.2591	0.8949	0.0384	0.0356	0.00137	0.0384	0.663	0.666	26	2	0.022	+0.042	0.14	falso_positivo	nao	estampa do sofá
+retratos	152263	Portrait of a Man	1	0.3836	0.1165	0.1918	0.2079	0.03988	0.1918	0.396	0.926	739	640	0.193	+0.138	0.06	rosto	sim	
+retratos	153603	Portrait of Machtelt Suijs	1	0.4423	0.1457	0.1518	0.1976	0.03000	0.1518	0.362	0.937	448	530	0.196	+0.274	0.19	rosto	sim	
+retratos	153603	Portrait of Machtelt Suijs	2	0.6405	0.9040	0.0549	0.0632	0.00347	0.0549	0.660	0.753	451	46	0.120	+0.022	0.29	ornamento	nao	querubim entalhado na cadeira
+retratos	153603	Portrait of Machtelt Suijs	3	0.8495	0.2082	0.0369	0.0451	0.00166	0.0369	0.645	0.871	591	17	0.118	+0.102	0.48	ornamento	nao	cabeça entalhada na cadeira
+retratos	160289	Portrait of Lisa Colt Curtis	1	0.4988	0.1476	0.1317	0.0774	0.01020	0.1317	0.453	0.904	341	87	0.153	+0.080	0.03	rosto	sim	
+retratos	160885	Portrait of Tieleman Roosterman	1	0.3955	0.0749	0.1542	0.1486	0.02290	0.1542	0.498	0.920	208	198	0.155	-0.011	0.09	rosto	sim	
+retratos	162623	Portrait of King Louis XIII of France	1	0.4609	0.1536	0.1131	0.0956	0.01082	0.1131	0.423	0.934	506	200	0.165	+0.267	0.24	rosto	sim	
+retratos	167142	Portrait of a Man	1	0.4981	0.2248	0.1494	0.2075	0.03100	0.1494	0.263	0.872	423	261	0.168	+0.071	5.61	rosto	sim	
+retratos	169684	Portrait of Jean-Baptiste Lemoyne the Younger	1	0.3471	0.1836	0.3492	0.3787	0.13223	0.3492	0.182	0.934	246	235	0.137	+0.227	0.17	rosto	sim	
+retratos	170082	Self-Portrait with Five Muses	1	0.4103	0.3107	0.1916	0.1991	0.03816	0.1916	0.127	0.916	249	318	0.141	+0.106	0.27	rosto	sim	
+retratos	170082	Self-Portrait with Five Muses	2	0.4295	0.1720	0.0400	0.0393	0.00157	0.0400	0.442	0.882	2409	53	0.126	-0.031	0.19	rosto	nao	
+retratos	170082	Self-Portrait with Five Muses	3	0.2695	0.2197	0.0397	0.0395	0.00157	0.0397	0.474	0.878	979	21	0.117	-0.000	0.15	rosto	nao	
+retratos	170082	Self-Portrait with Five Muses	4	0.6221	0.2034	0.0332	0.0334	0.00111	0.0332	0.442	0.874	1344	15	0.096	+0.011	0.27	rosto	nao	
+retratos	170082	Self-Portrait with Five Muses	5	0.6769	0.4125	0.0319	0.0335	0.00107	0.0319	0.291	0.686	625	7	0.095	-0.014	0.28	rosto	nao	
+retratos	170082	Self-Portrait with Five Muses	6	0.2611	0.3953	0.0296	0.0300	0.00089	0.0296	0.341	0.630	705	7	0.103	+0.035	0.52	rosto	nao	
+retratos	170835	Nur Jahan holding a portrait of Emperor Jahangir	1	0.3614	0.3064	0.0784	0.0626	0.00491	0.0784	0.269	0.903	920	93	0.169	+0.074	0.82	rosto	provavel	
+retratos	170835	Nur Jahan holding a portrait of Emperor Jahangir	2	0.2836	0.4210	0.0571	0.0434	0.00248	0.0571	0.278	0.864	1370	40	0.102	+0.059	0.52	rosto	nao	retrato dentro do quadro
+retratos	302209	Portrait of Colonel Charles Heathcote	1	0.4615	0.3444	0.0604	0.0606	0.00366	0.0604	0.178	0.900	201	21	0.111	+0.060	0.80	rosto	sim	
+retratos	307326	Portrait of Francesca Gommi Maratti	1	0.3725	0.2282	0.1806	0.1969	0.03557	0.1806	0.251	0.934	295	359	0.212	+0.185	0.21	rosto	sim	
+retratos	95286	Portrait of a Woman	1	0.3340	0.2486	0.2692	0.3077	0.08285	0.2692	0.145	0.946	73	151	0.099	+0.141	0.25	rosto	sim	
+retratos	96262	Portraits of Jean Terford David and Mary Sicard David	1	0.1961	0.1530	0.1015	0.2174	0.02208	0.1015	0.492	0.929	348	269	0.200	+0.204	0.31	rosto	empate	
+retratos	96262	Portraits of Jean Terford David and Mary Sicard David	2	0.7244	0.1450	0.0847	0.1758	0.01489	0.0847	0.534	0.920	191	98	0.179	+0.129	0.29	rosto	empate	
+retratos	96263	Portrait of Jean Terford David	1	0.4147	0.1587	0.1837	0.2111	0.03879	0.1837	0.333	0.939	189	313	0.192	+0.232	0.24	rosto	sim	
+retratos	97155	Portrait of a Couple	1	0.2540	0.1005	0.1005	0.1940	0.01949	0.1005	0.510	0.927	346	294	0.161	+0.219	0.54	rosto	empate	
+retratos	97155	Portrait of a Couple	2	0.6202	0.1064	0.0980	0.1770	0.01734	0.0980	0.493	0.942	255	228	0.172	+0.267	0.28	rosto	empate	
+outras	126722	Blessed Lord Buddha	1	0.1939	0.0495	0.0239	0.0236	0.00056	0.0239	0.747	0.773	2107	7	0.075	+0.025	0.10	rosto	principal_ausente	
+outras	126722	Blessed Lord Buddha	2	0.7231	0.0491	0.0239	0.0233	0.00056	0.0239	0.705	0.617	1898	7	0.072	+0.052	0.03	rosto	principal_ausente	
+outras	126722	Blessed Lord Buddha	3	0.6707	0.0471	0.0233	0.0230	0.00053	0.0233	0.675	0.703	2146	7	0.067	+0.081	0.02	rosto	principal_ausente	
+outras	126722	Blessed Lord Buddha	4	0.5084	0.0498	0.0234	0.0228	0.00053	0.0234	0.621	0.705	2387	6	0.072	+0.052	0.03	rosto	principal_ausente	
+outras	126722	Blessed Lord Buddha	5	0.1422	0.0466	0.0237	0.0224	0.00053	0.0237	0.794	0.707	2335	7	0.076	+0.056	0.09	rosto	principal_ausente	
+outras	126722	Blessed Lord Buddha	6	0.0425	0.0507	0.0227	0.0222	0.00051	0.0227	0.884	0.740	2433	7	0.088	+0.017	0.05	rosto	principal_ausente	
+outras	126722	Blessed Lord Buddha	7	0.3578	0.0494	0.0222	0.0219	0.00049	0.0222	0.649	0.783	1358	5	0.066	+0.035	0.05	rosto	principal_ausente	
+outras	126722	Blessed Lord Buddha	8	0.7754	0.0470	0.0219	0.0216	0.00047	0.0219	0.745	0.695	2848	7	0.071	+0.051	0.05	rosto	principal_ausente	
+outras	126722	Blessed Lord Buddha	9	0.4600	0.0491	0.0222	0.0209	0.00046	0.0222	0.624	0.658	2427	7	0.084	+0.062	0.10	rosto	principal_ausente	
+outras	126722	Blessed Lord Buddha	10	0.3023	0.0544	0.0209	0.0207	0.00043	0.0209	0.670	0.692	2415	5	0.073	+0.055	0.05	rosto	principal_ausente	
+outras	130392	The Return of the Holy Family to Nazareth	1	0.4896	0.0666	0.0917	0.0881	0.00808	0.0917	0.553	0.695	375	115	0.097	-0.007	0.98	rosto	nao	anjo; caixa frouxa
+outras	130392	The Return of the Holy Family to Nazareth	2	0.7302	0.6312	0.0404	0.0373	0.00151	0.0404	0.413	0.863	88	3	0.029	+0.017	0.14	rosto	nao	barqueiro
+outras	130392	The Return of the Holy Family to Nazareth	3	0.2309	0.5317	0.0313	0.0303	0.00095	0.0313	0.365	0.829	1143	9	0.135	-0.014	0.08	rosto	provavel	Virgem
+outras	137932	The lover’s son makes an elephant of the pastry dough carried by the u	1	0.2888	0.5626	0.0641	0.0599	0.00384	0.0641	0.285	0.764	1774	157	0.114	+0.049	0.43	rosto	provavel	
+outras	137932	The lover’s son makes an elephant of the pastry dough carried by the u	2	0.2400	0.5719	0.0453	0.0435	0.00197	0.0453	0.361	0.791	1167	34	0.085	-0.065	0.48	rosto	nao	
+outras	137932	The lover’s son makes an elephant of the pastry dough carried by the u	3	0.6925	0.6554	0.0310	0.0292	0.00090	0.0310	0.380	0.765	1728	12	0.078	-0.033	0.87	rosto	nao	
+outras	143813	Rush Gatherers	1	0.6239	0.8417	0.0105	0.0176	0.00018	0.0105	0.528	0.607	709	2	0.081	+0.026	0.06	rosto	nao	figura minúscula em paisagem
+outras	145923	Funerary Panel of a Man	1	0.2819	0.2790	0.5842	0.5585	0.32625	0.5842	0.133	0.680	1349	421	0.101	-0.192	0.02	rosto	sim	
+outras	152184	Water-Moon Kannon	1	0.4284	0.3462	0.1110	0.0666	0.00740	0.1110	0.172	0.879	713	100	0.101	+0.095	0.08	rosto	sim	
+outras	152411	Courtesan	1	0.5512	0.2183	0.1540	0.0933	0.01437	0.1540	0.379	0.893	1051	415	0.213	+0.137	0.25	rosto	sim	
+outras	157147	Twenty-three Deity Nairatma Mandala	1	0.8921	0.8056	0.0189	0.0196	0.00037	0.0189	0.722	0.687	1421	4	0.060	+0.055	0.11	rosto	principal_ausente	
+outras	157147	Twenty-three Deity Nairatma Mandala	2	0.0649	0.3536	0.0151	0.0160	0.00024	0.0151	0.636	0.638	2554	4	0.114	+0.059	0.04	falso_positivo	nao	motivo ornamental
+outras	163140	Album of Daoist and Buddhist Themes: Kings of Hells: Leaf 40	1	0.3295	0.1112	0.0435	0.0656	0.00286	0.0435	0.546	0.810	2330	189	0.059	-0.007	0.10	rosto	sim	
+outras	167661	Shakyamuni Triad: Buddha Attended by Manjushri and Samantabhadra	1	0.7787	0.4047	0.0192	0.0287	0.00055	0.0192	0.424	0.698	886	4	0.081	+0.110	0.00	rosto	principal_ausente	
+outras	167661	Shakyamuni Triad: Buddha Attended by Manjushri and Samantabhadra	2	0.1397	0.6894	0.0118	0.0176	0.00021	0.0118	0.574	0.603	487	2	0.053	+0.108	0.10	rosto	principal_ausente	
+outras	314455	Maharana Bhim Singh of Mewar (r. 1778–1828) with a Consort	1	0.2233	0.4856	0.0666	0.0580	0.00386	0.0666	0.345	0.749	2801	251	0.146	-0.015	0.12	rosto	sim	
+outras	94979	Nathaniel Hurd	1	0.3766	0.1722	0.1943	0.2475	0.04810	0.1943	0.291	0.926	214	352	0.206	+0.188	0.15	rosto	sim	
