@@ -1,0 +1,183 @@
+{
+ "_nota": "Sonda de 12/Nov/2026 com o pré-prompt 2026-11-12.3: dez seleções do acervo real, respondidas por um modelo Haiku num subagente da sessão de desenvolvimento (não pela função em produção, que estava sem acesso ao AI Gateway). Guardadas como estão, para o validador ser medido contra saída real.",
+ "casos": [
+  {
+   "n": 1,
+   "idioma": "pt-BR",
+   "itens": [
+    "pintura:cma:314227",
+    "som:freesound:113173",
+    "palavra:pt-BR:pasmo"
+   ],
+   "frase": "Você reuniu uma pintura de cenas de carnificina, um som de vento uivante e a palavra pasmo, e essa seleção comunica assombro, medo e solitude.",
+   "construtos_usados": [
+    "assombro",
+    "medo",
+    "solitude"
+   ],
+   "simples": "O que você escolheu foi uma pintura cheia de sangue, um som de vento que uiva num prédio vazio e a palavra que quer dizer um susto muito grande. Juntas, essas escolhas falam de espanto, de receio e de estar sozinho."
+  },
+  {
+   "n": 2,
+   "idioma": "pt-BR",
+   "itens": [
+    "pintura:cma:160135",
+    "som:freesound:440998",
+    "palavra:pt-BR:devaneio"
+   ],
+   "frase": "Você reuniu uma pintura de dois pescadores sentados, um som de gotas repetidas e a palavra devaneio, e essa seleção comunica divagação mental, habituação e tédio.",
+   "construtos_usados": [
+    "divagacao_mental",
+    "habituacao",
+    "tedio"
+   ],
+   "simples": "O que você escolheu é uma pintura de dois pescadores sentados num barco, um som de água pingando e a palavra que quer dizer pensar em outras coisas sem prestar atenção. Juntas, essas escolhas falam de uma mente que vagueia."
+  },
+  {
+   "n": 3,
+   "idioma": "pt-BR",
+   "itens": [
+    "pintura:cma:170817",
+    "som:freesound:718591",
+    "palavra:pt-BR:alívio",
+    "pintura:cma:137843",
+    "som:freesound:426595"
+   ],
+   "frase": "Você reuniu cinco escolhas e elas dizem juntas que o luto e o alívio convivem, enquanto o fogo e os sinos apontam para restauração da atenção e para solidão.",
+   "construtos_usados": [
+    "luto",
+    "restauracao_da_atencao",
+    "solidao"
+   ],
+   "simples": "O que você escolheu junta coisas tristes com coisas que acalmam. Um fogo que estala e sinos ao vento mostram descanso, e a palavra alívio quer dizer quando um incômodo sai do caminho."
+  },
+  {
+   "n": 4,
+   "idioma": "pt-BR",
+   "itens": [
+    "pintura:cma:160890",
+    "som:freesound:406628",
+    "palavra:pt-BR:alívio",
+    "pintura:cma:151446",
+    "som:freesound:510762",
+    "palavra:pt-BR:alheamento",
+    "pintura:cma:170800",
+    "som:freesound:801418"
+   ],
+   "frase": "Você reuniu oito escolhas que se opõem, pois o estalar do fogo e o barulho de uma porta batida mostram restauração da atenção ao lado de sobrecarga sensorial, e o som de lápis aponta para memória autobiográfica.",
+   "construtos_usados": [
+    "restauracao_da_atencao",
+    "sobrecarga_sensorial",
+    "memoria_autobiografica"
+   ],
+   "simples": "O que você escolheu junta sons que acalmam com sons que cansam. O barulho do fogo e de uma porta batida mostram muita coisa chegando aos ouvidos ao mesmo tempo, e o som do lápis lembra algo que já aconteceu."
+  },
+  {
+   "n": 5,
+   "idioma": "en",
+   "itens": [
+    "pintura:cma:145429",
+    "som:freesound:173949",
+    "palavra:en:forlorn"
+   ],
+   "frase": "You gathered a painting of a deity of mercy, a sound of falling coins and the word forlorn, and together they communicate compassion, attention restoration and loneliness.",
+   "construtos_usados": [
+    "compaixao",
+    "restauracao_da_atencao",
+    "solidao"
+   ],
+   "simples": "What you chose is a calm picture, a sound of rain and a sad word. Together they point to kindness, quiet focus and being alone."
+  },
+  {
+   "n": 6,
+   "idioma": "en",
+   "itens": [
+    "pintura:cma:149624",
+    "som:freesound:399246",
+    "palavra:en:wistful",
+    "pintura:cma:147927"
+   ],
+   "frase": "You gathered four choices in which attention restoration repeats, and that repetition intensifies what your selection communicates about mind wandering, compassion and nostalgia.",
+   "construtos_usados": [
+    "restauracao_da_atencao",
+    "divagacao_mental",
+    "compaixao",
+    "nostalgia"
+   ],
+   "simples": "What you chose is a painting, a sound of shaking leaves and a longing word. Together they point to a drifting mind, rest for tired focus and care for others."
+  },
+  {
+   "n": 7,
+   "idioma": "en",
+   "itens": [
+    "pintura:cma:142293",
+    "som:freesound:444254",
+    "palavra:en:envious",
+    "pintura:cma:168322",
+    "som:freesound:714777",
+    "palavra:en:forlorn"
+   ],
+   "frase": "You gathered six choices in which belonging stands against loneliness, and envy and awe appear among them.",
+   "construtos_usados": [
+    "pertencimento",
+    "solidao",
+    "inveja",
+    "assombro"
+   ],
+   "simples": "What you chose is two paintings of mothers and children, sounds of water and fire, and two feeling words. Together they show a pull between feeling at home and feeling abandoned."
+  },
+  {
+   "n": 8,
+   "idioma": "zh-CN",
+   "itens": [
+    "pintura:cma:162478",
+    "som:freesound:51148",
+    "palavra:zh-CN:母爱"
+   ],
+   "frase": "你挑选了一幅描绘嫉妒的画、一段踩水脚步的声音和一个写着母爱的词，这些选择共同传达依恋、嫉妒与注意恢复。",
+   "construtos_usados": [
+    "apego",
+    "inveja",
+    "restauracao_da_atencao"
+   ],
+   "simples": "你选的东西有一幅画、一段踩水的声音和一个词，它们放在一起，说的是温暖的亲情，还有想要别人拥有的那种心情。"
+  },
+  {
+   "n": 9,
+   "idioma": "zh-CN",
+   "itens": [
+    "pintura:cma:399966",
+    "som:freesound:237407",
+    "palavra:zh-CN:畏怯",
+    "pintura:cma:135953"
+   ],
+   "frase": "你挑选的几件东西里情绪感染重复出现，这种重复加强了所传达的信息，恐惧与注意恢复也因此被一并说出。",
+   "construtos_usados": [
+    "contagio_emocional",
+    "medo",
+    "restauracao_da_atencao"
+   ],
+   "simples": "你选的东西有一幅描绘富贵花的画、火柴擦燃的声音、一个表示害怕的词和一幅描绘乡村节庆的画。它们一起说明，情绪会从一样东西传到另一样东西。"
+  },
+  {
+   "n": 10,
+   "idioma": "zh-CN",
+   "itens": [
+    "pintura:cma:124080",
+    "som:freesound:424250",
+    "palavra:zh-CN:安详",
+    "pintura:cma:144278",
+    "som:freesound:558781",
+    "palavra:zh-CN:悲恸"
+   ],
+   "frase": "你挑选的东西里，积极情绪与哀伤彼此相对，敬畏与感觉超载也同时出现，这些选择共同传达一种并存的张力。",
+   "construtos_usados": [
+    "emocoes_positivas",
+    "luto",
+    "assombro",
+    "sobrecarga_sensorial"
+   ],
+   "simples": "你选的东西有风铃声，也有嗡嗡的电流声，还有一个表示悲痛的词。它们放在一起，说的是快乐与悲伤摆在一起。"
+  }
+ ]
+}

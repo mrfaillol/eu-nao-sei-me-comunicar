@@ -144,7 +144,7 @@ O que protege o gasto e a pessoa:
 ## Estado, medido em 12/Nov/2026
 
 - Acervo conferido: 30 pinturas (20 com rosto de destaque), 30 sons, 90 palavras, 60 delas com definição no dicionário da própria língua. Acervo ampliado: 615 pinturas (293 com rosto) e 873 sons, com os 34 construtos representados. Tudo com revisão humana pendente. Glossário com 34 construtos e 4 termos de dimensão.
-- Testes: 113 em Python, 326 de unidade em TypeScript, 84 de navegador (celular e tela larga, só em Chromium).
+- Testes: 113 em Python, 329 de unidade em TypeScript, 84 de navegador (celular e tela larga, só em Chromium).
 - Validador: rejeita 33 de 33 frases defeituosas do conjunto de regressão e aceita 18 de 18 de referência. **É uma barreira, não uma prova.** A revisão final fez passar 13 frases que atribuíam estado à pessoa ou aconselhavam ("o medo que te consome", "you're anxious"); hoje elas são rejeitadas e viraram teste, mas a regra continua sendo lista, com furos por natureza.
 - O compositor por regra não gera frase reprovada: conferido pelo revisor em 352.440 frases (todos os trios do índice, nos três idiomas) e, no repositório, por um teste sobre uma amostra fixa.
 - Sonda do pré-prompt com modelo real: 17 de 18 respostas aprovadas na primeira tentativa. A reprovada, em mandarim, não tinha verbo de mensagem. Uma tentativa de injeção plantada nas tags de um som foi tratada como dado nos três idiomas.
@@ -153,8 +153,8 @@ O que protege o gasto e a pessoa:
 
 ### Quando o modelo ligar
 
-1. Medir o validador com saída real, nos três idiomas, e ler uma amostra das frases e das versões simples aprovadas. Até aqui nenhuma resposta de modelo real passou por ele em produção.
-2. O pré-prompt está na versão `2026-11-12.3`, que pede também a versão simples. A sonda de 17 em 18 foi feita com a primeira versão, sempre com três itens.
+1. Medir o validador com saída real da função, nos três idiomas, e ler uma amostra das frases e das versões simples aprovadas. Até aqui nenhuma resposta de modelo passou por ele em produção.
+2. Ler `docs/sonda-modelo-2026-11-12.md`: uma sonda fora de produção deu 8 de 10 frases aprovadas na primeira tentativa, achou um furo do validador em mandarim (corrigido) e mostrou uma versão simples com um detalhe inventado, que o validador não pega. O pré-prompt está na versão `2026-11-12.4`, que não foi sondada.
 3. Olhar o registro da função: falha do modelo aparece como `[interpretar] caminho do modelo falhou: <tipo>`.
 
 ### NÃO PROVADO

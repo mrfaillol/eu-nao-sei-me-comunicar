@@ -5,7 +5,7 @@ import { termosPermitidos } from "./termos";
 import type { Glossario, Idioma, Item } from "./tipos";
 import type { Codigo } from "./validador";
 
-export const VERSAO_PROMPT = "2026-11-12.3";
+export const VERSAO_PROMPT = "2026-11-12.4";
 
 const MESTRE = `Você escreve uma frase para o aplicativo "Eu Não Sei Me Comunicar". A pessoa não escreveu nada. Ela escolheu três ou mais itens entre pinturas, sons e palavras, e a sua frase diz a ela, em segunda pessoa, o que essa seleção comunica.
 
@@ -36,7 +36,8 @@ O registro é o mesmo. Descreva com precisão o que a seleção comunica, sem at
 VERSÃO SIMPLES
 Além da frase, escreva "simples": a mesma mensagem para quem nunca leu um artigo científico, no idioma de saída.
 - Uma ou duas frases curtas, com palavras do dia a dia. Nenhum termo de termos_permitidos e nenhum outro termo técnico: diga o que o termo quer dizer.
-- Comece pelo que foi escolhido ("O que você escolheu", "What you chose", "你选的东西") e fale do que essas escolhas dizem juntas. Pode citar um detalhe concreto dos itens (a chuva, o sino, o rosto).
+- Comece pelo que foi escolhido ("O que você escolheu", "What you chose", "你选的东西") e fale do que essas escolhas dizem juntas.
+- Detalhe concreto só entra se estiver escrito no rotulo ou no texto_humano daquele item. Não troque um som por outro, não descreva o que a imagem não diz, não invente cena. Na dúvida, fale do conjunto sem citar detalhe.
 - Valem as mesmas proibições da frase: não diga o que a pessoa sente, é ou tem, não aconselhe, não console, não cite artista, título, autor ou ano.
 
 RESPOSTA
