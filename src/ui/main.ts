@@ -21,7 +21,8 @@ import { criarEstado, escolher, podeEscolher, pronta, redistribuir, retirar, tro
 
 const BASE = import.meta.env.BASE_URL;
 const API = (import.meta.env.VITE_API_BASE as string | undefined) || null;
-const NOMES_DE_IDIOMA: Record<Idioma, string> = { "pt-BR": "Português", en: "English", "zh-CN": "中文" };
+// A bandeira é um emoji: aparece em celular e em Mac; no Windows o sistema mostra as letras do país (BR, GB, CN).
+const NOMES_DE_IDIOMA: Record<Idioma, string> = { "pt-BR": "🇧🇷 Português", en: "🇬🇧 English", "zh-CN": "🇨🇳 中文" };
 // A mídia do acervo conferido mora no site; a do ampliado, nos servidores de origem, com endereço completo.
 const midia = (caminho: string) => (/^https:\/\//.test(caminho) ? caminho : `${BASE}${caminho}`);
 
@@ -79,6 +80,10 @@ function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda:
   const botaoCreditos = el("button", { class: "botao", type: "button", "data-acao": "creditos" });
   const botaoAjuda = el("button", { class: "botao ajuda", type: "button", "data-acao": "ajuda" });
   const tarefas = el("footer", { class: "tarefas" }, conta, lista, botaoVer, el("div", { class: "sistema" }, botaoAjuda, botaoCreditos, rotuloDoSeletor, seletor, autoria.no));
+
+  // A altura da barra muda com o idioma, a largura da tela e as escolhas. A página reserva o espaço que ela
+  // de fato ocupa, em vez de um número fixo: senão a barra cobre o fim das janelas no celular.
+  new ResizeObserver(() => document.documentElement.style.setProperty("--barra-de-tarefas", `${Math.ceil(tarefas.getBoundingClientRect().height)}px`)).observe(tarefas);
 
   const resultado = criarDialogo("resultado", "");
   const inteira = criarDialogo("inteira", "");

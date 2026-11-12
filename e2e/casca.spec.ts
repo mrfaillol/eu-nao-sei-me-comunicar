@@ -52,3 +52,25 @@ test("o link de ajuda está na tela desde o começo e abre a linha do idioma", a
   await expect(page.locator('dialog[data-dialogo="ajuda"]')).toBeVisible();
   await expect(page.locator('dialog[data-dialogo="ajuda"] .telefone')).toHaveText("188");
 });
+
+test("o seletor de idioma mostra a bandeira ao lado de cada língua", async ({ page }) => {
+  const opcoes = await page.locator("#idioma option").allTextContents();
+  expect(opcoes).toEqual(["🇧🇷 Português", "🇬🇧 English", "🇨🇳 中文"]);
+  // o que a pessoa vê com o seletor fechado é a opção escolhida, com a bandeira
+  for (const [idioma, rotulo] of [["en", "🇬🇧 English"], ["zh-CN", "🇨🇳 中文"], ["pt-BR", "🇧🇷 Português"]] as const) {
+    await page.selectOption("#idioma", idioma);
+    expect(await page.locator("#idioma").evaluate((s: HTMLSelectElement) => s.selectedOptions[0]!.textContent)).toBe(rotulo);
+  }
+});
+
+test("a barra de tarefas não cresce além do espaço que a página reserva para ela", async ({ page }) => {
+  for (const idioma of ["pt-BR", "en", "zh-CN"]) {
+    await page.selectOption("#idioma", idioma);
+    const medida = await page.evaluate(() => ({
+      barra: document.querySelector(".tarefas")!.getBoundingClientRect().height,
+      reservado: parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--barra-de-tarefas")),
+      seletor: (() => { const s = document.querySelector<HTMLSelectElement>("#idioma")!; return { cabe: s.scrollWidth <= s.clientWidth + 1, largura: s.getBoundingClientRect().width }; })(),
+    }));
+    expect(medida.barra, `barra em ${idioma}`).toBeLessThanOrEqual(medida.reservado + 1);
+  }
+});

@@ -591,8 +591,9 @@ details summary {
   .tarefas .sistema { gap: 4px; }
   .tarefas .sistema .botao { font-size: 13px; line-height: 1.2; }
   .tarefas .sistema .ajuda { flex: 1 1 0; min-width: 0; }
-  .tarefas select { max-width: 112px; padding-inline: 4px 2px; font-size: 14px; }
+  .tarefas select { max-width: 136px; padding-inline: 4px 2px; font-size: 14px; } /* cabe "🇧🇷 Português" também no seletor do iPhone */
+  .tarefas .sistema [data-acao="creditos"] { padding-inline: 6px; }
   .autoria { padding-inline: 5px; gap: 3px; }
-  .autoria .assinatura svg { height: 24px; }
-  .autoria .simbolo { font-size: 22px; }
+  .autoria .assinatura svg { height: 22px; }
+  .autoria .simbolo { font-size: 20px; }
 }
