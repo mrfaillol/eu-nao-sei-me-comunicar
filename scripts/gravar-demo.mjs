@@ -150,12 +150,14 @@ await clicar('[data-acao="ver-frase"]', 0, 0);
 await page.locator('dialog[data-dialogo="resultado"] .frase[data-origem]').waitFor();
 await page.evaluate(() => window.__cursorNoTopo());
 await irPara(1320, 300, 500);
-await marcar("a frase", 'dialog[data-dialogo="resultado"] .frase', 5.0, 0.78);
+await marcar("a frase", 'dialog[data-dialogo="resultado"] .frase', 4.4, 0.78);
+// A mesma mensagem em palavras do dia a dia.
+await marcar("em palavras simples", 'dialog[data-dialogo="resultado"] .simples', 3.6, 0.8);
 
 // De onde veio cada termo: rola dentro da caixa.
 await page.locator('dialog[data-dialogo="resultado"]').evaluate((d) => d.scrollTo({ top: 250, behavior: "smooth" }));
 await dormir(900);
-await marcar("procedência", 'dialog[data-dialogo="resultado"] .termos', 2.4, 0.8);
+await marcar("procedência", 'dialog[data-dialogo="resultado"] .termos', 2.2, 0.8);
 
 // Fecha, e o autor assina no canto.
 await page.keyboard.press("Escape");

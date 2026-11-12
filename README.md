@@ -33,7 +33,7 @@ Sem chave de modelo e sem rede o site funciona inteiro: a frase é composta por 
 - A Vercel não espera o CI: ela publica o que chegar na `main`. Quem segura código quebrado é a revisão do pull request, com o CI verde antes de mesclar.
 - No plano gratuito da Vercel, commit de repositório privado só é publicado quando o autor é reconhecido pelo GitHub. Por isso o `git config user.email` deste repositório usa o e-mail `noreply` da conta.
 
-`node scripts/gravar-demo.mjs [url] [saida.mp4] [semente]` grava o vídeo de divulgação em `divulgacao/`: uma passada pelo site, muda, com zooms. A semente fixa o sorteio das opções; a tomada guardada é a de semente 21.
+`node scripts/gravar-demo.mjs [url] [saida.mp4] [semente]` grava o vídeo de divulgação em `divulgacao/`: uma passada pelo site, muda, com zooms. A semente fixa o sorteio das opções; a tomada guardada é a de semente 58, gravada em 12/Nov depois do acervo maior e da versão simples.
 
 Depois de publicar, `node scripts/fumaca-producao.mjs` faz o fluxo inteiro contra a URL de produção (celular, tela larga, três idiomas e sem rede) e sai com erro se algo falhar.
 
