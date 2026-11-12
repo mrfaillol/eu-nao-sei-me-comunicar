@@ -17,6 +17,12 @@ def gravar(nome: str, dado) -> Path:
     return destino
 
 
+def _linhas(caminho: Path) -> list[str]:
+    """Linhas úteis de um arquivo de lista: sem vazias, sem comentário de linha inteira ou de fim de linha."""
+    uteis = (l.split("#", 1)[0].strip() for l in caminho.read_text(encoding="utf-8").splitlines())
+    return [l for l in uteis if l]
+
+
 def cmd_sentidos(args) -> None:
     from acervo.glosas import listar_sentidos, sugerir_sentido
 
@@ -51,8 +57,11 @@ def cmd_pinturas(args) -> None:
 
     fichas: dict[str, dict] = {}
     recusadas: list[str] = []
+    excluidas = set(_linhas(RAIZ / "data" / "pinturas-excluidas.txt"))
 
     def aceita(candidata: dict) -> bool:
+        if candidata["id_cma"] in excluidas:
+            return False
         ficha = P.buscar_ficha(candidata["id_cma"])
         if P.ficha_serve(ficha):
             fichas[candidata["id_cma"]] = ficha
@@ -72,6 +81,12 @@ def cmd_pinturas(args) -> None:
         itens.append(item)
         print(f"{n:2d}/{len(escolhidas)} {ficha['id']} {ficha['title'][:60]}", flush=True)
     gravar("pinturas.json", itens)
+    # Cópia e recorte de pintura que saiu da seleção não ficam no site.
+    usadas = {Path(i["midia"]["arquivo"]).stem for i in itens}
+    for pasta in ("pinturas", "rostos"):
+        for sobra in (RAIZ / "public" / "midia" / pasta).glob("cma-*"):
+            if sobra.stem not in usadas:
+                sobra.unlink()
     total = sum((RAIZ / "public" / i["midia"]["arquivo"]).stat().st_size for i in itens)
     print(f"pinturas: {len(itens)} | recusadas pela ficha: {len(recusadas)} | cópias: {total / 1e6:.1f} MB")
 
@@ -110,10 +125,6 @@ def cmd_rostos(args) -> None:
     print(f"pinturas com rosto de destaque: {com_rosto} de {len(itens)}")
 
 
-def _linhas(caminho: Path) -> list[str]:
-    return [l.strip() for l in caminho.read_text(encoding="utf-8").splitlines() if l.strip() and not l.startswith("#")]
-
-
 def cmd_sons(args) -> None:
     import time
 
@@ -122,7 +133,11 @@ def cmd_sons(args) -> None:
     termos = _linhas(RAIZ / "data" / "sons-termos.txt")
     barrados = set(_linhas(RAIZ / "data" / "sons-barrados.txt"))
     fonte = S.FonteOpenverse(RAIZ / "pipeline" / "cache" / "openverse")
-    por_termo = {termo: S.filtrar(fonte.buscar(termo), barrados) for termo in termos}
+    excluidos = set(_linhas(RAIZ / "data" / "sons-excluidos.txt"))
+    por_termo = {
+        termo: [r for r in S.filtrar(fonte.buscar(termo), barrados) if S.numero_no_freesound(r) not in excluidos]
+        for termo in termos
+    }
     vazios = [t for t, sons in por_termo.items() if not sons]
     itens = []
     for n, r in enumerate(S.escolher_sons(por_termo, args.total), 1):

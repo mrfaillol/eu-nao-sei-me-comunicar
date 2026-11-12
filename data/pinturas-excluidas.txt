@@ -1,0 +1,3 @@
+# Pinturas tiradas na curadoria: id do CMA, depois o motivo. A vaga passa à próxima candidata da mesma época.
+129862  # Swift Bull: o texto de curadoria não sustenta nenhum construto do glossário
+106093  # The Stubble Field: o texto de curadoria não sustenta nenhum construto do glossário

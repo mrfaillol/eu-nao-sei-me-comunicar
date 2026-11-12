@@ -170,3 +170,11 @@ def test_numero_do_som_recusa_endereco_que_nao_e_do_freesound():
     assert numero_no_freesound(som()) == "1"
     with pytest.raises(ValueError):
         numero_no_freesound(som(foreign_landing_url="https://exemplo.invalid/pagina"))
+
+
+def test_rotulo_de_terceiro_e_limpo_e_tem_teto():
+    # O título vai para o prompt do modelo como rótulo do item: precisa da mesma limpeza do texto humano.
+    sujo = "Door slam https://x.test/a\u0007 " + "muito longo " * 40 + ".wav"
+    item = para_item_som(som(title=sujo), {"arquivo": "midia/sons/fs-1.mp3", "duracao_ms": 5000})
+    assert len(item["rotulo"]) <= 120
+    assert "https://" not in item["rotulo"] and "\u0007" not in item["rotulo"]

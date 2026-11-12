@@ -94,3 +94,9 @@ def test_som_cc_by_reprova():
     item = copy.deepcopy(SOM)
     item["credito"]["licenca"] = "CC-BY-4.0"
     assert any("licenca" in e for e in erros(item))
+
+
+def test_rotulo_acima_de_120_caracteres_reprova():
+    item = copy.deepcopy(PINTURA)
+    item["rotulo"] = "x" * 121
+    assert any("rotulo" in e for e in erros(item))

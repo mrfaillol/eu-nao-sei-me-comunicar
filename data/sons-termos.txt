@@ -2,7 +2,6 @@
 # Fora por decisão da primeira versão: voz humana e sons de corpo (o CC0 não cobre direitos da pessoa gravada).
 room tone
 distant traffic
-train station
 hospital
 church bells
 elevator
@@ -16,7 +15,6 @@ glass breaking
 phone ringing
 typing
 kettle
-match strike
 music box
 thunder
 wind howling

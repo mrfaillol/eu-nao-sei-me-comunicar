@@ -17,6 +17,7 @@ from typing import Callable
 
 from PIL import Image, ImageCms
 
+from acervo.rede import abrir_com_recuo
 from acervo.texto import limpar_texto  # noqa: F401  (reexportado: os testes e o CLI o importam daqui)
 
 AGENTE = "art-index-probe/1.0"
@@ -28,6 +29,7 @@ COTAS_POR_EPOCA = {"antes de 1400": 4, "1400-1599": 7, "1600-1799": 7, "1800-189
 TETO_POR_REGIAO = 6
 PISO_DE_RETRATOS = 12
 DESCRICAO_MINIMA = 200
+ROTULO_MAXIMO = 120
 PROPORCAO_MINIMA, PROPORCAO_MAXIMA = 0.5, 2.0
 
 _SRGB = ImageCms.createProfile("sRGB")
@@ -116,7 +118,8 @@ def para_item_pintura(ficha: dict, midia: dict) -> dict:
         "tipo": "pintura",
         "classe_semiotica": "icone",
         "idioma": None,
-        "rotulo": ficha["title"],
+        # O título é de terceiros e vai para o prompt como rótulo: mesma limpeza do texto humano, com teto curto.
+        "rotulo": limpar_texto(ficha["title"], limite=ROTULO_MAXIMO),
         "texto_humano": limpar_texto(ficha.get("description") or ""),
         "origem_do_texto": "curadoria",
         "construtos": [],
@@ -145,7 +148,7 @@ def buscar_ficha(id_cma: str, dormir: Callable[[float], None] = time.sleep) -> d
     pedido = urllib.request.Request(
         f"https://openaccess-api.clevelandart.org/api/artworks/{id_cma}", headers={"User-Agent": AGENTE}
     )
-    with urllib.request.urlopen(pedido, timeout=40) as resposta:
+    with abrir_com_recuo(pedido, timeout=40, dormir=dormir) as resposta:
         ficha = json.load(resposta)["data"]
     arquivo.parent.mkdir(parents=True, exist_ok=True)
     arquivo.write_text(json.dumps(ficha, ensure_ascii=False), encoding="utf-8")
@@ -171,7 +174,7 @@ def baixar_print(ficha: dict, dormir: Callable[[float], None] = time.sleep) -> P
         return destino
     destino.parent.mkdir(parents=True, exist_ok=True)
     pedido = urllib.request.Request(ficha["images"]["print"]["url"], headers={"User-Agent": AGENTE})
-    with urllib.request.urlopen(pedido, timeout=120) as resposta:
+    with abrir_com_recuo(pedido, timeout=120, dormir=dormir) as resposta:
         destino.write_bytes(resposta.read())
     dormir(1)
     return destino

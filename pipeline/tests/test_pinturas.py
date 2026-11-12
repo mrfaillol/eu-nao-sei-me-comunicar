@@ -102,3 +102,11 @@ def test_item_ignora_descricao_de_maquina():
     ficha = json.loads((FIXTURES / "cma-94979.json").read_text(encoding="utf-8"))["data"]
     ficha = {**ficha, "images": {**ficha["images"], "annotation": "TEXTO GERADO POR MAQUINA"}}
     assert "MAQUINA" not in json.dumps(para_item_pintura(ficha, {"arquivo": "midia/pinturas/x.webp", "largura": 1, "altura": 1}))
+
+
+def test_rotulo_de_terceiro_e_limpo_e_tem_teto():
+    ficha = json.loads((FIXTURES / "cma-94979.json").read_text(encoding="utf-8"))["data"]
+    ficha = {**ficha, "title": "<b>Título</b> https://x.test/a\u0007 " + "muito longo " * 40}
+    item = para_item_pintura(ficha, {"arquivo": "midia/pinturas/x.webp", "largura": 1, "altura": 1})
+    assert len(item["rotulo"]) <= 120
+    assert "<" not in item["rotulo"] and "https://" not in item["rotulo"] and "\u0007" not in item["rotulo"]

@@ -31,12 +31,12 @@
   "_termo": "birdsong"
  },
  {
-  "id": "som:freesound:509104",
+  "id": "som:freesound:266499",
   "tipo": "som",
   "classe_semiotica": "indice",
   "idioma": null,
-  "rotulo": "Church Bells",
-  "texto_humano": "Church Bells | bell, bells, church, recorder",
+  "rotulo": "Church bell in Belmonte, Portugal",
+  "texto_humano": "Church bell in Belmonte, Portugal | bell, belmonte, church, fieldrecording, churchbells, portugal",
   "origem_do_texto": "titulo_e_tags",
   "construtos": [],
   "tema_sensivel": false,
@@ -44,11 +44,11 @@
    "metodo": "ausente"
   },
   "credito": {
-   "autor": "tripjazz",
-   "linha": "Church Bells, por tripjazz, no Freesound (CC0)",
+   "autor": "Refrain",
+   "linha": "Church bell in Belmonte, Portugal, por Refrain, no Freesound (CC0)",
    "fonte": "freesound-via-openverse",
    "licenca": "CC0-1.0",
-   "url": "https://freesound.org/people/tripjazz/sounds/509104"
+   "url": "https://freesound.org/people/Refrain/sounds/266499"
   },
   "revisao": {
    "humana": "pendente",
@@ -56,8 +56,8 @@
    "em": null
   },
   "midia": {
-   "arquivo": "midia/sons/fs-509104.mp3",
-   "duracao_ms": 10492
+   "arquivo": "midia/sons/fs-266499.mp3",
+   "duracao_ms": 15320
   },
   "_termo": "church bells"
  },
@@ -465,37 +465,6 @@
   "_termo": "leaves rustling"
  },
  {
-  "id": "som:freesound:248236",
-  "tipo": "som",
-  "classe_semiotica": "indice",
-  "idioma": null,
-  "rotulo": "Match - Strike and Light 02",
-  "texto_humano": "Match - Strike and Light 02 | match, fire, flame, light, matchbox, strike",
-  "origem_do_texto": "titulo_e_tags",
-  "construtos": [],
-  "tema_sensivel": false,
-  "afeto": {
-   "metodo": "ausente"
-  },
-  "credito": {
-   "autor": "JarredGibb",
-   "linha": "Match - Strike and Light 02, por JarredGibb, no Freesound (CC0)",
-   "fonte": "freesound-via-openverse",
-   "licenca": "CC0-1.0",
-   "url": "https://freesound.org/people/JarredGibb/sounds/248236"
-  },
-  "revisao": {
-   "humana": "pendente",
-   "por": null,
-   "em": null
-  },
-  "midia": {
-   "arquivo": "midia/sons/fs-248236.mp3",
-   "duracao_ms": 6105
-  },
-  "_termo": "match strike"
- },
- {
   "id": "som:freesound:338986",
   "tipo": "som",
   "classe_semiotica": "indice",
@@ -744,37 +713,6 @@
   "_termo": "thunder"
  },
  {
-  "id": "som:freesound:713395",
-  "tipo": "som",
-  "classe_semiotica": "indice",
-  "idioma": null,
-  "rotulo": "train station",
-  "texto_humano": "train station | platform, railway, station, train",
-  "origem_do_texto": "titulo_e_tags",
-  "construtos": [],
-  "tema_sensivel": false,
-  "afeto": {
-   "metodo": "ausente"
-  },
-  "credito": {
-   "autor": "migweis",
-   "linha": "train station, por migweis, no Freesound (CC0)",
-   "fonte": "freesound-via-openverse",
-   "licenca": "CC0-1.0",
-   "url": "https://freesound.org/people/migweis/sounds/713395"
-  },
-  "revisao": {
-   "humana": "pendente",
-   "por": null,
-   "em": null
-  },
-  "midia": {
-   "arquivo": "midia/sons/fs-713395.mp3",
-   "duracao_ms": 5717
-  },
-  "_termo": "train station"
- },
- {
   "id": "som:freesound:365543",
   "tipo": "som",
   "classe_semiotica": "indice",
@@ -899,12 +837,12 @@
   "_termo": "birdsong"
  },
  {
-  "id": "som:freesound:266499",
+  "id": "som:freesound:484031",
   "tipo": "som",
   "classe_semiotica": "indice",
   "idioma": null,
-  "rotulo": "Church bell in Belmonte, Portugal",
-  "texto_humano": "Church bell in Belmonte, Portugal | bell, belmonte, church, fieldrecording, churchbells, portugal",
+  "rotulo": "Countryside Church Bells Ambience 1 1",
+  "texto_humano": "Countryside Church Bells Ambience 1 1 | ambience, bells, church, countryside, design, field, foley, recording, sound",
   "origem_do_texto": "titulo_e_tags",
   "construtos": [],
   "tema_sensivel": false,
@@ -912,11 +850,11 @@
    "metodo": "ausente"
   },
   "credito": {
-   "autor": "Refrain",
-   "linha": "Church bell in Belmonte, Portugal, por Refrain, no Freesound (CC0)",
+   "autor": "Joao_Janz",
+   "linha": "Countryside Church Bells Ambience 1 1, por Joao_Janz, no Freesound (CC0)",
    "fonte": "freesound-via-openverse",
    "licenca": "CC0-1.0",
-   "url": "https://freesound.org/people/Refrain/sounds/266499"
+   "url": "https://freesound.org/people/Joao_Janz/sounds/484031"
   },
   "revisao": {
    "humana": "pendente",
@@ -924,9 +862,71 @@
    "em": null
   },
   "midia": {
-   "arquivo": "midia/sons/fs-266499.mp3",
-   "duracao_ms": 15320
+   "arquivo": "midia/sons/fs-484031.mp3",
+   "duracao_ms": 17392
   },
   "_termo": "church bells"
+ },
+ {
+  "id": "som:freesound:398275",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Clock Tick",
+  "texto_humano": "Clock Tick | cartoon, clock, clockwork, old, tick-tock, ticking, ticks, time",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "FlashTrauma",
+   "linha": "Clock Tick, por FlashTrauma, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/FlashTrauma/sounds/398275"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-398275.mp3",
+   "duracao_ms": 6626
+  },
+  "_termo": "clock ticking"
+ },
+ {
+  "id": "som:freesound:543965",
+  "tipo": "som",
+  "classe_semiotica": "indice",
+  "idioma": null,
+  "rotulo": "Cricket - Grillo",
+  "texto_humano": "Cricket - Grillo | cricket, grillo, night, noche",
+  "origem_do_texto": "titulo_e_tags",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Lunevix",
+   "linha": "Cricket - Grillo, por Lunevix, no Freesound (CC0)",
+   "fonte": "freesound-via-openverse",
+   "licenca": "CC0-1.0",
+   "url": "https://freesound.org/people/Lunevix/sounds/543965"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/sons/fs-543965.mp3",
+   "duracao_ms": 2122
+  },
+  "_termo": "crickets"
  }
 ]

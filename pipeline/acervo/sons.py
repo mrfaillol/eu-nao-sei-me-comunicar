@@ -19,11 +19,13 @@ from datetime import date
 from pathlib import Path
 from typing import Callable
 
+from acervo.rede import abrir_com_recuo
 from acervo.texto import limpar_texto
 
 AGENTE = "art-index-probe/1.0"
 DURACAO_MINIMA_MS, DURACAO_MAXIMA_MS = 2000, 20000
 TAGS_MINIMAS = 3
+ROTULO_MAXIMO = 120
 EXTENSOES = re.compile(r"\.(wav|mp3|flac|ogg|aiff?|m4a|wma)$", re.IGNORECASE)
 
 
@@ -126,7 +128,7 @@ def escolher_sons(por_termo: dict[str, list[dict]], total: int = 30) -> list[dic
 
 def _baixar(url: str, destino: Path) -> None:
     pedido = urllib.request.Request(url, headers={"User-Agent": AGENTE})
-    with urllib.request.urlopen(pedido, timeout=60) as resposta:
+    with abrir_com_recuo(pedido, timeout=60) as resposta:
         destino.write_bytes(resposta.read())
 
 
@@ -165,8 +167,9 @@ def numero_no_freesound(r: dict) -> str:
 
 def para_item_som(r: dict, midia: dict) -> dict:
     """Item do acervo para o som. Os construtos entram depois, na anotação."""
-    titulo = limpar_titulo(r.get("title") or "")
-    autor = r.get("creator") or ""
+    # Título, autor e tags são de terceiros e vão para o prompt: todos passam pela limpeza, com teto.
+    titulo = limpar_texto(limpar_titulo(r.get("title") or ""), limite=ROTULO_MAXIMO)
+    autor = limpar_texto(r.get("creator") or "", limite=ROTULO_MAXIMO)
     return {
         "id": f"som:freesound:{numero_no_freesound(r)}",
         "tipo": "som",
