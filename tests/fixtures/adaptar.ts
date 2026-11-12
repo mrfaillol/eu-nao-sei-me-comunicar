@@ -5,6 +5,14 @@ import type { Construto, Glossario, Idioma, Item, Tipo } from "../../src/frase/t
 
 const DIMENSOES = new Set(["valencia_negativa", "valencia_positiva", "alta_ativacao", "baixa_ativacao"]);
 
+// Formas derivadas que contam como o termo. O glossário real traz as suas em `variantes`;
+// o glossário dos casos de teste só tem o termo, então as poucas necessárias ficam aqui.
+const VARIANTES_DE_TESTE: Record<string, Partial<Record<Idioma, string[]>>> = {
+  alienacao: { "pt-BR": ["alienado", "alienada"] },
+  anomia: { "pt-BR": ["anômico", "anômica"] },
+  luto: { "pt-BR": ["enlutado", "enlutada"] },
+};
+
 interface ItemBruto {
   id: string;
   tipo: string;
@@ -64,7 +72,7 @@ export function glossarioDosCasos(): Glossario {
       id,
       dimensao: DIMENSOES.has(id),
       termo,
-      variantes: { "pt-BR": [], en: [], "zh-CN": [] },
+      variantes: { "pt-BR": [], en: [], "zh-CN": [], ...VARIANTES_DE_TESTE[id] },
       definicao: termo,
       referencia: { doi: "10.0000/caso-de-teste", citacao: "caso de teste", titulo_contem: "teste" },
     };
