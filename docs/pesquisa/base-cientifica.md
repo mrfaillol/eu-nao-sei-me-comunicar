@@ -142,4 +142,4 @@ Nas frases 2 a 6 e 8 a 10 a obra foi conferida, mas a tese vem de memória: não
 - Pedir permissão aos autores de Xu (2022), Chan e Tse (2024) e Kristensen (2011)?
 - A lista zh-CN inclui gíria recente sem norma (内耗, 破防, emo)?
 
-Arquivos de trabalho (temporários): /private/tmp/claude-501/-Users-be1jaflor/34dae717-ab17-5441-a1be-6a9a5eaa99ba/scratchpad/wf/base-cientifica/
+Arquivos de trabalho (temporários): <pasta temporária da sessão>/wf/base-cientifica/

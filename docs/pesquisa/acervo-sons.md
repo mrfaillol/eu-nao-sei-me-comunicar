@@ -1,7 +1,7 @@
 # Acervo de sons — fontes, licenças e termos de busca
 
 Medido em 12/Nov/2026, entre 04:02 e 04:25 UTC, sem chave de API, com `User-Agent: art-index-probe/1.0`. Foram 64 chamadas ao Openverse (o limite anônimo é 200 por dia) e leitura da documentação pública do Openverse, do Freesound e da Creative Commons.
-Respostas brutas e scripts ficaram em `/private/tmp/claude-501/-Users-be1jaflor/34dae717-ab17-5441-a1be-6a9a5eaa99ba/scratchpad/wf/acervo-sons/`, pasta temporária que some; a tabela dos 40 termos foi copiada para `docs/pesquisa/acervo-sons-termos.tsv`.
+Respostas brutas e scripts ficaram em `<pasta temporária da sessão>/wf/acervo-sons/`, pasta temporária que some; a tabela dos 40 termos foi copiada para `docs/pesquisa/acervo-sons-termos.tsv`.
 Procedência: **[medido]** comando executado e número obtido · **[lido]** documento público com trecho citado · **[memória]** crença sem prova. Nenhuma afirmação deste relatório depende de memória.
 
 ## Resumo

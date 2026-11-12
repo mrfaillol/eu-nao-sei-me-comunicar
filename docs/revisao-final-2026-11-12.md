@@ -7,7 +7,7 @@ Data: 12/Nov/2026. Revisor com contexto novo, somente leitura. Nenhum arquivo do
 - Pedido: revisar o ramo `v1` no HEAD `984ec57`. Durante a revisão o executor commitou `712b555` (Tarefa 18). Conferido com `git diff --stat 984ec57 HEAD -- . ':!android' ':!ios'`: só mudaram `README.md`, `capacitor.config.ts`, `package.json` e `pnpm-lock.yaml`. Todo o código revisado (`src/`, `pipeline/`, `e2e/`) é idêntico nos dois commits. O README lido é o de `712b555`.
 - Lido inteiro: `src/frase/*.ts`, `src/frase/moldes/*.ts`, `src/servidor/**/*.ts`, `src/ui/*.ts`, `src/estilo/*.css`, `index.html`, `vite.config.ts`, `playwright.config.ts`, `pipeline/acervo/*.py`, os testes de unidade de TypeScript, os três specs de navegador, `README.md`, o desenho, o plano e o registro de execução. Dos testes de Python li os nomes e os trechos ligados aos achados.
 - Rodado: `pnpm test` (248 passam), `cd pipeline && uv run pytest -q` (91 passam, 1 fora por marcador), `pnpm exec tsc --noEmit` (sem erro). Não rodei `pnpm e2e` nem comando de rede.
-- Sondas próprias, fora do projeto, em `/private/tmp/claude-501/-Users-be1jaflor/34dae717-ab17-5441-a1be-6a9a5eaa99ba/scratchpad/sonda/` (`furos3.mjs`, `varredura.mjs`, `rotulo.mjs`): carregam `validarFrase` e `comporFrase` do próprio repositório com o glossário e o índice reais de `public/indice/`.
+- Sondas próprias, fora do projeto, em `<pasta temporária da sessão>/sonda/` (`furos3.mjs`, `varredura.mjs`, `rotulo.mjs`): carregam `validarFrase` e `comporFrase` do próprio repositório com o glossário e o índice reais de `public/indice/`.
 - Cada achado diz como foi conferido: **executado** (sonda ou teste), **lido** (leitura do código, sem reprodução em navegador) ou **suspeita** (não conferido).
 
 ## Pontos fortes (conferidos)

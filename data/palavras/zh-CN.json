@@ -1,214 +1,104 @@
 [
- {
-  "palavra": "孤单",
-  "construtos": [
-   "solidao"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "腻烦",
-  "construtos": [
-   "tedio"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "惊恐",
-  "construtos": [
-   "medo"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "畏怯",
-  "construtos": [
-   "medo"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "窘促",
-  "construtos": [
-   "constrangimento"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "害臊",
-  "construtos": [
-   "constrangimento"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "眼红",
-  "construtos": [
-   "inveja"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "忌妒",
-  "construtos": [
-   "inveja"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "暴怒",
-  "construtos": [
-   "raiva"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "憋气",
-  "construtos": [
-   "raiva"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "懊悔",
-  "construtos": [
-   "arrependimento"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "遗憾",
-  "construtos": [
-   "arrependimento"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "惊愕",
-  "construtos": [
-   "assombro"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "景慕",
-  "construtos": [
-   "assombro"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "不解",
-  "construtos": [
-   "curiosidade"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "惊疑",
-  "construtos": [
-   "ambivalencia",
-   "curiosidade"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "喜怒无常",
-  "construtos": [
-   "ambivalencia"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "动摇",
-  "construtos": [
-   "dissonancia_cognitiva"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "挂牵",
-  "construtos": [
-   "apego"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "母爱",
-  "construtos": [
-   "apego"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "憧憬",
-  "construtos": [
-   "esperanca"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "夙愿",
-  "construtos": [
-   "esperanca"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "感恩",
-  "construtos": [
-   "gratidao"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "感激",
-  "construtos": [
-   "gratidao"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "怜惜",
-  "construtos": [
-   "compaixao"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "体谅",
-  "construtos": [
-   "empatia",
-   "compaixao"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "安详",
-  "construtos": [
-   "emocoes_positivas"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "无忧无虑",
-  "construtos": [
-   "emocoes_positivas"
-  ],
-  "tema_sensivel": false
- },
- {
-  "palavra": "悲恸",
-  "construtos": [
-   "luto"
-  ],
-  "tema_sensivel": true
- },
- {
-  "palavra": "哀戚",
-  "construtos": [
-   "luto"
-  ],
-  "tema_sensivel": true
- }
+  {"palavra": "孤单", "construtos": ["solidao"], "tema_sensivel": false},
+  {"palavra": "腻烦", "construtos": ["tedio"], "tema_sensivel": false},
+  {"palavra": "惊恐", "construtos": ["medo"], "tema_sensivel": false},
+  {"palavra": "畏怯", "construtos": ["medo"], "tema_sensivel": false},
+  {"palavra": "窘促", "construtos": ["constrangimento"], "tema_sensivel": false},
+  {"palavra": "害臊", "construtos": ["constrangimento"], "tema_sensivel": false},
+  {"palavra": "眼红", "construtos": ["inveja"], "tema_sensivel": false},
+  {"palavra": "忌妒", "construtos": ["inveja"], "tema_sensivel": false},
+  {"palavra": "暴怒", "construtos": ["raiva"], "tema_sensivel": false},
+  {"palavra": "憋气", "construtos": ["raiva"], "tema_sensivel": false},
+  {"palavra": "懊悔", "construtos": ["arrependimento"], "tema_sensivel": false},
+  {"palavra": "遗憾", "construtos": ["arrependimento"], "tema_sensivel": false},
+  {"palavra": "惊愕", "construtos": ["assombro"], "tema_sensivel": false},
+  {"palavra": "景慕", "construtos": ["assombro"], "tema_sensivel": false},
+  {"palavra": "不解", "construtos": ["curiosidade"], "tema_sensivel": false},
+  {"palavra": "惊疑", "construtos": ["ambivalencia", "curiosidade"], "tema_sensivel": false},
+  {"palavra": "喜怒无常", "construtos": ["ambivalencia"], "tema_sensivel": false},
+  {"palavra": "动摇", "construtos": ["dissonancia_cognitiva"], "tema_sensivel": false},
+  {"palavra": "挂牵", "construtos": ["apego"], "tema_sensivel": false},
+  {"palavra": "母爱", "construtos": ["apego"], "tema_sensivel": false},
+  {"palavra": "憧憬", "construtos": ["esperanca"], "tema_sensivel": false},
+  {"palavra": "夙愿", "construtos": ["esperanca"], "tema_sensivel": false},
+  {"palavra": "感恩", "construtos": ["gratidao"], "tema_sensivel": false},
+  {"palavra": "感激", "construtos": ["gratidao"], "tema_sensivel": false},
+  {"palavra": "怜惜", "construtos": ["compaixao"], "tema_sensivel": false},
+  {"palavra": "体谅", "construtos": ["empatia", "compaixao"], "tema_sensivel": false},
+  {"palavra": "安详", "construtos": ["emocoes_positivas"], "tema_sensivel": false},
+  {"palavra": "无忧无虑", "construtos": ["emocoes_positivas"], "tema_sensivel": false},
+  {"palavra": "悲恸", "construtos": ["luto"], "tema_sensivel": true},
+  {"palavra": "哀戚", "construtos": ["luto"], "tema_sensivel": true},
+  {"palavra": "高兴", "construtos": ["emocoes_positivas"], "tema_sensivel": false},
+  {"palavra": "欣喜", "construtos": ["emocoes_positivas"], "tema_sensivel": false},
+  {"palavra": "兴高采烈", "construtos": ["emocoes_positivas"], "tema_sensivel": false},
+  {"palavra": "愉悦", "construtos": ["emocoes_positivas"], "tema_sensivel": false},
+  {"palavra": "欣慰", "construtos": ["emocoes_positivas"], "tema_sensivel": false},
+  {"palavra": "开心", "construtos": ["emocoes_positivas"], "tema_sensivel": false},
+  {"palavra": "欢乐", "construtos": ["emocoes_positivas"], "tema_sensivel": false},
+  {"palavra": "快乐", "construtos": ["emocoes_positivas"], "tema_sensivel": false},
+  {"palavra": "愤恨", "construtos": ["raiva"], "tema_sensivel": false},
+  {"palavra": "盛怒", "construtos": ["raiva"], "tema_sensivel": false},
+  {"palavra": "愤慨", "construtos": ["raiva"], "tema_sensivel": false},
+  {"palavra": "愤怒", "construtos": ["raiva"], "tema_sensivel": false},
+  {"palavra": "生气", "construtos": ["raiva"], "tema_sensivel": false},
+  {"palavra": "怒火", "construtos": ["raiva"], "tema_sensivel": false},
+  {"palavra": "嫉妒", "construtos": ["inveja"], "tema_sensivel": false},
+  {"palavra": "妒忌", "construtos": ["inveja"], "tema_sensivel": false},
+  {"palavra": "羡慕", "construtos": ["inveja"], "tema_sensivel": false},
+  {"palavra": "哀痛", "construtos": ["luto"], "tema_sensivel": true},
+  {"palavra": "哀愁", "construtos": ["luto"], "tema_sensivel": true},
+  {"palavra": "沉痛", "construtos": ["luto"], "tema_sensivel": true},
+  {"palavra": "悲叹", "construtos": ["luto"], "tema_sensivel": true},
+  {"palavra": "恐慌", "construtos": ["medo"], "tema_sensivel": false},
+  {"palavra": "提心吊胆", "construtos": ["medo"], "tema_sensivel": false},
+  {"palavra": "恐惧", "construtos": ["medo"], "tema_sensivel": false},
+  {"palavra": "害怕", "construtos": ["medo"], "tema_sensivel": false},
+  {"palavra": "惊慌", "construtos": ["medo"], "tema_sensivel": false},
+  {"palavra": "惧怕", "construtos": ["medo"], "tema_sensivel": false},
+  {"palavra": "悔恨", "construtos": ["arrependimento"], "tema_sensivel": false},
+  {"palavra": "内疚", "construtos": ["arrependimento"], "tema_sensivel": false},
+  {"palavra": "后悔", "construtos": ["arrependimento"], "tema_sensivel": false},
+  {"palavra": "负疚", "construtos": ["arrependimento"], "tema_sensivel": false},
+  {"palavra": "羞愧", "construtos": ["constrangimento"], "tema_sensivel": false},
+  {"palavra": "害羞", "construtos": ["constrangimento"], "tema_sensivel": false},
+  {"palavra": "尴尬", "construtos": ["constrangimento"], "tema_sensivel": false},
+  {"palavra": "羞涩", "construtos": ["constrangimento"], "tema_sensivel": false},
+  {"palavra": "不好意思", "construtos": ["constrangimento"], "tema_sensivel": false},
+  {"palavra": "怅惘", "construtos": ["divagacao_mental"], "tema_sensivel": false},
+  {"palavra": "惊奇", "construtos": ["assombro"], "tema_sensivel": false},
+  {"palavra": "惊讶", "construtos": ["assombro"], "tema_sensivel": false},
+  {"palavra": "诧异", "construtos": ["assombro"], "tema_sensivel": false},
+  {"palavra": "眷恋", "construtos": ["apego"], "tema_sensivel": false},
+  {"palavra": "深情", "construtos": ["apego"], "tema_sensivel": false},
+  {"palavra": "含情脉脉", "construtos": ["apego"], "tema_sensivel": false},
+  {"palavra": "缠绵", "construtos": ["apego"], "tema_sensivel": false},
+  {"palavra": "喜爱", "construtos": ["apego"], "tema_sensivel": false},
+  {"palavra": "轻松", "construtos": ["restauracao_da_atencao"], "tema_sensivel": false},
+  {"palavra": "平静", "construtos": ["restauracao_da_atencao"], "tema_sensivel": false},
+  {"palavra": "安宁", "construtos": ["restauracao_da_atencao"], "tema_sensivel": false},
+  {"palavra": "宁静", "construtos": ["restauracao_da_atencao"], "tema_sensivel": false},
+  {"palavra": "恬静", "construtos": ["restauracao_da_atencao"], "tema_sensivel": false},
+  {"palavra": "孤立", "construtos": ["ostracismo"], "tema_sensivel": false},
+  {"palavra": "感激不尽", "construtos": ["gratidao"], "tema_sensivel": false},
+  {"palavra": "感谢", "construtos": ["gratidao"], "tema_sensivel": false},
+  {"palavra": "怜恤", "construtos": ["compaixao"], "tema_sensivel": false},
+  {"palavra": "怜悯", "construtos": ["compaixao"], "tema_sensivel": false},
+  {"palavra": "同情", "construtos": ["compaixao"], "tema_sensivel": false},
+  {"palavra": "悲天悯人", "construtos": ["compaixao"], "tema_sensivel": false},
+  {"palavra": "慈悲", "construtos": ["compaixao"], "tema_sensivel": false},
+  {"palavra": "厌倦", "construtos": ["tedio"], "tema_sensivel": false},
+  {"palavra": "无聊", "construtos": ["tedio"], "tema_sensivel": false},
+  {"palavra": "盼望", "construtos": ["esperanca"], "tema_sensivel": false},
+  {"palavra": "悲凉", "construtos": ["solidao"], "tema_sensivel": false},
+  {"palavra": "孤寂", "construtos": ["solidao"], "tema_sensivel": false},
+  {"palavra": "彷徨", "construtos": ["ambivalencia"], "tema_sensivel": false},
+  {"palavra": "疑惑", "construtos": ["ambivalencia"], "tema_sensivel": false},
+  {"palavra": "迟疑", "construtos": ["ambivalencia"], "tema_sensivel": false},
+  {"palavra": "疲倦", "construtos": ["interocepcao"], "tema_sensivel": false},
+  {"palavra": "疲惫", "construtos": ["interocepcao"], "tema_sensivel": false},
+  {"palavra": "疑心", "construtos": ["vigilancia"], "tema_sensivel": false},
+  {"palavra": "谨慎", "construtos": ["vigilancia"], "tema_sensivel": false},
+  {"palavra": "和谐", "construtos": ["pertencimento"], "tema_sensivel": false},
+  {"palavra": "单独", "construtos": ["solitude"], "tema_sensivel": false}
 ]

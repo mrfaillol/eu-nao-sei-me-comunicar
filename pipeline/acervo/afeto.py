@@ -67,5 +67,18 @@ def linhas_zheng() -> list[dict]:
         ]
 
 
+def glosa_zheng(palavra: str) -> str | None:
+    """A tradução da palavra no arquivo de Zheng et al. (2023), de qualquer linha.
+
+    O filtro de `linhas_zheng` existe para os números de valência e ativação, que em parte foram importados
+    de outro estudo. A glosa é do arquivo de Zheng em todas as linhas, e o site só usa a glosa.
+    """
+    with open(DADOS / "zheng-2023.csv", encoding="utf-8-sig", newline="") as arquivo:
+        for linha in csv.DictReader(arquivo):
+            if (linha.get("Item") or "").strip() == palavra:
+                return (linha.get("Translation") or "").strip() or None
+    return None
+
+
 def linha_zheng(palavra: str) -> dict | None:
     return next((l for l in linhas_zheng() if l["Item"] == palavra), None)

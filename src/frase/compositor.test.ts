@@ -164,7 +164,7 @@ describe("comporFrase com mais de três escolhas", () => {
   it("concorda o número com o tipo em português", () => {
     const pinturas = Array.from({ length: 21 }, (_, n) => item(n, "pintura", ["nostalgia", "apego"]));
     const sons = Array.from({ length: 22 }, (_, n) => item(n, "som", ["nostalgia", "apego"]));
-    expect(comporFrase(pinturas, "pt-BR", glossario).frase).toContain("As vinte e uma pinturas");
+    expect(comporFrase(pinturas, "pt-BR", glossario).frase).toContain("As vinte e uma imagens");
     expect(comporFrase(sons, "pt-BR", glossario).frase).toContain("Os vinte e dois sons");
   });
 

@@ -23,12 +23,15 @@ from acervo.texto import limpar_texto
 RAIZ = Path(__file__).resolve().parents[2]
 CACHE = RAIZ / "pipeline" / "cache"
 PAGINAS_DO_MUSEU = CACHE / "resgate-2026-11-12" / "cma"
-FICHAS = CACHE / "cma-ampliado"
+FICHAS = CACHE / "cma-v2"
 IMAGENS = CACHE / "web"
 AGENTE = "art-index-probe/1.0"
-DESCRICAO_MINIMA = 200
+DESCRICAO_MINIMA = 100
+# Tudo o que é imagem plana no acesso aberto do museu. A janela se chama "Imagens": gravura, desenho, fotografia e
+# página de manuscrito cabem nela tanto quanto pintura.
+TIPOS_DO_MUSEU = ("Painting", "Drawing", "Photograph", "Manuscript", "Portrait Miniature", "Print")
 VERSAO = "2026-11-12.1"
-CAMPOS = "id,accession_number,title,tombstone,creators,url,description,images"
+CAMPOS = "id,accession_number,title,tombstone,creators,url,description,did_you_know,images,type"
 
 
 def _ler(caminho: Path):
@@ -44,22 +47,27 @@ def _linhas(caminho: Path) -> set[str]:
 # ---------- pinturas ----------
 
 def buscar_fichas_do_museu(dormir=time.sleep) -> list[dict]:
-    """Todas as pinturas CC0 com imagem, com os campos do crédito. Página em cache não gasta chamada."""
+    """Todas as imagens CC0 do museu, dos tipos acima, com os campos do crédito. Página em cache não gasta chamada."""
+    import urllib.parse
+
     FICHAS.mkdir(parents=True, exist_ok=True)
     fichas: list[dict] = []
-    salto = 0
-    while True:
-        arquivo = FICHAS / f"p{salto}.json"
-        if not arquivo.exists():
-            endereco = f"https://openaccess-api.clevelandart.org/api/artworks/?cc0=1&type=Painting&has_image=1&limit=1000&skip={salto}&fields={CAMPOS}"
-            with abrir_com_recuo(urllib.request.Request(endereco, headers={"User-Agent": AGENTE}), timeout=120, dormir=dormir) as resposta:
-                arquivo.write_bytes(resposta.read())
-            dormir(2)
-        pagina = _ler(arquivo)["data"]
-        fichas.extend(pagina)
-        if len(pagina) < 1000:
-            return fichas
-        salto += 1000
+    for tipo in TIPOS_DO_MUSEU:
+        salto = 0
+        while True:
+            arquivo = FICHAS / f"{tipo.replace(' ', '_')}-p{salto}.json"
+            if not arquivo.exists():
+                consulta = urllib.parse.urlencode({"cc0": 1, "has_image": 1, "type": tipo, "limit": 1000, "skip": salto, "fields": CAMPOS})
+                pedido = urllib.request.Request(f"https://openaccess-api.clevelandart.org/api/artworks/?{consulta}", headers={"User-Agent": AGENTE})
+                with abrir_com_recuo(pedido, timeout=180, dormir=dormir) as resposta:
+                    arquivo.write_bytes(resposta.read())
+                dormir(2)
+            pagina = _ler(arquivo)["data"]
+            fichas.extend(pagina)
+            if len(pagina) < 1000:
+                break
+            salto += 1000
+    return fichas
 
 
 def fichas_em_cache() -> list[dict]:
@@ -76,7 +84,9 @@ def _autor(ficha: dict) -> str:
 def item_de_pintura(ficha: dict, lexico: dict) -> tuple[dict, list[dict]] | None:
     """O item e as evidências da anotação, ou None quando a ficha não entra."""
     web = ((ficha.get("images") or {}).get("web") or {})
-    texto = limpar_texto(ficha.get("description") or "")
+    # O texto humano da obra: a descrição da curadoria e, quando existe, a nota "você sabia?", também do museu.
+    descricao, curiosidade = (ficha.get("description") or "").strip(), (ficha.get("did_you_know") or "").strip()
+    texto = limpar_texto(f"{descricao} {curiosidade}" if curiosidade and curiosidade not in descricao else descricao)
     titulo = limpar_texto(ficha.get("title") or "", limite=120)
     if len(texto) < DESCRICAO_MINIMA or not web.get("url", "").startswith("https://openaccess-cdn.clevelandart.org/") or not titulo:
         return None
@@ -219,7 +229,7 @@ def montar(fichas: list[dict], resultados_de_som: list[dict], com_rostos: bool =
         if item.pop("_sem_imagem", False):
             del itens[item["id"]], evidencias[item["id"]]
 
-    for r in S.filtrar(resultados_de_som, barrados):
+    for r in S.filtrar(resultados_de_som, barrados, duracao_maxima_ms=30000):
         entra(item_de_som(r, lexico))
 
     erros = [f"{i['id']}: {e}" for i in itens.values() for e in validar_item(i, construtos, fontes)]

@@ -137,7 +137,7 @@ def test_ajuda_tem_tres_idiomas():
 def test_acervo_real():
     acervo = json.loads((RAIZ / "public" / "indice" / "acervo.json").read_text(encoding="utf-8"))
     por_tipo = {t: sum(i["tipo"] == t for i in acervo["itens"]) for t in ("pintura", "som", "palavra")}
-    assert por_tipo == {"pintura": 30, "som": 30, "palavra": 90}
+    assert por_tipo == {"pintura": 30, "som": 30, "palavra": 296}  # 96 em português, 98 em inglês, 102 em mandarim
     assert validar_acervo(acervo["itens"]) == []
     for item in acervo["itens"]:
         assert not any(chave.startswith("_") for chave in item)

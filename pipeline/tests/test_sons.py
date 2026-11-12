@@ -178,3 +178,10 @@ def test_rotulo_de_terceiro_e_limpo_e_tem_teto():
     item = para_item_som(som(title=sujo), {"arquivo": "midia/sons/fs-1.mp3", "duracao_ms": 5000})
     assert len(item["rotulo"]) <= 120
     assert "https://" not in item["rotulo"] and "\u0007" not in item["rotulo"]
+
+
+def test_o_acervo_ampliado_aceita_som_de_ate_30_segundos_e_o_conferido_nao():
+    longo = som(id="longo", duration=27000)
+    assert filtrar([longo], BARRADOS) == []
+    assert [s["id"] for s in filtrar([longo], BARRADOS, duracao_maxima_ms=30000)] == ["longo"]
+    assert filtrar([som(id="demais", duration=31000)], BARRADOS, duracao_maxima_ms=30000) == []

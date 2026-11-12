@@ -105,7 +105,7 @@
               "additionalProperties": false,
               "properties": {
                 "arquivo": { "type": "string", "pattern": "^(midia/sons/|https://cdn\\.freesound\\.org/previews/)" },
-                "duracao_ms": { "type": "integer", "minimum": 2000, "maximum": 20000 }
+                "duracao_ms": { "type": "integer", "minimum": 2000, "maximum": 30000 }
               }
             }
           ]

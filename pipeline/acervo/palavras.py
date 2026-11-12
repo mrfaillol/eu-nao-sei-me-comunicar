@@ -4,7 +4,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from acervo.afeto import linha_zheng, norma_glasgow
+from acervo.afeto import glosa_zheng, norma_glasgow
 from acervo.glosas import buscar_glosa
 
 RAIZ = Path(__file__).resolve().parents[2]
@@ -21,10 +21,9 @@ def para_item_palavra(entrada: dict, idioma: str, buscar=buscar_glosa) -> dict |
     """Item do acervo para a palavra, ou None se não houver texto humano para ela."""
     palavra = entrada["palavra"]
     if idioma == "zh-CN":
-        linha = linha_zheng(palavra)
-        if linha is None or not linha["Translation"]:
+        texto = glosa_zheng(palavra)
+        if texto is None:
             return None
-        texto = linha["Translation"]
         credito = {
             "autor": "Zheng et al. (2023)",
             "linha": f"Glosa em inglês de “{palavra}” em Zheng et al. (2023), copiada sem alteração (CC0)",

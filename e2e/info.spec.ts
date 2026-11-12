@@ -45,7 +45,7 @@ test("o (i) da pintura mostra palavras que estão escritas no texto da curadoria
   const itens = await acervo(page);
   const id = await abrirInfo(page, ".opcao-pintura .info", info.project.name === "mesa");
   const caixa = page.locator(".info-caixa");
-  await expect(caixa.locator(".info-titulo")).toHaveText("Palavras de quem descreveu esta pintura");
+  await expect(caixa.locator(".info-titulo")).toHaveText("Palavras de quem descreveu esta imagem");
   const palavras = await caixa.locator(".info-palavras li").allTextContents();
   expect(palavras.length).toBeGreaterThanOrEqual(3);
   const texto = itens.get(id)!.texto_humano.toLowerCase();

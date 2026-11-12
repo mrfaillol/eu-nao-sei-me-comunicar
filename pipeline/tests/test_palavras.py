@@ -6,6 +6,7 @@ import pytest
 
 from acervo.afeto import (
     linhas_zheng,
+    glosa_zheng,
     linha_zheng,
     norma_glasgow,
     normalizar_ativacao,
@@ -87,7 +88,7 @@ def test_listas():
     fontes = json.loads((RAIZ / "data" / "fontes.json").read_text(encoding="utf-8"))
     por_idioma = {i: [p for p in saida if p["idioma"] == i] for i in IDIOMAS}
     for idioma in IDIOMAS:
-        assert len(por_idioma[idioma]) == 30, idioma
+        assert len(por_idioma[idioma]) >= 90, idioma  # eram 30 por idioma até 12/Nov/2026
     rotulos = [p["rotulo"] for p in saida]
     assert len(rotulos) == len(set(rotulos)), "palavra repetida entre listas"
     for item in saida:
@@ -96,7 +97,7 @@ def test_listas():
     assert all(p["afeto"]["metodo"] == "ausente" for p in por_idioma["zh-CN"])
     assert any(p["afeto"]["metodo"] == "norma_direta" for p in por_idioma["en"])
     for p in por_idioma["zh-CN"]:
-        assert p["credito"]["fonte"] == "zheng-2023" and p["texto_humano"] == linha_zheng(p["rotulo"])["Translation"]
+        assert p["credito"]["fonte"] == "zheng-2023" and p["texto_humano"] == glosa_zheng(p["rotulo"])
 
 
 def test_carregador_espera_e_tenta_de_novo_quando_o_servidor_pede_calma(tmp_path):

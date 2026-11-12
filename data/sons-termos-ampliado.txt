@@ -19,3 +19,50 @@ coins
 cat purring
 sewing machine
 hammering
+# Segunda leva, de 12/Nov, para o acervo crescer.
+wind
+stream water
+birds morning
+ocean
+fireplace
+thunderstorm
+drizzle
+wind chimes garden
+church bell
+clock chime
+door knock
+doorbell
+keys jingle
+typewriter
+old radio
+vinyl crackle
+train station ambience
+subway
+city ambience
+market ambience
+harbor
+boat
+horse hooves
+cow bell
+rooster
+pigeons
+seagulls
+insects
+bees
+cicadas
+snow footsteps
+gravel footsteps
+wooden floor
+rocking chair
+pouring water
+boiling water
+dishes
+cutlery
+broom sweeping
+scissors
+book pages
+zipper
+light switch
+refrigerator hum
+air conditioner
+lawn mower

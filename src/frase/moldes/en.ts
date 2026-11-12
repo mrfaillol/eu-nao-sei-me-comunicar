@@ -7,7 +7,7 @@ export const moldes: Moldes = {
   doisTermos: {
     sensivel: {
       pinturas: [
-        "The {n} paintings you gathered show grave scenes, and together they communicate {lista} without softening what the images show.",
+        "The {n} images you gathered show grave scenes, and together they communicate {lista} without softening what the images show.",
       ],
       sons: [
         "The {n} sounds you gathered point to grave events, and together they communicate {lista} without softening what can be heard.",
@@ -21,7 +21,7 @@ export const moldes: Moldes = {
     },
     convergente: {
       pinturas: [
-        "The {n} paintings you gathered show the same theme more than once, and that repetition communicates {c1}, with {c2} in the background.",
+        "The {n} images you gathered show the same theme more than once, and that repetition communicates {c1}, with {c2} in the background.",
       ],
       sons: [
         "The {n} sounds you gathered point to the same theme more than once, like traces of a single scene, and that repetition communicates {c1}, with {c2} in the background.",
@@ -35,7 +35,7 @@ export const moldes: Moldes = {
     },
     divergente: {
       pinturas: [
-        "The {n} paintings you gathered show themes that do not repeat, and together they communicate {lista}, with no theme cancelling another.",
+        "The {n} images you gathered show themes that do not repeat, and together they communicate {lista}, with no theme cancelling another.",
       ],
       sons: [
         "The {n} sounds you gathered point to scenes that do not repeat, and together they communicate {lista}, with no scene cancelling another.",
