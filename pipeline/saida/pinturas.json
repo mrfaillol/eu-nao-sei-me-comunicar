@@ -1,0 +1,2747 @@
+[
+ {
+  "id": "pintura:cma:102578",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Portrait of Dora Wheeler",
+  "texto_humano": "Dora Wheeler became Chase's first student when he returned from overseas study in Munich and set up a teaching studio in New York. At the time, few American artists accepted women as private pupils. After her course of study, Wheeler joined her mother in launching a successful decorating firm, one of the first businesses in the country to be operated entirely by women. For the firm, she designed luxurious textiles, and the embroidered silk tapestry that fills the background in her portrait references her occupational interest.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "William Merritt Chase",
+   "linha": "Portrait of Dora Wheeler, 1882–83. William Merritt Chase (American, 1849–1916). Oil on canvas; framed: 180.6 x 188.6 x 11 cm (71 1/8 x 74 1/4 x 4 5/16 in.); unframed: 159.8 x 166.4 cm (62 15/16 x 65 1/2 in.). The Cleveland Museum of Art, Gift of Mrs. Boudinot Keith in memory of  Mr. and Mrs. J. H. Wade, 1921.1239",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1921.1239"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-102578.webp",
+   "largura": 1600,
+   "altura": 1531
+  },
+  "rosto": {
+   "x": 0.6621,
+   "y": 0.1799,
+   "w": 0.0738,
+   "h": 0.0983
+  },
+  "nitido": "midia/rostos/cma-102578.jpg",
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1800-1899",
+   "regiao": "Estados Unidos",
+   "generos_por_palavra": "retrato"
+  },
+  "_rostos": [
+   {
+    "x": 0.6621,
+    "y": 0.1799,
+    "w": 0.0738,
+    "h": 0.0983,
+    "conf": 0.929,
+    "pontos": [
+     0.6777,
+     0.2177,
+     0.711,
+     0.2173,
+     0.6927,
+     0.2369,
+     0.6823,
+     0.2519,
+     0.7112,
+     0.2518
+    ],
+    "sinais": {
+     "area": 0.00725,
+     "larg_rel": 0.0738,
+     "dist_centro": 0.472,
+     "conf": 0.929,
+     "nitidez_96": 276.8,
+     "contraste_rms": 0.19,
+     "figura_fundo": 0.116,
+     "frontal": 0.05
+    }
+   }
+  ],
+  "_destaque": 0
+ },
+ {
+  "id": "pintura:cma:109245",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Elizabeth Shewell West and Her Son, Raphael",
+  "texto_humano": "West was the first American artist to study in Italy, where he spent three years before permanently settling in London. He so admired the artistic ideals of the Italian Renaissance master Raphael that he named his eldest son after him, and he imitated Raphael’s celebrated Madonna of the Chair when composing this tender double portrait of his wife and child.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Benjamin West",
+   "linha": "Elizabeth Shewell West and Her Son, Raphael, c. 1770. Benjamin West (American, born The Thirteen Colonies, 1738–1820). Oil on canvas; framed: 88 x 87.5 x 9 cm (34 5/8 x 34 7/16 x 3 9/16 in.); unframed: 66.5 x 66.3 cm (26 3/16 x 26 1/8 in.). The Cleveland Museum of Art, The Charles W. Harkness Gift, 1927.393",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1927.393"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-109245.webp",
+   "largura": 1594,
+   "altura": 1600
+  },
+  "rosto": {
+   "x": 0.3689,
+   "y": 0.1852,
+   "w": 0.198,
+   "h": 0.2647
+  },
+  "nitido": "midia/rostos/cma-109245.jpg",
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1600-1799",
+   "regiao": "Estados Unidos",
+   "generos_por_palavra": "retrato|religiosa"
+  },
+  "_rostos": [
+   {
+    "x": 0.3689,
+    "y": 0.1852,
+    "w": 0.198,
+    "h": 0.2647,
+    "conf": 0.9273,
+    "pontos": [
+     0.3997,
+     0.3038,
+     0.4682,
+     0.292,
+     0.4165,
+     0.3568,
+     0.4252,
+     0.3912,
+     0.4864,
+     0.3803
+    ],
+    "sinais": {
+     "area": 0.05241,
+     "larg_rel": 0.198,
+     "dist_centro": 0.262,
+     "conf": 0.9273,
+     "nitidez_96": 246.4,
+     "contraste_rms": 0.19,
+     "figura_fundo": 0.206,
+     "frontal": 0.25
+    }
+   },
+   {
+    "x": 0.2436,
+    "y": 0.271,
+    "w": 0.2053,
+    "h": 0.2029,
+    "conf": 0.8381,
+    "pontos": [
+     0.3221,
+     0.3462,
+     0.3973,
+     0.3283,
+     0.3797,
+     0.3694,
+     0.3444,
+     0.416,
+     0.4086,
+     0.4024
+    ],
+    "sinais": {
+     "area": 0.04166,
+     "larg_rel": 0.2053,
+     "dist_centro": 0.282,
+     "conf": 0.8381,
+     "nitidez_96": 202.3,
+     "contraste_rms": 0.171,
+     "figura_fundo": 0.118,
+     "frontal": 0.26
+    }
+   }
+  ],
+  "_destaque": 0
+ },
+ {
+  "id": "pintura:cma:121188",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Romaine Lacaux",
+  "texto_humano": "This painting may be Renoir's earliest signed canvas. Its sensitive display of color and light communicates an ideal of delicate, youthful beauty. The luminous tones of the background drapery and of the child's white blouse result from the artist's careful observation of reflected light and color on translucent materials. The delicate nuances of color, particularly in the young girl's face, reveal Renoir's previous training as a decorator of porcelain.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Pierre-Auguste Renoir",
+   "linha": "Romaine Lacaux, 1864. Pierre-Auguste Renoir (French, 1841–1919). Oil on fabric; framed: 106.7 x 89.2 x 8.9 cm (42 x 35 1/8 x 3 1/2 in.); unframed: 81.3 x 65 cm (32 x 25 9/16 in.). The Cleveland Museum of Art, Gift of the Hanna Fund, 1942.1065",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1942.1065"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-121188.webp",
+   "largura": 1273,
+   "altura": 1600
+  },
+  "rosto": {
+   "x": 0.418,
+   "y": 0.1923,
+   "w": 0.1846,
+   "h": 0.1881
+  },
+  "nitido": "midia/rostos/cma-121188.jpg",
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1800-1899",
+   "regiao": "Europa moderna",
+   "generos_por_palavra": "retrato"
+  },
+  "_rostos": [
+   {
+    "x": 0.418,
+    "y": 0.1923,
+    "w": 0.1846,
+    "h": 0.1881,
+    "conf": 0.9459,
+    "pontos": [
+     0.4635,
+     0.2707,
+     0.549,
+     0.2711,
+     0.5023,
+     0.3107,
+     0.4696,
+     0.3381,
+     0.5405,
+     0.3389
+    ],
+    "sinais": {
+     "area": 0.03472,
+     "larg_rel": 0.1846,
+     "dist_centro": 0.335,
+     "conf": 0.9459,
+     "nitidez_96": 196.6,
+     "contraste_rms": 0.167,
+     "figura_fundo": 0.165,
+     "frontal": 0.05
+    }
+   }
+  ],
+  "_destaque": 0
+ },
+ {
+  "id": "pintura:cma:125247",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Portrait of Isabella Brant",
+  "texto_humano": "Isabella Brant was Rubens’s first wife. He painted her many times in many different ways before she died at the age of 35 (she is a model for a nymph in the other work by Rubens in this room). This intimate portrait, painted at least five years before her death, suggests the close relationship between the painter and sitter through the warm palette, the luscious brushstrokes, and her lively expression.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Peter Paul Rubens",
+   "linha": "Portrait of Isabella Brant, c. 1620–25. Peter Paul Rubens (Flemish, 1577–1640). Oil on wood; framed: 83 x 73.5 x 9 cm (32 11/16 x 28 15/16 x 3 9/16 in.); unframed: 53 x 46 cm (20 7/8 x 18 1/8 in.). The Cleveland Museum of Art, Mr. and Mrs. William H. Marlatt Fund, 1947.207",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1947.207"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-125247.webp",
+   "largura": 1354,
+   "altura": 1600
+  },
+  "rosto": {
+   "x": 0.3658,
+   "y": 0.1879,
+   "w": 0.2766,
+   "h": 0.3103
+  },
+  "nitido": "midia/rostos/cma-125247.jpg",
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1600-1799",
+   "regiao": "Europa até c. 1800",
+   "generos_por_palavra": "retrato"
+  },
+  "_rostos": [
+   {
+    "x": 0.3658,
+    "y": 0.1879,
+    "w": 0.2766,
+    "h": 0.3103,
+    "conf": 0.9429,
+    "pontos": [
+     0.4104,
+     0.3175,
+     0.5262,
+     0.3184,
+     0.4427,
+     0.3833,
+     0.4251,
+     0.4231,
+     0.5195,
+     0.4231
+    ],
+    "sinais": {
+     "area": 0.08583,
+     "larg_rel": 0.2766,
+     "dist_centro": 0.24,
+     "conf": 0.9429,
+     "nitidez_96": 219.5,
+     "contraste_rms": 0.17,
+     "figura_fundo": 0.204,
+     "frontal": 0.22
+    }
+   }
+  ],
+  "_destaque": 0
+ },
+ {
+  "id": "pintura:cma:127571",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Portrait of a Man, Possibly Girolamo Rosati",
+  "texto_humano": "The gesture of the elegantly dressed man is a mystery. Is he rising from his chair to address someone or is he pointing to something outside the frame? His right hand rests on a piece of paper (a letter?), while on the table are clover—a symbol of abundance, good fortune, and happy marriage—and jasmine, associated with purity and love, further emphasized by the roses on the trellis. There may have been a companion portrait of the sitter’s bride, to whom he acknowledges his devotion.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Lorenzo Lotto",
+   "linha": "Portrait of a Man, Possibly Girolamo Rosati, 1533–34. Lorenzo Lotto (Italian, 1480–1556). Oil on canvas; framed: 135.9 x 128 x 8.6 cm (53 1/2 x 50 3/8 x 3 3/8 in.); unframed: 108.2 x 100.5 cm (42 5/8 x 39 9/16 in.). The Cleveland Museum of Art, Gift of the Hanna Fund, 1950.250",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1950.250"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-127571.webp",
+   "largura": 1477,
+   "altura": 1600
+  },
+  "rosto": {
+   "x": 0.2926,
+   "y": 0.1142,
+   "w": 0.1184,
+   "h": 0.1471
+  },
+  "nitido": "midia/rostos/cma-127571.jpg",
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1400-1599",
+   "regiao": "Europa até c. 1800",
+   "generos_por_palavra": "retrato|paisagem"
+  },
+  "_rostos": [
+   {
+    "x": 0.2926,
+    "y": 0.1142,
+    "w": 0.1184,
+    "h": 0.1471,
+    "conf": 0.9328,
+    "pontos": [
+     0.3361,
+     0.1758,
+     0.3894,
+     0.171,
+     0.3764,
+     0.2037,
+     0.3443,
+     0.2261,
+     0.3912,
+     0.2228
+    ],
+    "sinais": {
+     "area": 0.01742,
+     "larg_rel": 0.1184,
+     "dist_centro": 0.501,
+     "conf": 0.9328,
+     "nitidez_96": 191.1,
+     "contraste_rms": 0.199,
+     "figura_fundo": 0.153,
+     "frontal": 0.25
+    }
+   }
+  ],
+  "_destaque": 0
+ },
+ {
+  "id": "pintura:cma:129862",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Swift Bull from the Ten Swift Bulls",
+  "texto_humano": "Across the world, animals once played a much larger role in the transportation of the elite. Members of Japan’s imperial court traveled in vehicles pulled by oxen until the late 1400s, when oxcarts were restricted to ceremonial use. One sign of the past importance of the ox as a status symbol survives in this fragment from a scroll of portraits of 10 speedy bulls. The painter layered washes containing differing ratios of black ink to water to create a three-dimensional effect.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "",
+   "linha": "Swift Bull from the Ten Swift Bulls (駿牛図　断簡), late 1200s–early 1300s. Japan, Kamakura period (1185–1333). Section of a handscroll mounted as a hanging scroll; ink and slight color on paper; painting: 27.1 x 31.9 cm (10 11/16 x 12 9/16 in.). The Cleveland Museum of Art, John L. Severance Fund, 1952.286",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1952.286"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-129862.webp",
+   "largura": 841,
+   "altura": 1600
+  },
+  "rosto": null,
+  "nitido": null,
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "antes de 1400",
+   "regiao": "Japão",
+   "generos_por_palavra": "retrato"
+  },
+  "_rostos": [],
+  "_destaque": null
+ },
+ {
+  "id": "pintura:cma:136682",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Portrait of Catherine Grey, Lady Manners",
+  "texto_humano": "The Irish poet Lady Manners rejected as “unflattering” this portrait representing her as the goddess Juno, symbolized here by the peacock. Thomas Lawrence exhibited the painting at the Royal Academy in 1794 with the label “to be disposed of [sold],” but it was still in the artist’s collection when he died. Though it offended Lady Manners, the painting displays all the hallmarks of Lawrence’s flamboyant style:dazzling, fluid brushwork and an innovative use of unconventional colors that helped secure his role as the most fashionable portrait painter in turn-of-the-century Britain.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Thomas Lawrence",
+   "linha": "Portrait of Catherine Grey, Lady Manners, 1794. Thomas Lawrence (British, 1769–1830). Oil on canvas; framed: 280.5 x 185 x 9 cm (110 7/16 x 72 13/16 x 3 9/16 in.); unframed: 255.3 x 158 cm (100 1/2 x 62 3/16 in.). The Cleveland Museum of Art, Bequest of John D. Rockefeller Jr., 1961.220",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1961.220"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-136682.webp",
+   "largura": 987,
+   "altura": 1600
+  },
+  "rosto": {
+   "x": 0.4157,
+   "y": 0.1698,
+   "w": 0.0825,
+   "h": 0.0625
+  },
+  "nitido": "midia/rostos/cma-136682.jpg",
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1600-1799",
+   "regiao": "Europa até c. 1800",
+   "generos_por_palavra": "retrato"
+  },
+  "_rostos": [
+   {
+    "x": 0.4157,
+    "y": 0.1698,
+    "w": 0.0825,
+    "h": 0.0625,
+    "conf": 0.9237,
+    "pontos": [
+     0.4361,
+     0.1931,
+     0.4734,
+     0.1931,
+     0.4536,
+     0.2054,
+     0.4395,
+     0.2161,
+     0.4698,
+     0.2152
+    ],
+    "sinais": {
+     "area": 0.00516,
+     "larg_rel": 0.0825,
+     "dist_centro": 0.511,
+     "conf": 0.9237,
+     "nitidez_96": 138.4,
+     "contraste_rms": 0.139,
+     "figura_fundo": 0.117,
+     "frontal": 0.03
+    }
+   }
+  ],
+  "_destaque": 0
+ },
+ {
+  "id": "pintura:cma:141549",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Portrait of the Jester Calabazas",
+  "texto_humano": "Calabazas, a jester in the court of King Philip IV of Spain, had physical and mental disabilities, a state that the artist emphasizes, rather than tries to hide. While the Spanish court prized and doted upon people with disabilities such as Calabazas, Velázquez transformed their depiction in portraiture. This startling work uses the format of the formal, full-length court portrait to present a type of person who was generally perceived as marginal at this point in history and profoundly humanizes him.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Diego Velázquez",
+   "linha": "Portrait of the Jester Calabazas, c. 1631–32. Diego Velázquez (Spanish, 1599–1660). Oil on canvas; framed: 199.3 x 133.1 x 12.7 cm (78 7/16 x 52 3/8 x 5 in.); unframed: 175 x 106 cm (68 7/8 x 41 3/4 in.). The Cleveland Museum of Art, Leonard C. Hanna Jr. Fund, 1965.15",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1965.15"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-141549.webp",
+   "largura": 983,
+   "altura": 1600
+  },
+  "rosto": {
+   "x": 0.5087,
+   "y": 0.1537,
+   "w": 0.1016,
+   "h": 0.08
+  },
+  "nitido": "midia/rostos/cma-141549.jpg",
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1600-1799",
+   "regiao": "Europa até c. 1800",
+   "generos_por_palavra": "retrato"
+  },
+  "_rostos": [
+   {
+    "x": 0.5087,
+    "y": 0.1537,
+    "w": 0.1016,
+    "h": 0.08,
+    "conf": 0.9297,
+    "pontos": [
+     0.5322,
+     0.1832,
+     0.577,
+     0.1823,
+     0.5543,
+     0.1979,
+     0.5401,
+     0.2117,
+     0.5785,
+     0.2101
+    ],
+    "sinais": {
+     "area": 0.00813,
+     "larg_rel": 0.1016,
+     "dist_centro": 0.526,
+     "conf": 0.9297,
+     "nitidez_96": 179.0,
+     "contraste_rms": 0.15,
+     "figura_fundo": 0.169,
+     "frontal": 0.01
+    }
+   }
+  ],
+  "_destaque": 0
+ },
+ {
+  "id": "pintura:cma:145925",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Funerary Portrait of a Young Girl",
+  "texto_humano": "Transforming the spirit—not beautifying the mortal body—may have been the purpose of adding golden lips and jewelry to this painting. Egyptian-style burial customs and arts persisted throughout Greek, Roman, and Byzantine rule over Egypt (305 BCE–641 CE). The woman depicted in this panel lived between cultures. Her or her family’s choice of mummification reflected historical Egyptian practices of creating a physical “duplicate” for the deceased’s soul to rest in, and their decision to color her lips gold here may symbolize how death transformed her into an akh (effective spirit).",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "",
+   "linha": "Funerary Portrait of a Young Girl, c. 25–37 CE. Egypt, Roman Empire, late Tiberian. Encaustic on linden wood; overall: 39.4 x 17.4 cm (15 1/2 x 6 7/8 in.). The Cleveland Museum of Art, John L. Severance Fund, 1971.137",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1971.137"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-145925.webp",
+   "largura": 833,
+   "altura": 1600
+  },
+  "rosto": {
+   "x": 0.2181,
+   "y": 0.145,
+   "w": 0.4537,
+   "h": 0.304
+  },
+  "nitido": "midia/rostos/cma-145925.jpg",
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "antes de 1400",
+   "regiao": "outros",
+   "generos_por_palavra": "retrato"
+  },
+  "_rostos": [
+   {
+    "x": 0.2181,
+    "y": 0.145,
+    "w": 0.4537,
+    "h": 0.304,
+    "conf": 0.9413,
+    "pontos": [
+     0.3268,
+     0.2593,
+     0.5434,
+     0.262,
+     0.4203,
+     0.3235,
+     0.3375,
+     0.3657,
+     0.5282,
+     0.3692
+    ],
+    "sinais": {
+     "area": 0.13792,
+     "larg_rel": 0.4537,
+     "dist_centro": 0.364,
+     "conf": 0.9413,
+     "nitidez_96": 1167.7,
+     "contraste_rms": 0.132,
+     "figura_fundo": 0.01,
+     "frontal": 0.07
+    }
+   }
+  ],
+  "_destaque": 0
+ },
+ {
+  "id": "pintura:cma:149943",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Portrait of Ōzora Buzaemon",
+  "texto_humano": "Over seven feet tall, Ōzora Buzaemon became a tabloid sensation when he arrived in Edo (Tokyo) in 1827 . His handprints were cherished souvenirs, and his image was sold on woodblock prints. As inscriptions on the scroll detail, Watanabe Kazan met Buzaemon at the residence of a noted Confucian scholar. Using a camera obscura–type device—a tool that uses light to project an image onto a surface—he made this preliminary drawing for a painting. The portrayal depicts Buzaemon’s discomfort in being stared at.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Watanabe Kazan",
+   "linha": "Portrait of Ōzora Buzaemon (大空武左衛門像), 1827. Watanabe Kazan (Japanese, 1793–1841). Hanging scroll; ink and color on paper; image: 221.8 x 117.8 cm (87 5/16 x 46 3/8 in.); overall: 256.8 x 131 cm (101 1/8 x 51 9/16 in.); with knobs: 256.8 x 140.5 cm (101 1/8 x 55 5/16 in.). The Cleveland Museum of Art, Leonard C. Hanna Jr. Fund, 1980.177",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1980.177"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-149943.webp",
+   "largura": 877,
+   "altura": 1600
+  },
+  "rosto": {
+   "x": 0.3978,
+   "y": 0.0508,
+   "w": 0.1263,
+   "h": 0.0891
+  },
+  "nitido": "midia/rostos/cma-149943.jpg",
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1800-1899",
+   "regiao": "Japão",
+   "generos_por_palavra": "retrato"
+  },
+  "_rostos": [
+   {
+    "x": 0.3978,
+    "y": 0.0508,
+    "w": 0.1263,
+    "h": 0.0891,
+    "conf": 0.9083,
+    "pontos": [
+     0.4173,
+     0.0887,
+     0.4702,
+     0.0883,
+     0.4325,
+     0.105,
+     0.4259,
+     0.1192,
+     0.4686,
+     0.1187
+    ],
+    "sinais": {
+     "area": 0.01125,
+     "larg_rel": 0.1263,
+     "dist_centro": 0.711,
+     "conf": 0.9083,
+     "nitidez_96": 253.3,
+     "contraste_rms": 0.081,
+     "figura_fundo": 0.014,
+     "frontal": 0.21
+    }
+   }
+  ],
+  "_destaque": 0
+ },
+ {
+  "id": "pintura:cma:160885",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Portrait of Tieleman Roosterman",
+  "texto_humano": "An extremely wealthy linen and silk merchant in Haarlem, Tieleman Roosterman was 36 years old when Frans Hals painted his portrait. Unlike many Dutch painters of the period, Hals favored strong, visible brushstrokes that convey the vitality of his sitters. Roosterman strikes a confident pose, his costume sober but luxurious: his sleeves are decorated with braid and buttons, and ribbon rosettes encircle the waist of his doublet. The rich black of his suit is offset by the broad linen collar and lace-edged cuffs—fashionable details befitting a successful cloth merchant.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Frans Hals",
+   "linha": "Portrait of Tieleman Roosterman, 1634. Frans Hals (Dutch, c. 1581–1666). Oil on canvas; framed: 139 x 109 x 5.5 cm (54 3/4 x 42 15/16 x 2 3/16 in.); unframed: 117 x 87 cm (46 1/16 x 34 1/4 in.). The Cleveland Museum of Art, Leonard C. Hanna Jr. Fund, 1999.173",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1999.173"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-160885.webp",
+   "largura": 1190,
+   "altura": 1600
+  },
+  "rosto": {
+   "x": 0.395,
+   "y": 0.0724,
+   "w": 0.155,
+   "h": 0.1534
+  },
+  "nitido": "midia/rostos/cma-160885.jpg",
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1600-1799",
+   "regiao": "Europa até c. 1800",
+   "generos_por_palavra": "retrato"
+  },
+  "_rostos": [
+   {
+    "x": 0.395,
+    "y": 0.0724,
+    "w": 0.155,
+    "h": 0.1534,
+    "conf": 0.921,
+    "pontos": [
+     0.448,
+     0.1269,
+     0.5194,
+     0.1305,
+     0.4868,
+     0.1626,
+     0.4495,
+     0.1847,
+     0.5061,
+     0.1873
+    ],
+    "sinais": {
+     "area": 0.02378,
+     "larg_rel": 0.155,
+     "dist_centro": 0.564,
+     "conf": 0.921,
+     "nitidez_96": 265.5,
+     "contraste_rms": 0.157,
+     "figura_fundo": 0.033,
+     "frontal": 0.04
+    }
+   }
+  ],
+  "_destaque": 0
+ },
+ {
+  "id": "pintura:cma:79581",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Bodhidharma",
+  "texto_humano": "Chan (Japanese: Zen) Buddhism was introduced to China in the early 500s by Indian monk Bodhidharma (Japanese: Bodai Daruma; died before 534). It is said that upon his arrival in China, Bodhidharma was permitted to meet with Emperor Wu (reigned 502–49) of the Liang dynasty. Realizing the emperor did not understand his religious goals, the monk left and crossed the Yangzi River on a reed, settling in Henan Province’s Shaolin Monastery. This portrait of Bodhidharma is accompanied by an inscription that also refers to his encounter with Emperor Wu.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Unkei Eii",
+   "linha": "Bodhidharma (菩提達磨図), early to mid-1500s. Attributed to Unkei Eii (Japanese, active c. 1504–1555). Hanging scroll; ink on paper; painting: 56.6 x 25.9 cm (22 5/16 x 10 3/16 in.); mounted: 127.5 x 27.7 cm (50 3/16 x 10 7/8 in.). The Cleveland Museum of Art, Gift from the Collection of George Gund III, 2015.472",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/2015.472"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-79581.webp",
+   "largura": 805,
+   "altura": 1600
+  },
+  "rosto": {
+   "x": 0.4019,
+   "y": 0.5586,
+   "w": 0.2609,
+   "h": 0.1698
+  },
+  "nitido": "midia/rostos/cma-79581.jpg",
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1400-1599",
+   "regiao": "Japão",
+   "generos_por_palavra": "retrato|paisagem"
+  },
+  "_rostos": [
+   {
+    "x": 0.4019,
+    "y": 0.5586,
+    "w": 0.2609,
+    "h": 0.1698,
+    "conf": 0.9076,
+    "pontos": [
+     0.4482,
+     0.6155,
+     0.5494,
+     0.6166,
+     0.4712,
+     0.6479,
+     0.4551,
+     0.6787,
+     0.5425,
+     0.6792
+    ],
+    "sinais": {
+     "area": 0.0443,
+     "larg_rel": 0.2609,
+     "dist_centro": 0.258,
+     "conf": 0.9076,
+     "nitidez_96": 372.5,
+     "contraste_rms": 0.067,
+     "figura_fundo": 0.02,
+     "frontal": 0.27
+    }
+   }
+  ],
+  "_destaque": 0
+ },
+ {
+  "id": "pintura:cma:90249",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Mountain Market, Clear with Rising Mist",
+  "texto_humano": "This painting depicts several vignettes of the scholar-hermit’s various activities. In the lower left corner, the scholar-hermit is portrayed welcoming his guest in the courtyard. In the middle section on the lower bottom, the scholar and his guest are shown encountering another traveler on the bridge and exchanging their greetings. After crossing the bridge, the scholar visits a friend who lives in a compound of multiple buildings. The two friends decide to take a short walk.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "",
+   "linha": "Mountain Market, Clear with Rising Mist (산시청람도 [山市晴嵐圖]), early 1500s. Korea, Joseon dynasty (1392–1910). Hanging scroll; ink on silk; painting: 115.3 x 60 cm (45 3/8 x 23 5/8 in.); overall: 179 x 70.7 cm (70 1/2 x 27 13/16 in.); overall with knobs and cord: 181.8 x 77 cm (71 9/16 x 30 5/16 in.). The Cleveland Museum of Art, Gift from the Collection of George Gund III, 2015.517",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/2015.517"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-90249.webp",
+   "largura": 845,
+   "altura": 1600
+  },
+  "rosto": null,
+  "nitido": null,
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1400-1599",
+   "regiao": "Coreia",
+   "generos_por_palavra": "paisagem|cena cotidiana"
+  },
+  "_rostos": [],
+  "_destaque": null
+ },
+ {
+  "id": "pintura:cma:92937",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Stag at Sharkey's",
+  "texto_humano": "Bellows was no stranger to Sharkey’s Athletic Club, a raucous saloon with a backroom boxing ring, located near his studio. Founded by Tom “Sailor” Sharkey, an ex-fighter who had also served in the US Navy, the club attracted men seeking to watch or participate in matches. Because public boxing was illegal in New York at the time, a private event had to be arranged in order for a bout to take place.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "George Bellows",
+   "linha": "Stag at Sharkey's, 1909. George Bellows (American, 1882–1925). Oil on canvas; framed: 110 x 140.5 x 8.5 cm (43 5/16 x 55 5/16 x 3 3/8 in.); unframed: 92 x 122.6 cm (36 1/4 x 48 1/4 in.). The Cleveland Museum of Art, Hinman B. Hurlbut Collection, 1922.1133",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1922.1133"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-92937.webp",
+   "largura": 1600,
+   "altura": 1196
+  },
+  "rosto": {
+   "x": 0.5917,
+   "y": 0.208,
+   "w": 0.0505,
+   "h": 0.092
+  },
+  "nitido": "midia/rostos/cma-92937.jpg",
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1900+",
+   "regiao": "Estados Unidos",
+   "generos_por_palavra": "sem gênero detectado"
+  },
+  "_rostos": [
+   {
+    "x": 0.5917,
+    "y": 0.208,
+    "w": 0.0505,
+    "h": 0.092,
+    "conf": 0.7371,
+    "pontos": [
+     0.6019,
+     0.2422,
+     0.6109,
+     0.2463,
+     0.5966,
+     0.2591,
+     0.602,
+     0.2775,
+     0.6062,
+     0.2791
+    ],
+    "sinais": {
+     "area": 0.00465,
+     "larg_rel": 0.0505,
+     "dist_centro": 0.349,
+     "conf": 0.7371,
+     "nitidez_96": 179.2,
+     "contraste_rms": 0.146,
+     "figura_fundo": -0.014,
+     "frontal": 1.03
+    }
+   },
+   {
+    "x": 0.2245,
+    "y": 0.6898,
+    "w": 0.0522,
+    "h": 0.0778,
+    "conf": 0.7541,
+    "pontos": [
+     0.2351,
+     0.7239,
+     0.256,
+     0.723,
+     0.2438,
+     0.7394,
+     0.24,
+     0.7475,
+     0.2552,
+     0.75
+    ],
+    "sinais": {
+     "area": 0.00406,
+     "larg_rel": 0.0522,
+     "dist_centro": 0.484,
+     "conf": 0.7541,
+     "nitidez_96": 84.0,
+     "contraste_rms": 0.071,
+     "figura_fundo": -0.013,
+     "frontal": 0.08
+    }
+   },
+   {
+    "x": 0.8304,
+    "y": 0.452,
+    "w": 0.0444,
+    "h": 0.0812,
+    "conf": 0.797,
+    "pontos": [
+     0.8379,
+     0.477,
+     0.8493,
+     0.4785,
+     0.8353,
+     0.4914,
+     0.8377,
+     0.5103,
+     0.8453,
+     0.5092
+    ],
+    "sinais": {
+     "area": 0.00361,
+     "larg_rel": 0.0444,
+     "dist_centro": 0.565,
+     "conf": 0.797,
+     "nitidez_96": 24.5,
+     "contraste_rms": 0.042,
+     "figura_fundo": -0.027,
+     "frontal": 0.72
+    }
+   },
+   {
+    "x": 0.7479,
+    "y": 0.4719,
+    "w": 0.0449,
+    "h": 0.0722,
+    "conf": 0.8322,
+    "pontos": [
+     0.7547,
+     0.5004,
+     0.7738,
+     0.5,
+     0.7605,
+     0.5162,
+     0.7586,
+     0.5268,
+     0.7742,
+     0.5283
+    ],
+    "sinais": {
+     "area": 0.00324,
+     "larg_rel": 0.0449,
+     "dist_centro": 0.433,
+     "conf": 0.8322,
+     "nitidez_96": 26.5,
+     "contraste_rms": 0.047,
+     "figura_fundo": -0.017,
+     "frontal": 0.2
+    }
+   },
+   {
+    "x": 0.3012,
+    "y": 0.6149,
+    "w": 0.0395,
+    "h": 0.0638,
+    "conf": 0.8385,
+    "pontos": [
+     0.3149,
+     0.6377,
+     0.3317,
+     0.6369,
+     0.3256,
+     0.6509,
+     0.3185,
+     0.6636,
+     0.3315,
+     0.6628
+    ],
+    "sinais": {
+     "area": 0.00252,
+     "larg_rel": 0.0395,
+     "dist_centro": 0.336,
+     "conf": 0.8385,
+     "nitidez_96": 338.5,
+     "contraste_rms": 0.162,
+     "figura_fundo": 0.105,
+     "frontal": 0.14
+    }
+   },
+   {
+    "x": 0.1554,
+    "y": 0.6238,
+    "w": 0.0387,
+    "h": 0.0647,
+    "conf": 0.6211,
+    "pontos": [
+     0.1697,
+     0.6477,
+     0.1848,
+     0.6477,
+     0.178,
+     0.6605,
+     0.1714,
+     0.6735,
+     0.183,
+     0.6736
+    ],
+    "sinais": {
+     "area": 0.0025,
+     "larg_rel": 0.0387,
+     "dist_centro": 0.554,
+     "conf": 0.6211,
+     "nitidez_96": 127.6,
+     "contraste_rms": 0.126,
+     "figura_fundo": 0.054,
+     "frontal": 0.05
+    }
+   },
+   {
+    "x": 0.6453,
+    "y": 0.5751,
+    "w": 0.0401,
+    "h": 0.0617,
+    "conf": 0.8316,
+    "pontos": [
+     0.6562,
+     0.5955,
+     0.6714,
+     0.5957,
+     0.6638,
+     0.6081,
+     0.6579,
+     0.6226,
+     0.67,
+     0.6204
+    ],
+    "sinais": {
+     "area": 0.00247,
+     "larg_rel": 0.0401,
+     "dist_centro": 0.294,
+     "conf": 0.8316,
+     "nitidez_96": 65.5,
+     "contraste_rms": 0.079,
+     "figura_fundo": 0.022,
+     "frontal": 0.0
+    }
+   },
+   {
+    "x": 0.7108,
+    "y": 0.6243,
+    "w": 0.0358,
+    "h": 0.0563,
+    "conf": 0.7511,
+    "pontos": [
+     0.7163,
+     0.6447,
+     0.7291,
+     0.6453,
+     0.717,
+     0.6569,
+     0.7176,
+     0.6653,
+     0.7265,
+     0.668
+    ],
+    "sinais": {
+     "area": 0.00202,
+     "larg_rel": 0.0358,
+     "dist_centro": 0.409,
+     "conf": 0.7511,
+     "nitidez_96": 198.6,
+     "contraste_rms": 0.131,
+     "figura_fundo": 0.185,
+     "frontal": 0.45
+    }
+   },
+   {
+    "x": 0.2279,
+    "y": 0.6102,
+    "w": 0.0331,
+    "h": 0.0531,
+    "conf": 0.6784,
+    "pontos": [
+     0.2384,
+     0.6277,
+     0.2481,
+     0.6296,
+     0.242,
+     0.6386,
+     0.2385,
+     0.6497,
+     0.2438,
+     0.65
+    ],
+    "sinais": {
+     "area": 0.00176,
+     "larg_rel": 0.0331,
+     "dist_centro": 0.441,
+     "conf": 0.6784,
+     "nitidez_96": 222.0,
+     "contraste_rms": 0.147,
+     "figura_fundo": 0.219,
+     "frontal": 0.13
+    }
+   },
+   {
+    "x": 0.0451,
+    "y": 0.4588,
+    "w": 0.0232,
+    "h": 0.0422,
+    "conf": 0.7146,
+    "pontos": [
+     0.0514,
+     0.477,
+     0.0612,
+     0.4771,
+     0.0556,
+     0.4855,
+     0.0533,
+     0.4906,
+     0.0605,
+     0.4931
+    ],
+    "sinais": {
+     "area": 0.00098,
+     "larg_rel": 0.0232,
+     "dist_centro": 0.711,
+     "conf": 0.7146,
+     "nitidez_96": 107.8,
+     "contraste_rms": 0.076,
+     "figura_fundo": 0.046,
+     "frontal": 0.07
+    }
+   },
+   {
+    "x": 0.1236,
+    "y": 0.4628,
+    "w": 0.0235,
+    "h": 0.0415,
+    "conf": 0.7062,
+    "pontos": [
+     0.128,
+     0.4794,
+     0.1349,
+     0.4792,
+     0.1286,
+     0.4874,
+     0.1292,
+     0.492,
+     0.134,
+     0.4958
+    ],
+    "sinais": {
+     "area": 0.00098,
+     "larg_rel": 0.0235,
+     "dist_centro": 0.584,
+     "conf": 0.7062,
+     "nitidez_96": 84.2,
+     "contraste_rms": 0.111,
+     "figura_fundo": 0.071,
+     "frontal": 0.41
+    }
+   }
+  ],
+  "_destaque": 0
+ },
+ {
+  "id": "pintura:cma:113202",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "The Holy Family with Saint John the Baptist and Saint Margaret",
+  "texto_humano": "This monumental tondo, among Filippino’s most significant works, was commissioned by Neapolitan cardinal Oliviero Carafa, a leading political and ecclesiastical figure. The painter’s ingenious composition harmoniously overlaps five brilliantly colored divine figures within the challenging circular format. Behind a low wall adorned with sacred and domestic objects, Joseph observes the intertwined group of Mary holding Christ, who embraces his cousin John the Baptist, supported by Saint Margaret.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Filippino Lippi",
+   "linha": "The Holy Family with Saint John the Baptist and Saint Margaret, c. 1488–93. Filippino Lippi (Italian, c. 1457–1504). Tempera and oil on wood; framed: 184 x 186 x 9.5 cm (72 7/16 x 73 1/4 x 3 3/4 in.); diameter: 153 cm (60 1/4 in.). The Cleveland Museum of Art, The Delia E. Holden Fund and a fund donated as a memorial to Mrs. Holden by her children: Guerdon S. Holden, Delia Holden White, Roberta Holden Bole, Emery Holden Greenough, Gertrude Holden McGinley, 1932.227",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1932.227"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-113202.webp",
+   "largura": 1600,
+   "altura": 1600
+  },
+  "rosto": {
+   "x": 0.5272,
+   "y": 0.3248,
+   "w": 0.0621,
+   "h": 0.0711
+  },
+  "nitido": "midia/rostos/cma-113202.jpg",
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1400-1599",
+   "regiao": "Europa medieval",
+   "generos_por_palavra": "religiosa|mitologia/literatura"
+  },
+  "_rostos": [
+   {
+    "x": 0.5272,
+    "y": 0.3248,
+    "w": 0.0621,
+    "h": 0.0711,
+    "conf": 0.8291,
+    "pontos": [
+     0.5517,
+     0.3559,
+     0.5775,
+     0.3561,
+     0.5695,
+     0.3699,
+     0.5541,
+     0.3751,
+     0.5751,
+     0.3801
+    ],
+    "sinais": {
+     "area": 0.00442,
+     "larg_rel": 0.0621,
+     "dist_centro": 0.214,
+     "conf": 0.8291,
+     "nitidez_96": 358.7,
+     "contraste_rms": 0.166,
+     "figura_fundo": 0.042,
+     "frontal": 0.19
+    }
+   },
+   {
+    "x": 0.6471,
+    "y": 0.4038,
+    "w": 0.0614,
+    "h": 0.0637,
+    "conf": 0.8514,
+    "pontos": [
+     0.662,
+     0.4333,
+     0.6852,
+     0.4322,
+     0.675,
+     0.4474,
+     0.6705,
+     0.451,
+     0.6888,
+     0.4552
+    ],
+    "sinais": {
+     "area": 0.00391,
+     "larg_rel": 0.0614,
+     "dist_centro": 0.267,
+     "conf": 0.8514,
+     "nitidez_96": 334.1,
+     "contraste_rms": 0.16,
+     "figura_fundo": 0.045,
+     "frontal": 0.06
+    }
+   },
+   {
+    "x": 0.2948,
+    "y": 0.4243,
+    "w": 0.0507,
+    "h": 0.064,
+    "conf": 0.879,
+    "pontos": [
+     0.3211,
+     0.4512,
+     0.3356,
+     0.4504,
+     0.3354,
+     0.4641,
+     0.3233,
+     0.473,
+     0.3349,
+     0.4732
+    ],
+    "sinais": {
+     "area": 0.00324,
+     "larg_rel": 0.0507,
+     "dist_centro": 0.262,
+     "conf": 0.879,
+     "nitidez_96": 468.1,
+     "contraste_rms": 0.129,
+     "figura_fundo": 0.081,
+     "frontal": 0.49
+    }
+   },
+   {
+    "x": 0.6075,
+    "y": 0.4971,
+    "w": 0.0433,
+    "h": 0.055,
+    "conf": 0.8134,
+    "pontos": [
+     0.6149,
+     0.5143,
+     0.6287,
+     0.5148,
+     0.6152,
+     0.5249,
+     0.6161,
+     0.5385,
+     0.6268,
+     0.5361
+    ],
+    "sinais": {
+     "area": 0.00238,
+     "larg_rel": 0.0433,
+     "dist_centro": 0.186,
+     "conf": 0.8134,
+     "nitidez_96": 391.0,
+     "contraste_rms": 0.17,
+     "figura_fundo": 0.078,
+     "frontal": 0.48
+    }
+   },
+   {
+    "x": 0.5694,
+    "y": 0.4921,
+    "w": 0.0395,
+    "h": 0.0514,
+    "conf": 0.8795,
+    "pontos": [
+     0.5937,
+     0.5113,
+     0.6023,
+     0.5108,
+     0.6059,
+     0.5204,
+     0.596,
+     0.5315,
+     0.602,
+     0.5311
+    ],
+    "sinais": {
+     "area": 0.00203,
+     "larg_rel": 0.0395,
+     "dist_centro": 0.129,
+     "conf": 0.8795,
+     "nitidez_96": 276.8,
+     "contraste_rms": 0.141,
+     "figura_fundo": 0.151,
+     "frontal": 0.92
+    }
+   }
+  ],
+  "_destaque": 0
+ },
+ {
+  "id": "pintura:cma:114776",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Horse Stable",
+  "texto_humano": "Prized horses in stables may be the main theme of this pair of screens, but a lot of action is happening on the verandas. Falconry is the focus of one of the screens, while in the other, people challenge one another at two different boardgames, go and shōgi. A lively atmosphere develops in the interplay of the dynamic horses, the birds of prey, and the strategic games.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "",
+   "linha": "Horse Stable (厩図屏風), early 1500s. Japan, Muromachi period (1392–1573). Pair of six-panel folding screens; ink, color, and gold on paper; painting: 146 x 349.6 cm (57 1/2 x 137 5/8 in.). The Cleveland Museum of Art, Edward L. Whittemore Fund, 1934.373",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1934.373"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-114776.webp",
+   "largura": 1600,
+   "altura": 1459
+  },
+  "rosto": null,
+  "nitido": null,
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1400-1599",
+   "regiao": "Japão",
+   "generos_por_palavra": "animais/flores"
+  },
+  "_rostos": [],
+  "_destaque": null
+ },
+ {
+  "id": "pintura:cma:117808",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Medicine Master Buddha and the Twelve Divine Generals",
+  "texto_humano": "From the 700s, people in Japan began praying to the Medicine Master Buddha (Yakushi Nyorai) for longevity. Yakushi is at the center of this image, flanked by the bodhisattvas of the sun and moon, Nikkō and Gakkō. The Twelve Divine Generals, a group of protective deities, surround him. Yakushi sits in a meditative pose with his right hand in a gesture bestowing fearlessness while his left hand holds a medicine jar.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "",
+   "linha": "Medicine Master Buddha and the Twelve Divine Generals (薬師如来及び十二神将像), 1200s. Japan, Kamakura period (1185–1333). Hanging scroll painting; ink, color, gold, and silver on silk; image: 151.2 x 84.1 cm (59 1/2 x 33 1/8 in.); overall: 261 x 106.6 cm (102 3/4 x 41 15/16 in.); with knobs: 261 x 113.3 cm (102 3/4 x 44 5/8 in.). The Cleveland Museum of Art, Edward L. Whittemore Fund, 1938.422",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1938.422"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-117808.webp",
+   "largura": 912,
+   "altura": 1600
+  },
+  "rosto": {
+   "x": 0.4558,
+   "y": 0.2149,
+   "w": 0.0781,
+   "h": 0.0538
+  },
+  "nitido": "midia/rostos/cma-117808.jpg",
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "antes de 1400",
+   "regiao": "Japão",
+   "generos_por_palavra": "religiosa"
+  },
+  "_rostos": [
+   {
+    "x": 0.4558,
+    "y": 0.2149,
+    "w": 0.0781,
+    "h": 0.0538,
+    "conf": 0.8464,
+    "pontos": [
+     0.4747,
+     0.2346,
+     0.5117,
+     0.2345,
+     0.4926,
+     0.2457,
+     0.4804,
+     0.2555,
+     0.5072,
+     0.2545
+    ],
+    "sinais": {
+     "area": 0.0042,
+     "larg_rel": 0.0781,
+     "dist_centro": 0.449,
+     "conf": 0.8464,
+     "nitidez_96": 72.4,
+     "contraste_rms": 0.051,
+     "figura_fundo": 0.114,
+     "frontal": 0.02
+    }
+   },
+   {
+    "x": 0.3278,
+    "y": 0.7539,
+    "w": 0.0442,
+    "h": 0.0331,
+    "conf": 0.7651,
+    "pontos": [
+     0.3504,
+     0.7671,
+     0.3637,
+     0.7666,
+     0.363,
+     0.7732,
+     0.3536,
+     0.7786,
+     0.3629,
+     0.7795
+    ],
+    "sinais": {
+     "area": 0.00146,
+     "larg_rel": 0.0442,
+     "dist_centro": 0.493,
+     "conf": 0.7651,
+     "nitidez_96": 37.6,
+     "contraste_rms": 0.034,
+     "figura_fundo": 0.051,
+     "frontal": 0.45
+    }
+   }
+  ],
+  "_destaque": 0
+ },
+ {
+  "id": "pintura:cma:122351",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "The Burning of the Houses of Lords and Commons, 16 October 1834",
+  "texto_humano": "Fire consumed London’s famous Houses of Parliament on the night of October 16, 1834, and people gathered along the banks of the river Thames to gaze in awe at the horrifying spectacle. Initially, a low tide made it difficult to pump water to land and hampered steamers towing firefighting equipment along the river. The blaze burned uncontrollably for hours.J. M. W. Turner records the struggle as the boats in the lower-right corner head toward the flames.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Joseph Mallord William Turner",
+   "linha": "The Burning of the Houses of Lords and Commons, 16 October 1834, 1835. Joseph Mallord William Turner (British, 1775–1851). Oil on canvas; framed: 123.5 x 153.5 x 12 cm (48 5/8 x 60 7/16 x 4 3/4 in.); unframed: 92 x 123.2 cm (36 1/4 x 48 1/2 in.). The Cleveland Museum of Art, Bequest of John L. Severance, 1942.647",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1942.647"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-122351.webp",
+   "largura": 1600,
+   "altura": 1188
+  },
+  "rosto": null,
+  "nitido": null,
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1800-1899",
+   "regiao": "Europa moderna",
+   "generos_por_palavra": "paisagem"
+  },
+  "_rostos": [],
+  "_destaque": null
+ },
+ {
+  "id": "pintura:cma:125249",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "The Large Plane Trees (Road Menders at Saint-Rémy)",
+  "texto_humano": "Like Two Poplars in the Alpilles near Saint-Rémy (on view nearby), Vincent van Gogh painted this autumnal landscape while living in a psychiatric hospital near Saint-Rémy in southern France where he was treated for severe depression. Understanding that painting from nature eased his symptoms, Van Gogh’s physician permitted the artist to paint landscapes outside. Van Gogh described this painting in a letter to his brother Theo: “The last study I did is a view of the village, where they were at work under some enormous plane trees—repairing the pavements. . . .",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Vincent van Gogh",
+   "linha": "The Large Plane Trees (Road Menders at Saint-Rémy), 1889. Vincent van Gogh (Dutch, 1853–1890). Oil on fabric; framed: 104.5 x 124.5 x 7.6 cm (41 1/8 x 49 x 3 in.); unframed: 73.4 x 91.8 cm (28 7/8 x 36 1/8 in.). The Cleveland Museum of Art, Gift of the Hanna Fund, 1947.209",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1947.209"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-125249.webp",
+   "largura": 1600,
+   "altura": 1277
+  },
+  "rosto": null,
+  "nitido": null,
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1800-1899",
+   "regiao": "Europa moderna",
+   "generos_por_palavra": "paisagem|religiosa"
+  },
+  "_rostos": [],
+  "_destaque": null
+ },
+ {
+  "id": "pintura:cma:125884",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Birds and Flowers",
+  "texto_humano": "The landscape depicted in this pair of screens follows a seasonal progression from right to left, starting with the blossoming plum of early spring and ending with late autumn peonies. A variety of smaller birds are positioned throughout the scene, and a trio of swimming ducks is bracketed by early summer irises and early autumn bellflowers at the center. While some raptors (birds of prey) terrorize a pheasant and an egret (a waterfowl) to the right, a peacock and peahen converse to the left. Hawks are associated with military prowess, while the peafowl suggest cultural prestige.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Kano Mitsunobu",
+   "linha": "Birds and Flowers (花鳥図屏風), late 1500s. Kano Mitsunobu (Japanese, 1565–1608), and Kano Shōei (Japanese, 1519–1592). Pair of six-panel folding screens; ink, color, and gold on paper; image: 155.5 x 340 cm (61 1/4 x 133 7/8 in.). The Cleveland Museum of Art, Gift of William G. Mather, 1948.128",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1948.128"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-125884.webp",
+   "largura": 1600,
+   "altura": 1557
+  },
+  "rosto": null,
+  "nitido": null,
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1400-1599",
+   "regiao": "Japão",
+   "generos_por_palavra": "paisagem|animais/flores"
+  },
+  "_rostos": [],
+  "_destaque": null
+ },
+ {
+  "id": "pintura:cma:128842",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Saint Peter Repentant",
+  "texto_humano": "During Jesus’s arrest on the night of the Last Supper, the apostle Peter denied knowing him. Although Christ forgave his betrayal, Peter was consumed by guilt. Georges de La Tour represents Peter as an old man, reflecting on his past actions in a state of perpetual repentance. The apostle’s red-rimmed eyes and the uncertain light of the lantern suggest anxious sleepless nights; muted colors and simple forms give visual expression to Peter’s somber emotions.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Georges de La Tour",
+   "linha": "Saint Peter Repentant, 1645. Georges de La Tour (French, 1593–1652). Oil on canvas; framed: 140.3 x 119.1 x 7 cm (55 1/4 x 46 7/8 x 2 3/4 in.); unframed: 114 x 95 cm (44 7/8 x 37 3/8 in.). The Cleveland Museum of Art, Gift of the Hanna Fund, 1951.454",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1951.454"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-128842.webp",
+   "largura": 1303,
+   "altura": 1600
+  },
+  "rosto": {
+   "x": 0.5633,
+   "y": 0.0353,
+   "w": 0.1438,
+   "h": 0.1717
+  },
+  "nitido": "midia/rostos/cma-128842.jpg",
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1600-1799",
+   "regiao": "Europa até c. 1800",
+   "generos_por_palavra": "religiosa"
+  },
+  "_rostos": [
+   {
+    "x": 0.5633,
+    "y": 0.0353,
+    "w": 0.1438,
+    "h": 0.1717,
+    "conf": 0.8839,
+    "pontos": [
+     0.5798,
+     0.0895,
+     0.6126,
+     0.09,
+     0.5659,
+     0.1191,
+     0.5815,
+     0.1539,
+     0.6076,
+     0.1555
+    ],
+    "sinais": {
+     "area": 0.02469,
+     "larg_rel": 0.1438,
+     "dist_centro": 0.612,
+     "conf": 0.8839,
+     "nitidez_96": 195.0,
+     "contraste_rms": 0.119,
+     "figura_fundo": 0.09,
+     "frontal": 0.92
+    }
+   }
+  ],
+  "_destaque": 0
+ },
+ {
+  "id": "pintura:cma:135185",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Mount Sainte-Victoire",
+  "texto_humano": "During the last 20 years of his life, Cezanne repeatedly painted Mount Sainte-Victoire near his home in Aix-en-Provence in southern France. Cezanne painted this view from life at one of his favorite sites, a small road that led from Aix eastward toward Mount Sainte-Victoire. He set up his easel at the edge of the road where he could see two umbrella pines and the mountain towering over the scene. A branch of one of the pines extends from the left of the canvas across the sky, echoing the slope of the mountain, linking the near and the far.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Paul Cezanne",
+   "linha": "Mount Sainte-Victoire, c. 1904. Paul Cezanne (French, 1839–1906). Oil on fabric; framed: 87.5 x 106.5 x 7 cm (34 7/16 x 41 15/16 x 2 3/4 in.); unframed: 72.2 x 92.4 cm (28 7/16 x 36 3/8 in.). The Cleveland Museum of Art, Bequest of Leonard C. Hanna Jr., 1958.21",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1958.21"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-135185.webp",
+   "largura": 1600,
+   "altura": 1269
+  },
+  "rosto": null,
+  "nitido": null,
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1800-1899",
+   "regiao": "Europa moderna",
+   "generos_por_palavra": "paisagem"
+  },
+  "_rostos": [],
+  "_destaque": null
+ },
+ {
+  "id": "pintura:cma:135382",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "The Red Kerchief",
+  "texto_humano": "This painting depicts Monet's first wife, Camille, outside on a snowy day passing by the French doors of their home at Argenteuil. Her face is rendered in a radically bold Impressionist technique of mere daubs of paint quickly applied, just as the snow and trees are defined by broad, broken strokes of pure white and green.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Claude Monet",
+   "linha": "The Red Kerchief (Femme à la capeline rouge), c. 1868–73. Claude Monet (French, 1840–1926). Oil on fabric; framed: 128.3 x 105.7 x 14.6 cm (50 1/2 x 41 5/8 x 5 3/4 in.); unframed: 99 x 79.8 cm (39 x 31 7/16 in.). The Cleveland Museum of Art, Bequest of Leonard C. Hanna Jr., 1958.39",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1958.39"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-135382.webp",
+   "largura": 1286,
+   "altura": 1600
+  },
+  "rosto": {
+   "x": 0.5746,
+   "y": 0.3016,
+   "w": 0.0511,
+   "h": 0.0504
+  },
+  "nitido": "midia/rostos/cma-135382.jpg",
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1800-1899",
+   "regiao": "Europa moderna",
+   "generos_por_palavra": "sem gênero detectado"
+  },
+  "_rostos": [
+   {
+    "x": 0.5746,
+    "y": 0.3016,
+    "w": 0.0511,
+    "h": 0.0504,
+    "conf": 0.656,
+    "pontos": [
+     0.5943,
+     0.3242,
+     0.6171,
+     0.3241,
+     0.6127,
+     0.3335,
+     0.6007,
+     0.339,
+     0.6177,
+     0.3407
+    ],
+    "sinais": {
+     "area": 0.00258,
+     "larg_rel": 0.0511,
+     "dist_centro": 0.298,
+     "conf": 0.656,
+     "nitidez_96": 230.7,
+     "contraste_rms": 0.1,
+     "figura_fundo": 0.138,
+     "frontal": 0.31
+    }
+   }
+  ],
+  "_destaque": 0
+ },
+ {
+  "id": "pintura:cma:142559",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "St. Catherine of Siena and the Beggar",
+  "texto_humano": "Saint Catherine (1347-1380) was the daughter of a prosperous Sienese cloth dyer. At the age of six, she saw a vision of Christ and thereafter dedicated herself to chastity, penance, and good works. She became much beloved in Siena for selflessly caring for victims of the Black Death. This panel, with 1966.2, was once part of a predella (or pedestal) of a large altarpiece painted for the Hospital Church of Siena. The main scene of this altarpiece, showing the Presentation of Christ in the Temple (now preserved in Siena) was ordered by the Pork Butchers Guild (the Pizzicaiuoli) in 1447.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Giovanni di Paolo",
+   "linha": "St. Catherine of Siena and the Beggar, 1460s. Giovanni di Paolo (Italian, c. 1403–1482). Tempera and gold on wood; framed: 35.6 x 35.7 x 4.5 cm (14 x 14 1/16 x 1 3/4 in.); unframed: 28.7 x 28.9 cm (11 5/16 x 11 3/8 in.). The Cleveland Museum of Art, Gift of the John Huntington Art and Polytechnic Trust, 1966.3",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1966.3"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-142559.webp",
+   "largura": 1600,
+   "altura": 1587
+  },
+  "rosto": {
+   "x": 0.6607,
+   "y": 0.3611,
+   "w": 0.0489,
+   "h": 0.0698
+  },
+  "nitido": "midia/rostos/cma-142559.jpg",
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1400-1599",
+   "regiao": "Europa medieval",
+   "generos_por_palavra": "religiosa"
+  },
+  "_rostos": [
+   {
+    "x": 0.6607,
+    "y": 0.3611,
+    "w": 0.0489,
+    "h": 0.0698,
+    "conf": 0.6182,
+    "pontos": [
+     0.6905,
+     0.3899,
+     0.7026,
+     0.3891,
+     0.7051,
+     0.402,
+     0.691,
+     0.4161,
+     0.6985,
+     0.4123
+    ],
+    "sinais": {
+     "area": 0.00341,
+     "larg_rel": 0.0489,
+     "dist_centro": 0.301,
+     "conf": 0.6182,
+     "nitidez_96": 476.2,
+     "contraste_rms": 0.159,
+     "figura_fundo": 0.121,
+     "frontal": 0.71
+    }
+   },
+   {
+    "x": 0.8185,
+    "y": 0.3807,
+    "w": 0.0483,
+    "h": 0.0626,
+    "conf": 0.7134,
+    "pontos": [
+     0.8304,
+     0.4065,
+     0.847,
+     0.406,
+     0.8357,
+     0.42,
+     0.8326,
+     0.428,
+     0.8442,
+     0.4314
+    ],
+    "sinais": {
+     "area": 0.00302,
+     "larg_rel": 0.0483,
+     "dist_centro": 0.502,
+     "conf": 0.7134,
+     "nitidez_96": 514.1,
+     "contraste_rms": 0.119,
+     "figura_fundo": -0.026,
+     "frontal": 0.18
+    }
+   },
+   {
+    "x": 0.3404,
+    "y": 0.4326,
+    "w": 0.0329,
+    "h": 0.0464,
+    "conf": 0.6969,
+    "pontos": [
+     0.3451,
+     0.4502,
+     0.353,
+     0.4508,
+     0.3435,
+     0.4591,
+     0.3461,
+     0.4696,
+     0.3508,
+     0.4684
+    ],
+    "sinais": {
+     "area": 0.00153,
+     "larg_rel": 0.0329,
+     "dist_centro": 0.213,
+     "conf": 0.6969,
+     "nitidez_96": 286.2,
+     "contraste_rms": 0.14,
+     "figura_fundo": -0.089,
+     "frontal": 0.7
+    }
+   }
+  ],
+  "_destaque": 0
+ },
+ {
+  "id": "pintura:cma:142792",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Wrestlers in a Circus",
+  "texto_humano": "Locked in a dangerous embrace, beefy wrestlers writhe on a brightly colored mat. Famous for his scenes of urban life, Kirchner uses loose brushstrokes to capture the blur of bodies in motion. Imagine watching this intense match, surrounded by screaming spectators.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Ernst Ludwig Kirchner",
+   "linha": "Wrestlers in a Circus, 1909. Ernst Ludwig Kirchner (German, 1880–1938). Oil on canvas; framed: 107.5 x 121 x 7 cm (42 5/16 x 47 5/8 x 2 3/4 in.); unframed: 80.5 x 94 cm (31 11/16 x 37 in.). The Cleveland Museum of Art, Contemporary Collection of The Cleveland Museum of Art and Bequest of William R. Valentiner, 1966.49",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1966.49"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-142792.webp",
+   "largura": 1600,
+   "altura": 1366
+  },
+  "rosto": {
+   "x": 0.2098,
+   "y": 0.489,
+   "w": 0.0536,
+   "h": 0.0849
+  },
+  "nitido": "midia/rostos/cma-142792.jpg",
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1900+",
+   "regiao": "Europa moderna",
+   "generos_por_palavra": "sem gênero detectado"
+  },
+  "_rostos": [
+   {
+    "x": 0.2098,
+    "y": 0.489,
+    "w": 0.0536,
+    "h": 0.0849,
+    "conf": 0.7399,
+    "pontos": [
+     0.242,
+     0.5136,
+     0.2555,
+     0.5114,
+     0.2595,
+     0.5281,
+     0.2462,
+     0.5535,
+     0.2574,
+     0.5465
+    ],
+    "sinais": {
+     "area": 0.00455,
+     "larg_rel": 0.0536,
+     "dist_centro": 0.403,
+     "conf": 0.7399,
+     "nitidez_96": 548.4,
+     "contraste_rms": 0.11,
+     "figura_fundo": -0.076,
+     "frontal": 0.79
+    }
+   },
+   {
+    "x": 0.0696,
+    "y": 0.0182,
+    "w": 0.0455,
+    "h": 0.0578,
+    "conf": 0.6747,
+    "pontos": [
+     0.0782,
+     0.043,
+     0.0959,
+     0.0429,
+     0.0829,
+     0.056,
+     0.0805,
+     0.0626,
+     0.0931,
+     0.0648
+    ],
+    "sinais": {
+     "area": 0.00263,
+     "larg_rel": 0.0455,
+     "dist_centro": 0.855,
+     "conf": 0.6747,
+     "nitidez_96": 330.4,
+     "contraste_rms": 0.081,
+     "figura_fundo": 0.049,
+     "frontal": 0.23
+    }
+   }
+  ],
+  "_destaque": 0
+ },
+ {
+  "id": "pintura:cma:144961",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Green Tara",
+  "texto_humano": "For Tibetans, Green Tara is one of the preeminent figures of their Buddhist faith, a radiant savioress who embodies the female form of the perfect, enlightened mind. The Green Tara in the Cleveland thangka—a Tibetan devotional painting on cloth—specifically dispels fear and provides protection, just like her mantra inscribed on the back side of the painting. Her green color and fear-not gesture link her to the cosmic Buddha of the North, enshrined above her head. Most scholars agree that this work was painted by the celebrated Nepalese artist known as Aniko.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Aniko",
+   "linha": "Green Tara, c. 1260s, mounted 2020. Attributed to Aniko (Nepalese, active in Tibet mid- to late 1200s). Thangka; gum tempera, ink, and gold on sized cotton; mount: silk; painting: 52.4 x 43.2 cm (20 5/8 x 17 in.); overall: 107 x 65 cm (42 1/8 x 25 9/16 in.). The Cleveland Museum of Art, Purchase from the J. H. Wade Fund by exchange, 1970.156",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1970.156"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-144961.webp",
+   "largura": 1354,
+   "altura": 1600
+  },
+  "rosto": {
+   "x": 0.4643,
+   "y": 0.3337,
+   "w": 0.0828,
+   "h": 0.0907
+  },
+  "nitido": "midia/rostos/cma-144961.jpg",
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "antes de 1400",
+   "regiao": "Índia e Sudeste Asiático",
+   "generos_por_palavra": "religiosa"
+  },
+  "_rostos": [
+   {
+    "x": 0.4643,
+    "y": 0.3337,
+    "w": 0.0828,
+    "h": 0.0907,
+    "conf": 0.7222,
+    "pontos": [
+     0.4858,
+     0.3707,
+     0.5202,
+     0.369,
+     0.5056,
+     0.3889,
+     0.4962,
+     0.4018,
+     0.5244,
+     0.4014
+    ],
+    "sinais": {
+     "area": 0.00751,
+     "larg_rel": 0.0828,
+     "dist_centro": 0.185,
+     "conf": 0.7222,
+     "nitidez_96": 510.8,
+     "contraste_rms": 0.079,
+     "figura_fundo": 0.017,
+     "frontal": 0.08
+    }
+   },
+   {
+    "x": 0.4845,
+    "y": 0.1912,
+    "w": 0.0379,
+    "h": 0.0395,
+    "conf": 0.8326,
+    "pontos": [
+     0.4969,
+     0.2075,
+     0.5126,
+     0.2079,
+     0.5044,
+     0.2159,
+     0.4987,
+     0.2211,
+     0.5102,
+     0.2224
+    ],
+    "sinais": {
+     "area": 0.0015,
+     "larg_rel": 0.0379,
+     "dist_centro": 0.441,
+     "conf": 0.8326,
+     "nitidez_96": 405.7,
+     "contraste_rms": 0.091,
+     "figura_fundo": -0.001,
+     "frontal": 0.02
+    }
+   }
+  ],
+  "_destaque": 0
+ },
+ {
+  "id": "pintura:cma:79932",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Landscape with Fishermen",
+  "texto_humano": "Clad in a straw rain poncho and wide-brimmed hat, a fisherman is seated in a small boat. Reeds sparkle on the far shoreline among dark, black rock forms that appear to float above the water. On the near shoreline are a pair of pines, a grove of bamboo or water reeds, and two withered deciduous trees from which moss hangs. This landscape painting, which emphasizes an intimate solitary moment through evoking various atmospheric elements—rain, evening light, and frosty air—was one of the main subjects of mid- and late 16th-century landscape paintings.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Yi Bul-hae",
+   "linha": "Landscape with Fishermen (조어산수도 [釣漁山水圖]), 1600s. Attributed to Yi Bul-hae (Korean, active 1500s). Hanging scroll; ink and slight color on silk; overall: 122.2 x 42.9 cm (48 1/8 x 16 7/8 in.). The Cleveland Museum of Art, Gift from the Collection of George Gund III, 2015.516",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/2015.516"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-79932.webp",
+   "largura": 1079,
+   "altura": 1600
+  },
+  "rosto": null,
+  "nitido": null,
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1600-1799",
+   "regiao": "Coreia",
+   "generos_por_palavra": "paisagem|animais/flores"
+  },
+  "_rostos": [],
+  "_destaque": null
+ },
+ {
+  "id": "pintura:cma:98215",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Tradition",
+  "texto_humano": "In this composition, artist Kenyon Cox presents a figure symbolizing Tradition in the center of his canvas. She guards the lighted lamp of knowledge, transporting it from a representative of the past seated on the left, to latter-day personifications of poetry and painting standing on the right.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Kenyon Cox",
+   "linha": "Tradition, 1916. Kenyon Cox (American, 1856–1919). Oil on canvas; unframed: 106 x 165.5 cm (41 3/4 x 65 3/16 in.). The Cleveland Museum of Art, Gift of J. D. Cox, 1917.9",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1917.9"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-98215.webp",
+   "largura": 1600,
+   "altura": 1009
+  },
+  "rosto": {
+   "x": 0.8052,
+   "y": 0.1807,
+   "w": 0.0378,
+   "h": 0.0824
+  },
+  "nitido": "midia/rostos/cma-98215.jpg",
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1900+",
+   "regiao": "Estados Unidos",
+   "generos_por_palavra": "sem gênero detectado"
+  },
+  "_rostos": [
+   {
+    "x": 0.8052,
+    "y": 0.1807,
+    "w": 0.0378,
+    "h": 0.0824,
+    "conf": 0.9042,
+    "pontos": [
+     0.8111,
+     0.2128,
+     0.8216,
+     0.2126,
+     0.8115,
+     0.2284,
+     0.8151,
+     0.2455,
+     0.8229,
+     0.2441
+    ],
+    "sinais": {
+     "area": 0.00311,
+     "larg_rel": 0.0378,
+     "dist_centro": 0.623,
+     "conf": 0.9042,
+     "nitidez_96": 94.0,
+     "contraste_rms": 0.156,
+     "figura_fundo": 0.025,
+     "frontal": 0.46
+    }
+   },
+   {
+    "x": 0.5145,
+    "y": 0.2428,
+    "w": 0.0335,
+    "h": 0.078,
+    "conf": 0.8518,
+    "pontos": [
+     0.5373,
+     0.271,
+     0.5419,
+     0.2708,
+     0.5463,
+     0.2849,
+     0.5377,
+     0.2975,
+     0.54,
+     0.3005
+    ],
+    "sinais": {
+     "area": 0.00261,
+     "larg_rel": 0.0335,
+     "dist_centro": 0.239,
+     "conf": 0.8518,
+     "nitidez_96": 62.9,
+     "contraste_rms": 0.168,
+     "figura_fundo": -0.014,
+     "frontal": 1.46
+    }
+   },
+   {
+    "x": 0.9064,
+    "y": 0.1869,
+    "w": 0.0347,
+    "h": 0.0734,
+    "conf": 0.9332,
+    "pontos": [
+     0.9147,
+     0.2167,
+     0.9295,
+     0.2168,
+     0.9219,
+     0.2308,
+     0.9179,
+     0.2421,
+     0.9295,
+     0.2426
+    ],
+    "sinais": {
+     "area": 0.00255,
+     "larg_rel": 0.0347,
+     "dist_centro": 0.775,
+     "conf": 0.9332,
+     "nitidez_96": 72.2,
+     "contraste_rms": 0.147,
+     "figura_fundo": 0.127,
+     "frontal": 0.01
+    }
+   },
+   {
+    "x": 0.0856,
+    "y": 0.2187,
+    "w": 0.0334,
+    "h": 0.07,
+    "conf": 0.895,
+    "pontos": [
+     0.1024,
+     0.2394,
+     0.113,
+     0.239,
+     0.112,
+     0.2528,
+     0.1032,
+     0.2676,
+     0.1118,
+     0.2678
+    ],
+    "sinais": {
+     "area": 0.00234,
+     "larg_rel": 0.0334,
+     "dist_centro": 0.722,
+     "conf": 0.895,
+     "nitidez_96": 79.4,
+     "contraste_rms": 0.207,
+     "figura_fundo": 0.092,
+     "frontal": 0.41
+    }
+   },
+   {
+    "x": 0.7387,
+    "y": 0.5244,
+    "w": 0.0302,
+    "h": 0.0644,
+    "conf": 0.9046,
+    "pontos": [
+     0.7453,
+     0.5492,
+     0.7594,
+     0.5489,
+     0.7521,
+     0.5619,
+     0.747,
+     0.5696,
+     0.7584,
+     0.5726
+    ],
+    "sinais": {
+     "area": 0.00194,
+     "larg_rel": 0.0302,
+     "dist_centro": 0.434,
+     "conf": 0.9046,
+     "nitidez_96": 72.9,
+     "contraste_rms": 0.148,
+     "figura_fundo": 0.013,
+     "frontal": 0.02
+    }
+   },
+   {
+    "x": 0.2342,
+    "y": 0.4189,
+    "w": 0.0312,
+    "h": 0.062,
+    "conf": 0.8826,
+    "pontos": [
+     0.249,
+     0.4411,
+     0.2628,
+     0.4422,
+     0.2598,
+     0.4525,
+     0.2502,
+     0.4661,
+     0.2602,
+     0.4646
+    ],
+    "sinais": {
+     "area": 0.00193,
+     "larg_rel": 0.0312,
+     "dist_centro": 0.427,
+     "conf": 0.8826,
+     "nitidez_96": 67.7,
+     "contraste_rms": 0.15,
+     "figura_fundo": 0.043,
+     "frontal": 0.28
+    }
+   }
+  ],
+  "_destaque": 0
+ },
+ {
+  "id": "pintura:cma:106088",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "Early Morning After a Storm at Sea",
+  "texto_humano": "The powerful Atlantic surf pounding against the desolate coast of Prouts Neck, Maine, provided primary subject matter for the dramatic paintings that Homer created during his final decades. This example, which the artist proclaimed as \"the best picture of the sea that I have painted,\" was initially conceived as a watercolor. Undertaking the composition in oil after a lapse of nearly two decades, Homer patiently waited for the appropriate atmospheric conditions, executing the work in four different sessions spread over two years.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Winslow Homer",
+   "linha": "Early Morning After a Storm at Sea, 1900–1903. Winslow Homer (American, 1836–1910). Oil on canvas; framed: 111 x 160 x 12 cm (43 11/16 x 63 x 4 3/4 in.); unframed: 76.8 x 127 cm (30 1/4 x 50 in.). The Cleveland Museum of Art, Gift of J. H. Wade, 1924.195",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1924.195"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-106088.webp",
+   "largura": 1600,
+   "altura": 965
+  },
+  "rosto": null,
+  "nitido": null,
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1900+",
+   "regiao": "Estados Unidos",
+   "generos_por_palavra": "paisagem|mitologia/literatura"
+  },
+  "_rostos": [],
+  "_destaque": null
+ },
+ {
+  "id": "pintura:cma:106093",
+  "tipo": "pintura",
+  "classe_semiotica": "icone",
+  "idioma": null,
+  "rotulo": "The Stubble Field",
+  "texto_humano": "Henry Golden Dearth's composition presents a farm worker guiding a pair of workhorses after a day of harvesting grain. The painting's title refers the short pieces of grain stalks left in the ground after the crop has been cut.",
+  "origem_do_texto": "curadoria",
+  "construtos": [],
+  "tema_sensivel": false,
+  "afeto": {
+   "metodo": "ausente"
+  },
+  "credito": {
+   "autor": "Henry Golden Dearth",
+   "linha": "The Stubble Field, c. 1909. Henry Golden Dearth (American, 1864–1918). Oil on canvas; unframed: 81 x 115.5 cm (31 7/8 x 45 1/2 in.). The Cleveland Museum of Art, Gift of George E. Gage and Frederic S. Porter, 1924.198",
+   "fonte": "cma",
+   "licenca": "CC0-1.0",
+   "url": "https://clevelandart.org/art/1924.198"
+  },
+  "revisao": {
+   "humana": "pendente",
+   "por": null,
+   "em": null
+  },
+  "midia": {
+   "arquivo": "midia/pinturas/cma-106093.webp",
+   "largura": 1600,
+   "altura": 1122
+  },
+  "rosto": null,
+  "nitido": null,
+  "sensivel": {
+   "nudez": "nenhuma",
+   "violencia": "nenhuma"
+  },
+  "_curadoria": {
+   "epoca": "1900+",
+   "regiao": "Estados Unidos",
+   "generos_por_palavra": "sem gênero detectado"
+  },
+  "_rostos": [],
+  "_destaque": null
+ }
+]
