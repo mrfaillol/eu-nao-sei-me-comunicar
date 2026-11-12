@@ -37,6 +37,13 @@ def validar_item(item: dict, construtos: set[str], fontes: dict) -> list[str]:
     if erros:
         return erros
 
+    definicao = item.get("definicao")
+    if definicao:
+        if item["tipo"] != "palavra":
+            erros.append("definicao: só palavra tem definição de dicionário")
+        elif fontes["fontes"].get(definicao["fonte"], {}).get("licenca") != definicao["licenca"]:
+            erros.append(f"definicao.licenca: {definicao['licenca']} não é a licença de {definicao['fonte']} no catálogo")
+
     tipo = item["tipo"]
     classe, origem = PERFIL[tipo]
     if item["classe_semiotica"] != classe:
@@ -72,9 +79,10 @@ def validar_item(item: dict, construtos: set[str], fontes: dict) -> list[str]:
     else:
         if item["idioma"] is not None:
             erros.append(f"idioma: {tipo} não tem idioma")
-        pasta = "midia/pinturas/" if tipo == "pintura" else "midia/sons/"
-        if item["midia"] is None or not item["midia"]["arquivo"].startswith(pasta):
-            erros.append(f"midia: {tipo} pede arquivo em {pasta}")
+        # A mídia mora no site (acervo conferido) ou no servidor de origem do próprio tipo (acervo ampliado).
+        lugares = ("midia/pinturas/", "https://openaccess-cdn.clevelandart.org/") if tipo == "pintura" else ("midia/sons/", "https://cdn.freesound.org/previews/")
+        if item["midia"] is None or not item["midia"]["arquivo"].startswith(lugares):
+            erros.append(f"midia: {tipo} pede arquivo em {lugares[0]} ou em {lugares[1]}")
         if tipo == "pintura":
             for campo in ("rosto", "nitido", "sensivel"):
                 if campo not in item:

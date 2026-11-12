@@ -100,3 +100,51 @@ def test_rotulo_acima_de_120_caracteres_reprova():
     item = copy.deepcopy(PINTURA)
     item["rotulo"] = "x" * 121
     assert any("rotulo" in e for e in erros(item))
+
+
+PALAVRA = {
+    "id": "palavra:pt-BR:saudade",
+    "tipo": "palavra",
+    "classe_semiotica": "simbolo",
+    "idioma": "pt-BR",
+    "rotulo": "saudade",
+    "texto_humano": "wistfulness; melancholy; nostalgia",
+    "origem_do_texto": "glosa",
+    "construtos": ["nostalgia"],
+    "tema_sensivel": False,
+    "afeto": {"metodo": "ausente"},
+    "credito": {"autor": "Colaboradores do Wiktionary", "linha": "Definição de saudade", "fonte": "wikcionario-en", "licenca": "CC-BY-SA-4.0", "url": "https://en.wiktionary.org/wiki/saudade"},
+    "revisao": {"humana": "pendente", "por": None, "em": None},
+    "midia": None,
+    "definicao": {"texto": "Lembrança triste e suave.", "classe": "s. f.", "pronuncia": "", "fonte": "dicionario-aberto", "licenca": "CC-BY-SA-2.5-PT", "url": "https://dicionario-aberto.net/search/saudade"},
+}
+
+
+def test_palavra_com_definicao_do_dicionario_da_propria_lingua_passa():
+    assert erros(PALAVRA) == []
+
+
+def test_definicao_com_licenca_que_nao_e_a_da_fonte_reprova():
+    item = copy.deepcopy(PALAVRA)
+    item["definicao"]["licenca"] = "CC0-1.0"
+    assert any("definicao.licenca" in e for e in erros(item))
+
+
+def test_definicao_em_item_que_nao_e_palavra_reprova():
+    item = copy.deepcopy(PINTURA)
+    item["definicao"] = copy.deepcopy(PALAVRA["definicao"])
+    assert any("definicao" in e for e in erros(item))
+
+
+def test_midia_remota_so_vale_nos_servidores_de_origem():
+    item = copy.deepcopy(PINTURA)
+    item["midia"]["arquivo"] = "https://openaccess-cdn.clevelandart.org/1950.1/1950.1_web.jpg"
+    assert erros(item) == []
+    item["midia"]["arquivo"] = "https://exemplo.test/quadro.jpg"
+    assert any("midia" in e for e in erros(item))
+
+
+def test_som_nao_aceita_midia_do_servidor_das_pinturas():
+    item = copy.deepcopy(SOM)
+    item["midia"]["arquivo"] = "https://openaccess-cdn.clevelandart.org/x.mp3"
+    assert any("midia" in e for e in erros(item))

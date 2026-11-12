@@ -26,6 +26,18 @@ export interface Credito {
   url: string;
 }
 
+/** A definição da palavra no dicionário da própria língua, copiada da fonte. */
+export interface Definicao {
+  texto: string;
+  /** Classe gramatical, como o dicionário a escreve ("s. f."). Pode vir vazia. */
+  classe: string;
+  /** Pinyin, nas palavras em mandarim. Vazio nas outras. */
+  pronuncia: string;
+  fonte: "dicionario-aberto" | "wikcionario-pt" | "moedict";
+  licenca: string;
+  url: string;
+}
+
 export interface Item {
   id: string;
   tipo: Tipo;
@@ -43,6 +55,7 @@ export interface Item {
     | null
     | { arquivo: string; largura: number; altura: number }
     | { arquivo: string; duracao_ms: number };
+  definicao?: Definicao;
   rosto?: Caixa | null;
   nitido?: string | null;
   sensivel?: { nudez: "nenhuma" | "parcial" | "frontal"; violencia: "nenhuma" | "historica" | "grafica" };

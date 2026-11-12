@@ -5,12 +5,15 @@ export interface Tocador {
   parar(): void;
   tocando(): string | null;
   aoMudar(observador: (id: string | null) => void): void;
+  /** O arquivo do som não abriu (rede, origem fora do ar). Recusa por falta de gesto não conta. */
+  aoFalhar(observador: (id: string) => void): void;
 }
 
 export function criarTocador(novoAudio: () => HTMLAudioElement = () => new Audio()): Tocador {
   let atual: { id: string; audio: HTMLAudioElement } | null = null;
   const observadores: Array<(id: string | null) => void> = [];
   const avisar = () => observadores.forEach((o) => o(atual?.id ?? null));
+  const falhas: Array<(id: string) => void> = [];
 
   function parar(): void {
     if (!atual) return;
@@ -25,6 +28,7 @@ export function criarTocador(novoAudio: () => HTMLAudioElement = () => new Audio
       atual?.audio.pause();
       const audio = novoAudio();
       audio.src = url;
+      audio.onerror = () => falhas.forEach((o) => o(id));
       audio.onended = () => {
         if (atual?.audio === audio) {
           atual = null;
@@ -46,5 +50,6 @@ export function criarTocador(novoAudio: () => HTMLAudioElement = () => new Audio
     parar,
     tocando: () => atual?.id ?? null,
     aoMudar: (o) => void observadores.push(o),
+    aoFalhar: (o) => void falhas.push(o),
   };
 }

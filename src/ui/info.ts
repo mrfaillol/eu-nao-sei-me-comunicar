@@ -21,10 +21,35 @@ const VOZ: Record<string, (item: Item) => string> = {
   "freesound-via-openverse": (item) => ["Freesound", item.credito.autor].filter(Boolean).join(", "),
 };
 
+// Cada língua com o seu dicionário, e cada dicionário com o seu jeito: o português traz a classe gramatical
+// e a secura de 1913; o chinês traz o pinyin e, muitas vezes, uma citação clássica dentro da definição.
+const DICIONARIO: Record<string, string> = {
+  "dicionario-aberto": "Dicionário Aberto (Cândido de Figueiredo, 1913)",
+  "wikcionario-pt": "Wikcionário",
+  moedict: "教育部《重編國語辭典修訂本》",
+};
+
+function verbete(item: Item, idioma: Idioma): HTMLElement[] | null {
+  const d = item.definicao;
+  if (!d) return null;
+  const cabeca = el("p", { class: "info-verbete", lang: item.idioma }, el("strong", {}, item.rotulo));
+  if (d.pronuncia) cabeca.append(" ", el("span", { class: "info-pronuncia", lang: "zh-Latn" }, d.pronuncia));
+  if (d.classe) cabeca.append(" ", el("i", {}, d.classe));
+  return [
+    el("p", { class: "info-titulo" }, t("info.palavra", idioma)),
+    cabeca,
+    // A definição chinesa fica em caracteres tradicionais, como o dicionário a publicou.
+    el("p", { class: "info-glosa", lang: d.fonte === "moedict" ? "zh-Hant" : item.idioma }, d.texto),
+    el("p", { class: "info-fonte" }, `${DICIONARIO[d.fonte] ?? d.fonte} · ${d.licenca}`),
+  ];
+}
+
 function conteudo(item: Item, idioma: Idioma): HTMLElement[] {
   const voz = VOZ[item.credito.fonte]?.(item);
   const fonte = el("p", { class: "info-fonte" }, voz ? `${voz} · ${item.credito.licenca}` : item.credito.linha);
   if (item.tipo === "palavra") {
+    const doDicionario = verbete(item, idioma);
+    if (doDicionario) return doDicionario;
     return [el("p", { class: "info-titulo" }, t("info.palavra", idioma)), el("p", { class: "info-glosa", lang: item.idioma }, item.texto_humano), fonte];
   }
   const nos: HTMLElement[] = [

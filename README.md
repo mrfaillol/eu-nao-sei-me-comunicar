@@ -33,6 +33,8 @@ Sem chave de modelo e sem rede o site funciona inteiro: a frase é composta por 
 - A Vercel não espera o CI: ela publica o que chegar na `main`. Quem segura código quebrado é a revisão do pull request, com o CI verde antes de mesclar.
 - No plano gratuito da Vercel, commit de repositório privado só é publicado quando o autor é reconhecido pelo GitHub. Por isso o `git config user.email` deste repositório usa o e-mail `noreply` da conta.
 
+`node scripts/gravar-demo.mjs` grava o vídeo de divulgação (uma passada pelo site, muda, com zooms) em `divulgacao/`.
+
 Depois de publicar, `node scripts/fumaca-producao.mjs` faz o fluxo inteiro contra a URL de produção (celular, tela larga, três idiomas e sem rede) e sai com erro se algo falhar.
 
 O acervo publicado é o de demonstração: os 150 itens estão com revisão humana pendente e o site diz isso nos créditos.
@@ -43,7 +45,7 @@ O acervo publicado é o de demonstração: os 150 itens estão com revisão huma
 - A frase conta quantos itens foram reunidos, nomeia o tema que mais se repete e até três ao fundo. Os demais termos da seleção ficam listados na caixa, com definição e DOI.
 - Fechar a caixa (Esc ou **Escolher mais**) conserva a seleção. **Recomeçar** apaga.
 - O **(i)** acima de cada item abre uma caixa: nas pinturas, palavras tiradas do texto de curadoria do museu; nos sons, as tags de quem publicou; nas palavras, a definição do dicionário. Nenhuma palavra é escrita pelo site: `src/ui/descritores.ts` só separa, tira palavras vazias e amostra o texto humano do item. As palavras ficam no idioma em que foram escritas (inglês).
-- Limitação conhecida: a definição das palavras em português e em mandarim está em inglês, porque vem do Wiktionary em inglês e de Zheng et al. (2023).
+- Cada língua tem o seu dicionário. Em português, o Dicionário Aberto (Cândido de Figueiredo, 1913), com classe gramatical e a definição seca de dicionário antigo, e o Wikcionário para duas palavras que ele não tem. Em mandarim, o 重編國語辭典修訂本 do Ministério da Educação de Taiwan, com pinyin e, muitas vezes, uma citação clássica; o texto fica em caracteres tradicionais, como foi publicado (a licença é CC BY-ND). Em inglês, o Wiktionary. A definição é copiada; a escolha do verbete e do sentido de cada palavra está em `data/definicoes.json`.
 - No canto direito da barra ficam a assinatura do autor, com link para https://vingren.me, e a foice e o martelo.
 
 ## Como as partes se encaixam
@@ -65,7 +67,9 @@ uv run python -m acervo palavras     # glosas do Wiktionary e de Zheng et al. (2
 uv run python -m acervo pinturas     # Cleveland Museum of Art, CC0
 uv run python -m acervo rostos       # rosto de destaque e recorte nítido
 uv run python -m acervo sons         # Freesound via Openverse, CC0
+uv run python -m acervo definicoes   # a definição de cada palavra no dicionário da sua língua
 uv run python -m acervo montar       # grava public/indice/ e confere as invariantes
+uv run python -m acervo ampliar      # grava public/indice/ampliado.json, o acervo além do conferido
 uv run python -m acervo revisao      # gera revisao/index.html
 ```
 
@@ -76,6 +80,27 @@ Regras que o pipeline faz valer:
 - Todo construto do glossário tem referência com DOI que resolve no Crossref.
 - Só CC0 para pintura e som.
 - Os sons vêm de termos de busca sem voz e passam por uma lista de termos barrados em título e tags. Isso reduz, mas não garante, a ausência de voz ou de conteúdo impróprio: quem garante é a escuta humana, na folha de revisão.
+
+### Acervo conferido e acervo ampliado
+
+O site carrega dois índices.
+
+| | Conferido (`acervo.json`) | Ampliado (`ampliado.json`) |
+|---|---|---|
+| Tamanho | 30 pinturas, 30 sons, 90 palavras | 618 pinturas e 855 sons |
+| Mídia | no próprio site; funciona sem rede | nos servidores de origem: CDN aberto do museu e CDN do Freesound |
+| Anotação | lida item a item, com trecho citado | automática, por léxico (`data/lexico-construtos.json`), com trecho citado |
+| Rosto | detectado na imagem grande, com recorte nítido | detectado na imagem web; 296 pinturas têm rosto de destaque |
+| Quando entra | na primeira tela | depois dela, nas próximas trocas; só com rede |
+
+A regra do ampliado: um construto só entra quando uma pista dele está escrita, por uma pessoa, no texto do item (curadoria do museu, ou título e tags de quem publicou o som). O trecho que casou fica em `pipeline/saida/ampliado-evidencias.json`, e o comando recusa gravar se algum trecho não estiver no texto do item. Texto sem pista deixa o item de fora; texto com nudez ou violência gráfica também.
+
+O que isso custa, dito às claras:
+
+- **Léxico não é leitura.** "Retro video game sfx - Ocean wave" recebe o mesmo construto de uma gravação de mar. O léxico foi escrito com apoio de modelo e não passou por revisão humana.
+- **Ninguém ouviu os 855 sons nem olhou as 618 pinturas.** Os filtros (CC0, sem voz nos termos de busca, lista de termos barrados, marcação de conteúdo adulto da fonte, exclusão por palavra no texto) reduzem o risco e não o eliminam.
+- **O navegador de quem visita passa a falar com o museu e com o Freesound**, que recebem o pedido da imagem e do som. O site diz isso nos créditos. Fora esses dois, nenhum endereço de fora é chamado, e um teste confere.
+- Se o servidor de origem falhar, o item sai de oferta; com três falhas seguidas a janela volta a oferecer só o acervo conferido.
 
 ### Revisão humana
 
@@ -103,8 +128,8 @@ O servidor de produção ainda não tem adaptador: `criarInterpretar` recebe um 
 
 ## Estado, medido em 12/Nov/2026
 
-- Acervo: 30 pinturas (20 com rosto de destaque), 30 sons, 90 palavras. 150 itens com revisão pendente. Glossário com 34 construtos e 4 termos de dimensão.
-- Testes: 92 em Python, 293 de unidade em TypeScript, 64 de navegador (celular e tela larga, só em Chromium).
+- Acervo conferido: 30 pinturas (20 com rosto de destaque), 30 sons, 90 palavras, 60 delas com definição no dicionário da própria língua. Acervo ampliado: 618 pinturas (296 com rosto) e 855 sons, com os 34 construtos representados. Tudo com revisão humana pendente. Glossário com 34 construtos e 4 termos de dimensão.
+- Testes: 112 em Python, 299 de unidade em TypeScript, 78 de navegador (celular e tela larga, só em Chromium).
 - Validador: rejeita 33 de 33 frases defeituosas do conjunto de regressão e aceita 18 de 18 de referência. **É uma barreira, não uma prova.** A revisão final fez passar 13 frases que atribuíam estado à pessoa ou aconselhavam ("o medo que te consome", "you're anxious"); hoje elas são rejeitadas e viraram teste, mas a regra continua sendo lista, com furos por natureza.
 - O compositor por regra não gera frase reprovada: conferido pelo revisor em 352.440 frases (todos os trios do índice, nos três idiomas) e, no repositório, por um teste sobre uma amostra fixa.
 - Sonda do pré-prompt com modelo real: 17 de 18 respostas aprovadas na primeira tentativa. A reprovada, em mandarim, não tinha verbo de mensagem. Uma tentativa de injeção plantada nas tags de um som foi tratada como dado nos três idiomas.
@@ -121,7 +146,7 @@ O servidor de produção ainda não tem adaptador: `criarInterpretar` recebe um 
 ### NÃO PROVADO
 
 - Nenhuma chamada à API de um provedor. A sonda e o pareamento usaram subagentes da sessão de desenvolvimento, dentro de outro arnês.
-- Nada rodou em aparelho. Som em iPhone real, instalação da PWA e o app do Capacitor em uso ficam por testar. Hipótese a testar primeiro: o service worker entrega os `.mp3` sem tratar pedidos com `Range`, e o Safari costuma recusar isso; se valer, os sons não tocam na PWA instalada no iPhone (dentro do app Capacitor não há service worker e a hipótese não se aplica).
+- Em aparelho há uma prova só: uma captura do dono num iPhone, em 12/Nov, com a tela, a barra e o (i) desenhados certo. Fora isso, nada foi medido em aparelho. Som em iPhone real, instalação da PWA e o app do Capacitor em uso ficam por testar. Hipótese a testar primeiro: o service worker entrega os `.mp3` sem tratar pedidos com `Range`, e o Safari costuma recusar isso; se valer, os sons não tocam na PWA instalada no iPhone (dentro do app Capacitor não há service worker e a hipótese não se aplica).
 - O pareamento cego usou modelo como juiz, não gente.
 
 ### Revisão nativa pendente

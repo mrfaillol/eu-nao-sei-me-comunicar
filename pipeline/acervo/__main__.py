@@ -189,6 +189,39 @@ def cmd_montar(args) -> None:
         print(f"{idioma}: {len(sessao)} itens na sessão, {fracao_de_trios_de_um_construto(sessao):.3%} dos trios com um só construto")
 
 
+def cmd_definicoes(args) -> None:
+    """Busca, no dicionário de cada língua, a definição escolhida para cada palavra em português e em mandarim."""
+    from acervo import dicionarios as D
+
+    escolhas = json.loads((RAIZ / "data" / "definicoes.json").read_text(encoding="utf-8"))
+    fontes = json.loads((RAIZ / "data" / "fontes.json").read_text(encoding="utf-8"))
+    feitas = D.definicoes(escolhas, fontes)
+    gravar("definicoes.json", feitas)
+    print(f"definições: {len(feitas)}")
+
+
+def cmd_ampliar(args) -> None:
+    """Monta public/indice/ampliado.json: as pinturas e os sons além do acervo conferido."""
+    from acervo import ampliado as A
+
+    try:
+        fichas = A.buscar_fichas_do_museu()
+    except Exception as erro:  # a API do museu cai com 522 de vez em quando: as páginas da pesquisa servem, sem o nome do autor
+        print(f"API do museu indisponível ({erro}); usando as páginas em cache, sem o nome do autor", flush=True)
+        fichas = A.fichas_em_cache()
+    antigos = [t for t in _linhas(RAIZ / "data" / "sons-termos.txt")]
+    novos = [t for t in _linhas(RAIZ / "data" / "sons-termos-ampliado.txt")]
+    sons = A.buscar_sons(novos, antigos) if not args.sem_rede else A._so_do_cache(A.S.FonteOpenverse(A.CACHE / "openverse"))
+    resultado = A.montar(fichas, sons, com_rostos=not args.sem_rostos)
+    print(json.dumps(resultado["resumo"], ensure_ascii=False), flush=True)
+    if resultado["erros"]:
+        raise SystemExit("\n".join(resultado["erros"][:20]))
+    destino = RAIZ / "public" / "indice" / "ampliado.json"
+    destino.write_text(json.dumps(resultado["acervo"], ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    gravar("ampliado-evidencias.json", resultado["evidencias"])
+    print(f"gravado {destino} ({destino.stat().st_size // 1024} KB)")
+
+
 def cmd_revisao(args) -> None:
     from acervo import montar as M
     from acervo.revisao import gerar_folha
@@ -230,6 +263,14 @@ def main() -> None:
     p = sub.add_parser("montar", help="monta public/indice a partir dos intermediários e das anotações")
     p.add_argument("--publicavel", action="store_true", help="só itens aprovados na revisão humana")
     p.set_defaults(func=cmd_montar)
+
+    p = sub.add_parser("definicoes", help="monta pipeline/saida/definicoes.json com o dicionário de cada língua")
+    p.set_defaults(func=cmd_definicoes)
+
+    p = sub.add_parser("ampliar", help="monta public/indice/ampliado.json, o acervo além do conferido")
+    p.add_argument("--sem-rede", action="store_true", help="sons só do que já está em cache")
+    p.add_argument("--sem-rostos", action="store_true", help="não baixa as imagens nem detecta rosto")
+    p.set_defaults(func=cmd_ampliar)
 
     p = sub.add_parser("revisao", help="gera a folha de revisão humana em revisao/index.html")
     p.set_defaults(func=cmd_revisao)

@@ -94,7 +94,11 @@ def juntar_intermediarios(origem: Path, anotacoes: dict, construtos: set[str], d
             erros += falhas
             itens.append(anotado)
         erros += [f"{ident}: anotação de item que não está em {nome}.json" for ident in anotacoes[nome] if ident not in usadas]
-    return itens + _ler(origem / "palavras.json"), erros
+    # A definição no dicionário da própria língua entra nas palavras em português e em mandarim.
+    arquivo = origem / "definicoes.json"
+    definicoes = _ler(arquivo) if arquivo.exists() else {}
+    palavras = [{**p, "definicao": definicoes[p["id"]]} if p["id"] in definicoes else p for p in _ler(origem / "palavras.json")]
+    return itens + palavras, erros
 
 
 def montar(
