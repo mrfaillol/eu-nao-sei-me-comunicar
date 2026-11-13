@@ -1279,6 +1279,142 @@
   "licenca": "CC-BY-SA-4.0",
   "url": "https://pt.wiktionary.org/wiki/anseio"
  },
+ "palavra:pt-BR:paz": {
+  "texto": "Tranquilidade, sossego, descanso.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/paz"
+ },
+ "palavra:pt-BR:bondade": {
+  "texto": "Brandura, benevolência.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/bondade"
+ },
+ "palavra:pt-BR:afeição": {
+  "texto": "Afeto.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/afei%C3%A7%C3%A3o"
+ },
+ "palavra:pt-BR:estima": {
+  "texto": "Afeição.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/estima"
+ },
+ "palavra:pt-BR:ócio": {
+  "texto": "Vagar, lazer descanso; estado de quem não faz nada.",
+  "classe": "s. m.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/%C3%B3cio"
+ },
+ "palavra:pt-BR:torpor": {
+  "texto": "Entorpecimento.",
+  "classe": "s. m.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/torpor"
+ },
+ "palavra:pt-BR:fôlego": {
+  "texto": "Respiração.",
+  "classe": "s. m.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/f%C3%B4lego"
+ },
+ "palavra:pt-BR:louvor": {
+  "texto": "Elogio; apologia; glorificação.",
+  "classe": "s. m.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/louvor"
+ },
+ "palavra:pt-BR:ventura": {
+  "texto": "Fortuna próspera.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/ventura"
+ },
+ "palavra:pt-BR:riso": {
+  "texto": "Acto ou efeito de rir.",
+  "classe": "s. m.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/riso"
+ },
+ "palavra:pt-BR:gargalhada": {
+  "texto": "Risada prolongada e ruidosa.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/gargalhada"
+ },
+ "palavra:pt-BR:festa": {
+  "texto": "Regosijo.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/festa"
+ },
+ "palavra:pt-BR:multidão": {
+  "texto": "Grande número ou ajuntamento de pessoas ou coisas.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/multid%C3%A3o"
+ },
+ "palavra:pt-BR:ruído": {
+  "texto": "Qualquer estrondo.",
+  "classe": "s. m.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/ru%C3%ADdo"
+ },
+ "palavra:pt-BR:alarido": {
+  "texto": "Gritaria; clamor.",
+  "classe": "s. m.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/alarido"
+ },
+ "palavra:pt-BR:ameaça": {
+  "texto": "Prenúncio (de mal ou de desgraça).",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/amea%C3%A7a"
+ },
+ "palavra:pt-BR:perigo": {
+  "texto": "Estado, em que alguma coisa se receia; risco.",
+  "classe": "s. m.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/perigo"
+ },
  "palavra:zh-CN:孤单": {
   "texto": "單獨無依。",
   "classe": "",
@@ -2838,5 +2974,357 @@
   "fonte": "moedict",
   "licenca": "CC-BY-ND-3.0-TW",
   "url": "https://www.moedict.tw/%E7%84%A6%E6%B8%B4"
+ },
+ "palavra:zh-CN:哀怨": {
+  "texto": "哀傷怨恨。",
+  "classe": "",
+  "pronuncia": "āi yuàn",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%93%80%E6%80%A8"
+ },
+ "palavra:zh-CN:难过": {
+  "texto": "傷心、難受。",
+  "classe": "",
+  "pronuncia": "nán guò",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E9%9B%A3%E9%81%8E"
+ },
+ "palavra:zh-CN:痛心": {
+  "texto": "哀傷、悲痛到了極點。",
+  "classe": "",
+  "pronuncia": "tòng xīn",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E7%97%9B%E5%BF%83"
+ },
+ "palavra:zh-CN:伤感": {
+  "texto": "有所感觸而悲傷。",
+  "classe": "",
+  "pronuncia": "shāng gǎn",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%82%B7%E6%84%9F"
+ },
+ "palavra:zh-CN:欢呼": {
+  "texto": "快樂的呼叫。",
+  "classe": "",
+  "pronuncia": "huān hū",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%AD%A1%E5%91%BC"
+ },
+ "palavra:zh-CN:兴奋": {
+  "texto": "精神振作，情緒激動。",
+  "classe": "",
+  "pronuncia": "xīng fèn",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E8%88%88%E5%A5%AE"
+ },
+ "palavra:zh-CN:称心": {
+  "texto": "如意、滿意。《紅樓夢》第七六回：「說貧窮之家，自為富貴之家事事稱心。」《老殘遊記二編》第三回：「你把第一個傻子讓給別人做，你做第二個人去，一樣的稱心，一樣的快樂。」也作「稱意」。",
+  "classe": "",
+  "pronuncia": "chèng xīn",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E7%A8%B1%E5%BF%83"
+ },
+ "palavra:zh-CN:满意": {
+  "texto": "符合心意。",
+  "classe": "",
+  "pronuncia": "mǎn yì",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%BB%BF%E6%84%8F"
+ },
+ "palavra:zh-CN:舒坦": {
+  "texto": "舒暢平和。",
+  "classe": "",
+  "pronuncia": "shū tǎn",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E8%88%92%E5%9D%A6"
+ },
+ "palavra:zh-CN:畅快": {
+  "texto": "舒暢快樂，稱心如意。",
+  "classe": "",
+  "pronuncia": "chàng kuài",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%9A%A2%E5%BF%AB"
+ },
+ "palavra:zh-CN:痛快": {
+  "texto": "心情舒暢。",
+  "classe": "",
+  "pronuncia": "tòng kuài",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E7%97%9B%E5%BF%AB"
+ },
+ "palavra:zh-CN:喜庆": {
+  "texto": "慶賀，對別人的喜事表示慶賀。",
+  "classe": "",
+  "pronuncia": "xǐ qìng",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%96%9C%E6%85%B6"
+ },
+ "palavra:zh-CN:尊敬": {
+  "texto": "尊崇、敬重。",
+  "classe": "",
+  "pronuncia": "zūn jìng",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%B0%8A%E6%95%AC"
+ },
+ "palavra:zh-CN:敬慕": {
+  "texto": "尊敬仰慕。",
+  "classe": "",
+  "pronuncia": "jìng mù",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%95%AC%E6%85%95"
+ },
+ "palavra:zh-CN:尊崇": {
+  "texto": "尊敬推崇。",
+  "classe": "",
+  "pronuncia": "zūn chóng",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%B0%8A%E5%B4%87"
+ },
+ "palavra:zh-CN:骇异": {
+  "texto": "驚駭訝異。",
+  "classe": "",
+  "pronuncia": "hài yì",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E9%A7%AD%E7%95%B0"
+ },
+ "palavra:zh-CN:怕": {
+  "texto": "恐懼、害怕。",
+  "classe": "動",
+  "pronuncia": "pà",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%80%95"
+ },
+ "palavra:zh-CN:可怕": {
+  "texto": "讓人害怕。",
+  "classe": "",
+  "pronuncia": "kě pà",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%8F%AF%E6%80%95"
+ },
+ "palavra:zh-CN:慌张": {
+  "texto": "因慌忙而張惶失措。",
+  "classe": "",
+  "pronuncia": "huāng zhāng",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%85%8C%E5%BC%B5"
+ },
+ "palavra:zh-CN:忧愁": {
+  "texto": "擔憂發愁。",
+  "classe": "",
+  "pronuncia": "yōu chóu",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%86%82%E6%84%81"
+ },
+ "palavra:zh-CN:着急": {
+  "texto": "焦慮、急躁。",
+  "classe": "",
+  "pronuncia": "zhāo jí",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E8%91%97%E6%80%A5"
+ },
+ "palavra:zh-CN:冒火": {
+  "texto": "生氣、發火。",
+  "classe": "",
+  "pronuncia": "mào huǒ",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%86%92%E7%81%AB"
+ },
+ "palavra:zh-CN:窝火": {
+  "texto": "生氣、氣悶。",
+  "classe": "",
+  "pronuncia": "wō huǒ",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E7%AA%A9%E7%81%AB"
+ },
+ "palavra:zh-CN:恼恨": {
+  "texto": "惱怒怨恨。",
+  "classe": "",
+  "pronuncia": "nǎo hèn",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%83%B1%E6%81%A8"
+ },
+ "palavra:zh-CN:忿怒": {
+  "texto": "生氣、發怒。",
+  "classe": "",
+  "pronuncia": "fèn nù",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%BF%BF%E6%80%92"
+ },
+ "palavra:zh-CN:可恨": {
+  "texto": "令人憤恨。",
+  "classe": "",
+  "pronuncia": "kě hèn",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%8F%AF%E6%81%A8"
+ },
+ "palavra:zh-CN:可恶": {
+  "texto": "令人厭惡。",
+  "classe": "",
+  "pronuncia": "kě wù",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%8F%AF%E6%83%A1"
+ },
+ "palavra:zh-CN:憎恶": {
+  "texto": "憎恨惡人、壞事。",
+  "classe": "",
+  "pronuncia": "zēng è",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%86%8E%E6%83%A1"
+ },
+ "palavra:zh-CN:敌意": {
+  "texto": "懷著仇恨、不友善的態度。",
+  "classe": "",
+  "pronuncia": "dí yì",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%95%B5%E6%84%8F"
+ },
+ "palavra:zh-CN:敌视": {
+  "texto": "以對抗、仇視的態度相對待。",
+  "classe": "",
+  "pronuncia": "dí shì",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%95%B5%E8%A6%96"
+ },
+ "palavra:zh-CN:抱愧": {
+  "texto": "心中懷存愧意。",
+  "classe": "",
+  "pronuncia": "bào kuì",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%8A%B1%E6%84%A7"
+ },
+ "palavra:zh-CN:对不起": {
+  "texto": "對人表示抱歉。《文明小史》第四〇回：「人家尚且替我們那般發急，我們自己倒明知故犯，也覺對不起人家了。」也作「對不住」。",
+  "classe": "",
+  "pronuncia": "duì bu qǐ",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%B0%8D%E4%B8%8D%E8%B5%B7"
+ },
+ "palavra:zh-CN:困窘": {
+  "texto": "為難，感到難辦。",
+  "classe": "",
+  "pronuncia": "kùn jiǒng",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%9B%B0%E7%AA%98"
+ },
+ "palavra:zh-CN:羞惭": {
+  "texto": "面含羞而心慚愧。《西遊記》第四二回：「那妖王滿面羞慚，不敢回視。」《文明小史》第三五回：「說得毓生滿面羞慚，只得如數給他。」也作「羞慙」。",
+  "classe": "",
+  "pronuncia": "xiū cán",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E7%BE%9E%E6%85%9A"
+ },
+ "palavra:zh-CN:可耻": {
+  "texto": "令人感到羞恥。",
+  "classe": "",
+  "pronuncia": "kě chǐ",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%8F%AF%E6%81%A5"
+ },
+ "palavra:zh-CN:忌恨": {
+  "texto": "忌妒怨恨。",
+  "classe": "",
+  "pronuncia": "jì hèn",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%BF%8C%E6%81%A8"
+ },
+ "palavra:zh-CN:喜欢": {
+  "texto": "喜愛。",
+  "classe": "",
+  "pronuncia": "xǐ huān",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%96%9C%E6%AD%A1"
+ },
+ "palavra:zh-CN:在乎": {
+  "texto": "在意、注意、關心。",
+  "classe": "",
+  "pronuncia": "zài hū",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%9C%A8%E4%B9%8E"
+ },
+ "palavra:zh-CN:无奈": {
+  "texto": "無可如何。《初刻拍案驚奇》卷一〇：「只為點繡女事急，倉卒中，不暇思前算後，做此一事，也是出于無奈。」《紅樓夢》第七七回：「我佛立願，原是連一切眾生無論雞犬皆要度他，無奈迷人不醒。」也作「無那」。",
+  "classe": "",
+  "pronuncia": "wú nài",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E7%84%A1%E5%A5%88"
+ },
+ "palavra:zh-CN:瞧不起": {
+  "texto": "看不起。",
+  "classe": "",
+  "pronuncia": "qiáo bù qǐ",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E7%9E%A7%E4%B8%8D%E8%B5%B7"
+ },
+ "palavra:zh-CN:鄙夷": {
+  "texto": "輕視、瞧不起。唐．韓愈〈柳州羅池廟碑〉：「柳侯為州，不鄙夷其民，動以禮法。」也作「鄙視」。",
+  "classe": "",
+  "pronuncia": "bǐ yí",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E9%84%99%E5%A4%B7"
+ },
+ "palavra:zh-CN:鄙薄": {
+  "texto": "鄙視、輕視。",
+  "classe": "",
+  "pronuncia": "bǐ bó",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E9%84%99%E8%96%84"
+ },
+ "palavra:zh-CN:信任": {
+  "texto": "相信而敢有所託付。",
+  "classe": "",
+  "pronuncia": "xìn rèn",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E4%BF%A1%E4%BB%BB"
+ },
+ "palavra:zh-CN:信赖": {
+  "texto": "信任仰賴。",
+  "classe": "",
+  "pronuncia": "xìn lài",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E4%BF%A1%E8%B3%B4"
  }
 }

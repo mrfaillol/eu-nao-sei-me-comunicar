@@ -14,6 +14,12 @@ from jsonschema import Draft202012Validator
 
 RAIZ = Path(__file__).resolve().parents[2]
 
+# Onde a imagem de cada museu pode morar quando não está no site.
+SERVIDOR_DA_FONTE = {
+    "cma": ("https://openaccess-cdn.clevelandart.org/",),
+    "mia": tuple(f"https://{n}.api.artsmia.org/800/" for n in range(7)),
+}
+
 # tipo -> (classe semiótica, origem do texto)
 PERFIL = {
     "pintura": ("icone", "curadoria"),
@@ -80,9 +86,17 @@ def validar_item(item: dict, construtos: set[str], fontes: dict) -> list[str]:
         if item["idioma"] is not None:
             erros.append(f"idioma: {tipo} não tem idioma")
         # A mídia mora no site (acervo conferido) ou no servidor de origem do próprio tipo (acervo ampliado).
-        lugares = ("midia/pinturas/", "https://openaccess-cdn.clevelandart.org/") if tipo == "pintura" else ("midia/sons/", "https://cdn.freesound.org/previews/")
+        # Imagem de fora só vale no servidor da própria fonte, e com a licença dela: é o que impede uma foto
+        # de uso restrito de entrar no acervo como se fosse de domínio público.
+        fonte = credito["fonte"]
+        if tipo == "pintura":
+            lugares = ("midia/pinturas/", *SERVIDOR_DA_FONTE.get(fonte, ()))
+            if fonte in fontes["fontes"] and credito["licenca"] != fontes["fontes"][fonte]["licenca"]:
+                erros.append(f"licenca: imagem de {fonte} pede {fontes['fontes'][fonte]['licenca']}")
+        else:
+            lugares = ("midia/sons/", "https://cdn.freesound.org/previews/")
         if item["midia"] is None or not item["midia"]["arquivo"].startswith(lugares):
-            erros.append(f"midia: {tipo} pede arquivo em {lugares[0]} ou em {lugares[1]}")
+            erros.append(f"midia: {tipo} pede arquivo em {' ou em '.join(lugares)}")
         if tipo == "pintura":
             for campo in ("rosto", "nitido", "sensivel"):
                 if campo not in item:

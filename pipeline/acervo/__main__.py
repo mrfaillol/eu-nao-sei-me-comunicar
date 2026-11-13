@@ -212,7 +212,14 @@ def cmd_ampliar(args) -> None:
     antigos = [t for t in _linhas(RAIZ / "data" / "sons-termos.txt")]
     novos = [t for t in _linhas(RAIZ / "data" / "sons-termos-ampliado.txt")]
     sons = A.buscar_sons(novos, antigos) if not args.sem_rede else A._so_do_cache(A.S.FonteOpenverse(A.CACHE / "openverse"))
-    resultado = A.montar(fichas, sons, com_rostos=not args.sem_rostos)
+    from acervo import mia as M
+
+    try:
+        do_mia = M.buscar_fichas_do_mia()
+    except Exception as erro:  # sem o segundo museu o acervo continua valendo, só menor
+        print(f"busca no Minneapolis Institute of Art falhou ({erro}); seguindo sem ele", flush=True)
+        do_mia = []
+    resultado = A.montar(fichas, sons, com_rostos=not args.sem_rostos, fichas_do_mia=do_mia)
     print(json.dumps(resultado["resumo"], ensure_ascii=False), flush=True)
     if resultado["erros"]:
         raise SystemExit("\n".join(resultado["erros"][:20]))

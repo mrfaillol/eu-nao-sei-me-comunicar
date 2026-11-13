@@ -26,7 +26,7 @@
   "creditos.abrir": "Credits and sources",
   "creditos.titulo": "Credits and sources",
   "creditos.demonstracao": "Demonstration collection: human review pending.",
-  "creditos.pinturas": "Images and curatorial texts: Cleveland Museum of Art, in the public domain (CC0). They are paintings, prints, drawings, photographs, textiles, and manuscript and book pages. This project is not the museum's and is not endorsed by it.",
+  "creditos.pinturas": "Images and curatorial texts: Cleveland Museum of Art, in the public domain (CC0). They are paintings, prints, drawings, photographs, textiles, and manuscript and book pages. Some images are from the Minneapolis Institute of Art: the curatorial text is CC0, and the photograph stays on the museum's server, which offers it for non-commercial and educational use only. This project belongs to neither museum and is not endorsed by them.",
   "creditos.sons": "Public-domain (CC0) sounds published on Freesound and found with Openverse. This project is not Openverse's and is not endorsed by it.",
   "creditos.palavras": "Portuguese and English glosses copied unaltered from Wiktionary (CC BY-SA 4.0). Mandarin glosses from Zheng et al. (2023), under CC0.",
   "creditos.normas": "Valence and arousal of the English words: The Glasgow Norms, Scott et al. (2019), CC BY 4.0, with values normalized by this project.",
@@ -48,7 +48,7 @@
   "autoria.rotulo": "Víctor Vingren, author. Opens vingren.me",
   "autoria.simbolo": "Hammer and sickle. Opens the source code on GitHub",
   "creditos.curto": "Credits",
-  "creditos.ampliado": "Extended collection: {n} more images and sounds. Their image and audio come straight from the museum and Freesound servers, which therefore receive a request from your browser. These items are annotated automatically: a term is used only when a cue for it is written in the text of whoever described the work or published the sound. Each credit appears with the sentence.",
+  "creditos.ampliado": "Extended collection: {n} more images and sounds. Their image and audio come straight from the museums' and Freesound's servers, which therefore receive a request from your browser. These items are annotated automatically: a term is used only when a cue for it is written in the text of whoever described the work or published the sound. Each credit appears with the sentence.",
   "creditos.dicionarios": "Definitions of the Portuguese words: Dicionário Aberto, based on Cândido de Figueiredo’s Novo Diccionário (1913), CC BY-SA 2.5 Portugal, and the Portuguese Wiktionary, CC BY-SA 4.0. Definitions of the Chinese words: 重編國語辭典修訂本, Ministry of Education of Taiwan, via moedict, CC BY-ND 3.0 Taiwan, unaltered.",
   "resultado.simples": "In plain words"
 }

@@ -138,7 +138,9 @@ def item_de_pintura(ficha: dict, lexico: dict) -> tuple[dict, list[dict]] | None
 
 
 def _baixar_imagem(item: dict) -> Path | None:
-    destino = IMAGENS / f"{item['id'].rsplit(':', 1)[-1]}.jpg"
+    # O número da obra se repete entre museus: fora de Cleveland, o nome do arquivo leva a fonte.
+    _, fonte, numero = item["id"].split(":", 2)
+    destino = IMAGENS / (f"{numero}.jpg" if fonte == "cma" else f"{fonte}-{numero}.jpg")
     if destino.exists() and destino.stat().st_size > 0:
         return destino
     try:
@@ -220,7 +222,7 @@ def limitar_series(itens: list[dict], teto: int = TETO_POR_TEXTO) -> list[dict]:
     return ficam
 
 
-def montar(fichas: list[dict], resultados_de_som: list[dict], com_rostos: bool = True) -> dict:
+def montar(fichas: list[dict], resultados_de_som: list[dict], com_rostos: bool = True, fichas_do_mia: list[dict] | None = None) -> dict:
     lexico = _ler(RAIZ / "data" / "lexico-construtos.json")
     fontes = _ler(RAIZ / "data" / "fontes.json")
     construtos = {c["id"] for c in _ler(RAIZ / "data" / "construtos.json") if not c.get("dimensao")}
@@ -241,6 +243,11 @@ def montar(fichas: list[dict], resultados_de_som: list[dict], com_rostos: bool =
 
     for ficha in fichas:
         entra(item_de_pintura(ficha, lexico))
+    if fichas_do_mia:
+        from acervo.mia import item_do_mia
+
+        for ficha in fichas_do_mia:
+            entra(item_do_mia(ficha, lexico))
     todas = [i for i in itens.values() if i["tipo"] == "pintura"]
     pinturas = limitar_series(todas)
     for sobra in {i["id"] for i in todas} - {i["id"] for i in pinturas}:

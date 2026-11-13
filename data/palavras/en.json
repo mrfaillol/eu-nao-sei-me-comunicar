@@ -174,5 +174,19 @@
   {"palavra": "birthplace", "sentido": 0, "construtos": ["apego_ao_lugar"], "tema_sensivel": false},
   {"palavra": "hearth", "sentido": 0, "construtos": ["apego_ao_lugar"], "tema_sensivel": false},
   {"palavra": "clemency", "sentido": 0, "construtos": ["compaixao"], "tema_sensivel": false},
-  {"palavra": "solidarity", "sentido": 1, "construtos": ["empatia", "pertencimento"], "tema_sensivel": false}
+  {"palavra": "solidarity", "sentido": 1, "construtos": ["empatia", "pertencimento"], "tema_sensivel": false},
+  {"palavra": "peace", "sentido": 1, "construtos": ["restauracao_da_atencao"], "tema_sensivel": false},
+  {"palavra": "idleness", "sentido": 0, "construtos": ["tedio"], "tema_sensivel": false},
+  {"palavra": "languor", "sentido": 2, "construtos": ["tedio"], "tema_sensivel": false},
+  {"palavra": "breath", "sentido": 0, "construtos": ["interocepcao"], "tema_sensivel": false},
+  {"palavra": "pulse", "sentido": 0, "construtos": ["interocepcao"], "tema_sensivel": false},
+  {"palavra": "praise", "sentido": 0, "construtos": ["gratidao"], "tema_sensivel": false},
+  {"palavra": "laughter", "sentido": 0, "construtos": ["emocoes_positivas", "contagio_emocional"], "tema_sensivel": false},
+  {"palavra": "feast", "sentido": 1, "construtos": ["contagio_emocional"], "tema_sensivel": false},
+  {"palavra": "noise", "sentido": 0, "construtos": ["sobrecarga_sensorial"], "tema_sensivel": false},
+  {"palavra": "premonition", "sentido": 1, "construtos": ["medo"], "tema_sensivel": false},
+  {"palavra": "peril", "sentido": 0, "construtos": ["medo"], "tema_sensivel": false},
+  {"palavra": "danger", "sentido": 0, "construtos": ["medo"], "tema_sensivel": false},
+  {"palavra": "care", "sentido": 0, "construtos": ["compaixao"], "tema_sensivel": false},
+  {"palavra": "gentleness", "sentido": 0, "construtos": ["compaixao"], "tema_sensivel": false}
 ]
