@@ -7,8 +7,13 @@ const TRAVA = 420;
 /** Escolhe um item pelo id, pedindo "outras três" até ele aparecer na janela. */
 async function escolherPorId(page: Page, janela: "pintura" | "som" | "palavra", id: string): Promise<void> {
   const alvo = page.locator(`[data-janela="${janela}"] [data-id="${id}"]`);
-  // Cada troca mostra três itens ainda não vistos: quarenta trocas cobrem uma janela de até 120 itens.
-  for (let n = 0; n < 40 && (await alvo.count()) === 0; n++) {
+  // Cada troca mostra três itens ainda não vistos, e a janela só recomeça a volta quando todos passaram. Um item
+  // que já passou enquanto se procurava outro só reaparece na volta seguinte: no pior caso são duas voltas.
+  // O acervo cresce em lotes, então o limite sai do tamanho real da janela, e não de um número fixo.
+  const acervo = (await (await page.request.get("/indice/acervo.json")).json()) as { itens: Array<{ tipo: string; idioma: string | null }> };
+  const idioma = await page.locator("#idioma").inputValue();
+  const naJanela = acervo.itens.filter((i) => i.tipo === janela && (i.idioma === null || i.idioma === idioma)).length;
+  for (let n = 0; n < Math.ceil(naJanela / 3) * 2 + 2 && (await alvo.count()) === 0; n++) {
     await page.locator(`[data-janela="${janela}"] [data-acao="outras"]`).click();
   }
   await page.waitForTimeout(TRAVA);
@@ -254,7 +259,8 @@ test.describe("achados da revisão final", () => {
   });
 
   test("sem tema sensível, a ajuda está na caixa da frase sem destaque", async ({ page }) => {
-    for (const palavra of ["aconchego", "alívio", "júbilo"]) await escolherPorId(page, "palavra", `palavra:pt-BR:${palavra}`);
+    test.slow(); // achar três palavras certas pode pedir duas voltas inteiras da janela, e o runner do CI é lento
+  for (const palavra of ["aconchego", "alívio", "júbilo"]) await escolherPorId(page, "palavra", `palavra:pt-BR:${palavra}`);
     await verFrase(page);
     const ajuda = page.locator('dialog[data-dialogo="resultado"] [data-acao="ajuda-no-resultado"]');
     await expect(ajuda).toBeVisible();
@@ -277,6 +283,7 @@ test("a frase abre dentro da tela mesmo com a página rolada", async ({ page }) 
 });
 
 test("a frase vem com uma versão em palavras simples, e cada termo também", async ({ page }, info) => {
+  test.slow(); // achar três palavras certas pode pedir duas voltas inteiras da janela, e o runner do CI é lento
   for (const palavra of ["aconchego", "alívio", "júbilo"]) await escolherPorId(page, "palavra", `palavra:pt-BR:${palavra}`);
   await verFrase(page);
   const dialogo = page.locator('dialog[data-dialogo="resultado"]');
