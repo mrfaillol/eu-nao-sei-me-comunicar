@@ -1,0 +1,301 @@
+{
+ "fim": 52.058,
+ "notas": [
+  {
+   "t": 0.25,
+   "tipo": "abertura",
+   "de": 38,
+   "para": 38,
+   "dura": 2.679
+  },
+  {
+   "t": 3.079,
+   "tipo": "cursor",
+   "de": 45,
+   "para": 50,
+   "dura": 1.028
+  },
+  {
+   "t": 4.001,
+   "tipo": "pizzicato (pega)",
+   "nota": 50
+  },
+  {
+   "t": 4.127,
+   "tipo": "cursor",
+   "de": 50,
+   "para": 50,
+   "dura": 2.073
+  },
+  {
+   "t": 5.705,
+   "tipo": "pizzicato (solta)",
+   "nota": 50
+  },
+  {
+   "t": 6.22,
+   "tipo": "cursor",
+   "de": 50,
+   "para": 45,
+   "dura": 1.463
+  },
+  {
+   "t": 7.14,
+   "tipo": "câmera: palavras da pintura",
+   "de": 57,
+   "para": 57,
+   "dura": 3.25
+  },
+  {
+   "t": 9.753,
+   "tipo": "cursor",
+   "de": 45,
+   "para": 43,
+   "dura": 1.447
+  },
+  {
+   "t": 10.791,
+   "tipo": "pizzicato da escolha",
+   "nota": 43
+  },
+  {
+   "t": 10.811,
+   "tipo": "nota da escolha",
+   "de": 38,
+   "para": 38,
+   "dura": 22.802
+  },
+  {
+   "t": 11.8,
+   "tipo": "cursor",
+   "de": 43,
+   "para": 48,
+   "dura": 1.5
+  },
+  {
+   "t": 12.89,
+   "tipo": "pizzicato (tocar)",
+   "nota": 48
+  },
+  {
+   "t": 14.2,
+   "tipo": "cursor",
+   "de": 48,
+   "para": 48,
+   "dura": 1.435
+  },
+  {
+   "t": 15.226,
+   "tipo": "pizzicato da escolha",
+   "nota": 48
+  },
+  {
+   "t": 15.246,
+   "tipo": "nota da escolha",
+   "de": 45,
+   "para": 45,
+   "dura": 18.367
+  },
+  {
+   "t": 16.03,
+   "tipo": "cursor",
+   "de": 48,
+   "para": 48,
+   "dura": 1.473
+  },
+  {
+   "t": 16.965,
+   "tipo": "câmera: dicionário",
+   "de": 53,
+   "para": 53,
+   "dura": 3.45
+  },
+  {
+   "t": 19.774,
+   "tipo": "cursor",
+   "de": 48,
+   "para": 48,
+   "dura": 1.493
+  },
+  {
+   "t": 20.858,
+   "tipo": "pizzicato da escolha",
+   "nota": 48
+  },
+  {
+   "t": 20.878,
+   "tipo": "nota da escolha",
+   "de": 53,
+   "para": 53,
+   "dura": 12.735
+  },
+  {
+   "t": 21.76,
+   "tipo": "cursor",
+   "de": 48,
+   "para": 41,
+   "dura": 1.558
+  },
+  {
+   "t": 22.909,
+   "tipo": "pizzicato (outras)",
+   "nota": 41
+  },
+  {
+   "t": 25.175,
+   "tipo": "cursor",
+   "de": 41,
+   "para": 45,
+   "dura": 1.558
+  },
+  {
+   "t": 26.324,
+   "tipo": "pizzicato da escolha",
+   "nota": 45
+  },
+  {
+   "t": 26.344,
+   "tipo": "nota da escolha",
+   "de": 60,
+   "para": 60,
+   "dura": 7.269
+  },
+  {
+   "t": 27.238,
+   "tipo": "cursor",
+   "de": 45,
+   "para": 45,
+   "dura": 1.546
+  },
+  {
+   "t": 28.375,
+   "tipo": "pizzicato da escolha",
+   "nota": 45
+  },
+  {
+   "t": 28.395,
+   "tipo": "nota da escolha",
+   "de": 55,
+   "para": 55,
+   "dura": 5.218
+  },
+  {
+   "t": 29.184,
+   "tipo": "cursor",
+   "de": 45,
+   "para": 38,
+   "dura": 1.466
+  },
+  {
+   "t": 30.104,
+   "tipo": "câmera: escolhas na barra",
+   "de": 55,
+   "para": 55,
+   "dura": 1.95
+  },
+  {
+   "t": 31.409,
+   "tipo": "cursor",
+   "de": 38,
+   "para": 38,
+   "dura": 1.193
+  },
+  {
+   "t": 32.193,
+   "tipo": "pizzicato do pedido",
+   "nota": 38
+  },
+  {
+   "t": 32.193,
+   "tipo": "pizzicato do pedido",
+   "nota": 50
+  },
+  {
+   "t": 34.094,
+   "tipo": "a frase aparece",
+   "nota": 38
+  },
+  {
+   "t": 34.098,
+   "tipo": "cursor",
+   "de": 38,
+   "para": 55,
+   "dura": 1.586
+  },
+  {
+   "t": 35.143,
+   "tipo": "câmera: a frase",
+   "de": 38,
+   "para": 38,
+   "dura": 5.05
+  },
+  {
+   "t": 35.143,
+   "tipo": "câmera: a frase",
+   "de": 45,
+   "para": 45,
+   "dura": 5.05
+  },
+  {
+   "t": 35.143,
+   "tipo": "câmera: a frase",
+   "de": 50,
+   "para": 50,
+   "dura": 5.05
+  },
+  {
+   "t": 39.55,
+   "tipo": "câmera: em palavras simples",
+   "de": 53,
+   "para": 53,
+   "dura": 4.25
+  },
+  {
+   "t": 39.55,
+   "tipo": "câmera: em palavras simples",
+   "de": 57,
+   "para": 57,
+   "dura": 4.25
+  },
+  {
+   "t": 43.385,
+   "tipo": "rolagem",
+   "de": 57,
+   "para": 50,
+   "dura": 1.15
+  },
+  {
+   "t": 44.341,
+   "tipo": "câmera: procedência",
+   "de": 60,
+   "para": 60,
+   "dura": 2.85
+  },
+  {
+   "t": 46.544,
+   "tipo": "a caixa fecha",
+   "nota": 62
+  },
+  {
+   "t": 47.081,
+   "tipo": "cursor",
+   "de": 55,
+   "para": 38,
+   "dura": 2.219
+  },
+  {
+   "t": 48.756,
+   "tipo": "câmera: assinatura",
+   "de": 38,
+   "para": 38,
+   "dura": 3.65
+  },
+  {
+   "t": 48.756,
+   "tipo": "câmera: assinatura",
+   "de": 50,
+   "para": 50,
+   "dura": 3.65
+  }
+ ]
+}
