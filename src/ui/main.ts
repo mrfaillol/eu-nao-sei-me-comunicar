@@ -15,12 +15,14 @@ import { criarDialogo, criarJanela, definirTitulo } from "./janela";
 import { desenharPalavras } from "./janela-palavras";
 import { desenharPinturas } from "./janela-pinturas";
 import { desenharSons, marcarSomTocando } from "./janela-sons";
-import { pedirFrase } from "./pedido";
+import { esperaDoCliente, pedirFrase } from "./pedido";
 import { desenharEspera, desenharResultado } from "./resultado";
 import { criarEstado, escolher, podeEscolher, pronta, redistribuir, retirar, trocarIdioma, type EstadoSelecao, type Janela } from "./selecao";
 
 const BASE = import.meta.env.BASE_URL;
 const API = (import.meta.env.VITE_API_BASE as string | undefined) || null;
+/** Quanto esperar pela função antes da frase por regra. Com modelo lento (gratuito), o padrão de 8 s não basta. */
+const ESPERA = esperaDoCliente(import.meta.env.VITE_FRASE_ESPERA_MS as string | undefined);
 // A bandeira é um emoji: aparece em celular e em Mac; no Windows o sistema mostra as letras do país (BR, GB, CN).
 const NOMES_DE_IDIOMA: Record<Idioma, string> = { "pt-BR": "🇧🇷 Português", en: "🇬🇧 English", "zh-CN": "🇨🇳 中文" };
 // A mídia do acervo conferido mora no site; a do ampliado, nos servidores de origem, com endereço completo.
@@ -178,7 +180,7 @@ function iniciar(raiz: HTMLElement, acervo: Acervo, glossario: Glossario, ajuda:
     const noPedido = idioma;
     desenharEspera(resultado.corpo, idioma);
     if (!resultado.dialogo.open) resultado.dialogo.showModal();
-    const resposta = await pedirFrase(ids, noPedido, { buscar: fetch.bind(window), base: API, acervo: itensDe(ids), glossario });
+    const resposta = await pedirFrase(ids, noPedido, { buscar: fetch.bind(window), base: API, acervo: itensDe(ids), glossario, prazoMs: ESPERA });
     // A pessoa pode ter recomeçado ou trocado de idioma enquanto a frase vinha.
     if (ids.join("|") !== estado.escolhidos.join("|") || noPedido !== idioma) return;
     ajudaDestacada = resposta.ajuda_destacada;

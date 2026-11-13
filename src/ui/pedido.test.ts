@@ -76,3 +76,11 @@ describe("pedirFrase", () => {
     expect(semTexto).not.toHaveProperty("simples");
   });
 });
+
+describe("quanto o navegador espera pela função", () => {
+  it("VITE_FRASE_ESPERA_MS entre 3 e 30 segundos vale; fora disso, torto ou ausente, são 8 segundos", async () => {
+    const { esperaDoCliente } = await import("./pedido");
+    expect(esperaDoCliente("16000")).toBe(16000);
+    for (const torto of [undefined, "", "abc", "2999", "30001", "1e4"]) expect(esperaDoCliente(torto), String(torto)).toBe(8000);
+  });
+});

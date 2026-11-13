@@ -25,7 +25,7 @@ await build({
   logLevel: "warning",
 });
 for (const indice of ["acervo.json", "ampliado.json", "construtos.json"]) cpSync(join(raiz, "public", "indice", indice), join(funcao, indice));
-writeFileSync(join(funcao, ".vc-config.json"), JSON.stringify({ runtime: "nodejs22.x", handler: "index.mjs", launcherType: "Nodejs", shouldAddHelpers: false, maxDuration: 15 }, null, 2));
+writeFileSync(join(funcao, ".vc-config.json"), JSON.stringify({ runtime: "nodejs22.x", handler: "index.mjs", launcherType: "Nodejs", shouldAddHelpers: false, maxDuration: 30 }, null, 2));
 
 // Os mesmos cabeçalhos que o vercel.json declarava: com a saída pronta, quem vale é este arquivo.
 const seguranca = { "X-Content-Type-Options": "nosniff", "Referrer-Policy": "strict-origin-when-cross-origin", "X-Frame-Options": "DENY" };

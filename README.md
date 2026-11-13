@@ -138,10 +138,33 @@ O site publicado chama `/api/interpretar`, uma função na Vercel (`src/servidor
 | (nenhuma) | Usa o AI Gateway com o token do projeto e o modelo `anthropic/claude-haiku-5.5` |
 | `ANTHROPIC_API_KEY` | Vai direto à Anthropic, com `claude-opus-5-5` por padrão |
 | `FRASE_MODELO` | Troca o modelo de qualquer um dos dois caminhos |
+| `MODELO_URL`, `MODELO_CHAVE`, `MODELO_NOME` | As três juntas ligam um serviço no formato chat/completions (OpenRouter, Command Code e outros). Ficam atrás da chave da Anthropic e na frente do gateway |
+| `MODELO_EXTRA` | Objeto JSON somado ao corpo do pedido, para o que só um serviço entende (ex.: `{"reasoning":{"effort":"low"}}`) |
+| `MODELO_TETO` | Teto de tokens de saída, de 200 a 4.096 (padrão 700). Modelo que raciocina precisa de mais |
+| `FRASE_PRAZO_MS` | Quanto a função espera pelo modelo, de 3.000 a 20.000 (padrão 7.000) |
 | `FRASE_PROVEDOR=nenhum` | Desliga o modelo |
 | `VITE_API_BASE` | No build do site: endereço da função. O `vercel.json` põe `.`; sem ela (testes, Capacitor), tudo fica no aparelho |
+| `VITE_FRASE_ESPERA_MS` | No build do site: quanto o navegador espera pela função, de 3.000 a 30.000 (padrão 8.000). Tem de ser maior que `FRASE_PRAZO_MS` |
 
 Custo de referência no gateway: o `claude-haiku-5.5` sai a US$ 0,10 por milhão de tokens de entrada e US$ 0,50 de saída; um pedido tem cerca de 1.500 tokens de entrada e 150 de saída, perto de US$ 0,0002.
+
+### Modelo gratuito com uma chave que você já tem
+
+Medido em 12/Nov/2026, com detalhe em `docs/sonda-modelos-gratuitos-2026-11-12.md`:
+
+- **OpenCode:** os modelos gratuitos só valem dentro do próprio OpenCode, segundo a documentação deles. Fora.
+- **Command Code:** a API aceita uso externo e tem dois modelos gratuitos, mas a chave `CMD_API_KEY` deste Mac foi recusada (401). Com uma chave nova daria para medir.
+- **OpenRouter:** a chave do ambiente vale e dá 1.000 pedidos gratuitos por dia. O `particle-ai/particle-1:free`, com raciocínio baixo, acertou 10 de 12 frases no validador, em 4,7 a 13,8 segundos. Os outros seis gratuitos testados reprovaram, travaram no limite ou demoraram demais.
+
+O custo é a espera: a pessoa vê "Escrevendo a frase…" por 5 a 14 segundos, em vez de menos de um. Se o modelo falhar ou passar do prazo, a frase por regra entra no lugar, como hoje.
+
+Para ligar, grave a chave você mesmo (o comando lê a variável do ambiente e não mostra o valor) e publique de novo:
+
+```bash
+printf %s "$OPENROUTER_API_KEY" | pnpm dlx vercel@latest env add MODELO_CHAVE production
+```
+
+As outras variáveis não são segredo: `MODELO_URL=https://openrouter.ai/api/v1`, `MODELO_NOME=particle-ai/particle-1:free`, `MODELO_EXTRA={"reasoning":{"effort":"low"}}`, `MODELO_TETO=2000`, `FRASE_PRAZO_MS=16000` e `VITE_FRASE_ESPERA_MS=18000`. Para desligar: `pnpm dlx vercel@latest env rm MODELO_CHAVE production`.
 
 O que protege o gasto e a pessoa:
 
@@ -154,7 +177,7 @@ O que protege o gasto e a pessoa:
 ## Estado, medido em 12/Nov/2026
 
 - Acervo conferido: 30 pinturas (20 com rosto de destaque), 30 sons, 410 palavras, 275 delas (as de português e de mandarim) com definição no dicionário da própria língua. Acervo ampliado: 3.625 imagens (1.538 com rosto) e 2.369 sons, com os 34 construtos representados. Tudo com revisão humana pendente. Glossário com 34 construtos e 4 termos de dimensão.
-- Testes: 116 em Python, 329 de unidade em TypeScript, 84 de navegador (celular e tela larga, só em Chromium).
+- Testes: 126 em Python, 352 de unidade em TypeScript, 84 de navegador (celular e tela larga, só em Chromium).
 - Validador: rejeita 33 de 33 frases defeituosas do conjunto de regressão e aceita 18 de 18 de referência. **É uma barreira, não uma prova.** A revisão final fez passar 13 frases que atribuíam estado à pessoa ou aconselhavam ("o medo que te consome", "you're anxious"); hoje elas são rejeitadas e viraram teste, mas a regra continua sendo lista, com furos por natureza.
 - O compositor por regra não gera frase reprovada: conferido pelo revisor em 352.440 frases (todos os trios do índice, nos três idiomas) e, no repositório, por um teste sobre uma amostra fixa.
 - Sonda do pré-prompt com modelo real: 17 de 18 respostas aprovadas na primeira tentativa. A reprovada, em mandarim, não tinha verbo de mensagem. Uma tentativa de injeção plantada nas tags de um som foi tratada como dado nos três idiomas.
@@ -169,7 +192,7 @@ O que protege o gasto e a pessoa:
 
 ### NÃO PROVADO
 
-- Nenhuma frase escrita por modelo chegou a uma pessoa. A única chamada real a um provedor foi a do AI Gateway em 12/Nov, recusada por falta de cartão na conta. A sonda e o pareamento usaram subagentes da sessão de desenvolvimento.
+- Nenhuma frase escrita por modelo chegou a uma pessoa pelo site. Em produção, a única chamada a um provedor foi a do AI Gateway em 12/Nov, recusada por falta de cartão na conta. Fora de produção, a sonda dos modelos gratuitos passou seleções reais pela função com o `particle-ai/particle-1:free` (10 de 12 aprovadas); a sonda anterior e o pareamento usaram subagentes da sessão de desenvolvimento.
 - Em aparelho há uma prova só: uma captura do dono num iPhone, em 12/Nov, com a tela, a barra e o (i) desenhados certo. Fora isso, nada foi medido em aparelho. Som em iPhone real, instalação da PWA e o app do Capacitor em uso ficam por testar. Hipótese a testar primeiro: o service worker entrega os `.mp3` sem tratar pedidos com `Range`, e o Safari costuma recusar isso; se valer, os sons não tocam na PWA instalada no iPhone (dentro do app Capacitor não há service worker e a hipótese não se aplica).
 - O pareamento cego usou modelo como juiz, não gente.
 

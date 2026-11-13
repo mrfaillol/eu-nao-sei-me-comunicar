@@ -409,3 +409,13 @@ describe("o que o revisor final apontou no servidor", () => {
     expect(falhas).toHaveLength(2);
   });
 });
+
+describe("prazo do modelo vindo do ambiente", () => {
+  it("FRASE_PRAZO_MS entre 3 e 20 segundos vale; fora disso, torto ou ausente, fica o padrão", async () => {
+    const { prazoDoAmbiente } = await import("./interpretar");
+    expect(prazoDoAmbiente("14000")).toBe(14000);
+    expect(prazoDoAmbiente("3000")).toBe(3000);
+    expect(prazoDoAmbiente("20000")).toBe(20000);
+    for (const torto of [undefined, "", "abc", "2999", "20001", "-1", "1e4", "14000.5"]) expect(prazoDoAmbiente(torto), String(torto)).toBeUndefined();
+  });
+});
