@@ -15,3 +15,4 @@ playwright-report/
 # Vínculo local com o projeto da Vercel
 .vercel
 .env*
+divulgacao/tomadas/
