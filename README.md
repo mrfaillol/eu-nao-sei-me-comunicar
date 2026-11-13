@@ -129,7 +129,7 @@ A aprovação vale só para o conteúdo revisado: se o pipeline rodar de novo e 
 
 O site publicado chama `/api/interpretar`, uma função na Vercel (`src/servidor/vercel.ts`, empacotada por `scripts/saida-vercel.mjs`). Ela pede a um modelo de linguagem a frase e a versão em palavras simples, confere as duas e, se qualquer coisa falhar, devolve a frase por regra.
 
-**Estado em 12/Nov/2026: a função está no ar e o modelo está desligado pela conta.** O AI Gateway da Vercel aceitou o token do projeto e respondeu `403 customer_verification_required`: falta um cartão cadastrado na conta para liberar os créditos gratuitos. Enquanto isso, toda resposta sai pela regra. Para ligar, uma das duas:
+**Estado em 12/Nov/2026, à noite: o modelo está ligado**, com `particle-ai/particle-1:free` pelo OpenRouter e a chave do dono (ver "Modelo gratuito com uma chave que você já tem"). Em nove pedidos reais à função publicada, quatro frases vieram do modelo, em 2 a 7 segundos, e cinco da regra. O parágrafo seguinte descreve o caminho do gateway, que continua parado e hoje não é usado. O AI Gateway da Vercel aceitou o token do projeto e respondeu `403 customer_verification_required`: falta um cartão cadastrado na conta para liberar os créditos gratuitos. Enquanto isso, toda resposta sai pela regra. Para ligar, uma das duas:
 
 1. Cadastrar um cartão em Vercel → AI Gateway. Nada mais muda: a função se autentica com o token que a Vercel dá ao próprio projeto, sem chave guardada.
 2. Ou gravar uma chave da Anthropic no projeto, você mesmo, sem colar em chat: `pnpm dlx vercel@latest env add ANTHROPIC_API_KEY production`.
@@ -157,15 +157,13 @@ Medido em 12/Nov/2026, com detalhe em `docs/sonda-modelos-gratuitos-2026-11-12.m
 - **Command Code:** a API aceita uso externo e tem dois modelos gratuitos, mas a chave `CMD_API_KEY` deste Mac foi recusada (401). Com uma chave nova daria para medir.
 - **OpenRouter:** a chave do ambiente vale e dá 1.000 pedidos gratuitos por dia. O `particle-ai/particle-1:free`, com raciocínio baixo, acertou 10 de 12 frases no validador, em 4,7 a 13,8 segundos. Os outros seis gratuitos testados reprovaram, travaram no limite ou demoraram demais.
 
-O custo é a espera: a pessoa vê "Escrevendo a frase…" por 5 a 14 segundos, em vez de menos de um. Se o modelo falhar ou passar do prazo, a frase por regra entra no lugar, como hoje.
+O custo é a espera: a pessoa vê "Escrevendo a frase…" por alguns segundos, em vez de menos de um. Se o modelo falhar ou passar do prazo, a frase por regra entra no lugar.
 
-Para ligar, grave a chave você mesmo (o comando lê a variável do ambiente e não mostra o valor) e publique de novo:
+**Ligado em 12/Nov/2026**, com autorização do dono: a chave foi copiada do ambiente deste Mac para a Vercel, sem aparecer em tela, com `printf %s "$OPENROUTER_API_KEY" | pnpm dlx vercel@latest env add MODELO_CHAVE production`. As outras variáveis em produção: `MODELO_URL=https://openrouter.ai/api/v1`, `MODELO_NOME=particle-ai/particle-1:free`, `MODELO_EXTRA={"reasoning":{"enabled":false}}`, `MODELO_TETO=2000`, `FRASE_PRAZO_MS=10000` e `VITE_FRASE_ESPERA_MS=12000`.
 
-```bash
-printf %s "$OPENROUTER_API_KEY" | pnpm dlx vercel@latest env add MODELO_CHAVE production
-```
+Duas configurações foram medidas em produção, nove pedidos cada. Com raciocínio baixo e prazo de 16 s, seis frases vieram do modelo, em 10,6 a 15,9 s, e três caíram na regra depois de 16 s. Sem raciocínio e com prazo de 10 s, quatro vieram do modelo, em 1,9 a 7,1 s, e cinco da regra, em até 5,9 s. Ficou a segunda: menos frases do modelo, e ninguém espera mais de 7 s. Para voltar à primeira, troque `MODELO_EXTRA` para `{"reasoning":{"effort":"low"}}`, `FRASE_PRAZO_MS` para `16000` e `VITE_FRASE_ESPERA_MS` para `18000`, e publique de novo.
 
-As outras variáveis não são segredo: `MODELO_URL=https://openrouter.ai/api/v1`, `MODELO_NOME=particle-ai/particle-1:free`, `MODELO_EXTRA={"reasoning":{"effort":"low"}}`, `MODELO_TETO=2000`, `FRASE_PRAZO_MS=16000` e `VITE_FRASE_ESPERA_MS=18000`. Para desligar: `pnpm dlx vercel@latest env rm MODELO_CHAVE production`.
+Para desligar: `pnpm dlx vercel@latest env rm MODELO_CHAVE production` e publicar de novo. Mudança de variável só vale depois de nova publicação (`pnpm dlx vercel@latest redeploy https://eunaoseimecomunicar.vercel.app`).
 
 O que protege o gasto e a pessoa:
 
@@ -187,13 +185,13 @@ O que protege o gasto e a pessoa:
 
 ### Quando o modelo ligar
 
-1. Medir o validador com saída real da função, nos três idiomas, e ler uma amostra das frases e das versões simples aprovadas. Até aqui nenhuma resposta de modelo passou por ele em produção.
+1. Ler uma amostra maior das frases e das versões simples aprovadas, nos três idiomas. O validador já recebeu saída real da função (dezoito pedidos em 12/Nov), mas só ele e a sessão de desenvolvimento leram o resultado.
 2. Ler `docs/sonda-modelo-2026-11-12.md`: uma sonda fora de produção deu 8 de 10 frases aprovadas na primeira tentativa, achou um furo do validador em mandarim (corrigido) e mostrou uma versão simples com um detalhe inventado, que o validador não pega. O pré-prompt está na versão `2026-11-12.4`, que não foi sondada.
 3. Olhar o registro da função: falha do modelo aparece como `[interpretar] caminho do modelo falhou: <tipo>`.
 
 ### NÃO PROVADO
 
-- Nenhuma frase escrita por modelo chegou a uma pessoa pelo site. Em produção, a única chamada a um provedor foi a do AI Gateway em 12/Nov, recusada por falta de cartão na conta. Fora de produção, a sonda dos modelos gratuitos passou seleções reais pela função com o `particle-ai/particle-1:free` (10 de 12 aprovadas); a sonda anterior e o pareamento usaram subagentes da sessão de desenvolvimento.
+- O modelo está ligado desde a noite de 12/Nov, e o que se sabe dele em produção são dezoito pedidos de teste. Nenhuma pessoa leu as frases dele além das que estão em `docs/sonda-modelos-gratuitos-2026-11-12.md`. A taxa de frases do modelo (4 de 9 na configuração atual) vem de amostra pequena, num único horário. Modelo gratuito pode sair do ar ou mudar sem aviso; quando isso acontecer, a função registra a falha e responde por regra.
 - Em aparelho há uma prova só: uma captura do dono num iPhone, em 12/Nov, com a tela, a barra e o (i) desenhados certo. Fora isso, nada foi medido em aparelho. Som em iPhone real, instalação da PWA e o app do Capacitor em uso ficam por testar. Hipótese a testar primeiro: o service worker entrega os `.mp3` sem tratar pedidos com `Range`, e o Safari costuma recusar isso; se valer, os sons não tocam na PWA instalada no iPhone (dentro do app Capacitor não há service worker e a hipótese não se aplica).
 - O pareamento cego usou modelo como juiz, não gente.
 
