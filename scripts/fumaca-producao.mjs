@@ -67,7 +67,10 @@ async function fluxo(navegador, nome, opcoes, captura) {
   const frase = ((await dialogo.locator(".frase[data-origem]").textContent()) ?? "").trim();
   const origemFrase = await dialogo.locator(".frase[data-origem]").getAttribute("data-origem");
   anotar(frase.length > 30, `${nome}: frase (${origemFrase}) "${frase}"`);
-  anotar(/quatro|four|四/.test(frase), `${nome}: a frase conta as quatro escolhas`);
+  // Só a frase por regra tem a forma fixa que conta as escolhas. A do modelo já passou pelo validador na função;
+  // aqui se confere que ela veio marcada como tal.
+  if (origemFrase === "regra") anotar(/quatro|four|四/.test(frase), `${nome}: a frase por regra conta as quatro escolhas`);
+  else anotar(origemFrase === "modelo" || origemFrase === "modelo_2", `${nome}: frase escrita pelo modelo (${origemFrase})`);
   const simples = ((await dialogo.locator(".simples").textContent().catch(() => "")) ?? "").trim();
   anotar(/você escolheu|you chose|你选的/.test(simples), `${nome}: versão simples "${simples.slice(0, 90)}"`);
   const dois = await dialogo.locator('.termos li a[href^="https://doi.org/10."]').count();
