@@ -66550,6 +66550,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:106134": [
+  {
+   "construto": "solitude",
+   "trecho": "night",
+   "pistas": 3
+  },
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "forest",
+   "pistas": 2
+  },
+  {
+   "construto": "medo",
+   "trecho": "night",
+   "pistas": 1
+  }
+ ],
  "som:freesound:106135": [
   {
    "construto": "vigilancia",
@@ -66564,6 +66581,18 @@
   {
    "construto": "medo",
    "trecho": "footsteps",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:107275": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "construction",
+   "pistas": 1
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "hammer",
    "pistas": 1
   }
  ],
@@ -66608,10 +66637,44 @@
    "pistas": 3
   }
  ],
+ "som:freesound:108850": [
+  {
+   "construto": "vigilancia",
+   "trecho": "creak",
+   "pistas": 2
+  },
+  {
+   "construto": "medo",
+   "trecho": "creak",
+   "pistas": 2
+  },
+  {
+   "construto": "solitude",
+   "trecho": "footsteps",
+   "pistas": 1
+  }
+ ],
  "som:freesound:112211": [
   {
    "construto": "vigilancia",
    "trecho": "phone",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:112296": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "nature",
+   "pistas": 2
+  },
+  {
+   "construto": "medo",
+   "trecho": "storm",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
    "pistas": 1
   }
  ],
@@ -66667,6 +66730,18 @@
   {
    "construto": "apego_ao_lugar",
    "trecho": "farm",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:117064": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "construction",
+   "pistas": 2
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "hammer",
    "pistas": 1
   }
  ],
@@ -66801,6 +66876,18 @@
   {
    "construto": "nostalgia",
    "trecho": "Pencil",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:119500": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Rain",
    "pistas": 1
   }
  ],
@@ -67065,6 +67152,13 @@
   {
    "construto": "raiva",
    "trecho": "smash",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:128607": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Drill",
    "pistas": 1
   }
  ],
@@ -67986,6 +68080,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:160679": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Construction",
+   "pistas": 1
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "hammer",
+   "pistas": 1
+  }
+ ],
  "som:freesound:160869": [
   {
    "construto": "habituacao",
@@ -68741,6 +68847,25 @@
    "pistas": 1
   }
  ],
+ "som:freesound:18411": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "rain",
+   "pistas": 3
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "rain",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:184383": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "construction",
+   "pistas": 1
+  }
+ ],
  "som:freesound:184465": [
   {
    "construto": "medo",
@@ -68817,6 +68942,23 @@
   {
    "construto": "solitude",
    "trecho": "Wind",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:187293": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 4
+  },
+  {
+   "construto": "vigilancia",
+   "trecho": "creak",
+   "pistas": 1
+  },
+  {
+   "construto": "medo",
+   "trecho": "creak",
    "pistas": 1
   }
  ],
@@ -69337,6 +69479,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:201811": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "rain",
+   "pistas": 4
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "rain",
+   "pistas": 1
+  }
+ ],
  "som:freesound:201885": [
   {
    "construto": "vigilancia",
@@ -69477,6 +69631,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:203175": [
+  {
+   "construto": "nostalgia",
+   "trecho": "Train",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Train",
+   "pistas": 1
+  }
+ ],
  "som:freesound:203187": [
   {
    "construto": "sobrecarga_sensorial",
@@ -69558,6 +69724,23 @@
   {
    "construto": "assombro",
    "trecho": "thunder",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:204347": [
+  {
+   "construto": "medo",
+   "trecho": "storm",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Window",
    "pistas": 1
   }
  ],
@@ -69713,6 +69896,25 @@
   {
    "construto": "vigilancia",
    "trecho": "alarm",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:209798": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Construction",
+   "pistas": 1
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "street",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:209799": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Gate",
    "pistas": 1
   }
  ],
@@ -69951,6 +70153,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:216878": [
+  {
+   "construto": "vigilancia",
+   "trecho": "creak",
+   "pistas": 2
+  },
+  {
+   "construto": "medo",
+   "trecho": "creak",
+   "pistas": 1
+  }
+ ],
  "som:freesound:21711": [
   {
    "construto": "restauracao_da_atencao",
@@ -70103,6 +70317,13 @@
    "pistas": 2
   }
  ],
+ "som:freesound:221927": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "construction",
+   "pistas": 3
+  }
+ ],
  "som:freesound:222639": [
   {
    "construto": "restauracao_da_atencao",
@@ -70205,6 +70426,18 @@
   {
    "construto": "apego_ao_lugar",
    "trecho": "keys",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:223970": [
+  {
+   "construto": "nostalgia",
+   "trecho": "wind-up",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "wind",
    "pistas": 1
   }
  ],
@@ -70320,6 +70553,18 @@
   {
    "construto": "solitude",
    "trecho": "Distant",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:232288": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "rain",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "rain",
    "pistas": 1
   }
  ],
@@ -70648,6 +70893,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:235620": [
+  {
+   "construto": "vigilancia",
+   "trecho": "creak",
+   "pistas": 2
+  },
+  {
+   "construto": "medo",
+   "trecho": "creak",
+   "pistas": 1
+  }
+ ],
  "som:freesound:235844": [
   {
    "construto": "nostalgia",
@@ -70811,6 +71068,52 @@
    "pistas": 2
   }
  ],
+ "som:freesound:238017": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "rain",
+   "pistas": 3
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambience",
+   "pistas": 2
+  }
+ ],
+ "som:freesound:238377": [
+  {
+   "construto": "medo",
+   "trecho": "Storm",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "Storm",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "Wind",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:238379": [
+  {
+   "construto": "medo",
+   "trecho": "Storm",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "Storm",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "Wind",
+   "pistas": 1
+  }
+ ],
  "som:freesound:238390": [
   {
    "construto": "vigilancia",
@@ -70839,6 +71142,23 @@
   {
    "construto": "restauracao_da_atencao",
    "trecho": "fire",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:240079": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "rain",
+   "pistas": 2
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "drip",
+   "pistas": 2
+  },
+  {
+   "construto": "tedio",
+   "trecho": "dripping",
    "pistas": 1
   }
  ],
@@ -71163,6 +71483,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:245445": [
+  {
+   "construto": "vigilancia",
+   "trecho": "ring",
+   "pistas": 4
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "old",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "old",
+   "pistas": 1
+  }
+ ],
  "som:freesound:245582": [
   {
    "construto": "habituacao",
@@ -71225,6 +71562,52 @@
   {
    "construto": "emocoes_positivas",
    "trecho": "park",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:245705": [
+  {
+   "construto": "assombro",
+   "trecho": "cathedral",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambience",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:245829": [
+  {
+   "construto": "medo",
+   "trecho": "storm",
+   "pistas": 2
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "Wind",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:245860": [
+  {
+   "construto": "vigilancia",
+   "trecho": "phone",
+   "pistas": 2
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "old",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "old",
    "pistas": 1
   }
  ],
@@ -71804,6 +72187,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:259992": [
+  {
+   "construto": "vigilancia",
+   "trecho": "phone",
+   "pistas": 2
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "old",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "old",
+   "pistas": 1
+  }
+ ],
  "som:freesound:260118": [
   {
    "construto": "vigilancia",
@@ -72187,6 +72587,30 @@
    "pistas": 1
   }
  ],
+ "som:freesound:265305": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 5
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:265491": [
+  {
+   "construto": "vigilancia",
+   "trecho": "ring",
+   "pistas": 3
+  }
+ ],
  "som:freesound:266164": [
   {
    "construto": "divagacao_mental",
@@ -72245,6 +72669,23 @@
    "construto": "restauracao_da_atencao",
    "trecho": "birds",
    "pistas": 3
+  }
+ ],
+ "som:freesound:267199": [
+  {
+   "construto": "vigilancia",
+   "trecho": "ringing",
+   "pistas": 4
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "Old",
+   "pistas": 3
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "Old",
+   "pistas": 2
   }
  ],
  "som:freesound:26769": [
@@ -72399,6 +72840,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:269262": [
+  {
+   "construto": "vigilancia",
+   "trecho": "phone",
+   "pistas": 2
+  },
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "machine",
+   "pistas": 1
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "old",
+   "pistas": 1
+  }
+ ],
  "som:freesound:269336": [
   {
    "construto": "habituacao",
@@ -72464,6 +72922,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:269722": [
+  {
+   "construto": "vigilancia",
+   "trecho": "creak",
+   "pistas": 1
+  },
+  {
+   "construto": "medo",
+   "trecho": "creak",
+   "pistas": 1
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "old",
+   "pistas": 1
+  }
+ ],
  "som:freesound:269744": [
   {
    "construto": "habituacao",
@@ -72512,6 +72987,25 @@
   {
    "construto": "medo",
    "trecho": "storm",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:271130": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "construction",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:271131": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "construction",
+   "pistas": 1
+  },
+  {
+   "construto": "medo",
+   "trecho": "spooky",
    "pistas": 1
   }
  ],
@@ -72815,6 +73309,40 @@
    "pistas": 1
   }
  ],
+ "som:freesound:275163": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Ringing",
+   "pistas": 4
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "Old",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "Old",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:275468": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 5
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
  "som:freesound:275617": [
   {
    "construto": "restauracao_da_atencao",
@@ -72882,6 +73410,18 @@
    "pistas": 2
   }
  ],
+ "som:freesound:276473": [
+  {
+   "construto": "vigilancia",
+   "trecho": "creak",
+   "pistas": 2
+  },
+  {
+   "construto": "medo",
+   "trecho": "creak",
+   "pistas": 2
+  }
+ ],
  "som:freesound:277042": [
   {
    "construto": "tedio",
@@ -72927,6 +73467,57 @@
   {
    "construto": "solitude",
    "trecho": "Forest",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:29530": [
+  {
+   "construto": "medo",
+   "trecho": "storm",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "wind",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:29531": [
+  {
+   "construto": "medo",
+   "trecho": "storm",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "wind",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:29532": [
+  {
+   "construto": "medo",
+   "trecho": "storm",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "wind",
    "pistas": 1
   }
  ],
@@ -73153,6 +73744,30 @@
   {
    "construto": "divagacao_mental",
    "trecho": "fan",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:320477": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "playground",
+   "pistas": 2
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "playground",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:320479": [
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "playground",
+   "pistas": 2
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "playground",
    "pistas": 1
   }
  ],
@@ -73626,6 +74241,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:328995": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 1
+  },
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "Park",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Rain",
+   "pistas": 1
+  }
+ ],
  "som:freesound:329047": [
   {
    "construto": "tedio",
@@ -73795,6 +74427,23 @@
    "construto": "emocoes_positivas",
    "trecho": "purr",
    "pistas": 4
+  }
+ ],
+ "som:freesound:331712": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "rain",
+   "pistas": 2
+  },
+  {
+   "construto": "medo",
+   "trecho": "storm",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
   }
  ],
  "som:freesound:332073": [
@@ -74189,6 +74838,52 @@
    "construto": "nostalgia",
    "trecho": "paper",
    "pistas": 2
+  }
+ ],
+ "som:freesound:337096": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Construction",
+   "pistas": 3
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "hammer",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:337097": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Construction",
+   "pistas": 3
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "hammer",
+   "pistas": 1
+  },
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "Cat",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:337098": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Construction",
+   "pistas": 3
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "hammer",
+   "pistas": 1
+  },
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "Cat",
+   "pistas": 1
   }
  ],
  "som:freesound:337736": [
@@ -74753,6 +75448,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:346237": [
+  {
+   "construto": "medo",
+   "trecho": "storm",
+   "pistas": 3
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "wind",
+   "pistas": 1
+  }
+ ],
  "som:freesound:346394": [
   {
    "construto": "sobrecarga_sensorial",
@@ -75067,6 +75779,13 @@
    "pistas": 3
   }
  ],
+ "som:freesound:351711": [
+  {
+   "construto": "vigilancia",
+   "trecho": "ring",
+   "pistas": 3
+  }
+ ],
  "som:freesound:351722": [
   {
    "construto": "sobrecarga_sensorial",
@@ -75093,6 +75812,18 @@
   {
    "construto": "restauracao_da_atencao",
    "trecho": "rain",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:352421": [
+  {
+   "construto": "vigilancia",
+   "trecho": "door",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "wind",
    "pistas": 1
   }
  ],
@@ -75624,6 +76355,30 @@
   {
    "construto": "memoria_autobiografica",
    "trecho": "music-box",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:369492": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Rain",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:369493": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Rain",
    "pistas": 1
   }
  ],
@@ -77096,6 +77851,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:390268": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "rain",
+   "pistas": 4
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "rain",
+   "pistas": 1
+  }
+ ],
  "som:freesound:390324": [
   {
    "construto": "apego_ao_lugar",
@@ -77165,6 +77932,23 @@
   {
    "construto": "sobrecarga_sensorial",
    "trecho": "subway",
+   "pistas": 2
+  }
+ ],
+ "som:freesound:393703": [
+  {
+   "construto": "assombro",
+   "trecho": "Thunder",
+   "pistas": 3
+  },
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 2
+  },
+  {
+   "construto": "medo",
+   "trecho": "Thunder",
    "pistas": 2
   }
  ],
@@ -77465,6 +78249,23 @@
   {
    "construto": "restauracao_da_atencao",
    "trecho": "rain",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:396998": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 5
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "river",
    "pistas": 1
   }
  ],
@@ -78114,6 +78915,13 @@
    "pistas": 1
   }
  ],
+ "som:freesound:405071": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 3
+  }
+ ],
  "som:freesound:405077": [
   {
    "construto": "sobrecarga_sensorial",
@@ -78240,6 +79048,35 @@
    "pistas": 2
   }
  ],
+ "som:freesound:406092": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "rain",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "rain",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:406193": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "construction",
+   "pistas": 2
+  },
+  {
+   "construto": "solitude",
+   "trecho": "empty",
+   "pistas": 2
+  },
+  {
+   "construto": "vigilancia",
+   "trecho": "door",
+   "pistas": 1
+  }
+ ],
  "som:freesound:406238": [
   {
    "construto": "nostalgia",
@@ -78269,6 +79106,18 @@
    "construto": "vigilancia",
    "trecho": "hospital",
    "pistas": 2
+  }
+ ],
+ "som:freesound:406501": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "rain",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "rain",
+   "pistas": 1
   }
  ],
  "som:freesound:406627": [
@@ -78316,6 +79165,23 @@
   {
    "construto": "raiva",
    "trecho": "Slam",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:407010": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "breeze",
+   "pistas": 1
+  },
+  {
+   "construto": "medo",
+   "trecho": "Storm",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "Storm",
    "pistas": 1
   }
  ],
@@ -78776,6 +79642,40 @@
    "pistas": 1
   }
  ],
+ "som:freesound:416927": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambience",
+   "pistas": 2
+  },
+  {
+   "construto": "medo",
+   "trecho": "storm",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:416961": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "rain",
+   "pistas": 3
+  },
+  {
+   "construto": "medo",
+   "trecho": "storm",
+   "pistas": 1
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "dripping",
+   "pistas": 1
+  }
+ ],
  "som:freesound:416992": [
   {
    "construto": "vigilancia",
@@ -78797,6 +79697,40 @@
   {
    "construto": "vigilancia",
    "trecho": "phone",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:417311": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "nature",
+   "pistas": 1
+  },
+  {
+   "construto": "medo",
+   "trecho": "Storm",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "Storm",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:417312": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "nature",
+   "pistas": 1
+  },
+  {
+   "construto": "medo",
+   "trecho": "storm",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
    "pistas": 1
   }
  ],
@@ -78956,6 +79890,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:420295": [
+  {
+   "construto": "medo",
+   "trecho": "storm",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "wind",
+   "pistas": 1
+  }
+ ],
  "som:freesound:420396": [
   {
    "construto": "vigilancia",
@@ -78970,6 +79921,18 @@
   {
    "construto": "solitude",
    "trecho": "footsteps",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:420469": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Rain",
    "pistas": 1
   }
  ],
@@ -79072,6 +80035,23 @@
   {
    "construto": "solitude",
    "trecho": "Footsteps",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:420655": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "station",
+   "pistas": 2
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "train",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "train",
    "pistas": 1
   }
  ],
@@ -79498,6 +80478,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:424946": [
+  {
+   "construto": "vigilancia",
+   "trecho": "ring",
+   "pistas": 4
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "old",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "old",
+   "pistas": 1
+  }
+ ],
  "som:freesound:425314": [
   {
    "construto": "restauracao_da_atencao",
@@ -79565,6 +80562,23 @@
    "construto": "sobrecarga_sensorial",
    "trecho": "noise",
    "pistas": 2
+  }
+ ],
+ "som:freesound:426425": [
+  {
+   "construto": "nostalgia",
+   "trecho": "Old",
+   "pistas": 2
+  },
+  {
+   "construto": "vigilancia",
+   "trecho": "Telephone",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "Old",
+   "pistas": 1
   }
  ],
  "som:freesound:426561": [
@@ -79890,6 +80904,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:431390": [
+  {
+   "construto": "medo",
+   "trecho": "storm",
+   "pistas": 2
+  },
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Rumble",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  }
+ ],
  "som:freesound:431775": [
   {
    "construto": "sobrecarga_sensorial",
@@ -79945,6 +80976,18 @@
   {
    "construto": "divagacao_mental",
    "trecho": "fan",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:432059": [
+  {
+   "construto": "nostalgia",
+   "trecho": "wind-up",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "toy",
    "pistas": 1
   }
  ],
@@ -80566,6 +81609,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:438161": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "construction",
+   "pistas": 1
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "vintage",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambience",
+   "pistas": 1
+  }
+ ],
  "som:freesound:438203": [
   {
    "construto": "apego_ao_lugar",
@@ -80580,6 +81640,23 @@
   {
    "construto": "vigilancia",
    "trecho": "Bell",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:438242": [
+  {
+   "construto": "vigilancia",
+   "trecho": "telephone",
+   "pistas": 1
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "Bells",
+   "pistas": 1
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "vintage",
    "pistas": 1
   }
  ],
@@ -80637,6 +81714,30 @@
   {
    "construto": "nostalgia",
    "trecho": "vintage",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:438773": [
+  {
+   "construto": "nostalgia",
+   "trecho": "vintage",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Train",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:438777": [
+  {
+   "construto": "nostalgia",
+   "trecho": "vintage",
+   "pistas": 3
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Train",
    "pistas": 1
   }
  ],
@@ -81306,6 +82407,18 @@
    "pistas": 2
   }
  ],
+ "som:freesound:447840": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "construction",
+   "pistas": 1
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "Hammer",
+   "pistas": 1
+  }
+ ],
  "som:freesound:448209": [
   {
    "construto": "habituacao",
@@ -81435,6 +82548,30 @@
   {
    "construto": "solitude",
    "trecho": "distant",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:451150": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "rain",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "rain",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:451151": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "rain",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "rain",
    "pistas": 1
   }
  ],
@@ -82794,6 +83931,20 @@
    "pistas": 1
   }
  ],
+ "som:freesound:464460": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 4
+  }
+ ],
+ "som:freesound:464647": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "construction",
+   "pistas": 2
+  }
+ ],
  "som:freesound:464694": [
   {
    "construto": "solitude",
@@ -82955,6 +84106,18 @@
   {
    "construto": "habituacao",
    "trecho": "Dishes",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:467208": [
+  {
+   "construto": "nostalgia",
+   "trecho": "wind-up",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "toy",
    "pistas": 1
   }
  ],
@@ -83478,6 +84641,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:475493": [
+  {
+   "construto": "vigilancia",
+   "trecho": "creak",
+   "pistas": 2
+  },
+  {
+   "construto": "medo",
+   "trecho": "creak",
+   "pistas": 2
+  }
+ ],
  "som:freesound:47564": [
   {
    "construto": "sobrecarga_sensorial",
@@ -83544,6 +84719,40 @@
    "construto": "tedio",
    "trecho": "hum",
    "pistas": 1
+  }
+ ],
+ "som:freesound:475841": [
+  {
+   "construto": "assombro",
+   "trecho": "thunder",
+   "pistas": 3
+  },
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "rain",
+   "pistas": 2
+  },
+  {
+   "construto": "medo",
+   "trecho": "thunder",
+   "pistas": 2
+  }
+ ],
+ "som:freesound:475842": [
+  {
+   "construto": "assombro",
+   "trecho": "thunder",
+   "pistas": 3
+  },
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "rain",
+   "pistas": 2
+  },
+  {
+   "construto": "medo",
+   "trecho": "thunder",
+   "pistas": 2
   }
  ],
  "som:freesound:47588": [
@@ -83690,6 +84899,23 @@
   {
    "construto": "apego_ao_lugar",
    "trecho": "kitchen",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:478543": [
+  {
+   "construto": "nostalgia",
+   "trecho": "train",
+   "pistas": 2
+  },
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "engine",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "train",
    "pistas": 1
   }
  ],
@@ -83894,6 +85120,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:479554": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "construction",
+   "pistas": 1
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "vintage",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Ambience",
+   "pistas": 1
+  }
+ ],
  "som:freesound:479560": [
   {
    "construto": "sobrecarga_sensorial",
@@ -84022,11 +85265,35 @@
    "pistas": 1
   }
  ],
+ "som:freesound:479989": [
+  {
+   "construto": "nostalgia",
+   "trecho": "vintage",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "bells",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "train",
+   "pistas": 1
+  }
+ ],
  "som:freesound:480809": [
   {
    "construto": "nostalgia",
    "trecho": "vintage",
    "pistas": 1
+  }
+ ],
+ "som:freesound:480818": [
+  {
+   "construto": "nostalgia",
+   "trecho": "vintage",
+   "pistas": 2
   }
  ],
  "som:freesound:480841": [
@@ -84253,6 +85520,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:483285": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Engine",
+   "pistas": 1
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "vintage",
+   "pistas": 1
+  }
+ ],
  "som:freesound:483311": [
   {
    "construto": "restauracao_da_atencao",
@@ -84269,6 +85548,18 @@
   {
    "construto": "restauracao_da_atencao",
    "trecho": "fire",
+   "pistas": 1
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "vintage",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:483338": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Phone",
    "pistas": 1
   },
   {
@@ -84416,6 +85707,40 @@
    "pistas": 1
   }
  ],
+ "som:freesound:486255": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 2
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "vintage",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Rain",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:486259": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "rain",
+   "pistas": 2
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "vintage",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "rain",
+   "pistas": 1
+  }
+ ],
  "som:freesound:486389": [
   {
    "construto": "divagacao_mental",
@@ -84505,6 +85830,18 @@
   {
    "construto": "vigilancia",
    "trecho": "beLL",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:488364": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Rain",
    "pistas": 1
   }
  ],
@@ -84853,6 +86190,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:50054": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "rain",
+   "pistas": 1
+  },
+  {
+   "construto": "medo",
+   "trecho": "thunder",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "thunder",
+   "pistas": 1
+  }
+ ],
  "som:freesound:500544": [
   {
    "construto": "restauracao_da_atencao",
@@ -84862,6 +86216,18 @@
   {
    "construto": "habituacao",
    "trecho": "kettle",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:500820": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "rain",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "rain",
    "pistas": 1
   }
  ],
@@ -85534,6 +86900,30 @@
    "pistas": 1
   }
  ],
+ "som:freesound:509113": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "rain",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "rain",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:509116": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Rain",
+   "pistas": 1
+  }
+ ],
  "som:freesound:50912": [
   {
    "construto": "vigilancia",
@@ -85642,6 +87032,40 @@
   {
    "construto": "habituacao",
    "trecho": "Clock",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:509741": [
+  {
+   "construto": "vigilancia",
+   "trecho": "ring",
+   "pistas": 4
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "old",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "old",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:509743": [
+  {
+   "construto": "vigilancia",
+   "trecho": "ring",
+   "pistas": 4
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "old",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "old",
    "pistas": 1
   }
  ],
@@ -86068,6 +87492,23 @@
    "pistas": 3
   }
  ],
+ "som:freesound:515294": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Stream",
+   "pistas": 5
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
  "som:freesound:515862": [
   {
    "construto": "restauracao_da_atencao",
@@ -86089,6 +87530,40 @@
   {
    "construto": "solitude",
    "trecho": "footsteps",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:516044": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "rain",
+   "pistas": 4
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "drip",
+   "pistas": 2
+  },
+  {
+   "construto": "tedio",
+   "trecho": "Dripping",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:516296": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 5
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "river",
    "pistas": 1
   }
  ],
@@ -86533,6 +88008,13 @@
    "pistas": 2
   }
  ],
+ "som:freesound:523777": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Construction",
+   "pistas": 2
+  }
+ ],
  "som:freesound:524212": [
   {
    "construto": "vigilancia",
@@ -86554,6 +88036,54 @@
   {
    "construto": "habituacao",
    "trecho": "Drip",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:524225": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Rain",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:524226": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Rain",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:524227": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Rain",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:524229": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Rain",
    "pistas": 1
   }
  ],
@@ -87109,6 +88639,40 @@
    "pistas": 1
   }
  ],
+ "som:freesound:531560": [
+  {
+   "construto": "habituacao",
+   "trecho": "hum",
+   "pistas": 1
+  },
+  {
+   "construto": "tedio",
+   "trecho": "hum",
+   "pistas": 1
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "wind-up",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:531561": [
+  {
+   "construto": "habituacao",
+   "trecho": "hum",
+   "pistas": 1
+  },
+  {
+   "construto": "tedio",
+   "trecho": "hum",
+   "pistas": 1
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "wind-up",
+   "pistas": 1
+  }
+ ],
  "som:freesound:531792": [
   {
    "construto": "vigilancia",
@@ -87163,6 +88727,18 @@
   {
    "construto": "vigilancia",
    "trecho": "beep",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:532681": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "rain",
+   "pistas": 4
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "rain",
    "pistas": 1
   }
  ],
@@ -87231,6 +88807,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:532959": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 1
+  },
+  {
+   "construto": "medo",
+   "trecho": "storm",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  }
+ ],
  "som:freesound:533075": [
   {
    "construto": "restauracao_da_atencao",
@@ -87277,6 +88870,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:533587": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "machine",
+   "pistas": 2
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "steam",
+   "pistas": 1
+  }
+ ],
  "som:freesound:533760": [
   {
    "construto": "restauracao_da_atencao",
@@ -87286,6 +88891,23 @@
   {
    "construto": "divagacao_mental",
    "trecho": "Rain",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:533834": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 1
+  },
+  {
+   "construto": "medo",
+   "trecho": "storm",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
    "pistas": 1
   }
  ],
@@ -87478,6 +89100,69 @@
    "pistas": 1
   }
  ],
+ "som:freesound:535868": [
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Window",
+   "pistas": 4
+  },
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 2
+  },
+  {
+   "construto": "tedio",
+   "trecho": "Loop",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:535869": [
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambience",
+   "pistas": 3
+  },
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 2
+  },
+  {
+   "construto": "tedio",
+   "trecho": "Loop",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:535870": [
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambience",
+   "pistas": 3
+  },
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 2
+  },
+  {
+   "construto": "tedio",
+   "trecho": "Loop",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:536187": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Creak",
+   "pistas": 3
+  },
+  {
+   "construto": "medo",
+   "trecho": "Creak",
+   "pistas": 2
+  }
+ ],
  "som:freesound:536501": [
   {
    "construto": "apego_ao_lugar",
@@ -87665,6 +89350,23 @@
   {
    "construto": "habituacao",
    "trecho": "boiling",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:539544": [
+  {
+   "construto": "vigilancia",
+   "trecho": "phone",
+   "pistas": 2
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "old",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "old",
    "pistas": 1
   }
  ],
@@ -87991,6 +89693,40 @@
    "pistas": 2
   }
  ],
+ "som:freesound:543283": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 3
+  },
+  {
+   "construto": "medo",
+   "trecho": "storm",
+   "pistas": 1
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "Countryside",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:543284": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 3
+  },
+  {
+   "construto": "medo",
+   "trecho": "storm",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  }
+ ],
  "som:freesound:543472": [
   {
    "construto": "restauracao_da_atencao",
@@ -88003,10 +89739,350 @@
    "pistas": 1
   }
  ],
+ "som:freesound:54404": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "rumble",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Train",
+   "pistas": 2
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "Train",
+   "pistas": 1
+  }
+ ],
  "som:freesound:544655": [
   {
    "construto": "habituacao",
    "trecho": "washing",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:544702": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "birdsong",
+   "pistas": 8
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambient",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:544703": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "birdsong",
+   "pistas": 8
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambient",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:544706": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "birdsong",
+   "pistas": 8
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambient",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:544710": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 7
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambient",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:544711": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 7
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambient",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:544713": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 7
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambient",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:544714": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 7
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambient",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:544717": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 7
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambient",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:544719": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 7
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambient",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:544720": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 7
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambient",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:544721": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 7
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambient",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:544722": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 7
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambient",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:544723": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 7
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambient",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:544724": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 7
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambient",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:544725": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 7
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambient",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:544726": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 7
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambient",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:544727": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 7
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambient",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:544728": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 7
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambient",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:544729": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 7
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambient",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
    "pistas": 1
   }
  ],
@@ -88468,6 +90544,40 @@
    "pistas": 1
   }
  ],
+ "som:freesound:552484": [
+  {
+   "construto": "vigilancia",
+   "trecho": "phone",
+   "pistas": 2
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "Old",
+   "pistas": 2
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "Old",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:552485": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 7
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
  "som:freesound:553150": [
   {
    "construto": "divagacao_mental",
@@ -88495,6 +90605,18 @@
    "construto": "medo",
    "trecho": "creak",
    "pistas": 2
+  }
+ ],
+ "som:freesound:553251": [
+  {
+   "construto": "vigilancia",
+   "trecho": "creak",
+   "pistas": 2
+  },
+  {
+   "construto": "medo",
+   "trecho": "creak",
+   "pistas": 1
   }
  ],
  "som:freesound:553257": [
@@ -88612,6 +90734,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:555246": [
+  {
+   "construto": "medo",
+   "trecho": "storm",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "storm",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "wind",
+   "pistas": 1
+  }
+ ],
  "som:freesound:555301": [
   {
    "construto": "emocoes_positivas",
@@ -88671,6 +90810,47 @@
    "pistas": 1
   }
  ],
+ "som:freesound:556491": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Phone",
+   "pistas": 2
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "antique",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:556495": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Phone",
+   "pistas": 2
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "antique",
+   "pistas": 1
+  },
+  {
+   "construto": "raiva",
+   "trecho": "Slam",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:556496": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Phone",
+   "pistas": 2
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "antique",
+   "pistas": 1
+  }
+ ],
  "som:freesound:556499": [
   {
    "construto": "vigilancia",
@@ -88680,6 +90860,23 @@
   {
    "construto": "nostalgia",
    "trecho": "antique",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:556520": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 2
+  },
+  {
+   "construto": "medo",
+   "trecho": "thunder",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "thunder",
    "pistas": 1
   }
  ],
@@ -88743,6 +90940,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:557378": [
+  {
+   "construto": "vigilancia",
+   "trecho": "creak",
+   "pistas": 3
+  },
+  {
+   "construto": "medo",
+   "trecho": "creak",
+   "pistas": 2
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "keyboard",
+   "pistas": 1
+  }
+ ],
  "som:freesound:557616": [
   {
    "construto": "vigilancia",
@@ -88782,6 +90996,23 @@
    "construto": "solitude",
    "trecho": "night",
    "pistas": 3
+  }
+ ],
+ "som:freesound:558259": [
+  {
+   "construto": "nostalgia",
+   "trecho": "train",
+   "pistas": 2
+  },
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "engine",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "train",
+   "pistas": 1
   }
  ],
  "som:freesound:558396": [
@@ -88830,6 +91061,23 @@
    "construto": "restauracao_da_atencao",
    "trecho": "birds",
    "pistas": 3
+  }
+ ],
+ "som:freesound:558749": [
+  {
+   "construto": "medo",
+   "trecho": "STORM",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "STORM",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "wind",
+   "pistas": 1
   }
  ],
  "som:freesound:558757": [
@@ -89332,6 +91580,42 @@
    "pistas": 1
   }
  ],
+ "som:freesound:565279": [
+  {
+   "construto": "nostalgia",
+   "trecho": "train",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "train",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:565285": [
+  {
+   "construto": "nostalgia",
+   "trecho": "train",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "train",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:565290": [
+  {
+   "construto": "nostalgia",
+   "trecho": "train",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "train",
+   "pistas": 1
+  }
+ ],
  "som:freesound:565304": [
   {
    "construto": "restauracao_da_atencao",
@@ -89547,6 +91831,23 @@
   {
    "construto": "solitude",
    "trecho": "forest",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:567887": [
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambience",
+   "pistas": 3
+  },
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "rain",
+   "pistas": 2
+  },
+  {
+   "construto": "medo",
+   "trecho": "storm",
    "pistas": 1
   }
  ],
@@ -90072,6 +92373,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:574922": [
+  {
+   "construto": "nostalgia",
+   "trecho": "Train",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Train",
+   "pistas": 1
+  }
+ ],
  "som:freesound:575201": [
   {
    "construto": "vigilancia",
@@ -90166,6 +92479,13 @@
    "pistas": 1
   }
  ],
+ "som:freesound:57584": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "construction",
+   "pistas": 3
+  }
+ ],
  "som:freesound:575898": [
   {
    "construto": "vigilancia",
@@ -90221,6 +92541,18 @@
   {
    "construto": "solitude",
    "trecho": "Distant",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:577797": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Door",
+   "pistas": 1
+  },
+  {
+   "construto": "medo",
+   "trecho": "Spooky",
    "pistas": 1
   }
  ],
@@ -90305,6 +92637,30 @@
   {
    "construto": "memoria_autobiografica",
    "trecho": "School",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:580696": [
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "playground",
+   "pistas": 1
+  },
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "playground",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:580703": [
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "playground",
+   "pistas": 1
+  },
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "playground",
    "pistas": 1
   }
  ],
@@ -90450,6 +92806,25 @@
   {
    "construto": "apego_ao_lugar",
    "trecho": "river",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:584060": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "RAIN",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "RAIN",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:584389": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "construction",
    "pistas": 1
   }
  ],
@@ -90645,6 +93020,18 @@
   {
    "construto": "assombro",
    "trecho": "ocean",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:587067": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 4
+  },
+  {
+   "construto": "solitude",
+   "trecho": "wind",
    "pistas": 1
   }
  ],
@@ -90850,6 +93237,23 @@
   {
    "construto": "assombro",
    "trecho": "River",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:587117": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 5
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  },
+  {
+   "construto": "assombro",
+   "trecho": "river",
    "pistas": 1
   }
  ],
@@ -91081,6 +93485,30 @@
    "pistas": 1
   }
  ],
+ "som:freesound:590144": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Subway",
+   "pistas": 1
+  },
+  {
+   "construto": "vigilancia",
+   "trecho": "Door",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:590145": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Subway",
+   "pistas": 1
+  },
+  {
+   "construto": "vigilancia",
+   "trecho": "Door",
+   "pistas": 1
+  }
+ ],
  "som:freesound:590148": [
   {
    "construto": "vigilancia",
@@ -91302,6 +93730,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:590976": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Rain",
+   "pistas": 1
+  }
+ ],
  "som:freesound:591069": [
   {
    "construto": "vigilancia",
@@ -91391,6 +93831,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:591890": [
+  {
+   "construto": "nostalgia",
+   "trecho": "Train",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Train",
+   "pistas": 1
+  }
+ ],
  "som:freesound:591894": [
   {
    "construto": "nostalgia",
@@ -91400,6 +93852,23 @@
   {
    "construto": "vigilancia",
    "trecho": "Bell",
+   "pistas": 1
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Train",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:591896": [
+  {
+   "construto": "nostalgia",
+   "trecho": "Train",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "Street",
    "pistas": 1
   },
   {
@@ -91490,6 +93959,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:591937": [
+  {
+   "construto": "nostalgia",
+   "trecho": "Train",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Train",
+   "pistas": 1
+  }
+ ],
  "som:freesound:591938": [
   {
    "construto": "nostalgia",
@@ -91537,6 +94018,18 @@
   },
   {
    "construto": "nostalgia",
+   "trecho": "Train",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:591949": [
+  {
+   "construto": "nostalgia",
+   "trecho": "Train",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
    "trecho": "Train",
    "pistas": 1
   }
@@ -91720,6 +94213,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:593047": [
+  {
+   "construto": "nostalgia",
+   "trecho": "Train",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Train",
+   "pistas": 1
+  }
+ ],
  "som:freesound:593048": [
   {
    "construto": "vigilancia",
@@ -91792,11 +94297,40 @@
    "pistas": 2
   }
  ],
+ "som:freesound:593634": [
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "playground",
+   "pistas": 1
+  },
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "playground",
+   "pistas": 1
+  }
+ ],
  "som:freesound:593947": [
   {
    "construto": "apego_ao_lugar",
    "trecho": "kitchen",
    "pistas": 2
+  }
+ ],
+ "som:freesound:594215": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "Engine",
+   "pistas": 2
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "train",
+   "pistas": 2
+  },
+  {
+   "construto": "tedio",
+   "trecho": "Loop",
+   "pistas": 1
   }
  ],
  "som:freesound:594342": [
@@ -92460,6 +94994,23 @@
    "pistas": 1
   }
  ],
+ "som:freesound:615837": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "rumble",
+   "pistas": 3
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "old",
+   "pistas": 3
+  },
+  {
+   "construto": "vigilancia",
+   "trecho": "hospital",
+   "pistas": 1
+  }
+ ],
  "som:freesound:615906": [
   {
    "construto": "sobrecarga_sensorial",
@@ -92561,6 +95112,23 @@
   {
    "construto": "restauracao_da_atencao",
    "trecho": "nature",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:616840": [
+  {
+   "construto": "vigilancia",
+   "trecho": "Phone",
+   "pistas": 2
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "old",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "old",
    "pistas": 1
   }
  ],
@@ -92759,11 +95327,62 @@
    "pistas": 1
   }
  ],
+ "som:freesound:623116": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "construction",
+   "pistas": 1
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "hammering",
+   "pistas": 1
+  },
+  {
+   "construto": "fluxo",
+   "trecho": "hammering",
+   "pistas": 1
+  }
+ ],
  "som:freesound:624015": [
   {
    "construto": "restauracao_da_atencao",
    "trecho": "Birds",
    "pistas": 4
+  }
+ ],
+ "som:freesound:624095": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 6
+  },
+  {
+   "construto": "assombro",
+   "trecho": "waterfall",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:624096": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 6
+  },
+  {
+   "construto": "assombro",
+   "trecho": "waterfall",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
   }
  ],
  "som:freesound:624758": [
@@ -92863,6 +95482,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:626164": [
+  {
+   "construto": "nostalgia",
+   "trecho": "music-box",
+   "pistas": 2
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "music-box",
+   "pistas": 2
+  }
+ ],
  "som:freesound:626169": [
   {
    "construto": "vigilancia",
@@ -92917,6 +95548,52 @@
   {
    "construto": "apego_ao_lugar",
    "trecho": "kitchen",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:630371": [
+  {
+   "construto": "vigilancia",
+   "trecho": "creak",
+   "pistas": 2
+  },
+  {
+   "construto": "medo",
+   "trecho": "creak",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:630624": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "rain",
+   "pistas": 3
+  },
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "traffic",
+   "pistas": 1
+  },
+  {
+   "construto": "medo",
+   "trecho": "storm",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:63222": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "motor",
+   "pistas": 1
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "wind-up",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "toy",
    "pistas": 1
   }
  ],
@@ -93628,6 +96305,30 @@
    "pistas": 2
   }
  ],
+ "som:freesound:652735": [
+  {
+   "construto": "nostalgia",
+   "trecho": "wind-up",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "Wind",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:652736": [
+  {
+   "construto": "nostalgia",
+   "trecho": "wind-up",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "Wind",
+   "pistas": 1
+  }
+ ],
  "som:freesound:653028": [
   {
    "construto": "vigilancia",
@@ -93787,6 +96488,23 @@
    "construto": "restauracao_da_atencao",
    "trecho": "Leaves",
    "pistas": 2
+  }
+ ],
+ "som:freesound:656608": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "traffic",
+   "pistas": 3
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "train",
+   "pistas": 2
+  },
+  {
+   "construto": "vigilancia",
+   "trecho": "Door",
+   "pistas": 1
   }
  ],
  "som:freesound:657250": [
@@ -94250,6 +96968,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:675312": [
+  {
+   "construto": "nostalgia",
+   "trecho": "vintage",
+   "pistas": 3
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "train",
+   "pistas": 1
+  }
+ ],
  "som:freesound:675686": [
   {
    "construto": "vigilancia",
@@ -94373,6 +97103,23 @@
   {
    "construto": "solitude",
    "trecho": "footsteps",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:680116": [
+  {
+   "construto": "vigilancia",
+   "trecho": "creak",
+   "pistas": 2
+  },
+  {
+   "construto": "medo",
+   "trecho": "creak",
+   "pistas": 2
+  },
+  {
+   "construto": "nostalgia",
+   "trecho": "old",
    "pistas": 1
   }
  ],
@@ -94609,6 +97356,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:685596": [
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambient",
+   "pistas": 2
+  },
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 1
+  }
+ ],
  "som:freesound:685984": [
   {
    "construto": "habituacao",
@@ -94724,6 +97483,18 @@
   {
    "construto": "solitude",
    "trecho": "wind",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:693795": [
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "playground",
+   "pistas": 1
+  },
+  {
+   "construto": "emocoes_positivas",
+   "trecho": "playground",
    "pistas": 1
   }
  ],
@@ -95132,6 +97903,40 @@
    "pistas": 1
   }
  ],
+ "som:freesound:708167": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 3
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "drip",
+   "pistas": 2
+  },
+  {
+   "construto": "tedio",
+   "trecho": "dripping",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:708168": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 3
+  },
+  {
+   "construto": "habituacao",
+   "trecho": "drip",
+   "pistas": 2
+  },
+  {
+   "construto": "tedio",
+   "trecho": "dripping",
+   "pistas": 1
+  }
+ ],
  "som:freesound:708202": [
   {
    "construto": "fluxo",
@@ -95528,6 +98333,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:71778": [
+  {
+   "construto": "nostalgia",
+   "trecho": "train",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "train",
+   "pistas": 1
+  }
+ ],
  "som:freesound:718309": [
   {
    "construto": "vigilancia",
@@ -95612,6 +98429,23 @@
   {
    "construto": "tedio",
    "trecho": "hum",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:721618": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 6
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Ambience",
+   "pistas": 3
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
    "pistas": 1
   }
  ],
@@ -96044,6 +98878,23 @@
    "pistas": 2
   }
  ],
+ "som:freesound:773050": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 6
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "ambient",
+   "pistas": 2
+  },
+  {
+   "construto": "apego_ao_lugar",
+   "trecho": "river",
+   "pistas": 1
+  }
+ ],
  "som:freesound:773366": [
   {
    "construto": "apego_ao_lugar",
@@ -96285,6 +99136,23 @@
    "pistas": 2
   }
  ],
+ "som:freesound:811011": [
+  {
+   "construto": "nostalgia",
+   "trecho": "wind-up",
+   "pistas": 1
+  },
+  {
+   "construto": "memoria_autobiografica",
+   "trecho": "Toy",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "Wind",
+   "pistas": 1
+  }
+ ],
  "som:freesound:81119": [
   {
    "construto": "habituacao",
@@ -96490,6 +99358,18 @@
    "pistas": 1
   }
  ],
+ "som:freesound:86344": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "Rain",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "Rain",
+   "pistas": 1
+  }
+ ],
  "som:freesound:86756": [
   {
    "construto": "emocoes_positivas",
@@ -96533,6 +99413,13 @@
    "pistas": 1
   }
  ],
+ "som:freesound:88743": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "nature",
+   "pistas": 2
+  }
+ ],
  "som:freesound:88787": [
   {
    "construto": "vigilancia",
@@ -96550,6 +99437,13 @@
    "construto": "restauracao_da_atencao",
    "trecho": "fire",
    "pistas": 2
+  }
+ ],
+ "som:freesound:91208": [
+  {
+   "construto": "restauracao_da_atencao",
+   "trecho": "stream",
+   "pistas": 3
   }
  ],
  "som:freesound:91322": [
@@ -96818,6 +99712,30 @@
   {
    "construto": "habituacao",
    "trecho": "household",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:97896": [
+  {
+   "construto": "sobrecarga_sensorial",
+   "trecho": "construction",
+   "pistas": 1
+  }
+ ],
+ "som:freesound:9923": [
+  {
+   "construto": "nostalgia",
+   "trecho": "train",
+   "pistas": 2
+  },
+  {
+   "construto": "divagacao_mental",
+   "trecho": "train",
+   "pistas": 1
+  },
+  {
+   "construto": "solitude",
+   "trecho": "distant",
    "pistas": 1
   }
  ]
