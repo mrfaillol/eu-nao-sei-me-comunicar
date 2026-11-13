@@ -88,3 +88,20 @@ Frases do modelo sem raciocínio:
   Em palavras simples: What you chose puts a ringing alarm next to a painted face and a quiet place. Together they say that calm and bright feelings sit beside the noise that keeps breaking in.
 - **zh-CN, 5 signos, 1.9 s.** 你选的水灾画作和街景画作指向归属感，闹钟声表明警觉，兴高采烈一词传达积极情绪，这些选择共同说出日常安稳与被打断之间的对照。
   Em palavras simples: 你选的东西里有受灾人家的画面、街角日常的画面、闹钟的响声，还有一个表示高兴的词。它们放在一起说的是平常生活和突然被打断之间的对照。
+
+## Por que o modelo sem raciocínio reprovava, e o que mudou
+
+Um diagnóstico com a frase crua de cada tentativa mostrou duas causas para a regra V5 (de dois a quatro termos permitidos), que era a reprovação mais comum:
+
+1. Quando a seleção permitia mais de quatro termos, o modelo usava todos: cinco, seis, sete. O pré-prompt (versão `2026-11-12.6`) passou a entregar só os termos que a frase por regra escolheria para a mesma seleção, e a tirar dos itens os construtos que ficaram de fora.
+2. O modelo declarava um termo e escrevia um sinônimo ("regozijo" por "emoções positivas"). A frase estava dentro do contrato; só a lista declarada não batia. O validador passou a julgar o que está escrito. A declaração só precisa caber na seleção, e a procedência já saía do que o servidor acha na frase.
+
+Mesmas duas sementes, nove seleções cada, modelo sem raciocínio, prazo de 10 s:
+
+| Estado do código | Aprovadas | Tempo das aprovadas |
+|---|---|---|
+| antes (só a semente 23) | 5 de 9 | 2,0 a 7,7 s |
+| com o corte de termos | 12 de 18 | 1,8 a 8,0 s |
+| com o corte e o julgamento pelo que está escrito | 15 de 18 | 1,4 a 9,5 s, a maioria abaixo de 3 s |
+
+As 33 frases defeituosas do conjunto de regressão continuam reprovadas depois da mudança no validador.

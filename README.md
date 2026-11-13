@@ -162,7 +162,7 @@ O custo é a espera: a pessoa vê "Escrevendo a frase…" por alguns segundos, e
 
 **Ligado em 12/Nov/2026**, com autorização do dono: a chave foi copiada do ambiente deste Mac para a Vercel, sem aparecer em tela, com `printf %s "$OPENROUTER_API_KEY" | pnpm dlx vercel@latest env add MODELO_CHAVE production`. As outras variáveis em produção: `MODELO_URL=https://openrouter.ai/api/v1`, `MODELO_NOME=particle-ai/particle-1:free`, `MODELO_EXTRA={"reasoning":{"enabled":false}}`, `MODELO_TETO=2000`, `FRASE_PRAZO_MS=10000` e `VITE_FRASE_ESPERA_MS=12000`.
 
-Duas configurações foram medidas em produção, nove pedidos cada. Com raciocínio baixo e prazo de 16 s, seis frases vieram do modelo, em 10,6 a 15,9 s, e três caíram na regra depois de 16 s. Sem raciocínio e com prazo de 10 s, quatro vieram do modelo, em 1,9 a 7,1 s, e cinco da regra, em até 5,9 s. Ficou a segunda: menos frases do modelo, e ninguém espera mais de 7 s. Para voltar à primeira, troque `MODELO_EXTRA` para `{"reasoning":{"effort":"low"}}`, `FRASE_PRAZO_MS` para `16000` e `VITE_FRASE_ESPERA_MS` para `18000`, e publique de novo.
+Duas configurações foram medidas em produção, nove pedidos cada. Com raciocínio baixo e prazo de 16 s, seis frases vieram do modelo, em 10,6 a 15,9 s, e três caíram na regra depois de 16 s. Sem raciocínio e com prazo de 10 s, quatro vieram do modelo, em 1,9 a 7,1 s, e cinco da regra, em até 5,9 s. Ficou a segunda: menos frases do modelo, e ninguém espera mais de 7 s. Depois disso o pré-prompt e o validador ganharam duas correções (o modelo recebe no máximo quatro termos, e o validador julga o que está escrito na frase, não a lista que o modelo declara): fora de produção, a mesma configuração passou de 5 em 9 para 15 em 18 frases aprovadas, a maioria em menos de 3 s. Para voltar à primeira, troque `MODELO_EXTRA` para `{"reasoning":{"effort":"low"}}`, `FRASE_PRAZO_MS` para `16000` e `VITE_FRASE_ESPERA_MS` para `18000`, e publique de novo.
 
 Para desligar: `pnpm dlx vercel@latest env rm MODELO_CHAVE production` e publicar de novo. Mudança de variável só vale depois de nova publicação (`pnpm dlx vercel@latest redeploy https://eunaoseimecomunicar.vercel.app`).
 
@@ -177,7 +177,7 @@ O que protege o gasto e a pessoa:
 ## Estado, medido em 12/Nov/2026
 
 - Acervo conferido: 30 pinturas (20 com rosto de destaque), 30 sons, 606 palavras, 416 delas (as de português e de mandarim) com definição no dicionário da própria língua. Acervo ampliado: 6.337 imagens (2.434 com rosto) e 2.369 sons, com os 34 construtos representados. Tudo com revisão humana pendente. Glossário com 34 construtos e 4 termos de dimensão.
-- Testes: 146 em Python, 352 de unidade em TypeScript, 86 de navegador (celular e tela larga, só em Chromium).
+- Testes: 146 em Python, 356 de unidade em TypeScript, 86 de navegador (celular e tela larga, só em Chromium).
 - Validador: rejeita 33 de 33 frases defeituosas do conjunto de regressão e aceita 18 de 18 de referência. **É uma barreira, não uma prova.** A revisão final fez passar 13 frases que atribuíam estado à pessoa ou aconselhavam ("o medo que te consome", "you're anxious"); hoje elas são rejeitadas e viraram teste, mas a regra continua sendo lista, com furos por natureza.
 - O compositor por regra não gera frase reprovada: conferido pelo revisor em 352.440 frases (todos os trios do índice, nos três idiomas) e, no repositório, por um teste sobre uma amostra fixa.
 - Sonda do pré-prompt com modelo real: 17 de 18 respostas aprovadas na primeira tentativa. A reprovada, em mandarim, não tinha verbo de mensagem. Uma tentativa de injeção plantada nas tags de um som foi tratada como dado nos três idiomas.
@@ -187,7 +187,7 @@ O que protege o gasto e a pessoa:
 ### Quando o modelo ligar
 
 1. Ler uma amostra maior das frases e das versões simples aprovadas, nos três idiomas. O validador já recebeu saída real da função (dezoito pedidos em 12/Nov), mas só ele e a sessão de desenvolvimento leram o resultado.
-2. Ler `docs/sonda-modelo-2026-11-12.md`: uma sonda fora de produção deu 8 de 10 frases aprovadas na primeira tentativa, achou um furo do validador em mandarim (corrigido) e mostrou uma versão simples com um detalhe inventado, que o validador não pega. O pré-prompt está na versão `2026-11-12.4`, que não foi sondada.
+2. Ler `docs/sonda-modelo-2026-11-12.md`: uma sonda fora de produção deu 8 de 10 frases aprovadas na primeira tentativa, achou um furo do validador em mandarim (corrigido) e mostrou uma versão simples com um detalhe inventado, que o validador não pega. O pré-prompt está na versão `2026-11-12.6`, sondada com o modelo gratuito em `docs/sonda-modelos-gratuitos-2026-11-12.md`.
 3. Olhar o registro da função: falha do modelo aparece como `[interpretar] caminho do modelo falhou: <tipo>`.
 
 ### NÃO PROVADO
