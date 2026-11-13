@@ -158,5 +158,22 @@
   {"palavra": "caos", "sentido": 1, "construtos": ["anomia"], "tema_sensivel": false},
   {"palavra": "otimismo", "sentido": 0, "construtos": ["esperanca"], "tema_sensivel": false},
   {"palavra": "isolamento", "sentido": 1, "construtos": ["solidao"], "tema_sensivel": false},
-  {"palavra": "anseio", "sentido": 0, "construtos": ["esperanca"], "tema_sensivel": false}
+  {"palavra": "anseio", "sentido": 0, "construtos": ["esperanca"], "tema_sensivel": false},
+  {"palavra": "paz", "sentido": 0, "construtos": ["restauracao_da_atencao"], "tema_sensivel": false},
+  {"palavra": "bondade", "sentido": 0, "construtos": ["compaixao"], "tema_sensivel": false},
+  {"palavra": "afeição", "sentido": 0, "construtos": ["apego"], "tema_sensivel": false},
+  {"palavra": "estima", "sentido": 1, "construtos": ["apego"], "tema_sensivel": false},
+  {"palavra": "ócio", "sentido": 0, "construtos": ["tedio"], "tema_sensivel": false},
+  {"palavra": "torpor", "sentido": 0, "construtos": ["interocepcao"], "tema_sensivel": false},
+  {"palavra": "fôlego", "sentido": 0, "construtos": ["interocepcao"], "tema_sensivel": false},
+  {"palavra": "louvor", "sentido": 1, "construtos": ["gratidao"], "tema_sensivel": false},
+  {"palavra": "ventura", "sentido": 1, "construtos": ["emocoes_positivas"], "tema_sensivel": false},
+  {"palavra": "riso", "sentido": 0, "construtos": ["emocoes_positivas"], "tema_sensivel": false},
+  {"palavra": "gargalhada", "sentido": 0, "construtos": ["emocoes_positivas", "contagio_emocional"], "tema_sensivel": false},
+  {"palavra": "festa", "sentido": 1, "construtos": ["contagio_emocional"], "tema_sensivel": false},
+  {"palavra": "multidão", "sentido": 0, "construtos": ["sobrecarga_sensorial"], "tema_sensivel": false},
+  {"palavra": "ruído", "sentido": 0, "construtos": ["sobrecarga_sensorial"], "tema_sensivel": false},
+  {"palavra": "alarido", "sentido": 0, "construtos": ["sobrecarga_sensorial"], "tema_sensivel": false},
+  {"palavra": "ameaça", "sentido": 0, "construtos": ["medo"], "tema_sensivel": false},
+  {"palavra": "perigo", "sentido": 0, "construtos": ["medo"], "tema_sensivel": false}
 ]

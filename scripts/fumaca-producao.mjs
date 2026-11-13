@@ -16,7 +16,8 @@ async function fluxo(navegador, nome, opcoes, captura) {
   const ruins = [], externas = [], erros = [];
   page.on("response", (r) => { if (r.status() >= 400) ruins.push(`${r.status()} ${r.url()}`); });
   // O acervo ampliado busca imagem e som nos servidores de origem. Qualquer outro endereço de fora é defeito.
-  const ORIGENS_DA_MIDIA = ["https://openaccess-cdn.clevelandart.org/", "https://cdn.freesound.org/"];
+  const MUSEUS = ["https://openaccess-cdn.clevelandart.org/", ...[0, 1, 2, 3, 4, 5, 6].map((n) => `https://${n}.api.artsmia.org/800/`)];
+  const ORIGENS_DA_MIDIA = [...MUSEUS, "https://cdn.freesound.org/"];
   page.on("request", (r) => { const u = r.url(); if (!u.startsWith(origem) && !u.startsWith("data:") && !u.startsWith("blob:") && !ORIGENS_DA_MIDIA.some((o) => u.startsWith(o))) externas.push(u); });
   page.on("console", (m) => { if (m.type() === "error") erros.push(m.text()); });
   page.on("pageerror", (e) => erros.push(String(e)));
@@ -33,8 +34,8 @@ async function fluxo(navegador, nome, opcoes, captura) {
   await page.locator('[data-janela="pintura"] [data-acao="outras"]').click();
   // Espera as três imagens abrirem de fato (até 12 s): "rede ociosa" não serve aqui, porque a página já ficou ociosa antes.
   await page.waitForFunction(() => { const imgs = [...document.querySelectorAll(".moldura .pintura img")]; return imgs.length === 3 && imgs.every((i) => i.complete && i.naturalWidth > 0); }, null, { timeout: 12_000 }).catch(() => {});
-  const doMuseu = await page.evaluate(() => [...document.querySelectorAll(".moldura .pintura img")].map((i) => ({ remota: i.src.startsWith("https://openaccess-cdn.clevelandart.org/"), abriu: i.complete && i.naturalWidth > 0 })));
-  anotar(doMuseu.length === 3 && doMuseu.every((i) => i.abriu), `${nome}: depois de trocar, as três pinturas abrem (${doMuseu.filter((i) => i.remota).length} vindas do museu)`);
+  const doMuseu = await page.evaluate(() => [...document.querySelectorAll(".moldura .pintura img")].map((i) => ({ remota: /^https:\/\/(openaccess-cdn\.clevelandart\.org|[0-6]\.api\.artsmia\.org)\//.test(i.src), abriu: i.complete && i.naturalWidth > 0 })));
+  anotar(doMuseu.length === 3 && doMuseu.every((i) => i.abriu), `${nome}: depois de trocar, as três pinturas abrem (${doMuseu.filter((i) => i.remota).length} vindas de museu)`);
   await page.locator(".moldura").first().click();
   await page.locator(".opcao-som .tocar").first().click();
   await page.waitForTimeout(900);

@@ -26,7 +26,7 @@
   "creditos.abrir": "出处与来源",
   "creditos.titulo": "出处与来源",
   "creditos.demonstracao": "演示用藏品：尚待人工审核。",
-  "creditos.pinturas": "图像与策展文字：克利夫兰艺术博物馆，属公有领域（CC0），包括绘画、版画、素描、摄影、织物以及手抄本和书籍页面。本项目不属于该馆，也未获其背书。",
+  "creditos.pinturas": "图像与策展文字：克利夫兰艺术博物馆，属公有领域（CC0），包括绘画、版画、素描、摄影、织物以及手抄本和书籍页面。部分图像来自明尼阿波利斯艺术博物馆：策展文字以 CC0 发布，照片留在该馆的服务器上，仅供非商业和教育用途。本项目不属于这两家博物馆，也未获其背书。",
   "creditos.sons": "声音为公有领域（CC0）作品，发布于 Freesound，经 Openverse 检索。本项目不属于 Openverse，也未获其背书。",
   "creditos.palavras": "葡萄牙语和英语词条释义原样引自 Wiktionary（CC BY-SA 4.0）。汉语词条释义引自 Zheng 等（2023），CC0。",
   "creditos.normas": "英语词的效价与唤醒度：The Glasgow Norms，Scott 等（2019），CC BY 4.0，数值经本项目归一化。",
@@ -48,7 +48,7 @@
   "autoria.rotulo": "作者 Víctor Vingren，打开 vingren.me",
   "autoria.simbolo": "镰刀锤子。在 GitHub 上打开源代码",
   "creditos.curto": "致谢",
-  "creditos.ampliado": "扩展收藏：另有 {n} 件图像和声音。它们的图像和音频直接来自博物馆和 Freesound 的服务器，因此这些服务器会收到你浏览器的请求。这些条目是自动标注的：只有当描述作品或发布声音的人所写的文字中出现了相应的线索词，才会使用该术语。每一件的署名随句子一同显示。",
+  "creditos.ampliado": "扩展收藏：另有 {n} 件图像和声音。它们的图像和音频直接来自各博物馆和 Freesound 的服务器，因此这些服务器会收到你浏览器的请求。这些条目是自动标注的：只有当描述作品或发布声音的人所写的文字中出现了相应的线索词，才会使用该术语。每一件的署名随句子一同显示。",
   "creditos.dicionarios": "葡萄牙语词语的释义：Dicionário Aberto（据 Cândido de Figueiredo 1913 年《Novo Diccionário》），CC BY-SA 2.5 葡萄牙；以及葡萄牙语维基词典，CC BY-SA 4.0。中文词语的释义：台湾教育部《重編國語辭典修訂本》，经萌典查询，CC BY-ND 3.0 台湾，原文未作改动。",
   "resultado.simples": "简单地说"
 }

@@ -74,7 +74,7 @@
       ],
       "additionalProperties": false,
       "properties": {
-        "id": { "type": "string", "pattern": "^(pintura:cma:|som:freesound:|palavra:(pt-BR|en|zh-CN):).+" },
+        "id": { "type": "string", "pattern": "^(pintura:(cma|mia):|som:freesound:|palavra:(pt-BR|en|zh-CN):).+" },
         "tipo": { "enum": ["pintura", "som", "palavra"] },
         "classe_semiotica": { "enum": ["icone", "indice", "simbolo"] },
         "idioma": { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/idioma" }] },
@@ -94,7 +94,7 @@
               "required": ["arquivo", "largura", "altura"],
               "additionalProperties": false,
               "properties": {
-                "arquivo": { "type": "string", "pattern": "^(midia/pinturas/|https://openaccess-cdn\\.clevelandart\\.org/)" },
+                "arquivo": { "type": "string", "pattern": "^(midia/pinturas/|https://openaccess-cdn\\.clevelandart\\.org/|https://[0-6]\\.api\\.artsmia\\.org/800/)" },
                 "largura": { "type": "integer", "minimum": 1 },
                 "altura": { "type": "integer", "minimum": 1 }
               }

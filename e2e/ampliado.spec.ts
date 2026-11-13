@@ -129,3 +129,47 @@ test("os créditos dizem de onde vem a mídia do acervo ampliado e como ele é a
   await expect(aviso).toContainText(String(remotos.length));
   await expect(aviso).toContainText("anotação desses itens é automática");
 });
+
+test("imagem do segundo museu traz o nome dele e o aviso de uso não comercial, no (i) e junto da frase", async ({ page }, info) => {
+  // O Minneapolis Institute of Art publica o texto em CC0, mas a foto é só para uso não comercial: o aviso viaja com o item.
+  const AVISO = "Non-commercial use (Mia image policy)";
+  const resposta = await page.request.get("/indice/acervo.json");
+  const acervo = (await resposta.json()) as { itens: Item[] };
+  const nucleo = new Set(acervo.itens.map((i) => i.id));
+  const remotos = acervo.itens
+    .filter((i) => i.tipo === "pintura")
+    .map((i, n) => ({
+      ...i,
+      id: `pintura:mia:9${String(n).padStart(4, "0")}`,
+      rotulo: `Do segundo museu ${n}`,
+      nitido: null,
+      rosto: null,
+      midia: { ...i.midia, arquivo: `https://${(90000 + n) % 7}.api.artsmia.org/800/9${String(n).padStart(4, "0")}.jpg` },
+      credito: { autor: "Autora de teste", linha: `Do segundo museu ${n}, Minneapolis Institute of Art`, fonte: "mia", licenca: AVISO, url: `https://collections.artsmia.org/art/9${String(n).padStart(4, "0")}` },
+    }));
+  await page.route("**/indice/ampliado.json", (rota) => rota.fulfill({ json: { versao: "teste", demonstracao: true, itens: remotos } }));
+  await page.route(/^https:\/\/[0-6]\.api\.artsmia\.org\//, (rota) => rota.fulfill({ path: "public/midia/pinturas/cma-102578.webp", contentType: "image/webp" }));
+  await abrir(page);
+
+  const pintura = await acharRemoto(page, "pintura", nucleo);
+  const imagem = page.locator(`.moldura[data-id="${pintura}"] img`).first();
+  await expect(imagem).toHaveAttribute("src", /^https:\/\/[0-6]\.api\.artsmia\.org\/800\//);
+  await expect.poll(() => imagem.evaluate((i: HTMLImageElement) => i.complete && i.naturalWidth > 0)).toBe(true);
+
+  const botaoInfo = page.locator(`.opcao-pintura .info[data-info="${pintura}"]`);
+  if (info.project.name === "mesa") await botaoInfo.hover();
+  else await botaoInfo.tap();
+  await expect(page.locator(".info-caixa .info-fonte")).toHaveText(`Minneapolis Institute of Art · ${AVISO}`);
+  await page.keyboard.press("Escape");
+
+  await page.locator(`.moldura[data-id="${pintura}"]`).click();
+  await page.waitForTimeout(TRAVA);
+  await page.locator("button.palavra").nth(0).click();
+  await page.waitForTimeout(TRAVA);
+  await page.locator("button.palavra").nth(1).click();
+  await page.locator('[data-acao="ver-frase"]').click();
+  const dialogo = page.locator('dialog[data-dialogo="resultado"]');
+  await expect(dialogo.locator(".frase[data-origem]")).toBeVisible();
+  await expect(dialogo.locator('a[href^="https://collections.artsmia.org/art/"]')).toHaveCount(1);
+  await expect(dialogo).toContainText(AVISO);
+});

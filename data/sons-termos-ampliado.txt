@@ -82,3 +82,97 @@ creaking wood
 storm wind
 playground swing
 cathedral ambience
+rain on roof
+rain on leaves
+gentle rain
+babbling brook
+creek
+sea waves
+beach waves
+lake waves
+wind in trees
+forest birds
+dawn chorus
+blackbird
+robin song
+sparrows
+woodpecker
+owl hooting
+crows
+geese
+ducks pond
+frog pond
+crickets night
+cicadas summer
+bee hive
+distant thunder
+hail
+snow crunch
+ice cracking
+fountain
+cave dripping
+kitchen ambience
+frying pan
+coffee machine
+teapot whistle
+microwave
+dishwasher
+vacuum cleaner
+clock tower
+grandfather clock
+cuckoo clock
+metronome
+ceiling fan
+heater hum
+fluorescent hum
+tap water
+door lock
+door close
+drawer
+stairs creak
+floorboards
+chair creak
+chalk blackboard
+page turn
+newspaper
+stapler
+printer
+cash register
+car horn
+tram
+train crossing bell
+airport ambience
+ferry
+drill
+jackhammer
+factory machine
+printing press
+loom weaving
+blacksmith anvil
+workshop tools
+sanding
+carousel
+toy piano
+spinning top
+marbles
+swing creak
+film projector
+camera shutter
+cassette tape
+rotary phone
+telegraph
+steam whistle
+ship horn
+foghorn
+smoke alarm
+car alarm
+bicycle bell
+gong
+gate creak
+chains
+footsteps stairs
+glass shatter
+pipe organ
+temple bell
+singing bowl
+waves crashing

@@ -18,6 +18,7 @@ const FOLGA = 8;
 // A ficha completa de cada item está em "Créditos e fontes". Aqui cabe só de quem é a voz.
 const VOZ: Record<string, (item: Item) => string> = {
   cma: () => "Cleveland Museum of Art",
+  mia: () => "Minneapolis Institute of Art",
   "freesound-via-openverse": (item) => ["Freesound", item.credito.autor].filter(Boolean).join(", "),
 };
 

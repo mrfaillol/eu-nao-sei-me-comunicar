@@ -167,7 +167,11 @@ describe("o compositor contra o índice real", () => {
   const todos = (acervoReal as unknown as Acervo).itens;
   for (const idioma of IDIOMAS) {
     it(`nenhuma frase por regra é reprovada em ${idioma}`, () => {
-      const sessao = todos.filter((i) => i.idioma === null || i.idioma === idioma).filter((_, n) => n % 3 === 0);
+      // A amostra tem tamanho fixo (cerca de 54 itens, uns 25 mil trios). Com passo fixo ela crescia junto com o
+      // acervo, e os trios crescem ao cubo: em 606 palavras o teste passou de 5 s no CI.
+      const doIdioma = todos.filter((i) => i.idioma === null || i.idioma === idioma);
+      const passo = Math.max(3, Math.ceil(doIdioma.length / 54));
+      const sessao = doIdioma.filter((_, n) => n % passo === 0);
       let conferidas = 0;
       for (let a = 0; a < sessao.length; a++) {
         for (let b = a + 1; b < sessao.length; b++) {
