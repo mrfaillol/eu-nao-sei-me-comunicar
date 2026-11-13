@@ -1,11 +1,12 @@
 // Pré-prompt da frase. O texto do mestre e dos blocos de idioma vem, sem alteração, de
 // docs/pesquisa/pre-prompt.md, seção (c). Mudou o texto, muda a versão: ela vai na resposta
 // e entra na chave de cache.
+import { comporFrase } from "./compositor";
 import { termosPermitidos } from "./termos";
 import type { Glossario, Idioma, Item } from "./tipos";
 import type { Codigo } from "./validador";
 
-export const VERSAO_PROMPT = "2026-11-12.5";
+export const VERSAO_PROMPT = "2026-11-12.6";
 
 const MESTRE = `Você escreve uma frase para o aplicativo "Eu Não Sei Me Comunicar". A pessoa não escreveu nada. Ela escolheu três ou mais itens entre imagens (pinturas, gravuras, desenhos, fotografias), sons e palavras, e a sua frase diz a ela, em segunda pessoa, o que essa seleção comunica.
 
@@ -77,10 +78,28 @@ export interface Mensagens {
  * (inclusive título e tags escritos por terceiros) vai como JSON na mensagem do usuário,
  * para que um texto com cara de ordem seja lido como dado.
  */
+/** A frase aceita de dois a quatro termos. */
+const TETO_DE_TERMOS = 4;
+
+/**
+ * Os termos que o modelo recebe. Até quatro, vão todos. Acima disso vão só os que a frase por regra escolheria
+ * para a mesma seleção: modelo que recebe sete termos tende a usar os sete, e a frase é reprovada (medido em
+ * 12/Nov/2026 com um modelo sem raciocínio). Assim as duas origens da frase falam dos mesmos termos.
+ */
+function termosParaOModelo(itens: Item[], idioma: Idioma, glossario: Glossario) {
+  const todos = termosPermitidos(itens, idioma, glossario);
+  if (todos.length <= TETO_DE_TERMOS) return todos;
+  const daRegra = new Set(comporFrase(itens, idioma, glossario).construtos_usados);
+  const corte = todos.filter((t) => daRegra.has(t.id));
+  return corte.length >= 2 ? corte : todos.slice(0, TETO_DE_TERMOS);
+}
+
 export function montarMensagens(itens: Item[], idioma: Idioma, glossario: Glossario): Mensagens {
+  const termos = termosParaOModelo(itens, idioma, glossario);
+  const ids = new Set(termos.map((t) => t.id));
   const dado = {
     idioma_saida: idioma,
-    termos_permitidos: termosPermitidos(itens, idioma, glossario).map((t) => ({ id: t.id, termo: t.termo })),
+    termos_permitidos: termos.map((t) => ({ id: t.id, termo: t.termo })),
     itens: itens.map((i) => ({
       tipo: i.tipo,
       rotulo: i.rotulo,
@@ -89,7 +108,7 @@ export function montarMensagens(itens: Item[], idioma: Idioma, glossario: Glossa
       texto_humano: i.texto_humano,
       valencia: i.afeto.metodo === "norma_direta" ? i.afeto.valencia : null,
       ativacao: i.afeto.metodo === "norma_direta" ? i.afeto.ativacao : null,
-      construtos: i.construtos,
+      construtos: i.construtos.filter((c) => ids.has(c)),
     })),
   };
   return { sistema: `${MESTRE}\n\n${BLOCO_DE_IDIOMA[idioma]}`, usuario: JSON.stringify(dado) };

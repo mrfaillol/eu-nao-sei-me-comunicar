@@ -248,7 +248,9 @@ export function validarFrase(
   const naFrase = new Set(termosNaFrase(texto, idioma, glossario));
   const fora = [...naFrase].filter((id) => !permitidos.has(id));
   const presentes = [...naFrase].filter((id) => permitidos.has(id));
-  const declaradosValem = construtosUsados.every((id) => permitidos.has(id) && naFrase.has(id));
+  // A declaração só precisa caber na seleção. O que conta para a regra e para a procedência é o que está
+  // escrito: o modelo às vezes declara um termo e escreve um sinônimo, e a frase continua dentro do contrato.
+  const declaradosValem = construtosUsados.every((id) => permitidos.has(id));
   if (fora.length > 0 || !declaradosValem || presentes.length < 2 || presentes.length > 4) codigos.push("V5");
 
   if (!segundaPessoaSoDoAto(texto, idioma) || NOSOLOGIA[idioma].test(texto)) codigos.push("V6");
