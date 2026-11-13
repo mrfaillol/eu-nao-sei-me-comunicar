@@ -7,6 +7,7 @@
 // - `fallbacks: "default"` deixa a API reexecutar em outro modelo se o classificador de segurança
 //   declinar. Se ainda assim vier recusa, a função cai na frase por regra.
 import Anthropic from "@anthropic-ai/sdk";
+import { configuracaoCompativel, criarProvedorCompativel } from "./compativel";
 import { FalhaDoProvedor, type Provedor } from "./tipos";
 
 export { FalhaDoProvedor };
@@ -98,15 +99,24 @@ export function criarProvedorDoGateway(modelo: string, cliente: Anthropic): Prov
 }
 
 /**
- * Decide o provedor. Com chave da Anthropic no ambiente, vai direto. Sem ela, usa o AI Gateway com o
- * token que a Vercel dá à função do próprio projeto (ou com AI_GATEWAY_API_KEY). Sem nenhum dos dois não
- * há modelo, e a função responde pela frase por regra.
+ * Decide o provedor. Com chave da Anthropic no ambiente, vai direto. Sem ela, com MODELO_URL, MODELO_CHAVE e
+ * MODELO_NOME, usa um serviço no formato chat/completions. Sem isso, usa o AI Gateway com o token que a
+ * Vercel dá à função do próprio projeto (ou com AI_GATEWAY_API_KEY). Sem nada disso não há modelo, e a
+ * função responde pela frase por regra.
  */
 export function escolherProvedor(env: Record<string, string | undefined>, tokenDoProjeto?: string): Provedor | null {
   if (env.FRASE_PROVEDOR === "nenhum") return null;
   const chave = env.ANTHROPIC_API_KEY;
   if (chave) return criarProvedorAnthropic(env.FRASE_MODELO ?? MODELO_PADRAO, new Anthropic({ apiKey: chave }));
+  const compativel = configuracaoCompativel(env);
+  if (compativel) return criarProvedorCompativel(compativel);
   const doGateway = env.AI_GATEWAY_API_KEY || tokenDoProjeto;
   if (!doGateway) return null;
   return criarProvedorDoGateway(env.FRASE_MODELO ?? MODELO_DO_GATEWAY, new Anthropic({ apiKey: doGateway, baseURL: ENDERECO_DO_GATEWAY }));
+}
+
+/** A credencial que o provedor escolhido usa. Serve para pausar o modelo por credencial recusada, sem guardar a chave. */
+export function credencialEmUso(env: Record<string, string | undefined>, tokenDoProjeto?: string): string {
+  if (env.ANTHROPIC_API_KEY) return env.ANTHROPIC_API_KEY;
+  return configuracaoCompativel(env)?.chave ?? (env.AI_GATEWAY_API_KEY || tokenDoProjeto || "");
 }

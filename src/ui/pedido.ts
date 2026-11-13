@@ -16,6 +16,16 @@ export interface DependenciasDoPedido {
 }
 
 const PRAZO_PADRAO_MS = 8000;
+
+/**
+ * Quanto o navegador espera pela função antes de compor a frase por regra. Vem de VITE_FRASE_ESPERA_MS,
+ * de 3 a 30 segundos; precisa ser maior que o prazo que a função dá ao modelo (FRASE_PRAZO_MS).
+ */
+export function esperaDoCliente(valor: string | undefined): number {
+  if (!valor || !/^\d+$/.test(valor)) return PRAZO_PADRAO_MS;
+  const ms = Number(valor);
+  return ms >= 3000 && ms <= 30_000 ? ms : PRAZO_PADRAO_MS;
+}
 const emAndamento = new Map<string, Promise<Resposta>>();
 
 function porRegra(itens: Item[], idioma: Idioma, glossario: Glossario): Resposta {

@@ -52,6 +52,16 @@ export interface Dependencias {
 const registrarNoConsole = (rotulo: string) => console.warn(`[interpretar] caminho do modelo falhou: ${rotulo}`);
 
 const PRAZO_PADRAO_MS = 7000;
+
+/**
+ * O prazo do modelo pedido pelo ambiente (FRASE_PRAZO_MS), de 3 a 20 segundos, ou undefined para o padrão.
+ * Modelo gratuito costuma levar de 5 a 14 segundos: sem prazo maior, toda frase dele cairia na regra.
+ */
+export function prazoDoAmbiente(valor: string | undefined): number | undefined {
+  if (!valor || !/^\d+$/.test(valor)) return undefined;
+  const ms = Number(valor);
+  return ms >= 3000 && ms <= 20_000 ? ms : undefined;
+}
 // A seleção não tem teto, e cada id ocupa cerca de 25 bytes: 16 KB cabem umas seiscentas escolhas.
 const TAMANHO_MAXIMO_DO_CORPO = 16 * 1024;
 const MINIMO_DE_ITENS = 3;

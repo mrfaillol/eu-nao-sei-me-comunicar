@@ -6,9 +6,9 @@ import { readFileSync } from "node:fs";
 import type { IncomingMessage, ServerResponse } from "node:http";
 import { indexarGlossario } from "../frase/glossario";
 import type { Acervo, Construto } from "../frase/tipos";
-import { criarInterpretar } from "./interpretar";
+import { criarInterpretar, prazoDoAmbiente } from "./interpretar";
 import { criarLimite, criarPausaPorChave } from "./limite";
-import { escolherProvedor } from "./provedores/anthropic";
+import { credencialEmUso, escolherProvedor } from "./provedores/anthropic";
 
 // Os índices são copiados para a pasta da função no build (scripts/saida-vercel.mjs).
 const ler = <T>(nome: string): T => JSON.parse(readFileSync(new URL(`./${nome}`, import.meta.url), "utf8")) as T;
@@ -53,13 +53,14 @@ export default async function interpretarNaVercel(req: IncomingMessage, res: Ser
     const anfitriao = um(req.headers.host);
     // O token que a Vercel entrega à função do próprio projeto. É ele que autentica no AI Gateway: não há chave guardada.
     const token = um(req.headers["x-vercel-oidc-token"]) || process.env.VERCEL_OIDC_TOKEN;
-    const credencial = createHash("sha256").update(token ?? process.env.AI_GATEWAY_API_KEY ?? process.env.ANTHROPIC_API_KEY ?? "").digest("hex");
+    const credencial = createHash("sha256").update(credencialEmUso(process.env, token)).digest("hex");
     const visitante = um(req.headers["x-real-ip"]) || um(req.headers["x-forwarded-for"]).split(",")[0]!.trim() || "desconhecido";
 
     const interpretar = criarInterpretar({
       acervo,
       glossario,
       provedor: escolherProvedor(process.env, token),
+      prazoMs: prazoDoAmbiente(process.env.FRASE_PRAZO_MS),
       origens: [SITE, `https://${anfitriao}`, "capacitor://localhost", "https://localhost"],
       podeChamarModelo: () => !pausas.ativa(credencial) && limite.permitir(visitante),
       aoFalhar: (rotulo) => {
