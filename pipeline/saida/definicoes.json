@@ -767,6 +767,246 @@
   "licenca": "CC-BY-SA-2.5-PT",
   "url": "https://dicionario-aberto.net/search/torr%C3%A3o"
  },
+ "palavra:pt-BR:pranto": {
+  "texto": "Lamentação; choro.",
+  "classe": "s. m.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/pranto"
+ },
+ "palavra:pt-BR:expectativa": {
+  "texto": "Esperança, baseada em supostos direitos, probabilidades ou promessas.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/expectativa"
+ },
+ "palavra:pt-BR:confiança": {
+  "texto": "Esperança firme.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/confian%C3%A7a"
+ },
+ "palavra:pt-BR:regozijo": {
+  "texto": "Grande gôso; contentamento; prazer; folia.",
+  "classe": "s. m.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/regozijo"
+ },
+ "palavra:pt-BR:deleite": {
+  "texto": "Prazer íntimo e suave; delícia.",
+  "classe": "s. m.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/deleite"
+ },
+ "palavra:pt-BR:entusiasmo": {
+  "texto": "Excitação da alma, quando admira excessivamente.",
+  "classe": "s. m.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/entusiasmo"
+ },
+ "palavra:pt-BR:felicidade": {
+  "texto": "Bem-estar; contentamento; ventura.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/felicidade"
+ },
+ "palavra:pt-BR:indignação": {
+  "texto": "Estado de quem indigna ou de quem se indigna.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/indigna%C3%A7%C3%A3o"
+ },
+ "palavra:pt-BR:cólera": {
+  "texto": "Paixão, irritação, produzida por ofensa, ou por um facto que indigna.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/c%C3%B3lera"
+ },
+ "palavra:pt-BR:irritação": {
+  "texto": "Exacerbação; excitação.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/irrita%C3%A7%C3%A3o"
+ },
+ "palavra:pt-BR:pânico": {
+  "texto": "Terror infundado.",
+  "classe": "M.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/p%C3%A2nico"
+ },
+ "palavra:pt-BR:angústia": {
+  "texto": "Aperto de coração.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/ang%C3%BAstia"
+ },
+ "palavra:pt-BR:aflição": {
+  "texto": "Grande sofrimento.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/afli%C3%A7%C3%A3o"
+ },
+ "palavra:pt-BR:ansiedade": {
+  "texto": "Incerteza aflitiva.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/ansiedade"
+ },
+ "palavra:pt-BR:suspeita": {
+  "texto": "Desconfiança; suposição.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/suspeita"
+ },
+ "palavra:pt-BR:prudência": {
+  "texto": "Virtude, que leva os homens a conhecer e praticar o que lhes convém.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/prud%C3%AAncia"
+ },
+ "palavra:pt-BR:sobressalto": {
+  "texto": "Perturbação física ou moral; inquietação.",
+  "classe": "s. m.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/sobressalto"
+ },
+ "palavra:pt-BR:retiro": {
+  "texto": "Lugar, onde se descansa, longe de trato social.",
+  "classe": "s. m.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/retiro"
+ },
+ "palavra:pt-BR:silêncio": {
+  "texto": "Estado de quem se abstém de falar.",
+  "classe": "s. m.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/sil%C3%AAncio"
+ },
+ "palavra:pt-BR:monotonia": {
+  "texto": "Ausência de variedade.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/monotonia"
+ },
+ "palavra:pt-BR:aborrecimento": {
+  "texto": "Tédio.",
+  "classe": "s. m.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/aborrecimento"
+ },
+ "palavra:pt-BR:hábito": {
+  "texto": "Costume.",
+  "classe": "s. m.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/h%C3%A1bito"
+ },
+ "palavra:pt-BR:admiração": {
+  "texto": "Espanto.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/admira%C3%A7%C3%A3o"
+ },
+ "palavra:pt-BR:êxtase": {
+  "texto": "Arrebatamento de ânimo.",
+  "classe": "s. m.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/%C3%AAxtase"
+ },
+ "palavra:pt-BR:lar": {
+  "texto": "Casa de habitação.",
+  "classe": "s. m.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/lar"
+ },
+ "palavra:pt-BR:pátria": {
+  "texto": "País em que nascemos.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/p%C3%A1tria"
+ },
+ "palavra:pt-BR:reconhecimento": {
+  "texto": "Gratidão.",
+  "classe": "s. m.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/reconhecimento"
+ },
+ "palavra:pt-BR:clemência": {
+  "texto": "Indulgência, bondade.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/clem%C3%AAncia"
+ },
+ "palavra:pt-BR:solidariedade": {
+  "texto": "Qualidade do que é solidário.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/solidariedade"
+ },
+ "palavra:pt-BR:cobiça": {
+  "texto": "Avidez; ambição.",
+  "classe": "s. f.",
+  "pronuncia": "",
+  "fonte": "dicionario-aberto",
+  "licenca": "CC-BY-SA-2.5-PT",
+  "url": "https://dicionario-aberto.net/search/cobi%C3%A7a"
+ },
  "palavra:zh-CN:孤单": {
   "texto": "單獨無依。",
   "classe": "",
@@ -1582,5 +1822,381 @@
   "fonte": "moedict",
   "licenca": "CC-BY-ND-3.0-TW",
   "url": "https://www.moedict.tw/%E5%96%AE%E7%8D%A8"
+ },
+ "palavra:zh-CN:悲痛": {
+  "texto": "悲傷哀痛。",
+  "classe": "",
+  "pronuncia": "bēi tòng",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%82%B2%E7%97%9B"
+ },
+ "palavra:zh-CN:伤心": {
+  "texto": "心懷悲痛。",
+  "classe": "",
+  "pronuncia": "shāng xīn",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%82%B7%E5%BF%83"
+ },
+ "palavra:zh-CN:悲哀": {
+  "texto": "悲傷痛苦。",
+  "classe": "",
+  "pronuncia": "bēi āi",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%82%B2%E5%93%80"
+ },
+ "palavra:zh-CN:狂喜": {
+  "texto": "極度高興。",
+  "classe": "",
+  "pronuncia": "kuáng xǐ",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E7%8B%82%E5%96%9C"
+ },
+ "palavra:zh-CN:欢欣": {
+  "texto": "歡樂喜悅。",
+  "classe": "",
+  "pronuncia": "huān xīn",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%AD%A1%E6%AC%A3"
+ },
+ "palavra:zh-CN:愉快": {
+  "texto": "欣悅滿意。",
+  "classe": "",
+  "pronuncia": "yú kuài",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%84%89%E5%BF%AB"
+ },
+ "palavra:zh-CN:幸福": {
+  "texto": "平安吉祥，順遂圓滿。",
+  "classe": "",
+  "pronuncia": "xìng fú",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%B9%B8%E7%A6%8F"
+ },
+ "palavra:zh-CN:欢喜": {
+  "texto": "快樂、高興。",
+  "classe": "",
+  "pronuncia": "huān xǐ",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%AD%A1%E5%96%9C"
+ },
+ "palavra:zh-CN:舒畅": {
+  "texto": "寬舒暢快。",
+  "classe": "",
+  "pronuncia": "shū chàng",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E8%88%92%E6%9A%A2"
+ },
+ "palavra:zh-CN:震惊": {
+  "texto": "吃驚懼怕。",
+  "classe": "",
+  "pronuncia": "zhèn jīng",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E9%9C%87%E9%A9%9A"
+ },
+ "palavra:zh-CN:惊诧": {
+  "texto": "驚奇訝異。",
+  "classe": "",
+  "pronuncia": "jīng chà",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E9%A9%9A%E8%A9%AB"
+ },
+ "palavra:zh-CN:敬仰": {
+  "texto": "敬重仰慕。",
+  "classe": "",
+  "pronuncia": "jìng yǎng",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%95%AC%E4%BB%B0"
+ },
+ "palavra:zh-CN:敬佩": {
+  "texto": "敬重佩服。",
+  "classe": "",
+  "pronuncia": "jìng pèi",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%95%AC%E4%BD%A9"
+ },
+ "palavra:zh-CN:崇敬": {
+  "texto": "尊敬。",
+  "classe": "",
+  "pronuncia": "chóng jìng",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%B4%87%E6%95%AC"
+ },
+ "palavra:zh-CN:畏惧": {
+  "texto": "害怕、恐懼。",
+  "classe": "",
+  "pronuncia": "wèi jù",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E7%95%8F%E6%87%BC"
+ },
+ "palavra:zh-CN:惊骇": {
+  "texto": "慌張害怕。",
+  "classe": "",
+  "pronuncia": "jīng hài",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E9%A9%9A%E9%A7%AD"
+ },
+ "palavra:zh-CN:惶恐": {
+  "texto": "恐懼不安的樣子。《北史．卷二二．長孫嵩傳》：「容貌魁偉，音聲如鍾，大為鮮卑語，遣人傳譯以答問。客惶恐不敢仰視。」也作「皇恐」。",
+  "classe": "",
+  "pronuncia": "huáng kǒng",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%83%B6%E6%81%90"
+ },
+ "palavra:zh-CN:恐怖": {
+  "texto": "害怕、畏懼。",
+  "classe": "",
+  "pronuncia": "kǒng bù",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%81%90%E6%80%96"
+ },
+ "palavra:zh-CN:担忧": {
+  "texto": "擔心、憂慮。",
+  "classe": "",
+  "pronuncia": "dān yōu",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%93%94%E6%86%82"
+ },
+ "palavra:zh-CN:焦虑": {
+  "texto": "憂愁苦思。",
+  "classe": "",
+  "pronuncia": "jiāo lǜ",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E7%84%A6%E6%85%AE"
+ },
+ "palavra:zh-CN:怨恨": {
+  "texto": "埋怨忿恨。",
+  "classe": "",
+  "pronuncia": "yuàn hen",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%80%A8%E6%81%A8"
+ },
+ "palavra:zh-CN:仇恨": {
+  "texto": "因敵對而產生的憎恨。",
+  "classe": "",
+  "pronuncia": "chóu hèn",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E4%BB%87%E6%81%A8"
+ },
+ "palavra:zh-CN:恼火": {
+  "texto": "惱怒發火。",
+  "classe": "",
+  "pronuncia": "nǎo huǒ",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%83%B1%E7%81%AB"
+ },
+ "palavra:zh-CN:气愤": {
+  "texto": "生氣憤怒。",
+  "classe": "",
+  "pronuncia": "qì fèn",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%B0%A3%E6%86%A4"
+ },
+ "palavra:zh-CN:愧疚": {
+  "texto": "慚愧內疚。",
+  "classe": "",
+  "pronuncia": "kuì jiù",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%84%A7%E7%96%9A"
+ },
+ "palavra:zh-CN:抱歉": {
+  "texto": "心中不安，覺得過意不去。",
+  "classe": "",
+  "pronuncia": "bào qiàn",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%8A%B1%E6%AD%89"
+ },
+ "palavra:zh-CN:羞怯": {
+  "texto": "含羞而心怯。",
+  "classe": "",
+  "pronuncia": "xiū què",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E7%BE%9E%E6%80%AF"
+ },
+ "palavra:zh-CN:羞耻": {
+  "texto": "羞愧恥辱。",
+  "classe": "",
+  "pronuncia": "xiū chǐ",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E7%BE%9E%E6%81%A5"
+ },
+ "palavra:zh-CN:难堪": {
+  "texto": "尷尬、受窘。",
+  "classe": "",
+  "pronuncia": "nán kān",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E9%9B%A3%E5%A0%AA"
+ },
+ "palavra:zh-CN:妒嫉": {
+  "texto": "因他人勝過自己而心懷怨恨。",
+  "classe": "",
+  "pronuncia": "dù jí",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%A6%92%E5%AB%89"
+ },
+ "palavra:zh-CN:怀念": {
+  "texto": "懷想思念。如：「離開的愈久，對你的懷念就愈加深刻。」也作「懷想」、「懷思」。",
+  "classe": "",
+  "pronuncia": "huái niàn",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%87%B7%E5%BF%B5"
+ },
+ "palavra:zh-CN:惦念": {
+  "texto": "想念、掛念。",
+  "classe": "",
+  "pronuncia": "diàn niàn",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%83%A6%E5%BF%B5"
+ },
+ "palavra:zh-CN:牵挂": {
+  "texto": "心中掛念。《宋元戲文輯佚．董秀英花月東牆記》：「自從見了心牽掛，心兒裡撇他不下。」《紅樓夢》第二一回：「權當他們死了，毫無牽掛，反能怡然自悅。」也作「牽念」。",
+  "classe": "",
+  "pronuncia": "qiān guà",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E7%89%BD%E6%8E%9B"
+ },
+ "palavra:zh-CN:珍惜": {
+  "texto": "寶貴愛惜。",
+  "classe": "",
+  "pronuncia": "zhēn xí",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E7%8F%8D%E6%83%9C"
+ },
+ "palavra:zh-CN:孤独": {
+  "texto": "孤單寂寞。",
+  "classe": "",
+  "pronuncia": "gū dú",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%AD%A4%E7%8D%A8"
+ },
+ "palavra:zh-CN:厌烦": {
+  "texto": "厭惡、不耐煩。",
+  "classe": "",
+  "pronuncia": "yàn fan",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%8E%AD%E7%85%A9"
+ },
+ "palavra:zh-CN:乏味": {
+  "texto": "無味、沒趣味。",
+  "classe": "",
+  "pronuncia": "fá wèi",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E4%B9%8F%E5%91%B3"
+ },
+ "palavra:zh-CN:期待": {
+  "texto": "期望、等待。",
+  "classe": "",
+  "pronuncia": "qí dài",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%9C%9F%E5%BE%85"
+ },
+ "palavra:zh-CN:希望": {
+  "texto": "心中有所期盼。",
+  "classe": "",
+  "pronuncia": "xī wàng",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%B8%8C%E6%9C%9B"
+ },
+ "palavra:zh-CN:渴望": {
+  "texto": "十分思念。南朝宋．謝靈運〈武帝誄〉：「將陟井陘，薄掃白登，北朔渴望，飛旌衡輣。」也作「渴念」、「渴想」。",
+  "classe": "",
+  "pronuncia": "kě wàng",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%B8%B4%E6%9C%9B"
+ },
+ "palavra:zh-CN:困惑": {
+  "texto": "疑惑不解。",
+  "classe": "",
+  "pronuncia": "kùn huò",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%9B%B0%E6%83%91"
+ },
+ "palavra:zh-CN:迷惘": {
+  "texto": "困惑而不知所措。",
+  "classe": "",
+  "pronuncia": "mí wǎng",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E8%BF%B7%E6%83%98"
+ },
+ "palavra:zh-CN:关怀": {
+  "texto": "關心、牽掛。",
+  "classe": "",
+  "pronuncia": "guān huái",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E9%97%9C%E6%87%B7"
+ },
+ "palavra:zh-CN:恶心": {
+  "texto": "想吐的感覺。",
+  "classe": "",
+  "pronuncia": "ě xin",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E5%99%81%E5%BF%83"
+ },
+ "palavra:zh-CN:颤栗": {
+  "texto": "因恐懼、寒冷或激動而顫抖。如：「這陣寒風令他全身顫慄。」也作「戰慄」。",
+  "classe": "",
+  "pronuncia": "zhàn lì",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E9%A1%AB%E6%85%84"
+ },
+ "palavra:zh-CN:鄙视": {
+  "texto": "輕視、瞧不起。如：「不尊重自己的人，往往會遭人鄙視。」也作「鄙夷」。",
+  "classe": "",
+  "pronuncia": "bǐ shì",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E9%84%99%E8%A6%96"
+ },
+ "palavra:zh-CN:歧视": {
+  "texto": "輕視，以不公平的態度相待。",
+  "classe": "",
+  "pronuncia": "qí shì",
+  "fonte": "moedict",
+  "licenca": "CC-BY-ND-3.0-TW",
+  "url": "https://www.moedict.tw/%E6%AD%A7%E8%A6%96"
  }
 }

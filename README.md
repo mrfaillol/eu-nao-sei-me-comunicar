@@ -88,7 +88,7 @@ O site carrega dois índices.
 
 | | Conferido (`acervo.json`) | Ampliado (`ampliado.json`) |
 |---|---|---|
-| Tamanho | 30 pinturas, 30 sons, 296 palavras (96 em português, 98 em inglês, 102 em mandarim) | 3.524 imagens e 2.225 sons |
+| Tamanho | 30 pinturas, 30 sons, 410 palavras (126 em português, 135 em inglês, 149 em mandarim) | 3.625 imagens e 2.369 sons |
 | Mídia | no próprio site; funciona sem rede | nos servidores de origem: CDN aberto do museu e CDN do Freesound |
 | Anotação | lida item a item, com trecho citado | automática, por léxico (`data/lexico-construtos.json`), com trecho citado |
 | Rosto | detectado na imagem grande, com recorte nítido | detectado na imagem web; 1.542 imagens têm rosto de destaque |
@@ -99,6 +99,7 @@ A regra do ampliado: um construto só entra quando uma pista dele está escrita,
 Em 12/Nov o ampliado cresceu de 615 imagens e 873 sons para os números acima, a pedido do dono:
 
 - **Imagens** deixaram de ser só pinturas: entram gravuras, desenhos, fotografias, páginas de manuscrito e miniaturas do mesmo museu, todas CC0. O texto humano passou a somar a descrição da curadoria e a nota "você sabia?" do museu, com mínimo de 100 caracteres.
+- **Lotes.** O acervo cresce em lotes. O de 12/Nov/2026 trouxe tecidos, bordados, tapeçarias, caligrafias, portfólios e páginas de livro do mesmo museu, 16 termos de busca de som e 114 palavras. Dois cortes entraram junto: no máximo 12 imagens com o mesmo texto de curadoria (um livro encadernado repetia a mesma descrição em 571 páginas) e proporção entre 1:3 e 3:1 (tiras de tecido chegavam a 75:1). Os cortes tiraram 303 imagens que estavam no ar; entraram 404. O Openverse aceita 200 buscas por dia sem cadastro: o lote de sons de cada dia para nesse teto e continua no dia seguinte.
 - **O léxico ganhou pistas de cena** (mãe, mercado, tempestade, ofício) além das de afeto. Elas trazem volume e são mais frouxas: uma obra com "mother" recebe "apego" sem que o texto fale de vínculo.
 - **Sons** de até 30 segundos (o acervo conferido segue com o teto de 20) e 46 termos de busca a mais.
 - **Palavras** passaram de 30 para cerca de 100 por idioma. A escolha de cada palavra, do construto e do sentido no dicionário foi feita com apoio de modelo e espera revisão.
@@ -106,7 +107,7 @@ Em 12/Nov o ampliado cresceu de 615 imagens e 873 sons para os números acima, a
 O que isso custa, dito às claras:
 
 - **Léxico não é leitura.** "Retro video game sfx - Ocean wave" recebe o mesmo construto de uma gravação de mar. O léxico foi escrito com apoio de modelo e não passou por revisão humana.
-- **Ninguém ouviu os 2.225 sons nem olhou as 3.524 imagens.** Os filtros (CC0, sem voz nos termos de busca, lista de termos barrados, marcação de conteúdo adulto da fonte, exclusão por palavra no texto) reduzem o risco e não o eliminam.
+- **Ninguém ouviu os 2.369 sons nem olhou as 3.625 imagens.** Os filtros (CC0, sem voz nos termos de busca, lista de termos barrados, marcação de conteúdo adulto da fonte, exclusão por palavra no texto) reduzem o risco e não o eliminam.
 - **O navegador de quem visita passa a falar com o museu e com o Freesound**, que recebem o pedido da imagem e do som. O site diz isso nos créditos. Fora esses dois, nenhum endereço de fora é chamado, e um teste confere.
 - Se o servidor de origem falhar, o item sai de oferta; com três falhas seguidas a janela volta a oferecer só o acervo conferido.
 
@@ -150,7 +151,7 @@ O que protege o gasto e a pessoa:
 
 ## Estado, medido em 12/Nov/2026
 
-- Acervo conferido: 30 pinturas (20 com rosto de destaque), 30 sons, 296 palavras, 198 delas (as de português e de mandarim) com definição no dicionário da própria língua. Acervo ampliado: 3.524 imagens (1.542 com rosto) e 2.225 sons, com os 34 construtos representados. Tudo com revisão humana pendente. Glossário com 34 construtos e 4 termos de dimensão.
+- Acervo conferido: 30 pinturas (20 com rosto de destaque), 30 sons, 410 palavras, 275 delas (as de português e de mandarim) com definição no dicionário da própria língua. Acervo ampliado: 3.625 imagens (1.538 com rosto) e 2.369 sons, com os 34 construtos representados. Tudo com revisão humana pendente. Glossário com 34 construtos e 4 termos de dimensão.
 - Testes: 116 em Python, 329 de unidade em TypeScript, 84 de navegador (celular e tela larga, só em Chromium).
 - Validador: rejeita 33 de 33 frases defeituosas do conjunto de regressão e aceita 18 de 18 de referência. **É uma barreira, não uma prova.** A revisão final fez passar 13 frases que atribuíam estado à pessoa ou aconselhavam ("o medo que te consome", "you're anxious"); hoje elas são rejeitadas e viraram teste, mas a regra continua sendo lista, com furos por natureza.
 - O compositor por regra não gera frase reprovada: conferido pelo revisor em 352.440 frases (todos os trios do índice, nos três idiomas) e, no repositório, por um teste sobre uma amostra fixa.

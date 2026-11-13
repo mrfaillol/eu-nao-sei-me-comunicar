@@ -27,9 +27,13 @@ FICHAS = CACHE / "cma-v2"
 IMAGENS = CACHE / "web"
 AGENTE = "art-index-probe/1.0"
 DESCRICAO_MINIMA = 100
+# Livros encadernados e portfólios repetem a mesma descrição em centenas de páginas: sem teto, o sorteio cairia sempre nela.
+TETO_POR_TEXTO = 12
+# Da proporção 1:3 à 3:1. Fora disso a imagem vira uma tira na moldura e não dá para ver o que ela mostra.
+PROPORCAO_MAXIMA = 3.0
 # Tudo o que é imagem plana no acesso aberto do museu. A janela se chama "Imagens": gravura, desenho, fotografia e
 # página de manuscrito cabem nela tanto quanto pintura.
-TIPOS_DO_MUSEU = ("Painting", "Drawing", "Photograph", "Manuscript", "Portrait Miniature", "Print")
+TIPOS_DO_MUSEU = ("Painting", "Drawing", "Photograph", "Manuscript", "Portrait Miniature", "Print", "Textile", "Embroidery", "Tapestry", "Calligraphy", "Portfolio", "Bound Volume")
 VERSAO = "2026-11-12.1"
 CAMPOS = "id,accession_number,title,tombstone,creators,url,description,did_you_know,images,type"
 
@@ -81,6 +85,10 @@ def _autor(ficha: dict) -> str:
     return limpar_texto(descricao.split(" (")[0], limite=120)
 
 
+def proporcao_serve(largura: int, altura: int) -> bool:
+    return largura >= 1 and altura >= 1 and max(largura, altura) <= PROPORCAO_MAXIMA * min(largura, altura)
+
+
 def item_de_pintura(ficha: dict, lexico: dict) -> tuple[dict, list[dict]] | None:
     """O item e as evidências da anotação, ou None quando a ficha não entra."""
     web = ((ficha.get("images") or {}).get("web") or {})
@@ -95,7 +103,7 @@ def item_de_pintura(ficha: dict, lexico: dict) -> tuple[dict, list[dict]] | None
         largura, altura = int(web["width"]), int(web["height"])
     except (KeyError, TypeError, ValueError):
         return None
-    if largura < 1 or altura < 1:
+    if not proporcao_serve(largura, altura):
         return None
     classe = classificar(f"{titulo}. {texto}", lexico)
     evidencias = anotar(texto, lexico["texto"])
@@ -201,6 +209,17 @@ def item_de_som(r: dict, lexico: dict) -> tuple[dict, list[dict]] | None:
 
 # ---------- montagem ----------
 
+def limitar_series(itens: list[dict], teto: int = TETO_POR_TEXTO) -> list[dict]:
+    """No máximo `teto` itens com o mesmo texto humano, os de menor id, na ordem dos ids."""
+    vistos: dict[str, int] = {}
+    ficam = []
+    for item in sorted(itens, key=lambda i: i["id"]):
+        vistos[item["texto_humano"]] = vistos.get(item["texto_humano"], 0) + 1
+        if vistos[item["texto_humano"]] <= teto:
+            ficam.append(item)
+    return ficam
+
+
 def montar(fichas: list[dict], resultados_de_som: list[dict], com_rostos: bool = True) -> dict:
     lexico = _ler(RAIZ / "data" / "lexico-construtos.json")
     fontes = _ler(RAIZ / "data" / "fontes.json")
@@ -222,7 +241,10 @@ def montar(fichas: list[dict], resultados_de_som: list[dict], com_rostos: bool =
 
     for ficha in fichas:
         entra(item_de_pintura(ficha, lexico))
-    pinturas = [i for i in itens.values() if i["tipo"] == "pintura"]
+    todas = [i for i in itens.values() if i["tipo"] == "pintura"]
+    pinturas = limitar_series(todas)
+    for sobra in {i["id"] for i in todas} - {i["id"] for i in pinturas}:
+        del itens[sobra], evidencias[sobra]
     com_rosto = marcar_rostos(pinturas) if com_rostos else 0
     # Pintura cuja imagem não baixou agora não entra: não dá para prometer que ela abre no site.
     for item in pinturas:

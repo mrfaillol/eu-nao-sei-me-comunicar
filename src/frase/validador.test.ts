@@ -188,7 +188,8 @@ describe("o compositor contra o índice real", () => {
 
 describe("sonda de 12/Nov/2026 com o pré-prompt que pede a versão simples", () => {
   const sonda = JSON.parse(readFileSync("tests/fixtures/sonda-modelo-v3.json", "utf-8")) as { casos: Array<{ n: number; idioma: Idioma; itens: string[]; frase: string; construtos_usados: string[]; simples: string }> };
-  const acervo = [...(JSON.parse(readFileSync("public/indice/acervo.json", "utf-8")) as { itens: Item[] }).itens, ...(JSON.parse(readFileSync("public/indice/ampliado.json", "utf-8")) as { itens: Item[] }).itens];
+  // Os itens vêm guardados com a sonda: o acervo ganha e perde itens a cada lote, e o registro da sonda não pode mudar junto.
+  const acervo = (JSON.parse(readFileSync("tests/fixtures/sonda-modelo-v3-itens.json", "utf-8")) as { itens: Item[] }).itens;
   const porId = new Map(acervo.map((i) => [i.id, i]));
   const real = indexarGlossario(JSON.parse(readFileSync("public/indice/construtos.json", "utf-8")) as Construto[]);
   const codigos = (n: number) => {
