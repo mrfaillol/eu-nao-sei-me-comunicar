@@ -105,3 +105,20 @@ Mesmas duas sementes, nove seleções cada, modelo sem raciocínio, prazo de 10 
 | com o corte e o julgamento pelo que está escrito | 15 de 18 | 1,4 a 9,5 s, a maioria abaixo de 3 s |
 
 As 33 frases defeituosas do conjunto de regressão continuam reprovadas depois da mudança no validador.
+
+### Em produção, depois das duas correções
+
+Nove pedidos reais à função publicada, na mesma noite: as nove frases vieram do modelo (seis de primeira, três na segunda tentativa), em 1,6 a 6,1 s. Antes das correções, na mesma configuração, eram quatro em nove.
+
+- **pt-BR, 4 signos, 6.1 s.** Ao reunir tapeçaria com panteras, o som de gaivotas, a palavra calma e a pintura do devoto que toca os pés do santo, você escolheu itens que apontam para uma restauração da atenção e comunicam compaixão e fluxo.
+- **pt-BR, 4 signos, 3.5 s.** Suas escolhas comunicam ambivalência ao mostrar um interior que se repete e esconde figuras, apontam emoções positivas no ronronar de um gato, nomeiam apego ao lugar em pátria e afirmam assombro diante de uma montanha moldada por erupções.
+  Em palavras simples: O que você escolheu junta coisas que aconchegam e coisas que inquietam. De um lado, um gato ronronando e a palavra pátria, que fala do lugar onde a pessoa nasceu. Do outro, um cômodo com paredes estampadas que esconde vultos e uma montanha de formato impressionante, feita pela lava.
+- **pt-BR, 5 signos, 3.2 s.** Suas escolhas comunicam nostalgia e assombro, pois você reuniu o sino antigo e a saudade ao lado do ser celestial e do monstro marinho, e essa oposição restaura a atenção ao que aponta para o passado e para o espanto.
+- **en, 6 signos, 2.8 s.** Your choices gather a flood that sweeps the young, a portrait kept as a memento, an elephant circled by children at play and the word astonishment, so danger and delight communicate together as curiosity and awe hold the same message.
+- **en, 5 signos, 3.7 s.** Your choices communicate a pull between the kept page and open nature against exclusion, where the rain and bonfire point to attention restoration and a door squeak names the edge, so the gathering holds awe and mind wandering together.
+- **en, 3 signos, 2.2 s.** Your selection communicates that a printed landscape, a clock's chime and the word calm together hold fear beside place attachment, and attention restoration names what softens it.
+  Em palavras simples: What you chose brings together a printed landscape, the sound of bells and the word calm. Together they show that a quiet, familiar place is what makes room for rest.
+- **zh-CN, 6 signos, 2.1 s.** 你选的东西放在一起，传达出矛盾态度与后悔，也表明异化和希望感并非彼此取消。
+- **zh-CN, 5 signos, 3.6 s.** 你选择的风扇声和山水画中的月光、水面与山峦传达感觉超载，而挽歌与重逢的画面说出依恋，为难一词表明矛盾态度。
+- **zh-CN, 3 signos, 1.6 s.** 你的选择传达出恐惧与敬畏，画作中被惊醒的武士与破碎玻璃的声音指向突变，字词怕则直接说出这种恐惧。
+  Em palavras simples: 你选的东西里，有画中武士突然惊醒的画面，有玻璃破碎的声音，还有一个表示害怕的字，它们合在一起说出一种突然而来的害怕。
